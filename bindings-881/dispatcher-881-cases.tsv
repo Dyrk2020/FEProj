@@ -1,0 +1,882 @@
+case	stub_va	table_va	table_delta	template_fn_va	fn_size	class_name	prop_members	fn_members
+0	0x1589af4	0x565cb50	-67973212	0x158c558	256	GainDeckAssetObject	resID	
+1	0x1589b00	0x565cb54	-67973200	0x158c6b0	832	FlowAction	ignore;infinity;preTick;enterTime;duration;status;isMatchSkin;discardInSkin;runtimeDebug	track;track
+2	0x1589b0c	0x565cb58	-67973188	0x158ca54	1652	FlowActionLuaScript	hookTick;finishMode	luaAsset;luaAsset;args;args;assetArgs;assetArgs;varShells;varShells;varSturcts;varSturcts
+3	0x1589b18	0x565cb5c	-67973176	0x158d12c	1436	SharedVariableShell	customName;type;structName;enumValue;GetFix64;SetFix64;GetInt;SetInt;GetActor;SetActor;GetVector3Fix64;SetVector3Fix64;GetBool;SetBool;GetActorList	flowVar;flowVar;parallelFlowVar;parallelFlowVar;doMain;doMain
+4	0x1589b24	0x565cb60	-67973164	0x158d72c	320	CommonAssetObject	customName;key;id	
+5	0x1589b30	0x565cb64	-67973152	0x158d8d0	484	BattleActorUseMultiSkillMsg		castSkill;castSkill
+6	0x1589b3c	0x565cb68	-67973140	0x158db18	484	BattleActorRemoveBuffMsg		buff;buff
+7	0x1589b48	0x565cb6c	-67973128	0x158dd60	256	BattleActorDiscardEvacuateDepot	iID	
+8	0x1589b54	0x565cb70	-67973116	0x158deb8	756	BattleActorBackHomeMsg		actor;actor;skillUseObj;skillUseObj
+9	0x1589b60	0x565cb74	-67973104	0x158e210	484	BattleActorApplyBuffMsg		buff;buff
+10	0x1589b6c	0x565cb78	-67973092	0x158e458	256	SharedBool	rawValue	
+11	0x1589b78	0x565cb7c	-67973080	0x158e5b0	256	SharedFix64	rawValue	
+12	0x1589b84	0x565cb80	-67973068	0x158e708	536	VariableFix64Shell	value	customName;customName
+13	0x1589b90	0x565cb84	-67973056	0x158e984	256	GameUnit	id	
+14	0x1589b9c	0x565cb88	-67973044	0x158eadc	756	BuffManager		actor;actor;buffList;buffList
+15	0x1589ba8	0x565cb8c	-67973032	0x158ee34	756	SkillManager		actor;actor;skillList;skillList
+16	0x1589bb4	0x565cb90	-67973020	0x158f18c	1028	Actor		battleActor;battleActor;skillMgr;skillMgr;buffMgr;buffMgr
+17	0x1589bc0	0x565cb94	-67973008	0x158f5f4	756	VariableActorShell		value;value;customName;customName
+18	0x1589bcc	0x565cb98	-67972996	0x158f94c	484	VariableShell		customName;customName
+19	0x1589bd8	0x565cb9c	-67972984	0x158fb94	256	SharedInt	rawValue	
+20	0x1589be4	0x565cba0	-67972972	0x158fcec	292	CppHotFixHelper	varFix64;varInt	
+21	0x1589bf0	0x565cba4	-67972960	0x158fe74	572	DelayFreeNode_Flow	startTime;delayTime	flow;flow
+22	0x1589bfc	0x565cba8	-67972948	0x1590114	484	BattleFlowMgr		delayFreeList;delayFreeList
+23	0x1589c08	0x565cbac	-67972936	0x159035c	328	LuaScriptParam	insId;pathId;objId	
+24	0x1589c14	0x565cbb0	-67972924	0x1590508	292	LuaStructShell	index;typeId	
+25	0x1589c20	0x565cbb4	-67972912	0x1590690	572	LuaStructMaker	typeUseIndex;structAllocIndex	structMap;structMap
+26	0x1589c2c	0x565cbb8	-67972900	0x1590930	756	LuaFrameDataMgr		structMaker;structMaker;luaMap;luaMap
+27	0x1589c38	0x565cbbc	-67972888	0x1590c88	564	VoteMgr_VoteData	voteType;frame	player;player
+28	0x1589c44	0x565cbc0	-67972876	0x1590f20	644	TeamViolationLogic	stateBeginTime;stateEndTime;curVoteState;curVoteUseType	curVoteTarget;curVoteTarget
+29	0x1589c50	0x565cbc4	-67972864	0x1591208	484	ViolationMgr		battle;battle
+30	0x1589c5c	0x565cbc8	-67972852	0x1591450	484	BattleFixModule		fixDatas;fixDatas
+31	0x1589c68	0x565cbcc	-67972840	0x1591698	284	UnitManager	unitList;destroyedList	
+32	0x1589c74	0x565cbd0	-67972828	0x1591818	484	VisiFlowMgr		battle;battle
+33	0x1589c80	0x565cbd4	-67972816	0x1591a60	484	BattleLiteFowCutMgr		focusPlayer;focusPlayer
+34	0x1589c8c	0x565cbd8	-67972804	0x1591ca8	1116	BattleDisguiseNode	deadTime;deadPos	battleActor;battleActor;casterPlayer;casterPlayer;monsterAnchor;monsterAnchor
+35	0x1589c98	0x565cbdc	-67972792	0x1592168	536	DataConfig_DataConfigDynamic	disableChange	common;common
+36	0x1589ca4	0x565cbe0	-67972780	0x15923e4	1028	DataConfig		newModeConfig;newModeConfig;gamePlayConfig;gamePlayConfig;globalResDic;globalResDic
+37	0x1589cb0	0x565cbe4	-67972768	0x159284c	1876	FEBattleContext	roomInfoSerilizeUsedLength;isLogicThreadEnabled;useDataSyncObject;useLogicNetwork;isEnableFrameDump;isReEnterRoom;isMemoryLogOpen;visiFocusHeroId;session;inBattleTutorialID;visiFocusRoleId;myGuid;frameRateType;visiFocusCamp;visiMyCamp;agentGid;memoryRecoveryMode;localMemoryRecoveryType;repalyMemoryRecovery;isDisableLiteFowCut;tutorialExtraHeroUsedLength;isForceOffMemoryRecovery;isExpandFEMsgQueueBuff;FEMsgQueueBuffSize;skillNonUpdateParam;isOfflineBattle;forceOpenMemLog;isLowMemoryDevice;releaseTDBMemOnLMDevice;releaseFrameMemOnLMDevice;enableMemoryStatTag;reserveAllFrameMemory;enableFEMemoryMmap;useACK;expectSec;missIntervalShort;missIntervalMiddle;missIntervalLong	roomInfo;roomInfo
+38	0x1589cbc	0x565cbe8	-67972756	0x1593004	292	RunningSkillBuffConfig	skillId;buffId	
+39	0x1589cc8	0x565cbec	-67972744	0x159318c	572	LogicDisguiseData	DisguiseID;DisguiseType	intParmValueList;intParmValueList
+40	0x1589cd4	0x565cbf0	-67972732	0x159342c	484	LogicDisguiseItemResObject		logicDisguiseDatas;logicDisguiseDatas
+41	0x1589ce0	0x565cbf4	-67972720	0x1593674	292	BuffLayerReportInfo	buffId;ownerType	
+42	0x1589cec	0x565cbf8	-67972708	0x15937fc	256	MonsterChangeModelConfig	monsterId	
+43	0x1589cf8	0x565cbfc	-67972696	0x1593954	256	ChangeModelConfig	heroId	
+44	0x1589d04	0x565cc00	-67972684	0x1593aac	616	PiXiuRewardSetting	awardID;weight;excludeTag;rewardType1;rewardVal1;rewardType2;rewardVal2;rewardType3;rewardVal3;rewardType4;rewardVal4	
+45	0x1589d10	0x565cc04	-67972672	0x1593d78	580	PiXiuNodeSetting	level;glodNum;iconID;award1;award2;award3;award4;award5;award6;buffID	
+46	0x1589d1c	0x565cc08	-67972660	0x1594020	256	PiXiuRewardCfgResObject	refreshNum	
+47	0x1589d28	0x565cc0c	-67972648	0x1594178	508	EquipmentForgeEquipSetting	equipID;equipTags;includeTag;excludeTag;includeTagSelected;excludeTagSelected;includeTagRemove;excludeTagRemove	
+48	0x1589d34	0x565cc10	-67972636	0x15943d8	292	EquipmentForgeHeroSetting	heroID;heroTags	
+49	0x1589d40	0x565cc14	-67972624	0x1594560	256	EquipmentForgeResObject	rerollMatchProb	
+50	0x1589d4c	0x565cc18	-67972612	0x15946b8	256	DoomDifficultyConfig	difficultyLevel	
+51	0x1589d58	0x565cc1c	-67972600	0x1594810	756	SkillComboResObject* >		recordDict;recordDict;recordList;recordList
+52	0x1589d64	0x565cc20	-67972588	0x1594b68	652	SkillComboLevelResObject	levelID;igConfigID;replayCutTimeAtStart;replayCutTimeAtEnd	replayFlowPath;replayFlowPath
+53	0x1589d70	0x565cc24	-67972576	0x1594e58	484	PreloadCommonConfigResObject		name;name
+54	0x1589d7c	0x565cc28	-67972564	0x15950a0	756	ForgeCoreCardResObject* >		recordDict;recordDict;recordList;recordList
+55	0x1589d88	0x565cc2c	-67972552	0x15953f8	608	ForgeCoreCardResObject	allowRepeat;unlockLayer;minimumGap	skill;skill
+56	0x1589d94	0x565cc30	-67972540	0x15956bc	364	ForgeAttrStock	attr;useTotalValue;stock;totalValue	
+57	0x1589da0	0x565cc34	-67972528	0x159588c	652	ForgeAttrPool	id;contentType;attr1;baseValue1;attr2;baseValue2;equipmentId;rejectTags;rejectAttackType;isRare;rankRequirement;minimumLayer	
+58	0x1589dac	0x565cc38	-67972516	0x1595b7c	256	ForgeHeroPlayStyle	weight	
+59	0x1589db8	0x565cc3c	-67972504	0x1595cd4	680	ForgeHeroSetting	heroID;attackType;damageType;resourceType;rejectTags	basicStyle;basicStyle
+60	0x1589dc4	0x565cc40	-67972492	0x1595fe0	2344	ForgeResObject	maximumLayer;singleAttrWeightCap;singleAttrWeightAdd;singleAttrWeightReduce;lightAttrWeightCap;lightAttrWeightAdd;lightAttrWeightReduce;darkAttrWeightCap;darkAttrWeightAdd;darkAttrWeightReduce;attackSpeedLimitUpBase;attackSpeedLimitUpAdd;specialRateBaseLayer;specialRateStartLayer;specialRateS;forgeCoreDownWeightByEquipRate;equipmentEarlyAddWeightMaxLayer;heroLevelMultiply;assistBaseValue;deadHeroEconomyBase;deadHeroEconomyMultiply;pressureMultiplyMin;pressureMultiplyMax;replaceExpMoneyReviseKey;boostSRankStartLayer;boostSRankWeightStep;boostSRankMaximumWeight;boostSRankEndCondition;boostSRankCooldown;boostSRankEquipWeightMul;boostSRankEquipWeightMulStep;boostSRankCoreCardWeightMul;boostSRankCoreCardWeightMulStep;boostSRankForgeCoreWeightMul;boostSRankForgeCoreWeightMulStep;solutionType;rankRandomRule;forgeCoreMinimumLayer;forceCoreMinimumLayer;forgeCoreAddWeightPerLayer;forgeCoreForceLayer;earlyLayer;lockPlayStyleLayer;coreCardExtraWeightLayer;coreCardExtraWeight;showAttributeRange;advanceReduceS;advanceReduceA;advanceReduceB;advanceReduceMinimum;moveReducedToRank	dodgeFilterAsset;dodgeFilterAsset
+61	0x1589dd0	0x565cc44	-67972480	0x159696c	484	JungleGuide		heroId;heroId
+62	0x1589ddc	0x565cc48	-67972468	0x1596bb4	484	JungleGuideResObject		jungleGuides;jungleGuides
+63	0x1589de8	0x565cc4c	-67972456	0x1596dfc	256	RuinWaveSkillData	wave	
+64	0x1589df4	0x565cc50	-67972444	0x1596f54	484	RuinWaveSkillDataResObject		ruinWaveSkillDataList;ruinWaveSkillDataList
+65	0x1589e00	0x565cc54	-67972432	0x159719c	484	RuinEquipDataResObject		ruinEquipDataList;ruinEquipDataList
+66	0x1589e0c	0x565cc58	-67972420	0x15973e4	652	RuinEquipAndSkillData	id;rarity;maxBuyNum;maxRandomNum	name;name
+67	0x1589e18	0x565cc5c	-67972408	0x15976d4	484	RuinSkillDataResObject		ruinSkillDataList;ruinSkillDataList
+68	0x1589e24	0x565cc60	-67972396	0x159791c	484	RuinSkillRandomResObject		ruinSkillRandomDataList;ruinSkillRandomDataList
+69	0x1589e30	0x565cc64	-67972384	0x1597b64	472	RuinEquipAndSkillRandomData	rarity;firstAppearRound;minAppearRound;baseProbability;growthProbability;maxProbability;adptiveProbability	
+70	0x1589e3c	0x565cc68	-67972372	0x1597da0	484	RuinEquipRandomResObject		ruinEquipRandomDataList;ruinEquipRandomDataList
+71	0x1589e48	0x565cc6c	-67972360	0x1597fe8	756	MonsterBehaviorRelationResObject* >		recordDict;recordDict;recordList;recordList
+72	0x1589e54	0x565cc70	-67972348	0x1598340	484	BehaviorRelationUnit		interrupt;interrupt
+73	0x1589e60	0x565cc74	-67972336	0x1598588	756	MonsterBehaviorRelationResObject		name;name;behaviorRelation;behaviorRelation
+74	0x1589e6c	0x565cc78	-67972324	0x15988e0	756	MonsterBehaviorGroupResObject* >		recordDict;recordDict;recordList;recordList
+75	0x1589e78	0x565cc7c	-67972312	0x1598c38	536	MonsterBehaviorLevelExpressionConfig	nodeId	expressionPath;expressionPath
+76	0x1589e84	0x565cc80	-67972300	0x1598eb4	580	MonsterBehaviorLevelAudioConfig	nodeId;fadeOutTimeMs	eventName;eventName
+77	0x1589e90	0x565cc84	-67972288	0x159915c	464	MonsterBehaviorLevelVfxConfig	nodeId;vfxPath;joint;attachParent;ignoreRotate;scale;aliveTime	
+78	0x1589e9c	0x565cc88	-67972276	0x1599390	1028	MonsterBehaviorLevelInfo		vfxConfigs;vfxConfigs;audioConfigs;audioConfigs;expressionConfigs;expressionConfigs
+79	0x1589ea8	0x565cc8c	-67972264	0x15997f8	256	MonsterBehaviorAssetObject	resID	
+80	0x1589eb4	0x565cc90	-67972252	0x1599950	980	MonsterBehaviorResObject	enable;isDefault;isAllowedPreBehaviorsActive;allowedPreBehaviors;forbiddenPreBehaviors;levelNum	name;name;levelInfos;levelInfos
+81	0x1589ec0	0x565cc94	-67972240	0x1599d88	256	MonsterBehaviorRelationAssetObject	resID	
+82	0x1589ecc	0x565cc98	-67972228	0x1599ee0	256	MonsterBehaviorGroupResObject	useRelationConfig	
+83	0x1589ed8	0x565cc9c	-67972216	0x159a038	564	ChampionSpellBookCareerTagItem	iIncludeTag;iExcludeTag	championAsset;championAsset
+84	0x1589ee4	0x565cca0	-67972204	0x159a2d0	484	ChampionSpellBookCareerTagResObject		list;list
+85	0x1589ef0	0x565cca4	-67972192	0x159a518	564	ChampionCareerTagItem	iIncludeTag;iExcludeTag	championAsset;championAsset
+86	0x1589efc	0x565cca8	-67972180	0x159a7b0	484	ChampionCareerTagResObject		list;list
+87	0x1589f08	0x565ccac	-67972168	0x159a9f8	564	ChampionTagItem	iIncludeTag;iExcludeTag	championAsset;championAsset
+88	0x1589f14	0x565ccb0	-67972156	0x159ac90	484	ChampionTagResObject		list;list
+89	0x1589f20	0x565ccb4	-67972144	0x159aed8	808	EquipBoxConfig	id	equipIds;equipIds;weights;weights
+90	0x1589f2c	0x565ccb8	-67972132	0x159b264	400	CherryAwardConfig	id;weights;intValue;eAwardType;quality	
+91	0x1589f38	0x565ccbc	-67972120	0x159b458	808	CherryAwardGroupConfig	id	lstAwardConfigs;lstAwardConfigs;lstEquipBoxConfigs;lstEquipBoxConfigs
+92	0x1589f44	0x565ccc0	-67972108	0x159b7e4	484	CherryAwardResObject		lstAwardGroups;lstAwardGroups
+93	0x1589f50	0x565ccc4	-67972096	0x159ba2c	652	CherryRoundData	round;type;forgeType;reduceHp;addMoney;addExp;duration;triggerTime;sceneId;rebornTime;killRewardRate;enterCameraBehavior	
+94	0x1589f5c	0x565ccc8	-67972084	0x159bd1c	484	CherryRoundResObject		cherryRoundDataList;cherryRoundDataList
+95	0x1589f68	0x565cccc	-67972072	0x159bf64	292	CherryConfigResInfo	cherryConfigResID;value	
+96	0x1589f74	0x565ccd0	-67972060	0x159c0ec	756	BuffTypeGroupResObject* >		recordDict;recordDict;recordList;recordList
+97	0x1589f80	0x565ccd4	-67972048	0x159c444	256	BuffTypeGroupResObject	buffTypeFlags	
+98	0x1589f8c	0x565ccd8	-67972036	0x159c59c	756	BattleShopReplaceResObject* >		recordDict;recordDict;recordList;recordList
+99	0x1589f98	0x565ccdc	-67972024	0x159c8f4	484	ReplaceEquipID	equipBefore;equipAfter;strEquipFighter;strEquipTank;strEquipMagic;strEquipAssassin;strEquipAssist;strEquipAdc	
+100	0x1589fa4	0x565cce0	-67972012	0x159cb3c	536	BattleShopReplaceResObject	replaceModeId	replaceEquipArray;replaceEquipArray
+101	0x1589fb0	0x565cce4	-67972000	0x159cdb8	756	MonsterSkinResObject* >		recordDict;recordDict;recordList;recordList
+102	0x1589fbc	0x565cce8	-67971988	0x159d110	756	MonsterSkinResObject		flowList;flowList;bulletList;bulletList
+103	0x1589fc8	0x565ccec	-67971976	0x159d468	484	FutureToggleSwitchResObject		versionSwitchs;versionSwitchs
+104	0x1589fd4	0x565ccf0	-67971964	0x159d6b0	756	UnitSelectorData* >		recordDict;recordDict;recordList;recordList
+105	0x1589fe0	0x565ccf4	-67971952	0x159da08	756	WeightedProximityTemplateData* >		recordDict;recordDict;recordList;recordList
+106	0x1589fec	0x565ccf8	-67971940	0x159dd60	756	ControlPatternsTemplateData* >		recordDict;recordDict;recordList;recordList
+107	0x1589ff8	0x565ccfc	-67971928	0x159e0b8	256	UnitHeroOperateSetting	iAllyTargetLock	
+108	0x158a004	0x565cd00	-67971916	0x159e210	484	UnitHeroOperateSettingResObject		unitHeroOperateSettingList;unitHeroOperateSettingList
+109	0x158a010	0x565cd04	-67971904	0x159e458	580	UnitSelectorType	iAutomatic;iFlick;iAim;iAllyFlick;iAllyAim;iMinionButton;iTowerButton;iAutomaticShape;iDirectionShape;iPositionShape	
+110	0x158a01c	0x565cd08	-67971892	0x159e700	484	UnitSelectorTypeResObject		unitSelectorTypeList;unitSelectorTypeList
+111	0x158a028	0x565cd0c	-67971880	0x159e948	452	UnitSelectorData	bType;szParameter1;szParameter2;szParameter3;szParameter4;szParameter5;iNextSelector	
+112	0x158a034	0x565cd10	-67971868	0x159eb70	484	UnitSelectorResObject		unitSelectorList;unitSelectorList
+113	0x158a040	0x565cd14	-67971856	0x159edb8	1732	WeightedProximityTemplateData	iLastHittableTarget;iChampionTargetBufferVsChampion;iChampionTargetBufferVsOther;iOtherTargetBufferVsChampion;iOtherTargetVsOtherForMeleeSelector;iOtherTargetVsOtherForRangedSelector;iEpicTargetBufferVsScuttler;iAttackedMeRecently;iAttackedMeRecentlyDuration;iNoDefaultTargetHero;iNoDefaultTargetEpicMonster;iNoDefaultTargetTower;iNoDefaultTargetMonster;iUnitTypeHeroForMeleeSelector;iUnitTypeHeroForRangedSelector;iUnitTypeFruit;iUnitTypeMinionPercentHP;iUnitTypeHeroHP;iNonImpliedTargetUnitTypeHero;iNonImpliedTargetUnitTypeOther;iImpliedTargetChampion;iImpliedTargetOther;iWithinBufferedAbilityRange;iOutsideBufferedAbilityRange;iUseProportionsToResolveNegatives;iBuffIDCheck;iBuffWeight;iUseHeroFadeBool;iHeroFadeFrames;iTargetHeroFadeWeight;iUseFadeToNullBool;iPercentHealthSwapWeight;iFlockingConsistency;iFlockingSeparation;iFlockingAngleLimit;iFlockingSeparationRadiusHero;iFlockingSeparationRadiusOther;iFlockingIterations;iFlockingToggle;iFlockingRange;iHealthHeroDistanceRatio;iZombieWeight	
+114	0x158a04c	0x565cd18	-67971844	0x159f4e0	484	WeightedProximityTemplateResObject		weightedProximityTemplateList;weightedProximityTemplateList
+115	0x158a058	0x565cd1c	-67971832	0x159f728	328	ControlPatternParamsData	intParam0;fix64Param;floatParam	
+116	0x158a064	0x565cd20	-67971820	0x159f8d4	1364	ControlPatternsTemplateData	chAimType;chAimUpdate;iAimSelectUnit;iFacingOffset;iOffsetAim;iPositionTargetType;iPositionCastValue;iTapSelection;iTapMinionSelection;iTapTowerSelection;iFlickSelection;iAimSelection;iButtonDownTarget;iRequiresOffsetDirection;iRequiresSelectedDirection;iRequiresSelectedPostion;iRequiresSelectedUnit;iRequiresSelectedTargetOrDirection;chButtonDownEvent;chButtonUpEvent;chCancelUpEvent;chButtonLongDownEvent;chButtonAimDownEvent;iLongDownDelayTime	paramsData;paramsData
+117	0x158a070	0x565cd24	-67971808	0x159fe8c	484	ControlPatternsTemplateResObject		controlPatternsTemplateList;controlPatternsTemplateList
+118	0x158a07c	0x565cd28	-67971796	0x15a00d4	756	ActivitiesResObject* >		recordDict;recordDict;recordList;recordList
+119	0x158a088	0x565cd2c	-67971784	0x15a042c	400	ActivitiesNode	funType;paramID;replaceVisibleType;triggerCountPerActor;validDuration	
+120	0x158a094	0x565cd30	-67971772	0x15a0620	808	ActivitiesResObject	defaultActive	name;name;activitiesNodeList;activitiesNodeList
+121	0x158a0a0	0x565cd34	-67971760	0x15a09ac	756	BattleTaskResObject* >		recordDict;recordDict;recordList;recordList
+122	0x158a0ac	0x565cd38	-67971748	0x15a0d04	756	BattleEventResObject* >		recordDict;recordDict;recordList;recordList
+123	0x158a0b8	0x565cd3c	-67971736	0x15a105c	756	BulletResObject* >		recordDict;recordDict;recordList;recordList
+124	0x158a0c4	0x565cd40	-67971724	0x15a13b4	756	BuffResObject* >		recordDict;recordDict;recordList;recordList
+125	0x158a0d0	0x565cd44	-67971712	0x15a170c	756	MonsterResObject* >		recordDict;recordDict;recordList;recordList
+126	0x158a0dc	0x565cd48	-67971700	0x15a1a64	756	SkillTipResObject* >		recordDict;recordDict;recordList;recordList
+127	0x158a0e8	0x565cd4c	-67971688	0x15a1dbc	364	SkillPhaseTipsInfo	isPercentage;isBracket;fExtraFactorParam;extraTypeParam	
+128	0x158a0f4	0x565cd50	-67971676	0x15a1f8c	328	SkillTipResObject	iSkillRange;skillAttackType;iCustomizeCost	
+129	0x158a100	0x565cd54	-67971664	0x15a2138	756	RuneRecommendResObject* >		recordDict;recordDict;recordList;recordList
+130	0x158a10c	0x565cd58	-67971652	0x15a2490	756	RunePageResObject* >		recordDict;recordDict;recordList;recordList
+131	0x158a118	0x565cd5c	-67971640	0x15a27e8	484	RunePageResObject		simpleDesc;simpleDesc
+132	0x158a124	0x565cd60	-67971628	0x15a2a30	756	RuneResObject* >		recordDict;recordDict;recordList;recordList
+133	0x158a130	0x565cd64	-67971616	0x15a2d88	424	RuneStaticDataNode	descText;textFormat;toggle_AG;toggle_IG;textKey_AG;textKey_IG	
+134	0x158a13c	0x565cd68	-67971604	0x15a2f94	536	RuneResObject	type	staticDataList;staticDataList
+135	0x158a148	0x565cd6c	-67971592	0x15a3210	328	SkinUpgradeInfo	skinSubId;skinId;disguiseID	
+136	0x158a154	0x565cd70	-67971580	0x15a33bc	484	SkinUpgradeResObject		list;list
+137	0x158a160	0x565cd74	-67971568	0x15a3604	756	SkinReplaceResObject* >		recordDict;recordDict;recordList;recordList
+138	0x158a16c	0x565cd78	-67971556	0x15a395c	756	SkillOperModeReplaceEntry		skill;skill;operAssets;operAssets
+139	0x158a178	0x565cd7c	-67971544	0x15a3cb4	484	SummonReplaceEntry		summon;summon
+140	0x158a184	0x565cd80	-67971532	0x15a3efc	484	SkillBuffReplaceEntry		flowPath;flowPath
+141	0x158a190	0x565cd84	-67971520	0x15a4144	1724	SkinReplaceResObject	skillReplaceTable;buffReplaceTable;bornFlowReplace;postureFlowAsset	flowList;flowList;bulletList;bulletList;summonReplaceTable;summonReplaceTable;prefabReplaceTable;prefabReplaceTable;skillOperReplaceTable;skillOperReplaceTable
+142	0x158a19c	0x565cd88	-67971508	0x15a4864	756	SkinResObject* >		recordDict;recordDict;recordList;recordList
+143	0x158a1a8	0x565cd8c	-67971496	0x15a4bbc	756	MarkResObject* >		recordDict;recordDict;recordList;recordList
+144	0x158a1b4	0x565cd90	-67971484	0x15a4f14	756	SkillFieldResObject* >		recordDict;recordDict;recordList;recordList
+145	0x158a1c0	0x565cd94	-67971472	0x15a526c	284	SkillFieldResObject	radiusVar;hurtVar	
+146	0x158a1cc	0x565cd98	-67971460	0x15a53ec	756	ChampionResObject* >		recordDict;recordDict;recordList;recordList
+147	0x158a1d8	0x565cd9c	-67971448	0x15a5744	756	ButtonTemplateResObject* >		recordDict;recordDict;recordList;recordList
+148	0x158a1e4	0x565cda0	-67971436	0x15a5a9c	436	ButtonTemplateResObject	iButtonNoAim;iFaceFocusPoint;iFaceFocusPointInDeadZone;iAfterMoveDeadZoneRadius;iButtonFollowsOnDeadzoneExit;bJoystickIgnoreCanCast	
+149	0x158a1f0	0x565cda4	-67971424	0x15a5cb4	756	FPTemplateResObject* >		recordDict;recordDict;recordList;recordList
+150	0x158a1fc	0x565cda8	-67971412	0x15a600c	400	FPTemplateResObject	iHideFocusPoint;iTPMinDistance;iTPMaxDistanceType;iTPMaxDistance;iFpMustInMap	
+151	0x158a208	0x565cdac	-67971400	0x15a6200	756	SkillOperateResObject* >		recordDict;recordDict;recordList;recordList
+152	0x158a214	0x565cdb0	-67971388	0x15a6558	756	SkillResObject* >		recordDict;recordDict;recordList;recordList
+153	0x158a220	0x565cdb4	-67971376	0x15a68b0	756	UniversalOperateResObject* >		recordDict;recordDict;recordList;recordList
+154	0x158a22c	0x565cdb8	-67971364	0x15a6c08	756	EquipProgrammeResObject* >		recordDict;recordDict;recordList;recordList
+155	0x158a238	0x565cdbc	-67971352	0x15a6f60	320	SystemRecommendEquip	systemDesc;systemName;isSupportRecommend	
+156	0x158a244	0x565cdc0	-67971340	0x15a7104	292	EquipProgrammeResObject	equipRecommendID;heroID	
+157	0x158a250	0x565cdc4	-67971328	0x15a728c	756	EquipShopSchemeConfig* >		recordDict;recordDict;recordList;recordList
+158	0x158a25c	0x565cdc8	-67971316	0x15a75e4	636	EquipShopSchemeBase	equipSortInShop;isAllEnable;upVersion;downVersion	equip;equip
+159	0x158a268	0x565cdcc	-67971304	0x15a78c4	292	EquipShopSchemeConfig	shopShowType;isCurEnable	
+160	0x158a274	0x565cdd0	-67971292	0x15a7a4c	756	EquipResObject* >		recordDict;recordDict;recordList;recordList
+161	0x158a280	0x565cdd4	-67971280	0x15a7da4	424	EquipStaticDataNode	descText;textFormat;toggle_AG;toggle_IG;textKey_AG;textKey_IG	
+162	0x158a28c	0x565cdd8	-67971268	0x15a7fb0	292	EquipResObject_SkillAttr	attr;isShow	
+163	0x158a298	0x565cddc	-67971256	0x15a8138	924	EquipResObject_EquipSkill	priority;group;stealDisable;canOverLay	res;res;desc;desc
+164	0x158a2a4	0x565cde0	-67971244	0x15a8538	256	EquipAssetObject	resID	
+165	0x158a2b0	0x565cde4	-67971232	0x15a8690	None	EquipResObject	isInShelf;disable;isUpCompoundEquip;exchangePubishCD;armorPierce;price;hp;groupId;hpRecoverRate;ad;armor;criRate;criDamage;hpRecover;attackSpeedRate;armorPierceRate;ap;magicStealRate;attackStealRate;moveSpeedRate;moveSpeed;cdReduction;cdHaste;magicPierceRate;mp;magicPierce;magicResistance;tenacityRate;healShieldRate;mpRecover;adaptive;disableHeroAttactType;equipmentType;eTypes;isFlowControlPurchasePermissions;level;cdBuff;layerBuff;isSupport;isEnhanced;isJungle;purchaseCD;isToEquipSlot;isEnableRepeatPurchase;maxRepeatPurchaseCount;isRainbow;isGainEquip;isForgeEquip	inFlowLimitPurchaseTips;inFlowLimitPurchaseTips;upgradeEquip;upgradeEquip
+166	0x158a2bc	0x565cde8	-67971220	0x15a923c	756	VirtualSkillResObject* >		recordDict;recordDict;recordList;recordList
+167	0x158a2c8	0x565cdec	-67971208	0x15a9594	484	VirtualSkillResObject		championAsset;championAsset
+168	0x158a2d4	0x565cdf0	-67971196	0x15a97dc	756	VirtualChampionResObject* >		recordDict;recordDict;recordList;recordList
+169	0x158a2e0	0x565cdf4	-67971184	0x15a9b34	756	FreeSkillResObject* >		recordDict;recordDict;recordList;recordList
+170	0x158a2ec	0x565cdf8	-67971172	0x15a9e8c	960	FreeSkillResObject	enableReplaceModel;allowReplaceHeadbar;isInSpellBookSkillPool;isHideSkillIcon;iIncludeTag;iIncludeTagSelected;iExcludeTag;iExcludeTagSelected;iExcludeTagRemove;iSpellBookSkillCareerTag;iSpellBookSkillCareerTagSelected;freeSkillDamageFix;freeSkillBeDamageFix	originHeroID;originHeroID
+171	0x158a2f8	0x565cdfc	-67971160	0x15aa2b0	756	SpellBookSkillResObject* >		recordDict;recordDict;recordList;recordList
+172	0x158a304	0x565ce00	-67971148	0x15aa608	880	SpellBookSkillResObject	enableReplaceModel;disable;disableUSBCDRule	originHeroID;originHeroID;cdReduce;cdReduce
+173	0x158a310	0x565ce04	-67971136	0x15aa9dc	756	DecorationSkillResObject* >		recordDict;recordDict;recordList;recordList
+174	0x158a31c	0x565ce08	-67971124	0x15aad34	292	DecorationSkillResObject	isCommon;ignoreSkillHaste	
+175	0x158a328	0x565ce0c	-67971112	0x15aaebc	756	LevelSkillResObject* >		recordDict;recordDict;recordList;recordList
+176	0x158a334	0x565ce10	-67971100	0x15ab214	484	LevelSkillResObject		replaceSpellAsset;replaceSpellAsset
+177	0x158a340	0x565ce14	-67971088	0x15ab45c	756	SummonerSkillResObject* >		recordDict;recordDict;recordList;recordList
+178	0x158a34c	0x565ce18	-67971076	0x15ab7b4	292	SummonerSkillResObject	isCommon;ignoreSkillHaste	
+179	0x158a358	0x565ce1c	-67971064	0x15ab93c	484	AFKResObject		afkConfigResObjectList;afkConfigResObjectList
+180	0x158a364	0x565ce20	-67971052	0x15abb84	328	BattleScoringDataCollectInfo	collectType;iParam1;iParam2	
+181	0x158a370	0x565ce24	-67971040	0x15abd30	796	BattleScoringDataCollectResObject	cannonHitEnemyLimitTime;cannonUseEnemyLimitTime;normalSkillHitLimitTime;normalSkillHitCount;heroSkillHitLimitTime;heroSkillHitCount;snowballFlyDistance;snowballDashUseLimitTime;snowballDashUseNoDeathLimitTime;summonerSpellKillLimitTime;useSkill4HitMultiNum;useSKill4KillLimitTime;specialActivitySpeed;specialActivityEnterSpringTime;specialActivityStayInGrassTime;farmPhaseTime	
+182	0x158a37c	0x565ce28	-67971028	0x15ac0b0	756	PixiuAwardResObject* >		recordDict;recordDict;recordList;recordList
+183	0x158a388	0x565ce2c	-67971016	0x15ac408	256	PixiuAwardResObject	defaultCard	
+184	0x158a394	0x565ce30	-67971004	0x15ac560	756	EvacuateItemResObject* >		recordDict;recordDict;recordList;recordList
+185	0x158a3a0	0x565ce34	-67970992	0x15ac8b8	436	EvacuateItemResObject	itemType;itemSubType;maxPileCount;saleMoney;effectType;effectParam	
+186	0x158a3ac	0x565ce38	-67970980	0x15acad0	756	EvacuateDropSchemeResObject* >		recordDict;recordDict;recordList;recordList
+187	0x158a3b8	0x565ce3c	-67970968	0x15ace28	328	EvacuateDropListItem	itemID;num;value	
+188	0x158a3c4	0x565ce40	-67970956	0x15acfd4	292	EvacuateDropSchemeResObject	schemeType;dropCount	
+189	0x158a3d0	0x565ce44	-67970944	0x15ad15c	756	SkillGemBlackWhiteSetResObject* >		recordDict;recordDict;recordList;recordList
+190	0x158a3dc	0x565ce48	-67970932	0x15ad4b4	484	SlotGemBlackConfigItem		asset;asset
+191	0x158a3e8	0x565ce4c	-67970920	0x15ad6fc	536	RelatedSlotGemBlackConfig	slotIndex	blackConfigs;blackConfigs
+192	0x158a3f4	0x565ce50	-67970908	0x15ad978	256	SkillGemStrengthenAssetObject	resID	
+193	0x158a400	0x565ce54	-67970896	0x15adad0	484	SlotGemWhiteConfigItem		asset;asset
+194	0x158a40c	0x565ce58	-67970884	0x15add18	536	RelatedSlotGemWhiteConfig	slotIndex	configItem;configItem
+195	0x158a418	0x565ce5c	-67970872	0x15adf94	756	SkillGemBlackWhiteSetResObject		slotWhiteConfigs;slotWhiteConfigs;slotBlackConfigs;slotBlackConfigs
+196	0x158a424	0x565ce60	-67970860	0x15ae2ec	756	ChampionInitGemCategoryResObject* >		recordDict;recordDict;recordList;recordList
+197	0x158a430	0x565ce64	-67970848	0x15ae644	636	SkinSkillGemCategoryAddInfo	whiteNum;blueNum;purpleNum;levelRequirement	gemCategoryAssetObj;gemCategoryAssetObj
+198	0x158a43c	0x565ce68	-67970836	0x15ae924	536	SkinSkillGemSlotAddInfo	slotIndex	categoryAddInfos;categoryAddInfos
+199	0x158a448	0x565ce6c	-67970824	0x15aeba0	484	SkinSkillGemAddInfo		slotAddInfos;slotAddInfos
+200	0x158a454	0x565ce70	-67970812	0x15aede8	756	SkillGemStrengthenResObject* >		recordDict;recordDict;recordList;recordList
+201	0x158a460	0x565ce74	-67970800	0x15af140	292	RelatedSkillStrengthenCategorySubConfig	TargetRuleType;IsEnable	
+202	0x158a46c	0x565ce78	-67970788	0x15af2c8	364	GemGeneralTipParam	tipIndex;qualityWhiteValue;qualityBlueValue;qualityPurpleValue	
+203	0x158a478	0x565ce7c	-67970776	0x15af498	484	SkillStrengthenRecommendConfig		recommendFactions;recommendFactions
+204	0x158a484	0x565ce80	-67970764	0x15af6e0	1572	RelatedSkillStrengthenCategoryConfig		qualityConfig;qualityConfig;weightConfig;weightConfig;recommendConfig;recommendConfig;generalTipParams;generalTipParams;generalTipValueParams;generalTipValueParams
+205	0x158a490	0x565ce84	-67970752	0x15afd68	756	SkillGemSchemeResObject* >		recordDict;recordDict;recordList;recordList
+206	0x158a49c	0x565ce88	-67970740	0x15b00c0	256	SkillGemLevelBase	level	
+207	0x158a4a8	0x565ce8c	-67970728	0x15b0218	256	SkillGemSchemeResObject	ruleType	
+208	0x158a4b4	0x565ce90	-67970716	0x15b0370	756	SkillGemCategoryResObject* >		recordDict;recordDict;recordList;recordList
+209	0x158a4c0	0x565ce94	-67970704	0x15b06c8	536	SkillStrengthenOptionalRuleType	ruleType	variable;variable
+210	0x158a4cc	0x565ce98	-67970692	0x15b0944	364	SkillStrengthenCountQualityConfig	forbidQualityMask;whiteMaxCount;blueMaxCount;purpleMaxCount	
+211	0x158a4d8	0x565ce9c	-67970680	0x15b0b14	844	SkillGemCategoryResObject	bEnable;categoryType	qualityConfig;qualityConfig;weightConfig;weightConfig
+212	0x158a4e4	0x565cea0	-67970668	0x15b0ec4	756	SkillGemResObject* >		recordDict;recordDict;recordList;recordList
+213	0x158a4f0	0x565cea4	-67970656	0x15b121c	572	SkillGemResObject	enabled;ruleType	variable;variable
+214	0x158a4fc	0x565cea8	-67970644	0x15b14bc	756	TalentResObject* >		recordDict;recordDict;recordList;recordList
+215	0x158a508	0x565ceac	-67970632	0x15b1814	292	TalentResObject	enabled;type	
+216	0x158a514	0x565ceb0	-67970620	0x15b199c	756	TraitResObject* >		recordDict;recordDict;recordList;recordList
+217	0x158a520	0x565ceb4	-67970608	0x15b1cf4	652	TraitRandomAttribute	groupId;index;prob;point	buffAsset;buffAsset
+218	0x158a52c	0x565ceb8	-67970596	0x15b1fe4	292	TraitLevelData	quality;count	
+219	0x158a538	0x565cebc	-67970584	0x15b216c	364	TraitResObject	enabled;autoUpQuality;championType;traitTheme	
+220	0x158a544	0x565cec0	-67970572	0x15b233c	756	ChampionGainConfigResObject* >		recordDict;recordDict;recordList;recordList
+221	0x158a550	0x565cec4	-67970560	0x15b2694	756	GainChampionDeckResObject* >		recordDict;recordDict;recordList;recordList
+222	0x158a55c	0x565cec8	-67970548	0x15b29ec	756	GainDeckResObject* >		recordDict;recordDict;recordList;recordList
+223	0x158a568	0x565cecc	-67970536	0x15b2d44	292	ChampionDeckWeight	iChampionDeckId;iWeight	
+224	0x158a574	0x565ced0	-67970524	0x15b2ecc	292	GainDeckResObject	rateAfterRefresh;maxCountEachRound	
+225	0x158a580	0x565ced4	-67970512	0x15b3054	756	GainAbilityUnlockPlanResObject* >		recordDict;recordDict;recordList;recordList
+226	0x158a58c	0x565ced8	-67970500	0x15b33ac	256	GainAbilityUnlockPlanResObject	weight	
+227	0x158a598	0x565cedc	-67970488	0x15b3504	756	GainRecommendResObject* >		recordDict;recordDict;recordList;recordList
+228	0x158a5a4	0x565cee0	-67970476	0x15b385c	256	GainAssetObject	resID	
+229	0x158a5b0	0x565cee4	-67970464	0x15b39b4	756	GainRecommendResObject		championAsset;championAsset;gainAssetList;gainAssetList
+230	0x158a5bc	0x565cee8	-67970452	0x15b3d0c	756	GainWeightResObject* >		recordDict;recordDict;recordList;recordList
+231	0x158a5c8	0x565ceec	-67970440	0x15b4064	292	GainWeightItem	type;weightValue	
+232	0x158a5d4	0x565cef0	-67970428	0x15b41ec	528	GainWeightTable	totalWeight	gainWeightItems;gainWeightItems
+233	0x158a5e0	0x565cef4	-67970416	0x15b4460	484	GainWeightResObject		gainWeightTables;gainWeightTables
+234	0x158a5ec	0x565cef8	-67970404	0x15b46a8	756	GainProbResObject* >		recordDict;recordDict;recordList;recordList
+235	0x158a5f8	0x565cefc	-67970392	0x15b4a00	292	GainProbItem	type;prob	
+236	0x158a604	0x565cf00	-67970380	0x15b4b88	256	GainProbResObject	totalProb	
+237	0x158a610	0x565cf04	-67970368	0x15b4ce0	756	GainGroupResObject* >		recordDict;recordDict;recordList;recordList
+238	0x158a61c	0x565cf08	-67970356	0x15b5038	256	GainWeightAssetObject	resID	
+239	0x158a628	0x565cf0c	-67970344	0x15b5190	256	GainProbAssetObject	resID	
+240	0x158a634	0x565cf10	-67970332	0x15b52e8	472	GainGroupResObject	beginRound;warmRound;seasonBegin;groupProb;maxOfPrePerson;beginRoundNum;seasonBeginNum	
+241	0x158a640	0x565cf14	-67970320	0x15b5524	756	GainResObject* >		recordDict;recordDict;recordList;recordList
+242	0x158a64c	0x565cf18	-67970308	0x15b587c	292	IntPairData	key;value	
+243	0x158a658	0x565cf1c	-67970296	0x15b5a04	292	ChampionWeight	iHeroId;iWeight	
+244	0x158a664	0x565cf20	-67970284	0x15b5b8c	256	TraitAssetObject	resID	
+245	0x158a670	0x565cf24	-67970272	0x15b5ce4	1400	GainResObject	iAbilityGroupTag;iHexAramSeriesTag;iIncludeTag;iExcludeTag;iIncludeTagSelected;iExcludeTagSelected;iIncludeTagRemove;iExcludeTagRemove;iIncludeCareerTag;iExcludeCareerTag;isDiscovery;excludeGroupId;onlyForBeDiscovered;isUpgradeCard;allowEnhancement;limitRound;MaxlimitRound;enabled;locked;iHexAramVersionsTag;disableInShow;quality;maxRandomNum;randomWeight;repeatTake	layerBuff;layerBuff
+246	0x158a67c	0x565cf28	-67970260	0x15b62c0	756	VehicleResObject* >		recordDict;recordDict;recordList;recordList
+247	0x158a688	0x565cf2c	-67970248	0x15b6618	756	GamePlayComponentResObject* >		recordDict;recordDict;recordList;recordList
+248	0x158a694	0x565cf30	-67970236	0x15b6970	256	LuaAssetObject	hashId	
+249	0x158a6a0	0x565cf34	-67970224	0x15b6ac8	256	VehicleAssetObject	resID	
+250	0x158a6ac	0x565cf38	-67970212	0x15b6c20	256	ChampionAssetObject	resID	
+251	0x158a6b8	0x565cf3c	-67970200	0x15b6d78	292	GPCFlowResObject	resId;autoRun	
+252	0x158a6c4	0x565cf40	-67970188	0x15b6f00	680	BattleNegativeEventResObject	id;isCommon;flowAsset;parallelFlowAsset;negativeScore	desc;desc
+253	0x158a6d0	0x565cf44	-67970176	0x15b720c	872	BattleSpecialEventResObject	isCommon;flowAsset;parallelFlowAsset	desc;desc;heroIdList;heroIdList
+254	0x158a6dc	0x565cf48	-67970164	0x15b75d8	436	BestPartner	bestPartnerTypeID;gameResultType;conditionParam1;conditionParam2;conditionParam3;priority	
+255	0x158a6e8	0x565cf4c	-67970152	0x15b77f0	484	BestPartnerResObject		bestPartnerList;bestPartnerList
+256	0x158a6f4	0x565cf50	-67970140	0x15b7a38	400	NewMvpCoefInfo	scoreFactorType;modeID;heroID;roleLane;value	
+257	0x158a700	0x565cf54	-67970128	0x15b7c2c	508	NewMvpLaneWeightInfo	scoreFactorType;modeID;heroID;lane_1;lane_2;lane_3;lane_4;lane_5	
+258	0x158a70c	0x565cf58	-67970116	0x15b7e8c	508	NewMvpScoreInfo	scoreFactorType;modeID;heroid;factor;coreMvpScore;shieldMvpScore;assistMvpScore;conventionFactor	
+259	0x158a718	0x565cf5c	-67970104	0x15b80ec	536	BulletAssetObject	resID	resObject;resObject
+260	0x158a724	0x565cf60	-67970092	0x15b8368	1412	SoldierSkillFlowConfig	rangeHurt;maxAnmiNum;anmiTime;hurtTime;cdTimeBase;cdTime;radius;vfxTime;bulletOffset;isHeal	skillId;skillId;bulletId;bulletId;filterId;filterId
+261	0x158a730	0x565cf64	-67970080	0x15b8950	484	SoldierSkillFlowResObject		soldierSkillConfigList;soldierSkillConfigList
+262	0x158a73c	0x565cf68	-67970068	0x15b8b98	528	SoldierDieTime	dieTime	soldierId;soldierId
+263	0x158a748	0x565cf6c	-67970056	0x15b8e0c	484	SoldierDieTimeResObject		soldierList;soldierList
+264	0x158a754	0x565cf70	-67970044	0x15b9054	292	MonsterGroup	groupId;maxCount	
+265	0x158a760	0x565cf74	-67970032	0x15b91dc	484	MonsterGroupResObject		groupList;groupList
+266	0x158a76c	0x565cf78	-67970020	0x15b9424	436	GlobalChaosZoneHeroAttrTrendConfig_AttrTrend	attrType;baseValue;growValue;m;k1;b1	
+267	0x158a778	0x565cf7c	-67970008	0x15b963c	256	GlobalChaosZoneHeroAttrTrendConfig	heroId	
+268	0x158a784	0x565cf80	-67969996	0x15b9794	436	GlobalChaosZoneBuffConfig	level;maxHpMul;maxHpAdd;tenacity;armourAdd;magicDefAdd	
+269	0x158a790	0x565cf84	-67969984	0x15b99ac	292	GlobalResInfo	globalResID;value	
+270	0x158a79c	0x565cf88	-67969972	0x15b9b34	292	WaveAttrGrowth	attrType;addRate	
+271	0x158a7a8	0x565cf8c	-67969960	0x15b9cbc	364	MonsterWaveGrowthData	modeId;monsterId;waveId;goldDropProb	
+272	0x158a7b4	0x565cf90	-67969948	0x15b9e8c	536	MonsterWaveGrowthCoefficentData	coefficientType	dataList;dataList
+273	0x158a7c0	0x565cf94	-67969936	0x15ba108	484	MonsterWaveGrowthResObject		dataListWithCoefficent;dataListWithCoefficent
+274	0x158a7cc	0x565cf98	-67969924	0x15ba350	292	RuinMonsterData	monsterId;monsterType	
+275	0x158a7d8	0x565cf9c	-67969912	0x15ba4d8	364	RuinWaveData	waveId;duration;shopRefreshFactor;goldDropProb	
+276	0x158a7e4	0x565cfa0	-67969900	0x15ba6a8	756	RuinWaveResObject		dataList;dataList;monsterDataList;monsterDataList
+277	0x158a7f0	0x565cfa4	-67969888	0x15baa00	328	NegativeLevelResObject	negativeLevel;negativeTotalScore;negativeTime	
+278	0x158a7fc	0x565cfa8	-67969876	0x15babac	608	WatchTimeLineIcon	type;mark;specifyMonsterID	icon;icon
+279	0x158a808	0x565cfac	-67969864	0x15bae70	976	BattleGlobalSettingChaosZoneConfigResObject	reduceWeightRatio;minReduceWeightRatio;reduceOtherQuality;reduceSameSlot;reduceSameSlotWeightRatio;minReduceSameSlotRatio;whiteRecommendWeight;blueRecommendWeight;purpleRecommendWeight;uniqueRecommendWeight;recommendThreshold;averageRange;maxRange	recommendMixCoeffs;recommendMixCoeffs
+280	0x158a814	0x565cfb0	-67969852	0x15bb2a4	444	StringCacheResObject	animDeath;animRunFast;jointDefault;jointSpine;jointHead;flyTextMissing;flyTextDodge	
+281	0x158a820	0x565cfb4	-67969840	0x15bb4c4	356	BarracksResObject	camp;line;summonerID;barracksID	
+282	0x158a82c	0x565cfb8	-67969828	0x15bb68c	292	SoldierQuickResObject	soldierQuickBeginTime;soldierQuickEndTime	
+283	0x158a838	0x565cfbc	-67969816	0x15bb814	364	ExtraGoldRuleResObject	startTime;switchTime;intervalTime;gold	
+284	0x158a844	0x565cfc0	-67969804	0x15bb9e4	484	WardSkillResObject		variantSkillAssets;variantSkillAssets
+285	0x158a850	0x565cfc4	-67969792	0x15bbc2c	None	BattleGlobalSettingResObject	scDamageModified;attackSpeedToFlowSpeedRate;possessFinishDelayDestoryTime;reflectSkillDelayDestroyTime;grassAudioRange;audioSwitchGroup;audioSwitchState1;audioSwitchState2;audioSwitchState3;audioSwitchState4;delayBeforeDeleash;delayBeforeDeleashBaron;strengthMax;cStrengthRecoverInterval;stateChangeInterval;playSpecialBornFlowTime;pigeonBornFlowDuration;disguiseTailTriggerCount;disguiseTailValidDuration;iMaxSoilderNum;iStopCreateSoilderTime;iSurrenderCloseUITime;iActiveAdvancedEquipCDTime;iEquipRecommendationCDTime;iEquipSaleByRawPriceBuffTime;soilderBeheadApMaxAddHurt;soilderBeheadApToOneHurt;soldierBornVfx;plantEyeVfx;heroDieVfxBlue;heroDieVfxRed;heroDieVfxPlaySpeed	globalHeroBuffs;globalHeroBuffs;recallStrengthenBuffs;recallStrengthenBuffs;soldierQuickConfig;soldierQuickConfig;barracksRes;barracksRes
+286	0x158a85c	0x565cfc8	-67969780	0x15bd18c	400	MuteTakeOverResObject	MuteTakeToggle_AI_MANAGE_VOTE;MuteTakeToggle_MVP_MANAGE_PROCESS;MuteTakeToggle_HANGUP_BROADCAST;MuteTakeToggle_PLAYER_ONLINE_STATE;MuteTakeToggle_AI_MANAGE_PROCESS_UPDATE	
+287	0x158a868	0x565cfcc	-67969768	0x15bd380	364	CherrySurrenderResObject	activeHangUpTime;activeOfflineTime;activeAIControlTime;activeRound	
+288	0x158a874	0x565cfd0	-67969756	0x15bd550	328	CherryHangUpInfoResObject	hangupTimePerRound;hangupRatePerRound;additionPunishTime	
+289	0x158a880	0x565cfd4	-67969744	0x15bd6fc	544	PlayerBehaviorInfoResObject	iID;mode;behaviorType;negativeType;behaviorLevel;checkParam1;checkParam2;checkParam3;checkParam4	
+290	0x158a88c	0x565cfd8	-67969732	0x15bd980	528	GlobalSettingResObject	playerReconnectProtectTime	playerBehaviorConfig;playerBehaviorConfig
+291	0x158a898	0x565cfdc	-67969720	0x15bdbf4	484	AISkillGemPoolResObject		aiSkillGemPoolList;aiSkillGemPoolList
+292	0x158a8a4	0x565cfe0	-67969708	0x15bde3c	292	CherryGainConf	ID;AddToPool	
+293	0x158a8b0	0x565cfe4	-67969696	0x15bdfc4	484	CherryGainPoolResObject		cherryGainPoolList;cherryGainPoolList
+294	0x158a8bc	0x565cfe8	-67969684	0x15be20c	328	AIDataCollectInGroupResObject	minInGroupCount;maxInGroupDistance;minInGroupDuration	
+295	0x158a8c8	0x565cfec	-67969672	0x15be3b8	364	AIGlobalSettingResObject	foringProb;isBraveChooseForgingProb;isUseForgingChooseForgingProb;commonChooseForgingProb	
+296	0x158a8d4	0x565cff0	-67969660	0x15be588	256	AISkillLearnSeq	heroID	
+297	0x158a8e0	0x565cff4	-67969648	0x15be6e0	484	AISkillLearnSeqResObject		aiSkillLearnSeqList;aiSkillLearnSeqList
+298	0x158a8ec	0x565cff8	-67969636	0x15be928	472	AISkillToMonster	ID;BaseDamage;DamageType;ADRatio;APRatio;MoreDamageType;MoreRatio	
+299	0x158a8f8	0x565cffc	-67969624	0x15beb64	484	AISkillToMonsterResObject		aiSkillToMonsterList;aiSkillToMonsterList
+300	0x158a904	0x565d000	-67969612	0x15bedac	292	AIHeroOrientation	ID;SingleLineRatio	
+301	0x158a910	0x565d004	-67969600	0x15bef34	528	AIHeroOrientationResObject	MaxOrientationNum	aiHeroOrientationList;aiHeroOrientationList
+302	0x158a91c	0x565d008	-67969588	0x15bf1a8	292	AICtrlCfg	Difficulty;DifficultyType	
+303	0x158a928	0x565d00c	-67969576	0x15bf330	484	AICtrlCfgResObject		aiCtrlCfgList;aiCtrlCfgList
+304	0x158a934	0x565d010	-67969564	0x15bf578	364	USBSkill	GamePlayMode;USBSkillID;HeroID;IsAIDisable	
+305	0x158a940	0x565d014	-67969552	0x15bf748	528	USBSkillResObject	MaxUSBSkillClassesNum	usbSkillList;usbSkillList
+306	0x158a94c	0x565d018	-67969540	0x15bf9bc	688	SLHeroPool	ID;SupportType;Top;APC;Support;ADC;Jungle;ESupportType;ETop;EAPC;ESupport;EADC;EJungle	
+307	0x158a958	0x565d01c	-67969528	0x15bfcd0	484	SLHeroPoolResObject		slHeroPoolList;slHeroPoolList
+308	0x158a964	0x565d020	-67969516	0x15bff18	688	AIEffectConfig	ID;EffectID;Level;EffectType;BaseValue;ADRatio1;APRatio1;MoreFactor1;MoreRatio1;ADRatio2;APRatio2;MoreFactor2;MoreRatio2	
+309	0x158a970	0x565d024	-67969504	0x15c022c	484	AIEffectConfigResObject		aiEffectConfigList;aiEffectConfigList
+310	0x158a97c	0x565d028	-67969492	0x15c0474	484	HeroBaseAttrResObject		heroBaseAttrList;heroBaseAttrList
+311	0x158a988	0x565d02c	-67969480	0x15c06bc	688	HeroAttrLevelData	seqID;heroAttrLevelKey;heroId;hpLv;mpLv;attackLv;apLv;armorLv;magicDefLv;hpRecoveryLv;mpRecoveryLv;attackSpeedLv;moveSpeedLv	
+312	0x158a994	0x565d030	-67969468	0x15c09d0	484	HeroAttrLevelResObject		attrLevelList;attrLevelList
+313	0x158a9a0	0x565d034	-67969456	0x15c0c18	600	LevelRhythmResObject	maxLevelExpStageNum;maxLevelReviveTimeStageNum;maxLevelMoneyStageNum	rhythmData;rhythmData
+314	0x158a9ac	0x565d038	-67969444	0x15c0ed4	256	MonsterSkinAssetObject	resID	
+315	0x158a9b8	0x565d03c	-67969432	0x15c102c	756	MonsterThemeSkin		monsterAsset;monsterAsset;skinAsset;skinAsset
+316	0x158a9c4	0x565d040	-67969420	0x15c1384	484	MonsterThemeSkinResObject		lstData;lstData
+317	0x158a9d0	0x565d044	-67969408	0x15c15cc	364	ExpMoneyRevise	expMoneyReviseKey;reviseType;battleLineType;numberOfShares	
+318	0x158a9dc	0x565d048	-67969396	0x15c179c	528	ExpMoneyReviseResObject	maxLevelExpMoneyReviseStateNum	reviseData;reviseData
+319	0x158a9e8	0x565d04c	-67969384	0x15c1a10	484	HeroSkillLvUpRuleResObject		lvRuleData;lvRuleData
+320	0x158a9f4	0x565d050	-67969372	0x15c1c58	580	GainWeightControlData	keyID;preferSilverGainID1;preferSilverGainID2;preferSilverGainID3;preferGoldGainID1;preferGoldGainID2;preferGoldGainID3;preferColorGainID1;preferColorGainID2;preferColorGainID3	
+321	0x158aa00	0x565d054	-67969360	0x15c1f00	484	GainWeightControlResObject		gainWeightControlDatas;gainWeightControlDatas
+322	0x158aa0c	0x565d058	-67969348	0x15c2148	484	HeroLvExpResObject		lvExpData;lvExpData
+323	0x158aa18	0x565d05c	-67969336	0x15c2390	484	MonsterAttrLimitResObject		limitAttrs;limitAttrs
+324	0x158aa24	0x565d060	-67969324	0x15c25d8	292	AttrLimitData	max;min	
+325	0x158aa30	0x565d064	-67969312	0x15c2760	484	AttrLimitResObject		limitAttrs;limitAttrs
+326	0x158aa3c	0x565d068	-67969300	0x15c29a8	796	StatusEffect	moveAble;rotateAble;skillAble;attackAble;cleanse;inputAble;dashAble;summoner;equipActive;castSkillAble;castAttackAble;teleport;spellChannelling;skillRotate;chargeAble;type	
+327	0x158aa48	0x565d06c	-67969288	0x15c2d28	484	StatusEffectResObject		statusEffectList;statusEffectList
+328	0x158aa54	0x565d070	-67969276	0x15c2f70	484	BuffRelationUnit		relations;relations
+329	0x158aa60	0x565d074	-67969264	0x15c31b8	484	BuffRelationResObject		relations;relations
+330	0x158aa6c	0x565d078	-67969252	0x15c3400	None	DataMgrProxy	isLoadConfigFailed;expMoneyRevise	buffRelation;buffRelation;statusEffect;statusEffect;attrLimit;attrLimit;monsterAttrLimit;monsterAttrLimit;heroLvExp;heroLvExp;gainWeightControlResObject;gainWeightControlResObject;heroSkillLvUpRule;heroSkillLvUpRule;monsterThemeSkin;monsterThemeSkin
+331	0x158aa78	0x565d07c	-67969240	0x15cce8c	436	FrameDumperInterface	stopOnFrameCheckError;hasFrameCheckError;needDumpDataSyncPool;needSendFrameDump;onAIDumpReqFinish;dumpMemSaveFlag	
+332	0x158aa84	0x565d080	-67969228	0x15cd0a4	484	NonRecoverConsistencyStaticVars		frameDumperInterface;frameDumperInterface
+333	0x158aa90	0x565d084	-67969216	0x15cd2ec	484	CmdMgr		_battle;_battle
+334	0x158aa9c	0x565d088	-67969204	0x15cd534	756	DataCmdRoot		cmdmgr;cmdmgr;frameDumper;frameDumper
+335	0x158aaa8	0x565d08c	-67969192	0x15cd88c	484	PlayerManager		playerList;playerList
+336	0x158aab4	0x565d090	-67969180	0x15cdad4	484	Battlefield		battle;battle
+337	0x158aac0	0x565d094	-67969168	0x15cdd1c	484	ProjectileManager		projectileList;projectileList
+338	0x158aacc	0x565d098	-67969156	0x15cdf64	484	ActorManager		actorList;actorList
+339	0x158aad8	0x565d09c	-67969144	0x15ce1ac	484	EventManagerAdapter		m_dicEventAdapters;m_dicEventAdapters
+340	0x158aae4	0x565d0a0	-67969132	0x15ce3f4	None	GameAPI		lgcEventMgr;lgcEventMgr;actorEventMgr;actorEventMgr;actorMgr;actorMgr;projectileMgr;projectileMgr;battle;battle;playerMgr;playerMgr;flowMgr;flowMgr;collectMgr;collectMgr;configMgr
+341	0x158aaf0	0x565d0a4	-67969120	0x15cefcc	364	BattleTaskResObject	battleTaskType;iParam1;iParam2;iParam3	
+342	0x158aafc	0x565d0a8	-67969108	0x15cf19c	536	BattleTaskBase	battleType	battleTasks;battleTasks
+343	0x158ab08	0x565d0ac	-67969096	0x15cf418	None	BattleTaskMgr		taskDic;taskDic;taskHurtDistance;taskHurtDistance;taskHurtWithBuffOnMyself;taskHurtWithBuffOnMyself;taskHurtWithinSpecifiedTime;taskHurtWithinSpecifiedTime;taskKillBuffOnEnemy;taskKillBuffOnEnemy;taskKillContinuous;taskKillContinuous;taskKillWithSkillInSpecifiedTime;taskKillWithSkillInSpecifiedTime;taskHurtWithSkillInSpecifiedTime;taskHurtWithSkillInSpecifiedTime;taskKillDistance
+344	0x158ab14	0x565d0b0	-67969084	0x15cfee0	484	DataCollectHook		dcSystem;dcSystem
+345	0x158ab20	0x565d0b4	-67969072	0x15d0128	644	FEBattleDcPlayerSpecialActivity	redSpeedTask;redWinWithoutEquipTask;redEnterSprinTask;redStayInGrassTask;redPentakillTask;blueSpeedTask;blueWinWithoutEquipTask;blueEnterSprinTask;blueStayInGrassTask;bluePentakillTask;redEnterInGrassTimeList;blueEnterInGrassTimeList	
+346	0x158ab2c	0x565d0b8	-67969060	0x15d0410	800	FEBattleDcPlayerSecurityData	playerSecurityDataDic;recordDataWhenDieDic;curIndex;totalRecordCount;lastRecordCount;blueResourcesInfoList;redResourcesInfoList;blueKillTowerList;redKillTowerList	playerBuffInfoDic;playerBuffInfoDic
+347	0x158ab38	0x565d0bc	-67969048	0x15d0794	484	FEBattleDcGlobalInGroup		playersPos;playersPos
+348	0x158ab44	0x565d0c0	-67969036	0x15d09dc	364	FEBattleDcHeeimerdingerTresureStrength	roleId;itemId;time;tresureObjId	
+349	0x158ab50	0x565d0c4	-67969024	0x15d0bac	364	FEBattleDcHeeimerdingerTresureHit	roleId;itemId;time;tresureObjId	
+350	0x158ab5c	0x565d0c8	-67969012	0x15d0d7c	364	FEBattleDcHeeimerdingerTresureUse	roleId;itemId;time;tresureObjId	
+351	0x158ab68	0x565d0cc	-67969000	0x15d0f4c	436	FEBattleDcHeeimerdingerTresureOpen	camp;time;itemId;roleId;iLaneType;tresureObjId	
+352	0x158ab74	0x565d0d0	-67968988	0x15d1164	472	FEBattleDcHeeimerdingerTresureRefresh	time;iLaneType;xPos;zPos;camp;resId;tresureObjId	
+353	0x158ab80	0x565d0d4	-67968976	0x15d13a0	1572	FEBattleDcHeeimerdingerTresureStat		refreshList;refreshList;openList;openList;useList;useList;hitList;hitList;strengthList;strengthList
+354	0x158ab8c	0x565d0d8	-67968964	0x15d1a28	384	FEBattleDcGamePlayData	gpExtraParamIntDic;gpExtraParamFix64Dic;eeExtraParamIntDic;eeExtraParamFix64Dic;gpEasterEggId	
+355	0x158ab98	0x565d0dc	-67968952	0x15d1c0c	328	DcGlobalSPExtraItem	beginTime;endTime;totalMoney	
+356	0x158aba4	0x565d0e0	-67968940	0x15d1db8	328	DcGlobalSPCampItem	teamMoney;towerCount;killDragonCount	
+357	0x158abb0	0x565d0e4	-67968928	0x15d1f64	400	DcGlobalSPDataItem	gameTime;totalSPCount;winSPCount;winSPMoney;result	
+358	0x158abbc	0x565d0e8	-67968916	0x15d2158	572	DcGlobalStrategicPointItem	camp;seq	extraSPData;extraSPData
+359	0x158abc8	0x565d0ec	-67968904	0x15d23f8	1028	FEBattleDcGlobalBattleStrategicPoint		currentSampleSPData;currentSampleSPData;currentSPExtraItem;currentSPExtraItem;spList;spList
+360	0x158abd4	0x565d0f0	-67968892	0x15d2860	256	DcHurtHeroIdDataItem	roleId	
+361	0x158abe0	0x565d0f4	-67968880	0x15d29b8	508	DcHurtDataItem	roleId;skillId;skillGuid;hitTime;hurtValue;effectId;curHp;curHpPer	
+362	0x158abec	0x565d0f8	-67968868	0x15d2c18	508	DcUseSkillDataItem	roleId;skillId;skillGuid;skillSlot;useTime;hitTime;hurtValue;isSummonerSkill	
+363	0x158abf8	0x565d0fc	-67968856	0x15d2e78	1820	DcKillActorItem	isFirstBlood;isACE;isContinueDie;killerRoleId;deadRoleId;multiKillCount;killTime;killSeq;firstHurtTime;killDistance;killerPosX;killerPosZ;deadPosX;deadPosZ	deadDamageItem;deadDamageItem;combatStatusHurtItem;combatStatusHurtItem;summonerSkillItemDic;summonerSkillItemDic;combatHurtHeroIdDataItem;combatHurtHeroIdDataItem
+364	0x158ac04	0x565d100	-67968844	0x15d35f8	1116	FEBattleDcGlobalPlayerStat	damageItem;useSkillItem	itemList;itemList;hurtItemDict;hurtItemDict;hurtHeroIdDataItemList;hurtHeroIdDataItemList
+365	0x158ac10	0x565d104	-67968832	0x15d3ab8	None	FEBattleDcGlobalData	inited	globalMonsters;globalMonsters;globalTowerSoldier;globalTowerSoldier;globalPlant;globalPlant;globalSurrender;globalSurrender;strategicPoints;strategicPoints;globalOthers;globalOthers;globalWards;globalWards;globalSignal;globalSignal
+366	0x158ac1c	0x565d108	-67968820	0x15d4f44	364	FEBattleDcPlayerMvpScoreStat	isUseNewMvpScore;isMvp;newMvpScore;oldMvpScore	
+367	0x158ac28	0x565d10c	-67968808	0x15d5114	1984	DcMedalData	killNoVisionCount;killLongRangeCount;assistKillTopLaneCount;assistKillMidLaneCount;assistKillBotLaneCount;jungleKillEnemyCampInSelfZone;killWithElderDragonBuffCount;towerDestroyWithBaronBuffCount;destroyNexusWithin10sCount;killSnowballTargetWithin5sCount;killCoreRoleCount;assistKillCoreRoleCount;killTopLaneWithin6MinCount;killMidLaneWithin6MinCount;killBotLaneWithin6MinCount;killWithin7MinCount;killAfterScryBloomWithin30sCount;counterKillUnderTowerCount;diveTowerKillCount;stealEpicMonsterCount;lethalCCCount;jungleKillInEnemyZoneCount;dravenKillWith150AdorationCount;enemyDravenMaxAdoration;rumbleOverheatKillCount;tristanaMaxSimulKnockback;poppyStopDashCount;teemoShroomKillCount;veigarEStunCount;corkiMissileKillCount;luluPolymorphCount;ziggsUltKillCount;fizzUltKillCount;amumuRTargetCount;poppyRKnockbackCount;vexMaxSimulFearTargets;heimerdingerStunCount;assistKillTeemoCount;mundoPassiveRootCleanseCount;consumeEnemyHoneyFruitCount;ownLaneFirstTowerMaxSurviveTime;nexusOnlyRemaining;deathByTowerCount;consumeAllLanePlates;ownLanePlatesLostCount;survive3MinAfterHeraldHitTower;bounty1000NoDeathStreak;heraldHitInhibTowerCount;winWithIntactTowers	
+368	0x158ac34	0x565d110	-67968796	0x15d5938	1184	FEBattleDcPlayerMedal	isKiller;lastSnowballHitKillCountDic;lastSearchlightKillCountDic;lastControlEffectKillCountDic	dcMedalData;dcMedalData;_battleHero;_battleHero;monsterSnatchConditionResList;monsterSnatchConditionResList
+369	0x158ac40	0x565d114	-67968784	0x15d5e3c	580	FEBattleDcAICommonRoundStat	teamDifficultyMax;teamDifficultyMin;individualDifficultyMin;individualDifficultyMax;teamDifficultyStart;individualDifficultyStart;isReachTeamDifficultyMax;isReachTeamDifficultyMin;isReachIndividualDifficultyMax;isReachIndividualDifficultyMin	
+370	0x158ac4c	0x565d118	-67968772	0x15d60e4	508	HexAramBuffResTypeInfo	roomId;roleId;heroId;modeId;normal_Pool_Num;generic_Pool_Num;favorite_Pool_Num;recommend_Pool_Num	
+371	0x158ac58	0x565d11c	-67968760	0x15d6344	544	DistributedLocationBuffInfo	roomId;roleId;heroId;modeId;roleNum;showTipsTime;BaseDistributedLocation;NewDistributedLocation;ChangeState	
+372	0x158ac64	0x565d120	-67968748	0x15d65c8	384	FEBattleDcPlayerGamePlayData	gpExtraParamIntDic;gpExtraParamFix64Dic;eeExtraParamIntDic;eeExtraParamFix64Dic;gpEasterEggId	
+373	0x158ac70	0x565d124	-67968736	0x15d67ac	1396	FEBattleDcPlayerSpecialActivityStat	speedTaskCount;winWithoutEquipTaskCount;enterSpringTaskCount;stayInGrassTaskCount;pentakillTaskCount;skillKillAndAssistCount;iCreatePlantCnt;iRStrikeCnt;iSyndraStunCnt;syndraStunCntDic;talonLiuxueKillCnt;talonQKillCnt;talonWHitCnt;talonWHitCntDic;lissandraWHitDic;talonECnt;talonRKillAndAssistCnt;talonLastRTime;zeriWWallHitHeroCnt;teamTogalDamage;teamFireDragonCnt;mordekaiser_P_SpeedCnt;mordekaiser_Q_Damage;mordekaiser_W_Absorb;mordekaiser_E_HitCnt;mordekaiser_R_KillCnt;mordekaiser_P_State;lissandra_Q_HeroCnt;lissandra_W_ThreeHeroCnt;lissandra_E_WallCnt;rellQBreakShieldCnt;rellWRidingKnockCnt;rellEBombCnt	
+374	0x158ac7c	0x565d128	-67968724	0x15d6d84	436	FEBattleDcPlayerDeathline	lineStartTime;lineTime;outLineStartTime;outTime;hpLost;maxoutTime	
+375	0x158ac88	0x565d12c	-67968712	0x15d6f9c	292	PerfectFitInfo	roleId;teammateId	
+376	0x158ac94	0x565d130	-67968700	0x15d7124	328	DcKillAssistItem	killerObjId;deadObjId;killTime	
+377	0x158aca0	0x565d134	-67968688	0x15d72d0	364	DcHighlightKeyProtectorItem	highlightType;enemyRoleId;minHpTime;killTime	
+378	0x158acac	0x565d138	-67968676	0x15d74a0	400	DcHighlightControlItem	highlightType;skillUseTime;skillId;firstControlTime;lastControlTime	
+379	0x158acb8	0x565d13c	-67968664	0x15d7694	1660	FEBattleDcPlayerHighlight	minHp;minHpTime	highlightControlItems;highlightControlItems;skillUseDic;skillUseDic;highlightKeyProtectorItems;highlightKeyProtectorItems;bestPartnerInfo;bestPartnerInfo;perfectFitInfos;perfectFitInfos
+380	0x158acc4	0x565d140	-67968652	0x15d7d74	600	DcWardExposeActorData	enterTime;exitTime;isLeave	actor;actor
+381	0x158acd0	0x565d144	-67968640	0x15d8030	596	DcWardDetailActor	objId;createBattleTime;destroyBattleTime;dieReason;wardType;wardPosition;heroList;monsterList;wardList;soliderList;tempList	
+382	0x158acdc	0x565d148	-67968628	0x15d82e8	536	FEBattleDcPlayerWardDetailStat	platformType	wardActors;wardActors
+383	0x158ace8	0x565d14c	-67968616	0x15d8564	436	DcWardActor	objId;createBattleTime;destroyBattleTime;dieReason;wardType;wardPosition	
+384	0x158acf4	0x565d150	-67968604	0x15d877c	536	FEBattleDcPlayerWardStat	platformType	wardActors;wardActors
+385	0x158ad00	0x565d154	-67968592	0x15d89f8	256	FEBattleDcPlayerSpellUseAndHit	viego_LastTransformTime	
+386	0x158ad0c	0x565d158	-67968580	0x15d8b50	564	FEBattleDcItemBase	battleBeginTime;reportTypesCount	player;player
+387	0x158ad18	0x565d15c	-67968568	0x15d8de8	None	FEBattleDcPlayerData		player;player;moneySubvision;moneySubvision;expSubvision;expSubvision;recallAndSummonerSpell;recallAndSummonerSpell;championDeath;championDeath;equipOperate;equipOperate;championKillAward;championKillAward;championDmg;championDmg;aICoachDetail
+388	0x158ad24	0x565d160	-67968556	0x15dc074	None	DataCollectSystem	lastSecurityDataSample;sampleDuration;lastSampleTime;maxSampleCount;curSampleCount;isBegin;safetyDataCurSampleCount;safetyDataLastSampleTime;safetyDataIsBegin;blueCount;roleNum;aiNum;lastSampleTimePerSec;curSampleCountPer;isBeginPer;isOpenSamplePer	playerDataList;playerDataList;playerDataDic;playerDataDic;globalData;globalData;securityData;securityData;specialActiviy;specialActiviy;liveShowDcMgr;liveShowDcMgr
+389	0x158ad30	0x565d164	-67968544	0x15dcdec	484	GmLgcActionUtil		gmProcessor;gmProcessor
+390	0x158ad3c	0x565d168	-67968532	0x15dd034	1376	GMLgcVariableContext	recordHeroStack;needSaveRecordStack;markedEnemyID;heroIconDisplayBorderWidth;heroCount;currHeroId;currHeroIndex;specialTeamateID;teammateMarkIconPrefabPath;enemyMarkIconPrefabPath;currHeroName;soldierType;combatMarkerEnemyList;combatMarkerAllyList;sightMarkerList;soldierLine;heroLine	visionMonster;visionMonster;sightMarkerDic;sightMarkerDic
+391	0x158ad48	0x565d16c	-67968520	0x15dd5f8	652	GMLgcVariableGlobalContext	rawVersion;rawResVersion;aiGmMoveMarkCount;aiGmMoveMarkType	forceKillDic;forceKillDic
+392	0x158ad54	0x565d170	-67968508	0x15dd8e8	484	GMLgcCmdProcessor		variableContext;variableContext
+393	0x158ad60	0x565d174	-67968496	0x15ddb30	292	TraceBinaryWriter	writePosition;readPosition	
+394	0x158ad6c	0x565d178	-67968484	0x15ddcb8	1396	DemDataBuff	haveWriteIncre;useSize	objCntDic;objCntDic;cfgHashDic;cfgHashDic;bw;bw;freelist;freelist
+395	0x158ad78	0x565d17c	-67968472	0x15de290	256	BattleActorMsg	eventType	
+396	0x158ad84	0x565d180	-67968460	0x15de3e8	256	BulletMsg	eventType	
+397	0x158ad90	0x565d184	-67968448	0x15de540	None	DataFrame	lgcEventMgr;aiLgcEventMgr	battle;battle;tmpSyncObjs;tmpSyncObjs;actorEventMgr;actorEventMgr;eventRestoreMgr;eventRestoreMgr;aisystem;aisystem;aihook;aihook;gameStateMgr;gameStateMgr;eSportSystem;eSportSystem
+398	0x158ad9c	0x565d188	-67968436	0x15df4a0	484	FEMsgQueue		msgSeq;msgSeq
+399	0x158ada8	0x565d18c	-67968424	0x15df6e8	None	FEInterfaceConfig	isRiotLogEnabled;isVisiAssetsPrepared;isLogicAssetPrepared;logicUseStringCache;useStringCacheMode;enableSpecialLog;enableUseBinaryJson;isAssetConfigsReady;hasException;isSkillEditorMode;isSkillEditorOpenMemReccover;gmEnableBuildingRefresh;gmDisableCDLockingProtect;gmEnbleFELoadCfgFailed;gmOpenMultiCamp;useLogicNetwork;isLogicThreadEnabled;useDataSyncObject;isTargetSelectionDebugEnabled;isIgnoreActionTargetRefreshPos;isTestingFlowToggle;enableFrameDump;enableFullDump;enableZeroDump;useQuickStartBattle;enableFogCut;visiFocusRoleId;logicPersistentDataPathDir;logicPersistentDataResPathDir;logFileDir;rootDir;logicResRootDir;visiResRootDir;logicResPufferRootDir;visiResPufferRootDir;roundEndReason;chRemakeCamp;chRemakeTeamId;winCamp;runtimeEnvType;openAddtiveEncrypt;openAddtiveHash;curFEContext;svrInfo;effectiveVersion;logicAppVersion;logicResVersion;emulatorName;isOldResVersionMode;isWaitingReleaseOldRes;logicResLoadMode;pageHoneyPotPtr;honeyPotInsertBattleType;honeyPotClearFlag;InsertHoneyPotPtrTeam;mobileGrade;vpnInfo;enableTDBAllocInfo;serviceMode;forceAiSystem;enableAiService;enableGameStateMonitor;useNcnnForJungle	
+400	0x158adb4	0x565d190	-67968412	0x15e0464	None	FEDesk	deskID;deskToggle;memmgr	dataroot;dataroot;fe_interface_config;fe_interface_config;msg_queue;msg_queue;syncIDMgr;syncIDMgr;dataSync;dataSync;frameroot;frameroot;drive_entry;drive_entry;cmdroot;cmdroot
+401	0x158adc0	0x565d194	-67968400	0x15e1328	1028	FEDataRoot		desk;desk;feBattleContext;feBattleContext;dataConfig;dataConfig
+402	0x158adcc	0x565d198	-67968388	0x15e1790	756	TargetUtilsBase		resultActors;resultActors;targetSelection;targetSelection
+403	0x158add8	0x565d19c	-67968376	0x15e1ae8	788	ActorRealm	id;owner;target;center;radius;beforeRelease;delayDestoryTime;startDestoryTime	members;members
+404	0x158ade4	0x565d1a0	-67968364	0x15e1e60	292	ActorRealmMgr	count;openTriggerTimeEvent	
+405	0x158adf0	0x565d1a4	-67968352	0x15e1fe8	256	SubBattleMgr	battleCount	
+406	0x158adfc	0x565d1a8	-67968340	0x15e2140	1468	RandomGainRuleMgr	curRandomRound;randomGroupId;enableRandomNumLimit;maxOfPerPerson	roundQualityDic;roundQualityDic;banDic;banDic;gainQualityDic;gainQualityDic;remainingRandomNumForEachGainDic;remainingRandomNumForEachGainDic
+407	0x158ae08	0x565d1ac	-67968328	0x15e2760	328	BattleFow	enabled;disableFowOutofGrass;battleStart	
+408	0x158ae14	0x565d1b0	-67968316	0x15e290c	400	FixTime	FrameCount;CurFrameIndex;Time;FrameRate;DeltaTime	
+409	0x158ae20	0x565d1b4	-67968304	0x15e2b00	572	FixRandom	fix_seed;useed	battle;battle
+410	0x158ae2c	0x565d1b8	-67968292	0x15e2da0	256	BattleEventResObject	triggerRate	
+411	0x158ae38	0x565d1bc	-67968280	0x15e2ef8	1016	BattleEventNode	id;state;triggerCamp;camp1RedHeros;camp1BlueHeros;camp2RedHeros;camp2BlueHeros	resBattleEvent;resBattleEvent;flowList;flowList
+412	0x158ae44	0x565d1c0	-67968268	0x15e3354	836	BattleEventMgr	isEventTriggered;triggeredTime	battle;battle;eventList;eventList
+413	0x158ae50	0x565d1c4	-67968256	0x15e36fc	544	BattleEventConditionInfo	iConditionID;modeConfigType;conditionType;iConditionTriggerTimes;iConditionParam1;iConditionParam2;iConditionParam3;iConditionParam4;iConditionParam5	
+414	0x158ae5c	0x565d1c8	-67968244	0x15e3980	616	BattleTeamTotalKillInfo	totalKillHeros;totalKillSoldiers;totalKillTowers;totalKillDragons;totalKillHexRex;totalKillHexPoro;totalKillHexCannon;totaKkillHexBaron;totalKillRexMecha;totalKillYordlePig;riftheralTotalKillTowers	
+415	0x158ae68	0x565d1cc	-67968232	0x15e3c4c	1820	BattleScoringManager	hasGeneratedFirstBlood;hasGeneratedTowerFirstBlood;blueTeamKillInfo;redTeamKillInfo;multiKillConditionResList;monsterSnatchConditionResList;isUseGM;redTowerDieCount;blueTowerDieCount;firstRedTowerDieTime;firstBlueTowerDieTime;redHomeBaseDieCount;blueHomeBaseDieCount;killHeroCounter	gameResultRoomStat;gameResultRoomStat;gameResultExtraRoomBattleStat;gameResultExtraRoomBattleStat;championKeyPropertyStat;championKeyPropertyStat;skillUseHistoryDic;skillUseHistoryDic
+416	0x158ae74	0x565d1d0	-67968220	0x15e43cc	256	RPNAnalyzeData	bHpRatio	
+417	0x158ae80	0x565d1d4	-67968208	0x15e4524	2204	EffectBase	effectType;indexInRes	res;res;strFormula;strFormula;rpn;rpn;buff;buff;bullet;bullet;filter;filter;analyzeData;analyzeData
+418	0x158ae8c	0x565d1d8	-67968196	0x15e4e24	256	BattleGlobalVariable	inspectorFlag	
+419	0x158ae98	0x565d1dc	-67968184	0x15e4f7c	484	VoteMgr		battle;battle
+420	0x158aea4	0x565d1e0	-67968172	0x15e51c4	564	RemakeMgr	isRemakeSwitchOff;isAutoTriggerRemake	remakeApprovedTeam;remakeApprovedTeam
+421	0x158aeb0	0x565d1e4	-67968160	0x15e545c	328	HangupEnterInfoResObject	battleTime;hangupEnterTime;specifiedHeroHangupEnterTime	
+422	0x158aebc	0x565d1e8	-67968148	0x15e5608	888	NewAFKRuleResObject	recordValidBehaviorCount;validBehaviorPositionOffsetRadius;saveReplayTime	hangupEnterInfoResObjectList;hangupEnterInfoResObjectList;recordDataTimeList;recordDataTimeList
+423	0x158aec8	0x565d1ec	-67968136	0x15e59e4	472	OldAFKRuleResObject	hangupEnterTime;specifiedHeroHangupEnterTime;aiManageProcessOffsetTime;aiManageNormalRecallTime;specifiedHeroAIManageNormalRecallOffsetTime;aiManageOfflineRecallTime;aiManagerGrade	
+424	0x158aed4	0x565d1f0	-67968124	0x15e5c20	844	AFKConfigResObject	id;specifiedHeroResID	oldAFKRuleResObject;oldAFKRuleResObject;newAFKRuleResObject;newAFKRuleResObject
+425	0x158aee0	0x565d1f4	-67968112	0x15e5fd0	528	HangUpMgr	isNeedVoteHangupAiManage	afkConfigResObject;afkConfigResObject
+426	0x158aeec	0x565d1f8	-67968100	0x15e6244	484	SurrenderMgr		battle;battle
+427	0x158aef8	0x565d1fc	-67968088	0x15e648c	364	EquipSkillGroupData	roleId;equipResId;skillResId;groupId	
+428	0x158af04	0x565d200	-67968076	0x15e665c	756	BattleEquipCancelRuleMgr		battle;battle;canCancelEquipStackDict;canCancelEquipStackDict
+429	0x158af10	0x565d204	-67968064	0x15e69b4	484	BattleEquipPurchaseRuleBanned		bannedEquipList;bannedEquipList
+430	0x158af1c	0x565d208	-67968052	0x15e6bfc	756	BattleEquipPurchaseRuleMgr		purchaseExtendSwitchRule;purchaseExtendSwitchRule;purchaseRules;purchaseRules
+431	0x158af28	0x565d20c	-67968040	0x15e6f54	1028	BattleEquipMgr		battle;battle;setSkillGroupIDList;setSkillGroupIDList;forceAppendEquipDic;forceAppendEquipDic
+432	0x158af34	0x565d210	-67968028	0x15e73bc	484	BattleMonsterGrowth_DC		monsterGrowthDict;monsterGrowthDict
+433	0x158af40	0x565d214	-67968016	0x15e7604	484	BattleMonsterGrowth		_DC;_DC
+434	0x158af4c	0x565d218	-67968004	0x15e784c	292	TestingSyncNode	completed;syncId	
+435	0x158af58	0x565d21c	-67967992	0x15e79d4	528	TestingMgr	skinSubId	syncNodeList;syncNodeList
+436	0x158af64	0x565d220	-67967980	0x15e7c48	256	MagicFieldMgr	uuid	
+437	0x158af70	0x565d224	-67967968	0x15e7da0	484	BulletInitProcessor		initList;initList
+438	0x158af7c	0x565d228	-67967956	0x15e7fe8	616	BulletMgr	profilerIndex;updateCount;groupObjId	bulletGroups;bulletGroups
+439	0x158af88	0x565d22c	-67967944	0x15e82b4	528	FixDelayObject	delayTime	fixObject;fixObject
+440	0x158af94	0x565d230	-67967932	0x15e8528	536	FixObjectMgr	listObjectsCount	delayPool;delayPool
+441	0x158afa0	0x565d234	-67967920	0x15e87a4	256	ActorMgr	profilerIndex	
+442	0x158afac	0x565d238	-67967908	0x15e88fc	536	BattleState	stateId	battle;battle
+443	0x158afb8	0x565d23c	-67967896	0x15e8b78	572	BattleStateMgr	isBattleFinish;battleFinishTime	currentState;currentState
+444	0x158afc4	0x565d240	-67967884	0x15e8e18	364	BulletCommonConfig	checkObstruct;checkTerrainWall;hitSceneHandler;bulletSpeed	
+445	0x158afd0	0x565d244	-67967872	0x15e8fe8	364	LevelExpMoneyReviseParaUnit	limitTime;param;numberOfShares;battleLineType	
+446	0x158afdc	0x565d248	-67967860	0x15e91b8	292	LevelStageUnit	limitTime;incVal	
+447	0x158afe8	0x565d24c	-67967848	0x15e9340	256	LevelRhythm	rhythmKey	
+448	0x158aff4	0x565d250	-67967836	0x15e9498	484	BattleLevelRule_DC		resLevelRhythm;resLevelRhythm
+449	0x158b000	0x565d254	-67967824	0x15e96e0	1028	BattleLevelRule		currentExtraLevelRule;currentExtraLevelRule;_DC;_DC;bulletConfig;bulletConfig
+450	0x158b00c	0x565d258	-67967812	0x15e9b48	484	MapActorPointMgr		mapActorPointList;mapActorPointList
+451	0x158b018	0x565d25c	-67967800	0x15e9d90	256	MapGrassWardPointObj	grassId	
+452	0x158b024	0x565d260	-67967788	0x15e9ee8	484	MapGrassWardGroupObj		mapGrassWardList;mapGrassWardList
+453	0x158b030	0x565d264	-67967776	0x15ea130	484	MapGrassWardPointMgr		mapGrassWardGroups;mapGrassWardGroups
+454	0x158b03c	0x565d268	-67967764	0x15ea378	1844	MapAnchorResObject		mapPointMgr;mapPointMgr;mapPathPointMgr;mapPathPointMgr;mapGrassWardPointMgr;mapGrassWardPointMgr;mapActorPointMgr;mapActorPointMgr;mapBlockPointMgr;mapBlockPointMgr;simpleAnchorGroup;simpleAnchorGroup
+455	0x158b048	0x565d26c	-67967752	0x15eab10	292	GrassWardData	fixPostion;grassId	
+456	0x158b054	0x565d270	-67967740	0x15eac98	536	GrassWardGroupData	groupID	grassWards;grassWards
+457	0x158b060	0x565d274	-67967728	0x15eaf14	484	GrassWardDataMgr		grassWardGroups;grassWardGroups
+458	0x158b06c	0x565d278	-67967716	0x15eb15c	528	PointPathData	line	pathPointPos;pathPointPos
+459	0x158b078	0x565d27c	-67967704	0x15eb3d0	484	PathMgrData		pathList;pathList
+460	0x158b084	0x565d280	-67967692	0x15eb618	None	AnchorDataData	useLeashRange;isNeedIndicator;bEnableRandomGroup;enablePreShowIcon;isShowBornTime;maxCountDownCircleTime;isShowLeaveTime;isHideBornLeaveProgressBorder;dieRefreshIgnoreSummonChild;isRandomBornPos;isMiniMapAnchorGroup;indicatorBuffCheckID;showBornDelayTime;maxShowTime;groupIdForAnalysis;plantAnalysisId;poiRadius;indicatorTriggerRadius;leashRangeForward;leashRangeAngle;leashRangeRadius;leashRangeInnerRadius;interval;indicatorRadius;buffOpenTimeLength;intervalInOneWave;startTime;leashRangeCenter;transformPos;poiType;anchorType;indicatorType;line;defenceLayer;refreshType;camp;areaCamp;exitTrigger;applyBuffTrigger;enterTrigger;hurtTrigger	leashIndicatorAlphaCurve;leashIndicatorAlphaCurve;replaceTrigger;replaceTrigger;actorInfos;actorInfos
+461	0x158b090	0x565d284	-67967680	0x15ec054	484	ActorPointData		actorAnchors;actorAnchors
+462	0x158b09c	0x565d288	-67967668	0x15ec29c	400	MapPointData	type;line;battleCamp;fixPostion;fixForward	
+463	0x158b0a8	0x565d28c	-67967656	0x15ec490	484	MapPointMgrData		pointList;pointList
+464	0x158b0b4	0x565d290	-67967644	0x15ec6d8	1572	MapAnchorConfigData		mapPointMgr;mapPointMgr;actorPointMgr;actorPointMgr;pathMgr;pathMgr;grassWardMgr;grassWardMgr;blockAnchorData;blockAnchorData
+465	0x158b0c0	0x565d294	-67967632	0x15ecd60	256	SkillGemAssetObject	resID	
+466	0x158b0cc	0x565d298	-67967620	0x15eceb8	904	ForgeConfigResObject	startupStock;stockInTime;stockInNumPerRound;maximunStock;cost;nonBraveChoiceCostChange;coreBoostRateMin;coreBoostRateMax;recommendMinimunWeightAttribute;recommendMinimunWeightEquipment;originRegenerateRate1;originRegenerateRate2;maxOriginRegenerateRateNum;braveChoiceExtraMoney;braveChoiceExtraOrigin;braveChoiceCouponCount;braveChoiceCouponPrice;randomPickHeroGiftOrigin;useSolution	
+467	0x158b0d8	0x565d29c	-67967608	0x15ed2a4	256	PreloadCommonAssetObject	resID	
+468	0x158b0e4	0x565d2a0	-67967596	0x15ed3fc	256	GamePlayComponentGroupAssetObject	resID	
+469	0x158b0f0	0x565d2a4	-67967584	0x15ed554	484	GamePlayComponentGroupRefResObject		groupAsset;groupAsset
+470	0x158b0fc	0x565d2a8	-67967572	0x15ed79c	528	GamePlayComponentRefResObject	lazyAttach	compAsset;compAsset
+471	0x158b108	0x565d2ac	-67967560	0x15eda10	328	BattleConditionBaseRes	conditionType;combine;isInverse	
+472	0x158b114	0x565d2b0	-67967548	0x15edbbc	364	FixModuleResObject	fixAttrType;fixValueType;fixAlgorithm;fixValue	
+473	0x158b120	0x565d2b4	-67967536	0x15edd8c	256	ResAssetObject	resID	
+474	0x158b12c	0x565d2b8	-67967524	0x15edee4	256	MonsterThemeSkinAssetObject	resID	
+475	0x158b138	0x565d2bc	-67967512	0x15ee03c	None	GamePlayConfigResObject	levelRuleType;battleLineNumType;equipPurchaseRuleType;equipCDRuleType;iBattleShopKey;iEquipShopKey;iMaxCountDownTime;iRestrictMiniMapRange;eUseMode;iEquipSlotsCapacityA;iEquipSlotsCapacityB;bodyScaleMin;bodyScaleMax;mapType;mapGridSize;mapCols;mapRows;iHeroLevel;iMaxMoney;iBornMoney;iBattleBeginTime;iExpMoneyReviseKey;iMonsterGrowthKey;iRhythmKey;iHeroLvExpKey;iHeroAttrLevelKey;iHeroBaseAttrKey;iDeadSkillCDSpeed;iSummonerSpellInitCD;averageKillMoney;iCampNum;iCampPlayerNum;saleEquipMoneyRate;iEquipExchangePubishCD;iMaxLevel;treatFlyTextMin;mpRecoverInterval;enableHeroMaxReviveTime;heroMaxReviveTime;overrideFightDuration;fightDuration;t3ActiveEquipBagSize;battleModeConfigType;commonCDFix;summonerCDFix;commonTreatMyselfFix;commonTreatOtherFix;aoeDamageFixForSoldier	monsterThemeSkinAssetObj;monsterThemeSkinAssetObj;mapAsset;mapAsset
+476	0x158b144	0x565d2c0	-67967500	0x15ef1bc	1552	MatchBattleModeResObject	iBattleMode;iGamePlayMode;ePlayMode;eMatchType;iAIDifficulty;iIsHeroAchi;isNegativeScFlag;iBornFlowDelay;isRecordMoments;enableRecordHeroAchievement;isHeroAssisAwardNoShare;isCanQuitGameInAllAI;isMVPCalUseAllPro;iMvpScoreModeID;afkConfigID;isHangupManagedFlag;isHangupVoteFlag;hangupProcessType;iSurrenderOpenTime;iSurrenderAllPassFinishTime;iSurrenderTime;iSurrenderCD;iHangUpApprovePercent;iHangUpVoteTime;remakeHangupTime;remakeCheckTime;remakeContinueTime;remakeVotingTime;remakeTipsTime;remakeApprovePercent;remakeTeammateRank;remakeCountGreaterThanRank;remakeCountLessThanRank;remakeChampGrade;remakeCountGreaterThanChampGrade;remakeCountLessThanChampGrade;isPracticeModeDriver	
+477	0x158b150	0x565d2c4	-67967488	0x15ef830	1388	BattleLevel_DC	battleBeginTime;maxCountDownTime	newRes;newRes;gamePlayConfig;gamePlayConfig;anchorConfig;anchorConfig;mapAnchor;mapAnchor
+478	0x158b15c	0x565d2c8	-67967476	0x15efe00	808	BattleLevel	MoneyAddRate	battle;battle;_DC;_DC
+479	0x158b168	0x565d2cc	-67967464	0x15f018c	572	FixNavAstar	openedValue;closedValue	variableTable;variableTable
+480	0x158b174	0x565d2d0	-67967452	0x15f042c	292	MapPolygonVertex	x;y	
+481	0x158b180	0x565d2d4	-67967440	0x15f05b4	564	MapPolygon	aabb;verticeCount	vertices;vertices
+482	0x158b18c	0x565d2d8	-67967428	0x15f084c	256	FixGrass	grassId	
+483	0x158b198	0x565d2dc	-67967416	0x15f09a4	600	GlobalStandTable	maxRow;maxCol;origin	elementalFlagTable;elementalFlagTable
+484	0x158b1a4	0x565d2e0	-67967404	0x15f0c60	1940	FixNavigation	boundAabb;indexMapSize	obstaclePolygons;obstaclePolygons;grassPolygons;grassPolygons;icePolygons;icePolygons;navPathForVisi;navPathForVisi;astarForVisi;astarForVisi;map;map
+485	0x158b1b0	0x565d2e4	-67967392	0x15f1458	1080	VisiBattleMap	mapIndex	navigation;navigation;_DC;_DC;_MapDataSet;_MapDataSet
+486	0x158b1bc	0x565d2e8	-67967380	0x15f18f4	528	BattleTeamStatistic	totalGenerateSoldiers	team;team
+487	0x158b1c8	0x565d2ec	-67967368	0x15f1b68	572	BattleMinion	soldierQuickState;soldierQuickOver	skin;skin
+488	0x158b1d4	0x565d2f0	-67967356	0x15f1e08	1124	MonsterComponentEvolution	curEvolutionID;lastEvolutionID;lastRefMonsterID;fadeOutFlow;fadeInFlow;evolutionState;originDeadSkill;curDeadSkill;evolutionSkinID;bucketHandle	evolutionDic;evolutionDic;preConditionFlows;preConditionFlows
+489	0x158b1e0	0x565d2f4	-67967344	0x15f22d0	1028	BattleMonster		killAssist;killAssist;skin;skin;evolution;evolution
+490	0x158b1ec	0x565d2f8	-67967332	0x15f2738	756	BattleTurret		killAssist;killAssist;skin;skin
+491	0x158b1f8	0x565d2fc	-67967320	0x15f2a90	484	BattleSpring		skin;skin
+492	0x158b204	0x565d300	-67967308	0x15f2cd8	756	BattleHomebase		killAssist;killAssist;skin;skin
+493	0x158b210	0x565d304	-67967296	0x15f3030	508	EvacuateDepotItemData	iID;roleID;itemID;itemNum;isEquipping;index;equipBagId;consumeSkillId	
+494	0x158b21c	0x565d308	-67967284	0x15f3290	528	EvacuateDataMgr	uniqueID	clientSetFlag;clientSetFlag
+495	0x158b228	0x565d30c	-67967272	0x15f3504	364	HexAramDataMgr	selectedGainQuality;preRoundRandomCount;ignoreSecurityCheck;ignoreExcludeCheck	
+496	0x158b234	0x565d310	-67967260	0x15f36d4	940	RuinDataMgr	curRound;maxRound;monsterNum;monsterTotalNum;monsterCreatedFinish;roundTime;inBattle;isPause;isSentEndEvent;killRuinMonsterCount;killRuinElitesCount;killRuinBossCount	monsters;monsters
+497	0x158b240	0x565d314	-67967248	0x15f3ae4	400	PixiuStatInfo	playerRoleId;receiveAwardRound;receiveAwardSycee;receiveAwardID;settlementSycee	
+498	0x158b24c	0x565d318	-67967236	0x15f3cd8	292	PixiuBetInfo	playerRoleId;restlt	
+499	0x158b258	0x565d31c	-67967224	0x15f3e60	880	PixiuAwardMgr	onPathSelect;onBet;pairIndex	lastBetOnWinner;lastBetOnWinner;pixiuStatInfoDic;pixiuStatInfoDic
+500	0x158b264	0x565d320	-67967212	0x15f4234	600	CherryTeamMatchMgr	teamInitMatchWeight;teamRandomMatchWeight;teamExtraMatchWeight	teamMatchRecordsDict;teamMatchRecordsDict
+501	0x158b270	0x565d324	-67967200	0x15f44f0	472	FightRecord	teamId;result;sceneId;member1RoleId;member1DamageValue;member2RoleId;member2DamageValue	
+502	0x158b27c	0x565d328	-67967188	0x15f472c	904	CherryTeam	id;curHp;isLoss;lossFixTime;camp;isSettlement;maxWinStreak;curWinStreak;curLossStreak;maxLossStreak;iTrapGroupNum;iTransGroupNum;iSummonedGroupNum;isSurrender;surrenderTime;endRound;rank;noDeadWinRoundNum;deadWinRoundNum	
+503	0x158b288	0x565d32c	-67967176	0x15f4b18	760	CherryDataMgr	curRound;curDuration;curRoundStartFrameCount;maxRound;curFightRound;curRoundType;teamInitHP;lossTeamNum;activePixiu;targetNpcResId;closeCalPlayerGamePoint;selectedNPCId;selectedGainQuality;preRoundRandomCount;ignoreSecurityCheck	
+504	0x158b294	0x565d330	-67967164	0x15f4e74	580	GamePlayComponent	resID;battleId	m_parallelFlowMgr;m_parallelFlowMgr
+505	0x158b2a0	0x565d334	-67967152	0x15f511c	256	GamePlayComponentMgr	battleId	
+506	0x158b2ac	0x565d338	-67967140	0x15f5274	1152	SubBattle	subBattleType;battleID;state	members;members;heros;heros;map;map
+507	0x158b2b8	0x565d33c	-67967128	0x15f5758	364	WayPointParam	x;y;z;hp	
+508	0x158b2c4	0x565d340	-67967116	0x15f5928	760	ActorInitialInfo	aiTag;isPreload;ownerObjId;resId;skinId;summonMonsterSkillLevel;roleId;pos;forward;camp;extraHeroBaseInfoIndex;petId;isHero;ignoreRuneSkills;ignoreSummonerSkill	
+509	0x158b2d0	0x565d344	-67967104	0x15f5c84	292	ActorMiniMapIconVisibleData	visibleToCamp;refCount	
+510	0x158b2dc	0x565d348	-67967092	0x15f5e0c	328	SkillHurtStrengthenUnitRef	uid;addValue;incValue	
+511	0x158b2e8	0x565d34c	-67967080	0x15f5fb8	744	ActorComponentMarkHero	markEffectiveCD;markSelectCD;markTriggerResetCD;selectRemainTime;markSelectTime;markHeroType;currentMarkCamp	currentMarkHero;currentMarkHero
+512	0x158b2f4	0x565d350	-67967068	0x15f6304	364	ActorComponentFow	bIgnoreGrassLastTime;bIgnoreTerrainLastTime;bInGrassLastTime;lastMapIndex	
+513	0x158b300	0x565d354	-67967056	0x15f64d4	640	TargetSystem	targetPriorityPlan;movejoystickCast;auxiliaryWardType;autoBTAttack;targetType;startFrameCount;lastAutoRefreshTypeChangeFrame;defaultTarget;tauntManualTarget;allyTarget;tauntCount;targetAutoRefreshType	
+514	0x158b30c	0x565d358	-67967044	0x15f67b8	484	ActorActionAuxiliaryProcessor		actor;actor
+515	0x158b318	0x565d35c	-67967032	0x15f6a00	484	ActorFollowAuxiliaryProcessor		universalOpConfig;universalOpConfig
+516	0x158b324	0x565d360	-67967020	0x15f6c48	1508	InputBufferAction	seq;skillIndex;buttonDownFrames;tapExtends;syncTargetID;targetPosZ;buttonDownFrameCount;timestamp;lifespan;focusPosZ;focusPosX;casterPosZ;casterPosX;skillID;targetPosX;casterPos;moveForward;casterDir;targetPos;focusPos;type;aimType;forceInputSkill;flashNum;forceInputSkillId;isNormalAttack;isUseSkillOperateData;extendParam	skill;skill
+517	0x158b330	0x565d364	-67967008	0x15f7290	652	InputBufferActionLogic	minCastTime;dequeueReason;isAutoAttack;isCancelled;forbidTickNow;isUsed;isDriveByInput;isFollowTooClose;isCharSkillCompolete2Cast;ignoreCastTime;ignoreAudio;copiedSkill	
+518	0x158b33c	0x565d368	-67966996	0x15f7580	880	ActorAttackAuxiliaryProcessor	currentSkillIsAutoAttack;canMoveForVisual;canRotateForVisual	currentSkill;currentSkill;curSkillList;curSkillList
+519	0x158b348	0x565d36c	-67966984	0x15f7954	484	ActorAuxiliaryProcessor		actor;actor
+520	0x158b354	0x565d370	-67966972	0x15f7b9c	1300	ActorComponentAuxiliary		idleProcessor;idleProcessor;attackProcessor;attackProcessor;followProcessor;followProcessor;actionProcessor;actionProcessor
+521	0x158b360	0x565d374	-67966960	0x15f8114	256	ActorComponentVisible	lastVisibility	
+522	0x158b36c	0x565d378	-67966948	0x15f826c	436	ActorComponentLife	bronFrameCount;lifeTime;maxLifeTime;delayDieTime;alivedTime;lifeTimeType	
+523	0x158b378	0x565d37c	-67966936	0x15f8484	572	ActorComponentSummmon	dieSyncCaller;createTime	createSkill;createSkill
+524	0x158b384	0x565d380	-67966924	0x15f8724	380	ActorComponentFlowMgr	flowBorn;flowDie;flowRun;flowFakeDie;flowPosture	
+525	0x158b390	0x565d384	-67966912	0x15f8904	256	ActorComponentNpcCtrl	lastMoveFrame	
+526	0x158b39c	0x565d388	-67966900	0x15f8a5c	436	ActorSpellShieldHitInfo	skillUseGuid;hitFrameCount;skillResId;hitCount;giverId;targetId	
+527	0x158b3a8	0x565d38c	-67966888	0x15f8c74	292	ActorSpellShieldMgr	spellShieldStateType;spellShieldRef	
+528	0x158b3b4	0x565d390	-67966876	0x15f8dfc	484	ActorVisionMgr		dictSightPosition;dictSightPosition
+529	0x158b3c0	0x565d394	-67966864	0x15f9044	256	ActorKnockAnimationMgr	currentKnockIdx	
+530	0x158b3cc	0x565d398	-67966852	0x15f919c	256	ActorComponentBuffMgr	skipGiverSourceTrace	
+531	0x158b3d8	0x565d39c	-67966840	0x15f92f4	256	SwitchSkillData	skillId	
+532	0x158b3e4	0x565d3a0	-67966828	0x15f944c	484	HeroTalentMgr		actor;actor
+533	0x158b3f0	0x565d3a4	-67966816	0x15f9694	924	SpellBookRandomSkillMgr	RANDOM_SKILL_COUNT;remainSelectCount;selectedCount;curSelectSkillId;curSelectFreeSkillId;enableFreeUltra;EASTER_EGG_RANDOM_SKILL_COUNT;isEasterEggOpen;curEasterEggSelectFreeSkillId;curEasterEggSelectSlot;gmEasterEggUnlimitedRefresh;isRefreshEasterEggSkill	actor;actor
+534	0x158b3fc	0x565d3a8	-67966804	0x15f9a94	484	VirtualSkillMgr		actor;actor
+535	0x158b408	0x565d3ac	-67966792	0x15f9cdc	484	FreeSkillMgr		actor;actor
+536	0x158b414	0x565d3b0	-67966780	0x15f9f24	436	HeroRandomGainMgr_GainData	resId;level;layerBuffId;gainPickIndex;gainScourceType;needReport	
+537	0x158b420	0x565d3b4	-67966768	0x15fa13c	None	HeroRandomGainMgr	RANDOM_GAIN_COUNT;DEFAULT_WEIGHT;selectCardPoolSwitch;gainQualityDic;preRandomDic;curQualityType;gainListGenericCount;gainListFavoriteCount;gainListNormalCount;gainListRecommendCount;iExcludeTag;iIncludeTag;refreshCount;bonusRefreshCount;maxRefreshCount;isGainReady;curRound;curStartRandomRound;lastSelectGainRound;curVersionTag;gainMode;rate_met;rate_manualRefresh;isInDiscoveryStatus;showSwordSelectTime;infoTag1;infoTag2;attackChargeSkillId;attackChargeOperId;forbidManualAdd;maxEnhanceLevel;curEnhanceCard;curEnhanceLevel;curRoundEnhanceNum;curUpgradeRateRate;isGmSetUpgradeRate;showUpgradeCardBtn;maxUpgradeCardNum;lastReRandomId;curCardId;showGainPoolResType;debugLog;isOpenGainLockMode;enableDOM;enableDOMFinal;ultraGmState;frontCardID;isClearingAllGain;extraRefreshCount;needShowFlySword;hasSelectFlySword;LastSelectFlySwordIndex;gmSymbiosisOrMutationGainID;receivePixiuReward;pixiuRefreshedCount;isCollectPixiuReward	actor;actor
+538	0x158b42c	0x565d3b8	-67966756	0x15fac28	528	ActorFlow	isEvolve	owner;owner
+539	0x158b438	0x565d3bc	-67966744	0x15fae9c	724	SkillEvolveNode	isEvolved;canEvolve;slotIndex;evolveSkillId;originSkillId;canSkillBackswingEvolve	evolveFlow;evolveFlow
+540	0x158b444	0x565d3c0	-67966732	0x15fb1d4	292	SkillEvolveMgr	hasEvolveSkill;isSkillEvolving	
+541	0x158b450	0x565d3c4	-67966720	0x15fb35c	800	SkillCDMgr	cdSpeed	caster;caster;nodeList;nodeList
+542	0x158b45c	0x565d3c8	-67966708	0x15fb6e0	484	PickupSkillMgr		actor;actor
+543	0x158b468	0x565d3cc	-67966696	0x15fb928	364	DynamicPassiveSkill	type;priority;skillNum;canOverlay	
+544	0x158b474	0x565d3d0	-67966684	0x15fbaf8	436	DynamicActiveSkill	state;skillNum;slotIndex;customItemId;needCustomBtnScale;btnScale	
+545	0x158b480	0x565d3d4	-67966672	0x15fbd10	756	DynamicSkillMgr		actor;actor;delayDelSkills;delayDelSkills
+546	0x158b48c	0x565d3d8	-67966660	0x15fc068	292	ActorChangeModelMgrLgc_LgcBucket	isChangeInherit;bucketID	
+547	0x158b498	0x565d3dc	-67966648	0x15fc1f0	888	SpellBookSkillMgr	currentUSBSkillID;bucketHandle;matHandlerBuffID	actor;actor;matHandlerBuff;matHandlerBuff
+548	0x158b4a4	0x565d3e0	-67966636	0x15fc5cc	484	LevelSkillMgr		actor;actor
+549	0x158b4b0	0x565d3e4	-67966624	0x15fc814	1068	SummonerSkillMgr	punishOriSkillId;USBSlot;usingUSBSkillID;USBNextSlot;usingNextSlotUSBSkillID;backup_USBSlot;switchProtectTime;enableSwitchS1;enableSwitchS2;curSkillIdSwitchS1;curSkillIdSwitchS2;cachedSkill_1;cachedSkill_2;cachedSkill_1_isFreeSkill;cachedSkill_2_isFreeSkill;flash_slot	actor;actor
+550	0x158b4bc	0x565d3e8	-67966612	0x15fcca4	256	GemRuleSkillInfo	ruleType	
+551	0x158b4c8	0x565d3ec	-67966600	0x15fcdfc	256	GemSlotSkillInfo	slotIndex	
+552	0x158b4d4	0x565d3f0	-67966588	0x15fcf54	484	GemSkillMgr		ownerActor;ownerActor
+553	0x158b4e0	0x565d3f4	-67966576	0x15fd19c	328	RuneStatData	runeId;statType;statValue	
+554	0x158b4ec	0x565d3f8	-67966564	0x15fd348	484	RuneSkillMgr		actor;actor
+555	0x158b4f8	0x565d3fc	-67966552	0x15fd590	628	SkillConsumeMgr	valueGlobal;rateGlobal;valueDic;rateDic	caster;caster
+556	0x158b504	0x565d400	-67966540	0x15fd868	None	ActorComponentSkillMgr	isInited;skillsLevel;lastSkillLevelUpTime;minSearchRange;wardSkill	runeSkilMgr;runeSkilMgr;gemSkillMgr;gemSkillMgr;summonerSkillMgr;summonerSkillMgr;levelSkillMgr;levelSkillMgr;spellBookSkillMgr;spellBookSkillMgr;dynamicSkillMgr;dynamicSkillMgr;pickupSkillMgr;pickupSkillMgr;skillEvolveMgr
+557	0x158b510	0x565d404	-67966528	0x15feb30	528	ActorComponentFootPrint	cachedTileIdx	cachedTile;cachedTile
+558	0x158b51c	0x565d408	-67966516	0x15feda4	536	ActorState	stateId	actor;actor
+559	0x158b528	0x565d40c	-67966504	0x15ff020	496	ActorComponentFSM	currentState;lastState;recentlyState;lastAniId;currentAniId;isIgnoreIdleAniState;isKeepCurrentAniPlay;keepAniStateEqualsFSM	
+560	0x158b534	0x565d410	-67966492	0x15ff274	292	DamageFixValue	value;hideTips	
+561	0x158b540	0x565d414	-67966480	0x15ff3fc	536	AttrNode	constantGet	hooker;hooker
+562	0x158b54c	0x565d418	-67966468	0x15ff678	484	AttrData		actor;actor
+563	0x158b558	0x565d41c	-67966456	0x15ff8c0	328	AbilityNode	refCount;op_seq;clr_seq	
+564	0x158b564	0x565d420	-67966444	0x15ffa6c	484	ActorAbilityMgr		actor;actor
+565	0x158b570	0x565d424	-67966432	0x15ffcb4	None	ActorComponentAttribute	kdaSettlement;dashBreakRefNum;fowIgnoreTerrain;fowIgnoreGrass;goldBody;bodyInCannon;shieldBlock;flashNum;brittleNum;invincible;ignoreGrass;isOnHurtDie;ignoreTerrain;isDeadProtected;protectedType;zombieState;isForbidRevive;isForbidResetRevivePos;isBlind;isMoving;smoothRotation;isDead;lockForwardRefcount;lockTarget;diableOtherActorSetForward;IsVisableInDead;isAllowHealHP;isInit;isControlRotate;isRotateToAniAngle;forceMovingFrame;forceMoveingRefcount;rushFollowRefCount;passiveMoveingRefcount;isForbidPassiveMove;disableAtkFollow;knockRefNum;repelRefNum;dashRefNum;attachedRefNum;polyMorphsRefNum;nearsightedRefNum;loseAllySightRefNum;untargetableRefNum;untargetAnyWayRefNum;untargetableExceptTurretRefNum;needFilterCastRefNum;hpBarShowWhenBorn;displayWhenNearsighted;leftHitNum;selectType;level;summonMonsterSkillLevel;filter;lastPosition;bodySize;maxlifeTime;deadlineForSuicide;baseVision;rotateTime;constantMoveSpeed;runFastSpeed;lifeTime	
+566	0x158b57c	0x565d428	-67966420	0x1601550	292	FixObstacle	aabb;hashCode	
+567	0x158b588	0x565d42c	-67966408	0x16016d8	356	MapGateInfo	gateId;camp;obstaclesWhenClose;obstaclesWhenOpen	
+568	0x158b594	0x565d430	-67966396	0x16018a0	484	MapGateManager		gateInfos;gateInfos
+569	0x158b5a0	0x565d434	-67966384	0x1601ae8	256	UnitComponentRes	ucType	
+570	0x158b5ac	0x565d438	-67966372	0x1601c40	852	UnitComponent	componentType;enabled	owner;owner;res;res
+571	0x158b5b8	0x565d43c	-67966360	0x1601ff8	672	Unit	objId;battleID;position;forward;destroyed	components;components
+572	0x158b5c4	0x565d440	-67966348	0x16022fc	536	MapInfoPolyline	id	vertices;vertices
+573	0x158b5d0	0x565d444	-67966336	0x1602578	292	Point	x;y	
+574	0x158b5dc	0x565d448	-67966324	0x1602700	256	MapInfoPoint	id	
+575	0x158b5e8	0x565d44c	-67966312	0x1602858	1028	MapInfoPointData		points;points;polylines;polylines;polygons;polygons
+576	0x158b5f4	0x565d450	-67966300	0x1602cc0	256	SceneResBase	position	
+577	0x158b600	0x565d454	-67966288	0x1602e18	536	SceneRes	forward	path;path
+578	0x158b60c	0x565d458	-67966276	0x1603094	672	MapTileConfigResObject	cellSize;packedGrass;packedWall;packedBox;packedWater	sceneAssetObjects;sceneAssetObjects
+579	0x158b618	0x565d45c	-67966264	0x1603398	328	FowRadiusFixInfo	startRadius;endRadius;radiusFix	
+580	0x158b624	0x565d460	-67966252	0x1603544	328	FowMapCellPatch	x;y;fovType	
+581	0x158b630	0x565d464	-67966240	0x16036f0	484	SceneResObstacle		polygon;polygon
+582	0x158b63c	0x565d468	-67966228	0x1603938	528	SceneResGrass	grassId	polygon;polygon
+583	0x158b648	0x565d46c	-67966216	0x1603bac	484	SceneResBuilding		polygon;polygon
+584	0x158b654	0x565d470	-67966204	0x1603df4	284	SceneResLine	a;b	
+585	0x158b660	0x565d474	-67966192	0x1603f74	844	SceneResGate	gateId;navFlag	polygon;polygon;line;line
+586	0x158b66c	0x565d478	-67966180	0x1604324	292	SceneResVertice	x;y	
+587	0x158b678	0x565d47c	-67966168	0x16044ac	484	SceneResBoundary		polygon;polygon
+588	0x158b684	0x565d480	-67966156	0x16046f4	680	SceneResObject	layerGroupId;layerId;isDefualtLayer;shouldPreLoad;layerType	boundary;boundary
+589	0x158b690	0x565d484	-67966144	0x1604a00	256	MapConfigAssetObject	resID	
+590	0x158b69c	0x565d488	-67966132	0x1604b58	2192	MapResObject	isLoadWhiteModel;isTileBasedMap;isRealTimeFow;maxRealTimeRadius;limitedView;innerRadius;sectorAngle;fowGridSizeForRealTime;fowExtendDistance	anchorCfg;anchorCfg;mapConfigAssets;mapConfigAssets;layerSceneResList;layerSceneResList;radiusFixInfos;radiusFixInfos;tileConfig;tileConfig;infoPointData;infoPointData
+591	0x158b6a8	0x565d48c	-67966120	0x160544c	1352	MapDataSet	centerPosition	mapRes;mapRes;_DC;_DC;mapNodesRes;mapNodesRes;preloadLayers;preloadLayers
+592	0x158b6b4	0x565d490	-67966108	0x16059f8	996	MapNodeRes	position;forward;campID;nodeType;functionType;groupID	name;name;flowRes;flowRes
+593	0x158b6c0	0x565d494	-67966096	0x1605e40	484	MapConfigResObject		mapNodes;mapNodes
+594	0x158b6cc	0x565d498	-67966084	0x1606088	484	SimpleAnchorGroupData		simpleAnchors;simpleAnchors
+595	0x158b6d8	0x565d49c	-67966072	0x16062d0	484	MapBlockAnchorData		blockGroups;blockGroups
+596	0x158b6e4	0x565d4a0	-67966060	0x1606518	328	MapPointObj	type;line;battleCamp	
+597	0x158b6f0	0x565d4a4	-67966048	0x16066c4	484	MapPointMgr		mapPointList;mapPointList
+598	0x158b6fc	0x565d4a8	-67966036	0x160690c	528	MapPathPointObj	line	pathPointPos;pathPointPos
+599	0x158b708	0x565d4ac	-67966024	0x1606b80	484	MapPathPointMgr		mapPointPathList;mapPointPathList
+600	0x158b714	0x565d4b0	-67966012	0x1606dc8	1844	BattleMap_DC		mapPathPointMgr;mapPathPointMgr;mapPointMgr;mapPointMgr;mapBlockMgr;mapBlockMgr;simpleAnchorGroup;simpleAnchorGroup;actorAnchors;actorAnchors;mapNodesRes;mapNodesRes
+601	0x158b720	0x565d4b4	-67966000	0x1607560	2240	BattleMap	mapIndex;centerPosition;battleID	battle;battle;m_parallelFlowMgr;m_parallelFlowMgr;_DC;_DC;_MapDataSet;_MapDataSet;mapNodeUnits;mapNodeUnits;mapLayerManager;mapLayerManager;mapGateManger;mapGateManger
+602	0x158b72c	0x565d4b8	-67965988	0x1607e84	1424	BattleMonsterSpawner	beginStopTime;isStopCreateSoilder;curSoilderNum	anchorDatas;anchorDatas;tempAnchorList;tempAnchorList;anchorGroupList;anchorGroupList;anchorMgr;anchorMgr
+603	0x158b738	0x565d4bc	-67965976	0x1608478	564	SimpleAnchorLevelData	positionList;forwardList	childAnchorGroupNameList;childAnchorGroupNameList
+604	0x158b744	0x565d4c0	-67965964	0x1608710	484	SimpleAnchorData		simpleAnchorLevelDict;simpleAnchorLevelDict
+605	0x158b750	0x565d4c4	-67965952	0x1608958	1028	SimpleAnchorMgr		simpleAnchorDic;simpleAnchorDic;simpleAnchorCfgs;simpleAnchorCfgs;anchorMgr;anchorMgr
+606	0x158b75c	0x565d4c8	-67965940	0x1608dc0	960	MapBlockPointData	position;forward;lifeTime;assetType;audioDelay	prefab;prefab;audio;audio
+607	0x158b768	0x565d4cc	-67965928	0x16091e4	852	MapBlockGroupData	obstacleConfigID;vlDestroyAsset	minimapPath;minimapPath;blockPoints;blockPoints
+608	0x158b774	0x565d4d0	-67965916	0x160959c	872	MapBlockAnchorMgr	anchorCount;activeAnchorDic;blockAnchorDic	blockAnchorConfigList;blockAnchorConfigList;anchorMgr;anchorMgr
+609	0x158b780	0x565d4d4	-67965904	0x1609968	1080	MapAnchorMgr	mapIndex	map;map;battle;battle;anchorMap;anchorMap
+610	0x158b78c	0x565d4d8	-67965892	0x1609e04	484	MapAnchorComponent		anchor;anchor
+611	0x158b798	0x565d4dc	-67965880	0x160a04c	484	SharedAnchor		rawValue;rawValue
+612	0x158b7a4	0x565d4e0	-67965868	0x160a294	484	AnchorFlow		anchor;anchor
+613	0x158b7b0	0x565d4e4	-67965856	0x160a4dc	756	MapAnchorFlowComponent		anchorFlow;anchorFlow;anchorParallelFlow;anchorParallelFlow
+614	0x158b7bc	0x565d4e8	-67965844	0x160a834	1512	MapAnchor	id;mapAnchorType;anchorIdx;currentState;mapIndex	res;res;flowComponent;flowComponent;fsmComponent;fsmComponent;anchorMgr;anchorMgr
+615	0x158b7c8	0x565d4ec	-67965832	0x160ae80	808	MonsterAnchorGroup	lastReFreshTime	anchorList;anchorList;nextRefreshAnchor;nextRefreshAnchor
+616	0x158b7d4	0x565d4f0	-67965820	0x160b20c	364	MonsterAnchorActorInfo	actorCount;intervalWave;pauseWave;actorID	
+617	0x158b7e0	0x565d4f4	-67965808	0x160b3dc	680	MapObjBase	id;position;forward;mapObjType;campType	nodeName;nodeName
+618	0x158b7ec	0x565d4f8	-67965796	0x160b6e8	284	MapAnchorBase	flowRes;parallelFlowRes	
+619	0x158b7f8	0x565d4fc	-67965784	0x160b868	600	MapActorPointObj_ApplyBuffInfo	buffOpenTimeLength;lastBuffOpenTime;isApplyBuff	applyBuffTrigger;applyBuffTrigger
+620	0x158b804	0x565d500	-67965772	0x160bb24	364	ReplaceTriggerEvent	type;param;sourceIndex;replaceId	
+621	0x158b810	0x565d504	-67965760	0x160bcf4	364	TriggerEvent	type;param;param2;operatorS	
+622	0x158b81c	0x565d508	-67965748	0x160bec4	364	ActorInfo	actorCount;intervalWave;pauseWave;actorID	
+623	0x158b828	0x565d50c	-67965736	0x160c094	716	MapActorPointObj_LeashConfig	ID;leashRangeCenter;leashRangeInnerRadius;leashRangeRadius;leashRangeAngle;leashRangeForward	leashIndicatorAlphaCurve;leashIndicatorAlphaCurve
+624	0x158b834	0x565d510	-67965724	0x160c3c4	None	MapActorPointObj	camp;areaCamp;line;defenceLayer;anchorType;poiType;refreshType;indicatorType;anchorGroupID;refreshAtFirst;isShowBornTime;isShowLeaveTime;isHideBornLeaveProgressBorder;isHideGroupIconCheckVisible;dieRefreshIgnoreSummonChild;isRandomBornPos;isMiniMapAnchorGroup;bEnableRandomGroup;enablePreShowIcon;useLeashRange;isNeedIndicator;indicatorBuffCheckID;maxShowTime;maxCountDownCircleTime;maxGreyIconShowTime;showBornDelayTime;groupIdForAnalysis;plantAnalysisId;poiRadius;interval;startTime;intervalInOneWave;buffOpenTimeLength;leashRangeInnerRadius;leashRangeRadius;leashRangeAngle;leashRangeForward;indicatorTriggerRadius;indicatorRadius;indicatorAlpha;isForceForward;forceForwardPos	leashIndicatorAlphaCurve;leashIndicatorAlphaCurve;leashConfigList;leashConfigList;actorInfos
+625	0x158b840	0x565d514	-67965712	0x160d234	256	SpawnRandomGroup	nextGenrateIndex	
+626	0x158b84c	0x565d518	-67965700	0x160d38c	572	BattleCountdownMgr	countTime;battleBeginTime	battle;battle
+627	0x158b858	0x565d51c	-67965688	0x160d62c	None	MonsterAnchor	changePathRegistered;killInfoRegistered;isAllDie;isApplyBuff;isPrecondition;currentRandomIndex;actorIndex;timeNeedToDie;showTimePercent;showBornOrDieTime;lastBuffOpenTime;lastFreshTime;lastBornTime;lastTriggerAllDieTime;timeNeedToBorn;enableRandomGroup;nextSpawnMonsterID;leashConfigIndex	countDownMgr;countDownMgr;myTeam;myTeam;randomGroup;randomGroup;mapActorPoint;mapActorPoint;tempActorList;tempActorList;cacheActorEventAnchors;cacheActorEventAnchors
+628	0x158b864	0x565d520	-67965676	0x160e3d8	292	CommercialInfoDisguseItemInfo	itemID;intParmValue1	
+629	0x158b870	0x565d524	-67965664	0x160e560	400	BattlePlayerCommercialItem	itemID;totalCount;relatedID;relatedType;currentUseCount	
+630	0x158b87c	0x565d528	-67965652	0x160e754	536	BattlePlayerCommercialInfo	curInteractiveSkillDisguiseItemId	disguiseItemDic;disguiseItemDic
+631	0x158b888	0x565d52c	-67965640	0x160e9d0	328	ExtraBattleHeroInfo	heroId;skinId;aiTag	
+632	0x158b894	0x565d530	-67965628	0x160eb7c	716	BattlePlayerHeroReborn	isHeroBorned;isWait2Live;isWaitDestroy;timeToReborn;lastDiedTime;reviveTime	player;player
+633	0x158b8a0	0x565d534	-67965616	0x160eeac	472	BattleWardInfo	objId;createBattleTime;destroyBattleTime;dieReason;wardType;wardPosition;visionScore	
+634	0x158b8ac	0x565d538	-67965604	0x160f0e8	528	BattlePlayerWardData	totalScore	wardInfo;wardInfo
+635	0x158b8b8	0x565d53c	-67965592	0x160f35c	484	BattleAllyInteractiveData		allyInteractiveDataDic;allyInteractiveDataDic
+636	0x158b8c4	0x565d540	-67965580	0x160f5a4	484	BattlePlayerInteractiveData		allyInteractiveData;allyInteractiveData
+637	0x158b8d0	0x565d544	-67965568	0x160f7ec	572	BattleScoringApplyBuffItem	skillUseGuid;skillUseCount	buffTypeDic;buffTypeDic
+638	0x158b8dc	0x565d548	-67965556	0x160fa8c	292	BattleScoringToEnemyData	roleID;singleKillCount	
+639	0x158b8e8	0x565d54c	-67965544	0x160fc14	364	BattlePlayerDamageDetails	totalDamage;physicalDamage;magicDamage;realDamage	
+640	0x158b8f4	0x565d550	-67965532	0x160fde4	None	BattlePlayerScoringData	damageValueToHero;phyDamage;magicDamage;recvDamageFromAll;recvDamageFromHero;damageValueToAll;damageValueToBuilding;magicHurtToHero;phyHurtToHero;realHurtToHero;towerDamage;damageToSolider;damageToMonster;damageByTower;damageBySolider;damageByMonster;damageMitigatedAfterModification;armorMagicMitigatedDamage;armorReducedDamage;magicResistMitigatedDamage;killElderDragons;maxTrailKillNum;killRedBuff;killMinionAssists;assists;totalDie;heroKilltotalDie;totalKill;totalKillAI;firstBlood;firstBloodHeroId;firstAssistBlood;hangLevel;hangTime;simpleHangTime;killBlueBuff;maxContAssisTimes;assistsWhenLive;killMonsterAll;killLargeMonsters;fiveKill;sixKill;lengendary;killMonsters;fourKill;killSoldiers;killNexus;tripleKill;killBigDragons;maxContKillTimes;killTowers;contKillTimes;lowHpKillNum;mvp;participateBlueBuff;doubleKill;feedLevel;killMonsterGromp;killMonsterWolf;killMonsterScuttler;killEpicMonster;killNormalEarthDragon;killNormalFireDragon	
+641	0x158b900	0x565d554	-67965520	0x1613380	508	BattlePlayerStatistic_ExpStatistic	fromHero;fromSoldier;fromGrow;fromTower;fromNormalMonster;fromLargeMonster;fromEpicMonster;fromOther	
+642	0x158b90c	0x565d558	-67965508	0x16135e0	1480	BattlePlayerStatistic_MoneyStatistic	fromAll;fromKill;fromAssist;fromSoliderKill;fromSoliderShare;fromGrow;fromTower;fromNormalMonster;fromLargeMonster;fromMyMonster;fromEnemyMonster;farmPhaseFromEnemyMonster;fromEpicMonster;fromOther;fromShare;fromStrategicPoint;fromBigDragon;fromSmallDragon;fromRiftHerald;fromExtraLowestGoldAward;fromTowerPlate;fromTowerPlateCount;fromGhost;supportEquip_Normal;supportEquip_Task;fromHexRex;fromHexBaron;fromHexCannon;fromHexPoro;fromHexBox;fromMushroom;fromSystem;apartFromSP;earnSoliderMoneySampleData;getMoneySpeedInSampleInternal	
+643	0x158b918	0x565d55c	-67965496	0x1613c0c	484	BattlePlayerStatistic		_battleHero;_battleHero
+644	0x158b924	0x565d560	-67965484	0x1613e54	1444	HangUpMgr_HangUpInfo	isHangupHintProcessed;isHangupBroadcastEnterProcessed;isHangupBroadcastQuitProcessed;eHangupRuleValue;oldCurHangupTime;newCurHangupTime;oldTotalHangupTime;newTotalHangupTime;totalHangupTime;continuousHangupTime;AFKOfflineBuffTime;voteState;newHangupEnterInfoIndex;recordNewAFKTimeListIndex;isRemakeHangUp;isAiManaging;isNoOperating;lastOfflineState;curNoInputTime;isAiManageRecallProcessed;isAiManageVoteProcessed;aiManageProcessType;aiManageVoteProcessType;triggerAIManageTimes;offlineTime;aiControlTime;noOperationHangupTime;cherryPunishFlag;cherryCurRoundAliveTime;kickOffFlag;haveRemakeTips;hangUpManagePlayer;isMuteTakeOver;muteTakeOverTag	
+645	0x158b930	0x565d564	-67965472	0x161445c	328	SkillDefaultRangeStrengthen_SkillTypeData	skillType;addValue;incValue	
+646	0x158b93c	0x565d568	-67965460	0x1614608	484	SkillDefaultRangeStrengthenData		typeDatas;typeDatas
+647	0x158b948	0x565d56c	-67965448	0x1614850	292	ActorComponentPostureAnim	disableCount;actived	
+648	0x158b954	0x565d570	-67965436	0x16149d8	572	AttrBEUnit	modRate;modValue	cacheBuff;cacheBuff
+649	0x158b960	0x565d574	-67965424	0x1614c78	400	GlobalChaosZoneAttrData	maxHpMul;maxHpAdd;tenacity;armourAdd;magicDefAdd	
+650	0x158b96c	0x565d578	-67965412	0x1614e6c	328	HoldSelectSkillGemData	unique;count;quality	
+651	0x158b978	0x565d57c	-67965400	0x1615018	256	SelectSkillGemData	uniqueRound	
+652	0x158b984	0x565d580	-67965388	0x1615170	400	GemData	slotIndex;quality;skillGemCategoryID;bCommon;weight	
+653	0x158b990	0x565d584	-67965376	0x1615364	484	PreparedSkillGemData		preparedGemDatas;preparedGemDatas
+654	0x158b99c	0x565d588	-67965364	0x16155ac	564	ActorComponentChaosZone	preparedSlotGems;preparedCommonGems	holdSelectGems;holdSelectGems
+655	0x158b9a8	0x565d58c	-67965352	0x1615844	364	EquipmentForgeRequest	quality;requireEquipTags;excludeActiveEquip;sourceType	
+656	0x158b9b4	0x565d590	-67965340	0x1615a14	544	EquipmentForgeOption	id;equip1;equip2;equip3;isRainbow;requestQuality;requestRequireEquipTags;requestExcludeActiveEquip;sourceType	
+657	0x158b9c0	0x565d594	-67965328	0x1615c98	328	EquipmentForgeStashEquip	equipId;sellPriceModify;sourceType	
+658	0x158b9cc	0x565d598	-67965316	0x1615e44	736	HeroComponentEquipmentForge	nextOptionId;equipForgeTotalCost;refreshCount;refreshGMCount;maxRefreshCount;includeTagDic;excludeTagDic	currentOption;currentOption
+659	0x158b9d8	0x565d59c	-67965304	0x1616188	976	HeroComponentForge	nextStockInTime;stockInTime;stockInNumPerRound;residueUpRateTimes;sRankBoostTriggerTimes;totalForgeCost;singleCardNum;lightCardNum;darkCardNum;equipCardNum;coreCardNum;functionCardNum;forceForgeCoreTriggered	dodgeFilter;dodgeFilter
+660	0x158b9e4	0x565d5a0	-67965292	0x16165bc	528	ActorComponentSelectHeroInteract	markHeroType	selectedHero;selectedHero
+661	0x158b9f0	0x565d5a4	-67965280	0x1616830	1048	ActorComponentHeadbar	showRecentlyDamage;showAdditionalDisplay;headbarScale;changeFollowActorOffset;executeValue;forceShowExcuteIndicator;visiStack;stateIconShowing;leftVfxUniqueId;stateIconOffsetVisiTo;stateIconOffset;equipKillPercent;hideShoppingVfx;resourceBarColor;resourceBarProgress	changeFollowActor;changeFollowActor
+662	0x158b9fc	0x565d5a8	-67965268	0x1616cac	292	EvacuateSearchData	id;position	
+663	0x158ba08	0x565d5ac	-67965256	0x1616e34	328	ActorComponentEvacuateDepot	goldNum;equippingSlotCnt;backSlotCnt	
+664	0x158ba14	0x565d5b0	-67965244	0x1616fe0	364	BonusFixValue	guid;subType;value;filterType	
+665	0x158ba20	0x565d5b4	-67965232	0x16171b0	528	DelayDestroyStealInfo	startTime	target;target
+666	0x158ba2c	0x565d5b8	-67965220	0x1617424	888	HeroComponentStealMgr	isStealSoul;isStealEquip;stealSkillType	stealTarget;stealTarget;proceedSkills;proceedSkills
+667	0x158ba38	0x565d5bc	-67965208	0x1617800	688	HeroKilledSumData	fightAddExp;fightAddMoney;fightControlEnemyDuration;fightBeControlledDuration;fightDuration;fightExtraStatSnapshotValid;fightStartTotalExp;fightStartMoneyForShow;fightStartApplyControlBuffDuration;fightStartBeControlledDuration;fightStartTime;fightTotalBeControlledDuration;fightTotalControlledDuration	
+668	0x158ba44	0x565d5c0	-67965196	0x1617b14	256	AssistSnapshot	assistRoleId	
+669	0x158ba50	0x565d5c4	-67965184	0x1617c6c	608	KillAssistSnapshot	snapTime;killerRoleId;deadRoleId	assistSnapshots;assistSnapshots
+670	0x158ba5c	0x565d5c8	-67965172	0x1617f30	1076	HeroComponentKillAssist	awardSegment;awardGold;surplusAwardGold;previousAwardSegment;awardGoldState;killAssistAwardGold;otherAwardGold;dieAwardGold;dieExtraAwardGold;curSPCamp;realAwardGold;lastDieLoseAwardGold;realExtraAwardGold;totalSkillUse;historyKillSnapshots;historyAssistSnapshots	damageToHeroInfoList;damageToHeroInfoList
+671	0x158ba68	0x565d5cc	-67965160	0x16183c8	400	SkinResObject	iHeroID;iResVer;isReplaceResSplit;c4StatueResId;c4ChangeSkinResId	
+672	0x158ba74	0x565d5d0	-67965148	0x16185bc	536	SkinBulletReplace	bulletId	actionInfo;actionInfo
+673	0x158ba80	0x565d5d4	-67965136	0x1618838	284	SkinFlowReplace	actionInfos;replaceActions	
+674	0x158ba8c	0x565d5d8	-67965124	0x16189b8	756	EffectGroupResObject		flowList;flowList;bulletList;bulletList
+675	0x158ba98	0x565d5dc	-67965112	0x1618d10	888	HeroComponentSkin	skinID;skinIndex;bChangeSkinId	effectGroup;effectGroup;resSkin;resSkin
+676	0x158baa4	0x565d5e0	-67965100	0x16190ec	328	EquipStatSellBackUp	equipId;statType;value	
+677	0x158bab0	0x565d5e4	-67965088	0x1619298	364	EquipStatTransferRecord	fromEquipId;toEquipId;statType;value	
+678	0x158babc	0x565d5e8	-67965076	0x1619468	328	EquipStatData	equipId;statType;statValue	
+679	0x158bac8	0x565d5ec	-67965064	0x1619614	328	EquipPurchaseCD	equipID;remainCD;bagId_Or_onlyId	
+680	0x158bad4	0x565d5f0	-67965052	0x16197c0	364	EquipBoxData	groupId;equipBoxId;quality;awardEquipId	
+681	0x158bae0	0x565d5f4	-67965040	0x1619990	328	DynamicBattleEquipAttr	type;value;baseValue	
+682	0x158baec	0x565d5f8	-67965028	0x1619b3c	292	EquipSlot	equipID;isLock	
+683	0x158baf8	0x565d5fc	-67965016	0x1619cc4	904	HeroComponentEquipment	isEquipReplacing;processSeqId;shopOutsideSpringType;shopOutsideSpringEnbaledEquipTypes;activeZombieBuyEquip;notToEquipSlotSize;purchaseLevel;banItemType;banItemQuality;enableBanRule;shopPlanID;sellActiveEquipSkillId;commonIdsCapacity;crShopExp;crShopLevel;crLastChooseCnt;s1;s2;supportEquipPurchased	
+684	0x158bb04	0x565d600	-67965004	0x161a0b0	328	SkillLvUpRule	seqID;ruleID;heroLv	
+685	0x158bb10	0x565d604	-67964992	0x161a25c	436	HeroLvExpData	seqID;heroLvExpKey;level;lvUpExp;killExp;growthAttrFix	
+686	0x158bb1c	0x565d608	-67964980	0x161a474	836	HeroComponentLevelMgr_DC	maxHeroLv;skillLvRuleMaxHeroLv	lvExpResDic;lvExpResDic;skillLvUpRuleDic;skillLvUpRuleDic
+687	0x158bb28	0x565d60c	-67964968	0x161a81c	536	HeroComponentLevelMgr	upNeedExp	__DC;__DC
+688	0x158bb34	0x565d610	-67964956	0x161aa98	1096	HeroComponentPlayerCtrl	isAutoFindPathMoving;isForceMoveStart;isSwitchCtrlObject;isSkillCtrlObject;lastMoveFrame;lastReceiveSkillFrame;lastResponseForward;controllLocalOffset;isForbidCameraFollow	controlObject;controlObject;globalOpRes;globalOpRes
+689	0x158bb40	0x565d614	-67964944	0x161af44	None	BattleHero		playerCtrl;playerCtrl;levelMgr;levelMgr;equipBag;equipBag;skin;skin;killAssist;killAssist;stealMgr;stealMgr;moveStateMgr;moveStateMgr;afkMgr;afkMgr
+690	0x158bb4c	0x565d618	-67964932	0x161c65c	2112	BattlePlayer	idx;groupId;aiTag;isOffline;isFastForwarding;notAutoIncMoney;notAutoIncExp;wait2liveNeedGc;isHeroBorned;isWait2Live;isWaitDestroy;isCheckReviveTime;heroID;skinID;timeToReborn;roleId;shortRoleId;totalCollectMoney;money;credit;targetReviveTime;lastDiedTime;reviveTime;hero;isReplaceHeroHeadIcon;recvInputTime;originHero;isUsingPreRoundHero;heroCounter;enableAutoBuyEquip;isAIPlayer;lastRequestRecommendEquipTime;rebornSpecialType;ignoreStatistics;ignoreSkillSearch;ignoreUISearch;farmTotalCollectMoney	team;team;extraHeroInfos;extraHeroInfos
+691	0x158bb58	0x565d61c	-67964920	0x161cf00	436	MoveToProxy	destination0;destination1;lastArrivedDestination;lastArrivedDestinationFrame;lastMoveStopFrame;lastPositionSaltationFrame	
+692	0x158bb64	0x565d620	-67964908	0x161d118	484	MovementPattern		movement;movement
+693	0x158bb70	0x565d624	-67964896	0x161d360	484	MovementSystem		currentPatterns;currentPatterns
+694	0x158bb7c	0x565d628	-67964884	0x161d5a8	868	ActorComponentMovement	isMoveInput;isMoveRotateState;bEnableLog;moveDestination;nextDestination;lastCorrectedInput;lastMoveForward;previousMoveForward;correctMoveForward;_joystickInput;_lastJoystickInput;skillForward;skillFPForwardType;moveFrameCount;lastManualTickFrameCount;forceStationaryMovable;ignoreModActorSpeed;isIgnoreSdfCollision	
+695	0x158bb88	0x565d62c	-67964872	0x161d970	None	UniversalOperateResObject	iPreviousLocationAnchorVelocity;iPreviousLocationAnchorRange;iCameraOffsetDrag;iCameraOffsetMomentum;iFocusPointResetDelay;iCamAimDrag;iCamAimMomentum;iCamAimP2_Y;iCamAimP2_X;iCamAimP1_Y;iCamAimP1_X;iCamAimMaxVelocity;iCamAimMinVelocity;iChampionMoveScale;iOnCameraTarget;iAnchorLifespan;iCameraAnchorsDisplay;iPreviousLocationAnchorCombatVelocity;iExitCameraAreaTimer;iPanAreaMin_W;iPanAreaMax_W;iCameraFramingHeightPoint;iPanArea_Circular;iAimAnchorRange;iAimAnchorEnemyNearVelocity;iAimAnchorVelocity;iCameraJumpDistance;iAimAnchorMoveScale;iEnemyNearDelay;iOutOfCombatDelay;iItemShop;iDetectingWideEnemySpread;iAimAnchor;iCustomPanAreaDisplay;iPanAreaMaxDisplay;iPanAreaMinDisplay;iCameraPanScale;iPanAreaMax_H;iPanAreaMin_H;iCameraFramingHeight_Baron;iExitCameraArea_Height;iCamPosInterpMaxDistance;iCameraDrag;iCameraMomentum;iBaseJungleCamera;iCameraNormalHeightJungle;iCameraMaxHeightJungle;iCameraMinHeightJungle;iCameraNormalHeightBase;iCameraMaxHeightBase;iCameraMinHeightBase;iFrameOutOfCombatEnemyChamp;iFrameEpicMonsters;iFrameTowers;iFrameAllies;iFrameEnemies;iCurrentCameraBoundaryDisplay;iCameraNormalHeight;iCameraMaxHeight;iMonsterTargetUpdateTick;iExitCameraArea_Width;iDelayBeforeDeleash;iCameraOffsetType	
+696	0x158bb94	0x565d630	-67964860	0x16202c4	916	AttackStateLogic	_isStateOn;startFrameCount;frameRate;state	actor;actor;resUniOperate;resUniOperate
+697	0x158bba0	0x565d634	-67964848	0x16206bc	256	ActorComponentAttackStateMgr	isGmAutoAttack	
+698	0x158bbac	0x565d638	-67964836	0x1620814	724	HeroHurtedInfo	isHero;actorResID;teamCamp;hurtTime;durationTime;hurtVal;buffID;buffObjID;oriSkillID;damageType;rawValueForAnalysis;absorbValue;isLeaveFight;isKillHurtInfo	
+699	0x158bbb8	0x565d63c	-67964824	0x1620b4c	436	SkillHurtInfo	isKillSkill;actorResID;oriSkillID;totalHurtVal;totalAbsorbVal;totalRawHurtForAnalysis	
+700	0x158bbc4	0x565d640	-67964812	0x1620d64	436	KillAssistInfo	isKiller;isHero;actorResID;teamCamp;totalHurtVal;timeFromEarliestHurtToDeath	
+701	0x158bbd0	0x565d644	-67964800	0x1620f7c	1556	ActorComponentKillAssist	contDieTimes;totalKill;totalDie;totalAssistants;totalTower;totalSoldiers;maxAccKills;killsWhenLive;magiclHurt;totalSuffer;totalHurt;realHurt;phyHurt;_killCaster	SkillUseCount;SkillUseCount;hurtedInfoList;hurtedInfoList;lastBerserkGiver;lastBerserkGiver
+702	0x158bbdc	0x565d648	-67964788	0x16215f4	580	BattleVehicle	driverActor;curState	killAssist;killAssist
+703	0x158bbe8	0x565d64c	-67964776	0x162189c	652	ActorComponentRide	mountsActor;driverActor;isRiding;isBeRiding	vehicleActor;vehicleActor
+704	0x158bbf4	0x565d650	-67964764	0x1621b8c	328	ActorComponentTrait_TraitData	resId;quality;progress	
+705	0x158bc00	0x565d654	-67964752	0x1621d38	256	ActorComponentTrait	commonProgress	
+706	0x158bc0c	0x565d658	-67964740	0x1621e90	428	ActorCfgDataMgr	changedModel;dcID;isChangeInherit;jointsOffset;cfgData;originData	
+707	0x158bc18	0x565d65c	-67964728	0x16220a0	320	ActorCfgData_MotionData	blendTreeName;motionName;threshold	
+708	0x158bc24	0x565d660	-67964716	0x1622244	756	ActorCfgData_MotionDataList		blendName;blendName;motionDatas;motionDatas
+709	0x158bc30	0x565d664	-67964704	0x162259c	564	ActorCfgData_JointVec	frameIdx;pos	jointName;jointName
+710	0x158bc3c	0x565d668	-67964692	0x1622834	808	ActorCfgData_FrameJointData	sampleFrameRate	aniName;aniName;points;points
+711	0x158bc48	0x565d66c	-67964680	0x1622bc0	756	ActorCfgData_ActorAniJointCfg		jointDatas;jointDatas;aniBlendDatas;aniBlendDatas
+712	0x158bc54	0x565d670	-67964668	0x1622f18	292	ActorCfgData_ActorJointNode	fixPosition;fixRotation	
+713	0x158bc60	0x565d674	-67964656	0x16230a0	756	ActorCfgData_ActorJoint		joints;joints;jointGroups;jointGroups
+714	0x158bc6c	0x565d678	-67964644	0x16233f8	536	ActorCfgData	block	aniCfg;aniCfg
+715	0x158bc78	0x565d67c	-67964632	0x1623674	868	HeroBaseAttrData	seqID;heroBaseAttrKey;heroId;vision;expShareRadius;warnRadius;attackValueBase;spellPowerBase;hpBase;mpBase;armorBase;spellResistBase;hpRecoverBase;mpRecoverBase;attackSpeedBase;speedBase;criDamageRateBase;requiredAttr	
+716	0x158bc84	0x565d680	-67964620	0x1623a3c	520	VehicleResObject	bTraceToDriver;headIcon;modelPath;headBar;speed;lifeTime;bornFlow;dieFlow;idleFlow	
+717	0x158bc90	0x565d684	-67964608	0x1623ca8	256	VirtualSkillAssetObject	resID	
+718	0x158bc9c	0x565d688	-67964596	0x1623e00	328	SkillStrengthenWeightQualityConfig	whiteWeightValue;blueWeightValue;purpleWeightValue	
+719	0x158bca8	0x565d68c	-67964584	0x1623fac	364	SkillGemParamBaseConfig	defineParam;paramType;paramId;tipIndex	
+720	0x158bcb4	0x565d690	-67964572	0x162417c	808	ReplaceCommonGemCategoryConfig	bReplaceParam	asset;asset;weightConfig;weightConfig
+721	0x158bcc0	0x565d694	-67964560	0x1624508	464	VirtualChampionResObject	tomatoNormalSkillVirtualSkillAssetObject;tomatoUltSkillVirtualSkillAssetObject;tomatoMagType;tomatoReloadType;tomatoMagSize;tomatoMagReloadTime;tomatoBulletReloadTime	
+722	0x158bccc	0x565d698	-67964548	0x162473c	508	CustomVariable	id;variableType;initialValue;assetResId;possessTransfer;isActorVar;reflectTransfer;sylasRTransfer	
+723	0x158bcd8	0x565d69c	-67964536	0x162499c	600	MarkResObject	maxStack;stackReduceTimeF;autoStackTimeF	durtaionF;durtaionF
+724	0x158bce4	0x565d6a0	-67964524	0x1624c58	284	LegoClipNameResObject	name;clipName	
+725	0x158bcf0	0x565d6a4	-67964512	0x1624dd8	472	MvpScoreInfo	scoreFactorType;modeID;factor;coreMvpScore;shieldMvpScore;assistMvpScore;conventionFactor	
+726	0x158bcfc	0x565d6a8	-67964500	0x1625014	536	CustomEvent	id	vars;vars
+727	0x158bd08	0x565d6ac	-67964488	0x1625290	256	SkinAssetObject	resID	
+728	0x158bd14	0x565d6b0	-67964476	0x16253e8	256	HeroVariantSkill	relatedSkills	
+729	0x158bd20	0x565d6b4	-67964464	0x1625540	292	HeroSkill	maxLevel;slotIndex	
+730	0x158bd2c	0x565d6b8	-67964452	0x16256c8	256	RuneAssetObject	resID	
+731	0x158bd38	0x565d6bc	-67964440	0x1625820	2076	ChampionResObject	defaultUnlock;shared;aiSelactable;disableLiteFlowCut;bVariantAttackAssistEx;resourceRegenF;turningSpeedF;collisionBoxRadiusF;skillLevelUpRule;vfxScalingF;unitScaling;gamePointMultiple;resourceMaxValueF;bodySizeF;vfxOffset;assistUseDuration;attackType;championType;resourceType;championFlag;matchModleDamageFix;matchModleBeDamageFix;matchModleShieldingDoneReduced;matchModleHealingDoneReduced;percentageBeDamageFix;hpRateHurtMax;matchModeMpOrEnergyFix;matchModeAttackSpeedFix;matchModeSkillCdFix;matchModeTenacityFix;matchModeBasicAttackSpeedGrowthFix;matchModeExtraMoveSpeedFix;mvpAddScoreValue;ffaAddScoreValue;npcCtrl;isHadDisplayScorePanelBuff	aiFilePath;aiFilePath;displayScorePanelBuff;displayScorePanelBuff
+732	0x158bd44	0x565d6c0	-67964428	0x16260a0	756	MonsterStageBuffApplyNode		buffAsset;buffAsset;skillAsset;skillAsset
+733	0x158bd50	0x565d6c4	-67964416	0x16263f8	564	MonsterStageBuffRemoveNode	removeType;param	buffAsset;buffAsset
+734	0x158bd5c	0x565d6c8	-67964404	0x1626690	528	MonsterStageResObject	switchGrowthConfig	name;name
+735	0x158bd68	0x565d6cc	-67964392	0x1626904	256	MonsterBehaviorGroupAssetObject	resID	
+736	0x158bd74	0x565d6d0	-67964380	0x1626a5c	400	MonsterBehaviorFSMResObject	searchEnemyRadius;hatredEnemyRadius;forceTargetMaxDuration;forceTargetMaxDistance;callForHelpRadius	
+737	0x158bd80	0x565d6d4	-67964368	0x1626c50	256	MonsterLevelVarResObject	monsterVarType	
+738	0x158bd8c	0x565d6d8	-67964356	0x1626da8	292	MonsterAttrGrowth	attrType;attrValue	
+739	0x158bd98	0x565d6dc	-67964344	0x1626f30	616	MonsterGrowthResObject	modeId;monsterId;growType;lineFilter;growStartTime;growInterval;maxGrowCount;moneyGrowth;expGrowth;damageMinionGrowth;damageBuildingGrowth	
+740	0x158bda4	0x565d6e0	-67964332	0x16271fc	256	MonsterSkillInfo	maxLevel	
+741	0x158bdb0	0x565d6e4	-67964320	0x1627354	256	BuffTipsInfo	displayType	
+742	0x158bdbc	0x565d6e8	-67964308	0x16274ac	292	EffectResObject	effectType;filter	
+743	0x158bdc8	0x565d6ec	-67964296	0x1627634	484	BuffLevelData	isAutoHurtOriSkill;duration;cd;limitTargetCountVar;effectInterval;maxEffectTimesVar;effectDelayTime;disappearEffect	
+744	0x158bdd4	0x565d6f0	-67964284	0x162787c	None	BuffResObject	maxLevel;removeUponFakeDeath;notRemoveUponDeath;notRemoveAniWhenFakeDeath;keepUponDeadToZombie;isTerrainWallDisplay;hideHudProgressBar;markStyle;displayPriority;uiHeadBarType;filter;ownerSkill;groupPriority;groupID;autoStackTimeF;autoStackStep;stackCount;stackReduceTimeF;stackReduceStep;isSpecialParseDesc;hudTextPriority;ignoreTenacity;ignoreKnockTenacity;exposedVisualField;removeWhenGiverDie;displayType;buffType;roundChangeRemoveType;buffOptTypeWhenRide;needCloneBuff;stackType;endOfTheDelay;buffInjuryInterval;mergeType;isUniqueSkillGuid;possessionTransfer;possessionFinishRemoveType;flyTextVisibility;enterFightType;isRedBorder;isUseFlyTextCurve;isPassive;isCdBuff;isHexCdBuff;isAINeddBuff;passiveMoveCanAffectFlowSpeed;assistKillFlag;executePercent;executeDisplayPercent	skillVarAsset;skillVarAsset;compAsset;compAsset
+745	0x158bde0	0x565d6f4	-67964272	0x16283f8	328	MonsterDrop	para;type;target	
+746	0x158bdec	0x565d6f8	-67964260	0x16285a4	292	MonsterVarUnite	monsterId;monsterVarType	
+747	0x158bdf8	0x565d6fc	-67964248	0x162872c	256	Fix64MonsterVarUnite	value	
+748	0x158be04	0x565d700	-67964236	0x1628884	None	MonsterResObject	ignoreTerrain;useReborn;ignoreGrass;collisionCheckBlock;grassVisibleFlag;grassEyesOffset;spellAreaAnchorFlag;ignoreDeadSkillOnSuicide;isNeedHatredFsm;aiCtrl;bCopyParentSlot;npcCtrl;emptyActorUsage;warnRadiusF;attackF;attack;magicF;armoredValueF;armoredValue;targetValidRadiusF;magicDefF;magicDef;speedMaxF;lifeTimeF;lifeTime;visionAngle;hpRecoverSpeedF;expShareRadiusF;maxLifeTimeF;deadlineForSuicide;iconType;visionF;hpRecoverInterval;bodySizeF;hitNum;trapRadiusF;isAttackStateReload;possessionFinishDie;exposedVisualField;nameID;descID;groupID;selfFactor;targetRingFactorF;summonedType;nextTargetEffectFactor;money;exp;selectType;vfxScaleParamF;radiusF;chaseRadiusF;hpMaxF;hpMax;turnSpeedF;monsterType	aiFilePath;aiFilePath
+749	0x158be10	0x565d704	-67964224	0x16299a0	None	ActorRes	requiredMainAttrType;chRevivable;attackType;chAiCtrl;chIgnoreDeadSkillOnSuicide;iIgnoreBlock;iIgnoreGrass;iCollisionCheckBlock;iID;iMagicBase;iRadius;iAttackSpeedBase;iVisionAngle;iAttackBase;iTurnSpeed;iMagicDefBase;iBodySize;iVision;iMPBase;iTalentSkill;iSpeedBase;iArmorBase;iBornSkill;iDescID;iExpShareRadius;iDeadSkill;iHPBase;iLifeTime;iMaxLifeTime;deadlineForSuicide;iHPRecoverInterval;iHPRecoverBase;trapRadius;iCriDamageRateBase;iHPRecoverSpeed;iTargetValidRadius;iNextTargetEffectFactor;iChaseRadius;hitNum;iAttackSkill;iSelfFactor;iWarnRadius;iSelectType;iExp;iMoney;iVfxScaleParam;iMPRecoverBase;vfxOffset;chDisplayHpBar;chLifeTimeType;chMonsterSubType;chMonsterType;chAttrInheritType	resMonster;resMonster
+750	0x158be1c	0x565d708	-67964212	0x162aa20	556	BattleActor_DC	cfgData;originData	name;name
+751	0x158be28	0x565d70c	-67964200	0x162acb0	484	MultiSkillHurtInfoSkillRef		skillUseObj;skillUseObj
+752	0x158be34	0x565d710	-67964188	0x162aef8	528	MultiSkillObjCacheInfo	addFrame	skillObjs;skillObjs
+753	0x158be40	0x565d714	-67964176	0x162b16c	256	MultiSkillGroupInfo	groupInterval	
+754	0x158be4c	0x565d718	-67964164	0x162b2c4	328	MultiSkillHurtInfo	lastHitGuid;timeFlag;interval	
+755	0x158be58	0x565d71c	-67964152	0x162b470	1028	ActorComponentMultiSkillHurtLimit		hurtInfoDict;hurtInfoDict;groupInfos;groupInfos;cacheSkillObjInfos;cacheSkillObjInfos
+756	0x158be64	0x565d720	-67964140	0x162b8d8	472	AttackerRecord	objId;latestTime;hurtTime;hurtValue;skillID;skillType;skillFuncType	
+757	0x158be70	0x565d724	-67964128	0x162bb14	536	HatredState	stateId	actor;actor
+758	0x158be7c	0x565d728	-67964116	0x162bd90	800	HatredStateFSM	isOutLeashZone	actor;actor;currentState;currentState
+759	0x158be88	0x565d72c	-67964104	0x162c114	536	ActorComponentHatred	latestHurtTime	diveTower;diveTower
+760	0x158be94	0x565d730	-67964092	0x162c390	256	CollisionTriggerCondition	inverte	
+761	0x158bea0	0x565d734	-67964080	0x162c4e8	364	ActorCollisionBoxInfo	guid;targetRadius;deltaRadius;currentRadius	
+762	0x158beac	0x565d738	-67964068	0x162c6b8	1016	BulletTrackAngularComponent	angularSpeed;angularAccSpeed;angleThreshold;distanceThreshold;approachFactor;originTrajectoryType;allowFinalTrace	bullet;bullet;moveTarget;moveTarget
+763	0x158beb8	0x565d73c	-67964056	0x162cb14	364	TrackPosParam	x;y;z;distance	
+764	0x158bec4	0x565d740	-67964044	0x162cce4	None	BulletMovementComponent	overstepTheDoor;detectIgnoreGate;addLiteFowCutSyncRef;checkDistanceLimitArrived;distanceLimitArrived;parabolaTrack;overstepTheBattleEvent;overstepTheMapEvent;setFinishWhenArrived;dontFinishWhenHit;updateBulletSpeed;useMaxDistance;changeCurveAmplitude;setTrailingVFXRotation;curvePositionNeedPreVisi;curveID;mixCurveID;yCurveID;currentTrackPosIndex;circularArcAngle;initPosition;elapsedTimeChgTime;elapsedTimeLastChg;minElapsedTime;hitSceneType;checkObstruct;checkTerrainWall;maxElapsedTime;curve;curveMix;curveY;checkDistanceMovedArrived;distanceMoved;totalDistance;totalTime;approachFactor;distanceThreshold;angleThreshold;angularAccSpeed;curAngularSpeed;angularSpeed;circleRadius;baseCircleRadius;currentCircleAngle;velocity;initialVerticalSpeed;emitDir;circumvolantAxis;curveType	circumvolantTarget;circumvolantTarget;bullet;bullet
+765	0x158bed0	0x565d744	-67964032	0x162d830	328	BulletRender	scale;ignoreScaleVisi;isRenderVisable	
+766	0x158bedc	0x565d748	-67964020	0x162d9dc	996	BulletGroup	skillUseGuid;groupId;refCount;objId;reflectSourceObjId;isPrecalCritByGroup	hitedActorDic;hitedActorDic;preCalcCriEffectList;preCalcCriEffectList
+767	0x158bee8	0x565d74c	-67964008	0x162de24	484	SharedBullet		rawValue;rawValue
+768	0x158bef4	0x565d750	-67963996	0x162e06c	668	BulletFlow	stopBulletOnFlowLeave;firstTickDeltaTime;bulletTarget;bulletCaster;bulletHiter	shareBullet;shareBullet
+769	0x158bf00	0x565d754	-67963984	0x162e36c	564	BlockActorItem	filterType;battleActorId	battleActor;battleActor
+770	0x158bf0c	0x565d758	-67963972	0x162e604	364	BlockShapeBase	center;rotation;aabb;isReflectBlock	
+771	0x158bf18	0x565d75c	-67963960	0x162e7d4	536	BlockComponentShape	lastSyncId	shape;shape
+772	0x158bf24	0x565d760	-67963948	0x162ea50	616	BattleBlock	filterID;ignoreBulletBeginBlock;isUsingCompleteCheckAtFirst	shapeComponent;shapeComponent
+773	0x158bf30	0x565d764	-67963936	0x162ed1c	None	BulletResObject	useBulletVisionRule;useShapeVision;useAppearExposeVision;useHitVision;ignoreParry;ignoreTargetRadius;vfxUseVisiHitPosition;vfxHitEffectOnTheGround;vfxHitUseBulletTowards;vfxForceRotateToForward;vfxIgnoreRotation;useSkillDistanceLimit;vfxAttachParent;showInFog;showWithActorVisable;sightIgnoreBlock;hitScreenShake;showSkinHitAudio;displayInMinMap;isHorizontalSpeed;borderCheck;hitByDistanceSort;audioDisMod;checkObstruct;checkTerrainWall;overrideSetting;destroyTileTypeFlag;overridePenetrate;penetrateTileTypeFlag;hitTimesLimit;hitFinishActorCount;visibilityChangesLatencyTime;vfxHitEffectDuration;viewRadius;hitExpirationTime;distanceLimit;distancWithSkillChange;aliveTime;speed;vfxTrailingDelayDeleteTime;unInitPosWhenSameFrame;fowFadeTime;viewPrecomputedTime;acceleration;shapeParam2;shapeParam1;bulletFadeInTime;delayDeleteTime;hitVisionTime;vfxChromaLuminanceMul;hitSceneHandler;detectBlockUseHitFilter;shape;onlyShowToCaster;fixedForwardY;ignoreHitActorDirCheck;isImmortal;openFirstTickCheck;openVisiDistanceLimit;ignoreLevelRuleFix;realmFollowType;ignoreSpeedScale;waitEnterFieldFrame	
+774	0x158bf3c	0x565d768	-67963924	0x162f8a0	484	Bullet_DC		res;res
+775	0x158bf48	0x565d76c	-67963912	0x162fae8	292	EffectFlags	assignType;useSkillLevel	
+776	0x158bf54	0x565d770	-67963900	0x162fc70	256	BulletDetectionComponent	dectctionType	
+777	0x158bf60	0x565d774	-67963888	0x162fdc8	1024	BulletComponentControl	minTurnSpeed;maxTurnSpeed;isUpdateSpeed;minTurnSpeedVar;maxTurnSpeedVar;maxAngle;curAngle;initForward;targetForward;isCaculateIndicatorForward;currentIndicatorShowForward;canHandleWhenFakeDie;turnDirSign;maxRotateZ;rotateZSpeed	bullet;bullet
+778	0x158bf6c	0x565d778	-67963876	0x163022c	528	BulletFowComponent	visionRadius	bullet;bullet
+779	0x158bf78	0x565d77c	-67963864	0x16304a0	292	SkillUseIgnoreInfo	ignoreCastTime;ignoreAudio	
+780	0x158bf84	0x565d780	-67963852	0x1630628	292	PreCalcCritEffectData	buffID;effectIdx	
+781	0x158bf90	0x565d784	-67963840	0x16307b0	292	SkillMultiHitLimitData	gemCategoryId;multiHitRuleType	
+782	0x158bf9c	0x565d788	-67963828	0x1630938	364	SkillConfigOverride	overrideIsAoeSkill;isAoeSkill;overrideIsBulletSkill;isBulletSkill	
+783	0x158bfa8	0x565d78c	-67963816	0x1630b08	328	FilterEntry_FilterTags	tagId;checkHasTag;op	
+784	0x158bfb4	0x565d790	-67963804	0x1630cb4	364	FilterEntry_FilterActorCamp	actorType;actorSubType;camp;op	
+785	0x158bfc0	0x565d794	-67963792	0x1630e84	328	FilterEntry_FilterBuffEffectType	checkHasBuff;buffEffectType;op	
+786	0x158bfcc	0x565d798	-67963780	0x1631030	328	FilterEntry_FilterBuffType	checkHasBuff;buffType;op	
+787	0x158bfd8	0x565d79c	-67963768	0x16311dc	364	FilterEntry_FilterBuffCond	checkBuffGiver;checkHasBuff;buffId;op	
+788	0x158bfe4	0x565d7a0	-67963756	0x16313ac	1768	FilterEntry	resID;filter;EpicMonsterMask;includeResID;excludeResID	buffConds;buffConds;buffTypes;buffTypes;buffEffectTypes;buffEffectTypes;actorCamps;actorCamps;tags;tags
+789	0x158bff0	0x565d7a4	-67963744	0x1631af8	None	SkillOperateResObject	iControlPatternTemplateID0;iControlPatternTemplateID1;iUXPatternID;iUXCameraID;iSkillType;iCanAutoAttack;iInterruptFollow;iCanQuickCastOnNoTarget;iNoForwardChangeBeforeCast;iCancelDisable;iInQueueLifeSpan;iCooldownBufferLifespan;iButtonTemplateID1;iFPTemplateID1;iMaxBufferRange;iSkillPrioritySearchRange;iAllowInVisibleTarget;iDoNotSyncTarget;iEnalbeFPOutOfRangeCancel;iEnableJoystickWhenCanNotCast;iDisableTips;iTargetPositionCircleRadius;iReadyQueueTargetFollowDistance;combatType;bChargeSkillIgnoreAbility;farTargetType;forceTargetType;controlActorSelectorType;bIgnoreTargetTooClose;skillForwardType;bMoveJoystickCastSkill;buttonCastSkillType;bIsCastHidingTapSkill;bIsForceContainsSoilder;bIsCancelActionIgnoreAutoAttack;bIsDirectionalNormalSkill;bTapCastRefreshPos;queueUID;isOpenSelectSelf	buffFilter;buffFilter;buffTypeList;buffTypeList;summonMonster;summonMonster
+790	0x158bffc	0x565d7a8	-67963732	0x16324f4	572	WorkFlowSerializedObject	dirty;id	parentRes;parentRes
+791	0x158c008	0x565d7ac	-67963720	0x1632794	256	GamePlayComponentAssetObject	resID	
+792	0x158c014	0x565d7b0	-67963708	0x16328ec	292	LevelVarResObject	varID;custom	
+793	0x158c020	0x565d7b4	-67963696	0x1632a74	292	SkillLevelVarResObject	skillVarType;BindingSkillStrengthenRuleType	
+794	0x158c02c	0x565d7b8	-67963684	0x1632bfc	292	SkillHurtLimitResObject	groupID;maxHurtValue	
+795	0x158c038	0x565d7bc	-67963672	0x1632d84	616	SkillCDTimeRes	time;type;ignoreCDReduce	timeVar;timeVar
+796	0x158c044	0x565d7c0	-67963660	0x1633050	256	IntSkillVarUnite	value	
+797	0x158c050	0x565d7c4	-67963648	0x16331a8	644	SkillStockResObject	maxVar;initVar;buff;inheritFromSlot	cdVar;cdVar
+798	0x158c05c	0x565d7c8	-67963636	0x1633490	256	SkillOperateAssetObject	resID	
+799	0x158c068	0x565d7cc	-67963624	0x16335e8	256	FilterAssetObject	resID	
+800	0x158c074	0x565d7d0	-67963612	0x1633740	536	FlowAssetObject	baseType	flow;flow
+801	0x158c080	0x565d7d4	-67963600	0x16339bc	292	VarUnite	useVar;varID	
+802	0x158c08c	0x565d7d8	-67963588	0x1633b44	292	SkillVarUnite	skillId;skillVarType	
+803	0x158c098	0x565d7dc	-67963576	0x1633ccc	256	Fix64SkillVarUnite	value	
+804	0x158c0a4	0x565d7e0	-67963564	0x1633e24	1096	SkillLevelResObject	consumeValueVar;rangeMaxVar;rangeMinVar;consumeType;consumeType1;consumeValueVar1;castType;targetType;cdLockingProtectTime	ReplaceOperatingMode;ReplaceOperatingMode;castParam;castParam
+805	0x158c0b0	0x565d7e4	-67963552	0x16342d0	1984	SkillResObject	isDotSkill;resetPassiveEffectWhenRide;isIgnoreGoldBody;isCanUseInGoldBody;isCanUseInCannon;isCanBreakHide;canExistWhenCharge;forceCallForHelp;ignoreTargetPosWhenUseSkill;isSmoothRotate;isCanUseWhileDead;isForbidWhileZombie;isIgnoreAniStateChange;isBulletSkill;isRushSkill;useRushCdHaste;isAutoChangeReplaceSkill;isAoeSkill;isAttackSkill;isNormalAttackEffect;ignoreCDReduce;cdGroup;cdLockingProtectTime;assistUseSkill;empowerAttack;isAutoUseEmpowerAttack;assistKillFlag;isGetCasterRealm;isForbidInRealm;IgnoreSkillCDInHeadBarLine;useSkillLevelInitVarWhenNoLearn;functionType;skillType;aiMark;maxLevel;normalAttackType;delayDeleteTime;usbSkillFlag;skillActorEventDispatchMask;sylasStealType;canConsistBackHome	compAsset;compAsset
+806	0x158c0bc	0x565d7e8	-67963540	0x1634af4	1576	ActorSkill_DC	skillOp;replaceSkillOp;minRange;castType;skillType;targetType;dcID	res;res;levelRes;levelRes;selectionFilter;selectionFilter;indicatorName;indicatorName
+807	0x158c0c8	0x565d7ec	-67963528	0x1635180	608	SkillStateMgr	currnetState;currentStateStartFrameCount;previousStateStartFrameCount	actor;actor
+808	0x158c0d4	0x565d7f0	-67963516	0x1635444	800	FlowVariableDomain	_sharedPtrRefCount	m_parentDomain;m_parentDomain;heroFlowObject;heroFlowObject
+809	0x158c0e0	0x565d7f4	-67963504	0x16357c8	888	ParallelFlowNodeRes	id;ignore;position	name;name;variables;variables
+810	0x158c0ec	0x565d7f8	-67963492	0x1635ba4	800	ParallelFlowNode	m_refInvoking	nodeRes;nodeRes;m_nodeMgr;m_nodeMgr
+811	0x158c0f8	0x565d7fc	-67963480	0x1635f28	484	HeroFlowObject		useObj;useObj
+812	0x158c104	0x565d800	-67963468	0x1636170	1144	ParallelFlowRes	maxRefInvokingCount;infinity;duration	variables;variables;heroFlowObject;heroFlowObject;nodes;nodes
+813	0x158c110	0x565d804	-67963456	0x163664c	1072	ParallelFlow	elaspedTime	flowRes;flowRes;m_varDomain;m_varDomain;m_eventMgr;m_eventMgr
+814	0x158c11c	0x565d808	-67963444	0x1636ae0	256	SkinFieldInfo	skinFieldValue	
+815	0x158c128	0x565d80c	-67963432	0x1636c38	580	SkinFlowAction	flowObjId;discardInSkin	fieldInfos;fieldInfos
+816	0x158c134	0x565d810	-67963420	0x1636ee0	256	FlowObject	id	
+817	0x158c140	0x565d814	-67963408	0x1637038	284	FlowTransition	myNode;toNode	
+818	0x158c14c	0x565d818	-67963396	0x16371b8	1160	FlowNode	canLoopEnter;tickCount;status	flow;flow;transitions;transitions;nextNode;nextNode
+819	0x158c158	0x565d81c	-67963384	0x16376a4	364	BulletShaderData	propertyType;paramKey;paramValue;color	
+820	0x158c164	0x565d820	-67963372	0x1637874	608	ReflectTransferData	curSkillGuid;sourceObjId;sourceSkillGuid	buffList;buffList
+821	0x158c170	0x565d824	-67963360	0x1637b38	880	HeroComponentReflectMgr	damageFixParam;damageType;damageVarSkillID	skillVarReflectSkillDataList;skillVarReflectSkillDataList;reflectShaderDataList;reflectShaderDataList
+822	0x158c17c	0x565d828	-67963348	0x1637f0c	1196	ReflectSkillData	curSkillGuid;sourceSkillGuid;createSkillResId;sourceCaster;caster;skinActor;lastReflectCaster;targetPosition;sharedRefCount;refBuffList;refTriggerBuffList;destoryStartTime	reflectSkill;reflectSkill;reflectMgr;reflectMgr
+823	0x158c188	0x565d82c	-67963336	0x163841c	None	ActorBuff	idx;isEffectStart;triggerHitEvent;isStopUpdate;isPassiveEffect;objId;refCount;effectNum;maxEffectNum;maxStack;resId;tagResId;level;lifeTimeBase;cdTime;elapsedTimeLastChg;startTime;delayDeltaTime;intervalDeltaTime;effectInterval;elapsedTimeChgTime;lifeTime;effectDelayTime;autoStackTime;autoStackStep;stackReduceTime;stackReduceStep;lastStackTime;bIgnorePlayFlow	flow;flow;parallelFlow;parallelFlow;triggerMagicField;triggerMagicField;__DC;__DC;skillUseObj
+824	0x158c194	0x565d830	-67963324	0x1639110	2264	Flow	infinity;active;invokingRefNum;tickCount;_genId;duration;elaspedTime;skillCreateType;actor;listenerNodes;nodes;skinSrc;_stopping;reflectSkillData;triggerReflectData;extraSpeedRate;extraSpeedRateRemain;keepTickRef;skillID	variables;variables;buff;buff;skillUseObj;skillUseObj;bullet;bullet;replaceInfos;replaceInfos
+825	0x158c1a0	0x565d834	-67963312	0x1639a4c	484	SharedFlow		flow;flow
+826	0x158c1ac	0x565d838	-67963300	0x1639c94	484	LogicFlow		flowVar;flowVar
+827	0x158c1b8	0x565d83c	-67963288	0x1639edc	256	SharedFixVector3	rawValue	
+828	0x158c1c4	0x565d840	-67963276	0x163a034	484	SharedActor		rawValue;rawValue
+829	0x158c1d0	0x565d844	-67963264	0x163a27c	1060	SkillFlow	isCustomOnUseAbility;isDirectCast;isClickCancel;IsIgnoreAttackSpeed;IsIgnoreFaceTarget;IsSkillPreCacCrit;caster;target	flowSpeedFormula;flowSpeedFormula;targetPosition;targetPosition
+830	0x158c1dc	0x565d848	-67963252	0x163a704	484	SharedActorList		rawValue;rawValue
+831	0x158c1e8	0x565d84c	-67963240	0x163a94c	636	FlowActionPlayAudio_AOC	keepAlive;isSwitchMaterial;audioPlayTarget;audioOffset	audioEventName;audioEventName
+832	0x158c1f4	0x565d850	-67963228	0x163ac2c	None	HurtFlags	useSkillPreCrit;ignoreHurtFlash;hurtFlashIndex;showInMiniMap;showSkinAudio;audioDisMod;isForceShowVfx;showInFog;hitOnEdge;attachParent;applyAttackEffect;isHurtSourceSetCaller;ignoreParentRotation;isSecondaryVfx;secondaryVfxAlpha;getCampEffect;lifeTime;eventName;critEventName;audioKeepAlive;isAudioSwitchMaterial;audioPlayTarget;audioPlayTargetActor;chromaLuminanceMul;miniMapVfxPath;faceType;useSpecialTowerBuff;auxAttacker;calWithAuxAttacker;dispatchDmgWithAuxAttacker;useExecuteSoldierRule;flowName;actionId;hurtTypeIndex;skinSrcPrefabReplaceObjId;damageCenter;beBlockedFlag;isMultiHurt;useParentAttackHandler	audioList;audioList;extraFlyTextList;extraFlyTextList;skinSrc;skinSrc
+833	0x158c200	0x565d854	-67963216	0x163b620	256	RPNBase	mIsVisi	
+834	0x158c20c	0x565d858	-67963204	0x163b778	256	SkillCDNode	fsRemain_first	
+835	0x158c218	0x565d85c	-67963192	0x163b8d0	592	SkillCDTrigger	rpn1;rpn2;lastReduceCD	cdNode;cdNode
+836	0x158c224	0x565d860	-67963180	0x163bb84	616	CustomInterruptInfo	customType;slotIndex;relation	skillID;skillID
+837	0x158c230	0x565d864	-67963168	0x163be50	1336	SkillInterruptInfo	clearReplaceAnims;forceSetCD;showSummonerSpell;breakTriggerCD;hurtBreak;moveStartBreak;moveBreak;showEquipmentSpell;skillRotateAble;rotateAble;moveAble;CDTime;otherEquipRelation;zYHourglassRelation;magnetronEnchanRelation;repulserRelation;teleportRelation;recallRelation;markRelation;flashRelation;houdiniRelation;castleRelation;hextechProtobeltRelation;hextechIceGunRelation;hextechFlashRelation;possessFinishHandle;possessActiveFinishHandle;erLanternReleation;enterCannonReleation;enableCustomInterrupt;isUSBSkill	
+838	0x158c23c	0x565d868	-67963156	0x163c3ec	1648	SkillInterrupt	otherEquipRelation;zYHourglassRelation;magnetronEnchanRelation;repulserRelation;teleportRelation;recallRelation;markRelation;flashRelation;houdiniRelation;castleRelation;hextechProtobeltRelation;hextechIceGunRelation;hextechFlashRelation;erLanternReleation;enterCannonReleation;isSetupInterruptInfo;battleMode	skill;skill;actor;actor;curInfo;curInfo
+839	0x158c248	0x565d86c	-67963144	0x163cac0	836	SkillNecessaryAbility	matchRunningNecessaryCount;forceAvailableCount	skill;skill;caster;caster
+840	0x158c254	0x565d870	-67963132	0x163ce68	256	SkillGemVarParamBase	paramId	
+841	0x158c260	0x565d874	-67963120	0x163cfc0	400	SlotGemWhiteDataSet_ItemData	quality;skillGemCategoryID;maxCount;currentWeight;initWeight	
+842	0x158c26c	0x565d878	-67963108	0x163d1b4	328	RelateSkillSlotInfo	dstSlotIndex;skillID;uid	
+843	0x158c278	0x565d87c	-67963096	0x163d360	436	PendingAddSkillGemInfo	categoryID;quality;count;ignoreGemCount;ignoreReplaceSkill;levelRequirement	
+844	0x158c284	0x565d880	-67963084	0x163d578	528	SkillSlotStrengthenInfo	whiteGemStrengthenID	relateInfos;relateInfos
+845	0x158c290	0x565d884	-67963072	0x163d7ec	484	VirtualSkillSlotVariant		skill;skill
+846	0x158c29c	0x565d888	-67963060	0x163da34	976	SkillStockMgr	isBuffStock;curStock;maxStock;stockCD;oriConfigStockCD;cdTime;oriStockCD;forceUpdateTime;lastReduceCD;isInteractiveSkill;isMod;modCD;ignoreStockCD	skill;skill
+847	0x158c2a8	0x565d88c	-67963048	0x163de68	644	SkillSlotVariant	canLevelUp;canAutoAttack;castSkillID;priority	skill;skill
+848	0x158c2b4	0x565d890	-67963036	0x163e150	292	SkillSlotForbidInfo	isDominant;dominantSeq	
+849	0x158c2c0	0x565d894	-67963024	0x163e2d8	1816	SkillSlot	hideUIRef;forbidStartTime;forbidTime;level;mainID;defaultSkill;currentSkill;orignalSkill;index;skillCdFastRate;skillCdHaste;joystickCd;overrideSkillTagTypes;refreshDynamicSkillStockMgr	stockMgr;stockMgr;owner;owner;virtualSkillVariants;virtualSkillVariants;skillSlotStrengthenInfo;skillSlotStrengthenInfo
+850	0x158c2cc	0x565d898	-67963012	0x163ea54	None	ActorSkill	idx;isDashing;globalCrit;isLearn;isQuickOperate;isSecondStageOperate;canBeCast;ignoreSkillHaste;isSkinInitialized;isHexSkill;objId;isCastBackswing;castSuccessFrameCount;level;dataLevel;enhanceLevel;killHeroNum;profilerIndex;resId;bindingGemSkillObjID;levelVarRelatedSkill;bindingGemSkillSlot;hurtHeroNum;rangeHitNum;critDamgeRate;startLockMoveTime;_configCurRange;_curRangeBeforeStrengthenCalc;_curRange;_tolerance;skillConsume;skillConsume1;lastOperHeartBeat;forceSoldierAttackSelectIndex;_configMaxRange;_maxRangeBeforeStrengthenCalc;_maxRange;critRate;chargeTime;castStrength;CD2;CD1;targetPosition;fsRemain;flowSpeed;activeTimestamp;consumeNum;moveForward	skillUseObj;skillUseObj;useObjs;useObjs
+851	0x158c2d8	0x565d89c	-67963000	0x1640134	528	SafeRef_ActorSkill	age	reference;reference
+852	0x158c2e4	0x565d8a0	-67962988	0x16403a8	1140	SkillUseObj	useGuid;level;isPreCrit;createRealmId;isStop;gemId;generationId;groupOriSkillGuid;copiedSkillGuid;_sharedPtrRefCount	preCalcCriEffectList;preCalcCriEffectList;skinSrc;skinSrc
+853	0x158c2f0	0x565d8a4	-67962976	0x1640880	None	Bullet	idx;isFinish;blocked;addLitFowCutReference;isAIDetect;isFixedDecay;isBlind;hitActionTimeDic;skillActorHitMaxTimes;isFirstTickCheck;isDisplayDelete;isAppearExposeVision;resID;hitFinishActorCountRecord;blockedNavHit;velocity;currentSpeed;speedScale;shapeParam2;multiSpeedScale;skillGemSpeedScale;shapeParam1;modifiedSpeedValue;destination;decayRate;delayTime;fowFadeTime;lastTickPosition;initialEmitActorPos;initialPoint;hitPosition;elapsedTimeChgTime;elapsedTimeLastChg;distanceLimit;lastQuaternion;offsetOfTargetActor;targetPosition;jointOffset;targetjointNodeFixPos;hasTargetjointNode	skillUseObj;skillUseObj;fow;fow;controlComponent;controlComponent
+854	0x158c2fc	0x565d8a8	-67962964	0x16426ac	484	ActorBulletEmitter		bulletList;bulletList
+855	0x158c308	0x565d8ac	-67962952	0x16428f4	328	ActorDieAward	killAwardGoldValue;baseAwardExp;baseAwardMoney	
+856	0x158c314	0x565d8b0	-67962940	0x1642aa0	292	ModelScaleData	bodyScale;isChangeCollision	
+857	0x158c320	0x565d8b4	-67962928	0x1642c28	1032	ActorLgcRenderer	modelScale;minModelScale;maxModelScale;forceHideAliveVfx;disableGhostShadow;reverType;SumModelScale	modelScaleDic;modelScaleDic;effectModelFlagList;effectModelFlagList
+858	0x158c32c	0x565d8b8	-67962916	0x1643094	256	ActorLgcAnim	IsForcePlayControllerAni	
+859	0x158c338	0x565d8bc	-67962904	0x16431ec	484	ActorVarMgr		customVarRefActor;customVarRefActor
+860	0x158c344	0x565d8c0	-67962892	0x1643434	528	SafeRef_BattleActor	age	reference;reference
+861	0x158c350	0x565d8c4	-67962880	0x16436a8	328	HelpMarkerInfo	helpTime;skillID;add	
+862	0x158c35c	0x565d8c8	-67962868	0x1643854	484	ActorComponentHelpMarker		markerInfoList;markerInfoList
+863	0x158c368	0x565d8cc	-67962856	0x1643a9c	528	ActorComponent	profilerTypeIndex	actor;actor
+864	0x158c374	0x565d8d0	-67962844	0x1643d10	328	ActorComponentFightStateMgr	isFightState;fightEnterTime;fightLeaveTime	
+865	0x158c380	0x565d8d4	-67962832	0x1643ebc	356	ActorEventMgr_EventDelegateMP	dirty;inInvoke;handlers;swapHandlers	
+866	0x158c38c	0x565d8d8	-67962820	0x1644084	None	BattleActor	idx;leashUseBornPosition;isAICtrl;initialEnded;ResID;dcID;flashFrame;tid;skinId;roleId;updateFrameCount;isDestroying	eventDelegates;eventDelegates;fightStateMgr;fightStateMgr;helpMarkerMgr;helpMarkerMgr;varMgr;varMgr;aiConsistVerify;aiConsistVerify;anim;anim;renderer
+867	0x158c398	0x565d8dc	-67962808	0x164776c	1352	BattleTeam	camp	homebase;homebase;spring;spring;minions;minions;buildingLaneList;buildingLaneList
+868	0x158c3a4	0x565d8e0	-67962796	0x1647d18	None	Battle	neutralTeam;redTeam;blueTeam;judgeTeam;workFlowFrameTime	battleTeamMgr;battleTeamMgr;countdownMgr;countdownMgr;randomGainRuleMgr;randomGainRuleMgr;dataRoot;dataRoot;liteFowCutMgr;liteFowCutMgr;visiFlowMgr;visiFlowMgr;luaMgr;luaMgr;spellBookRandomSkillRuleMgr
+869	0x158c3b0	0x565d8e4	-67962784	0x1648800	256	VirtualChampionAssetObject	resID	
+870	0x158c3bc	0x565d8e8	-67962772	0x1648958	256	SkillGemCategoryLevelAssetObject	resID	
+871	0x158c3c8	0x565d8ec	-67962760	0x1648ab0	256	SharedVariable	reserved	
+872	0x158c3d4	0x565d8f0	-67962748	0x1648c08	580	FlowVariableRes	id;reserved	name;name
+873	0x158c3e0	0x565d8f4	-67962736	0x1648eb0	484	FlowVariable		variableRes;variableRes
+874	0x158c3ec	0x565d8f8	-67962724	0x16490f8	800	SharedEventVarData	type	parallelFlowVar;parallelFlowVar;flowVar;flowVar
+875	0x158c3f8	0x565d8fc	-67962712	0x164947c	256	MonsterAssetObject	resID	
+876	0x158c404	0x565d900	-67962700	0x16495d4	256	EvacuateDropSchemeAssetObject	resID	
+877	0x158c410	0x565d904	-67962688	0x164972c	256	SkillAssetObject	resID	
+878	0x158c41c	0x565d908	-67962676	0x1649884	256	BuffAssetObject	resID	
+879	0x158c428	0x565d90c	-67962664	0x16499dc	580	FixComponent	enabled;profilerIndex	fixObject;fixObject
+880	0x158c434	0x565d910	-67962652	0x1649c84	328	FixTransform	position;rotation;scale	
