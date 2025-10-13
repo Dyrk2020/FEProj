@@ -1,0 +1,117 @@
+{
+ "total_insn": 1735,
+ "total_low": 778,
+ "pct": 44.84,
+ "files": [
+  {
+   "path": "FrameWork/ActionMgr.res",
+   "insn": 0,
+   "low": 0
+  },
+  {
+   "path": "FrameWork/ActorComponent.res",
+   "insn": 0,
+   "low": 0
+  },
+  {
+   "path": "FrameWork/BattleGlobalFunc.res",
+   "insn": 0,
+   "low": 0
+  },
+  {
+   "path": "FrameWork/ConstDefine.res",
+   "insn": 0,
+   "low": 0
+  },
+  {
+   "path": "FrameWork/EvaluatorMgr.res",
+   "insn": 0,
+   "low": 0
+  },
+  {
+   "path": "FrameWork/FlowAction.res",
+   "insn": 0,
+   "low": 0
+  },
+  {
+   "path": "FrameWork/FlowEvaluator.res",
+   "insn": 0,
+   "low": 0
+  },
+  {
+   "path": "FrameWork/GlobalFunc.res",
+   "insn": 0,
+   "low": 0
+  },
+  {
+   "path": "FrameWork/Loader.res",
+   "insn": 0,
+   "low": 0
+  },
+  {
+   "path": "FrameWork/PathHashMap.res",
+   "insn": 0,
+   "low": 0
+  },
+  {
+   "path": "FrameWork/ScriptMgr.res",
+   "insn": 0,
+   "low": 0
+  },
+  {
+   "path": "FrameWork/ToggleMgr.res",
+   "insn": 0,
+   "low": 0
+  },
+  {
+   "path": "FrameWork/WorkFlowUtils.res",
+   "insn": 0,
+   "low": 0
+  },
+  {
+   "path": "Logic/BattleLogic.res",
+   "insn": 0,
+   "low": 0
+  },
+  {
+   "path": "LuaGen/FEEnumForLua.res",
+   "insn": 1735,
+   "low": 778
+  },
+  {
+   "path": "LuaGen/LuaStruct.res",
+   "insn": 0,
+   "low": 0
+  },
+  {
+   "path": "QuickTest.res",
+   "insn": 0,
+   "low": 0
+  },
+  {
+   "path": "TestMain.res",
+   "insn": 0,
+   "low": 0
+  },
+  {
+   "path": "common/event_manager.res",
+   "insn": 0,
+   "low": 0
+  },
+  {
+   "path": "common/pprint.res",
+   "insn": 0,
+   "low": 0
+  },
+  {
+   "path": "common/queue.res",
+   "insn": 0,
+   "low": 0
+  },
+  {
+   "path": "common/safecall.res",
+   "insn": 0,
+   "low": 0
+  }
+ ]
+}
