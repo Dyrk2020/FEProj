@@ -1,0 +1,30 @@
+// ===== case6_BattleActorRemoveBuffMsg_sub1753034 @ 01753034 (DecompileAt3: cleared stale instructions at entry) =====
+01753034  stp x20,x19,[sp, #-0x20]!
+01753038  stp x29,x30,[sp, #0x10]
+0175303c  add x29,sp,#0x10
+01753040  mov w1,#0x1
+01753044  mov x19,x0
+01753048  bl 0x0124ff50
+0175304c  cbz w0,0x01753078
+01753050  adrp x2,0x736d000
+01753054  adrp x3,0x736d000
+01753058  add x2,x2,#0x20b
+0175305c  add x3,x3,#0x20a
+01753060  mov w1,#0x1
+01753064  mov w4,#0x1
+01753068  mov x0,x19
+0175306c  bl 0x0174b938
+01753070  ldr x20,[x0, #0x8]
+01753074  b 0x0175307c
+01753078  mov x20,xzr
+0175307c  mov w1,#0xb9d7
+01753080  movk w1,#0xfff0, LSL #16
+01753084  mov x0,x19
+01753088  bl 0x0124e990
+0175308c  mov x2,x0
+01753090  mov x0,x19
+01753094  mov x1,x20
+01753098  bl 0x017530a8
+0175309c  ldp x29,x30,[sp, #0x10]
+017530a0  ldp x20,x19,[sp], #0x20
+017530a4  ret

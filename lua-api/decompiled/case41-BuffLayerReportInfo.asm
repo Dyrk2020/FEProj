@@ -1,0 +1,75 @@
+// ===== case41-BuffLayerReportInfo @ 01693674 =====
+// existing function case41-BuffLayerReportInfo
+01693674  sub sp,sp,#0x40
+01693678  str x19,[sp, #0x20]
+0169367c  stp x29,x30,[sp, #0x30]
+01693680  add x29,sp,#0x30
+01693684  adrp x1,0x174a000
+01693688  add x1,x1,#0x87c
+0169368c  mov x19,x0
+01693690  bl 0x0124ba40
+01693694  adrp x1,0x575d000
+01693698  add x1,x1,#0xa06
+0169369c  mov x0,x19
+016936a0  str x19,[sp]
+016936a4  bl 0x01251aa0
+016936a8  mov w8,#0x1
+016936ac  str w8,[sp, #0x8]
+016936b0  mov x0,sp
+016936b4  bl 0x0174aa04
+016936b8  adrp x1,0x575e000
+016936bc  adrp x3,0x736d000
+016936c0  add x1,x1,#0x357
+016936c4  add x3,x3,#0x101
+016936c8  add x0,sp,#0x10
+016936cc  mov x2,sp
+016936d0  bl 0x01765c98
+016936d4  adrp x1,0x575e000
+016936d8  adrp x2,0x1765000
+016936dc  adrp x4,0x1765000
+016936e0  add x1,x1,#0x2f4
+016936e4  add x2,x2,#0xc78
+016936e8  add x4,x4,#0xc80
+016936ec  add x0,sp,#0x10
+016936f0  mov x3,xzr
+016936f4  mov x5,xzr
+016936f8  bl 0x01765a90
+016936fc  adrp x1,0x575e000
+01693700  adrp x2,0x1765000
+01693704  adrp x4,0x1765000
+01693708  add x1,x1,#0x36b
+0169370c  add x2,x2,#0xc88
+01693710  add x4,x4,#0xc90
+01693714  mov x3,xzr
+01693718  mov x5,xzr
+0169371c  bl 0x01765a90
+01693720  mov x19,x0
+01693724  ldr w8,[x19, #0x8]
+01693728  ldr x0,[x19]
+0169372c  sub w8,w8,#0x3
+01693730  str w8,[x19, #0x8]
+01693734  orr w1,wzr,#0xfffffffc
+01693738  bl 0x0124c4d0
+0169373c  ldr w8,[x19, #0x8]
+01693740  ldr x0,[x19]
+01693744  str wzr,[x19, #0x8]
+01693748  cmp w8,#0x1
+0169374c  b.lt 0x01693758
+01693750  mvn w1,w8
+01693754  bl 0x0124c4d0
+01693758  ldr w8,[sp, #0x18]
+0169375c  cmp w8,#0x1
+01693760  b.lt 0x01693770
+01693764  ldr x0,[sp, #0x10]
+01693768  mvn w1,w8
+0169376c  bl 0x0124c4d0
+01693770  ldr w8,[sp, #0x8]
+01693774  cmp w8,#0x1
+01693778  b.lt 0x01693788
+0169377c  ldr x0,[sp]
+01693780  mvn w1,w8
+01693784  bl 0x0124c4d0
+01693788  ldp x29,x30,[sp, #0x30]
+0169378c  ldr x19,[sp, #0x20]
+01693790  add sp,sp,#0x40
+01693794  ret

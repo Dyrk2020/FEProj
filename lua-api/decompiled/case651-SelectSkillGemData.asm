@@ -1,0 +1,66 @@
+// ===== case651-SelectSkillGemData @ 01715018 =====
+// existing function case651-SelectSkillGemData
+01715018  sub sp,sp,#0x40
+0171501c  str x19,[sp, #0x20]
+01715020  stp x29,x30,[sp, #0x30]
+01715024  add x29,sp,#0x30
+01715028  adrp x1,0x174a000
+0171502c  add x1,x1,#0x87c
+01715030  mov x19,x0
+01715034  bl 0x0124ba40
+01715038  adrp x1,0x575d000
+0171503c  add x1,x1,#0xa06
+01715040  mov x0,x19
+01715044  str x19,[sp]
+01715048  bl 0x01251aa0
+0171504c  mov w8,#0x1
+01715050  str w8,[sp, #0x8]
+01715054  mov x0,sp
+01715058  bl 0x0174aa04
+0171505c  adrp x1,0x576c000
+01715060  adrp x3,0x736d000
+01715064  add x1,x1,#0x9fc
+01715068  add x3,x3,#0x101
+0171506c  add x0,sp,#0x10
+01715070  mov x2,sp
+01715074  bl 0x01927f10
+01715078  adrp x1,0x576c000
+0171507c  adrp x2,0x1927000
+01715080  adrp x4,0x1927000
+01715084  add x1,x1,#0xa16
+01715088  add x2,x2,#0xeec
+0171508c  add x4,x4,#0xef4
+01715090  add x0,sp,#0x10
+01715094  mov x3,xzr
+01715098  mov x5,xzr
+0171509c  bl 0x01927d04
+017150a0  mov x19,x0
+017150a4  ldr w8,[x19, #0x8]
+017150a8  ldr x0,[x19]
+017150ac  sub w8,w8,#0x3
+017150b0  str w8,[x19, #0x8]
+017150b4  orr w1,wzr,#0xfffffffc
+017150b8  bl 0x0124c4d0
+017150bc  ldr w8,[x19, #0x8]
+017150c0  ldr x0,[x19]
+017150c4  str wzr,[x19, #0x8]
+017150c8  cmp w8,#0x1
+017150cc  b.lt 0x017150d8
+017150d0  mvn w1,w8
+017150d4  bl 0x0124c4d0
+017150d8  ldr w8,[sp, #0x18]
+017150dc  cmp w8,#0x1
+017150e0  b.lt 0x017150f0
+017150e4  ldr x0,[sp, #0x10]
+017150e8  mvn w1,w8
+017150ec  bl 0x0124c4d0
+017150f0  ldr w8,[sp, #0x8]
+017150f4  cmp w8,#0x1
+017150f8  b.lt 0x01715108
+017150fc  ldr x0,[sp]
+01715100  mvn w1,w8
+01715104  bl 0x0124c4d0
+01715108  ldp x29,x30,[sp, #0x30]
+0171510c  ldr x19,[sp, #0x20]
+01715110  add sp,sp,#0x40
+01715114  ret

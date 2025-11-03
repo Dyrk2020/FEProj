@@ -1,0 +1,75 @@
+// ===== case779-SkillUseIgnoreInfo @ 017304a0 =====
+// existing function case779-SkillUseIgnoreInfo
+017304a0  sub sp,sp,#0x40
+017304a4  str x19,[sp, #0x20]
+017304a8  stp x29,x30,[sp, #0x30]
+017304ac  add x29,sp,#0x30
+017304b0  adrp x1,0x174a000
+017304b4  add x1,x1,#0x87c
+017304b8  mov x19,x0
+017304bc  bl 0x0124ba40
+017304c0  adrp x1,0x575d000
+017304c4  add x1,x1,#0xa06
+017304c8  mov x0,x19
+017304cc  str x19,[sp]
+017304d0  bl 0x01251aa0
+017304d4  mov w8,#0x1
+017304d8  str w8,[sp, #0x8]
+017304dc  mov x0,sp
+017304e0  bl 0x0174aa04
+017304e4  adrp x1,0x5771000
+017304e8  adrp x3,0x736d000
+017304ec  add x1,x1,#0x94c
+017304f0  add x3,x3,#0x101
+017304f4  add x0,sp,#0x10
+017304f8  mov x2,sp
+017304fc  bl 0x019a7ed4
+01730500  adrp x1,0x5768000
+01730504  adrp x2,0x19a7000
+01730508  adrp x4,0x19a7000
+0173050c  add x1,x1,#0x80d
+01730510  add x2,x2,#0xeb4
+01730514  add x4,x4,#0xebc
+01730518  add x0,sp,#0x10
+0173051c  mov x3,xzr
+01730520  mov x5,xzr
+01730524  bl 0x019a7ccc
+01730528  adrp x1,0x5768000
+0173052c  adrp x2,0x19a7000
+01730530  adrp x4,0x19a7000
+01730534  add x1,x1,#0x81c
+01730538  add x2,x2,#0xec4
+0173053c  add x4,x4,#0xecc
+01730540  mov x3,xzr
+01730544  mov x5,xzr
+01730548  bl 0x019a7ccc
+0173054c  mov x19,x0
+01730550  ldr w8,[x19, #0x8]
+01730554  ldr x0,[x19]
+01730558  sub w8,w8,#0x3
+0173055c  str w8,[x19, #0x8]
+01730560  orr w1,wzr,#0xfffffffc
+01730564  bl 0x0124c4d0
+01730568  ldr w8,[x19, #0x8]
+0173056c  ldr x0,[x19]
+01730570  str wzr,[x19, #0x8]
+01730574  cmp w8,#0x1
+01730578  b.lt 0x01730584
+0173057c  mvn w1,w8
+01730580  bl 0x0124c4d0
+01730584  ldr w8,[sp, #0x18]
+01730588  cmp w8,#0x1
+0173058c  b.lt 0x0173059c
+01730590  ldr x0,[sp, #0x10]
+01730594  mvn w1,w8
+01730598  bl 0x0124c4d0
+0173059c  ldr w8,[sp, #0x8]
+017305a0  cmp w8,#0x1
+017305a4  b.lt 0x017305b4
+017305a8  ldr x0,[sp]
+017305ac  mvn w1,w8
+017305b0  bl 0x0124c4d0
+017305b4  ldp x29,x30,[sp, #0x30]
+017305b8  ldr x19,[sp, #0x20]
+017305bc  add sp,sp,#0x40
+017305c0  ret

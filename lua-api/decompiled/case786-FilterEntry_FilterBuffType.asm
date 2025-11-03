@@ -1,0 +1,84 @@
+// ===== case786-FilterEntry_FilterBuffType @ 01731030 =====
+// existing function case786-FilterEntry_FilterBuffType
+01731030  sub sp,sp,#0x40
+01731034  str x19,[sp, #0x20]
+01731038  stp x29,x30,[sp, #0x30]
+0173103c  add x29,sp,#0x30
+01731040  adrp x1,0x174a000
+01731044  add x1,x1,#0x87c
+01731048  mov x19,x0
+0173104c  bl 0x0124ba40
+01731050  adrp x1,0x575d000
+01731054  add x1,x1,#0xa06
+01731058  mov x0,x19
+0173105c  str x19,[sp]
+01731060  bl 0x01251aa0
+01731064  mov w8,#0x1
+01731068  str w8,[sp, #0x8]
+0173106c  mov x0,sp
+01731070  bl 0x0174aa04
+01731074  adrp x1,0x5771000
+01731078  adrp x3,0x736d000
+0173107c  add x1,x1,#0xa9a
+01731080  add x3,x3,#0x101
+01731084  add x0,sp,#0x10
+01731088  mov x2,sp
+0173108c  bl 0x019accf0
+01731090  adrp x1,0x5771000
+01731094  adrp x2,0x19ac000
+01731098  adrp x4,0x19ac000
+0173109c  add x1,x1,#0xa7e
+017310a0  add x2,x2,#0xad8
+017310a4  add x4,x4,#0xae0
+017310a8  add x0,sp,#0x10
+017310ac  mov x3,xzr
+017310b0  mov x5,xzr
+017310b4  bl 0x019ac8f0
+017310b8  adrp x1,0x5770000
+017310bc  adrp x2,0x19ac000
+017310c0  adrp x4,0x19ac000
+017310c4  add x1,x1,#0x3d7
+017310c8  add x2,x2,#0xcd0
+017310cc  add x4,x4,#0xcd8
+017310d0  mov x3,xzr
+017310d4  mov x5,xzr
+017310d8  bl 0x019acae8
+017310dc  adrp x1,0x5762000
+017310e0  adrp x2,0x19ac000
+017310e4  adrp x4,0x19ac000
+017310e8  add x1,x1,#0x7c6
+017310ec  add x2,x2,#0xce0
+017310f0  add x4,x4,#0xce8
+017310f4  mov x3,xzr
+017310f8  mov x5,xzr
+017310fc  bl 0x019acae8
+01731100  mov x19,x0
+01731104  ldr w8,[x19, #0x8]
+01731108  ldr x0,[x19]
+0173110c  sub w8,w8,#0x3
+01731110  str w8,[x19, #0x8]
+01731114  orr w1,wzr,#0xfffffffc
+01731118  bl 0x0124c4d0
+0173111c  ldr w8,[x19, #0x8]
+01731120  ldr x0,[x19]
+01731124  str wzr,[x19, #0x8]
+01731128  cmp w8,#0x1
+0173112c  b.lt 0x01731138
+01731130  mvn w1,w8
+01731134  bl 0x0124c4d0
+01731138  ldr w8,[sp, #0x18]
+0173113c  cmp w8,#0x1
+01731140  b.lt 0x01731150
+01731144  ldr x0,[sp, #0x10]
+01731148  mvn w1,w8
+0173114c  bl 0x0124c4d0
+01731150  ldr w8,[sp, #0x8]
+01731154  cmp w8,#0x1
+01731158  b.lt 0x01731168
+0173115c  ldr x0,[sp]
+01731160  mvn w1,w8
+01731164  bl 0x0124c4d0
+01731168  ldp x29,x30,[sp, #0x30]
+0173116c  ldr x19,[sp, #0x20]
+01731170  add sp,sp,#0x40
+01731174  ret

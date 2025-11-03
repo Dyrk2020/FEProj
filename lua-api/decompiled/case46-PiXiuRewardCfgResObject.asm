@@ -1,0 +1,66 @@
+// ===== case46-PiXiuRewardCfgResObject @ 01694020 =====
+// existing function case46-PiXiuRewardCfgResObject
+01694020  sub sp,sp,#0x40
+01694024  str x19,[sp, #0x20]
+01694028  stp x29,x30,[sp, #0x30]
+0169402c  add x29,sp,#0x30
+01694030  adrp x1,0x174a000
+01694034  add x1,x1,#0x87c
+01694038  mov x19,x0
+0169403c  bl 0x0124ba40
+01694040  adrp x1,0x575d000
+01694044  add x1,x1,#0xa06
+01694048  mov x0,x19
+0169404c  str x19,[sp]
+01694050  bl 0x01251aa0
+01694054  mov w8,#0x1
+01694058  str w8,[sp, #0x8]
+0169405c  mov x0,sp
+01694060  bl 0x0174aa04
+01694064  adrp x1,0x574d000
+01694068  adrp x3,0x736d000
+0169406c  add x1,x1,#0x1c
+01694070  add x3,x3,#0x101
+01694074  add x0,sp,#0x10
+01694078  mov x2,sp
+0169407c  bl 0x01768518
+01694080  adrp x1,0x575e000
+01694084  adrp x2,0x1768000
+01694088  adrp x4,0x1768000
+0169408c  add x1,x1,#0x472
+01694090  add x2,x2,#0x508
+01694094  add x4,x4,#0x510
+01694098  add x0,sp,#0x10
+0169409c  mov x3,xzr
+016940a0  mov x5,xzr
+016940a4  bl 0x01768320
+016940a8  mov x19,x0
+016940ac  ldr w8,[x19, #0x8]
+016940b0  ldr x0,[x19]
+016940b4  sub w8,w8,#0x3
+016940b8  str w8,[x19, #0x8]
+016940bc  orr w1,wzr,#0xfffffffc
+016940c0  bl 0x0124c4d0
+016940c4  ldr w8,[x19, #0x8]
+016940c8  ldr x0,[x19]
+016940cc  str wzr,[x19, #0x8]
+016940d0  cmp w8,#0x1
+016940d4  b.lt 0x016940e0
+016940d8  mvn w1,w8
+016940dc  bl 0x0124c4d0
+016940e0  ldr w8,[sp, #0x18]
+016940e4  cmp w8,#0x1
+016940e8  b.lt 0x016940f8
+016940ec  ldr x0,[sp, #0x10]
+016940f0  mvn w1,w8
+016940f4  bl 0x0124c4d0
+016940f8  ldr w8,[sp, #0x8]
+016940fc  cmp w8,#0x1
+01694100  b.lt 0x01694110
+01694104  ldr x0,[sp]
+01694108  mvn w1,w8
+0169410c  bl 0x0124c4d0
+01694110  ldp x29,x30,[sp, #0x30]
+01694114  ldr x19,[sp, #0x20]
+01694118  add sp,sp,#0x40
+0169411c  ret

@@ -1,0 +1,163 @@
+// ===== case345-FEBattleDcPlayerSpecialActivity @ 016d0128 =====
+// existing function case345-FEBattleDcPlayerSpecialActivity
+016d0128  sub sp,sp,#0x40
+016d012c  str x19,[sp, #0x20]
+016d0130  stp x29,x30,[sp, #0x30]
+016d0134  add x29,sp,#0x30
+016d0138  adrp x1,0x174a000
+016d013c  add x1,x1,#0x87c
+016d0140  mov x19,x0
+016d0144  bl 0x0124ba40
+016d0148  adrp x1,0x575d000
+016d014c  add x1,x1,#0xa06
+016d0150  mov x0,x19
+016d0154  str x19,[sp]
+016d0158  bl 0x01251aa0
+016d015c  mov w8,#0x1
+016d0160  str w8,[sp, #0x8]
+016d0164  mov x0,sp
+016d0168  bl 0x0174aa04
+016d016c  adrp x1,0x5763000
+016d0170  adrp x3,0x736d000
+016d0174  add x1,x1,#0xad9
+016d0178  add x3,x3,#0x101
+016d017c  add x0,sp,#0x10
+016d0180  mov x2,sp
+016d0184  bl 0x018168b4
+016d0188  adrp x1,0x5763000
+016d018c  adrp x2,0x1816000
+016d0190  adrp x4,0x1816000
+016d0194  add x1,x1,#0xaf9
+016d0198  add x2,x2,#0x61c
+016d019c  add x4,x4,#0x624
+016d01a0  add x0,sp,#0x10
+016d01a4  mov x3,xzr
+016d01a8  mov x5,xzr
+016d01ac  bl 0x01816434
+016d01b0  adrp x1,0x5763000
+016d01b4  adrp x2,0x1816000
+016d01b8  adrp x4,0x1816000
+016d01bc  add x1,x1,#0xb06
+016d01c0  add x2,x2,#0x62c
+016d01c4  add x4,x4,#0x634
+016d01c8  mov x3,xzr
+016d01cc  mov x5,xzr
+016d01d0  bl 0x01816434
+016d01d4  adrp x1,0x5763000
+016d01d8  adrp x2,0x1816000
+016d01dc  adrp x4,0x1816000
+016d01e0  add x1,x1,#0xb1d
+016d01e4  add x2,x2,#0x63c
+016d01e8  add x4,x4,#0x644
+016d01ec  mov x3,xzr
+016d01f0  mov x5,xzr
+016d01f4  bl 0x01816434
+016d01f8  adrp x1,0x5763000
+016d01fc  adrp x2,0x1816000
+016d0200  adrp x4,0x1816000
+016d0204  add x1,x1,#0xb2f
+016d0208  add x2,x2,#0x64c
+016d020c  add x4,x4,#0x654
+016d0210  mov x3,xzr
+016d0214  mov x5,xzr
+016d0218  bl 0x01816434
+016d021c  adrp x1,0x5763000
+016d0220  adrp x2,0x1816000
+016d0224  adrp x4,0x1816000
+016d0228  add x1,x1,#0xb42
+016d022c  add x2,x2,#0x65c
+016d0230  add x4,x4,#0x664
+016d0234  mov x3,xzr
+016d0238  mov x5,xzr
+016d023c  bl 0x01816434
+016d0240  adrp x1,0x5763000
+016d0244  adrp x2,0x1816000
+016d0248  adrp x4,0x1816000
+016d024c  add x1,x1,#0xb53
+016d0250  add x2,x2,#0x66c
+016d0254  add x4,x4,#0x674
+016d0258  mov x3,xzr
+016d025c  mov x5,xzr
+016d0260  bl 0x01816434
+016d0264  adrp x1,0x5763000
+016d0268  adrp x2,0x1816000
+016d026c  adrp x4,0x1816000
+016d0270  add x1,x1,#0xb61
+016d0274  add x2,x2,#0x67c
+016d0278  add x4,x4,#0x684
+016d027c  mov x3,xzr
+016d0280  mov x5,xzr
+016d0284  bl 0x01816434
+016d0288  adrp x1,0x5763000
+016d028c  adrp x2,0x1816000
+016d0290  adrp x4,0x1816000
+016d0294  add x1,x1,#0xb79
+016d0298  add x2,x2,#0x68c
+016d029c  add x4,x4,#0x694
+016d02a0  mov x3,xzr
+016d02a4  mov x5,xzr
+016d02a8  bl 0x01816434
+016d02ac  adrp x1,0x5763000
+016d02b0  adrp x2,0x1816000
+016d02b4  adrp x4,0x1816000
+016d02b8  add x1,x1,#0xb8c
+016d02bc  add x2,x2,#0x69c
+016d02c0  add x4,x4,#0x6a4
+016d02c4  mov x3,xzr
+016d02c8  mov x5,xzr
+016d02cc  bl 0x01816434
+016d02d0  adrp x1,0x5763000
+016d02d4  adrp x2,0x1816000
+016d02d8  adrp x4,0x1816000
+016d02dc  add x1,x1,#0xba0
+016d02e0  add x2,x2,#0x6ac
+016d02e4  add x4,x4,#0x6b4
+016d02e8  mov x3,xzr
+016d02ec  mov x5,xzr
+016d02f0  bl 0x01816434
+016d02f4  adrp x1,0x5763000
+016d02f8  adrp x2,0x1816000
+016d02fc  add x1,x1,#0xbb2
+016d0300  add x2,x2,#0x8a4
+016d0304  mov x3,xzr
+016d0308  mov x4,xzr
+016d030c  mov x5,xzr
+016d0310  bl 0x018166bc
+016d0314  adrp x1,0x5763000
+016d0318  adrp x2,0x1816000
+016d031c  add x1,x1,#0xbca
+016d0320  add x2,x2,#0x8ac
+016d0324  mov x3,xzr
+016d0328  mov x4,xzr
+016d032c  mov x5,xzr
+016d0330  bl 0x018166bc
+016d0334  mov x19,x0
+016d0338  ldr w8,[x19, #0x8]
+016d033c  ldr x0,[x19]
+016d0340  sub w8,w8,#0x3
+016d0344  str w8,[x19, #0x8]
+016d0348  orr w1,wzr,#0xfffffffc
+016d034c  bl 0x0124c4d0
+016d0350  ldr w8,[x19, #0x8]
+016d0354  ldr x0,[x19]
+016d0358  str wzr,[x19, #0x8]
+016d035c  cmp w8,#0x1
+016d0360  b.lt 0x016d036c
+016d0364  mvn w1,w8
+016d0368  bl 0x0124c4d0
+016d036c  ldr w8,[sp, #0x18]
+016d0370  cmp w8,#0x1
+016d0374  b.lt 0x016d0384
+016d0378  ldr x0,[sp, #0x10]
+016d037c  mvn w1,w8
+016d0380  bl 0x0124c4d0
+016d0384  ldr w8,[sp, #0x8]
+016d0388  cmp w8,#0x1
+016d038c  b.lt 0x016d039c
+016d0390  ldr x0,[sp]
+016d0394  mvn w1,w8
+016d0398  bl 0x0124c4d0
+016d039c  ldp x29,x30,[sp, #0x30]
+016d03a0  ldr x19,[sp, #0x20]
+016d03a4  add sp,sp,#0x40
+016d03a8  ret

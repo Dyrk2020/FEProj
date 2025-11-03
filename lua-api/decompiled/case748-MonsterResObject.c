@@ -1,0 +1,208 @@
+// ===== case748-MonsterResObject @ 01728884 =====
+// NOTE: &UNK_<ghidra-addr> references that resolve to printable strings in the
+// runtime string pools (plaintext or dword-XOR 0x30 islands, delta sweep) were
+// rewritten as &"<string>" by postprocess.py; code/data addresses remain as &UNK_.
+// existing function case748-MonsterResObject
+
+
+void case748_MonsterResObject(undefined8 param_1)
+
+{
+  uint uVar1;
+  undefined4 uVar2;
+  undefined8 uVar3;
+  undefined8 *puVar4;
+  undefined8 *puVar5;
+  undefined8 uStack_50;
+  uint uStack_48;
+  undefined8 uStack_40;
+  uint uStack_38;
+  
+  func_0x0124ba40(param_1,&UNK_0174a87c);
+  uStack_50 = param_1;
+  func_0x01251aa0(param_1,&"_G");
+  uStack_48 = 1;
+  gate_check(&uStack_50);
+  func_0x01986804(&uStack_40,&"MonsterResObject",&uStack_50,0x736d101);
+  uVar3 = func_0x01985944(&uStack_40,&"ignoreTerrain",&UNK_01985b2c,0,&UNK_01985b34,0);
+  uVar3 = func_0x01985944(uVar3,&"useReborn",&UNK_01985b3c,0,&UNK_01985b44,0);
+  uVar3 = func_0x01985944(uVar3,&"ignoreGrass",&UNK_01985b4c,0,&UNK_01985b54,0);
+  uVar3 = func_0x01985944(uVar3,&"collisionCheckBlock",&UNK_01985b5c,0,&UNK_01985b64,0);
+  uVar3 = func_0x01985944(uVar3,&"grassVisibleFlag",&UNK_01985b6c,0,&UNK_01985b74,0);
+  uVar3 = func_0x01985b7c(uVar3,&"grassEyesOffset",&UNK_01985d64,0,&UNK_01985d78,0);
+  uVar3 = func_0x01985944(uVar3,&"spellAreaAnchorFlag",&UNK_01985d94,0,&UNK_01985d9c,0);
+  uVar3 = func_0x01985944(uVar3,&"ignoreDeadSkillOnSuicide",&UNK_01985da4,0,&UNK_01985dac,0);
+  uVar3 = func_0x01985944(uVar3,&"isNeedHatredFsm",&UNK_01985db4,0,&UNK_01985dbc,0);
+  uVar3 = func_0x01985944(uVar3,&"aiCtrl",&UNK_01985dc4,0,&UNK_01985dcc,0);
+  uVar3 = func_0x01985944(uVar3,&"bCopyParentSlot",&UNK_01985dd4,0,&UNK_01985ddc,0);
+  puVar4 = (undefined8 *)func_0x01985944(uVar3,&"npcCtrl",&UNK_01985de4,0,&UNK_01985dec,0);
+  puVar5 = (undefined8 *)func_0x0124cba0(*puVar4,0x10);
+  puVar5[1] = 0;
+  *puVar5 = &UNK_01985df4;
+  func_0x0124ec90(*puVar4,&UNK_01987080,1);
+  func_0x0124c0c0(*puVar4,0xffffffff);
+  uVar3 = *puVar4;
+  func_0x0124a650(uVar3,0xfffffffb,0x6e7);
+  func_0x0124c0c0(uVar3,0xfffffffe);
+  uVar2 = func_0x0124e920(uVar3,0xfffffffe);
+  func_0x0124f120(uVar3,&"aiFilePath");
+  func_0x0124cfc0(uVar3,0xfffffffe,1);
+  func_0x0124e060(uVar3,uVar2);
+  func_0x0124c4d0(uVar3,0xfffffffd);
+  uVar3 = *puVar4;
+  func_0x0124a650(uVar3,0xfffffffd,0x6e7);
+  func_0x0124c0c0(uVar3,0xfffffffe);
+  uVar2 = func_0x0124e920(uVar3,0xfffffffe);
+  func_0x0124f120(uVar3,&"aiFilePath");
+  func_0x0124cfc0(uVar3,0xfffffffe,1);
+  func_0x0124e060(uVar3,uVar2);
+  func_0x0124c4d0(uVar3,0xfffffffd);
+  uVar3 = func_0x01985dfc(puVar4,&"emptyActorUsage",&UNK_01985fe4,0,&UNK_01985fec,0);
+  uVar3 = func_0x01985ff4(uVar3,&"warnRadiusF",&UNK_019861dc,0,&UNK_019861e4,0);
+  uVar3 = func_0x01985ff4(uVar3,&"attackF",&UNK_019861ec,0,&UNK_019861f4,0);
+  uVar3 = func_0x019861fc(uVar3,&"attack",&UNK_019863e4,0,0,0);
+  uVar3 = func_0x01985ff4(uVar3,&"magicF",&UNK_019863ec,0,&UNK_019863f4,0);
+  uVar3 = func_0x01985ff4(uVar3,&"armoredValueF",&UNK_019863fc,0,&UNK_01986404,0);
+  uVar3 = func_0x019861fc(uVar3,&"armoredValue",&UNK_0198640c,0,0,0);
+  uVar3 = func_0x01985ff4(uVar3,&"targetValidRadiusF",&UNK_01986414,0,&UNK_0198641c,0);
+  uVar3 = func_0x01985ff4(uVar3,&"magicDefF",&UNK_01986424,0,&UNK_0198642c,0);
+  uVar3 = func_0x019861fc(uVar3,&"magicDef",&UNK_01986434,0,0,0);
+  uVar3 = func_0x01985ff4(uVar3,&"speedMaxF",&UNK_0198643c,0,&UNK_01986444,0);
+  uVar3 = func_0x01985ff4(uVar3,&"lifeTimeF",&UNK_0198644c,0,&UNK_01986454,0);
+  uVar3 = func_0x019861fc(uVar3,&"lifeTime",&UNK_0198645c,0,0,0);
+  uVar3 = func_0x01985dfc(uVar3,&"visionAngle",&UNK_01986464,0,&UNK_0198646c,0);
+  uVar3 = func_0x01985ff4(uVar3,&"hpRecoverSpeedF",&UNK_01986474,0,&UNK_0198647c,0);
+  uVar3 = func_0x01985ff4(uVar3,&"expShareRadiusF",&UNK_01986484,0,&UNK_0198648c,0);
+  uVar3 = func_0x01985ff4(uVar3,&"maxLifeTimeF",&UNK_01986494,0,&UNK_0198649c,0);
+  uVar3 = func_0x01985ff4(uVar3,&"deadlineForSuicide",&UNK_019864a4,0,&UNK_019864ac,0);
+  uVar3 = func_0x01985dfc(uVar3,&"iconType",&UNK_019864b4,0,&UNK_019864bc,0);
+  uVar3 = func_0x01985ff4(uVar3,&"visionF",&UNK_019864c4,0,&UNK_019864cc,0);
+  uVar3 = func_0x01985dfc(uVar3,&"hpRecoverInterval",&UNK_019864d4,0,&UNK_019864dc,0);
+  uVar3 = func_0x01985ff4(uVar3,&"bodySizeF",&UNK_019864e4,0,&UNK_019864ec,0);
+  uVar3 = func_0x01985dfc(uVar3,&"hitNum",&UNK_019864f4,0,&UNK_019864fc,0);
+  uVar3 = func_0x01985ff4(uVar3,&"trapRadiusF",&UNK_01986504,0,&UNK_0198650c,0);
+  uVar3 = func_0x01985944(uVar3,&"ONSE_SHOW_KILL_COUNTERE",&UNK_01986514,0,&UNK_0198651c,0);
+  uVar3 = func_0x01985944(uVar3,&"possessionFinishDie",&UNK_01986524,0,&UNK_0198652c,0);
+  uVar3 = func_0x01985944(uVar3,&"PEN_OR_CLOSE_BATTLE_SHOP_TO_VISIE",&UNK_01986534,0,&UNK_0198653c,0);
+  uVar3 = func_0x01985dfc(uVar3,&"nameID",&UNK_01986544,0,&UNK_0198654c,0);
+  uVar3 = func_0x01985dfc(uVar3,&"descID",&UNK_01986554,0,&UNK_0198655c,0);
+  uVar3 = func_0x01985dfc(uVar3,&"groupID",&UNK_01986564,0,&UNK_0198656c,0);
+  uVar3 = func_0x01985dfc(uVar3,&"selfFactor",&UNK_01986574,0,&UNK_0198657c,0);
+  uVar3 = func_0x01985ff4(uVar3,&"targetRingFactorF",&UNK_01986584,0,&UNK_0198658c,0);
+  uVar3 = func_0x01985dfc(uVar3,&"summonedType",&UNK_01986594,0,&UNK_0198659c,0);
+  uVar3 = func_0x01985dfc(uVar3,&"nextTargetEffectFactor",&UNK_019865a4,0,&UNK_019865ac,0);
+  uVar3 = func_0x01985dfc(uVar3,&"money",&UNK_019865b4,0,&UNK_019865bc,0);
+  uVar3 = func_0x01985dfc(uVar3,&"exp",&UNK_019865c4,0,&UNK_019865cc,0);
+  uVar3 = func_0x01985dfc(uVar3,&"selectType",&UNK_019865d4,0,&UNK_019865dc,0);
+  uVar3 = func_0x01985ff4(uVar3,&"vfxScaleParamF",&UNK_019865e4,0,&UNK_019865ec,0);
+  uVar3 = func_0x01985ff4(uVar3,&"radiusF",&UNK_019865f4,0,&UNK_019865fc,0);
+  uVar3 = func_0x01985ff4(uVar3,&"chaseRadiusF",&UNK_01986604,0,&UNK_0198660c,0);
+  uVar3 = func_0x01985ff4(uVar3,&"hpMaxF",&UNK_01986614,0,&UNK_0198661c,0);
+  uVar3 = func_0x019861fc(uVar3,&"hpMax",&UNK_01986624,0,0,0);
+  uVar3 = func_0x01985ff4(uVar3,&"turnSpeedF",&UNK_0198662c,0,&UNK_01986634,0);
+  uVar3 = func_0x01985dfc(uVar3,&"monsterType",&UNK_0198663c,0,&UNK_01986644,0);
+  uVar3 = func_0x01985dfc(uVar3,&"monsterSubType",&UNK_0198664c,0,&UNK_01986654,0);
+  uVar3 = func_0x01985dfc(uVar3,&"fkConfigResObjectList",&UNK_0198665c,0,&UNK_01986664,0);
+  uVar3 = func_0x01985dfc(uVar3,&"bjectList",&UNK_0198666c,0,&UNK_01986674,0);
+  uVar3 = func_0x01985dfc(uVar3,&"leScoringDataCollectInfo",&UNK_0198667c,0,&UNK_01986684,0);
+  puVar4 = (undefined8 *)func_0x01985dfc(uVar3,&"CollectInfo",&UNK_0198668c,0,&UNK_01986694,0);
+  puVar5 = (undefined8 *)func_0x0124cba0(*puVar4,0x10);
+  puVar5[1] = 0;
+  *puVar5 = &UNK_0198669c;
+  func_0x0124ec90(*puVar4,&UNK_01987884,1);
+  func_0x0124c0c0(*puVar4,0xffffffff);
+  uVar3 = *puVar4;
+  func_0x0124a650(uVar3,0xfffffffb,0x6e7);
+  func_0x0124c0c0(uVar3,0xfffffffe);
+  uVar2 = func_0x0124e920(uVar3,0xfffffffe);
+  func_0x0124f120(uVar3,&"prefab");
+  func_0x0124cfc0(uVar3,0xfffffffe,1);
+  func_0x0124e060(uVar3,uVar2);
+  func_0x0124c4d0(uVar3,0xfffffffd);
+  uVar3 = *puVar4;
+  func_0x0124a650(uVar3,0xfffffffd,0x6e7);
+  func_0x0124c0c0(uVar3,0xfffffffe);
+  uVar2 = func_0x0124e920(uVar3,0xfffffffe);
+  func_0x0124f120(uVar3,&"prefab");
+  func_0x0124cfc0(uVar3,0xfffffffe,1);
+  func_0x0124e060(uVar3,uVar2);
+  func_0x0124c4d0(uVar3,0xfffffffd);
+  puVar4 = (undefined8 *)func_0x01985dfc(puVar4,&"lifeTimeType",&UNK_019866a4,0,&UNK_019866ac,0);
+  puVar5 = (undefined8 *)func_0x0124cba0(*puVar4,0x10);
+  puVar5[1] = 0;
+  *puVar5 = &UNK_019866b4;
+  func_0x0124ec90(*puVar4,&UNK_019879a8,1);
+  func_0x0124c0c0(*puVar4,0xffffffff);
+  uVar3 = *puVar4;
+  func_0x0124a650(uVar3,0xfffffffb,0x6e7);
+  func_0x0124c0c0(uVar3,0xfffffffe);
+  uVar2 = func_0x0124e920(uVar3,0xfffffffe);
+  func_0x0124f120(uVar3,&"collectType");
+  func_0x0124cfc0(uVar3,0xfffffffe,1);
+  func_0x0124e060(uVar3,uVar2);
+  func_0x0124c4d0(uVar3,0xfffffffd);
+  uVar3 = *puVar4;
+  func_0x0124a650(uVar3,0xfffffffd,0x6e7);
+  func_0x0124c0c0(uVar3,0xfffffffe);
+  uVar2 = func_0x0124e920(uVar3,0xfffffffe);
+  func_0x0124f120(uVar3,&"collectType");
+  func_0x0124cfc0(uVar3,0xfffffffe,1);
+  func_0x0124e060(uVar3,uVar2);
+  func_0x0124c4d0(uVar3,0xfffffffd);
+  uVar3 = func_0x01985ff4(puVar4,&"ResObjectEEE",&UNK_019866bc,0,&UNK_019866c4,0);
+  uVar3 = func_0x01985944(uVar3,&"ram1",&UNK_019866cc,0,&UNK_019866d4,0);
+  uVar3 = func_0x01985ff4(uVar3,&"ScoringDataCollectResObject",&UNK_019866dc,0,&UNK_019866e4,0);
+  puVar4 = (undefined8 *)func_0x01985944(uVar3,&"ollectResObject",&UNK_019866ec,0,&UNK_019866f4,0);
+  puVar5 = (undefined8 *)func_0x0124cba0(*puVar4,0x10);
+  puVar5[1] = 0;
+  *puVar5 = &UNK_019866fc;
+  func_0x0124ec90(*puVar4,&UNK_01987acc,1);
+  func_0x0124c0c0(*puVar4,0xffffffff);
+  uVar3 = *puVar4;
+  func_0x0124a650(uVar3,0xfffffffb,0x6e7);
+  func_0x0124c0c0(uVar3,0xfffffffe);
+  uVar2 = func_0x0124e920(uVar3,0xfffffffe);
+  func_0x0124f120(uVar3,&"nonHitEnemyLimitTime");
+  func_0x0124cfc0(uVar3,0xfffffffe,1);
+  func_0x0124e060(uVar3,uVar2);
+  func_0x0124c4d0(uVar3,0xfffffffd);
+  uVar3 = *puVar4;
+  func_0x0124a650(uVar3,0xfffffffd,0x6e7);
+  func_0x0124c0c0(uVar3,0xfffffffe);
+  uVar2 = func_0x0124e920(uVar3,0xfffffffe);
+  func_0x0124f120(uVar3,&"nonHitEnemyLimitTime");
+  func_0x0124cfc0(uVar3,0xfffffffe,1);
+  func_0x0124e060(uVar3,uVar2);
+  func_0x0124c4d0(uVar3,0xfffffffd);
+  uVar3 = func_0x01985944(puVar4,&"isImmortal",&UNK_01986704,0,&UNK_0198670c,0);
+  uVar3 = func_0x01985944(uVar3,&"nUseEnemyLimitTime",&UNK_01986714,0,&UNK_0198671c,0);
+  uVar3 = func_0x01985dfc(uVar3,&"realmFollowType",&UNK_01986724,0,&UNK_0198672c,0);
+  uVar3 = func_0x01985944(uVar3,&"imitTime",&UNK_01986734,0,&UNK_0198673c,0);
+  uVar3 = func_0x01985944(uVar3,&"lHitCount",&UNK_01986744,0,&UNK_0198674c,0);
+  uVar3 = func_0x01985944(uVar3,&"HitLimitTime",&UNK_01986754,0,&UNK_0198675c,0);
+  uVar3 = func_0x01985944(uVar3,&"oSkillHitCount",&UNK_01986764,0,&UNK_0198676c,0);
+  uVar3 = func_0x01985ff4(uVar3,&"tCount",&UNK_01986774,0,&UNK_0198677c,0);
+  uVar3 = func_0x01985ff4(uVar3,&"wballFlyDistance",&UNK_01986784,0,&UNK_0198678c,0);
+  uVar3 = func_0x01985944(uVar3,&"tance",&UNK_01986794,0,&UNK_0198679c,0);
+  uVar3 = func_0x01985944(uVar3,&"LimitTime",&UNK_019867a4,0,&UNK_019867ac,0);
+  uVar3 = func_0x01985944(uVar3,&"ashUseNoDeathLimitTime",&UNK_019867b4,0,&UNK_019867bc,0);
+  uVar3 = func_0x01985944(uVar3,&"hLimitTime",&UNK_019867c4,0,&UNK_019867cc,0);
+  uVar3 = func_0x01985dfc(uVar3,&"onerSpellKillLimitTime",&UNK_019867d4,0,&UNK_019867dc,0);
+  uVar3 = func_0x01985ff4(uVar3,&"chromaLuminanceMul",&UNK_019867e4,0,&UNK_019867ec,0);
+  puVar4 = (undefined8 *)func_0x01985dfc(uVar3,&"MultiNum",&UNK_019867f4,0,&UNK_019867fc,0);
+  *(int *)(puVar4 + 1) = *(int *)(puVar4 + 1) + -3;
+  func_0x0124c4d0(*puVar4,0xfffffffc);
+  uVar1 = *(uint *)(puVar4 + 1);
+  *(undefined4 *)(puVar4 + 1) = 0;
+  if (0 < (int)uVar1) {
+    func_0x0124c4d0(*puVar4,~uVar1);
+  }
+  if (0 < (int)uStack_38) {
+    func_0x0124c4d0(uStack_40,~uStack_38);
+  }
+  if (0 < (int)uStack_48) {
+    func_0x0124c4d0(uStack_50,~uStack_48);
+  }
+  return;
+}
+

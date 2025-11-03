@@ -1,0 +1,75 @@
+// ===== case780-PreCalcCritEffectData @ 01730628 =====
+// existing function case780-PreCalcCritEffectData
+01730628  sub sp,sp,#0x40
+0173062c  str x19,[sp, #0x20]
+01730630  stp x29,x30,[sp, #0x30]
+01730634  add x29,sp,#0x30
+01730638  adrp x1,0x174a000
+0173063c  add x1,x1,#0x87c
+01730640  mov x19,x0
+01730644  bl 0x0124ba40
+01730648  adrp x1,0x575d000
+0173064c  add x1,x1,#0xa06
+01730650  mov x0,x19
+01730654  str x19,[sp]
+01730658  bl 0x01251aa0
+0173065c  mov w8,#0x1
+01730660  str w8,[sp, #0x8]
+01730664  mov x0,sp
+01730668  bl 0x0174aa04
+0173066c  adrp x1,0x5771000
+01730670  adrp x3,0x736d000
+01730674  add x1,x1,#0x95f
+01730678  add x3,x3,#0x101
+0173067c  add x0,sp,#0x10
+01730680  mov x2,sp
+01730684  bl 0x019a88a8
+01730688  adrp x1,0x575e000
+0173068c  adrp x2,0x19a8000
+01730690  adrp x4,0x19a8000
+01730694  add x1,x1,#0x46b
+01730698  add x2,x2,#0x6a0
+0173069c  add x4,x4,#0x6a8
+017306a0  add x0,sp,#0x10
+017306a4  mov x3,xzr
+017306a8  mov x5,xzr
+017306ac  bl 0x019a84b8
+017306b0  adrp x1,0x5771000
+017306b4  adrp x2,0x19a8000
+017306b8  adrp x4,0x19a8000
+017306bc  add x1,x1,#0x975
+017306c0  add x2,x2,#0x898
+017306c4  add x4,x4,#0x8a0
+017306c8  mov x3,xzr
+017306cc  mov x5,xzr
+017306d0  bl 0x019a86b0
+017306d4  mov x19,x0
+017306d8  ldr w8,[x19, #0x8]
+017306dc  ldr x0,[x19]
+017306e0  sub w8,w8,#0x3
+017306e4  str w8,[x19, #0x8]
+017306e8  orr w1,wzr,#0xfffffffc
+017306ec  bl 0x0124c4d0
+017306f0  ldr w8,[x19, #0x8]
+017306f4  ldr x0,[x19]
+017306f8  str wzr,[x19, #0x8]
+017306fc  cmp w8,#0x1
+01730700  b.lt 0x0173070c
+01730704  mvn w1,w8
+01730708  bl 0x0124c4d0
+0173070c  ldr w8,[sp, #0x18]
+01730710  cmp w8,#0x1
+01730714  b.lt 0x01730724
+01730718  ldr x0,[sp, #0x10]
+0173071c  mvn w1,w8
+01730720  bl 0x0124c4d0
+01730724  ldr w8,[sp, #0x8]
+01730728  cmp w8,#0x1
+0173072c  b.lt 0x0173073c
+01730730  ldr x0,[sp]
+01730734  mvn w1,w8
+01730738  bl 0x0124c4d0
+0173073c  ldp x29,x30,[sp, #0x30]
+01730740  ldr x19,[sp, #0x20]
+01730744  add sp,sp,#0x40
+01730748  ret

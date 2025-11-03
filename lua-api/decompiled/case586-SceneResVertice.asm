@@ -1,0 +1,75 @@
+// ===== case586-SceneResVertice @ 01704324 =====
+// existing function case586-SceneResVertice
+01704324  sub sp,sp,#0x40
+01704328  str x19,[sp, #0x20]
+0170432c  stp x29,x30,[sp, #0x30]
+01704330  add x29,sp,#0x30
+01704334  adrp x1,0x174a000
+01704338  add x1,x1,#0x87c
+0170433c  mov x19,x0
+01704340  bl 0x0124ba40
+01704344  adrp x1,0x575d000
+01704348  add x1,x1,#0xa06
+0170434c  mov x0,x19
+01704350  str x19,[sp]
+01704354  bl 0x01251aa0
+01704358  mov w8,#0x1
+0170435c  str w8,[sp, #0x8]
+01704360  mov x0,sp
+01704364  bl 0x0174aa04
+01704368  adrp x1,0x576a000
+0170436c  adrp x3,0x736d000
+01704370  add x1,x1,#0x46
+01704374  add x3,x3,#0x101
+01704378  add x0,sp,#0x10
+0170437c  mov x2,sp
+01704380  bl 0x018e95cc
+01704384  adrp x1,0x5964000
+01704388  adrp x2,0x18e9000
+0170438c  adrp x4,0x18e9000
+01704390  add x1,x1,#0x464
+01704394  add x2,x2,#0x5ac
+01704398  add x4,x4,#0x5b4
+0170439c  add x0,sp,#0x10
+017043a0  mov x3,xzr
+017043a4  mov x5,xzr
+017043a8  bl 0x018e93c4
+017043ac  adrp x1,0x5964000
+017043b0  adrp x2,0x18e9000
+017043b4  adrp x4,0x18e9000
+017043b8  add x1,x1,#0x477
+017043bc  add x2,x2,#0x5bc
+017043c0  add x4,x4,#0x5c4
+017043c4  mov x3,xzr
+017043c8  mov x5,xzr
+017043cc  bl 0x018e93c4
+017043d0  mov x19,x0
+017043d4  ldr w8,[x19, #0x8]
+017043d8  ldr x0,[x19]
+017043dc  sub w8,w8,#0x3
+017043e0  str w8,[x19, #0x8]
+017043e4  orr w1,wzr,#0xfffffffc
+017043e8  bl 0x0124c4d0
+017043ec  ldr w8,[x19, #0x8]
+017043f0  ldr x0,[x19]
+017043f4  str wzr,[x19, #0x8]
+017043f8  cmp w8,#0x1
+017043fc  b.lt 0x01704408
+01704400  mvn w1,w8
+01704404  bl 0x0124c4d0
+01704408  ldr w8,[sp, #0x18]
+0170440c  cmp w8,#0x1
+01704410  b.lt 0x01704420
+01704414  ldr x0,[sp, #0x10]
+01704418  mvn w1,w8
+0170441c  bl 0x0124c4d0
+01704420  ldr w8,[sp, #0x8]
+01704424  cmp w8,#0x1
+01704428  b.lt 0x01704438
+0170442c  ldr x0,[sp]
+01704430  mvn w1,w8
+01704434  bl 0x0124c4d0
+01704438  ldp x29,x30,[sp, #0x30]
+0170443c  ldr x19,[sp, #0x20]
+01704440  add sp,sp,#0x40
+01704444  ret

@@ -1,0 +1,26 @@
+// ===== case397_DataFrame_sub18475b4_lv2_1847628 @ 01847628 (DecompileAt3: cleared stale instructions at entry) =====
+01847628  stp x20,x19,[sp, #-0x20]!
+0184762c  stp x29,x30,[sp, #0x10]
+01847630  add x29,sp,#0x10
+01847634  ldp x8,x9,[x2]
+01847638  mov x19,x0
+0184763c  add x0,x1,x9, ASR #0x1
+01847640  tbz w9,#0x0,0x0184764c
+01847644  ldr x9,[x0]
+01847648  ldr x8,[x9, x8, LSL #0x0]
+0184764c  blr x8
+01847650  mov x8,x0
+01847654  cbz x8,0x01847670
+01847658  adrp x2,0x736d000
+0184765c  add x2,x2,#0x843
+01847660  mov x0,x19
+01847664  mov x1,x8
+01847668  bl 0x0174cd64
+0184766c  b 0x01847678
+01847670  mov x0,x19
+01847674  bl 0x01252b00
+01847678  mov w19,#0x1
+0184767c  ldp x29,x30,[sp, #0x10]
+01847680  mov w0,w19
+01847684  ldp x20,x19,[sp], #0x20
+01847688  ret

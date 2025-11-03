@@ -1,0 +1,602 @@
+[
+{
+"off": 90954656,
+"name": "Shell"
+},
+{
+"off": 90954662,
+"name": "flowVar"
+},
+{
+"off": 90954670,
+"name": "parallelFlowVar"
+},
+{
+"off": 90954686,
+"name": "doMain"
+},
+{
+"off": 90954693,
+"name": "customName"
+},
+{
+"off": 90954704,
+"name": "structName"
+},
+{
+"off": 90954715,
+"name": "enumValue"
+},
+{
+"off": 90954725,
+"name": "GetFix64"
+},
+{
+"off": 90954734,
+"name": "SetFix64"
+},
+{
+"off": 90954743,
+"name": "GetInt"
+},
+{
+"off": 90954750,
+"name": "SetInt"
+},
+{
+"off": 90954757,
+"name": "GetActor"
+},
+{
+"off": 90954766,
+"name": "SetActor"
+},
+{
+"off": 90954775,
+"name": "GetVector3Fix64"
+},
+{
+"off": 90954791,
+"name": "SetVector3Fix64"
+},
+{
+"off": 90954807,
+"name": "GetBool"
+},
+{
+"off": 90954815,
+"name": "SetBool"
+},
+{
+"off": 90954823,
+"name": "GetActorList"
+},
+{
+"off": 90954836,
+"name": " metamethod registration is forbidden"
+},
+{
+"off": 90954874,
+"name": "BattleActorUseMultiSkillMsg"
+},
+{
+"off": 90954902,
+"name": "castSkill"
+},
+{
+"off": 90954912,
+"name": "BattleActorRemoveBuffMsg"
+},
+{
+"off": 90954937,
+"name": "BattleActorDiscardEvacuateDepot"
+},
+{
+"off": 90954969,
+"name": "iID"
+},
+{
+"off": 90954973,
+"name": "BattleActorBackHomeMsg"
+},
+{
+"off": 90954996,
+"name": "skillUseObj"
+},
+{
+"off": 90955008,
+"name": "BattleActorApplyBuffMsg"
+},
+{
+"off": 90955032,
+"name": "SharedBool"
+},
+{
+"off": 90955043,
+"name": "rawValue"
+},
+{
+"off": 90955052,
+"name": "SharedFix64"
+},
+{
+"off": 90955064,
+"name": "VariableFix64Shell"
+},
+{
+"off": 90955083,
+"name": "GameUnit"
+},
+{
+"off": 90955092,
+"name": "BuffManager"
+},
+{
+"off": 90955104,
+"name": "buffList"
+},
+{
+"off": 90955113,
+"name": "SkillManager"
+},
+{
+"off": 90955126,
+"name": "skillList"
+},
+{
+"off": 90955136,
+"name": "battleActor"
+},
+{
+"off": 90955148,
+"name": "skillMgr"
+},
+{
+"off": 90955157,
+"name": "buffMgr"
+},
+{
+"off": 90955165,
+"name": "VariableActorShell"
+},
+{
+"off": 90955184,
+"name": "SharedInt"
+},
+{
+"off": 90955194,
+"name": "CppHotFixHelper"
+},
+{
+"off": 90955210,
+"name": "varFix64"
+},
+{
+"off": 90955219,
+"name": "varInt"
+},
+{
+"off": 90955226,
+"name": "DelayFreeNode_Flow"
+},
+{
+"off": 90955245,
+"name": "startTime"
+},
+{
+"off": 90955255,
+"name": "delayTime"
+},
+{
+"off": 90955265,
+"name": "BattleFlowMgr"
+},
+{
+"off": 90955279,
+"name": "delayFreeList"
+},
+{
+"off": 90955293,
+"name": "LuaScriptParam"
+},
+{
+"off": 90955308,
+"name": "insId"
+},
+{
+"off": 90955314,
+"name": "pathId"
+},
+{
+"off": 90955321,
+"name": "objId"
+},
+{
+"off": 90955327,
+"name": "LuaStructShell"
+},
+{
+"off": 90955342,
+"name": "typeId"
+},
+{
+"off": 90955349,
+"name": "LuaStructMaker"
+},
+{
+"off": 90955364,
+"name": "typeUseIndex"
+},
+{
+"off": 90955377,
+"name": "structAllocIndex"
+},
+{
+"off": 90955394,
+"name": "structMap"
+},
+{
+"off": 90955404,
+"name": "LuaFrameDataMgr"
+},
+{
+"off": 90955420,
+"name": "structMaker"
+},
+{
+"off": 90955432,
+"name": "luaMap"
+},
+{
+"off": 90955439,
+"name": "VoteMgr_VoteData"
+},
+{
+"off": 90955456,
+"name": "voteType"
+},
+{
+"off": 90955465,
+"name": "frame"
+},
+{
+"off": 90955471,
+"name": "TeamViolationLogic"
+},
+{
+"off": 90955490,
+"name": "stateBeginTime"
+},
+{
+"off": 90955505,
+"name": "stateEndTime"
+},
+{
+"off": 90955518,
+"name": "curVoteState"
+},
+{
+"off": 90955531,
+"name": "curVoteUseType"
+},
+{
+"off": 90955546,
+"name": "curVoteTarget"
+},
+{
+"off": 90955560,
+"name": "ViolationMgr"
+},
+{
+"off": 90955573,
+"name": "BattleFixModule"
+},
+{
+"off": 90955589,
+"name": "fixDatas"
+},
+{
+"off": 90955598,
+"name": "UnitManager"
+},
+{
+"off": 90955610,
+"name": "unitList"
+},
+{
+"off": 90955619,
+"name": "destroyedList"
+},
+{
+"off": 90955633,
+"name": "VisiFlowMgr"
+},
+{
+"off": 90955645,
+"name": "BattleLiteFowCutMgr"
+},
+{
+"off": 90955665,
+"name": "focusPlayer"
+},
+{
+"off": 90955677,
+"name": "BattleDisguiseNode"
+},
+{
+"off": 90955696,
+"name": "casterPlayer"
+},
+{
+"off": 90955709,
+"name": "deadTime"
+},
+{
+"off": 90955718,
+"name": "deadPos"
+},
+{
+"off": 90955726,
+"name": "monsterAnchor"
+},
+{
+"off": 90955740,
+"name": "DataConfig_DataConfigDynamic"
+},
+{
+"off": 90955769,
+"name": "disableChange"
+},
+{
+"off": 90955783,
+"name": "common"
+},
+{
+"off": 90955790,
+"name": "newModeConfig"
+},
+{
+"off": 90955804,
+"name": "gamePlayConfig"
+},
+{
+"off": 90955819,
+"name": "globalResDic"
+},
+{
+"off": 90955832,
+"name": "FEBattleContext"
+},
+{
+"off": 90955848,
+"name": "roomInfoSerilizeUsedLength"
+},
+{
+"off": 90955875,
+"name": "isLogicThreadEnabled"
+},
+{
+"off": 90955896,
+"name": "useDataSyncObject"
+},
+{
+"off": 90955914,
+"name": "useLogicNetwork"
+},
+{
+"off": 90955930,
+"name": "isEnableFrameDump"
+},
+{
+"off": 90955948,
+"name": "isReEnterRoom"
+},
+{
+"off": 90955962,
+"name": "isMemoryLogOpen"
+},
+{
+"off": 90955978,
+"name": "visiFocusHeroId"
+},
+{
+"off": 90955994,
+"name": "inBattleTutorialID"
+},
+{
+"off": 90956013,
+"name": "visiFocusRoleId"
+},
+{
+"off": 90956029,
+"name": "myGuid"
+},
+{
+"off": 90956036,
+"name": "frameRateType"
+},
+{
+"off": 90956050,
+"name": "roomInfo"
+},
+{
+"off": 90956059,
+"name": "visiFocusCamp"
+},
+{
+"off": 90956073,
+"name": "visiMyCamp"
+},
+{
+"off": 90956084,
+"name": "agentGid"
+},
+{
+"off": 90956093,
+"name": "memoryRecoveryMode"
+},
+{
+"off": 90956112,
+"name": "localMemoryRecoveryType"
+},
+{
+"off": 90956136,
+"name": "repalyMemoryRecovery"
+},
+{
+"off": 90956157,
+"name": "isDisableLiteFowCut"
+},
+{
+"off": 90956177,
+"name": "tutorialExtraHeroUsedLength"
+},
+{
+"off": 90956205,
+"name": "isForceOffMemoryRecovery"
+},
+{
+"off": 90956230,
+"name": "isExpandFEMsgQueueBuff"
+},
+{
+"off": 90956253,
+"name": "FEMsgQueueBuffSize"
+},
+{
+"off": 90956272,
+"name": "skillNonUpdateParam"
+},
+{
+"off": 90956292,
+"name": "isOfflineBattle"
+},
+{
+"off": 90956308,
+"name": "forceOpenMemLog"
+},
+{
+"off": 90956324,
+"name": "isLowMemoryDevice"
+},
+{
+"off": 90956342,
+"name": "releaseTDBMemOnLMDevice"
+},
+{
+"off": 90956366,
+"name": "releaseFrameMemOnLMDevice"
+},
+{
+"off": 90956392,
+"name": "enableMemoryStatTag"
+},
+{
+"off": 90956412,
+"name": "reserveAllFrameMemory"
+},
+{
+"off": 90956434,
+"name": "enableFEMemoryMmap"
+},
+{
+"off": 90956453,
+"name": "useACK"
+},
+{
+"off": 90956460,
+"name": "expectSec"
+},
+{
+"off": 90956470,
+"name": "missIntervalShort"
+},
+{
+"off": 90956488,
+"name": "missIntervalMiddle"
+},
+{
+"off": 90956507,
+"name": "missIntervalLong"
+},
+{
+"off": 90956524,
+"name": "skillId"
+},
+{
+"off": 90956532,
+"name": "buffId"
+},
+{
+"off": 90956539,
+"name": "LogicDisguiseData"
+},
+{
+"off": 90956557,
+"name": "DisguiseID"
+},
+{
+"off": 90956568,
+"name": "intParmValueList"
+},
+{
+"off": 90956585,
+"name": "LogicDisguiseItemResObject"
+},
+{
+"off": 90956612,
+"name": "logicDisguiseDatas"
+},
+{
+"off": 90956631,
+"name": "BuffLayerReportInfo"
+},
+{
+"off": 90956651,
+"name": "ownerType"
+},
+{
+"off": 90956661,
+"name": "MonsterChangeModelConfig"
+},
+{
+"off": 90956686,
+"name": "monsterId"
+},
+{
+"off": 90956696,
+"name": "heroId"
+},
+{
+"off": 90956703,
+"name": "PiXiuRewardSetting"
+},
+{
+"off": 90956722,
+"name": "awardID"
+},
+{
+"off": 90956730,
+"name": "excludeTag"
+},
+{
+"off": 90956741,
+"name": "rewardType1"
+},
+{
+"off": 90956753,
+"name": "rewardVal1"
+},
+{
+"off": 90956764,
+"name": "rewardType2"
+},
+{
+"off": 90956776,
+"name": "rewardVal2"
+},
+{
+"off": 90956787,
+"name": "rewardType3"
+}
+]

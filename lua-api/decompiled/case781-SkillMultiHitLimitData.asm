@@ -1,0 +1,75 @@
+// ===== case781-SkillMultiHitLimitData @ 017307b0 =====
+// existing function case781-SkillMultiHitLimitData
+017307b0  sub sp,sp,#0x40
+017307b4  str x19,[sp, #0x20]
+017307b8  stp x29,x30,[sp, #0x30]
+017307bc  add x29,sp,#0x30
+017307c0  adrp x1,0x174a000
+017307c4  add x1,x1,#0x87c
+017307c8  mov x19,x0
+017307cc  bl 0x0124ba40
+017307d0  adrp x1,0x575d000
+017307d4  add x1,x1,#0xa06
+017307d8  mov x0,x19
+017307dc  str x19,[sp]
+017307e0  bl 0x01251aa0
+017307e4  mov w8,#0x1
+017307e8  str w8,[sp, #0x8]
+017307ec  mov x0,sp
+017307f0  bl 0x0174aa04
+017307f4  adrp x1,0x5771000
+017307f8  adrp x3,0x736d000
+017307fc  add x1,x1,#0x97f
+01730800  add x3,x3,#0x101
+01730804  add x0,sp,#0x10
+01730808  mov x2,sp
+0173080c  bl 0x019a92b4
+01730810  adrp x1,0x5771000
+01730814  adrp x2,0x19a9000
+01730818  adrp x4,0x19a9000
+0173081c  add x1,x1,#0x996
+01730820  add x2,x2,#0x294
+01730824  add x4,x4,#0x29c
+01730828  add x0,sp,#0x10
+0173082c  mov x3,xzr
+01730830  mov x5,xzr
+01730834  bl 0x019a90ac
+01730838  adrp x1,0x5771000
+0173083c  adrp x2,0x19a9000
+01730840  adrp x4,0x19a9000
+01730844  add x1,x1,#0x9a4
+01730848  add x2,x2,#0x2a4
+0173084c  add x4,x4,#0x2ac
+01730850  mov x3,xzr
+01730854  mov x5,xzr
+01730858  bl 0x019a90ac
+0173085c  mov x19,x0
+01730860  ldr w8,[x19, #0x8]
+01730864  ldr x0,[x19]
+01730868  sub w8,w8,#0x3
+0173086c  str w8,[x19, #0x8]
+01730870  orr w1,wzr,#0xfffffffc
+01730874  bl 0x0124c4d0
+01730878  ldr w8,[x19, #0x8]
+0173087c  ldr x0,[x19]
+01730880  str wzr,[x19, #0x8]
+01730884  cmp w8,#0x1
+01730888  b.lt 0x01730894
+0173088c  mvn w1,w8
+01730890  bl 0x0124c4d0
+01730894  ldr w8,[sp, #0x18]
+01730898  cmp w8,#0x1
+0173089c  b.lt 0x017308ac
+017308a0  ldr x0,[sp, #0x10]
+017308a4  mvn w1,w8
+017308a8  bl 0x0124c4d0
+017308ac  ldr w8,[sp, #0x8]
+017308b0  cmp w8,#0x1
+017308b4  b.lt 0x017308c4
+017308b8  ldr x0,[sp]
+017308bc  mvn w1,w8
+017308c0  bl 0x0124c4d0
+017308c4  ldp x29,x30,[sp, #0x30]
+017308c8  ldr x19,[sp, #0x20]
+017308cc  add sp,sp,#0x40
+017308d0  ret

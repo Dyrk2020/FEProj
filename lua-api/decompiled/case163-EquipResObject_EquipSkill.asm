@@ -1,0 +1,233 @@
+// ===== case163-EquipResObject_EquipSkill @ 016a8138 =====
+// existing function case163-EquipResObject_EquipSkill
+016a8138  sub sp,sp,#0x50
+016a813c  str x21,[sp, #0x20]
+016a8140  stp x20,x19,[sp, #0x30]
+016a8144  stp x29,x30,[sp, #0x40]
+016a8148  add x29,sp,#0x40
+016a814c  adrp x1,0x174a000
+016a8150  add x1,x1,#0x87c
+016a8154  mov x19,x0
+016a8158  bl 0x0124ba40
+016a815c  adrp x1,0x575d000
+016a8160  add x1,x1,#0xa06
+016a8164  mov x0,x19
+016a8168  str x19,[sp]
+016a816c  bl 0x01251aa0
+016a8170  mov w8,#0x1
+016a8174  str w8,[sp, #0x8]
+016a8178  mov x0,sp
+016a817c  bl 0x0174aa04
+016a8180  adrp x1,0x5760000
+016a8184  adrp x3,0x736d000
+016a8188  add x1,x1,#0x292
+016a818c  add x3,x3,#0x101
+016a8190  add x0,sp,#0x10
+016a8194  mov x2,sp
+016a8198  bl 0x017a7de4
+016a819c  ldr x0,[sp, #0x10]
+016a81a0  mov w1,#0x10
+016a81a4  bl 0x0124cba0
+016a81a8  adrp x8,0x17a7000
+016a81ac  dup v0.2D,xzr
+016a81b0  add x8,x8,#0x9c4
+016a81b4  mov v0.D[0x0],x8
+016a81b8  str q0,[x0]
+016a81bc  ldr x0,[sp, #0x10]
+016a81c0  adrp x1,0x17a8000
+016a81c4  add x1,x1,#0x1a8
+016a81c8  mov w2,#0x1
+016a81cc  bl 0x0124ec90
+016a81d0  ldr x0,[sp, #0x10]
+016a81d4  mov w1,#0xffffffff
+016a81d8  bl 0x0124c0c0
+016a81dc  ldr x19,[sp, #0x10]
+016a81e0  orr w1,wzr,#0xfffffffb
+016a81e4  mov w2,#0x6e7
+016a81e8  mov x0,x19
+016a81ec  bl 0x0124a650
+016a81f0  orr w1,wzr,#0xfffffffe
+016a81f4  mov x0,x19
+016a81f8  bl 0x0124c0c0
+016a81fc  orr w1,wzr,#0xfffffffe
+016a8200  mov x0,x19
+016a8204  bl 0x0124e920
+016a8208  mov w20,w0
+016a820c  adrp x1,0x5777000
+016a8210  add x1,x1,#0xd16
+016a8214  mov x0,x19
+016a8218  bl 0x0124f120
+016a821c  orr w1,wzr,#0xfffffffe
+016a8220  mov w2,#0x1
+016a8224  mov x0,x19
+016a8228  bl 0x0124cfc0
+016a822c  mov x0,x19
+016a8230  mov w1,w20
+016a8234  bl 0x0124e060
+016a8238  orr w1,wzr,#0xfffffffd
+016a823c  mov x0,x19
+016a8240  bl 0x0124c4d0
+016a8244  ldr x19,[sp, #0x10]
+016a8248  orr w1,wzr,#0xfffffffd
+016a824c  mov w2,#0x6e7
+016a8250  mov x0,x19
+016a8254  bl 0x0124a650
+016a8258  orr w1,wzr,#0xfffffffe
+016a825c  mov x0,x19
+016a8260  bl 0x0124c0c0
+016a8264  orr w1,wzr,#0xfffffffe
+016a8268  mov x0,x19
+016a826c  bl 0x0124e920
+016a8270  mov w20,w0
+016a8274  adrp x1,0x5777000
+016a8278  add x1,x1,#0xd16
+016a827c  mov x0,x19
+016a8280  bl 0x0124f120
+016a8284  orr w1,wzr,#0xfffffffe
+016a8288  mov w2,#0x1
+016a828c  mov x0,x19
+016a8290  bl 0x0124cfc0
+016a8294  mov x0,x19
+016a8298  mov w1,w20
+016a829c  bl 0x0124e060
+016a82a0  orr w1,wzr,#0xfffffffd
+016a82a4  mov x0,x19
+016a82a8  bl 0x0124c4d0
+016a82ac  adrp x1,0x5760000
+016a82b0  adrp x2,0x17a7000
+016a82b4  adrp x4,0x17a7000
+016a82b8  add x1,x1,#0x2ac
+016a82bc  add x2,x2,#0xbb4
+016a82c0  add x4,x4,#0xbbc
+016a82c4  add x0,sp,#0x10
+016a82c8  mov x3,xzr
+016a82cc  mov x5,xzr
+016a82d0  bl 0x017a79cc
+016a82d4  adrp x1,0x594b000
+016a82d8  adrp x2,0x17a7000
+016a82dc  adrp x4,0x17a7000
+016a82e0  add x1,x1,#0x5fd
+016a82e4  add x2,x2,#0xbc4
+016a82e8  add x4,x4,#0xbcc
+016a82ec  mov x3,xzr
+016a82f0  mov x5,xzr
+016a82f4  bl 0x017a79cc
+016a82f8  mov x19,x0
+016a82fc  ldr x0,[x19]
+016a8300  mov w1,#0x10
+016a8304  bl 0x0124cba0
+016a8308  adrp x8,0x17a7000
+016a830c  dup v0.2D,xzr
+016a8310  add x8,x8,#0xbd4
+016a8314  mov v0.D[0x0],x8
+016a8318  str q0,[x0]
+016a831c  ldr x0,[x19]
+016a8320  adrp x1,0x17a8000
+016a8324  add x1,x1,#0x4ec
+016a8328  mov w2,#0x1
+016a832c  bl 0x0124ec90
+016a8330  ldr x0,[x19]
+016a8334  mov w1,#0xffffffff
+016a8338  bl 0x0124c0c0
+016a833c  ldr x20,[x19]
+016a8340  orr w1,wzr,#0xfffffffb
+016a8344  mov w2,#0x6e7
+016a8348  mov x0,x20
+016a834c  bl 0x0124a650
+016a8350  orr w1,wzr,#0xfffffffe
+016a8354  mov x0,x20
+016a8358  bl 0x0124c0c0
+016a835c  orr w1,wzr,#0xfffffffe
+016a8360  mov x0,x20
+016a8364  bl 0x0124e920
+016a8368  mov w21,w0
+016a836c  adrp x1,0x5760000
+016a8370  add x1,x1,#0x2b5
+016a8374  mov x0,x20
+016a8378  bl 0x0124f120
+016a837c  orr w1,wzr,#0xfffffffe
+016a8380  mov w2,#0x1
+016a8384  mov x0,x20
+016a8388  bl 0x0124cfc0
+016a838c  mov x0,x20
+016a8390  mov w1,w21
+016a8394  bl 0x0124e060
+016a8398  orr w1,wzr,#0xfffffffd
+016a839c  mov x0,x20
+016a83a0  bl 0x0124c4d0
+016a83a4  ldr x20,[x19]
+016a83a8  orr w1,wzr,#0xfffffffd
+016a83ac  mov w2,#0x6e7
+016a83b0  mov x0,x20
+016a83b4  bl 0x0124a650
+016a83b8  orr w1,wzr,#0xfffffffe
+016a83bc  mov x0,x20
+016a83c0  bl 0x0124c0c0
+016a83c4  orr w1,wzr,#0xfffffffe
+016a83c8  mov x0,x20
+016a83cc  bl 0x0124e920
+016a83d0  mov w21,w0
+016a83d4  adrp x1,0x5760000
+016a83d8  add x1,x1,#0x2b5
+016a83dc  mov x0,x20
+016a83e0  bl 0x0124f120
+016a83e4  orr w1,wzr,#0xfffffffe
+016a83e8  mov w2,#0x1
+016a83ec  mov x0,x20
+016a83f0  bl 0x0124cfc0
+016a83f4  mov x0,x20
+016a83f8  mov w1,w21
+016a83fc  bl 0x0124e060
+016a8400  orr w1,wzr,#0xfffffffd
+016a8404  mov x0,x20
+016a8408  bl 0x0124c4d0
+016a840c  adrp x1,0x5760000
+016a8410  adrp x2,0x17a7000
+016a8414  adrp x4,0x17a7000
+016a8418  add x1,x1,#0x2ba
+016a841c  add x2,x2,#0xdc4
+016a8420  add x4,x4,#0xdcc
+016a8424  mov x0,x19
+016a8428  mov x3,xzr
+016a842c  mov x5,xzr
+016a8430  bl 0x017a7bdc
+016a8434  adrp x1,0x5760000
+016a8438  adrp x2,0x17a7000
+016a843c  adrp x4,0x17a7000
+016a8440  add x1,x1,#0x2c7
+016a8444  add x2,x2,#0xdd4
+016a8448  add x4,x4,#0xddc
+016a844c  mov x3,xzr
+016a8450  mov x5,xzr
+016a8454  bl 0x017a7bdc
+016a8458  mov x19,x0
+016a845c  ldr w8,[x19, #0x8]
+016a8460  ldr x0,[x19]
+016a8464  sub w8,w8,#0x3
+016a8468  str w8,[x19, #0x8]
+016a846c  orr w1,wzr,#0xfffffffc
+016a8470  bl 0x0124c4d0
+016a8474  ldr w8,[x19, #0x8]
+016a8478  ldr x0,[x19]
+016a847c  str wzr,[x19, #0x8]
+016a8480  cmp w8,#0x1
+016a8484  b.lt 0x016a8490
+016a8488  mvn w1,w8
+016a848c  bl 0x0124c4d0
+016a8490  ldr w8,[sp, #0x18]
+016a8494  cmp w8,#0x1
+016a8498  b.lt 0x016a84a8
+016a849c  ldr x0,[sp, #0x10]
+016a84a0  mvn w1,w8
+016a84a4  bl 0x0124c4d0
+016a84a8  ldr w8,[sp, #0x8]
+016a84ac  cmp w8,#0x1
+016a84b0  b.lt 0x016a84c0
+016a84b4  ldr x0,[sp]
+016a84b8  mvn w1,w8
+016a84bc  bl 0x0124c4d0
+016a84c0  ldp x29,x30,[sp, #0x40]
+016a84c4  ldp x20,x19,[sp, #0x30]
+016a84c8  ldr x21,[sp, #0x20]
+016a84cc  add sp,sp,#0x50
+016a84d0  ret

@@ -1,0 +1,66 @@
+// ===== case50-DoomDifficultyConfig @ 016946b8 =====
+// existing function case50-DoomDifficultyConfig
+016946b8  sub sp,sp,#0x40
+016946bc  str x19,[sp, #0x20]
+016946c0  stp x29,x30,[sp, #0x30]
+016946c4  add x29,sp,#0x30
+016946c8  adrp x1,0x174a000
+016946cc  add x1,x1,#0x87c
+016946d0  mov x19,x0
+016946d4  bl 0x0124ba40
+016946d8  adrp x1,0x575d000
+016946dc  add x1,x1,#0xa06
+016946e0  mov x0,x19
+016946e4  str x19,[sp]
+016946e8  bl 0x01251aa0
+016946ec  mov w8,#0x1
+016946f0  str w8,[sp, #0x8]
+016946f4  mov x0,sp
+016946f8  bl 0x0174aa04
+016946fc  adrp x1,0x574c000
+01694700  adrp x3,0x736d000
+01694704  add x1,x1,#0xbfd
+01694708  add x3,x3,#0x101
+0169470c  add x0,sp,#0x10
+01694710  mov x2,sp
+01694714  bl 0x0176a910
+01694718  adrp x1,0x575e000
+0169471c  adrp x2,0x176a000
+01694720  adrp x4,0x176a000
+01694724  add x1,x1,#0x546
+01694728  add x2,x2,#0x900
+0169472c  add x4,x4,#0x908
+01694730  add x0,sp,#0x10
+01694734  mov x3,xzr
+01694738  mov x5,xzr
+0169473c  bl 0x0176a718
+01694740  mov x19,x0
+01694744  ldr w8,[x19, #0x8]
+01694748  ldr x0,[x19]
+0169474c  sub w8,w8,#0x3
+01694750  str w8,[x19, #0x8]
+01694754  orr w1,wzr,#0xfffffffc
+01694758  bl 0x0124c4d0
+0169475c  ldr w8,[x19, #0x8]
+01694760  ldr x0,[x19]
+01694764  str wzr,[x19, #0x8]
+01694768  cmp w8,#0x1
+0169476c  b.lt 0x01694778
+01694770  mvn w1,w8
+01694774  bl 0x0124c4d0
+01694778  ldr w8,[sp, #0x18]
+0169477c  cmp w8,#0x1
+01694780  b.lt 0x01694790
+01694784  ldr x0,[sp, #0x10]
+01694788  mvn w1,w8
+0169478c  bl 0x0124c4d0
+01694790  ldr w8,[sp, #0x8]
+01694794  cmp w8,#0x1
+01694798  b.lt 0x016947a8
+0169479c  ldr x0,[sp]
+016947a0  mvn w1,w8
+016947a4  bl 0x0124c4d0
+016947a8  ldp x29,x30,[sp, #0x30]
+016947ac  ldr x19,[sp, #0x20]
+016947b0  add sp,sp,#0x40
+016947b4  ret

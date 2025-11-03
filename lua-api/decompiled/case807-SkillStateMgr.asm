@@ -1,0 +1,154 @@
+// ===== case807-SkillStateMgr @ 01735180 =====
+// existing function case807-SkillStateMgr
+01735180  sub sp,sp,#0x50
+01735184  str x21,[sp, #0x20]
+01735188  stp x20,x19,[sp, #0x30]
+0173518c  stp x29,x30,[sp, #0x40]
+01735190  add x29,sp,#0x40
+01735194  adrp x1,0x174a000
+01735198  add x1,x1,#0x87c
+0173519c  mov x19,x0
+017351a0  bl 0x0124ba40
+017351a4  adrp x1,0x575d000
+017351a8  add x1,x1,#0xa06
+017351ac  mov x0,x19
+017351b0  str x19,[sp]
+017351b4  bl 0x01251aa0
+017351b8  mov w8,#0x1
+017351bc  str w8,[sp, #0x8]
+017351c0  mov x0,sp
+017351c4  bl 0x0174aa04
+017351c8  adrp x1,0x5772000
+017351cc  adrp x3,0x736d000
+017351d0  add x1,x1,#0x364
+017351d4  add x3,x3,#0x101
+017351d8  add x0,sp,#0x10
+017351dc  mov x2,sp
+017351e0  bl 0x019be048
+017351e4  adrp x1,0x5772000
+017351e8  adrp x2,0x19bd000
+017351ec  adrp x4,0x19be000
+017351f0  add x1,x1,#0x372
+017351f4  add x2,x2,#0xffc
+017351f8  add x4,x4,#0x4
+017351fc  add x0,sp,#0x10
+01735200  mov x3,xzr
+01735204  mov x5,xzr
+01735208  bl 0x019bde14
+0173520c  adrp x1,0x5772000
+01735210  adrp x2,0x19be000
+01735214  adrp x4,0x19be000
+01735218  add x1,x1,#0x37f
+0173521c  add x2,x2,#0x20
+01735220  add x4,x4,#0x28
+01735224  mov x3,xzr
+01735228  mov x5,xzr
+0173522c  bl 0x019bde14
+01735230  adrp x1,0x5772000
+01735234  adrp x2,0x19be000
+01735238  adrp x4,0x19be000
+0173523c  add x1,x1,#0x39b
+01735240  add x2,x2,#0x30
+01735244  add x4,x4,#0x38
+01735248  mov x3,xzr
+0173524c  mov x5,xzr
+01735250  bl 0x019bde14
+01735254  mov x19,x0
+01735258  ldr x0,[x19]
+0173525c  mov w1,#0x10
+01735260  bl 0x0124cba0
+01735264  adrp x8,0x19be000
+01735268  dup v0.2D,xzr
+0173526c  add x8,x8,#0x40
+01735270  mov v0.D[0x0],x8
+01735274  str q0,[x0]
+01735278  ldr x0,[x19]
+0173527c  adrp x1,0x19be000
+01735280  add x1,x1,#0x794
+01735284  mov w2,#0x1
+01735288  bl 0x0124ec90
+0173528c  ldr x0,[x19]
+01735290  mov w1,#0xffffffff
+01735294  bl 0x0124c0c0
+01735298  ldr x20,[x19]
+0173529c  orr w1,wzr,#0xfffffffb
+017352a0  mov w2,#0x6e7
+017352a4  mov x0,x20
+017352a8  bl 0x0124a650
+017352ac  orr w1,wzr,#0xfffffffe
+017352b0  mov x0,x20
+017352b4  bl 0x0124c0c0
+017352b8  orr w1,wzr,#0xfffffffe
+017352bc  mov x0,x20
+017352c0  bl 0x0124e920
+017352c4  mov w21,w0
+017352c8  adrp x1,0x5762000
+017352cc  add x1,x1,#0x1cd
+017352d0  mov x0,x20
+017352d4  bl 0x0124f120
+017352d8  orr w1,wzr,#0xfffffffe
+017352dc  mov w2,#0x1
+017352e0  mov x0,x20
+017352e4  bl 0x0124cfc0
+017352e8  mov x0,x20
+017352ec  mov w1,w21
+017352f0  bl 0x0124e060
+017352f4  orr w1,wzr,#0xfffffffd
+017352f8  mov x0,x20
+017352fc  bl 0x0124c4d0
+01735300  ldr x20,[x19]
+01735304  orr w1,wzr,#0xfffffffd
+01735308  mov w2,#0x6e7
+0173530c  mov x0,x20
+01735310  bl 0x0124a650
+01735314  orr w1,wzr,#0xfffffffe
+01735318  mov x0,x20
+0173531c  bl 0x0124c0c0
+01735320  orr w1,wzr,#0xfffffffe
+01735324  mov x0,x20
+01735328  bl 0x0124e920
+0173532c  mov w21,w0
+01735330  adrp x1,0x5762000
+01735334  add x1,x1,#0x1cd
+01735338  mov x0,x20
+0173533c  bl 0x0124f120
+01735340  orr w1,wzr,#0xfffffffe
+01735344  mov w2,#0x1
+01735348  mov x0,x20
+0173534c  bl 0x0124cfc0
+01735350  mov x0,x20
+01735354  mov w1,w21
+01735358  bl 0x0124e060
+0173535c  orr w1,wzr,#0xfffffffd
+01735360  mov x0,x20
+01735364  bl 0x0124c4d0
+01735368  ldr w8,[x19, #0x8]
+0173536c  ldr x0,[x19]
+01735370  sub w8,w8,#0x3
+01735374  str w8,[x19, #0x8]
+01735378  orr w1,wzr,#0xfffffffc
+0173537c  bl 0x0124c4d0
+01735380  ldr w8,[x19, #0x8]
+01735384  ldr x0,[x19]
+01735388  str wzr,[x19, #0x8]
+0173538c  cmp w8,#0x1
+01735390  b.lt 0x0173539c
+01735394  mvn w1,w8
+01735398  bl 0x0124c4d0
+0173539c  ldr w8,[sp, #0x18]
+017353a0  cmp w8,#0x1
+017353a4  b.lt 0x017353b4
+017353a8  ldr x0,[sp, #0x10]
+017353ac  mvn w1,w8
+017353b0  bl 0x0124c4d0
+017353b4  ldr w8,[sp, #0x8]
+017353b8  cmp w8,#0x1
+017353bc  b.lt 0x017353cc
+017353c0  ldr x0,[sp]
+017353c4  mvn w1,w8
+017353c8  bl 0x0124c4d0
+017353cc  ldp x29,x30,[sp, #0x40]
+017353d0  ldp x20,x19,[sp, #0x30]
+017353d4  ldr x21,[sp, #0x20]
+017353d8  add sp,sp,#0x50
+017353dc  ret

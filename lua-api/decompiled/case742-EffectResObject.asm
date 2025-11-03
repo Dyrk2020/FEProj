@@ -1,0 +1,75 @@
+// ===== case742-EffectResObject @ 017274ac =====
+// existing function case742-EffectResObject
+017274ac  sub sp,sp,#0x40
+017274b0  str x19,[sp, #0x20]
+017274b4  stp x29,x30,[sp, #0x30]
+017274b8  add x29,sp,#0x30
+017274bc  adrp x1,0x174a000
+017274c0  add x1,x1,#0x87c
+017274c4  mov x19,x0
+017274c8  bl 0x0124ba40
+017274cc  adrp x1,0x575d000
+017274d0  add x1,x1,#0xa06
+017274d4  mov x0,x19
+017274d8  str x19,[sp]
+017274dc  bl 0x01251aa0
+017274e0  mov w8,#0x1
+017274e4  str w8,[sp, #0x8]
+017274e8  mov x0,sp
+017274ec  bl 0x0174aa04
+017274f0  adrp x1,0x5762000
+017274f4  adrp x3,0x736d000
+017274f8  add x1,x1,#0xcdc
+017274fc  add x3,x3,#0x101
+01727500  add x0,sp,#0x10
+01727504  mov x2,sp
+01727508  bl 0x01980c70
+0172750c  adrp x1,0x5760000
+01727510  adrp x2,0x1980000
+01727514  adrp x4,0x1980000
+01727518  add x1,x1,#0xa89
+0172751c  add x2,x2,#0xc50
+01727520  add x4,x4,#0xc58
+01727524  add x0,sp,#0x10
+01727528  mov x3,xzr
+0172752c  mov x5,xzr
+01727530  bl 0x01980a68
+01727534  adrp x1,0x5766000
+01727538  adrp x2,0x1980000
+0172753c  adrp x4,0x1980000
+01727540  add x1,x1,#0x464
+01727544  add x2,x2,#0xc60
+01727548  add x4,x4,#0xc68
+0172754c  mov x3,xzr
+01727550  mov x5,xzr
+01727554  bl 0x01980a68
+01727558  mov x19,x0
+0172755c  ldr w8,[x19, #0x8]
+01727560  ldr x0,[x19]
+01727564  sub w8,w8,#0x3
+01727568  str w8,[x19, #0x8]
+0172756c  orr w1,wzr,#0xfffffffc
+01727570  bl 0x0124c4d0
+01727574  ldr w8,[x19, #0x8]
+01727578  ldr x0,[x19]
+0172757c  str wzr,[x19, #0x8]
+01727580  cmp w8,#0x1
+01727584  b.lt 0x01727590
+01727588  mvn w1,w8
+0172758c  bl 0x0124c4d0
+01727590  ldr w8,[sp, #0x18]
+01727594  cmp w8,#0x1
+01727598  b.lt 0x017275a8
+0172759c  ldr x0,[sp, #0x10]
+017275a0  mvn w1,w8
+017275a4  bl 0x0124c4d0
+017275a8  ldr w8,[sp, #0x8]
+017275ac  cmp w8,#0x1
+017275b0  b.lt 0x017275c0
+017275b4  ldr x0,[sp]
+017275b8  mvn w1,w8
+017275bc  bl 0x0124c4d0
+017275c0  ldp x29,x30,[sp, #0x30]
+017275c4  ldr x19,[sp, #0x20]
+017275c8  add sp,sp,#0x40
+017275cc  ret

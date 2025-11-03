@@ -1,0 +1,66 @@
+// ===== case728-HeroVariantSkill @ 017253e8 =====
+// existing function case728-HeroVariantSkill
+017253e8  sub sp,sp,#0x40
+017253ec  str x19,[sp, #0x20]
+017253f0  stp x29,x30,[sp, #0x30]
+017253f4  add x29,sp,#0x30
+017253f8  adrp x1,0x174a000
+017253fc  add x1,x1,#0x87c
+01725400  mov x19,x0
+01725404  bl 0x0124ba40
+01725408  adrp x1,0x575d000
+0172540c  add x1,x1,#0xa06
+01725410  mov x0,x19
+01725414  str x19,[sp]
+01725418  bl 0x01251aa0
+0172541c  mov w8,#0x1
+01725420  str w8,[sp, #0x8]
+01725424  mov x0,sp
+01725428  bl 0x0174aa04
+0172542c  adrp x1,0x576f000
+01725430  adrp x3,0x736d000
+01725434  add x1,x1,#0xd27
+01725438  add x3,x3,#0x101
+0172543c  add x0,sp,#0x10
+01725440  mov x2,sp
+01725444  bl 0x01978af4
+01725448  adrp x1,0x576f000
+0172544c  adrp x2,0x1978000
+01725450  adrp x4,0x1978000
+01725454  add x1,x1,#0xd38
+01725458  add x2,x2,#0xae4
+0172545c  add x4,x4,#0xaec
+01725460  add x0,sp,#0x10
+01725464  mov x3,xzr
+01725468  mov x5,xzr
+0172546c  bl 0x019788fc
+01725470  mov x19,x0
+01725474  ldr w8,[x19, #0x8]
+01725478  ldr x0,[x19]
+0172547c  sub w8,w8,#0x3
+01725480  str w8,[x19, #0x8]
+01725484  orr w1,wzr,#0xfffffffc
+01725488  bl 0x0124c4d0
+0172548c  ldr w8,[x19, #0x8]
+01725490  ldr x0,[x19]
+01725494  str wzr,[x19, #0x8]
+01725498  cmp w8,#0x1
+0172549c  b.lt 0x017254a8
+017254a0  mvn w1,w8
+017254a4  bl 0x0124c4d0
+017254a8  ldr w8,[sp, #0x18]
+017254ac  cmp w8,#0x1
+017254b0  b.lt 0x017254c0
+017254b4  ldr x0,[sp, #0x10]
+017254b8  mvn w1,w8
+017254bc  bl 0x0124c4d0
+017254c0  ldr w8,[sp, #0x8]
+017254c4  cmp w8,#0x1
+017254c8  b.lt 0x017254d8
+017254cc  ldr x0,[sp]
+017254d0  mvn w1,w8
+017254d4  bl 0x0124c4d0
+017254d8  ldp x29,x30,[sp, #0x30]
+017254dc  ldr x19,[sp, #0x20]
+017254e0  add sp,sp,#0x40
+017254e4  ret

@@ -1,0 +1,183 @@
+// ===== case16_Actor_sub17571ac @ 017571ac (DecompileAt3: cleared stale instructions at entry) =====
+017571ac  sub sp,sp,#0x50
+017571b0  str x23,[sp, #0x10]
+017571b4  stp x22,x21,[sp, #0x20]
+017571b8  stp x20,x19,[sp, #0x30]
+017571bc  stp x29,x30,[sp, #0x40]
+017571c0  add x29,sp,#0x40
+017571c4  ldr x8,[x2]
+017571c8  mov x19,x0
+017571cc  mov x20,x3
+017571d0  mov x21,x1
+017571d4  str x8,[x19]
+017571d8  ldr w8,[x2, #0x8]
+017571dc  str w8,[x19, #0x8]
+017571e0  str wzr,[x2, #0x8]
+017571e4  mov w2,#0x1
+017571e8  bl 0x0174ae88
+017571ec  ldr x0,[x19]
+017571f0  adrp x1,0x1757000
+017571f4  add x1,x1,#0x530
+017571f8  mov w2,wzr
+017571fc  bl 0x0124ec90
+01757200  ldr x22,[x19]
+01757204  orr w1,wzr,#0xfffffffe
+01757208  mov x0,x22
+0175720c  bl 0x0124e920
+01757210  mov w23,w0
+01757214  adrp x1,0x575d000
+01757218  add x1,x1,#0xa29
+0175721c  mov x0,x22
+01757220  bl 0x0124f120
+01757224  orr w1,wzr,#0xfffffffe
+01757228  mov w2,#0x1
+0175722c  mov x0,x22
+01757230  bl 0x0124cfc0
+01757234  mov x0,x22
+01757238  mov w1,w23
+0175723c  bl 0x0124e060
+01757240  ldr w8,[x19, #0x8]
+01757244  add w8,w8,#0x1
+01757248  str w8,[x19, #0x8]
+0175724c  mov x0,x19
+01757250  mov x1,x21
+01757254  mov w2,wzr
+01757258  bl 0x0174ae88
+0175725c  ldr x0,[x19]
+01757260  mov w1,wzr
+01757264  mov w2,wzr
+01757268  bl 0x0124f920
+0175726c  ldr x0,[x19]
+01757270  orr w1,wzr,#0xfffffffe
+01757274  mov w2,#0x5e7
+01757278  bl 0x01252d10
+0175727c  ldr x0,[x19]
+01757280  orr w1,wzr,#0xfffffffe
+01757284  bl 0x0124c0c0
+01757288  ldr x0,[x19]
+0175728c  orr w1,wzr,#0xfffffffe
+01757290  mov w2,#0xc07
+01757294  bl 0x01252d10
+01757298  ldr x0,[x19]
+0175729c  mov w1,#0xffffffff
+017572a0  bl 0x0124c0c0
+017572a4  ldr x0,[x19]
+017572a8  orr w1,wzr,#0xfffffffd
+017572ac  mov w2,#0xc1a
+017572b0  bl 0x01252d10
+017572b4  ldr x0,[x19]
+017572b8  adrp x1,0x1757000
+017572bc  add x1,x1,#0x530
+017572c0  mov w2,wzr
+017572c4  bl 0x0124ec90
+017572c8  ldr x22,[x19]
+017572cc  orr w1,wzr,#0xfffffffe
+017572d0  mov x0,x22
+017572d4  bl 0x0124e920
+017572d8  mov w23,w0
+017572dc  adrp x1,0x575d000
+017572e0  add x1,x1,#0xa29
+017572e4  mov x0,x22
+017572e8  bl 0x0124f120
+017572ec  orr w1,wzr,#0xfffffffe
+017572f0  mov w2,#0x1
+017572f4  mov x0,x22
+017572f8  bl 0x0124cfc0
+017572fc  mov x0,x22
+01757300  mov w1,w23
+01757304  bl 0x0124e060
+01757308  ldr w8,[x19, #0x8]
+0175730c  add w8,w8,#0x1
+01757310  str w8,[x19, #0x8]
+01757314  mov x0,x19
+01757318  mov x1,x21
+0175731c  bl 0x0174b264
+01757320  ldr w8,[x19, #0x8]
+01757324  ldr x0,[x19]
+01757328  add w8,w8,#0x1
+0175732c  str w8,[x19, #0x8]
+01757330  mov w1,#0xb9d8
+01757334  movk w1,#0xfff0, LSL #16
+01757338  mov x2,x20
+0175733c  bl 0x0124a650
+01757340  ldr x0,[x19]
+01757344  mov w1,#0xffffffff
+01757348  bl 0x0124ff50
+0175734c  cbz w0,0x01757424
+01757350  ldr x0,[x19]
+01757354  mov w1,#0xffffffff
+01757358  mov w2,#0xc1a
+0175735c  bl 0x0124a650
+01757360  ldr x0,[x19]
+01757364  mov w1,#0xffffffff
+01757368  mov w2,#0xc07
+0175736c  bl 0x0124a650
+01757370  ldr x0,[x19]
+01757374  mov w1,#0xfffffffa
+01757378  mov w2,#0xdad
+0175737c  bl 0x01252d10
+01757380  ldr x0,[x19]
+01757384  orr w1,wzr,#0xfffffffc
+01757388  mov w2,#0xdad
+0175738c  bl 0x01252d10
+01757390  ldr x0,[x19]
+01757394  orr w1,wzr,#0xfffffffe
+01757398  mov w2,#0xdad
+0175739c  bl 0x01252d10
+017573a0  ldr x0,[x19]
+017573a4  mov w1,#0xffffffff
+017573a8  bl 0x0124c0c0
+017573ac  ldr x0,[x19]
+017573b0  adrp x2,0x736d000
+017573b4  mov w1,#0xb9d8
+017573b8  add x2,x2,#0x22c
+017573bc  movk w1,#0xfff0, LSL #16
+017573c0  bl 0x01252d10
+017573c4  ldr x0,[x19]
+017573c8  orr w1,wzr,#0xfffffffe
+017573cc  bl 0x0124c0c0
+017573d0  ldr x0,[x19]
+017573d4  adrp x2,0x736d000
+017573d8  mov w1,#0xb9d8
+017573dc  add x2,x2,#0x180
+017573e0  movk w1,#0xfff0, LSL #16
+017573e4  bl 0x01252d10
+017573e8  ldr x0,[x19]
+017573ec  orr w1,wzr,#0xfffffffd
+017573f0  bl 0x0124c0c0
+017573f4  ldr x0,[x19]
+017573f8  adrp x2,0x736d000
+017573fc  mov w1,#0xb9d8
+01757400  add x2,x2,#0x198
+01757404  movk w1,#0xfff0, LSL #16
+01757408  bl 0x01252d10
+0175740c  ldp x29,x30,[sp, #0x40]
+01757410  ldp x20,x19,[sp, #0x30]
+01757414  ldp x22,x21,[sp, #0x20]
+01757418  ldr x23,[sp, #0x10]
+0175741c  add sp,sp,#0x50
+01757420  ret
+01757424  ldr w8,[x19, #0x8]
+01757428  mov w0,#0x10
+0175742c  add w8,w8,#0x1
+01757430  str w8,[x19, #0x8]
+01757434  bl 0x01250920
+01757438  mov x20,x0
+0175743c  adrp x1,0x575d000
+01757440  add x1,x1,#0xa2e
+01757444  add x0,sp,#0x8
+01757448  mov x2,sp
+0175744c  bl 0x0571b104
+01757450  mov w22,#0x1
+01757454  add x1,sp,#0x8
+01757458  mov x0,x20
+0175745c  bl 0x056fed48
+01757460  adrp x1,0x7318000
+01757464  adrp x2,0x7313000
+01757468  ldr x1,[x1, #0x6a0]
+0175746c  ldr x2,[x2, #0xbc8]
+01757470  mov x0,x20
+01757474  mov w22,wzr
+01757478  bl 0x0124dd00
+0175747c  mov x21,x0
+01757480  b 0x017574d8

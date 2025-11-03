@@ -1,0 +1,75 @@
+// ===== case38-RunningSkillBuffConfig @ 01693004 =====
+// existing function case38-RunningSkillBuffConfig
+01693004  sub sp,sp,#0x40
+01693008  str x19,[sp, #0x20]
+0169300c  stp x29,x30,[sp, #0x30]
+01693010  add x29,sp,#0x30
+01693014  adrp x1,0x174a000
+01693018  add x1,x1,#0x87c
+0169301c  mov x19,x0
+01693020  bl 0x0124ba40
+01693024  adrp x1,0x575d000
+01693028  add x1,x1,#0xa06
+0169302c  mov x0,x19
+01693030  str x19,[sp]
+01693034  bl 0x01251aa0
+01693038  mov w8,#0x1
+0169303c  str w8,[sp, #0x8]
+01693040  mov x0,sp
+01693044  bl 0x0174aa04
+01693048  adrp x1,0x574c000
+0169304c  adrp x3,0x736d000
+01693050  add x1,x1,#0xc47
+01693054  add x3,x3,#0x101
+01693058  add x0,sp,#0x10
+0169305c  mov x2,sp
+01693060  bl 0x017646a4
+01693064  adrp x1,0x575e000
+01693068  adrp x2,0x1764000
+0169306c  adrp x4,0x1764000
+01693070  add x1,x1,#0x2ec
+01693074  add x2,x2,#0x684
+01693078  add x4,x4,#0x68c
+0169307c  add x0,sp,#0x10
+01693080  mov x3,xzr
+01693084  mov x5,xzr
+01693088  bl 0x0176449c
+0169308c  adrp x1,0x575e000
+01693090  adrp x2,0x1764000
+01693094  adrp x4,0x1764000
+01693098  add x1,x1,#0x2f4
+0169309c  add x2,x2,#0x694
+016930a0  add x4,x4,#0x69c
+016930a4  mov x3,xzr
+016930a8  mov x5,xzr
+016930ac  bl 0x0176449c
+016930b0  mov x19,x0
+016930b4  ldr w8,[x19, #0x8]
+016930b8  ldr x0,[x19]
+016930bc  sub w8,w8,#0x3
+016930c0  str w8,[x19, #0x8]
+016930c4  orr w1,wzr,#0xfffffffc
+016930c8  bl 0x0124c4d0
+016930cc  ldr w8,[x19, #0x8]
+016930d0  ldr x0,[x19]
+016930d4  str wzr,[x19, #0x8]
+016930d8  cmp w8,#0x1
+016930dc  b.lt 0x016930e8
+016930e0  mvn w1,w8
+016930e4  bl 0x0124c4d0
+016930e8  ldr w8,[sp, #0x18]
+016930ec  cmp w8,#0x1
+016930f0  b.lt 0x01693100
+016930f4  ldr x0,[sp, #0x10]
+016930f8  mvn w1,w8
+016930fc  bl 0x0124c4d0
+01693100  ldr w8,[sp, #0x8]
+01693104  cmp w8,#0x1
+01693108  b.lt 0x01693118
+0169310c  ldr x0,[sp]
+01693110  mvn w1,w8
+01693114  bl 0x0124c4d0
+01693118  ldp x29,x30,[sp, #0x30]
+0169311c  ldr x19,[sp, #0x20]
+01693120  add sp,sp,#0x40
+01693124  ret

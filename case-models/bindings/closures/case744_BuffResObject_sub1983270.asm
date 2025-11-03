@@ -1,0 +1,183 @@
+// ===== case744_BuffResObject_sub1983270 @ 01983270 (DecompileAt3: cleared stale instructions at entry) =====
+01983270  sub sp,sp,#0x50
+01983274  str x23,[sp, #0x10]
+01983278  stp x22,x21,[sp, #0x20]
+0198327c  stp x20,x19,[sp, #0x30]
+01983280  stp x29,x30,[sp, #0x40]
+01983284  add x29,sp,#0x40
+01983288  ldr x8,[x2]
+0198328c  mov x19,x0
+01983290  mov x20,x3
+01983294  mov x21,x1
+01983298  str x8,[x19]
+0198329c  ldr w8,[x2, #0x8]
+019832a0  str w8,[x19, #0x8]
+019832a4  str wzr,[x2, #0x8]
+019832a8  mov w2,#0x1
+019832ac  bl 0x0174ae88
+019832b0  ldr x0,[x19]
+019832b4  adrp x1,0x1983000
+019832b8  add x1,x1,#0x5f4
+019832bc  mov w2,wzr
+019832c0  bl 0x0124ec90
+019832c4  ldr x22,[x19]
+019832c8  orr w1,wzr,#0xfffffffe
+019832cc  mov x0,x22
+019832d0  bl 0x0124e920
+019832d4  mov w23,w0
+019832d8  adrp x1,0x575d000
+019832dc  add x1,x1,#0xa29
+019832e0  mov x0,x22
+019832e4  bl 0x0124f120
+019832e8  orr w1,wzr,#0xfffffffe
+019832ec  mov w2,#0x1
+019832f0  mov x0,x22
+019832f4  bl 0x0124cfc0
+019832f8  mov x0,x22
+019832fc  mov w1,w23
+01983300  bl 0x0124e060
+01983304  ldr w8,[x19, #0x8]
+01983308  add w8,w8,#0x1
+0198330c  str w8,[x19, #0x8]
+01983310  mov x0,x19
+01983314  mov x1,x21
+01983318  mov w2,wzr
+0198331c  bl 0x0174ae88
+01983320  ldr x0,[x19]
+01983324  mov w1,wzr
+01983328  mov w2,wzr
+0198332c  bl 0x0124f920
+01983330  ldr x0,[x19]
+01983334  orr w1,wzr,#0xfffffffe
+01983338  mov w2,#0x5e7
+0198333c  bl 0x01252d10
+01983340  ldr x0,[x19]
+01983344  orr w1,wzr,#0xfffffffe
+01983348  bl 0x0124c0c0
+0198334c  ldr x0,[x19]
+01983350  orr w1,wzr,#0xfffffffe
+01983354  mov w2,#0xc07
+01983358  bl 0x01252d10
+0198335c  ldr x0,[x19]
+01983360  mov w1,#0xffffffff
+01983364  bl 0x0124c0c0
+01983368  ldr x0,[x19]
+0198336c  orr w1,wzr,#0xfffffffd
+01983370  mov w2,#0xc1a
+01983374  bl 0x01252d10
+01983378  ldr x0,[x19]
+0198337c  adrp x1,0x1983000
+01983380  add x1,x1,#0x5f4
+01983384  mov w2,wzr
+01983388  bl 0x0124ec90
+0198338c  ldr x22,[x19]
+01983390  orr w1,wzr,#0xfffffffe
+01983394  mov x0,x22
+01983398  bl 0x0124e920
+0198339c  mov w23,w0
+019833a0  adrp x1,0x575d000
+019833a4  add x1,x1,#0xa29
+019833a8  mov x0,x22
+019833ac  bl 0x0124f120
+019833b0  orr w1,wzr,#0xfffffffe
+019833b4  mov w2,#0x1
+019833b8  mov x0,x22
+019833bc  bl 0x0124cfc0
+019833c0  mov x0,x22
+019833c4  mov w1,w23
+019833c8  bl 0x0124e060
+019833cc  ldr w8,[x19, #0x8]
+019833d0  add w8,w8,#0x1
+019833d4  str w8,[x19, #0x8]
+019833d8  mov x0,x19
+019833dc  mov x1,x21
+019833e0  bl 0x0174b264
+019833e4  ldr w8,[x19, #0x8]
+019833e8  ldr x0,[x19]
+019833ec  add w8,w8,#0x1
+019833f0  str w8,[x19, #0x8]
+019833f4  mov w1,#0xb9d8
+019833f8  movk w1,#0xfff0, LSL #16
+019833fc  mov x2,x20
+01983400  bl 0x0124a650
+01983404  ldr x0,[x19]
+01983408  mov w1,#0xffffffff
+0198340c  bl 0x0124ff50
+01983410  cbz w0,0x019834e8
+01983414  ldr x0,[x19]
+01983418  mov w1,#0xffffffff
+0198341c  mov w2,#0xc1a
+01983420  bl 0x0124a650
+01983424  ldr x0,[x19]
+01983428  mov w1,#0xffffffff
+0198342c  mov w2,#0xc07
+01983430  bl 0x0124a650
+01983434  ldr x0,[x19]
+01983438  mov w1,#0xfffffffa
+0198343c  mov w2,#0xdad
+01983440  bl 0x01252d10
+01983444  ldr x0,[x19]
+01983448  orr w1,wzr,#0xfffffffc
+0198344c  mov w2,#0xdad
+01983450  bl 0x01252d10
+01983454  ldr x0,[x19]
+01983458  orr w1,wzr,#0xfffffffe
+0198345c  mov w2,#0xdad
+01983460  bl 0x01252d10
+01983464  ldr x0,[x19]
+01983468  mov w1,#0xffffffff
+0198346c  bl 0x0124c0c0
+01983470  ldr x0,[x19]
+01983474  adrp x2,0x736d000
+01983478  mov w1,#0xb9d8
+0198347c  add x2,x2,#0xcfb
+01983480  movk w1,#0xfff0, LSL #16
+01983484  bl 0x01252d10
+01983488  ldr x0,[x19]
+0198348c  orr w1,wzr,#0xfffffffe
+01983490  bl 0x0124c0c0
+01983494  ldr x0,[x19]
+01983498  adrp x2,0x736d000
+0198349c  mov w1,#0xb9d8
+019834a0  add x2,x2,#0xcfc
+019834a4  movk w1,#0xfff0, LSL #16
+019834a8  bl 0x01252d10
+019834ac  ldr x0,[x19]
+019834b0  orr w1,wzr,#0xfffffffd
+019834b4  bl 0x0124c0c0
+019834b8  ldr x0,[x19]
+019834bc  adrp x2,0x736d000
+019834c0  mov w1,#0xb9d8
+019834c4  add x2,x2,#0xcfd
+019834c8  movk w1,#0xfff0, LSL #16
+019834cc  bl 0x01252d10
+019834d0  ldp x29,x30,[sp, #0x40]
+019834d4  ldp x20,x19,[sp, #0x30]
+019834d8  ldp x22,x21,[sp, #0x20]
+019834dc  ldr x23,[sp, #0x10]
+019834e0  add sp,sp,#0x50
+019834e4  ret
+019834e8  ldr w8,[x19, #0x8]
+019834ec  mov w0,#0x10
+019834f0  add w8,w8,#0x1
+019834f4  str w8,[x19, #0x8]
+019834f8  bl 0x01250920
+019834fc  mov x20,x0
+01983500  adrp x1,0x575d000
+01983504  add x1,x1,#0xa2e
+01983508  add x0,sp,#0x8
+0198350c  mov x2,sp
+01983510  bl 0x0571b104
+01983514  mov w22,#0x1
+01983518  add x1,sp,#0x8
+0198351c  mov x0,x20
+01983520  bl 0x056fed48
+01983524  adrp x1,0x7318000
+01983528  adrp x2,0x7313000
+0198352c  ldr x1,[x1, #0x6a0]
+01983530  ldr x2,[x2, #0xbc8]
+01983534  mov x0,x20
+01983538  mov w22,wzr
+0198353c  bl 0x0124dd00
+01983540  mov x21,x0
+01983544  b 0x0198359c

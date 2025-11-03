@@ -1,0 +1,165 @@
+// ===== case703-ActorComponentRide @ 0172189c =====
+// existing function case703-ActorComponentRide
+0172189c  sub sp,sp,#0x50
+017218a0  str x21,[sp, #0x20]
+017218a4  stp x20,x19,[sp, #0x30]
+017218a8  stp x29,x30,[sp, #0x40]
+017218ac  add x29,sp,#0x40
+017218b0  adrp x1,0x174a000
+017218b4  add x1,x1,#0x87c
+017218b8  mov x19,x0
+017218bc  bl 0x0124ba40
+017218c0  adrp x1,0x575d000
+017218c4  add x1,x1,#0xa06
+017218c8  mov x0,x19
+017218cc  str x19,[sp]
+017218d0  bl 0x01251aa0
+017218d4  mov w8,#0x1
+017218d8  str w8,[sp, #0x8]
+017218dc  mov x0,sp
+017218e0  bl 0x0174aa04
+017218e4  adrp x1,0x576f000
+017218e8  adrp x3,0x736d000
+017218ec  add x1,x1,#0x788
+017218f0  add x3,x3,#0x101
+017218f4  add x0,sp,#0x10
+017218f8  mov x2,sp
+017218fc  bl 0x01965574
+01721900  adrp x1,0x576f000
+01721904  adrp x2,0x1965000
+01721908  adrp x4,0x1965000
+0172190c  add x1,x1,#0x79b
+01721910  add x2,x2,#0x224
+01721914  add x4,x4,#0x230
+01721918  add x0,sp,#0x10
+0172191c  mov x3,xzr
+01721920  mov x5,xzr
+01721924  bl 0x0196503c
+01721928  adrp x1,0x576f000
+0172192c  adrp x2,0x1965000
+01721930  adrp x4,0x1965000
+01721934  add x1,x1,#0x773
+01721938  add x2,x2,#0x23c
+0172193c  add x4,x4,#0x248
+01721940  mov x3,xzr
+01721944  mov x5,xzr
+01721948  bl 0x0196503c
+0172194c  mov x19,x0
+01721950  ldr x0,[x19]
+01721954  mov w1,#0x10
+01721958  bl 0x0124cba0
+0172195c  adrp x8,0x1965000
+01721960  dup v0.2D,xzr
+01721964  add x8,x8,#0x254
+01721968  mov v0.D[0x0],x8
+0172196c  str q0,[x0]
+01721970  ldr x0,[x19]
+01721974  adrp x1,0x1965000
+01721978  add x1,x1,#0xb94
+0172197c  mov w2,#0x1
+01721980  bl 0x0124ec90
+01721984  ldr x0,[x19]
+01721988  mov w1,#0xffffffff
+0172198c  bl 0x0124c0c0
+01721990  ldr x20,[x19]
+01721994  orr w1,wzr,#0xfffffffb
+01721998  mov w2,#0x6e7
+0172199c  mov x0,x20
+017219a0  bl 0x0124a650
+017219a4  orr w1,wzr,#0xfffffffe
+017219a8  mov x0,x20
+017219ac  bl 0x0124c0c0
+017219b0  orr w1,wzr,#0xfffffffe
+017219b4  mov x0,x20
+017219b8  bl 0x0124e920
+017219bc  mov w21,w0
+017219c0  adrp x1,0x576f000
+017219c4  add x1,x1,#0x7a7
+017219c8  mov x0,x20
+017219cc  bl 0x0124f120
+017219d0  orr w1,wzr,#0xfffffffe
+017219d4  mov w2,#0x1
+017219d8  mov x0,x20
+017219dc  bl 0x0124cfc0
+017219e0  mov x0,x20
+017219e4  mov w1,w21
+017219e8  bl 0x0124e060
+017219ec  orr w1,wzr,#0xfffffffd
+017219f0  mov x0,x20
+017219f4  bl 0x0124c4d0
+017219f8  ldr x20,[x19]
+017219fc  orr w1,wzr,#0xfffffffd
+01721a00  mov w2,#0x6e7
+01721a04  mov x0,x20
+01721a08  bl 0x0124a650
+01721a0c  orr w1,wzr,#0xfffffffe
+01721a10  mov x0,x20
+01721a14  bl 0x0124c0c0
+01721a18  orr w1,wzr,#0xfffffffe
+01721a1c  mov x0,x20
+01721a20  bl 0x0124e920
+01721a24  mov w21,w0
+01721a28  adrp x1,0x576f000
+01721a2c  add x1,x1,#0x7a7
+01721a30  mov x0,x20
+01721a34  bl 0x0124f120
+01721a38  orr w1,wzr,#0xfffffffe
+01721a3c  mov w2,#0x1
+01721a40  mov x0,x20
+01721a44  bl 0x0124cfc0
+01721a48  mov x0,x20
+01721a4c  mov w1,w21
+01721a50  bl 0x0124e060
+01721a54  orr w1,wzr,#0xfffffffd
+01721a58  mov x0,x20
+01721a5c  bl 0x0124c4d0
+01721a60  adrp x1,0x576f000
+01721a64  adrp x2,0x1965000
+01721a68  adrp x4,0x1965000
+01721a6c  add x1,x1,#0x7b4
+01721a70  add x2,x2,#0x444
+01721a74  add x4,x4,#0x44c
+01721a78  mov x0,x19
+01721a7c  mov x3,xzr
+01721a80  mov x5,xzr
+01721a84  bl 0x0196525c
+01721a88  adrp x1,0x576f000
+01721a8c  adrp x2,0x1965000
+01721a90  adrp x4,0x1965000
+01721a94  add x1,x1,#0x7bd
+01721a98  add x2,x2,#0x4dc
+01721a9c  add x4,x4,#0x4e4
+01721aa0  mov x3,xzr
+01721aa4  mov x5,xzr
+01721aa8  bl 0x0196525c
+01721aac  mov x19,x0
+01721ab0  ldr w8,[x19, #0x8]
+01721ab4  ldr x0,[x19]
+01721ab8  sub w8,w8,#0x3
+01721abc  str w8,[x19, #0x8]
+01721ac0  orr w1,wzr,#0xfffffffc
+01721ac4  bl 0x0124c4d0
+01721ac8  ldr w8,[x19, #0x8]
+01721acc  ldr x0,[x19]
+01721ad0  str wzr,[x19, #0x8]
+01721ad4  cmp w8,#0x1
+01721ad8  b.lt 0x01721ae4
+01721adc  mvn w1,w8
+01721ae0  bl 0x0124c4d0
+01721ae4  ldr w8,[sp, #0x18]
+01721ae8  cmp w8,#0x1
+01721aec  b.lt 0x01721afc
+01721af0  ldr x0,[sp, #0x10]
+01721af4  mvn w1,w8
+01721af8  bl 0x0124c4d0
+01721afc  ldr w8,[sp, #0x8]
+01721b00  cmp w8,#0x1
+01721b04  b.lt 0x01721b14
+01721b08  ldr x0,[sp]
+01721b0c  mvn w1,w8
+01721b10  bl 0x0124c4d0
+01721b14  ldp x29,x30,[sp, #0x40]
+01721b18  ldp x20,x19,[sp, #0x30]
+01721b1c  ldr x21,[sp, #0x20]
+01721b20  add sp,sp,#0x50
+01721b24  ret

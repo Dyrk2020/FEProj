@@ -1,0 +1,66 @@
+// ===== case741-BuffTipsInfo @ 01727354 =====
+// existing function case741-BuffTipsInfo
+01727354  sub sp,sp,#0x40
+01727358  str x19,[sp, #0x20]
+0172735c  stp x29,x30,[sp, #0x30]
+01727360  add x29,sp,#0x30
+01727364  adrp x1,0x174a000
+01727368  add x1,x1,#0x87c
+0172736c  mov x19,x0
+01727370  bl 0x0124ba40
+01727374  adrp x1,0x575d000
+01727378  add x1,x1,#0xa06
+0172737c  mov x0,x19
+01727380  str x19,[sp]
+01727384  bl 0x01251aa0
+01727388  mov w8,#0x1
+0172738c  str w8,[sp, #0x8]
+01727390  mov x0,sp
+01727394  bl 0x0174aa04
+01727398  adrp x1,0x5770000
+0172739c  adrp x3,0x736d000
+017273a0  add x1,x1,#0x1e6
+017273a4  add x3,x3,#0x101
+017273a8  add x0,sp,#0x10
+017273ac  mov x2,sp
+017273b0  bl 0x01980484
+017273b4  adrp x1,0x5770000
+017273b8  adrp x2,0x1980000
+017273bc  adrp x4,0x1980000
+017273c0  add x1,x1,#0x1f3
+017273c4  add x2,x2,#0x474
+017273c8  add x4,x4,#0x47c
+017273cc  add x0,sp,#0x10
+017273d0  mov x3,xzr
+017273d4  mov x5,xzr
+017273d8  bl 0x0198028c
+017273dc  mov x19,x0
+017273e0  ldr w8,[x19, #0x8]
+017273e4  ldr x0,[x19]
+017273e8  sub w8,w8,#0x3
+017273ec  str w8,[x19, #0x8]
+017273f0  orr w1,wzr,#0xfffffffc
+017273f4  bl 0x0124c4d0
+017273f8  ldr w8,[x19, #0x8]
+017273fc  ldr x0,[x19]
+01727400  str wzr,[x19, #0x8]
+01727404  cmp w8,#0x1
+01727408  b.lt 0x01727414
+0172740c  mvn w1,w8
+01727410  bl 0x0124c4d0
+01727414  ldr w8,[sp, #0x18]
+01727418  cmp w8,#0x1
+0172741c  b.lt 0x0172742c
+01727420  ldr x0,[sp, #0x10]
+01727424  mvn w1,w8
+01727428  bl 0x0124c4d0
+0172742c  ldr w8,[sp, #0x8]
+01727430  cmp w8,#0x1
+01727434  b.lt 0x01727444
+01727438  ldr x0,[sp]
+0172743c  mvn w1,w8
+01727440  bl 0x0124c4d0
+01727444  ldp x29,x30,[sp, #0x30]
+01727448  ldr x19,[sp, #0x20]
+0172744c  add sp,sp,#0x40
+01727450  ret

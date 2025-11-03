@@ -1,0 +1,73 @@
+// ===== case673-SkinFlowReplace @ 01718838 =====
+// existing function case673-SkinFlowReplace
+01718838  sub sp,sp,#0x40
+0171883c  str x19,[sp, #0x20]
+01718840  stp x29,x30,[sp, #0x30]
+01718844  add x29,sp,#0x30
+01718848  adrp x1,0x174a000
+0171884c  add x1,x1,#0x87c
+01718850  mov x19,x0
+01718854  bl 0x0124ba40
+01718858  adrp x1,0x575d000
+0171885c  add x1,x1,#0xa06
+01718860  mov x0,x19
+01718864  str x19,[sp]
+01718868  bl 0x01251aa0
+0171886c  mov w8,#0x1
+01718870  str w8,[sp, #0x8]
+01718874  mov x0,sp
+01718878  bl 0x0174aa04
+0171887c  adrp x1,0x576d000
+01718880  adrp x3,0x736d000
+01718884  add x1,x1,#0x213
+01718888  add x3,x3,#0x101
+0171888c  add x0,sp,#0x10
+01718890  mov x2,sp
+01718894  bl 0x0193fa24
+01718898  adrp x1,0x576d000
+0171889c  adrp x2,0x193f000
+017188a0  add x1,x1,#0x223
+017188a4  add x2,x2,#0xa14
+017188a8  add x0,sp,#0x10
+017188ac  mov x3,xzr
+017188b0  mov x4,xzr
+017188b4  mov x5,xzr
+017188b8  bl 0x0193f82c
+017188bc  adrp x1,0x576d000
+017188c0  adrp x2,0x193f000
+017188c4  add x1,x1,#0x22f
+017188c8  add x2,x2,#0xa1c
+017188cc  mov x3,xzr
+017188d0  mov x4,xzr
+017188d4  mov x5,xzr
+017188d8  bl 0x0193f82c
+017188dc  mov x19,x0
+017188e0  ldr w8,[x19, #0x8]
+017188e4  ldr x0,[x19]
+017188e8  sub w8,w8,#0x3
+017188ec  str w8,[x19, #0x8]
+017188f0  orr w1,wzr,#0xfffffffc
+017188f4  bl 0x0124c4d0
+017188f8  ldr w8,[x19, #0x8]
+017188fc  ldr x0,[x19]
+01718900  str wzr,[x19, #0x8]
+01718904  cmp w8,#0x1
+01718908  b.lt 0x01718914
+0171890c  mvn w1,w8
+01718910  bl 0x0124c4d0
+01718914  ldr w8,[sp, #0x18]
+01718918  cmp w8,#0x1
+0171891c  b.lt 0x0171892c
+01718920  ldr x0,[sp, #0x10]
+01718924  mvn w1,w8
+01718928  bl 0x0124c4d0
+0171892c  ldr w8,[sp, #0x8]
+01718930  cmp w8,#0x1
+01718934  b.lt 0x01718944
+01718938  ldr x0,[sp]
+0171893c  mvn w1,w8
+01718940  bl 0x0124c4d0
+01718944  ldp x29,x30,[sp, #0x30]
+01718948  ldr x19,[sp, #0x20]
+0171894c  add sp,sp,#0x40
+01718950  ret

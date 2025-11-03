@@ -1,0 +1,66 @@
+// ===== case574-MapInfoPoint @ 01702700 =====
+// existing function case574-MapInfoPoint
+01702700  sub sp,sp,#0x40
+01702704  str x19,[sp, #0x20]
+01702708  stp x29,x30,[sp, #0x30]
+0170270c  add x29,sp,#0x30
+01702710  adrp x1,0x174a000
+01702714  add x1,x1,#0x87c
+01702718  mov x19,x0
+0170271c  bl 0x0124ba40
+01702720  adrp x1,0x575d000
+01702724  add x1,x1,#0xa06
+01702728  mov x0,x19
+0170272c  str x19,[sp]
+01702730  bl 0x01251aa0
+01702734  mov w8,#0x1
+01702738  str w8,[sp, #0x8]
+0170273c  mov x0,sp
+01702740  bl 0x0174aa04
+01702744  adrp x1,0x5769000
+01702748  adrp x3,0x736d000
+0170274c  add x1,x1,#0xef6
+01702750  add x3,x3,#0x101
+01702754  add x0,sp,#0x10
+01702758  mov x2,sp
+0170275c  bl 0x018e3154
+01702760  adrp x1,0x57f9000
+01702764  adrp x2,0x18e3000
+01702768  adrp x4,0x18e3000
+0170276c  add x1,x1,#0xcf2
+01702770  add x2,x2,#0x144
+01702774  add x4,x4,#0x14c
+01702778  add x0,sp,#0x10
+0170277c  mov x3,xzr
+01702780  mov x5,xzr
+01702784  bl 0x018e2f5c
+01702788  mov x19,x0
+0170278c  ldr w8,[x19, #0x8]
+01702790  ldr x0,[x19]
+01702794  sub w8,w8,#0x3
+01702798  str w8,[x19, #0x8]
+0170279c  orr w1,wzr,#0xfffffffc
+017027a0  bl 0x0124c4d0
+017027a4  ldr w8,[x19, #0x8]
+017027a8  ldr x0,[x19]
+017027ac  str wzr,[x19, #0x8]
+017027b0  cmp w8,#0x1
+017027b4  b.lt 0x017027c0
+017027b8  mvn w1,w8
+017027bc  bl 0x0124c4d0
+017027c0  ldr w8,[sp, #0x18]
+017027c4  cmp w8,#0x1
+017027c8  b.lt 0x017027d8
+017027cc  ldr x0,[sp, #0x10]
+017027d0  mvn w1,w8
+017027d4  bl 0x0124c4d0
+017027d8  ldr w8,[sp, #0x8]
+017027dc  cmp w8,#0x1
+017027e0  b.lt 0x017027f0
+017027e4  ldr x0,[sp]
+017027e8  mvn w1,w8
+017027ec  bl 0x0124c4d0
+017027f0  ldp x29,x30,[sp, #0x30]
+017027f4  ldr x19,[sp, #0x20]
+017027f8  add sp,sp,#0x40
+017027fc  ret

@@ -1,0 +1,30 @@
+// ===== case744_BuffResObject_sub1984030 @ 01984030 (DecompileAt3: cleared stale instructions at entry) =====
+01984030  stp x20,x19,[sp, #-0x20]!
+01984034  stp x29,x30,[sp, #0x10]
+01984038  add x29,sp,#0x10
+0198403c  mov w1,#0x1
+01984040  mov x19,x0
+01984044  bl 0x0124ff50
+01984048  cbz w0,0x01984074
+0198404c  adrp x2,0x736d000
+01984050  adrp x3,0x736d000
+01984054  add x2,x2,#0xcfd
+01984058  add x3,x3,#0xcfc
+0198405c  mov w1,#0x1
+01984060  mov w4,#0x1
+01984064  mov x0,x19
+01984068  bl 0x0174b938
+0198406c  ldr x20,[x0, #0x8]
+01984070  b 0x01984078
+01984074  mov x20,xzr
+01984078  mov w1,#0xb9d7
+0198407c  movk w1,#0xfff0, LSL #16
+01984080  mov x0,x19
+01984084  bl 0x0124e990
+01984088  mov x2,x0
+0198408c  mov x0,x19
+01984090  mov x1,x20
+01984094  bl 0x019840a4
+01984098  ldp x29,x30,[sp, #0x10]
+0198409c  ldp x20,x19,[sp], #0x20
+019840a0  ret

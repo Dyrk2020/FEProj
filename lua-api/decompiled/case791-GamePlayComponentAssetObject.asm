@@ -1,0 +1,66 @@
+// ===== case791-GamePlayComponentAssetObject @ 01732794 =====
+// existing function case791-GamePlayComponentAssetObject
+01732794  sub sp,sp,#0x40
+01732798  str x19,[sp, #0x20]
+0173279c  stp x29,x30,[sp, #0x30]
+017327a0  add x29,sp,#0x30
+017327a4  adrp x1,0x174a000
+017327a8  add x1,x1,#0x87c
+017327ac  mov x19,x0
+017327b0  bl 0x0124ba40
+017327b4  adrp x1,0x575d000
+017327b8  add x1,x1,#0xa06
+017327bc  mov x0,x19
+017327c0  str x19,[sp]
+017327c4  bl 0x01251aa0
+017327c8  mov w8,#0x1
+017327cc  str w8,[sp, #0x8]
+017327d0  mov x0,sp
+017327d4  bl 0x0174aa04
+017327d8  adrp x1,0x5771000
+017327dc  adrp x3,0x736d000
+017327e0  add x1,x1,#0xec5
+017327e4  add x3,x3,#0x101
+017327e8  add x0,sp,#0x10
+017327ec  mov x2,sp
+017327f0  bl 0x019b1834
+017327f4  adrp x1,0x575d000
+017327f8  adrp x2,0x19b1000
+017327fc  adrp x4,0x19b1000
+01732800  add x1,x1,#0xa00
+01732804  add x2,x2,#0x824
+01732808  add x4,x4,#0x82c
+0173280c  add x0,sp,#0x10
+01732810  mov x3,xzr
+01732814  mov x5,xzr
+01732818  bl 0x019b163c
+0173281c  mov x19,x0
+01732820  ldr w8,[x19, #0x8]
+01732824  ldr x0,[x19]
+01732828  sub w8,w8,#0x3
+0173282c  str w8,[x19, #0x8]
+01732830  orr w1,wzr,#0xfffffffc
+01732834  bl 0x0124c4d0
+01732838  ldr w8,[x19, #0x8]
+0173283c  ldr x0,[x19]
+01732840  str wzr,[x19, #0x8]
+01732844  cmp w8,#0x1
+01732848  b.lt 0x01732854
+0173284c  mvn w1,w8
+01732850  bl 0x0124c4d0
+01732854  ldr w8,[sp, #0x18]
+01732858  cmp w8,#0x1
+0173285c  b.lt 0x0173286c
+01732860  ldr x0,[sp, #0x10]
+01732864  mvn w1,w8
+01732868  bl 0x0124c4d0
+0173286c  ldr w8,[sp, #0x8]
+01732870  cmp w8,#0x1
+01732874  b.lt 0x01732884
+01732878  ldr x0,[sp]
+0173287c  mvn w1,w8
+01732880  bl 0x0124c4d0
+01732884  ldp x29,x30,[sp, #0x30]
+01732888  ldr x19,[sp, #0x20]
+0173288c  add sp,sp,#0x40
+01732890  ret

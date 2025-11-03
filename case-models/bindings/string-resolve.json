@@ -1,0 +1,576 @@
+{
+ "case14_BuffManager": {
+  "0x575da06": [
+   [
+    "0x60000",
+    "_G"
+   ]
+  ],
+  "0x575dd54": [
+   [
+    "0x60000",
+    "BuffManager"
+   ]
+  ],
+  "0x575dd60": [
+   [
+    "0x60000",
+    "buffList"
+   ],
+   [
+    "0xa0000",
+    "N11FrameEngine5Logic17ActorHealArgsSyncE"
+   ]
+  ]
+ },
+ "case15_SkillManager": {
+  "0x575da06": [
+   [
+    "0x60000",
+    "_G"
+   ]
+  ],
+  "0x575dd69": [
+   [
+    "0x60000",
+    "SkillManager"
+   ]
+  ],
+  "0x575dd76": [
+   [
+    "0x60000",
+    "skillList"
+   ],
+   [
+    "0x0",
+    "iCustomPanAreaDisplay"
+   ]
+  ]
+ },
+ "case16_Actor": {
+  "0x575da06": [
+   [
+    "0x60000",
+    "_G"
+   ]
+  ],
+  "0x575dd80": [
+   [
+    "0x60000",
+    "battleActor"
+   ]
+  ],
+  "0x575dd8c": [
+   [
+    "0x60000",
+    "skillMgr"
+   ],
+   [
+    "0x0",
+    "iPanAreaMaxDisplay"
+   ]
+  ],
+  "0x575dd95": [
+   [
+    "0x60000",
+    "buffMgr"
+   ]
+  ]
+ },
+ "case25_LuaStructMaker": {
+  "0x575da06": [
+   [
+    "0x60000",
+    "_G"
+   ]
+  ],
+  "0x575de55": [
+   [
+    "0x60000",
+    "LuaStructMaker"
+   ]
+  ],
+  "0x575de64": [
+   [
+    "0x60000",
+    "typeUseIndex"
+   ]
+  ],
+  "0x575de71": [
+   [
+    "0x60000",
+    "structAllocIndex"
+   ],
+   [
+    "0x0",
+    "iCameraMaxHeightJungle"
+   ]
+  ],
+  "0x575de82": [
+   [
+    "0x60000",
+    "structMap"
+   ]
+  ]
+ },
+ "case26_LuaFrameDataMgr": {
+  "0x575da06": [
+   [
+    "0x60000",
+    "_G"
+   ]
+  ],
+  "0x575de8c": [
+   [
+    "0x60000",
+    "LuaFrameDataMgr"
+   ]
+  ],
+  "0x575de9c": [
+   [
+    "0x60000",
+    "structMaker"
+   ]
+  ],
+  "0x575dea8": [
+   [
+    "0x60000",
+    "luaMap"
+   ]
+  ]
+ },
+ "case339_EventManagerAdapter": {
+  "0x575da06": [
+   [
+    "0x60000",
+    "_G"
+   ]
+  ]
+ },
+ "case37_FEBattleContext": {
+  "0x575da06": [
+   [
+    "0x60000",
+    "_G"
+   ]
+  ],
+  "0x575e038": [
+   [
+    "0x60000",
+    "FEBattleContext"
+   ]
+  ],
+  "0x575e048": [
+   [
+    "0x60000",
+    "roomInfoSerilizeUsedLength"
+   ]
+  ],
+  "0x575e063": [
+   [
+    "0x60000",
+    "isLogicThreadEnabled"
+   ]
+  ],
+  "0x575e078": [
+   [
+    "0x60000",
+    "useDataSyncObject"
+   ],
+   [
+    "0x0",
+    "iMinCameraOffset_H"
+   ]
+  ],
+  "0x575e08a": [
+   [
+    "0x60000",
+    "useLogicNetwork"
+   ]
+  ],
+  "0x575e09a": [
+   [
+    "0x60000",
+    "isEnableFrameDump"
+   ]
+  ],
+  "0x575e0ac": [
+   [
+    "0x60000",
+    "isReEnterRoom"
+   ]
+  ],
+  "0x575e0ba": [
+   [
+    "0x60000",
+    "isMemoryLogOpen"
+   ]
+  ],
+  "0x575e0ca": [
+   [
+    "0x60000",
+    "visiFocusHeroId"
+   ]
+  ],
+  "0x575e0da": [
+   [
+    "0x60000",
+    "inBattleTutorialID"
+   ]
+  ],
+  "0x575e0ed": [
+   [
+    "0x60000",
+    "visiFocusRoleId"
+   ]
+  ],
+  "0x575e0fd": [
+   [
+    "0x60000",
+    "myGuid"
+   ]
+  ],
+  "0x575e104": [
+   [
+    "0x60000",
+    "frameRateType"
+   ]
+  ],
+  "0x575e112": [
+   [
+    "0x60000",
+    "roomInfo"
+   ]
+  ],
+  "0x575e11b": [
+   [
+    "0x60000",
+    "visiFocusCamp"
+   ]
+  ],
+  "0x575e129": [
+   [
+    "0x60000",
+    "visiMyCamp"
+   ]
+  ],
+  "0x575e134": [
+   [
+    "0x60000",
+    "agentGid"
+   ]
+  ],
+  "0x575e13d": [
+   [
+    "0x60000",
+    "memoryRecoveryMode"
+   ]
+  ],
+  "0x575e150": [
+   [
+    "0x60000",
+    "localMemoryRecoveryType"
+   ],
+   [
+    "0xa0000",
+    "N11FrameEngine5Logic36AutoAttackActionGeneratorNotHeroSyncE"
+   ]
+  ],
+  "0x575e168": [
+   [
+    "0x60000",
+    "repalyMemoryRecovery"
+   ]
+  ],
+  "0x575e17d": [
+   [
+    "0x60000",
+    "isDisableLiteFowCut"
+   ]
+  ],
+  "0x575e191": [
+   [
+    "0x60000",
+    "tutorialExtraHeroUsedLength"
+   ]
+  ],
+  "0x575e1ad": [
+   [
+    "0x60000",
+    "isForceOffMemoryRecovery"
+   ]
+  ],
+  "0x575e1c6": [
+   [
+    "0x60000",
+    "isExpandFEMsgQueueBuff"
+   ]
+  ],
+  "0x575e1dd": [
+   [
+    "0x60000",
+    "FEMsgQueueBuffSize"
+   ]
+  ],
+  "0x575e1f0": [
+   [
+    "0x60000",
+    "skillNonUpdateParam"
+   ]
+  ],
+  "0x575e204": [
+   [
+    "0x60000",
+    "isOfflineBattle"
+   ]
+  ],
+  "0x575e214": [
+   [
+    "0x60000",
+    "forceOpenMemLog"
+   ],
+   [
+    "0x0",
+    "iAttackStrafeForceFollowFrame"
+   ]
+  ],
+  "0x575e224": [
+   [
+    "0x60000",
+    "isLowMemoryDevice"
+   ]
+  ],
+  "0x575e236": [
+   [
+    "0x60000",
+    "releaseTDBMemOnLMDevice"
+   ]
+  ],
+  "0x575e24e": [
+   [
+    "0x60000",
+    "releaseFrameMemOnLMDevice"
+   ]
+  ],
+  "0x575e268": [
+   [
+    "0x60000",
+    "enableMemoryStatTag"
+   ]
+  ],
+  "0x575e27c": [
+   [
+    "0x60000",
+    "reserveAllFrameMemory"
+   ]
+  ],
+  "0x575e292": [
+   [
+    "0x60000",
+    "enableFEMemoryMmap"
+   ]
+  ],
+  "0x575e2a5": [
+   [
+    "0x60000",
+    "useACK"
+   ]
+  ],
+  "0x575e2ac": [
+   [
+    "0x60000",
+    "expectSec"
+   ]
+  ],
+  "0x575e2b6": [
+   [
+    "0x60000",
+    "missIntervalShort"
+   ]
+  ],
+  "0x575e2c8": [
+   [
+    "0x60000",
+    "missIntervalMiddle"
+   ]
+  ],
+  "0x575e2db": [
+   [
+    "0x60000",
+    "missIntervalLong"
+   ]
+  ]
+ },
+ "case397_DataFrame": {
+  "0x575da06": [
+   [
+    "0x60000",
+    "_G"
+   ]
+  ]
+ },
+ "case398_FEMsgQueue": {
+  "0x575da06": [
+   [
+    "0x60000",
+    "_G"
+   ]
+  ]
+ },
+ "case5_BattleActorUseMultiSkillMsg": {
+  "0x575da06": [
+   [
+    "0x60000",
+    "_G"
+   ]
+  ],
+  "0x575dc7a": [
+   [
+    "0x60000",
+    "BattleActorUseMultiSkillMsg"
+   ]
+  ],
+  "0x575dc96": [
+   [
+    "0x60000",
+    "castSkill"
+   ]
+  ]
+ },
+ "case6_BattleActorRemoveBuffMsg": {
+  "0x575da06": [
+   [
+    "0x60000",
+    "_G"
+   ]
+  ],
+  "0x575dca0": [
+   [
+    "0x60000",
+    "BattleActorRemoveBuffMsg"
+   ]
+  ]
+ },
+ "case743_BuffLevelData": {
+  "0x575da06": [
+   [
+    "0x60000",
+    "_G"
+   ]
+  ]
+ },
+ "case744_BuffResObject": {
+  "0x575da06": [
+   [
+    "0x60000",
+    "_G"
+   ]
+  ],
+  "0x576fd50": [
+   [
+    "0x0",
+    "N11FrameEngine5Logic35LgcMsg_EVENT_TARGET_SELECTION_RANGEE"
+   ]
+  ]
+ },
+ "case805_SkillResObject": {
+  "0x575da06": [
+   [
+    "0x60000",
+    "_G"
+   ]
+  ],
+  "0x576fd50": [
+   [
+    "0x0",
+    "N11FrameEngine5Logic35LgcMsg_EVENT_TARGET_SELECTION_RANGEE"
+   ]
+  ]
+ },
+ "case823_ActorBuff": {
+  "0x575da06": [
+   [
+    "0x60000",
+    "_G"
+   ]
+  ],
+  "0x575dcf4": [
+   [
+    "0x60000",
+    "skillUseObj"
+   ]
+  ],
+  "0x575dded": [
+   [
+    "0x60000",
+    "startTime"
+   ]
+  ],
+  "0x575de39": [
+   [
+    "0x60000",
+    "objId"
+   ]
+  ]
+ },
+ "case850_ActorSkill": {
+  "0x575da06": [
+   [
+    "0x60000",
+    "_G"
+   ]
+  ],
+  "0x575dc96": [
+   [
+    "0x60000",
+    "castSkill"
+   ]
+  ],
+  "0x575dcf4": [
+   [
+    "0x60000",
+    "skillUseObj"
+   ]
+  ],
+  "0x575de39": [
+   [
+    "0x60000",
+    "objId"
+   ]
+  ]
+ },
+ "case852_SkillUseObj": {
+  "0x575da06": [
+   [
+    "0x60000",
+    "_G"
+   ]
+  ]
+ },
+ "case865_ActorEventMgr_EventDelegateMP": {
+  "0x575da06": [
+   [
+    "0x60000",
+    "_G"
+   ]
+  ]
+ },
+ "case9_BattleActorApplyBuffMsg": {
+  "0x575da06": [
+   [
+    "0x60000",
+    "_G"
+   ]
+  ],
+  "0x575dd00": [
+   [
+    "0x60000",
+    "BattleActorApplyBuffMsg"
+   ],
+   [
+    "0xa0000",
+    "N11FrameEngine6Common18FlowTransitionSyncE"
+   ]
+  ]
+ }
+}

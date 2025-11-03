@@ -1,0 +1,75 @@
+// ===== case48-EquipmentForgeHeroSetting @ 016943d8 =====
+// existing function case48-EquipmentForgeHeroSetting
+016943d8  sub sp,sp,#0x40
+016943dc  str x19,[sp, #0x20]
+016943e0  stp x29,x30,[sp, #0x30]
+016943e4  add x29,sp,#0x30
+016943e8  adrp x1,0x174a000
+016943ec  add x1,x1,#0x87c
+016943f0  mov x19,x0
+016943f4  bl 0x0124ba40
+016943f8  adrp x1,0x575d000
+016943fc  add x1,x1,#0xa06
+01694400  mov x0,x19
+01694404  str x19,[sp]
+01694408  bl 0x01251aa0
+0169440c  mov w8,#0x1
+01694410  str w8,[sp, #0x8]
+01694414  mov x0,sp
+01694418  bl 0x0174aa04
+0169441c  adrp x1,0x575e000
+01694420  adrp x3,0x736d000
+01694424  add x1,x1,#0x4fd
+01694428  add x3,x3,#0x101
+0169442c  add x0,sp,#0x10
+01694430  mov x2,sp
+01694434  bl 0x01769958
+01694438  adrp x1,0x575e000
+0169443c  adrp x2,0x1769000
+01694440  adrp x4,0x1769000
+01694444  add x1,x1,#0x517
+01694448  add x2,x2,#0x938
+0169444c  add x4,x4,#0x940
+01694450  add x0,sp,#0x10
+01694454  mov x3,xzr
+01694458  mov x5,xzr
+0169445c  bl 0x01769750
+01694460  adrp x1,0x574c000
+01694464  adrp x2,0x1769000
+01694468  adrp x4,0x1769000
+0169446c  add x1,x1,#0xe11
+01694470  add x2,x2,#0x948
+01694474  add x4,x4,#0x950
+01694478  mov x3,xzr
+0169447c  mov x5,xzr
+01694480  bl 0x01769750
+01694484  mov x19,x0
+01694488  ldr w8,[x19, #0x8]
+0169448c  ldr x0,[x19]
+01694490  sub w8,w8,#0x3
+01694494  str w8,[x19, #0x8]
+01694498  orr w1,wzr,#0xfffffffc
+0169449c  bl 0x0124c4d0
+016944a0  ldr w8,[x19, #0x8]
+016944a4  ldr x0,[x19]
+016944a8  str wzr,[x19, #0x8]
+016944ac  cmp w8,#0x1
+016944b0  b.lt 0x016944bc
+016944b4  mvn w1,w8
+016944b8  bl 0x0124c4d0
+016944bc  ldr w8,[sp, #0x18]
+016944c0  cmp w8,#0x1
+016944c4  b.lt 0x016944d4
+016944c8  ldr x0,[sp, #0x10]
+016944cc  mvn w1,w8
+016944d0  bl 0x0124c4d0
+016944d4  ldr w8,[sp, #0x8]
+016944d8  cmp w8,#0x1
+016944dc  b.lt 0x016944ec
+016944e0  ldr x0,[sp]
+016944e4  mvn w1,w8
+016944e8  bl 0x0124c4d0
+016944ec  ldp x29,x30,[sp, #0x30]
+016944f0  ldr x19,[sp, #0x20]
+016944f4  add sp,sp,#0x40
+016944f8  ret

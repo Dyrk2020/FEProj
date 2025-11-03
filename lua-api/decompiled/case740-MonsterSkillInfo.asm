@@ -1,0 +1,66 @@
+// ===== case740-MonsterSkillInfo @ 017271fc =====
+// existing function case740-MonsterSkillInfo
+017271fc  sub sp,sp,#0x40
+01727200  str x19,[sp, #0x20]
+01727204  stp x29,x30,[sp, #0x30]
+01727208  add x29,sp,#0x30
+0172720c  adrp x1,0x174a000
+01727210  add x1,x1,#0x87c
+01727214  mov x19,x0
+01727218  bl 0x0124ba40
+0172721c  adrp x1,0x575d000
+01727220  add x1,x1,#0xa06
+01727224  mov x0,x19
+01727228  str x19,[sp]
+0172722c  bl 0x01251aa0
+01727230  mov w8,#0x1
+01727234  str w8,[sp, #0x8]
+01727238  mov x0,sp
+0172723c  bl 0x0174aa04
+01727240  adrp x1,0x5770000
+01727244  adrp x3,0x736d000
+01727248  add x1,x1,#0x1d5
+0172724c  add x3,x3,#0x101
+01727250  add x0,sp,#0x10
+01727254  mov x2,sp
+01727258  bl 0x0197fc7c
+0172725c  adrp x1,0x576f000
+01727260  adrp x2,0x197f000
+01727264  adrp x4,0x197f000
+01727268  add x1,x1,#0xd50
+0172726c  add x2,x2,#0xc6c
+01727270  add x4,x4,#0xc74
+01727274  add x0,sp,#0x10
+01727278  mov x3,xzr
+0172727c  mov x5,xzr
+01727280  bl 0x0197fa84
+01727284  mov x19,x0
+01727288  ldr w8,[x19, #0x8]
+0172728c  ldr x0,[x19]
+01727290  sub w8,w8,#0x3
+01727294  str w8,[x19, #0x8]
+01727298  orr w1,wzr,#0xfffffffc
+0172729c  bl 0x0124c4d0
+017272a0  ldr w8,[x19, #0x8]
+017272a4  ldr x0,[x19]
+017272a8  str wzr,[x19, #0x8]
+017272ac  cmp w8,#0x1
+017272b0  b.lt 0x017272bc
+017272b4  mvn w1,w8
+017272b8  bl 0x0124c4d0
+017272bc  ldr w8,[sp, #0x18]
+017272c0  cmp w8,#0x1
+017272c4  b.lt 0x017272d4
+017272c8  ldr x0,[sp, #0x10]
+017272cc  mvn w1,w8
+017272d0  bl 0x0124c4d0
+017272d4  ldr w8,[sp, #0x8]
+017272d8  cmp w8,#0x1
+017272dc  b.lt 0x017272ec
+017272e0  ldr x0,[sp]
+017272e4  mvn w1,w8
+017272e8  bl 0x0124c4d0
+017272ec  ldp x29,x30,[sp, #0x30]
+017272f0  ldr x19,[sp, #0x20]
+017272f4  add sp,sp,#0x40
+017272f8  ret

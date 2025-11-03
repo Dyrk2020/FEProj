@@ -1,0 +1,84 @@
+// ===== case645-SkillDefaultRangeStrengthen_SkillTypeData @ 0171445c =====
+// existing function case645-SkillDefaultRangeStrengthen_SkillTypeData
+0171445c  sub sp,sp,#0x40
+01714460  str x19,[sp, #0x20]
+01714464  stp x29,x30,[sp, #0x30]
+01714468  add x29,sp,#0x30
+0171446c  adrp x1,0x174a000
+01714470  add x1,x1,#0x87c
+01714474  mov x19,x0
+01714478  bl 0x0124ba40
+0171447c  adrp x1,0x575d000
+01714480  add x1,x1,#0xa06
+01714484  mov x0,x19
+01714488  str x19,[sp]
+0171448c  bl 0x01251aa0
+01714490  mov w8,#0x1
+01714494  str w8,[sp, #0x8]
+01714498  mov x0,sp
+0171449c  bl 0x0174aa04
+017144a0  adrp x1,0x576c000
+017144a4  adrp x3,0x736d000
+017144a8  add x1,x1,#0x92d
+017144ac  add x3,x3,#0x101
+017144b0  add x0,sp,#0x10
+017144b4  mov x2,sp
+017144b8  bl 0x01923a20
+017144bc  adrp x1,0x576c000
+017144c0  adrp x2,0x1923000
+017144c4  adrp x4,0x1923000
+017144c8  add x1,x1,#0x957
+017144cc  add x2,x2,#0x808
+017144d0  add x4,x4,#0x810
+017144d4  add x0,sp,#0x10
+017144d8  mov x3,xzr
+017144dc  mov x5,xzr
+017144e0  bl 0x01923620
+017144e4  adrp x1,0x5768000
+017144e8  adrp x2,0x1923000
+017144ec  adrp x4,0x1923000
+017144f0  add x1,x1,#0x401
+017144f4  add x2,x2,#0xa00
+017144f8  add x4,x4,#0xa08
+017144fc  mov x3,xzr
+01714500  mov x5,xzr
+01714504  bl 0x01923818
+01714508  adrp x1,0x5768000
+0171450c  adrp x2,0x1923000
+01714510  adrp x4,0x1923000
+01714514  add x1,x1,#0x40a
+01714518  add x2,x2,#0xa10
+0171451c  add x4,x4,#0xa18
+01714520  mov x3,xzr
+01714524  mov x5,xzr
+01714528  bl 0x01923818
+0171452c  mov x19,x0
+01714530  ldr w8,[x19, #0x8]
+01714534  ldr x0,[x19]
+01714538  sub w8,w8,#0x3
+0171453c  str w8,[x19, #0x8]
+01714540  orr w1,wzr,#0xfffffffc
+01714544  bl 0x0124c4d0
+01714548  ldr w8,[x19, #0x8]
+0171454c  ldr x0,[x19]
+01714550  str wzr,[x19, #0x8]
+01714554  cmp w8,#0x1
+01714558  b.lt 0x01714564
+0171455c  mvn w1,w8
+01714560  bl 0x0124c4d0
+01714564  ldr w8,[sp, #0x18]
+01714568  cmp w8,#0x1
+0171456c  b.lt 0x0171457c
+01714570  ldr x0,[sp, #0x10]
+01714574  mvn w1,w8
+01714578  bl 0x0124c4d0
+0171457c  ldr w8,[sp, #0x8]
+01714580  cmp w8,#0x1
+01714584  b.lt 0x01714594
+01714588  ldr x0,[sp]
+0171458c  mvn w1,w8
+01714590  bl 0x0124c4d0
+01714594  ldp x29,x30,[sp, #0x30]
+01714598  ldr x19,[sp, #0x20]
+0171459c  add sp,sp,#0x40
+017145a0  ret

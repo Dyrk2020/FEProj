@@ -1,0 +1,75 @@
+// ===== case566-FixObstacle @ 01701550 =====
+// existing function case566-FixObstacle
+01701550  sub sp,sp,#0x40
+01701554  str x19,[sp, #0x20]
+01701558  stp x29,x30,[sp, #0x30]
+0170155c  add x29,sp,#0x30
+01701560  adrp x1,0x174a000
+01701564  add x1,x1,#0x87c
+01701568  mov x19,x0
+0170156c  bl 0x0124ba40
+01701570  adrp x1,0x575d000
+01701574  add x1,x1,#0xa06
+01701578  mov x0,x19
+0170157c  str x19,[sp]
+01701580  bl 0x01251aa0
+01701584  mov w8,#0x1
+01701588  str w8,[sp, #0x8]
+0170158c  mov x0,sp
+01701590  bl 0x0174aa04
+01701594  adrp x1,0x5769000
+01701598  adrp x3,0x736d000
+0170159c  add x1,x1,#0xe37
+017015a0  add x3,x3,#0x101
+017015a4  add x0,sp,#0x10
+017015a8  mov x2,sp
+017015ac  bl 0x018dcbd8
+017015b0  adrp x1,0x5767000
+017015b4  adrp x2,0x18dc000
+017015b8  adrp x4,0x18dc000
+017015bc  add x1,x1,#0xbd4
+017015c0  add x2,x2,#0x9a8
+017015c4  add x4,x4,#0x9bc
+017015c8  add x0,sp,#0x10
+017015cc  mov x3,xzr
+017015d0  mov x5,xzr
+017015d4  bl 0x018dc7c0
+017015d8  adrp x1,0x5769000
+017015dc  adrp x2,0x18dc000
+017015e0  adrp x4,0x18dc000
+017015e4  add x1,x1,#0xe43
+017015e8  add x2,x2,#0xbc8
+017015ec  add x4,x4,#0xbd0
+017015f0  mov x3,xzr
+017015f4  mov x5,xzr
+017015f8  bl 0x018dc9e0
+017015fc  mov x19,x0
+01701600  ldr w8,[x19, #0x8]
+01701604  ldr x0,[x19]
+01701608  sub w8,w8,#0x3
+0170160c  str w8,[x19, #0x8]
+01701610  orr w1,wzr,#0xfffffffc
+01701614  bl 0x0124c4d0
+01701618  ldr w8,[x19, #0x8]
+0170161c  ldr x0,[x19]
+01701620  str wzr,[x19, #0x8]
+01701624  cmp w8,#0x1
+01701628  b.lt 0x01701634
+0170162c  mvn w1,w8
+01701630  bl 0x0124c4d0
+01701634  ldr w8,[sp, #0x18]
+01701638  cmp w8,#0x1
+0170163c  b.lt 0x0170164c
+01701640  ldr x0,[sp, #0x10]
+01701644  mvn w1,w8
+01701648  bl 0x0124c4d0
+0170164c  ldr w8,[sp, #0x8]
+01701650  cmp w8,#0x1
+01701654  b.lt 0x01701664
+01701658  ldr x0,[sp]
+0170165c  mvn w1,w8
+01701660  bl 0x0124c4d0
+01701664  ldp x29,x30,[sp, #0x30]
+01701668  ldr x19,[sp, #0x20]
+0170166c  add sp,sp,#0x40
+01701670  ret

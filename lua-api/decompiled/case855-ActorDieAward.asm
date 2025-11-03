@@ -1,0 +1,84 @@
+// ===== case855-ActorDieAward @ 017428f4 =====
+// existing function case855-ActorDieAward
+017428f4  sub sp,sp,#0x40
+017428f8  str x19,[sp, #0x20]
+017428fc  stp x29,x30,[sp, #0x30]
+01742900  add x29,sp,#0x30
+01742904  adrp x1,0x174a000
+01742908  add x1,x1,#0x87c
+0174290c  mov x19,x0
+01742910  bl 0x0124ba40
+01742914  adrp x1,0x575d000
+01742918  add x1,x1,#0xa06
+0174291c  mov x0,x19
+01742920  str x19,[sp]
+01742924  bl 0x01251aa0
+01742928  mov w8,#0x1
+0174292c  str w8,[sp, #0x8]
+01742930  mov x0,sp
+01742934  bl 0x0174aa04
+01742938  adrp x1,0x5773000
+0174293c  adrp x3,0x736d000
+01742940  add x1,x1,#0xa6b
+01742944  add x3,x3,#0x101
+01742948  add x0,sp,#0x10
+0174294c  mov x2,sp
+01742950  bl 0x01a02c48
+01742954  adrp x1,0x5773000
+01742958  adrp x2,0x1a02000
+0174295c  adrp x4,0x1a02000
+01742960  add x1,x1,#0xa79
+01742964  add x2,x2,#0xa30
+01742968  add x4,x4,#0xa38
+0174296c  add x0,sp,#0x10
+01742970  mov x3,xzr
+01742974  mov x5,xzr
+01742978  bl 0x01a02848
+0174297c  adrp x1,0x5773000
+01742980  adrp x2,0x1a02000
+01742984  adrp x4,0x1a02000
+01742988  add x1,x1,#0xa8c
+0174298c  add x2,x2,#0xc28
+01742990  add x4,x4,#0xc30
+01742994  mov x3,xzr
+01742998  mov x5,xzr
+0174299c  bl 0x01a02a40
+017429a0  adrp x1,0x5773000
+017429a4  adrp x2,0x1a02000
+017429a8  adrp x4,0x1a02000
+017429ac  add x1,x1,#0xa99
+017429b0  add x2,x2,#0xc38
+017429b4  add x4,x4,#0xc40
+017429b8  mov x3,xzr
+017429bc  mov x5,xzr
+017429c0  bl 0x01a02a40
+017429c4  mov x19,x0
+017429c8  ldr w8,[x19, #0x8]
+017429cc  ldr x0,[x19]
+017429d0  sub w8,w8,#0x3
+017429d4  str w8,[x19, #0x8]
+017429d8  orr w1,wzr,#0xfffffffc
+017429dc  bl 0x0124c4d0
+017429e0  ldr w8,[x19, #0x8]
+017429e4  ldr x0,[x19]
+017429e8  str wzr,[x19, #0x8]
+017429ec  cmp w8,#0x1
+017429f0  b.lt 0x017429fc
+017429f4  mvn w1,w8
+017429f8  bl 0x0124c4d0
+017429fc  ldr w8,[sp, #0x18]
+01742a00  cmp w8,#0x1
+01742a04  b.lt 0x01742a14
+01742a08  ldr x0,[sp, #0x10]
+01742a0c  mvn w1,w8
+01742a10  bl 0x0124c4d0
+01742a14  ldr w8,[sp, #0x8]
+01742a18  cmp w8,#0x1
+01742a1c  b.lt 0x01742a2c
+01742a20  ldr x0,[sp]
+01742a24  mvn w1,w8
+01742a28  bl 0x0124c4d0
+01742a2c  ldp x29,x30,[sp, #0x30]
+01742a30  ldr x19,[sp, #0x20]
+01742a34  add sp,sp,#0x40
+01742a38  ret

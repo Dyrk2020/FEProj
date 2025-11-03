@@ -1,0 +1,191 @@
+// ===== case54-ForgeCoreCardResObject @ 016950a0 =====
+// existing function case54-ForgeCoreCardResObject
+016950a0  sub sp,sp,#0x40
+016950a4  stp x20,x19,[sp, #0x20]
+016950a8  stp x29,x30,[sp, #0x30]
+016950ac  add x29,sp,#0x30
+016950b0  adrp x1,0x174a000
+016950b4  add x1,x1,#0x87c
+016950b8  mov x19,x0
+016950bc  bl 0x0124ba40
+016950c0  adrp x1,0x575d000
+016950c4  add x1,x1,#0xa06
+016950c8  mov x0,x19
+016950cc  str x19,[sp]
+016950d0  bl 0x01251aa0
+016950d4  mov w8,#0x1
+016950d8  str w8,[sp, #0x8]
+016950dc  mov x0,sp
+016950e0  bl 0x0174aa04
+016950e4  adrp x1,0x575e000
+016950e8  adrp x3,0x736d000
+016950ec  add x1,x1,#0x603
+016950f0  add x3,x3,#0x101
+016950f4  add x0,sp,#0x10
+016950f8  mov x2,sp
+016950fc  bl 0x0176c348
+01695100  ldr x0,[sp, #0x10]
+01695104  mov w1,#0x10
+01695108  bl 0x0124cba0
+0169510c  adrp x8,0x176c000
+01695110  dup v0.2D,xzr
+01695114  add x8,x8,#0x338
+01695118  mov v0.D[0x0],x8
+0169511c  str q0,[x0]
+01695120  ldr x0,[sp, #0x10]
+01695124  adrp x1,0x176c000
+01695128  add x1,x1,#0x70c
+0169512c  mov w2,#0x1
+01695130  bl 0x0124ec90
+01695134  ldr x0,[sp, #0x10]
+01695138  mov w1,#0xffffffff
+0169513c  bl 0x0124c0c0
+01695140  ldr x19,[sp, #0x10]
+01695144  orr w1,wzr,#0xfffffffb
+01695148  mov w2,#0x6e7
+0169514c  mov x0,x19
+01695150  bl 0x0124a650
+01695154  orr w1,wzr,#0xfffffffe
+01695158  mov x0,x19
+0169515c  bl 0x0124c0c0
+01695160  orr w1,wzr,#0xfffffffe
+01695164  mov x0,x19
+01695168  bl 0x0124e920
+0169516c  mov w20,w0
+01695170  adrp x1,0x575e000
+01695174  add x1,x1,#0x56d
+01695178  mov x0,x19
+0169517c  bl 0x0124f120
+01695180  orr w1,wzr,#0xfffffffe
+01695184  mov w2,#0x1
+01695188  mov x0,x19
+0169518c  bl 0x0124cfc0
+01695190  mov x0,x19
+01695194  mov w1,w20
+01695198  bl 0x0124e060
+0169519c  orr w1,wzr,#0xfffffffd
+016951a0  mov x0,x19
+016951a4  bl 0x0124c4d0
+016951a8  ldr x19,[sp, #0x10]
+016951ac  orr w1,wzr,#0xfffffffd
+016951b0  mov w2,#0x6e7
+016951b4  mov x0,x19
+016951b8  bl 0x0124a650
+016951bc  orr w1,wzr,#0xfffffffe
+016951c0  mov x0,x19
+016951c4  bl 0x0124c0c0
+016951c8  orr w1,wzr,#0xfffffffe
+016951cc  mov x0,x19
+016951d0  bl 0x0124e920
+016951d4  mov w20,w0
+016951d8  adrp x1,0x575e000
+016951dc  add x1,x1,#0x56d
+016951e0  mov x0,x19
+016951e4  bl 0x0124f120
+016951e8  orr w1,wzr,#0xfffffffe
+016951ec  mov w2,#0x1
+016951f0  mov x0,x19
+016951f4  bl 0x0124cfc0
+016951f8  mov x0,x19
+016951fc  mov w1,w20
+01695200  bl 0x0124e060
+01695204  orr w1,wzr,#0xfffffffd
+01695208  mov x0,x19
+0169520c  bl 0x0124c4d0
+01695210  ldr x0,[sp, #0x10]
+01695214  mov w1,#0x10
+01695218  bl 0x0124cba0
+0169521c  adrp x8,0x176c000
+01695220  dup v0.2D,xzr
+01695224  add x8,x8,#0x340
+01695228  mov v0.D[0x0],x8
+0169522c  str q0,[x0]
+01695230  ldr x0,[sp, #0x10]
+01695234  adrp x1,0x176c000
+01695238  add x1,x1,#0x830
+0169523c  mov w2,#0x1
+01695240  bl 0x0124ec90
+01695244  ldr x0,[sp, #0x10]
+01695248  mov w1,#0xffffffff
+0169524c  bl 0x0124c0c0
+01695250  ldr x19,[sp, #0x10]
+01695254  orr w1,wzr,#0xfffffffb
+01695258  mov w2,#0x6e7
+0169525c  mov x0,x19
+01695260  bl 0x0124a650
+01695264  orr w1,wzr,#0xfffffffe
+01695268  mov x0,x19
+0169526c  bl 0x0124c0c0
+01695270  orr w1,wzr,#0xfffffffe
+01695274  mov x0,x19
+01695278  bl 0x0124e920
+0169527c  mov w20,w0
+01695280  adrp x1,0x575e000
+01695284  add x1,x1,#0x578
+01695288  mov x0,x19
+0169528c  bl 0x0124f120
+01695290  orr w1,wzr,#0xfffffffe
+01695294  mov w2,#0x1
+01695298  mov x0,x19
+0169529c  bl 0x0124cfc0
+016952a0  mov x0,x19
+016952a4  mov w1,w20
+016952a8  bl 0x0124e060
+016952ac  orr w1,wzr,#0xfffffffd
+016952b0  mov x0,x19
+016952b4  bl 0x0124c4d0
+016952b8  ldr x19,[sp, #0x10]
+016952bc  orr w1,wzr,#0xfffffffd
+016952c0  mov w2,#0x6e7
+016952c4  mov x0,x19
+016952c8  bl 0x0124a650
+016952cc  orr w1,wzr,#0xfffffffe
+016952d0  mov x0,x19
+016952d4  bl 0x0124c0c0
+016952d8  orr w1,wzr,#0xfffffffe
+016952dc  mov x0,x19
+016952e0  bl 0x0124e920
+016952e4  mov w20,w0
+016952e8  adrp x1,0x575e000
+016952ec  add x1,x1,#0x578
+016952f0  mov x0,x19
+016952f4  bl 0x0124f120
+016952f8  orr w1,wzr,#0xfffffffe
+016952fc  mov w2,#0x1
+01695300  mov x0,x19
+01695304  bl 0x0124cfc0
+01695308  mov x0,x19
+0169530c  mov w1,w20
+01695310  bl 0x0124e060
+01695314  orr w1,wzr,#0xfffffffd
+01695318  mov x0,x19
+0169531c  bl 0x0124c4d0
+01695320  ldr w8,[sp, #0x18]
+01695324  ldr x0,[sp, #0x10]
+01695328  sub w8,w8,#0x3
+0169532c  str w8,[sp, #0x18]
+01695330  orr w1,wzr,#0xfffffffc
+01695334  bl 0x0124c4d0
+01695338  ldr w8,[sp, #0x18]
+0169533c  ldr x0,[sp, #0x10]
+01695340  str wzr,[sp, #0x18]
+01695344  cmp w8,#0x1
+01695348  b.lt 0x0169536c
+0169534c  mvn w1,w8
+01695350  bl 0x0124c4d0
+01695354  ldr w8,[sp, #0x18]
+01695358  cmp w8,#0x1
+0169535c  b.lt 0x0169536c
+01695360  ldr x0,[sp, #0x10]
+01695364  mvn w1,w8
+01695368  bl 0x0124c4d0
+0169536c  ldr w8,[sp, #0x8]
+01695370  cmp w8,#0x1
+01695374  b.lt 0x01695384
+01695378  ldr x0,[sp]
+0169537c  mvn w1,w8
+01695380  bl 0x0124c4d0
+01695384  ldp x29,x30,[sp, #0x30]
+01695388  ldp x20,x19,[sp, #0x20]
+0169538c  add sp,sp,#0x40
+01695390  ret

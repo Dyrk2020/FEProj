@@ -1,0 +1,66 @@
+// ===== case858-ActorLgcAnim @ 01743094 =====
+// existing function case858-ActorLgcAnim
+01743094  sub sp,sp,#0x40
+01743098  str x19,[sp, #0x20]
+0174309c  stp x29,x30,[sp, #0x30]
+017430a0  add x29,sp,#0x30
+017430a4  adrp x1,0x174a000
+017430a8  add x1,x1,#0x87c
+017430ac  mov x19,x0
+017430b0  bl 0x0124ba40
+017430b4  adrp x1,0x575d000
+017430b8  add x1,x1,#0xa06
+017430bc  mov x0,x19
+017430c0  str x19,[sp]
+017430c4  bl 0x01251aa0
+017430c8  mov w8,#0x1
+017430cc  str w8,[sp, #0x8]
+017430d0  mov x0,sp
+017430d4  bl 0x0174aa04
+017430d8  adrp x1,0x5773000
+017430dc  adrp x3,0x736d000
+017430e0  add x1,x1,#0xb6a
+017430e4  add x3,x3,#0x101
+017430e8  add x0,sp,#0x10
+017430ec  mov x2,sp
+017430f0  bl 0x01a05670
+017430f4  adrp x1,0x5773000
+017430f8  adrp x2,0x1a05000
+017430fc  adrp x4,0x1a05000
+01743100  add x1,x1,#0xb77
+01743104  add x2,x2,#0x660
+01743108  add x4,x4,#0x668
+0174310c  add x0,sp,#0x10
+01743110  mov x3,xzr
+01743114  mov x5,xzr
+01743118  bl 0x01a05478
+0174311c  mov x19,x0
+01743120  ldr w8,[x19, #0x8]
+01743124  ldr x0,[x19]
+01743128  sub w8,w8,#0x3
+0174312c  str w8,[x19, #0x8]
+01743130  orr w1,wzr,#0xfffffffc
+01743134  bl 0x0124c4d0
+01743138  ldr w8,[x19, #0x8]
+0174313c  ldr x0,[x19]
+01743140  str wzr,[x19, #0x8]
+01743144  cmp w8,#0x1
+01743148  b.lt 0x01743154
+0174314c  mvn w1,w8
+01743150  bl 0x0124c4d0
+01743154  ldr w8,[sp, #0x18]
+01743158  cmp w8,#0x1
+0174315c  b.lt 0x0174316c
+01743160  ldr x0,[sp, #0x10]
+01743164  mvn w1,w8
+01743168  bl 0x0124c4d0
+0174316c  ldr w8,[sp, #0x8]
+01743170  cmp w8,#0x1
+01743174  b.lt 0x01743184
+01743178  ldr x0,[sp]
+0174317c  mvn w1,w8
+01743180  bl 0x0124c4d0
+01743184  ldp x29,x30,[sp, #0x30]
+01743188  ldr x19,[sp, #0x20]
+0174318c  add sp,sp,#0x40
+01743190  ret

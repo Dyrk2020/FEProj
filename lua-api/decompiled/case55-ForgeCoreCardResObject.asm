@@ -1,0 +1,154 @@
+// ===== case55-ForgeCoreCardResObject @ 016953f8 =====
+// existing function case55-ForgeCoreCardResObject
+016953f8  sub sp,sp,#0x50
+016953fc  str x21,[sp, #0x20]
+01695400  stp x20,x19,[sp, #0x30]
+01695404  stp x29,x30,[sp, #0x40]
+01695408  add x29,sp,#0x40
+0169540c  adrp x1,0x174a000
+01695410  add x1,x1,#0x87c
+01695414  mov x19,x0
+01695418  bl 0x0124ba40
+0169541c  adrp x1,0x575d000
+01695420  add x1,x1,#0xa06
+01695424  mov x0,x19
+01695428  str x19,[sp]
+0169542c  bl 0x01251aa0
+01695430  mov w8,#0x1
+01695434  str w8,[sp, #0x8]
+01695438  mov x0,sp
+0169543c  bl 0x0174aa04
+01695440  adrp x1,0x575e000
+01695444  adrp x3,0x736d000
+01695448  add x1,x1,#0x61d
+0169544c  add x3,x3,#0x101
+01695450  add x0,sp,#0x10
+01695454  mov x2,sp
+01695458  bl 0x0176cd5c
+0169545c  adrp x1,0x575e000
+01695460  adrp x2,0x176c000
+01695464  adrp x4,0x176c000
+01695468  add x1,x1,#0x634
+0169546c  add x2,x2,#0xb3c
+01695470  add x4,x4,#0xb44
+01695474  add x0,sp,#0x10
+01695478  mov x3,xzr
+0169547c  mov x5,xzr
+01695480  bl 0x0176c954
+01695484  adrp x1,0x575e000
+01695488  adrp x2,0x176c000
+0169548c  adrp x4,0x176c000
+01695490  add x1,x1,#0x640
+01695494  add x2,x2,#0xd34
+01695498  add x4,x4,#0xd3c
+0169549c  mov x3,xzr
+016954a0  mov x5,xzr
+016954a4  bl 0x0176cb4c
+016954a8  adrp x1,0x575e000
+016954ac  adrp x2,0x176c000
+016954b0  adrp x4,0x176c000
+016954b4  add x1,x1,#0x64c
+016954b8  add x2,x2,#0xd44
+016954bc  add x4,x4,#0xd4c
+016954c0  mov x3,xzr
+016954c4  mov x5,xzr
+016954c8  bl 0x0176cb4c
+016954cc  mov x19,x0
+016954d0  ldr x0,[x19]
+016954d4  mov w1,#0x10
+016954d8  bl 0x0124cba0
+016954dc  adrp x8,0x176c000
+016954e0  dup v0.2D,xzr
+016954e4  add x8,x8,#0xd54
+016954e8  mov v0.D[0x0],x8
+016954ec  str q0,[x0]
+016954f0  ldr x0,[x19]
+016954f4  adrp x1,0x176d000
+016954f8  add x1,x1,#0x560
+016954fc  mov w2,#0x1
+01695500  bl 0x0124ec90
+01695504  ldr x0,[x19]
+01695508  mov w1,#0xffffffff
+0169550c  bl 0x0124c0c0
+01695510  ldr x20,[x19]
+01695514  orr w1,wzr,#0xfffffffb
+01695518  mov w2,#0x6e7
+0169551c  mov x0,x20
+01695520  bl 0x0124a650
+01695524  orr w1,wzr,#0xfffffffe
+01695528  mov x0,x20
+0169552c  bl 0x0124c0c0
+01695530  orr w1,wzr,#0xfffffffe
+01695534  mov x0,x20
+01695538  bl 0x0124e920
+0169553c  mov w21,w0
+01695540  adrp x1,0x58ed000
+01695544  add x1,x1,#0xd5e
+01695548  mov x0,x20
+0169554c  bl 0x0124f120
+01695550  orr w1,wzr,#0xfffffffe
+01695554  mov w2,#0x1
+01695558  mov x0,x20
+0169555c  bl 0x0124cfc0
+01695560  mov x0,x20
+01695564  mov w1,w21
+01695568  bl 0x0124e060
+0169556c  orr w1,wzr,#0xfffffffd
+01695570  mov x0,x20
+01695574  bl 0x0124c4d0
+01695578  ldr x20,[x19]
+0169557c  orr w1,wzr,#0xfffffffd
+01695580  mov w2,#0x6e7
+01695584  mov x0,x20
+01695588  bl 0x0124a650
+0169558c  orr w1,wzr,#0xfffffffe
+01695590  mov x0,x20
+01695594  bl 0x0124c0c0
+01695598  orr w1,wzr,#0xfffffffe
+0169559c  mov x0,x20
+016955a0  bl 0x0124e920
+016955a4  mov w21,w0
+016955a8  adrp x1,0x58ed000
+016955ac  add x1,x1,#0xd5e
+016955b0  mov x0,x20
+016955b4  bl 0x0124f120
+016955b8  orr w1,wzr,#0xfffffffe
+016955bc  mov w2,#0x1
+016955c0  mov x0,x20
+016955c4  bl 0x0124cfc0
+016955c8  mov x0,x20
+016955cc  mov w1,w21
+016955d0  bl 0x0124e060
+016955d4  orr w1,wzr,#0xfffffffd
+016955d8  mov x0,x20
+016955dc  bl 0x0124c4d0
+016955e0  ldr w8,[x19, #0x8]
+016955e4  ldr x0,[x19]
+016955e8  sub w8,w8,#0x3
+016955ec  str w8,[x19, #0x8]
+016955f0  orr w1,wzr,#0xfffffffc
+016955f4  bl 0x0124c4d0
+016955f8  ldr w8,[x19, #0x8]
+016955fc  ldr x0,[x19]
+01695600  str wzr,[x19, #0x8]
+01695604  cmp w8,#0x1
+01695608  b.lt 0x01695614
+0169560c  mvn w1,w8
+01695610  bl 0x0124c4d0
+01695614  ldr w8,[sp, #0x18]
+01695618  cmp w8,#0x1
+0169561c  b.lt 0x0169562c
+01695620  ldr x0,[sp, #0x10]
+01695624  mvn w1,w8
+01695628  bl 0x0124c4d0
+0169562c  ldr w8,[sp, #0x8]
+01695630  cmp w8,#0x1
+01695634  b.lt 0x01695644
+01695638  ldr x0,[sp]
+0169563c  mvn w1,w8
+01695640  bl 0x0124c4d0
+01695644  ldp x29,x30,[sp, #0x40]
+01695648  ldp x20,x19,[sp, #0x30]
+0169564c  ldr x21,[sp, #0x20]
+01695650  add sp,sp,#0x50
+01695654  ret

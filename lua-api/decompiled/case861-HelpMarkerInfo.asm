@@ -1,0 +1,84 @@
+// ===== case861-HelpMarkerInfo @ 017436a8 =====
+// existing function case861-HelpMarkerInfo
+017436a8  sub sp,sp,#0x40
+017436ac  str x19,[sp, #0x20]
+017436b0  stp x29,x30,[sp, #0x30]
+017436b4  add x29,sp,#0x30
+017436b8  adrp x1,0x174a000
+017436bc  add x1,x1,#0x87c
+017436c0  mov x19,x0
+017436c4  bl 0x0124ba40
+017436c8  adrp x1,0x575d000
+017436cc  add x1,x1,#0xa06
+017436d0  mov x0,x19
+017436d4  str x19,[sp]
+017436d8  bl 0x01251aa0
+017436dc  mov w8,#0x1
+017436e0  str w8,[sp, #0x8]
+017436e4  mov x0,sp
+017436e8  bl 0x0174aa04
+017436ec  adrp x1,0x5773000
+017436f0  adrp x3,0x736d000
+017436f4  add x1,x1,#0xbc2
+017436f8  add x3,x3,#0x101
+017436fc  add x0,sp,#0x10
+01743700  mov x2,sp
+01743704  bl 0x01a071b0
+01743708  adrp x1,0x5773000
+0174370c  adrp x2,0x1a06000
+01743710  adrp x4,0x1a06000
+01743714  add x1,x1,#0xbd1
+01743718  add x2,x2,#0xdb0
+0174371c  add x4,x4,#0xdb8
+01743720  add x0,sp,#0x10
+01743724  mov x3,xzr
+01743728  mov x5,xzr
+0174372c  bl 0x01a06bc8
+01743730  adrp x1,0x5768000
+01743734  adrp x2,0x1a06000
+01743738  adrp x4,0x1a06000
+0174373c  add x1,x1,#0x6ca
+01743740  add x2,x2,#0xfa8
+01743744  add x4,x4,#0xfb0
+01743748  mov x3,xzr
+0174374c  mov x5,xzr
+01743750  bl 0x01a06dc0
+01743754  adrp x1,0x57bb000
+01743758  adrp x2,0x1a07000
+0174375c  adrp x4,0x1a07000
+01743760  add x1,x1,#0xf65
+01743764  add x2,x2,#0x1a0
+01743768  add x4,x4,#0x1a8
+0174376c  mov x3,xzr
+01743770  mov x5,xzr
+01743774  bl 0x01a06fb8
+01743778  mov x19,x0
+0174377c  ldr w8,[x19, #0x8]
+01743780  ldr x0,[x19]
+01743784  sub w8,w8,#0x3
+01743788  str w8,[x19, #0x8]
+0174378c  orr w1,wzr,#0xfffffffc
+01743790  bl 0x0124c4d0
+01743794  ldr w8,[x19, #0x8]
+01743798  ldr x0,[x19]
+0174379c  str wzr,[x19, #0x8]
+017437a0  cmp w8,#0x1
+017437a4  b.lt 0x017437b0
+017437a8  mvn w1,w8
+017437ac  bl 0x0124c4d0
+017437b0  ldr w8,[sp, #0x18]
+017437b4  cmp w8,#0x1
+017437b8  b.lt 0x017437c8
+017437bc  ldr x0,[sp, #0x10]
+017437c0  mvn w1,w8
+017437c4  bl 0x0124c4d0
+017437c8  ldr w8,[sp, #0x8]
+017437cc  cmp w8,#0x1
+017437d0  b.lt 0x017437e0
+017437d4  ldr x0,[sp]
+017437d8  mvn w1,w8
+017437dc  bl 0x0124c4d0
+017437e0  ldp x29,x30,[sp, #0x30]
+017437e4  ldr x19,[sp, #0x20]
+017437e8  add sp,sp,#0x40
+017437ec  ret

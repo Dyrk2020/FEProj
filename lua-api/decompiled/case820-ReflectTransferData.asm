@@ -1,0 +1,154 @@
+// ===== case820-ReflectTransferData @ 01737874 =====
+// existing function case820-ReflectTransferData
+01737874  sub sp,sp,#0x50
+01737878  str x21,[sp, #0x20]
+0173787c  stp x20,x19,[sp, #0x30]
+01737880  stp x29,x30,[sp, #0x40]
+01737884  add x29,sp,#0x40
+01737888  adrp x1,0x174a000
+0173788c  add x1,x1,#0x87c
+01737890  mov x19,x0
+01737894  bl 0x0124ba40
+01737898  adrp x1,0x575d000
+0173789c  add x1,x1,#0xa06
+017378a0  mov x0,x19
+017378a4  str x19,[sp]
+017378a8  bl 0x01251aa0
+017378ac  mov w8,#0x1
+017378b0  str w8,[sp, #0x8]
+017378b4  mov x0,sp
+017378b8  bl 0x0174aa04
+017378bc  adrp x1,0x5772000
+017378c0  adrp x3,0x736d000
+017378c4  add x1,x1,#0x570
+017378c8  add x3,x3,#0x101
+017378cc  add x0,sp,#0x10
+017378d0  mov x2,sp
+017378d4  bl 0x019c805c
+017378d8  adrp x1,0x5772000
+017378dc  adrp x2,0x19c7000
+017378e0  adrp x4,0x19c7000
+017378e4  add x1,x1,#0x584
+017378e8  add x2,x2,#0xe8c
+017378ec  add x4,x4,#0xe94
+017378f0  add x0,sp,#0x10
+017378f4  mov x3,xzr
+017378f8  mov x5,xzr
+017378fc  bl 0x019c7ca4
+01737900  adrp x1,0x5772000
+01737904  adrp x2,0x19c7000
+01737908  adrp x4,0x19c7000
+0173790c  add x1,x1,#0x591
+01737910  add x2,x2,#0xf24
+01737914  add x4,x4,#0xf2c
+01737918  mov x3,xzr
+0173791c  mov x5,xzr
+01737920  bl 0x019c7ca4
+01737924  adrp x1,0x5772000
+01737928  adrp x2,0x19c7000
+0173792c  adrp x4,0x19c7000
+01737930  add x1,x1,#0x59d
+01737934  add x2,x2,#0xfbc
+01737938  add x4,x4,#0xfc4
+0173793c  mov x3,xzr
+01737940  mov x5,xzr
+01737944  bl 0x019c7ca4
+01737948  mov x19,x0
+0173794c  ldr x0,[x19]
+01737950  mov w1,#0x10
+01737954  bl 0x0124cba0
+01737958  adrp x8,0x19c8000
+0173795c  dup v0.2D,xzr
+01737960  add x8,x8,#0x54
+01737964  mov v0.D[0x0],x8
+01737968  str q0,[x0]
+0173796c  ldr x0,[x19]
+01737970  adrp x1,0x19c8000
+01737974  add x1,x1,#0x640
+01737978  mov w2,#0x1
+0173797c  bl 0x0124ec90
+01737980  ldr x0,[x19]
+01737984  mov w1,#0xffffffff
+01737988  bl 0x0124c0c0
+0173798c  ldr x20,[x19]
+01737990  orr w1,wzr,#0xfffffffb
+01737994  mov w2,#0x6e7
+01737998  mov x0,x20
+0173799c  bl 0x0124a650
+017379a0  orr w1,wzr,#0xfffffffe
+017379a4  mov x0,x20
+017379a8  bl 0x0124c0c0
+017379ac  orr w1,wzr,#0xfffffffe
+017379b0  mov x0,x20
+017379b4  bl 0x0124e920
+017379b8  mov w21,w0
+017379bc  adrp x1,0x575d000
+017379c0  add x1,x1,#0xd60
+017379c4  mov x0,x20
+017379c8  bl 0x0124f120
+017379cc  orr w1,wzr,#0xfffffffe
+017379d0  mov w2,#0x1
+017379d4  mov x0,x20
+017379d8  bl 0x0124cfc0
+017379dc  mov x0,x20
+017379e0  mov w1,w21
+017379e4  bl 0x0124e060
+017379e8  orr w1,wzr,#0xfffffffd
+017379ec  mov x0,x20
+017379f0  bl 0x0124c4d0
+017379f4  ldr x20,[x19]
+017379f8  orr w1,wzr,#0xfffffffd
+017379fc  mov w2,#0x6e7
+01737a00  mov x0,x20
+01737a04  bl 0x0124a650
+01737a08  orr w1,wzr,#0xfffffffe
+01737a0c  mov x0,x20
+01737a10  bl 0x0124c0c0
+01737a14  orr w1,wzr,#0xfffffffe
+01737a18  mov x0,x20
+01737a1c  bl 0x0124e920
+01737a20  mov w21,w0
+01737a24  adrp x1,0x575d000
+01737a28  add x1,x1,#0xd60
+01737a2c  mov x0,x20
+01737a30  bl 0x0124f120
+01737a34  orr w1,wzr,#0xfffffffe
+01737a38  mov w2,#0x1
+01737a3c  mov x0,x20
+01737a40  bl 0x0124cfc0
+01737a44  mov x0,x20
+01737a48  mov w1,w21
+01737a4c  bl 0x0124e060
+01737a50  orr w1,wzr,#0xfffffffd
+01737a54  mov x0,x20
+01737a58  bl 0x0124c4d0
+01737a5c  ldr w8,[x19, #0x8]
+01737a60  ldr x0,[x19]
+01737a64  sub w8,w8,#0x3
+01737a68  str w8,[x19, #0x8]
+01737a6c  orr w1,wzr,#0xfffffffc
+01737a70  bl 0x0124c4d0
+01737a74  ldr w8,[x19, #0x8]
+01737a78  ldr x0,[x19]
+01737a7c  str wzr,[x19, #0x8]
+01737a80  cmp w8,#0x1
+01737a84  b.lt 0x01737a90
+01737a88  mvn w1,w8
+01737a8c  bl 0x0124c4d0
+01737a90  ldr w8,[sp, #0x18]
+01737a94  cmp w8,#0x1
+01737a98  b.lt 0x01737aa8
+01737a9c  ldr x0,[sp, #0x10]
+01737aa0  mvn w1,w8
+01737aa4  bl 0x0124c4d0
+01737aa8  ldr w8,[sp, #0x8]
+01737aac  cmp w8,#0x1
+01737ab0  b.lt 0x01737ac0
+01737ab4  ldr x0,[sp]
+01737ab8  mvn w1,w8
+01737abc  bl 0x0124c4d0
+01737ac0  ldp x29,x30,[sp, #0x40]
+01737ac4  ldp x20,x19,[sp, #0x30]
+01737ac8  ldr x21,[sp, #0x20]
+01737acc  add sp,sp,#0x50
+01737ad0  ret

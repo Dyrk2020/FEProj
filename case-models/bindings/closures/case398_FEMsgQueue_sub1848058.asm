@@ -1,0 +1,30 @@
+// ===== case398_FEMsgQueue_sub1848058 @ 01848058 (DecompileAt3: cleared stale instructions at entry) =====
+01848058  stp x20,x19,[sp, #-0x20]!
+0184805c  stp x29,x30,[sp, #0x10]
+01848060  add x29,sp,#0x10
+01848064  mov w1,#0x1
+01848068  mov x19,x0
+0184806c  bl 0x0124ff50
+01848070  cbz w0,0x0184809c
+01848074  adrp x2,0x736d000
+01848078  adrp x3,0x736d000
+0184807c  add x2,x2,#0x847
+01848080  add x3,x3,#0x846
+01848084  mov w1,#0x1
+01848088  mov w4,#0x1
+0184808c  mov x0,x19
+01848090  bl 0x0174b938
+01848094  ldr x20,[x0, #0x8]
+01848098  b 0x018480a0
+0184809c  mov x20,xzr
+018480a0  mov w1,#0xb9d7
+018480a4  movk w1,#0xfff0, LSL #16
+018480a8  mov x0,x19
+018480ac  bl 0x0124e990
+018480b0  mov x2,x0
+018480b4  mov x0,x19
+018480b8  mov x1,x20
+018480bc  bl 0x018480cc
+018480c0  ldp x29,x30,[sp, #0x10]
+018480c4  ldp x20,x19,[sp], #0x20
+018480c8  ret

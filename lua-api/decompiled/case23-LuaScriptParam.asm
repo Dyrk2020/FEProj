@@ -1,0 +1,84 @@
+// ===== case23-LuaScriptParam @ 0169035c =====
+// existing function case23-LuaScriptParam
+0169035c  sub sp,sp,#0x40
+01690360  str x19,[sp, #0x20]
+01690364  stp x29,x30,[sp, #0x30]
+01690368  add x29,sp,#0x30
+0169036c  adrp x1,0x174a000
+01690370  add x1,x1,#0x87c
+01690374  mov x19,x0
+01690378  bl 0x0124ba40
+0169037c  adrp x1,0x575d000
+01690380  add x1,x1,#0xa06
+01690384  mov x0,x19
+01690388  str x19,[sp]
+0169038c  bl 0x01251aa0
+01690390  mov w8,#0x1
+01690394  str w8,[sp, #0x8]
+01690398  mov x0,sp
+0169039c  bl 0x0174aa04
+016903a0  adrp x1,0x575d000
+016903a4  adrp x3,0x736d000
+016903a8  add x1,x1,#0xe1d
+016903ac  add x3,x3,#0x101
+016903b0  add x0,sp,#0x10
+016903b4  mov x2,sp
+016903b8  bl 0x0175ac74
+016903bc  adrp x1,0x575d000
+016903c0  adrp x2,0x175a000
+016903c4  adrp x4,0x175a000
+016903c8  add x1,x1,#0xe2c
+016903cc  add x2,x2,#0xa5c
+016903d0  add x4,x4,#0xa64
+016903d4  add x0,sp,#0x10
+016903d8  mov x3,xzr
+016903dc  mov x5,xzr
+016903e0  bl 0x0175a874
+016903e4  adrp x1,0x575d000
+016903e8  adrp x2,0x175a000
+016903ec  adrp x4,0x175a000
+016903f0  add x1,x1,#0xe32
+016903f4  add x2,x2,#0xa6c
+016903f8  add x4,x4,#0xa74
+016903fc  mov x3,xzr
+01690400  mov x5,xzr
+01690404  bl 0x0175a874
+01690408  adrp x1,0x575d000
+0169040c  adrp x2,0x175a000
+01690410  adrp x4,0x175a000
+01690414  add x1,x1,#0xe39
+01690418  add x2,x2,#0xc64
+0169041c  add x4,x4,#0xc6c
+01690420  mov x3,xzr
+01690424  mov x5,xzr
+01690428  bl 0x0175aa7c
+0169042c  mov x19,x0
+01690430  ldr w8,[x19, #0x8]
+01690434  ldr x0,[x19]
+01690438  sub w8,w8,#0x3
+0169043c  str w8,[x19, #0x8]
+01690440  orr w1,wzr,#0xfffffffc
+01690444  bl 0x0124c4d0
+01690448  ldr w8,[x19, #0x8]
+0169044c  ldr x0,[x19]
+01690450  str wzr,[x19, #0x8]
+01690454  cmp w8,#0x1
+01690458  b.lt 0x01690464
+0169045c  mvn w1,w8
+01690460  bl 0x0124c4d0
+01690464  ldr w8,[sp, #0x18]
+01690468  cmp w8,#0x1
+0169046c  b.lt 0x0169047c
+01690470  ldr x0,[sp, #0x10]
+01690474  mvn w1,w8
+01690478  bl 0x0124c4d0
+0169047c  ldr w8,[sp, #0x8]
+01690480  cmp w8,#0x1
+01690484  b.lt 0x01690494
+01690488  ldr x0,[sp]
+0169048c  mvn w1,w8
+01690490  bl 0x0124c4d0
+01690494  ldp x29,x30,[sp, #0x30]
+01690498  ldr x19,[sp, #0x20]
+0169049c  add sp,sp,#0x40
+016904a0  ret

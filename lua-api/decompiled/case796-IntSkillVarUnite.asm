@@ -1,0 +1,66 @@
+// ===== case796-IntSkillVarUnite @ 01733050 =====
+// existing function case796-IntSkillVarUnite
+01733050  sub sp,sp,#0x40
+01733054  str x19,[sp, #0x20]
+01733058  stp x29,x30,[sp, #0x30]
+0173305c  add x29,sp,#0x30
+01733060  adrp x1,0x174a000
+01733064  add x1,x1,#0x87c
+01733068  mov x19,x0
+0173306c  bl 0x0124ba40
+01733070  adrp x1,0x575d000
+01733074  add x1,x1,#0xa06
+01733078  mov x0,x19
+0173307c  str x19,[sp]
+01733080  bl 0x01251aa0
+01733084  mov w8,#0x1
+01733088  str w8,[sp, #0x8]
+0173308c  mov x0,sp
+01733090  bl 0x0174aa04
+01733094  adrp x1,0x5771000
+01733098  adrp x3,0x736d000
+0173309c  add x1,x1,#0xf7d
+017330a0  add x3,x3,#0x101
+017330a4  add x0,sp,#0x10
+017330a8  mov x2,sp
+017330ac  bl 0x019b5174
+017330b0  adrp x1,0x5955000
+017330b4  adrp x2,0x19b5000
+017330b8  adrp x4,0x19b5000
+017330bc  add x1,x1,#0x16f
+017330c0  add x2,x2,#0x164
+017330c4  add x4,x4,#0x16c
+017330c8  add x0,sp,#0x10
+017330cc  mov x3,xzr
+017330d0  mov x5,xzr
+017330d4  bl 0x019b4f7c
+017330d8  mov x19,x0
+017330dc  ldr w8,[x19, #0x8]
+017330e0  ldr x0,[x19]
+017330e4  sub w8,w8,#0x3
+017330e8  str w8,[x19, #0x8]
+017330ec  orr w1,wzr,#0xfffffffc
+017330f0  bl 0x0124c4d0
+017330f4  ldr w8,[x19, #0x8]
+017330f8  ldr x0,[x19]
+017330fc  str wzr,[x19, #0x8]
+01733100  cmp w8,#0x1
+01733104  b.lt 0x01733110
+01733108  mvn w1,w8
+0173310c  bl 0x0124c4d0
+01733110  ldr w8,[sp, #0x18]
+01733114  cmp w8,#0x1
+01733118  b.lt 0x01733128
+0173311c  ldr x0,[sp, #0x10]
+01733120  mvn w1,w8
+01733124  bl 0x0124c4d0
+01733128  ldr w8,[sp, #0x8]
+0173312c  cmp w8,#0x1
+01733130  b.lt 0x01733140
+01733134  ldr x0,[sp]
+01733138  mvn w1,w8
+0173313c  bl 0x0124c4d0
+01733140  ldp x29,x30,[sp, #0x30]
+01733144  ldr x19,[sp, #0x20]
+01733148  add sp,sp,#0x40
+0173314c  ret

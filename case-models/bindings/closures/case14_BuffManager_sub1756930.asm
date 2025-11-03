@@ -1,0 +1,30 @@
+// ===== case14_BuffManager_sub1756930 @ 01756930 (DecompileAt3: cleared stale instructions at entry) =====
+01756930  stp x20,x19,[sp, #-0x20]!
+01756934  stp x29,x30,[sp, #0x10]
+01756938  add x29,sp,#0x10
+0175693c  mov w1,#0x1
+01756940  mov x19,x0
+01756944  bl 0x0124ff50
+01756948  cbz w0,0x01756974
+0175694c  adrp x2,0x736d000
+01756950  adrp x3,0x736d000
+01756954  add x2,x2,#0x226
+01756958  add x3,x3,#0x225
+0175695c  mov w1,#0x1
+01756960  mov w4,#0x1
+01756964  mov x0,x19
+01756968  bl 0x0174b938
+0175696c  ldr x20,[x0, #0x8]
+01756970  b 0x01756978
+01756974  mov x20,xzr
+01756978  mov w1,#0xb9d7
+0175697c  movk w1,#0xfff0, LSL #16
+01756980  mov x0,x19
+01756984  bl 0x0124e990
+01756988  mov x2,x0
+0175698c  mov x0,x19
+01756990  mov x1,x20
+01756994  bl 0x017569a4
+01756998  ldp x29,x30,[sp, #0x10]
+0175699c  ldp x20,x19,[sp], #0x20
+017569a0  ret

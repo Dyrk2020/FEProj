@@ -1,0 +1,73 @@
+// ===== case31-UnitManager @ 01691698 =====
+// existing function case31-UnitManager
+01691698  sub sp,sp,#0x40
+0169169c  str x19,[sp, #0x20]
+016916a0  stp x29,x30,[sp, #0x30]
+016916a4  add x29,sp,#0x30
+016916a8  adrp x1,0x174a000
+016916ac  add x1,x1,#0x87c
+016916b0  mov x19,x0
+016916b4  bl 0x0124ba40
+016916b8  adrp x1,0x575d000
+016916bc  add x1,x1,#0xa06
+016916c0  mov x0,x19
+016916c4  str x19,[sp]
+016916c8  bl 0x01251aa0
+016916cc  mov w8,#0x1
+016916d0  str w8,[sp, #0x8]
+016916d4  mov x0,sp
+016916d8  bl 0x0174aa04
+016916dc  adrp x1,0x575d000
+016916e0  adrp x3,0x736d000
+016916e4  add x1,x1,#0xf4e
+016916e8  add x3,x3,#0x101
+016916ec  add x0,sp,#0x10
+016916f0  mov x2,sp
+016916f4  bl 0x0175f764
+016916f8  adrp x1,0x575d000
+016916fc  adrp x2,0x175f000
+01691700  add x1,x1,#0xf5a
+01691704  add x2,x2,#0x754
+01691708  add x0,sp,#0x10
+0169170c  mov x3,xzr
+01691710  mov x4,xzr
+01691714  mov x5,xzr
+01691718  bl 0x0175f56c
+0169171c  adrp x1,0x575d000
+01691720  adrp x2,0x175f000
+01691724  add x1,x1,#0xf63
+01691728  add x2,x2,#0x75c
+0169172c  mov x3,xzr
+01691730  mov x4,xzr
+01691734  mov x5,xzr
+01691738  bl 0x0175f56c
+0169173c  mov x19,x0
+01691740  ldr w8,[x19, #0x8]
+01691744  ldr x0,[x19]
+01691748  sub w8,w8,#0x3
+0169174c  str w8,[x19, #0x8]
+01691750  orr w1,wzr,#0xfffffffc
+01691754  bl 0x0124c4d0
+01691758  ldr w8,[x19, #0x8]
+0169175c  ldr x0,[x19]
+01691760  str wzr,[x19, #0x8]
+01691764  cmp w8,#0x1
+01691768  b.lt 0x01691774
+0169176c  mvn w1,w8
+01691770  bl 0x0124c4d0
+01691774  ldr w8,[sp, #0x18]
+01691778  cmp w8,#0x1
+0169177c  b.lt 0x0169178c
+01691780  ldr x0,[sp, #0x10]
+01691784  mvn w1,w8
+01691788  bl 0x0124c4d0
+0169178c  ldr w8,[sp, #0x8]
+01691790  cmp w8,#0x1
+01691794  b.lt 0x016917a4
+01691798  ldr x0,[sp]
+0169179c  mvn w1,w8
+016917a0  bl 0x0124c4d0
+016917a4  ldp x29,x30,[sp, #0x30]
+016917a8  ldr x19,[sp, #0x20]
+016917ac  add sp,sp,#0x40
+016917b0  ret

@@ -1,0 +1,165 @@
+// ===== case517-InputBufferActionLogic @ 016f7290 =====
+// existing function case517-InputBufferActionLogic
+016f7290  sub sp,sp,#0x40
+016f7294  str x19,[sp, #0x20]
+016f7298  stp x29,x30,[sp, #0x30]
+016f729c  add x29,sp,#0x30
+016f72a0  adrp x1,0x174a000
+016f72a4  add x1,x1,#0x87c
+016f72a8  mov x19,x0
+016f72ac  bl 0x0124ba40
+016f72b0  adrp x1,0x575d000
+016f72b4  add x1,x1,#0xa06
+016f72b8  mov x0,x19
+016f72bc  str x19,[sp]
+016f72c0  bl 0x01251aa0
+016f72c4  mov w8,#0x1
+016f72c8  str w8,[sp, #0x8]
+016f72cc  mov x0,sp
+016f72d0  bl 0x0174aa04
+016f72d4  adrp x1,0x5768000
+016f72d8  adrp x3,0x736d000
+016f72dc  add x1,x1,#0x774
+016f72e0  add x3,x3,#0x101
+016f72e4  add x0,sp,#0x10
+016f72e8  mov x2,sp
+016f72ec  bl 0x018a7c94
+016f72f0  adrp x1,0x5768000
+016f72f4  adrp x2,0x18a7000
+016f72f8  adrp x4,0x18a7000
+016f72fc  add x1,x1,#0x78b
+016f7300  add x2,x2,#0x6fc
+016f7304  add x4,x4,#0x704
+016f7308  add x0,sp,#0x10
+016f730c  mov x3,xzr
+016f7310  mov x5,xzr
+016f7314  bl 0x018a7514
+016f7318  adrp x1,0x5768000
+016f731c  adrp x2,0x18a7000
+016f7320  adrp x4,0x18a7000
+016f7324  add x1,x1,#0x797
+016f7328  add x2,x2,#0x720
+016f732c  add x4,x4,#0x728
+016f7330  mov x3,xzr
+016f7334  mov x5,xzr
+016f7338  bl 0x018a7514
+016f733c  adrp x1,0x5768000
+016f7340  adrp x2,0x18a7000
+016f7344  adrp x4,0x18a7000
+016f7348  add x1,x1,#0x7a5
+016f734c  add x2,x2,#0x92c
+016f7350  add x4,x4,#0x934
+016f7354  mov x3,xzr
+016f7358  mov x5,xzr
+016f735c  bl 0x018a7744
+016f7360  adrp x1,0x5768000
+016f7364  adrp x2,0x18a7000
+016f7368  adrp x4,0x18a7000
+016f736c  add x1,x1,#0x7b2
+016f7370  add x2,x2,#0x950
+016f7374  add x4,x4,#0x958
+016f7378  mov x3,xzr
+016f737c  mov x5,xzr
+016f7380  bl 0x018a7744
+016f7384  adrp x1,0x5768000
+016f7388  adrp x2,0x18a7000
+016f738c  adrp x4,0x18a7000
+016f7390  add x1,x1,#0x7be
+016f7394  add x2,x2,#0x974
+016f7398  add x4,x4,#0x97c
+016f739c  mov x3,xzr
+016f73a0  mov x5,xzr
+016f73a4  bl 0x018a7744
+016f73a8  adrp x1,0x5768000
+016f73ac  adrp x2,0x18a7000
+016f73b0  adrp x4,0x18a7000
+016f73b4  add x1,x1,#0x7cc
+016f73b8  add x2,x2,#0x998
+016f73bc  add x4,x4,#0x9a0
+016f73c0  mov x3,xzr
+016f73c4  mov x5,xzr
+016f73c8  bl 0x018a7744
+016f73cc  adrp x1,0x5768000
+016f73d0  adrp x2,0x18a7000
+016f73d4  adrp x4,0x18a7000
+016f73d8  add x1,x1,#0x7d3
+016f73dc  add x2,x2,#0x9a8
+016f73e0  add x4,x4,#0x9b0
+016f73e4  mov x3,xzr
+016f73e8  mov x5,xzr
+016f73ec  bl 0x018a7744
+016f73f0  adrp x1,0x5768000
+016f73f4  adrp x2,0x18a7000
+016f73f8  adrp x4,0x18a7000
+016f73fc  add x1,x1,#0x7e2
+016f7400  add x2,x2,#0x9b8
+016f7404  add x4,x4,#0x9c0
+016f7408  mov x3,xzr
+016f740c  mov x5,xzr
+016f7410  bl 0x018a7744
+016f7414  adrp x1,0x5768000
+016f7418  adrp x2,0x18a7000
+016f741c  adrp x4,0x18a7000
+016f7420  add x1,x1,#0x7f3
+016f7424  add x2,x2,#0xa50
+016f7428  add x4,x4,#0xa58
+016f742c  mov x3,xzr
+016f7430  mov x5,xzr
+016f7434  bl 0x018a7744
+016f7438  adrp x1,0x5768000
+016f743c  adrp x2,0x18a7000
+016f7440  adrp x4,0x18a7000
+016f7444  add x1,x1,#0x80d
+016f7448  add x2,x2,#0xa74
+016f744c  add x4,x4,#0xa7c
+016f7450  mov x3,xzr
+016f7454  mov x5,xzr
+016f7458  bl 0x018a7744
+016f745c  adrp x1,0x5768000
+016f7460  adrp x2,0x18a7000
+016f7464  adrp x4,0x18a7000
+016f7468  add x1,x1,#0x81c
+016f746c  add x2,x2,#0xa84
+016f7470  add x4,x4,#0xa8c
+016f7474  mov x3,xzr
+016f7478  mov x5,xzr
+016f747c  bl 0x018a7744
+016f7480  adrp x1,0x5768000
+016f7484  adrp x2,0x18a7000
+016f7488  adrp x4,0x18a7000
+016f748c  add x1,x1,#0x828
+016f7490  add x2,x2,#0xc7c
+016f7494  add x4,x4,#0xc88
+016f7498  mov x3,xzr
+016f749c  mov x5,xzr
+016f74a0  bl 0x018a7a94
+016f74a4  mov x19,x0
+016f74a8  ldr w8,[x19, #0x8]
+016f74ac  ldr x0,[x19]
+016f74b0  sub w8,w8,#0x3
+016f74b4  str w8,[x19, #0x8]
+016f74b8  orr w1,wzr,#0xfffffffc
+016f74bc  bl 0x0124c4d0
+016f74c0  ldr w8,[x19, #0x8]
+016f74c4  ldr x0,[x19]
+016f74c8  str wzr,[x19, #0x8]
+016f74cc  cmp w8,#0x1
+016f74d0  b.lt 0x016f74dc
+016f74d4  mvn w1,w8
+016f74d8  bl 0x0124c4d0
+016f74dc  ldr w8,[sp, #0x18]
+016f74e0  cmp w8,#0x1
+016f74e4  b.lt 0x016f74f4
+016f74e8  ldr x0,[sp, #0x10]
+016f74ec  mvn w1,w8
+016f74f0  bl 0x0124c4d0
+016f74f4  ldr w8,[sp, #0x8]
+016f74f8  cmp w8,#0x1
+016f74fc  b.lt 0x016f750c
+016f7500  ldr x0,[sp]
+016f7504  mvn w1,w8
+016f7508  bl 0x0124c4d0
+016f750c  ldp x29,x30,[sp, #0x30]
+016f7510  ldr x19,[sp, #0x20]
+016f7514  add sp,sp,#0x40
+016f7518  ret

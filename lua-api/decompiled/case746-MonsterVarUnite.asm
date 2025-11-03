@@ -1,0 +1,75 @@
+// ===== case746-MonsterVarUnite @ 017285a4 =====
+// existing function case746-MonsterVarUnite
+017285a4  sub sp,sp,#0x40
+017285a8  str x19,[sp, #0x20]
+017285ac  stp x29,x30,[sp, #0x30]
+017285b0  add x29,sp,#0x30
+017285b4  adrp x1,0x174a000
+017285b8  add x1,x1,#0x87c
+017285bc  mov x19,x0
+017285c0  bl 0x0124ba40
+017285c4  adrp x1,0x575d000
+017285c8  add x1,x1,#0xa06
+017285cc  mov x0,x19
+017285d0  str x19,[sp]
+017285d4  bl 0x01251aa0
+017285d8  mov w8,#0x1
+017285dc  str w8,[sp, #0x8]
+017285e0  mov x0,sp
+017285e4  bl 0x0174aa04
+017285e8  adrp x1,0x5770000
+017285ec  adrp x3,0x736d000
+017285f0  add x1,x1,#0x5c5
+017285f4  add x3,x3,#0x101
+017285f8  add x0,sp,#0x10
+017285fc  mov x2,sp
+01728600  bl 0x01984b58
+01728604  adrp x1,0x575e000
+01728608  adrp x2,0x1984000
+0172860c  adrp x4,0x1984000
+01728610  add x1,x1,#0x38e
+01728614  add x2,x2,#0xb38
+01728618  add x4,x4,#0xb40
+0172861c  add x0,sp,#0x10
+01728620  mov x3,xzr
+01728624  mov x5,xzr
+01728628  bl 0x01984950
+0172862c  adrp x1,0x5770000
+01728630  adrp x2,0x1984000
+01728634  adrp x4,0x1984000
+01728638  add x1,x1,#0x119
+0172863c  add x2,x2,#0xb48
+01728640  add x4,x4,#0xb50
+01728644  mov x3,xzr
+01728648  mov x5,xzr
+0172864c  bl 0x01984950
+01728650  mov x19,x0
+01728654  ldr w8,[x19, #0x8]
+01728658  ldr x0,[x19]
+0172865c  sub w8,w8,#0x3
+01728660  str w8,[x19, #0x8]
+01728664  orr w1,wzr,#0xfffffffc
+01728668  bl 0x0124c4d0
+0172866c  ldr w8,[x19, #0x8]
+01728670  ldr x0,[x19]
+01728674  str wzr,[x19, #0x8]
+01728678  cmp w8,#0x1
+0172867c  b.lt 0x01728688
+01728680  mvn w1,w8
+01728684  bl 0x0124c4d0
+01728688  ldr w8,[sp, #0x18]
+0172868c  cmp w8,#0x1
+01728690  b.lt 0x017286a0
+01728694  ldr x0,[sp, #0x10]
+01728698  mvn w1,w8
+0172869c  bl 0x0124c4d0
+017286a0  ldr w8,[sp, #0x8]
+017286a4  cmp w8,#0x1
+017286a8  b.lt 0x017286b8
+017286ac  ldr x0,[sp]
+017286b0  mvn w1,w8
+017286b4  bl 0x0124c4d0
+017286b8  ldp x29,x30,[sp, #0x30]
+017286bc  ldr x19,[sp, #0x20]
+017286c0  add sp,sp,#0x40
+017286c4  ret

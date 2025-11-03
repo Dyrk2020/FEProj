@@ -1,0 +1,93 @@
+// ===== case56-ForgeAttrStock @ 016956bc =====
+// existing function case56-ForgeAttrStock
+016956bc  sub sp,sp,#0x40
+016956c0  str x19,[sp, #0x20]
+016956c4  stp x29,x30,[sp, #0x30]
+016956c8  add x29,sp,#0x30
+016956cc  adrp x1,0x174a000
+016956d0  add x1,x1,#0x87c
+016956d4  mov x19,x0
+016956d8  bl 0x0124ba40
+016956dc  adrp x1,0x575d000
+016956e0  add x1,x1,#0xa06
+016956e4  mov x0,x19
+016956e8  str x19,[sp]
+016956ec  bl 0x01251aa0
+016956f0  mov w8,#0x1
+016956f4  str w8,[sp, #0x8]
+016956f8  mov x0,sp
+016956fc  bl 0x0174aa04
+01695700  adrp x1,0x575e000
+01695704  adrp x3,0x736d000
+01695708  add x1,x1,#0x657
+0169570c  add x3,x3,#0x101
+01695710  add x0,sp,#0x10
+01695714  mov x2,sp
+01695718  bl 0x0176dc7c
+0169571c  adrp x1,0x594c000
+01695720  adrp x2,0x176d000
+01695724  adrp x4,0x176d000
+01695728  add x1,x1,#0xe9
+0169572c  add x2,x2,#0x86c
+01695730  add x4,x4,#0x874
+01695734  add x0,sp,#0x10
+01695738  mov x3,xzr
+0169573c  mov x5,xzr
+01695740  bl 0x0176d684
+01695744  adrp x1,0x575e000
+01695748  adrp x2,0x176d000
+0169574c  adrp x4,0x176d000
+01695750  add x1,x1,#0x666
+01695754  add x2,x2,#0xa64
+01695758  add x4,x4,#0xa6c
+0169575c  mov x3,xzr
+01695760  mov x5,xzr
+01695764  bl 0x0176d87c
+01695768  adrp x1,0x575e000
+0169576c  adrp x2,0x176d000
+01695770  adrp x4,0x176d000
+01695774  add x1,x1,#0x674
+01695778  add x2,x2,#0xa74
+0169577c  add x4,x4,#0xa7c
+01695780  mov x3,xzr
+01695784  mov x5,xzr
+01695788  bl 0x0176d684
+0169578c  adrp x1,0x575e000
+01695790  adrp x2,0x176d000
+01695794  adrp x4,0x176d000
+01695798  add x1,x1,#0x67a
+0169579c  add x2,x2,#0xc6c
+016957a0  add x4,x4,#0xc74
+016957a4  mov x3,xzr
+016957a8  mov x5,xzr
+016957ac  bl 0x0176da84
+016957b0  mov x19,x0
+016957b4  ldr w8,[x19, #0x8]
+016957b8  ldr x0,[x19]
+016957bc  sub w8,w8,#0x3
+016957c0  str w8,[x19, #0x8]
+016957c4  orr w1,wzr,#0xfffffffc
+016957c8  bl 0x0124c4d0
+016957cc  ldr w8,[x19, #0x8]
+016957d0  ldr x0,[x19]
+016957d4  str wzr,[x19, #0x8]
+016957d8  cmp w8,#0x1
+016957dc  b.lt 0x016957e8
+016957e0  mvn w1,w8
+016957e4  bl 0x0124c4d0
+016957e8  ldr w8,[sp, #0x18]
+016957ec  cmp w8,#0x1
+016957f0  b.lt 0x01695800
+016957f4  ldr x0,[sp, #0x10]
+016957f8  mvn w1,w8
+016957fc  bl 0x0124c4d0
+01695800  ldr w8,[sp, #0x8]
+01695804  cmp w8,#0x1
+01695808  b.lt 0x01695818
+0169580c  ldr x0,[sp]
+01695810  mvn w1,w8
+01695814  bl 0x0124c4d0
+01695818  ldp x29,x30,[sp, #0x30]
+0169581c  ldr x19,[sp, #0x20]
+01695820  add sp,sp,#0x40
+01695824  ret

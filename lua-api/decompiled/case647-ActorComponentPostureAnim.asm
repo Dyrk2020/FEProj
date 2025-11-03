@@ -1,0 +1,75 @@
+// ===== case647-ActorComponentPostureAnim @ 01714850 =====
+// existing function case647-ActorComponentPostureAnim
+01714850  sub sp,sp,#0x40
+01714854  str x19,[sp, #0x20]
+01714858  stp x29,x30,[sp, #0x30]
+0171485c  add x29,sp,#0x30
+01714860  adrp x1,0x174a000
+01714864  add x1,x1,#0x87c
+01714868  mov x19,x0
+0171486c  bl 0x0124ba40
+01714870  adrp x1,0x575d000
+01714874  add x1,x1,#0xa06
+01714878  mov x0,x19
+0171487c  str x19,[sp]
+01714880  bl 0x01251aa0
+01714884  mov w8,#0x1
+01714888  str w8,[sp, #0x8]
+0171488c  mov x0,sp
+01714890  bl 0x0174aa04
+01714894  adrp x1,0x576c000
+01714898  adrp x3,0x736d000
+0171489c  add x1,x1,#0x98b
+017148a0  add x3,x3,#0x101
+017148a4  add x0,sp,#0x10
+017148a8  mov x2,sp
+017148ac  bl 0x01924b30
+017148b0  adrp x1,0x576c000
+017148b4  adrp x2,0x1924000
+017148b8  adrp x4,0x1924000
+017148bc  add x1,x1,#0x9a5
+017148c0  add x2,x2,#0x928
+017148c4  add x4,x4,#0x930
+017148c8  add x0,sp,#0x10
+017148cc  mov x3,xzr
+017148d0  mov x5,xzr
+017148d4  bl 0x01924740
+017148d8  adrp x1,0x576c000
+017148dc  adrp x2,0x1924000
+017148e0  adrp x4,0x1924000
+017148e4  add x1,x1,#0x9b2
+017148e8  add x2,x2,#0xb20
+017148ec  add x4,x4,#0xb28
+017148f0  mov x3,xzr
+017148f4  mov x5,xzr
+017148f8  bl 0x01924938
+017148fc  mov x19,x0
+01714900  ldr w8,[x19, #0x8]
+01714904  ldr x0,[x19]
+01714908  sub w8,w8,#0x3
+0171490c  str w8,[x19, #0x8]
+01714910  orr w1,wzr,#0xfffffffc
+01714914  bl 0x0124c4d0
+01714918  ldr w8,[x19, #0x8]
+0171491c  ldr x0,[x19]
+01714920  str wzr,[x19, #0x8]
+01714924  cmp w8,#0x1
+01714928  b.lt 0x01714934
+0171492c  mvn w1,w8
+01714930  bl 0x0124c4d0
+01714934  ldr w8,[sp, #0x18]
+01714938  cmp w8,#0x1
+0171493c  b.lt 0x0171494c
+01714940  ldr x0,[sp, #0x10]
+01714944  mvn w1,w8
+01714948  bl 0x0124c4d0
+0171494c  ldr w8,[sp, #0x8]
+01714950  cmp w8,#0x1
+01714954  b.lt 0x01714964
+01714958  ldr x0,[sp]
+0171495c  mvn w1,w8
+01714960  bl 0x0124c4d0
+01714964  ldp x29,x30,[sp, #0x30]
+01714968  ldr x19,[sp, #0x20]
+0171496c  add sp,sp,#0x40
+01714970  ret

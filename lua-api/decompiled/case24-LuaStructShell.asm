@@ -1,0 +1,75 @@
+// ===== case24-LuaStructShell @ 01690508 =====
+// existing function case24-LuaStructShell
+01690508  sub sp,sp,#0x40
+0169050c  str x19,[sp, #0x20]
+01690510  stp x29,x30,[sp, #0x30]
+01690514  add x29,sp,#0x30
+01690518  adrp x1,0x174a000
+0169051c  add x1,x1,#0x87c
+01690520  mov x19,x0
+01690524  bl 0x0124ba40
+01690528  adrp x1,0x575d000
+0169052c  add x1,x1,#0xa06
+01690530  mov x0,x19
+01690534  str x19,[sp]
+01690538  bl 0x01251aa0
+0169053c  mov w8,#0x1
+01690540  str w8,[sp, #0x8]
+01690544  mov x0,sp
+01690548  bl 0x0174aa04
+0169054c  adrp x1,0x575d000
+01690550  adrp x3,0x736d000
+01690554  add x1,x1,#0xe3f
+01690558  add x3,x3,#0x101
+0169055c  add x0,sp,#0x10
+01690560  mov x2,sp
+01690564  bl 0x0175b680
+01690568  adrp x1,0x59b2000
+0169056c  adrp x2,0x175b000
+01690570  adrp x4,0x175b000
+01690574  add x1,x1,#0x1e7
+01690578  add x2,x2,#0x660
+0169057c  add x4,x4,#0x668
+01690580  add x0,sp,#0x10
+01690584  mov x3,xzr
+01690588  mov x5,xzr
+0169058c  bl 0x0175b478
+01690590  adrp x1,0x575d000
+01690594  adrp x2,0x175b000
+01690598  adrp x4,0x175b000
+0169059c  add x1,x1,#0xe4e
+016905a0  add x2,x2,#0x670
+016905a4  add x4,x4,#0x678
+016905a8  mov x3,xzr
+016905ac  mov x5,xzr
+016905b0  bl 0x0175b478
+016905b4  mov x19,x0
+016905b8  ldr w8,[x19, #0x8]
+016905bc  ldr x0,[x19]
+016905c0  sub w8,w8,#0x3
+016905c4  str w8,[x19, #0x8]
+016905c8  orr w1,wzr,#0xfffffffc
+016905cc  bl 0x0124c4d0
+016905d0  ldr w8,[x19, #0x8]
+016905d4  ldr x0,[x19]
+016905d8  str wzr,[x19, #0x8]
+016905dc  cmp w8,#0x1
+016905e0  b.lt 0x016905ec
+016905e4  mvn w1,w8
+016905e8  bl 0x0124c4d0
+016905ec  ldr w8,[sp, #0x18]
+016905f0  cmp w8,#0x1
+016905f4  b.lt 0x01690604
+016905f8  ldr x0,[sp, #0x10]
+016905fc  mvn w1,w8
+01690600  bl 0x0124c4d0
+01690604  ldr w8,[sp, #0x8]
+01690608  cmp w8,#0x1
+0169060c  b.lt 0x0169061c
+01690610  ldr x0,[sp]
+01690614  mvn w1,w8
+01690618  bl 0x0124c4d0
+0169061c  ldp x29,x30,[sp, #0x30]
+01690620  ldr x19,[sp, #0x20]
+01690624  add sp,sp,#0x40
+01690628  ret

@@ -1,0 +1,75 @@
+// ===== case792-LevelVarResObject @ 017328ec =====
+// existing function case792-LevelVarResObject
+017328ec  sub sp,sp,#0x40
+017328f0  str x19,[sp, #0x20]
+017328f4  stp x29,x30,[sp, #0x30]
+017328f8  add x29,sp,#0x30
+017328fc  adrp x1,0x174a000
+01732900  add x1,x1,#0x87c
+01732904  mov x19,x0
+01732908  bl 0x0124ba40
+0173290c  adrp x1,0x575d000
+01732910  add x1,x1,#0xa06
+01732914  mov x0,x19
+01732918  str x19,[sp]
+0173291c  bl 0x01251aa0
+01732920  mov w8,#0x1
+01732924  str w8,[sp, #0x8]
+01732928  mov x0,sp
+0173292c  bl 0x0174aa04
+01732930  adrp x1,0x5771000
+01732934  adrp x3,0x736d000
+01732938  add x1,x1,#0xef4
+0173293c  add x3,x3,#0x101
+01732940  add x0,sp,#0x10
+01732944  mov x2,sp
+01732948  bl 0x019b2208
+0173294c  adrp x1,0x5771000
+01732950  adrp x2,0x19b2000
+01732954  adrp x4,0x19b2000
+01732958  add x1,x1,#0xee2
+0173295c  add x2,x2,#0x0
+01732960  add x4,x4,#0x8
+01732964  add x0,sp,#0x10
+01732968  mov x3,xzr
+0173296c  mov x5,xzr
+01732970  bl 0x019b1e18
+01732974  adrp x1,0x5771000
+01732978  adrp x2,0x19b2000
+0173297c  adrp x4,0x19b2000
+01732980  add x1,x1,#0xee8
+01732984  add x2,x2,#0x1f8
+01732988  add x4,x4,#0x200
+0173298c  mov x3,xzr
+01732990  mov x5,xzr
+01732994  bl 0x019b2010
+01732998  mov x19,x0
+0173299c  ldr w8,[x19, #0x8]
+017329a0  ldr x0,[x19]
+017329a4  sub w8,w8,#0x3
+017329a8  str w8,[x19, #0x8]
+017329ac  orr w1,wzr,#0xfffffffc
+017329b0  bl 0x0124c4d0
+017329b4  ldr w8,[x19, #0x8]
+017329b8  ldr x0,[x19]
+017329bc  str wzr,[x19, #0x8]
+017329c0  cmp w8,#0x1
+017329c4  b.lt 0x017329d0
+017329c8  mvn w1,w8
+017329cc  bl 0x0124c4d0
+017329d0  ldr w8,[sp, #0x18]
+017329d4  cmp w8,#0x1
+017329d8  b.lt 0x017329e8
+017329dc  ldr x0,[sp, #0x10]
+017329e0  mvn w1,w8
+017329e4  bl 0x0124c4d0
+017329e8  ldr w8,[sp, #0x8]
+017329ec  cmp w8,#0x1
+017329f0  b.lt 0x01732a00
+017329f4  ldr x0,[sp]
+017329f8  mvn w1,w8
+017329fc  bl 0x0124c4d0
+01732a00  ldp x29,x30,[sp, #0x30]
+01732a04  ldr x19,[sp, #0x20]
+01732a08  add sp,sp,#0x40
+01732a0c  ret

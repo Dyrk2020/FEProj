@@ -1,0 +1,93 @@
+// ===== case819-BulletShaderData @ 017376a4 =====
+// existing function case819-BulletShaderData
+017376a4  sub sp,sp,#0x40
+017376a8  str x19,[sp, #0x20]
+017376ac  stp x29,x30,[sp, #0x30]
+017376b0  add x29,sp,#0x30
+017376b4  adrp x1,0x174a000
+017376b8  add x1,x1,#0x87c
+017376bc  mov x19,x0
+017376c0  bl 0x0124ba40
+017376c4  adrp x1,0x575d000
+017376c8  add x1,x1,#0xa06
+017376cc  mov x0,x19
+017376d0  str x19,[sp]
+017376d4  bl 0x01251aa0
+017376d8  mov w8,#0x1
+017376dc  str w8,[sp, #0x8]
+017376e0  mov x0,sp
+017376e4  bl 0x0174aa04
+017376e8  adrp x1,0x5772000
+017376ec  adrp x3,0x736d000
+017376f0  add x1,x1,#0x538
+017376f4  add x3,x3,#0x101
+017376f8  add x0,sp,#0x10
+017376fc  mov x2,sp
+01737700  bl 0x019c7068
+01737704  adrp x1,0x5772000
+01737708  adrp x2,0x19c6000
+0173770c  adrp x4,0x19c6000
+01737710  add x1,x1,#0x549
+01737714  add x2,x2,#0xc30
+01737718  add x4,x4,#0xc38
+0173771c  add x0,sp,#0x10
+01737720  mov x3,xzr
+01737724  mov x5,xzr
+01737728  bl 0x019c6a48
+0173772c  adrp x1,0x5772000
+01737730  adrp x2,0x19c6000
+01737734  adrp x4,0x19c6000
+01737738  add x1,x1,#0x556
+0173773c  add x2,x2,#0xc40
+01737740  add x4,x4,#0xc48
+01737744  mov x3,xzr
+01737748  mov x5,xzr
+0173774c  bl 0x019c6a48
+01737750  adrp x1,0x5772000
+01737754  adrp x2,0x19c6000
+01737758  adrp x4,0x19c6000
+0173775c  add x1,x1,#0x55f
+01737760  add x2,x2,#0xe38
+01737764  add x4,x4,#0xe40
+01737768  mov x3,xzr
+0173776c  mov x5,xzr
+01737770  bl 0x019c6c50
+01737774  adrp x1,0x5772000
+01737778  adrp x2,0x19c7000
+0173777c  adrp x4,0x19c7000
+01737780  add x1,x1,#0x56a
+01737784  add x2,x2,#0x30
+01737788  add x4,x4,#0x44
+0173778c  mov x3,xzr
+01737790  mov x5,xzr
+01737794  bl 0x019c6e48
+01737798  mov x19,x0
+0173779c  ldr w8,[x19, #0x8]
+017377a0  ldr x0,[x19]
+017377a4  sub w8,w8,#0x3
+017377a8  str w8,[x19, #0x8]
+017377ac  orr w1,wzr,#0xfffffffc
+017377b0  bl 0x0124c4d0
+017377b4  ldr w8,[x19, #0x8]
+017377b8  ldr x0,[x19]
+017377bc  str wzr,[x19, #0x8]
+017377c0  cmp w8,#0x1
+017377c4  b.lt 0x017377d0
+017377c8  mvn w1,w8
+017377cc  bl 0x0124c4d0
+017377d0  ldr w8,[sp, #0x18]
+017377d4  cmp w8,#0x1
+017377d8  b.lt 0x017377e8
+017377dc  ldr x0,[sp, #0x10]
+017377e0  mvn w1,w8
+017377e4  bl 0x0124c4d0
+017377e8  ldr w8,[sp, #0x8]
+017377ec  cmp w8,#0x1
+017377f0  b.lt 0x01737800
+017377f4  ldr x0,[sp]
+017377f8  mvn w1,w8
+017377fc  bl 0x0124c4d0
+01737800  ldp x29,x30,[sp, #0x30]
+01737804  ldr x19,[sp, #0x20]
+01737808  add sp,sp,#0x40
+0173780c  ret

@@ -1,0 +1,66 @@
+// ===== case875-MonsterAssetObject @ 0174947c =====
+// existing function case875-MonsterAssetObject
+0174947c  sub sp,sp,#0x40
+01749480  str x19,[sp, #0x20]
+01749484  stp x29,x30,[sp, #0x30]
+01749488  add x29,sp,#0x30
+0174948c  adrp x1,0x174a000
+01749490  add x1,x1,#0x87c
+01749494  mov x19,x0
+01749498  bl 0x0124ba40
+0174949c  adrp x1,0x575d000
+017494a0  add x1,x1,#0xa06
+017494a4  mov x0,x19
+017494a8  str x19,[sp]
+017494ac  bl 0x01251aa0
+017494b0  mov w8,#0x1
+017494b4  str w8,[sp, #0x8]
+017494b8  mov x0,sp
+017494bc  bl 0x0174aa04
+017494c0  adrp x1,0x5774000
+017494c4  adrp x3,0x736d000
+017494c8  add x1,x1,#0xa3
+017494cc  add x3,x3,#0x101
+017494d0  add x0,sp,#0x10
+017494d4  mov x2,sp
+017494d8  bl 0x01a164e8
+017494dc  adrp x1,0x575d000
+017494e0  adrp x2,0x1a16000
+017494e4  adrp x4,0x1a16000
+017494e8  add x1,x1,#0xa00
+017494ec  add x2,x2,#0x4d8
+017494f0  add x4,x4,#0x4e0
+017494f4  add x0,sp,#0x10
+017494f8  mov x3,xzr
+017494fc  mov x5,xzr
+01749500  bl 0x01a162f0
+01749504  mov x19,x0
+01749508  ldr w8,[x19, #0x8]
+0174950c  ldr x0,[x19]
+01749510  sub w8,w8,#0x3
+01749514  str w8,[x19, #0x8]
+01749518  orr w1,wzr,#0xfffffffc
+0174951c  bl 0x0124c4d0
+01749520  ldr w8,[x19, #0x8]
+01749524  ldr x0,[x19]
+01749528  str wzr,[x19, #0x8]
+0174952c  cmp w8,#0x1
+01749530  b.lt 0x0174953c
+01749534  mvn w1,w8
+01749538  bl 0x0124c4d0
+0174953c  ldr w8,[sp, #0x18]
+01749540  cmp w8,#0x1
+01749544  b.lt 0x01749554
+01749548  ldr x0,[sp, #0x10]
+0174954c  mvn w1,w8
+01749550  bl 0x0124c4d0
+01749554  ldr w8,[sp, #0x8]
+01749558  cmp w8,#0x1
+0174955c  b.lt 0x0174956c
+01749560  ldr x0,[sp]
+01749564  mvn w1,w8
+01749568  bl 0x0124c4d0
+0174956c  ldp x29,x30,[sp, #0x30]
+01749570  ldr x19,[sp, #0x20]
+01749574  add sp,sp,#0x40
+01749578  ret

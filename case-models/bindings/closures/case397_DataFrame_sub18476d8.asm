@@ -1,0 +1,30 @@
+// ===== case397_DataFrame_sub18476d8 @ 018476d8 (DecompileAt3: cleared stale instructions at entry) =====
+018476d8  stp x20,x19,[sp, #-0x20]!
+018476dc  stp x29,x30,[sp, #0x10]
+018476e0  add x29,sp,#0x10
+018476e4  mov w1,#0x1
+018476e8  mov x19,x0
+018476ec  bl 0x0124ff50
+018476f0  cbz w0,0x0184771c
+018476f4  adrp x2,0x736d000
+018476f8  adrp x3,0x736d000
+018476fc  add x2,x2,#0x83a
+01847700  add x3,x3,#0x839
+01847704  mov w1,#0x1
+01847708  mov w4,#0x1
+0184770c  mov x0,x19
+01847710  bl 0x0174b938
+01847714  ldr x20,[x0, #0x8]
+01847718  b 0x01847720
+0184771c  mov x20,xzr
+01847720  mov w1,#0xb9d7
+01847724  movk w1,#0xfff0, LSL #16
+01847728  mov x0,x19
+0184772c  bl 0x0124e990
+01847730  mov x2,x0
+01847734  mov x0,x19
+01847738  mov x1,x20
+0184773c  bl 0x0184774c
+01847740  ldp x29,x30,[sp, #0x10]
+01847744  ldp x20,x19,[sp], #0x20
+01847748  ret

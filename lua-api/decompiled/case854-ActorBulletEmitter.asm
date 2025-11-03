@@ -1,0 +1,123 @@
+// ===== case854-ActorBulletEmitter @ 017426ac =====
+// existing function case854-ActorBulletEmitter
+017426ac  sub sp,sp,#0x40
+017426b0  stp x20,x19,[sp, #0x20]
+017426b4  stp x29,x30,[sp, #0x30]
+017426b8  add x29,sp,#0x30
+017426bc  adrp x1,0x174a000
+017426c0  add x1,x1,#0x87c
+017426c4  mov x19,x0
+017426c8  bl 0x0124ba40
+017426cc  adrp x1,0x575d000
+017426d0  add x1,x1,#0xa06
+017426d4  mov x0,x19
+017426d8  str x19,[sp]
+017426dc  bl 0x01251aa0
+017426e0  mov w8,#0x1
+017426e4  str w8,[sp, #0x8]
+017426e8  mov x0,sp
+017426ec  bl 0x0174aa04
+017426f0  adrp x1,0x5773000
+017426f4  adrp x3,0x736d000
+017426f8  add x1,x1,#0xa58
+017426fc  add x3,x3,#0x101
+01742700  add x0,sp,#0x10
+01742704  mov x2,sp
+01742708  bl 0x01a02360
+0174270c  ldr x0,[sp, #0x10]
+01742710  mov w1,#0x10
+01742714  bl 0x0124cba0
+01742718  adrp x8,0x1a02000
+0174271c  dup v0.2D,xzr
+01742720  add x8,x8,#0x358
+01742724  mov v0.D[0x0],x8
+01742728  str q0,[x0]
+0174272c  ldr x0,[sp, #0x10]
+01742730  adrp x1,0x1a02000
+01742734  add x1,x1,#0x724
+01742738  mov w2,#0x1
+0174273c  bl 0x0124ec90
+01742740  ldr x0,[sp, #0x10]
+01742744  mov w1,#0xffffffff
+01742748  bl 0x0124c0c0
+0174274c  ldr x19,[sp, #0x10]
+01742750  orr w1,wzr,#0xfffffffb
+01742754  mov w2,#0x6e7
+01742758  mov x0,x19
+0174275c  bl 0x0124a650
+01742760  orr w1,wzr,#0xfffffffe
+01742764  mov x0,x19
+01742768  bl 0x0124c0c0
+0174276c  orr w1,wzr,#0xfffffffe
+01742770  mov x0,x19
+01742774  bl 0x0124e920
+01742778  mov w20,w0
+0174277c  adrp x1,0x575f000
+01742780  add x1,x1,#0x2f8
+01742784  mov x0,x19
+01742788  bl 0x0124f120
+0174278c  orr w1,wzr,#0xfffffffe
+01742790  mov w2,#0x1
+01742794  mov x0,x19
+01742798  bl 0x0124cfc0
+0174279c  mov x0,x19
+017427a0  mov w1,w20
+017427a4  bl 0x0124e060
+017427a8  orr w1,wzr,#0xfffffffd
+017427ac  mov x0,x19
+017427b0  bl 0x0124c4d0
+017427b4  ldr x19,[sp, #0x10]
+017427b8  orr w1,wzr,#0xfffffffd
+017427bc  mov w2,#0x6e7
+017427c0  mov x0,x19
+017427c4  bl 0x0124a650
+017427c8  orr w1,wzr,#0xfffffffe
+017427cc  mov x0,x19
+017427d0  bl 0x0124c0c0
+017427d4  orr w1,wzr,#0xfffffffe
+017427d8  mov x0,x19
+017427dc  bl 0x0124e920
+017427e0  mov w20,w0
+017427e4  adrp x1,0x575f000
+017427e8  add x1,x1,#0x2f8
+017427ec  mov x0,x19
+017427f0  bl 0x0124f120
+017427f4  orr w1,wzr,#0xfffffffe
+017427f8  mov w2,#0x1
+017427fc  mov x0,x19
+01742800  bl 0x0124cfc0
+01742804  mov x0,x19
+01742808  mov w1,w20
+0174280c  bl 0x0124e060
+01742810  orr w1,wzr,#0xfffffffd
+01742814  mov x0,x19
+01742818  bl 0x0124c4d0
+0174281c  ldr w8,[sp, #0x18]
+01742820  ldr x0,[sp, #0x10]
+01742824  sub w8,w8,#0x3
+01742828  str w8,[sp, #0x18]
+0174282c  orr w1,wzr,#0xfffffffc
+01742830  bl 0x0124c4d0
+01742834  ldr w8,[sp, #0x18]
+01742838  ldr x0,[sp, #0x10]
+0174283c  str wzr,[sp, #0x18]
+01742840  cmp w8,#0x1
+01742844  b.lt 0x01742868
+01742848  mvn w1,w8
+0174284c  bl 0x0124c4d0
+01742850  ldr w8,[sp, #0x18]
+01742854  cmp w8,#0x1
+01742858  b.lt 0x01742868
+0174285c  ldr x0,[sp, #0x10]
+01742860  mvn w1,w8
+01742864  bl 0x0124c4d0
+01742868  ldr w8,[sp, #0x8]
+0174286c  cmp w8,#0x1
+01742870  b.lt 0x01742880
+01742874  ldr x0,[sp]
+01742878  mvn w1,w8
+0174287c  bl 0x0124c4d0
+01742880  ldp x29,x30,[sp, #0x30]
+01742884  ldp x20,x19,[sp, #0x20]
+01742888  add sp,sp,#0x40
+0174288c  ret

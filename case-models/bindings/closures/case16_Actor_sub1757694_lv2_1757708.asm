@@ -1,0 +1,26 @@
+// ===== case16_Actor_sub1757694_lv2_1757708 @ 01757708 (DecompileAt3: cleared stale instructions at entry) =====
+01757708  stp x20,x19,[sp, #-0x20]!
+0175770c  stp x29,x30,[sp, #0x10]
+01757710  add x29,sp,#0x10
+01757714  ldp x8,x9,[x2]
+01757718  mov x19,x0
+0175771c  add x0,x1,x9, ASR #0x1
+01757720  tbz w9,#0x0,0x0175772c
+01757724  ldr x9,[x0]
+01757728  ldr x8,[x9, x8, LSL #0x0]
+0175772c  blr x8
+01757730  mov x8,x0
+01757734  cbz x8,0x01757750
+01757738  adrp x2,0x736d000
+0175773c  add x2,x2,#0x229
+01757740  mov x0,x19
+01757744  mov x1,x8
+01757748  bl 0x0174cd64
+0175774c  b 0x01757758
+01757750  mov x0,x19
+01757754  bl 0x01252b00
+01757758  mov w19,#0x1
+0175775c  ldp x29,x30,[sp, #0x10]
+01757760  mov w0,w19
+01757764  ldp x20,x19,[sp], #0x20
+01757768  ret

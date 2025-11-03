@@ -1,0 +1,66 @@
+// ===== case79-MonsterBehaviorAssetObject @ 016997f8 =====
+// existing function case79-MonsterBehaviorAssetObject
+016997f8  sub sp,sp,#0x40
+016997fc  str x19,[sp, #0x20]
+01699800  stp x29,x30,[sp, #0x30]
+01699804  add x29,sp,#0x30
+01699808  adrp x1,0x174a000
+0169980c  add x1,x1,#0x87c
+01699810  mov x19,x0
+01699814  bl 0x0124ba40
+01699818  adrp x1,0x575d000
+0169981c  add x1,x1,#0xa06
+01699820  mov x0,x19
+01699824  str x19,[sp]
+01699828  bl 0x01251aa0
+0169982c  mov w8,#0x1
+01699830  str w8,[sp, #0x8]
+01699834  mov x0,sp
+01699838  bl 0x0174aa04
+0169983c  adrp x1,0x575e000
+01699840  adrp x3,0x736d000
+01699844  add x1,x1,#0xea8
+01699848  add x3,x3,#0x101
+0169984c  add x0,sp,#0x10
+01699850  mov x2,sp
+01699854  bl 0x0177c90c
+01699858  adrp x1,0x575d000
+0169985c  adrp x2,0x177c000
+01699860  adrp x4,0x177c000
+01699864  add x1,x1,#0xa00
+01699868  add x2,x2,#0x8fc
+0169986c  add x4,x4,#0x904
+01699870  add x0,sp,#0x10
+01699874  mov x3,xzr
+01699878  mov x5,xzr
+0169987c  bl 0x0177c714
+01699880  mov x19,x0
+01699884  ldr w8,[x19, #0x8]
+01699888  ldr x0,[x19]
+0169988c  sub w8,w8,#0x3
+01699890  str w8,[x19, #0x8]
+01699894  orr w1,wzr,#0xfffffffc
+01699898  bl 0x0124c4d0
+0169989c  ldr w8,[x19, #0x8]
+016998a0  ldr x0,[x19]
+016998a4  str wzr,[x19, #0x8]
+016998a8  cmp w8,#0x1
+016998ac  b.lt 0x016998b8
+016998b0  mvn w1,w8
+016998b4  bl 0x0124c4d0
+016998b8  ldr w8,[sp, #0x18]
+016998bc  cmp w8,#0x1
+016998c0  b.lt 0x016998d0
+016998c4  ldr x0,[sp, #0x10]
+016998c8  mvn w1,w8
+016998cc  bl 0x0124c4d0
+016998d0  ldr w8,[sp, #0x8]
+016998d4  cmp w8,#0x1
+016998d8  b.lt 0x016998e8
+016998dc  ldr x0,[sp]
+016998e0  mvn w1,w8
+016998e4  bl 0x0124c4d0
+016998e8  ldp x29,x30,[sp, #0x30]
+016998ec  ldr x19,[sp, #0x20]
+016998f0  add sp,sp,#0x40
+016998f4  ret

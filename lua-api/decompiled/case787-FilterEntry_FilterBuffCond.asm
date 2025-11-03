@@ -1,0 +1,93 @@
+// ===== case787-FilterEntry_FilterBuffCond @ 017311dc =====
+// existing function case787-FilterEntry_FilterBuffCond
+017311dc  sub sp,sp,#0x40
+017311e0  str x19,[sp, #0x20]
+017311e4  stp x29,x30,[sp, #0x30]
+017311e8  add x29,sp,#0x30
+017311ec  adrp x1,0x174a000
+017311f0  add x1,x1,#0x87c
+017311f4  mov x19,x0
+017311f8  bl 0x0124ba40
+017311fc  adrp x1,0x575d000
+01731200  add x1,x1,#0xa06
+01731204  mov x0,x19
+01731208  str x19,[sp]
+0173120c  bl 0x01251aa0
+01731210  mov w8,#0x1
+01731214  str w8,[sp, #0x8]
+01731218  mov x0,sp
+0173121c  bl 0x0174aa04
+01731220  adrp x1,0x5771000
+01731224  adrp x3,0x736d000
+01731228  add x1,x1,#0xab5
+0173122c  add x3,x3,#0x101
+01731230  add x0,sp,#0x10
+01731234  mov x2,sp
+01731238  bl 0x019ad904
+0173123c  adrp x1,0x5771000
+01731240  adrp x2,0x19ad000
+01731244  adrp x4,0x19ad000
+01731248  add x1,x1,#0xad0
+0173124c  add x2,x2,#0x6dc
+01731250  add x4,x4,#0x6e4
+01731254  add x0,sp,#0x10
+01731258  mov x3,xzr
+0173125c  mov x5,xzr
+01731260  bl 0x019ad4f4
+01731264  adrp x1,0x5771000
+01731268  adrp x2,0x19ad000
+0173126c  adrp x4,0x19ad000
+01731270  add x1,x1,#0xa7e
+01731274  add x2,x2,#0x6ec
+01731278  add x4,x4,#0x6f4
+0173127c  mov x3,xzr
+01731280  mov x5,xzr
+01731284  bl 0x019ad4f4
+01731288  adrp x1,0x575e000
+0173128c  adrp x2,0x19ad000
+01731290  adrp x4,0x19ad000
+01731294  add x1,x1,#0x2f4
+01731298  add x2,x2,#0x8e4
+0173129c  add x4,x4,#0x8ec
+017312a0  mov x3,xzr
+017312a4  mov x5,xzr
+017312a8  bl 0x019ad6fc
+017312ac  adrp x1,0x5762000
+017312b0  adrp x2,0x19ad000
+017312b4  adrp x4,0x19ad000
+017312b8  add x1,x1,#0x7c6
+017312bc  add x2,x2,#0x8f4
+017312c0  add x4,x4,#0x8fc
+017312c4  mov x3,xzr
+017312c8  mov x5,xzr
+017312cc  bl 0x019ad6fc
+017312d0  mov x19,x0
+017312d4  ldr w8,[x19, #0x8]
+017312d8  ldr x0,[x19]
+017312dc  sub w8,w8,#0x3
+017312e0  str w8,[x19, #0x8]
+017312e4  orr w1,wzr,#0xfffffffc
+017312e8  bl 0x0124c4d0
+017312ec  ldr w8,[x19, #0x8]
+017312f0  ldr x0,[x19]
+017312f4  str wzr,[x19, #0x8]
+017312f8  cmp w8,#0x1
+017312fc  b.lt 0x01731308
+01731300  mvn w1,w8
+01731304  bl 0x0124c4d0
+01731308  ldr w8,[sp, #0x18]
+0173130c  cmp w8,#0x1
+01731310  b.lt 0x01731320
+01731314  ldr x0,[sp, #0x10]
+01731318  mvn w1,w8
+0173131c  bl 0x0124c4d0
+01731320  ldr w8,[sp, #0x8]
+01731324  cmp w8,#0x1
+01731328  b.lt 0x01731338
+0173132c  ldr x0,[sp]
+01731330  mvn w1,w8
+01731334  bl 0x0124c4d0
+01731338  ldp x29,x30,[sp, #0x30]
+0173133c  ldr x19,[sp, #0x20]
+01731340  add sp,sp,#0x40
+01731344  ret

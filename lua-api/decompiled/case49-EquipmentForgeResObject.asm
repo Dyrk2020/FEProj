@@ -1,0 +1,66 @@
+// ===== case49-EquipmentForgeResObject @ 01694560 =====
+// existing function case49-EquipmentForgeResObject
+01694560  sub sp,sp,#0x40
+01694564  str x19,[sp, #0x20]
+01694568  stp x29,x30,[sp, #0x30]
+0169456c  add x29,sp,#0x30
+01694570  adrp x1,0x174a000
+01694574  add x1,x1,#0x87c
+01694578  mov x19,x0
+0169457c  bl 0x0124ba40
+01694580  adrp x1,0x575d000
+01694584  add x1,x1,#0xa06
+01694588  mov x0,x19
+0169458c  str x19,[sp]
+01694590  bl 0x01251aa0
+01694594  mov w8,#0x1
+01694598  str w8,[sp, #0x8]
+0169459c  mov x0,sp
+016945a0  bl 0x0174aa04
+016945a4  adrp x1,0x575e000
+016945a8  adrp x3,0x736d000
+016945ac  add x1,x1,#0x51e
+016945b0  add x3,x3,#0x101
+016945b4  add x0,sp,#0x10
+016945b8  mov x2,sp
+016945bc  bl 0x0176a134
+016945c0  adrp x1,0x575e000
+016945c4  adrp x2,0x176a000
+016945c8  adrp x4,0x176a000
+016945cc  add x1,x1,#0x536
+016945d0  add x2,x2,#0x124
+016945d4  add x4,x4,#0x12c
+016945d8  add x0,sp,#0x10
+016945dc  mov x3,xzr
+016945e0  mov x5,xzr
+016945e4  bl 0x01769f3c
+016945e8  mov x19,x0
+016945ec  ldr w8,[x19, #0x8]
+016945f0  ldr x0,[x19]
+016945f4  sub w8,w8,#0x3
+016945f8  str w8,[x19, #0x8]
+016945fc  orr w1,wzr,#0xfffffffc
+01694600  bl 0x0124c4d0
+01694604  ldr w8,[x19, #0x8]
+01694608  ldr x0,[x19]
+0169460c  str wzr,[x19, #0x8]
+01694610  cmp w8,#0x1
+01694614  b.lt 0x01694620
+01694618  mvn w1,w8
+0169461c  bl 0x0124c4d0
+01694620  ldr w8,[sp, #0x18]
+01694624  cmp w8,#0x1
+01694628  b.lt 0x01694638
+0169462c  ldr x0,[sp, #0x10]
+01694630  mvn w1,w8
+01694634  bl 0x0124c4d0
+01694638  ldr w8,[sp, #0x8]
+0169463c  cmp w8,#0x1
+01694640  b.lt 0x01694650
+01694644  ldr x0,[sp]
+01694648  mvn w1,w8
+0169464c  bl 0x0124c4d0
+01694650  ldp x29,x30,[sp, #0x30]
+01694654  ldr x19,[sp, #0x20]
+01694658  add sp,sp,#0x40
+0169465c  ret

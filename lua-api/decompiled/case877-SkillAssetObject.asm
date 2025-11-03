@@ -1,0 +1,66 @@
+// ===== case877-SkillAssetObject @ 0174972c =====
+// existing function case877-SkillAssetObject
+0174972c  sub sp,sp,#0x40
+01749730  str x19,[sp, #0x20]
+01749734  stp x29,x30,[sp, #0x30]
+01749738  add x29,sp,#0x30
+0174973c  adrp x1,0x174a000
+01749740  add x1,x1,#0x87c
+01749744  mov x19,x0
+01749748  bl 0x0124ba40
+0174974c  adrp x1,0x575d000
+01749750  add x1,x1,#0xa06
+01749754  mov x0,x19
+01749758  str x19,[sp]
+0174975c  bl 0x01251aa0
+01749760  mov w8,#0x1
+01749764  str w8,[sp, #0x8]
+01749768  mov x0,sp
+0174976c  bl 0x0174aa04
+01749770  adrp x1,0x576f000
+01749774  adrp x3,0x736d000
+01749778  add x1,x1,#0xbc5
+0174977c  add x3,x3,#0x101
+01749780  add x0,sp,#0x10
+01749784  mov x2,sp
+01749788  bl 0x01a174a0
+0174978c  adrp x1,0x575d000
+01749790  adrp x2,0x1a17000
+01749794  adrp x4,0x1a17000
+01749798  add x1,x1,#0xa00
+0174979c  add x2,x2,#0x490
+017497a0  add x4,x4,#0x498
+017497a4  add x0,sp,#0x10
+017497a8  mov x3,xzr
+017497ac  mov x5,xzr
+017497b0  bl 0x01a172a8
+017497b4  mov x19,x0
+017497b8  ldr w8,[x19, #0x8]
+017497bc  ldr x0,[x19]
+017497c0  sub w8,w8,#0x3
+017497c4  str w8,[x19, #0x8]
+017497c8  orr w1,wzr,#0xfffffffc
+017497cc  bl 0x0124c4d0
+017497d0  ldr w8,[x19, #0x8]
+017497d4  ldr x0,[x19]
+017497d8  str wzr,[x19, #0x8]
+017497dc  cmp w8,#0x1
+017497e0  b.lt 0x017497ec
+017497e4  mvn w1,w8
+017497e8  bl 0x0124c4d0
+017497ec  ldr w8,[sp, #0x18]
+017497f0  cmp w8,#0x1
+017497f4  b.lt 0x01749804
+017497f8  ldr x0,[sp, #0x10]
+017497fc  mvn w1,w8
+01749800  bl 0x0124c4d0
+01749804  ldr w8,[sp, #0x8]
+01749808  cmp w8,#0x1
+0174980c  b.lt 0x0174981c
+01749810  ldr x0,[sp]
+01749814  mvn w1,w8
+01749818  bl 0x0124c4d0
+0174981c  ldp x29,x30,[sp, #0x30]
+01749820  ldr x19,[sp, #0x20]
+01749824  add sp,sp,#0x40
+01749828  ret

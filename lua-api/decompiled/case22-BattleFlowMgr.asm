@@ -1,0 +1,123 @@
+// ===== case22-BattleFlowMgr @ 01690114 =====
+// existing function case22-BattleFlowMgr
+01690114  sub sp,sp,#0x40
+01690118  stp x20,x19,[sp, #0x20]
+0169011c  stp x29,x30,[sp, #0x30]
+01690120  add x29,sp,#0x30
+01690124  adrp x1,0x174a000
+01690128  add x1,x1,#0x87c
+0169012c  mov x19,x0
+01690130  bl 0x0124ba40
+01690134  adrp x1,0x575d000
+01690138  add x1,x1,#0xa06
+0169013c  mov x0,x19
+01690140  str x19,[sp]
+01690144  bl 0x01251aa0
+01690148  mov w8,#0x1
+0169014c  str w8,[sp, #0x8]
+01690150  mov x0,sp
+01690154  bl 0x0174aa04
+01690158  adrp x1,0x575d000
+0169015c  adrp x3,0x736d000
+01690160  add x1,x1,#0xe01
+01690164  add x3,x3,#0x101
+01690168  add x0,sp,#0x10
+0169016c  mov x2,sp
+01690170  bl 0x0175a38c
+01690174  ldr x0,[sp, #0x10]
+01690178  mov w1,#0x10
+0169017c  bl 0x0124cba0
+01690180  adrp x8,0x175a000
+01690184  dup v0.2D,xzr
+01690188  add x8,x8,#0x384
+0169018c  mov v0.D[0x0],x8
+01690190  str q0,[x0]
+01690194  ldr x0,[sp, #0x10]
+01690198  adrp x1,0x175a000
+0169019c  add x1,x1,#0x750
+016901a0  mov w2,#0x1
+016901a4  bl 0x0124ec90
+016901a8  ldr x0,[sp, #0x10]
+016901ac  mov w1,#0xffffffff
+016901b0  bl 0x0124c0c0
+016901b4  ldr x19,[sp, #0x10]
+016901b8  orr w1,wzr,#0xfffffffb
+016901bc  mov w2,#0x6e7
+016901c0  mov x0,x19
+016901c4  bl 0x0124a650
+016901c8  orr w1,wzr,#0xfffffffe
+016901cc  mov x0,x19
+016901d0  bl 0x0124c0c0
+016901d4  orr w1,wzr,#0xfffffffe
+016901d8  mov x0,x19
+016901dc  bl 0x0124e920
+016901e0  mov w20,w0
+016901e4  adrp x1,0x575d000
+016901e8  add x1,x1,#0xe0f
+016901ec  mov x0,x19
+016901f0  bl 0x0124f120
+016901f4  orr w1,wzr,#0xfffffffe
+016901f8  mov w2,#0x1
+016901fc  mov x0,x19
+01690200  bl 0x0124cfc0
+01690204  mov x0,x19
+01690208  mov w1,w20
+0169020c  bl 0x0124e060
+01690210  orr w1,wzr,#0xfffffffd
+01690214  mov x0,x19
+01690218  bl 0x0124c4d0
+0169021c  ldr x19,[sp, #0x10]
+01690220  orr w1,wzr,#0xfffffffd
+01690224  mov w2,#0x6e7
+01690228  mov x0,x19
+0169022c  bl 0x0124a650
+01690230  orr w1,wzr,#0xfffffffe
+01690234  mov x0,x19
+01690238  bl 0x0124c0c0
+0169023c  orr w1,wzr,#0xfffffffe
+01690240  mov x0,x19
+01690244  bl 0x0124e920
+01690248  mov w20,w0
+0169024c  adrp x1,0x575d000
+01690250  add x1,x1,#0xe0f
+01690254  mov x0,x19
+01690258  bl 0x0124f120
+0169025c  orr w1,wzr,#0xfffffffe
+01690260  mov w2,#0x1
+01690264  mov x0,x19
+01690268  bl 0x0124cfc0
+0169026c  mov x0,x19
+01690270  mov w1,w20
+01690274  bl 0x0124e060
+01690278  orr w1,wzr,#0xfffffffd
+0169027c  mov x0,x19
+01690280  bl 0x0124c4d0
+01690284  ldr w8,[sp, #0x18]
+01690288  ldr x0,[sp, #0x10]
+0169028c  sub w8,w8,#0x3
+01690290  str w8,[sp, #0x18]
+01690294  orr w1,wzr,#0xfffffffc
+01690298  bl 0x0124c4d0
+0169029c  ldr w8,[sp, #0x18]
+016902a0  ldr x0,[sp, #0x10]
+016902a4  str wzr,[sp, #0x18]
+016902a8  cmp w8,#0x1
+016902ac  b.lt 0x016902d0
+016902b0  mvn w1,w8
+016902b4  bl 0x0124c4d0
+016902b8  ldr w8,[sp, #0x18]
+016902bc  cmp w8,#0x1
+016902c0  b.lt 0x016902d0
+016902c4  ldr x0,[sp, #0x10]
+016902c8  mvn w1,w8
+016902cc  bl 0x0124c4d0
+016902d0  ldr w8,[sp, #0x8]
+016902d4  cmp w8,#0x1
+016902d8  b.lt 0x016902e8
+016902dc  ldr x0,[sp]
+016902e0  mvn w1,w8
+016902e4  bl 0x0124c4d0
+016902e8  ldp x29,x30,[sp, #0x30]
+016902ec  ldp x20,x19,[sp, #0x20]
+016902f0  add sp,sp,#0x40
+016902f4  ret

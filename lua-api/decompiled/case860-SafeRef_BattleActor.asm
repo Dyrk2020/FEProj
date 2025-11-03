@@ -1,0 +1,134 @@
+// ===== case860-SafeRef_BattleActor @ 01743434 =====
+// existing function case860-SafeRef_BattleActor
+01743434  sub sp,sp,#0x40
+01743438  stp x20,x19,[sp, #0x20]
+0174343c  stp x29,x30,[sp, #0x30]
+01743440  add x29,sp,#0x30
+01743444  adrp x1,0x174a000
+01743448  add x1,x1,#0x87c
+0174344c  mov x19,x0
+01743450  bl 0x0124ba40
+01743454  adrp x1,0x575d000
+01743458  add x1,x1,#0xa06
+0174345c  mov x0,x19
+01743460  str x19,[sp]
+01743464  bl 0x01251aa0
+01743468  mov w8,#0x1
+0174346c  str w8,[sp, #0x8]
+01743470  mov x0,sp
+01743474  bl 0x0174aa04
+01743478  adrp x1,0x5773000
+0174347c  adrp x3,0x736d000
+01743480  add x1,x1,#0xbae
+01743484  add x3,x3,#0x101
+01743488  add x0,sp,#0x10
+0174348c  mov x2,sp
+01743490  bl 0x01a06358
+01743494  ldr x0,[sp, #0x10]
+01743498  mov w1,#0x10
+0174349c  bl 0x0124cba0
+017434a0  adrp x8,0x1a06000
+017434a4  dup v0.2D,xzr
+017434a8  add x8,x8,#0x144
+017434ac  mov v0.D[0x0],x8
+017434b0  str q0,[x0]
+017434b4  ldr x0,[sp, #0x10]
+017434b8  adrp x1,0x1a06000
+017434bc  add x1,x1,#0x71c
+017434c0  mov w2,#0x1
+017434c4  bl 0x0124ec90
+017434c8  ldr x0,[sp, #0x10]
+017434cc  mov w1,#0xffffffff
+017434d0  bl 0x0124c0c0
+017434d4  ldr x19,[sp, #0x10]
+017434d8  orr w1,wzr,#0xfffffffb
+017434dc  mov w2,#0x6e7
+017434e0  mov x0,x19
+017434e4  bl 0x0124a650
+017434e8  orr w1,wzr,#0xfffffffe
+017434ec  mov x0,x19
+017434f0  bl 0x0124c0c0
+017434f4  orr w1,wzr,#0xfffffffe
+017434f8  mov x0,x19
+017434fc  bl 0x0124e920
+01743500  mov w20,w0
+01743504  adrp x1,0x58b2000
+01743508  add x1,x1,#0x9c1
+0174350c  mov x0,x19
+01743510  bl 0x0124f120
+01743514  orr w1,wzr,#0xfffffffe
+01743518  mov w2,#0x1
+0174351c  mov x0,x19
+01743520  bl 0x0124cfc0
+01743524  mov x0,x19
+01743528  mov w1,w20
+0174352c  bl 0x0124e060
+01743530  orr w1,wzr,#0xfffffffd
+01743534  mov x0,x19
+01743538  bl 0x0124c4d0
+0174353c  ldr x19,[sp, #0x10]
+01743540  orr w1,wzr,#0xfffffffd
+01743544  mov w2,#0x6e7
+01743548  mov x0,x19
+0174354c  bl 0x0124a650
+01743550  orr w1,wzr,#0xfffffffe
+01743554  mov x0,x19
+01743558  bl 0x0124c0c0
+0174355c  orr w1,wzr,#0xfffffffe
+01743560  mov x0,x19
+01743564  bl 0x0124e920
+01743568  mov w20,w0
+0174356c  adrp x1,0x58b2000
+01743570  add x1,x1,#0x9c1
+01743574  mov x0,x19
+01743578  bl 0x0124f120
+0174357c  orr w1,wzr,#0xfffffffe
+01743580  mov w2,#0x1
+01743584  mov x0,x19
+01743588  bl 0x0124cfc0
+0174358c  mov x0,x19
+01743590  mov w1,w20
+01743594  bl 0x0124e060
+01743598  orr w1,wzr,#0xfffffffd
+0174359c  mov x0,x19
+017435a0  bl 0x0124c4d0
+017435a4  adrp x1,0x5776000
+017435a8  adrp x2,0x1a06000
+017435ac  adrp x4,0x1a06000
+017435b0  add x1,x1,#0x1c2
+017435b4  add x2,x2,#0x334
+017435b8  add x4,x4,#0x33c
+017435bc  add x0,sp,#0x10
+017435c0  mov x3,xzr
+017435c4  mov x5,xzr
+017435c8  bl 0x01a0614c
+017435cc  mov x19,x0
+017435d0  ldr w8,[x19, #0x8]
+017435d4  ldr x0,[x19]
+017435d8  sub w8,w8,#0x3
+017435dc  str w8,[x19, #0x8]
+017435e0  orr w1,wzr,#0xfffffffc
+017435e4  bl 0x0124c4d0
+017435e8  ldr w8,[x19, #0x8]
+017435ec  ldr x0,[x19]
+017435f0  str wzr,[x19, #0x8]
+017435f4  cmp w8,#0x1
+017435f8  b.lt 0x01743604
+017435fc  mvn w1,w8
+01743600  bl 0x0124c4d0
+01743604  ldr w8,[sp, #0x18]
+01743608  cmp w8,#0x1
+0174360c  b.lt 0x0174361c
+01743610  ldr x0,[sp, #0x10]
+01743614  mvn w1,w8
+01743618  bl 0x0124c4d0
+0174361c  ldr w8,[sp, #0x8]
+01743620  cmp w8,#0x1
+01743624  b.lt 0x01743634
+01743628  ldr x0,[sp]
+0174362c  mvn w1,w8
+01743630  bl 0x0124c4d0
+01743634  ldp x29,x30,[sp, #0x30]
+01743638  ldp x20,x19,[sp, #0x20]
+0174363c  add sp,sp,#0x40
+01743640  ret

@@ -1,0 +1,30 @@
+// ===== case9_BattleActorApplyBuffMsg_sub1754344 @ 01754344 (DecompileAt3: cleared stale instructions at entry) =====
+01754344  stp x20,x19,[sp, #-0x20]!
+01754348  stp x29,x30,[sp, #0x10]
+0175434c  add x29,sp,#0x10
+01754350  mov w1,#0x1
+01754354  mov x19,x0
+01754358  bl 0x0124ff50
+0175435c  cbz w0,0x01754388
+01754360  adrp x2,0x736d000
+01754364  adrp x3,0x736d000
+01754368  add x2,x2,#0x217
+0175436c  add x3,x3,#0x216
+01754370  mov w1,#0x1
+01754374  mov w4,#0x1
+01754378  mov x0,x19
+0175437c  bl 0x0174b938
+01754380  ldr x20,[x0, #0x8]
+01754384  b 0x0175438c
+01754388  mov x20,xzr
+0175438c  mov w1,#0xb9d7
+01754390  movk w1,#0xfff0, LSL #16
+01754394  mov x0,x19
+01754398  bl 0x0124e990
+0175439c  mov x2,x0
+017543a0  mov x0,x19
+017543a4  mov x1,x20
+017543a8  bl 0x017543b8
+017543ac  ldp x29,x30,[sp, #0x10]
+017543b0  ldp x20,x19,[sp], #0x20
+017543b4  ret

@@ -1,0 +1,66 @@
+// ===== case878-BuffAssetObject @ 01749884 =====
+// existing function case878-BuffAssetObject
+01749884  sub sp,sp,#0x40
+01749888  str x19,[sp, #0x20]
+0174988c  stp x29,x30,[sp, #0x30]
+01749890  add x29,sp,#0x30
+01749894  adrp x1,0x174a000
+01749898  add x1,x1,#0x87c
+0174989c  mov x19,x0
+017498a0  bl 0x0124ba40
+017498a4  adrp x1,0x575d000
+017498a8  add x1,x1,#0xa06
+017498ac  mov x0,x19
+017498b0  str x19,[sp]
+017498b4  bl 0x01251aa0
+017498b8  mov w8,#0x1
+017498bc  str w8,[sp, #0x8]
+017498c0  mov x0,sp
+017498c4  bl 0x0174aa04
+017498c8  adrp x1,0x5774000
+017498cc  adrp x3,0x736d000
+017498d0  add x1,x1,#0xd4
+017498d4  add x3,x3,#0x101
+017498d8  add x0,sp,#0x10
+017498dc  mov x2,sp
+017498e0  bl 0x01a17c7c
+017498e4  adrp x1,0x575d000
+017498e8  adrp x2,0x1a17000
+017498ec  adrp x4,0x1a17000
+017498f0  add x1,x1,#0xa00
+017498f4  add x2,x2,#0xc6c
+017498f8  add x4,x4,#0xc74
+017498fc  add x0,sp,#0x10
+01749900  mov x3,xzr
+01749904  mov x5,xzr
+01749908  bl 0x01a17a84
+0174990c  mov x19,x0
+01749910  ldr w8,[x19, #0x8]
+01749914  ldr x0,[x19]
+01749918  sub w8,w8,#0x3
+0174991c  str w8,[x19, #0x8]
+01749920  orr w1,wzr,#0xfffffffc
+01749924  bl 0x0124c4d0
+01749928  ldr w8,[x19, #0x8]
+0174992c  ldr x0,[x19]
+01749930  str wzr,[x19, #0x8]
+01749934  cmp w8,#0x1
+01749938  b.lt 0x01749944
+0174993c  mvn w1,w8
+01749940  bl 0x0124c4d0
+01749944  ldr w8,[sp, #0x18]
+01749948  cmp w8,#0x1
+0174994c  b.lt 0x0174995c
+01749950  ldr x0,[sp, #0x10]
+01749954  mvn w1,w8
+01749958  bl 0x0124c4d0
+0174995c  ldr w8,[sp, #0x8]
+01749960  cmp w8,#0x1
+01749964  b.lt 0x01749974
+01749968  ldr x0,[sp]
+0174996c  mvn w1,w8
+01749970  bl 0x0124c4d0
+01749974  ldp x29,x30,[sp, #0x30]
+01749978  ldr x19,[sp, #0x20]
+0174997c  add sp,sp,#0x40
+01749980  ret

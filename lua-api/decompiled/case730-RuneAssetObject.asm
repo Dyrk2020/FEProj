@@ -1,0 +1,66 @@
+// ===== case730-RuneAssetObject @ 017256c8 =====
+// existing function case730-RuneAssetObject
+017256c8  sub sp,sp,#0x40
+017256cc  str x19,[sp, #0x20]
+017256d0  stp x29,x30,[sp, #0x30]
+017256d4  add x29,sp,#0x30
+017256d8  adrp x1,0x174a000
+017256dc  add x1,x1,#0x87c
+017256e0  mov x19,x0
+017256e4  bl 0x0124ba40
+017256e8  adrp x1,0x575d000
+017256ec  add x1,x1,#0xa06
+017256f0  mov x0,x19
+017256f4  str x19,[sp]
+017256f8  bl 0x01251aa0
+017256fc  mov w8,#0x1
+01725700  str w8,[sp, #0x8]
+01725704  mov x0,sp
+01725708  bl 0x0174aa04
+0172570c  adrp x1,0x576f000
+01725710  adrp x3,0x736d000
+01725714  add x1,x1,#0xd59
+01725718  add x3,x3,#0x101
+0172571c  add x0,sp,#0x10
+01725720  mov x2,sp
+01725724  bl 0x01979abc
+01725728  adrp x1,0x575d000
+0172572c  adrp x2,0x1979000
+01725730  adrp x4,0x1979000
+01725734  add x1,x1,#0xa00
+01725738  add x2,x2,#0xaac
+0172573c  add x4,x4,#0xab4
+01725740  add x0,sp,#0x10
+01725744  mov x3,xzr
+01725748  mov x5,xzr
+0172574c  bl 0x019798c4
+01725750  mov x19,x0
+01725754  ldr w8,[x19, #0x8]
+01725758  ldr x0,[x19]
+0172575c  sub w8,w8,#0x3
+01725760  str w8,[x19, #0x8]
+01725764  orr w1,wzr,#0xfffffffc
+01725768  bl 0x0124c4d0
+0172576c  ldr w8,[x19, #0x8]
+01725770  ldr x0,[x19]
+01725774  str wzr,[x19, #0x8]
+01725778  cmp w8,#0x1
+0172577c  b.lt 0x01725788
+01725780  mvn w1,w8
+01725784  bl 0x0124c4d0
+01725788  ldr w8,[sp, #0x18]
+0172578c  cmp w8,#0x1
+01725790  b.lt 0x017257a0
+01725794  ldr x0,[sp, #0x10]
+01725798  mvn w1,w8
+0172579c  bl 0x0124c4d0
+017257a0  ldr w8,[sp, #0x8]
+017257a4  cmp w8,#0x1
+017257a8  b.lt 0x017257b8
+017257ac  ldr x0,[sp]
+017257b0  mvn w1,w8
+017257b4  bl 0x0124c4d0
+017257b8  ldp x29,x30,[sp, #0x30]
+017257bc  ldr x19,[sp, #0x20]
+017257c0  add sp,sp,#0x40
+017257c4  ret

@@ -1,0 +1,91 @@
+// ===== case567-MapGateInfo @ 017016d8 =====
+// existing function case567-MapGateInfo
+017016d8  sub sp,sp,#0x40
+017016dc  str x19,[sp, #0x20]
+017016e0  stp x29,x30,[sp, #0x30]
+017016e4  add x29,sp,#0x30
+017016e8  adrp x1,0x174a000
+017016ec  add x1,x1,#0x87c
+017016f0  mov x19,x0
+017016f4  bl 0x0124ba40
+017016f8  adrp x1,0x575d000
+017016fc  add x1,x1,#0xa06
+01701700  mov x0,x19
+01701704  str x19,[sp]
+01701708  bl 0x01251aa0
+0170170c  mov w8,#0x1
+01701710  str w8,[sp, #0x8]
+01701714  mov x0,sp
+01701718  bl 0x0174aa04
+0170171c  adrp x1,0x5769000
+01701720  adrp x3,0x736d000
+01701724  add x1,x1,#0xe4c
+01701728  add x3,x3,#0x101
+0170172c  add x0,sp,#0x10
+01701730  mov x2,sp
+01701734  bl 0x018dd84c
+01701738  adrp x1,0x5769000
+0170173c  adrp x2,0x18dd000
+01701740  adrp x4,0x18dd000
+01701744  add x1,x1,#0xe58
+01701748  add x2,x2,#0x634
+0170174c  add x4,x4,#0x63c
+01701750  add x0,sp,#0x10
+01701754  mov x3,xzr
+01701758  mov x5,xzr
+0170175c  bl 0x018dd44c
+01701760  adrp x1,0x5972000
+01701764  adrp x2,0x18dd000
+01701768  adrp x4,0x18dd000
+0170176c  add x1,x1,#0xaa5
+01701770  add x2,x2,#0x644
+01701774  add x4,x4,#0x64c
+01701778  mov x3,xzr
+0170177c  mov x5,xzr
+01701780  bl 0x018dd44c
+01701784  adrp x1,0x5769000
+01701788  adrp x2,0x18dd000
+0170178c  add x1,x1,#0xe5f
+01701790  add x2,x2,#0x83c
+01701794  mov x3,xzr
+01701798  mov x4,xzr
+0170179c  mov x5,xzr
+017017a0  bl 0x018dd654
+017017a4  adrp x1,0x5769000
+017017a8  adrp x2,0x18dd000
+017017ac  add x1,x1,#0xe72
+017017b0  add x2,x2,#0x844
+017017b4  mov x3,xzr
+017017b8  mov x4,xzr
+017017bc  mov x5,xzr
+017017c0  bl 0x018dd654
+017017c4  mov x19,x0
+017017c8  ldr w8,[x19, #0x8]
+017017cc  ldr x0,[x19]
+017017d0  sub w8,w8,#0x3
+017017d4  str w8,[x19, #0x8]
+017017d8  orr w1,wzr,#0xfffffffc
+017017dc  bl 0x0124c4d0
+017017e0  ldr w8,[x19, #0x8]
+017017e4  ldr x0,[x19]
+017017e8  str wzr,[x19, #0x8]
+017017ec  cmp w8,#0x1
+017017f0  b.lt 0x017017fc
+017017f4  mvn w1,w8
+017017f8  bl 0x0124c4d0
+017017fc  ldr w8,[sp, #0x18]
+01701800  cmp w8,#0x1
+01701804  b.lt 0x01701814
+01701808  ldr x0,[sp, #0x10]
+0170180c  mvn w1,w8
+01701810  bl 0x0124c4d0
+01701814  ldr w8,[sp, #0x8]
+01701818  cmp w8,#0x1
+0170181c  b.lt 0x0170182c
+01701820  ldr x0,[sp]
+01701824  mvn w1,w8
+01701828  bl 0x0124c4d0
+0170182c  ldp x29,x30,[sp, #0x30]
+01701830  ldr x19,[sp, #0x20]
+01701834  add sp,sp,#0x40
+01701838  ret
