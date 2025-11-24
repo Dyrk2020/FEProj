@@ -1,0 +1,14 @@
+{
+ "file": "acb53cf72066ac2291553a83f646fbae.vfs__001_Assets_ABPack_Resources_NewFlows_Skill_Equip_8903_DeathsDance_ForeverYordle_remove.bytes",
+ "inc32_global_offsets": [
+  "0x2a1b",
+  "0x2a20",
+  "0x2a2e"
+ ],
+ "dec24_object_offsets": [
+  "0x261200",
+  "0x1603f0",
+  "0x2a"
+ ],
+ "names_via_delta_segmentation": null
+}

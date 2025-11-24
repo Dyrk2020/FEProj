@@ -1,0 +1,1607 @@
+[
+ {
+  "name": "rune_item_572111001",
+  "source": "Assets/ABPack/Resources/DataLayerCombined/HEXARAM/WorkFlow/Rune/Item/572111001.bytes",
+  "vfs": "0ffbabceed9c289be962125c6e0f2626",
+  "size": 3146,
+  "md5": "27b42988571f4e3425ad090e2c48fc87",
+  "record_count": 16,
+  "record_end": 101,
+  "parse_confidence": 0.8,
+  "schema": "FrameEngineVisi.Common.RuneResObject",
+  "schema_alignment_confidence": "medium",
+  "container_records": 9,
+  "payload_records": 7,
+  "labeled_records": 16,
+  "parse_errors": [
+   "record stream stopped at unknown type 0xb3"
+  ],
+  "hints": {
+   "name_keys": [
+    "RuneName_72111001NewFlows/Skill/ "
+   ],
+   "desc_keys": [
+    "2_GraspUndying_buff01BuffDesc@"
+   ],
+   "formulas": [
+    "att.attr_max_hp*1.3/100"
+   ],
+   "flows": [],
+   "attr_refs": [
+    "attr_max_hp"
+   ]
+  },
+  "strings": [
+   "=OOOKO%Z",
+   "MO%Z&Z&Z%ZIO",
+   "RuneName_72111001NewFlows/Skill/ ",
+   "2_GraspUndying_buff01BuffDesc@",
+   "_gray_bmzwN",
+   "att.attr_max_hp*1.3/100",
+   "M*4/1",
+   "o0.033(",
+   "k_AG_01"
+  ],
+  "fields": {
+   "_seriaTypeNo_ConfigVisi": {
+    "t": 16,
+    "v": 0
+   },
+   "IconPath": {
+    "t": 34,
+    "v": 537492
+   },
+   "enabled": {
+    "t": 34,
+    "v": 537992
+   },
+   "unlockLv": {
+    "t": 19,
+    "v": 6312
+   },
+   "sortOrder": {
+    "t": 19,
+    "v": 6289
+   },
+   "switchID": {
+    "t": 4,
+    "v": 40
+   },
+   "name": {
+    "t": 34,
+    "v": 539196
+   },
+   "desc": {
+    "t": 162,
+    "v": 1000
+   },
+   "details": {
+    "t": 5,
+    "v": 0
+   },
+   "attributeName": {
+    "t": 102,
+    "v": 4152
+   },
+   "frameBgName": {
+    "t": 19,
+    "v": 2238
+   },
+   "iconAsset": {
+    "t": 34,
+    "v": 538902
+   },
+   "skill": {
+    "t": 34,
+    "v": 538242
+   },
+   "type": {
+    "t": 19,
+    "v": 4162
+   },
+   "serialType": {
+    "t": 38,
+    "v": 4733029
+   },
+   "primarySlotIndex": {
+    "t": 132,
+    "v": 10
+   }
+  }
+ },
+ {
+  "name": "rune_item_572119001",
+  "source": "Assets/ABPack/Resources/DataLayerCombined/HEXARAM/WorkFlow/Rune/Item/572119001.bytes",
+  "vfs": "0ffbabceed9c289be962125c6e0f2626",
+  "size": 2752,
+  "md5": "b6fed8a23e674eb75b2c1f470bb90bd2",
+  "record_count": 9,
+  "record_end": 69,
+  "parse_confidence": 0.8,
+  "schema": "FrameEngineVisi.Common.RuneResObject",
+  "schema_alignment_confidence": "medium",
+  "container_records": 9,
+  "payload_records": 0,
+  "labeled_records": 9,
+  "parse_errors": [
+   "record stream stopped at unknown type 0x64"
+  ],
+  "hints": {
+   "name_keys": [
+    "Name_72119001BuffDesc"
+   ],
+   "desc_keys": [],
+   "formulas": [
+    "HurtVfx(30+65/14*(att.attr_level-1)+0.4*"
+   ],
+   "flows": [
+    "NewFlows/Skill/Runes/r"
+   ],
+   "attr_refs": [
+    "attr_level"
+   ]
+  },
+  "strings": [
+   "=OOOKO%Z",
+   "MO%Z&Z&Z%ZIO",
+   "NewFlows/Skill/Runes/r",
+   "2_KrakenSlayer_StackFromAt",
+   "Name_72119001BuffDesc",
+   "__hyss:",
+   "HurtVfx(30+65/14*(att.attr_level-1)+0.4*",
+   "abonus_",
+   "U+0.2*0",
+   "on_hit_effect",
+   "ReadyVfxQ",
+   "Special9",
+   "Trigger7",
+   "typechange",
+   "k_AG_01"
+  ],
+  "fields": {
+   "_seriaTypeNo_ConfigVisi": {
+    "t": 16,
+    "v": 0
+   },
+   "IconPath": {
+    "t": 34,
+    "v": 535884
+   },
+   "enabled": {
+    "t": 34,
+    "v": 536292
+   },
+   "unlockLv": {
+    "t": 19,
+    "v": 6312
+   },
+   "sortOrder": {
+    "t": 19,
+    "v": 6217
+   },
+   "switchID": {
+    "t": 4,
+    "v": 40
+   },
+   "name": {
+    "t": 34,
+    "v": 537572
+   },
+   "desc": {
+    "t": 162,
+    "v": 2200
+   },
+   "details": {
+    "t": 5,
+    "v": 0
+   }
+  }
+ },
+ {
+  "name": "rune_item_572120001",
+  "source": "Assets/ABPack/Resources/DataLayerCombined/CHERRY/WorkFlow/Rune/Item/572120001.bytes",
+  "vfs": "e9a2758fdccfc31d1bfe8c0d01d63ff0",
+  "size": 3308,
+  "md5": "55b52101a2d29012c31d5716747b60f0",
+  "record_count": 10,
+  "record_end": 73,
+  "parse_confidence": 0.8,
+  "schema": "FrameEngineVisi.Common.RuneResObject",
+  "schema_alignment_confidence": "medium",
+  "container_records": 9,
+  "payload_records": 1,
+  "labeled_records": 10,
+  "parse_errors": [
+   "record stream stopped at unknown type 0xec"
+  ],
+  "hints": {
+   "name_keys": [
+    "Name_72120001BuffDesc"
+   ],
+   "desc_keys": [],
+   "formulas": [
+    ")*(att.attr_level-1)/14)/100"
+   ],
+   "flows": [
+    "ax8NewFlows/Skill/Runes/r"
+   ],
+   "attr_refs": [
+    "attr_level"
+   ]
+  },
+  "strings": [
+   "o/uYx",
+   "=OOOKO%Z",
+   "MO%Z&Z&Z%ZIO",
+   "melee_as_min5",
+   "ax10rang",
+   "ax8NewFlows/Skill/Runes/r",
+   "2_LethalTempo_start-",
+   "FrameTrigger%",
+   "Name_72120001BuffDesc",
+   "`buff.s",
+   ")*(att.attr_level-1)/14)/100",
+   "deadly_rhythm\"",
+   "Stats_zmjz_AG_01"
+  ],
+  "fields": {
+   "_seriaTypeNo_ConfigVisi": {
+    "t": 16,
+    "v": 0
+   },
+   "IconPath": {
+    "t": 34,
+    "v": 538108
+   },
+   "enabled": {
+    "t": 34,
+    "v": 538572
+   },
+   "unlockLv": {
+    "t": 19,
+    "v": 6312
+   },
+   "sortOrder": {
+    "t": 19,
+    "v": 6393
+   },
+   "switchID": {
+    "t": 4,
+    "v": 40
+   },
+   "name": {
+    "t": 35,
+    "v": 2112880
+   },
+   "desc": {
+    "t": 146,
+    "v": 6
+   },
+   "details": {
+    "t": 5,
+    "v": 0
+   },
+   "attributeName": {
+    "t": 132,
+    "v": 318771259
+   }
+  }
+ },
+ {
+  "name": "rune_item_572122001",
+  "source": "Assets/ABPack/Resources/DataLayerCombined/HEXARAM/WorkFlow/Rune/Item/572122001.bytes",
+  "vfs": "0ffbabceed9c289be962125c6e0f2626",
+  "size": 3893,
+  "md5": "7ffd15280a08f26088bb4ecb153e27d5",
+  "record_count": 9,
+  "record_end": 69,
+  "parse_confidence": 0.8,
+  "schema": "FrameEngineVisi.Common.RuneResObject",
+  "schema_alignment_confidence": "medium",
+  "container_records": 9,
+  "payload_records": 0,
+  "labeled_records": 9,
+  "parse_errors": [
+   "record stream stopped at unknown type 0xc6"
+  ],
+  "hints": {
+   "name_keys": [
+    "Name_572122001"
+   ],
+   "desc_keys": [],
+   "formulas": [
+    "0-7/14*(att.attr_level-1)",
+    "P/100*]"
+   ],
+   "flows": [
+    "hitcddmgrate7NewFlows/Skill/Runes/r"
+   ],
+   "attr_refs": [
+    "attr_level"
+   ]
+  },
+  "strings": [
+   "0-7/14*(att.attr_level-1)",
+   "=OOOKO%Z",
+   "MO%Z&Z&Z%ZIO",
+   "hitcddmgrate7NewFlows/Skill/Runes/r",
+   "2_firststrike01)",
+   "Name_572122001",
+   "BriefDescription",
+   "?_xgN",
+   "72111000M",
+   "gray_xg5",
+   "P/100*]",
+   "conqueror_hurt",
+   "^_gold",
+   "pattack-",
+   "Wbase_",
+   "magic*20",
+   "YAG_01"
+  ],
+  "fields": {
+   "_seriaTypeNo_ConfigVisi": {
+    "t": 16,
+    "v": 0
+   },
+   "IconPath": {
+    "t": 34,
+    "v": 541516
+   },
+   "enabled": {
+    "t": 34,
+    "v": 542128
+   },
+   "unlockLv": {
+    "t": 19,
+    "v": 6312
+   },
+   "sortOrder": {
+    "t": 19,
+    "v": 6217
+   },
+   "switchID": {
+    "t": 4,
+    "v": 40
+   },
+   "name": {
+    "t": 34,
+    "v": 543770
+   },
+   "desc": {
+    "t": 162,
+    "v": 1880
+   },
+   "details": {
+    "t": 5,
+    "v": 0
+   }
+  }
+ },
+ {
+  "name": "rune_item_572124001",
+  "source": "Assets/ABPack/Resources/DataLayerCombined/CHERRY/WorkFlow/Rune/Item/572124001.bytes",
+  "vfs": "e9a2758fdccfc31d1bfe8c0d01d63ff0",
+  "size": 3924,
+  "md5": "0d413b58c5b262d6399e2c94ffe984d3",
+  "record_count": 9,
+  "record_end": 68,
+  "parse_confidence": 0.8,
+  "schema": "FrameEngineVisi.Common.RuneResObject",
+  "schema_alignment_confidence": "medium",
+  "container_records": 0,
+  "payload_records": 9,
+  "labeled_records": 9,
+  "parse_errors": [
+   "record stream stopped at unknown type 0xc4"
+  ],
+  "hints": {
+   "name_keys": [
+    "100RuneName_572124001NewFlows/Sa"
+   ],
+   "desc_keys": [
+    "BuffDesc_~"
+   ],
+   "formulas": [
+    "6-8/14*(att.attr_level-1)",
+    "kill.dmgmin+(s",
+    "/c10/100s/"
+   ],
+   "flows": [],
+   "attr_refs": [
+    "attr_level"
+   ]
+  },
+  "strings": [
+   "6-8/14*(att.attr_level-1)",
+   "kill.dmgmin+(s",
+   "basedamage+;",
+   "wadratio;",
+   "pattack-",
+   "rune_arcanecomet_layernum",
+   "=OOOKO%Z",
+   "MO%Z&Z&Z%ZIO",
+   "/c10/100s/",
+   "0zRtotal",
+   "100RuneName_572124001NewFlows/Sa",
+   "As2_A^",
+   "Obuff.",
+   "BuffDesc_~",
+   "gray_ashx",
+   "shx_transparent",
+   "[AG_01"
+  ],
+  "fields": {
+   "_seriaTypeNo_ConfigVisi": {
+    "t": 16,
+    "v": 0
+   },
+   "IconPath": {
+    "t": 35,
+    "v": 540212
+   },
+   "enabled": {
+    "t": 18,
+    "v": 2112
+   },
+   "unlockLv": {
+    "t": 19,
+    "v": 6312
+   },
+   "sortOrder": {
+    "t": 19,
+    "v": 6193
+   },
+   "switchID": {
+    "t": 4,
+    "v": 40
+   },
+   "name": {
+    "t": 34,
+    "v": 542232
+   },
+   "desc": {
+    "t": 162,
+    "v": 1808
+   },
+   "details": {
+    "t": 5,
+    "v": 0
+   }
+  }
+ },
+ {
+  "name": "rune_item_572215001",
+  "source": "Assets/ABPack/Resources/DataLayerCombined/HEXARAM/WorkFlow/Rune/Item/572215001.bytes",
+  "vfs": "0ffbabceed9c289be962125c6e0f2626",
+  "size": 1492,
+  "md5": "893a56c4a983dccce5c770a5845b006e",
+  "record_count": 12,
+  "record_end": 103,
+  "parse_confidence": 0.8,
+  "schema": "FrameEngineVisi.Common.RuneResObject",
+  "schema_alignment_confidence": "medium",
+  "container_records": 0,
+  "payload_records": 12,
+  "labeled_records": 12,
+  "parse_errors": [
+   "record stream stopped at unknown type 0x0"
+  ],
+  "hints": {
+   "name_keys": [],
+   "desc_keys": [],
+   "formulas": [
+    "#2_GatheringStorm_buff01math.floor(battle.time/60)*"
+   ],
+   "flows": [
+    "NewFlows/Skill/Runes/r"
+   ],
+   "attr_refs": []
+  },
+  "strings": [
+   "=OOOKO%Z",
+   "MO%Z&Z&Z%ZIO",
+   "NewFlows/Skill/Runes/r",
+   "#2_GatheringStorm_buff01math.floor(battle.time/60)*",
+   "O/16+9",
+   "Stats_fbjj_AG_01"
+  ],
+  "fields": {
+   "_seriaTypeNo_ConfigVisi": {
+    "t": 40,
+    "v": 13771264
+   },
+   "IconPath": {
+    "t": 23,
+    "v": 9633800
+   },
+   "enabled": {
+    "t": 232,
+    "v": 3
+   },
+   "unlockLv": {
+    "t": 5,
+    "v": 0
+   },
+   "sortOrder": {
+    "t": 42,
+    "v": 16
+   },
+   "switchID": {
+    "t": 19,
+    "v": 2118
+   },
+   "name": {
+    "t": 19,
+    "v": 2146
+   },
+   "desc": {
+    "t": 34,
+    "v": 529930
+   },
+   "details": {
+    "t": 19,
+    "v": 4208
+   },
+   "attributeName": {
+    "t": 38,
+    "v": 4724520
+   },
+   "frameBgName": {
+    "t": 132,
+    "v": 10
+   },
+   "iconAsset": {
+    "t": 238,
+    "v": 2153927794
+   }
+  }
+ },
+ {
+  "name": "rune_item_572416001",
+  "source": "Assets/ABPack/Resources/DataLayerCombined/HEXARAM/WorkFlow/Rune/Item/572416001.bytes",
+  "vfs": "0ffbabceed9c289be962125c6e0f2626",
+  "size": 3392,
+  "md5": "226043b7d9fe8651d90818a2cd2e546c",
+  "record_count": 13,
+  "record_end": 87,
+  "parse_confidence": 0.8,
+  "schema": "FrameEngineVisi.Common.RuneResObject",
+  "schema_alignment_confidence": "medium",
+  "container_records": 9,
+  "payload_records": 4,
+  "labeled_records": 13,
+  "parse_errors": [
+   "record stream stopped at unknown type 0x3"
+  ],
+  "hints": {
+   "name_keys": [],
+   "desc_keys": [],
+   "formulas": [],
+   "flows": [
+    "buffNewFlows/Skill/Runes/r"
+   ],
+   "attr_refs": []
+  },
+  "strings": [
+   "=OOOKO%Z",
+   "MO%Z&Z&Z%ZIO",
+   "healrate0.2money30speed",
+   "duration2.5time",
+   "buffNewFlows/Skill/Runes/r",
+   "2_VegetableBird_.",
+   "HealCal_reportActors/n_yordle_mushroomH",
+   "bn00/UIR",
+   "[Icon/$",
+   "icon_128",
+   "NimbusCloak",
+   "_ExperiencedFarmer_|",
+   "iceplant_o",
+   "Stats_tszj_AG_01"
+  ],
+  "fields": {
+   "_seriaTypeNo_ConfigVisi": {
+    "t": 16,
+    "v": 0
+   },
+   "IconPath": {
+    "t": 34,
+    "v": 536764
+   },
+   "enabled": {
+    "t": 34,
+    "v": 537216
+   },
+   "unlockLv": {
+    "t": 19,
+    "v": 6312
+   },
+   "sortOrder": {
+    "t": 19,
+    "v": 6329
+   },
+   "switchID": {
+    "t": 4,
+    "v": 40
+   },
+   "name": {
+    "t": 34,
+    "v": 538506
+   },
+   "desc": {
+    "t": 162,
+    "v": 1000
+   },
+   "details": {
+    "t": 5,
+    "v": 0
+   },
+   "attributeName": {
+    "t": 134,
+    "v": 4149
+   },
+   "frameBgName": {
+    "t": 19,
+    "v": 2298
+   },
+   "iconAsset": {
+    "t": 34,
+    "v": 538222
+   },
+   "skill": {
+    "t": 35,
+    "v": 4731746
+   }
+  }
+ },
+ {
+  "name": "rune_item_572421001",
+  "source": "Assets/ABPack/Resources/DataLayerCombined/HEXARAM/WorkFlow/Rune/Item/572421001.bytes",
+  "vfs": "0ffbabceed9c289be962125c6e0f2626",
+  "size": 1906,
+  "md5": "9e590e5615faecfe10b29e8fa0240c4a",
+  "record_count": 17,
+  "record_end": 103,
+  "parse_confidence": 0.8,
+  "schema": "FrameEngineVisi.Common.RuneResObject",
+  "schema_alignment_confidence": "medium",
+  "container_records": 9,
+  "payload_records": 8,
+  "labeled_records": 17,
+  "parse_errors": [
+   "record stream stopped at unknown type 0x80"
+  ],
+  "hints": {
+   "name_keys": [],
+   "desc_keys": [],
+   "formulas": [],
+   "flows": [
+    "NewFlows/Skill/Runes/r"
+   ],
+   "attr_refs": []
+  },
+  "strings": [
+   "=OOOKO%Z",
+   "N&Z&Z%ZIO",
+   "NewFlows/Skill/Runes/r",
+   "2_HextechFlash",
+   "_ChangeTrigger6",
+   "incombat",
+   "Stats_hkssx_AG_01"
+  ],
+  "fields": {
+   "_seriaTypeNo_ConfigVisi": {
+    "t": 16,
+    "v": 0
+   },
+   "IconPath": {
+    "t": 34,
+    "v": 531756
+   },
+   "enabled": {
+    "t": 34,
+    "v": 532020
+   },
+   "unlockLv": {
+    "t": 19,
+    "v": 6312
+   },
+   "sortOrder": {
+    "t": 19,
+    "v": 6185
+   },
+   "switchID": {
+    "t": 4,
+    "v": 40
+   },
+   "name": {
+    "t": 34,
+    "v": 532638
+   },
+   "desc": {
+    "t": 162,
+    "v": 1000
+   },
+   "details": {
+    "t": 5,
+    "v": 0
+   },
+   "attributeName": {
+    "t": 192,
+    "v": 4127
+   },
+   "frameBgName": {
+    "t": 19,
+    "v": 2276
+   },
+   "iconAsset": {
+    "t": 19,
+    "v": 8200
+   },
+   "skill": {
+    "t": 19,
+    "v": 18616
+   },
+   "type": {
+    "t": 19,
+    "v": 4122
+   },
+   "serialType": {
+    "t": 38,
+    "v": 4726718
+   },
+   "primarySlotIndex": {
+    "t": 132,
+    "v": 10
+   },
+   "primarySlotSortOrder": {
+    "t": 113,
+    "v": 1605201
+   }
+  }
+ },
+ {
+  "name": "rune_item_572422001",
+  "source": "Assets/ABPack/Resources/DataLayerCombined/HEXARAM/WorkFlow/Rune/Item/572422001.bytes",
+  "vfs": "0ffbabceed9c289be962125c6e0f2626",
+  "size": 1889,
+  "md5": "42ea52f0fcb3e43217d4fbd023df822b",
+  "record_count": 16,
+  "record_end": 100,
+  "parse_confidence": 0.8,
+  "schema": "FrameEngineVisi.Common.RuneResObject",
+  "schema_alignment_confidence": "medium",
+  "container_records": 9,
+  "payload_records": 7,
+  "labeled_records": 16,
+  "parse_errors": [
+   "record stream stopped at unknown type 0x30"
+  ],
+  "hints": {
+   "name_keys": [
+    "Name_572422001"
+   ],
+   "desc_keys": [],
+   "formulas": [],
+   "flows": [
+    "NewFlows/Skill/Runes/r"
+   ],
+   "attr_refs": []
+  },
+  "strings": [
+   "=OOOKO%Z",
+   "MO%Z&Z&Z%ZIO",
+   "NewFlows/Skill/Runes/r",
+   "2_EquipForgingSpring",
+   "Name_572422001",
+   "BriefDescription",
+   "__zbdz6",
+   "72111000_AramlolY",
+   "k_AG_01"
+  ],
+  "fields": {
+   "_seriaTypeNo_ConfigVisi": {
+    "t": 16,
+    "v": 0
+   },
+   "IconPath": {
+    "t": 34,
+    "v": 531660
+   },
+   "enabled": {
+    "t": 34,
+    "v": 531928
+   },
+   "unlockLv": {
+    "t": 19,
+    "v": 6312
+   },
+   "sortOrder": {
+    "t": 19,
+    "v": 6345
+   },
+   "switchID": {
+    "t": 4,
+    "v": 40
+   },
+   "name": {
+    "t": 34,
+    "v": 532612
+   },
+   "desc": {
+    "t": 162,
+    "v": 2168
+   },
+   "details": {
+    "t": 5,
+    "v": 0
+   },
+   "attributeName": {
+    "t": 134,
+    "v": 4127
+   },
+   "frameBgName": {
+    "t": 19,
+    "v": 2230
+   },
+   "iconAsset": {
+    "t": 19,
+    "v": 2278
+   },
+   "skill": {
+    "t": 34,
+    "v": 532062
+   },
+   "type": {
+    "t": 19,
+    "v": 4350
+   },
+   "serialType": {
+    "t": 38,
+    "v": 4726659
+   },
+   "primarySlotIndex": {
+    "t": 132,
+    "v": 10
+   }
+  }
+ },
+ {
+  "name": "rune_item_572514001",
+  "source": "Assets/ABPack/Resources/DataLayerCombined/CHERRY/WorkFlow/Rune/Item/572514001.bytes",
+  "vfs": "e9a2758fdccfc31d1bfe8c0d01d63ff0",
+  "size": 2951,
+  "md5": "812943c7d3039976fd6cc8502f22bc8e",
+  "record_count": 9,
+  "record_end": 69,
+  "parse_confidence": 0.8,
+  "schema": "FrameEngineVisi.Common.RuneResObject",
+  "schema_alignment_confidence": "medium",
+  "container_records": 9,
+  "payload_records": 0,
+  "labeled_records": 9,
+  "parse_errors": [
+   "record stream stopped at unknown type 0xd4"
+  ],
+  "hints": {
+   "name_keys": [
+    ".damage60maxtime8rangerate0.8RuneName_572514001NewFlows/Skill/!"
+   ],
+   "desc_keys": [],
+   "formulas": [
+    "40/14*(att.attr_level-1)"
+   ],
+   "flows": [],
+   "attr_refs": [
+    "attr_level"
+   ]
+  },
+  "strings": [
+   "40/14*(att.attr_level-1)",
+   "=OOOKO%Z",
+   "MO%Z&Z&Z%ZIO",
+   ".damage60maxtime8rangerate0.8RuneName_572514001NewFlows/Skill/!",
+   "_enhancedattack_buffs%",
+   "_Equip:",
+   "Stats_qhgj_AG_01"
+  ],
+  "fields": {
+   "_seriaTypeNo_ConfigVisi": {
+    "t": 16,
+    "v": 0
+   },
+   "IconPath": {
+    "t": 34,
+    "v": 536588
+   },
+   "enabled": {
+    "t": 34,
+    "v": 537060
+   },
+   "unlockLv": {
+    "t": 19,
+    "v": 6312
+   },
+   "sortOrder": {
+    "t": 19,
+    "v": 6153
+   },
+   "switchID": {
+    "t": 4,
+    "v": 40
+   },
+   "name": {
+    "t": 34,
+    "v": 537962
+   },
+   "desc": {
+    "t": 162,
+    "v": 1776
+   },
+   "details": {
+    "t": 5,
+    "v": 0
+   }
+  }
+ },
+ {
+  "name": "rune_page_1",
+  "source": "Assets/ABPack/Resources/WorkFlow/Rune/Page/1.bytes",
+  "vfs": "0d5f4b0e3972cfa71ff2f9f3d893c25a",
+  "size": 360,
+  "md5": "e652271ee64d9d5064949c1b5ca95d3a",
+  "record_count": 9,
+  "record_end": 63,
+  "parse_confidence": 0.8,
+  "schema": "FrameEngineVisi.Common.RunePageResObject",
+  "schema_alignment_confidence": "medium",
+  "container_records": 0,
+  "payload_records": 9,
+  "labeled_records": 7,
+  "parse_errors": [
+   "record stream stopped at unknown type 0x6"
+  ],
+  "hints": {
+   "name_keys": [],
+   "desc_keys": [],
+   "formulas": [],
+   "flows": [],
+   "attr_refs": []
+  },
+  "strings": [
+   "RunePlanName1Text"
+  ],
+  "fields": {
+   "_seriaTypeNo_ConfigVisi": {
+    "t": 1,
+    "v": 0
+   },
+   "name": {
+    "t": 16,
+    "v": 0
+   },
+   "simpleDesc": {
+    "t": 34,
+    "v": 524976
+   },
+   "runeIdList": {
+    "t": 19,
+    "v": 2268
+   },
+   "privarySerial": {
+    "t": 27,
+    "v": 6312
+   },
+   "secondarySerial": {
+    "t": 4,
+    "v": 40
+   },
+   "rune3DIdList": {
+    "t": 34,
+    "v": 525104
+   },
+   "unknown_0": {
+    "t": 147,
+    "v": 144
+   },
+   "unknown_1": {
+    "t": 5,
+    "v": 0
+   }
+  }
+ },
+ {
+  "name": "rune_page_10",
+  "source": "Assets/ABPack/Resources/WorkFlow/Rune/Page/10.bytes",
+  "vfs": "0d5f4b0e3972cfa71ff2f9f3d893c25a",
+  "size": 356,
+  "md5": "f2b4ff60c1daf7e97cb8a6d85df51aa9",
+  "record_count": 9,
+  "record_end": 63,
+  "parse_confidence": 0.8,
+  "schema": "FrameEngineVisi.Common.RunePageResObject",
+  "schema_alignment_confidence": "medium",
+  "container_records": 0,
+  "payload_records": 9,
+  "labeled_records": 7,
+  "parse_errors": [
+   "record stream stopped at unknown type 0x6"
+  ],
+  "hints": {
+   "name_keys": [],
+   "desc_keys": [],
+   "formulas": [],
+   "flows": [],
+   "attr_refs": []
+  },
+  "strings": [
+   "RunePlanName1Text"
+  ],
+  "fields": {
+   "_seriaTypeNo_ConfigVisi": {
+    "t": 1,
+    "v": 0
+   },
+   "name": {
+    "t": 16,
+    "v": 0
+   },
+   "simpleDesc": {
+    "t": 34,
+    "v": 524976
+   },
+   "runeIdList": {
+    "t": 19,
+    "v": 2268
+   },
+   "privarySerial": {
+    "t": 27,
+    "v": 6312
+   },
+   "secondarySerial": {
+    "t": 4,
+    "v": 40
+   },
+   "rune3DIdList": {
+    "t": 34,
+    "v": 525104
+   },
+   "unknown_0": {
+    "t": 147,
+    "v": 144
+   },
+   "unknown_1": {
+    "t": 5,
+    "v": 0
+   }
+  }
+ },
+ {
+  "name": "rune_page_1000101",
+  "source": "Assets/ABPack/Resources/WorkFlow/Rune/Page/1000101.bytes",
+  "vfs": "0d5f4b0e3972cfa71ff2f9f3d893c25a",
+  "size": 360,
+  "md5": "b64ac4c3a5a90fb12b9a7131aea83be1",
+  "record_count": 9,
+  "record_end": 63,
+  "parse_confidence": 0.8,
+  "schema": "FrameEngineVisi.Common.RunePageResObject",
+  "schema_alignment_confidence": "medium",
+  "container_records": 0,
+  "payload_records": 9,
+  "labeled_records": 7,
+  "parse_errors": [
+   "record stream stopped at unknown type 0x6"
+  ],
+  "hints": {
+   "name_keys": [],
+   "desc_keys": [],
+   "formulas": [],
+   "flows": [],
+   "attr_refs": []
+  },
+  "strings": [
+   "RunePlanName1Text"
+  ],
+  "fields": {
+   "_seriaTypeNo_ConfigVisi": {
+    "t": 1,
+    "v": 0
+   },
+   "name": {
+    "t": 16,
+    "v": 0
+   },
+   "simpleDesc": {
+    "t": 34,
+    "v": 524976
+   },
+   "runeIdList": {
+    "t": 19,
+    "v": 2268
+   },
+   "privarySerial": {
+    "t": 27,
+    "v": 6312
+   },
+   "secondarySerial": {
+    "t": 4,
+    "v": 40
+   },
+   "rune3DIdList": {
+    "t": 34,
+    "v": 525104
+   },
+   "unknown_0": {
+    "t": 147,
+    "v": 144
+   },
+   "unknown_1": {
+    "t": 5,
+    "v": 0
+   }
+  }
+ },
+ {
+  "name": "rune_page_1000102",
+  "source": "Assets/ABPack/Resources/WorkFlow/Rune/Page/1000102.bytes",
+  "vfs": "0d5f4b0e3972cfa71ff2f9f3d893c25a",
+  "size": 366,
+  "md5": "f8f0b07f87df2e8ced86d752e62e22ef",
+  "record_count": 9,
+  "record_end": 63,
+  "parse_confidence": 0.8,
+  "schema": "FrameEngineVisi.Common.RunePageResObject",
+  "schema_alignment_confidence": "medium",
+  "container_records": 0,
+  "payload_records": 9,
+  "labeled_records": 7,
+  "parse_errors": [
+   "record stream stopped at unknown type 0x6"
+  ],
+  "hints": {
+   "name_keys": [],
+   "desc_keys": [],
+   "formulas": [],
+   "flows": [],
+   "attr_refs": []
+  },
+  "strings": [
+   "RunePlanName2Text"
+  ],
+  "fields": {
+   "_seriaTypeNo_ConfigVisi": {
+    "t": 1,
+    "v": 0
+   },
+   "name": {
+    "t": 16,
+    "v": 0
+   },
+   "simpleDesc": {
+    "t": 34,
+    "v": 524976
+   },
+   "runeIdList": {
+    "t": 19,
+    "v": 2268
+   },
+   "privarySerial": {
+    "t": 27,
+    "v": 6312
+   },
+   "secondarySerial": {
+    "t": 4,
+    "v": 40
+   },
+   "rune3DIdList": {
+    "t": 34,
+    "v": 525104
+   },
+   "unknown_0": {
+    "t": 147,
+    "v": 144
+   },
+   "unknown_1": {
+    "t": 5,
+    "v": 0
+   }
+  }
+ },
+ {
+  "name": "rune_page_1000103",
+  "source": "Assets/ABPack/Resources/WorkFlow/Rune/Page/1000103.bytes",
+  "vfs": "0d5f4b0e3972cfa71ff2f9f3d893c25a",
+  "size": 361,
+  "md5": "1cef643a359524e15423467f1a1e025c",
+  "record_count": 9,
+  "record_end": 63,
+  "parse_confidence": 0.8,
+  "schema": "FrameEngineVisi.Common.RunePageResObject",
+  "schema_alignment_confidence": "medium",
+  "container_records": 0,
+  "payload_records": 9,
+  "labeled_records": 7,
+  "parse_errors": [
+   "record stream stopped at unknown type 0x6"
+  ],
+  "hints": {
+   "name_keys": [],
+   "desc_keys": [],
+   "formulas": [],
+   "flows": [],
+   "attr_refs": []
+  },
+  "strings": [
+   "RunePlanName3Text"
+  ],
+  "fields": {
+   "_seriaTypeNo_ConfigVisi": {
+    "t": 1,
+    "v": 0
+   },
+   "name": {
+    "t": 16,
+    "v": 0
+   },
+   "simpleDesc": {
+    "t": 34,
+    "v": 524976
+   },
+   "runeIdList": {
+    "t": 19,
+    "v": 2268
+   },
+   "privarySerial": {
+    "t": 27,
+    "v": 6312
+   },
+   "secondarySerial": {
+    "t": 4,
+    "v": 40
+   },
+   "rune3DIdList": {
+    "t": 34,
+    "v": 525104
+   },
+   "unknown_0": {
+    "t": 147,
+    "v": 144
+   },
+   "unknown_1": {
+    "t": 5,
+    "v": 0
+   }
+  }
+ },
+ {
+  "name": "rune_page_1000201",
+  "source": "Assets/ABPack/Resources/WorkFlow/Rune/Page/1000201.bytes",
+  "vfs": "0d5f4b0e3972cfa71ff2f9f3d893c25a",
+  "size": 358,
+  "md5": "b73ecbfb6fb1d98021ab3985d12cbd62",
+  "record_count": 9,
+  "record_end": 63,
+  "parse_confidence": 0.8,
+  "schema": "FrameEngineVisi.Common.RunePageResObject",
+  "schema_alignment_confidence": "medium",
+  "container_records": 0,
+  "payload_records": 9,
+  "labeled_records": 7,
+  "parse_errors": [
+   "record stream stopped at unknown type 0x6"
+  ],
+  "hints": {
+   "name_keys": [],
+   "desc_keys": [],
+   "formulas": [],
+   "flows": [],
+   "attr_refs": []
+  },
+  "strings": [
+   "RunePlanName1Text"
+  ],
+  "fields": {
+   "_seriaTypeNo_ConfigVisi": {
+    "t": 1,
+    "v": 0
+   },
+   "name": {
+    "t": 16,
+    "v": 0
+   },
+   "simpleDesc": {
+    "t": 34,
+    "v": 524976
+   },
+   "runeIdList": {
+    "t": 19,
+    "v": 2268
+   },
+   "privarySerial": {
+    "t": 27,
+    "v": 6312
+   },
+   "secondarySerial": {
+    "t": 4,
+    "v": 40
+   },
+   "rune3DIdList": {
+    "t": 34,
+    "v": 525104
+   },
+   "unknown_0": {
+    "t": 147,
+    "v": 144
+   },
+   "unknown_1": {
+    "t": 5,
+    "v": 0
+   }
+  }
+ },
+ {
+  "name": "rune_page_1000202",
+  "source": "Assets/ABPack/Resources/WorkFlow/Rune/Page/1000202.bytes",
+  "vfs": "0d5f4b0e3972cfa71ff2f9f3d893c25a",
+  "size": 358,
+  "md5": "9d22aa56d4b8a22511a6f382d3230a5a",
+  "record_count": 9,
+  "record_end": 63,
+  "parse_confidence": 0.8,
+  "schema": "FrameEngineVisi.Common.RunePageResObject",
+  "schema_alignment_confidence": "medium",
+  "container_records": 0,
+  "payload_records": 9,
+  "labeled_records": 7,
+  "parse_errors": [
+   "record stream stopped at unknown type 0x6"
+  ],
+  "hints": {
+   "name_keys": [],
+   "desc_keys": [],
+   "formulas": [],
+   "flows": [],
+   "attr_refs": []
+  },
+  "strings": [
+   "RunePlanName2Text"
+  ],
+  "fields": {
+   "_seriaTypeNo_ConfigVisi": {
+    "t": 1,
+    "v": 0
+   },
+   "name": {
+    "t": 16,
+    "v": 0
+   },
+   "simpleDesc": {
+    "t": 34,
+    "v": 524976
+   },
+   "runeIdList": {
+    "t": 19,
+    "v": 2268
+   },
+   "privarySerial": {
+    "t": 27,
+    "v": 6312
+   },
+   "secondarySerial": {
+    "t": 4,
+    "v": 40
+   },
+   "rune3DIdList": {
+    "t": 34,
+    "v": 525104
+   },
+   "unknown_0": {
+    "t": 147,
+    "v": 144
+   },
+   "unknown_1": {
+    "t": 5,
+    "v": 0
+   }
+  }
+ },
+ {
+  "name": "rune_page_1000203",
+  "source": "Assets/ABPack/Resources/WorkFlow/Rune/Page/1000203.bytes",
+  "vfs": "0d5f4b0e3972cfa71ff2f9f3d893c25a",
+  "size": 354,
+  "md5": "365f1d9ff69e9ae69fe082000f93721a",
+  "record_count": 9,
+  "record_end": 63,
+  "parse_confidence": 0.8,
+  "schema": "FrameEngineVisi.Common.RunePageResObject",
+  "schema_alignment_confidence": "medium",
+  "container_records": 0,
+  "payload_records": 9,
+  "labeled_records": 7,
+  "parse_errors": [
+   "record stream stopped at unknown type 0x6"
+  ],
+  "hints": {
+   "name_keys": [],
+   "desc_keys": [],
+   "formulas": [],
+   "flows": [],
+   "attr_refs": []
+  },
+  "strings": [
+   "RunePlanName3Text"
+  ],
+  "fields": {
+   "_seriaTypeNo_ConfigVisi": {
+    "t": 1,
+    "v": 0
+   },
+   "name": {
+    "t": 16,
+    "v": 0
+   },
+   "simpleDesc": {
+    "t": 34,
+    "v": 524976
+   },
+   "runeIdList": {
+    "t": 19,
+    "v": 2268
+   },
+   "privarySerial": {
+    "t": 27,
+    "v": 6312
+   },
+   "secondarySerial": {
+    "t": 4,
+    "v": 40
+   },
+   "rune3DIdList": {
+    "t": 34,
+    "v": 525104
+   },
+   "unknown_0": {
+    "t": 147,
+    "v": 144
+   },
+   "unknown_1": {
+    "t": 5,
+    "v": 0
+   }
+  }
+ },
+ {
+  "name": "rune_page_1000301",
+  "source": "Assets/ABPack/Resources/WorkFlow/Rune/Page/1000301.bytes",
+  "vfs": "0d5f4b0e3972cfa71ff2f9f3d893c25a",
+  "size": 361,
+  "md5": "8e908d9a5e73c7e6951347243d83d124",
+  "record_count": 9,
+  "record_end": 63,
+  "parse_confidence": 0.8,
+  "schema": "FrameEngineVisi.Common.RunePageResObject",
+  "schema_alignment_confidence": "medium",
+  "container_records": 0,
+  "payload_records": 9,
+  "labeled_records": 7,
+  "parse_errors": [
+   "record stream stopped at unknown type 0x6"
+  ],
+  "hints": {
+   "name_keys": [],
+   "desc_keys": [],
+   "formulas": [],
+   "flows": [],
+   "attr_refs": []
+  },
+  "strings": [
+   "RunePlanName1Text"
+  ],
+  "fields": {
+   "_seriaTypeNo_ConfigVisi": {
+    "t": 1,
+    "v": 0
+   },
+   "name": {
+    "t": 16,
+    "v": 0
+   },
+   "simpleDesc": {
+    "t": 34,
+    "v": 524976
+   },
+   "runeIdList": {
+    "t": 19,
+    "v": 2268
+   },
+   "privarySerial": {
+    "t": 27,
+    "v": 6312
+   },
+   "secondarySerial": {
+    "t": 4,
+    "v": 40
+   },
+   "rune3DIdList": {
+    "t": 34,
+    "v": 525104
+   },
+   "unknown_0": {
+    "t": 147,
+    "v": 144
+   },
+   "unknown_1": {
+    "t": 5,
+    "v": 0
+   }
+  }
+ },
+ {
+  "name": "rune_page_1000302",
+  "source": "Assets/ABPack/Resources/WorkFlow/Rune/Page/1000302.bytes",
+  "vfs": "0d5f4b0e3972cfa71ff2f9f3d893c25a",
+  "size": 358,
+  "md5": "7d47f2fddfc3d8d3e6686666b5be4174",
+  "record_count": 9,
+  "record_end": 63,
+  "parse_confidence": 0.8,
+  "schema": "FrameEngineVisi.Common.RunePageResObject",
+  "schema_alignment_confidence": "medium",
+  "container_records": 0,
+  "payload_records": 9,
+  "labeled_records": 7,
+  "parse_errors": [
+   "record stream stopped at unknown type 0x6"
+  ],
+  "hints": {
+   "name_keys": [],
+   "desc_keys": [],
+   "formulas": [],
+   "flows": [],
+   "attr_refs": []
+  },
+  "strings": [
+   "RunePlanName2Text"
+  ],
+  "fields": {
+   "_seriaTypeNo_ConfigVisi": {
+    "t": 1,
+    "v": 0
+   },
+   "name": {
+    "t": 16,
+    "v": 0
+   },
+   "simpleDesc": {
+    "t": 34,
+    "v": 524976
+   },
+   "runeIdList": {
+    "t": 19,
+    "v": 2268
+   },
+   "privarySerial": {
+    "t": 27,
+    "v": 6312
+   },
+   "secondarySerial": {
+    "t": 4,
+    "v": 40
+   },
+   "rune3DIdList": {
+    "t": 34,
+    "v": 525104
+   },
+   "unknown_0": {
+    "t": 147,
+    "v": 144
+   },
+   "unknown_1": {
+    "t": 5,
+    "v": 0
+   }
+  }
+ }
+]

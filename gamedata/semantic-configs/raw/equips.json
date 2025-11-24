@@ -1,0 +1,1939 @@
+[
+ {
+  "label": "equip_2121",
+  "vfs": "0ffbabceed9c289be962125c6e0f2626",
+  "idx": 25,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/HEXARAM/WorkFlow/Equip/2121.bytes",
+  "size": 2954,
+  "sha1": "3faa7aa9d5857103e7fcb34b011d35a3eecc9336",
+  "md5": "4f6a10fcf7c2b292a63d4d44bd2d66e8",
+  "parse": {
+   "ok": true,
+   "clean": false,
+   "size": 2954,
+   "prefix": "66",
+   "marker_offset": 1,
+   "version": 1,
+   "header": {
+    "raw": "0100000c00b1cc3700003c3400004a270314002a0b000100",
+    "common": "0100000c00",
+    "u32s": [
+     3656881,
+     3423232,
+     52906496
+    ]
+   },
+   "records": [
+    [
+     16,
+     "00"
+    ],
+    [
+     34,
+     "9c310800"
+    ],
+    [
+     34,
+     "5c330800"
+    ],
+    [
+     27,
+     "a81800"
+    ],
+    [
+     4,
+     "2800"
+    ],
+    [
+     34,
+     "cc370800"
+    ],
+    [
+     162,
+     "18030000"
+    ],
+    [
+     5,
+     "000000"
+    ],
+    [
+     56,
+     "361000"
+    ],
+    [
+     19,
+     "800800"
+    ],
+    [
+     19,
+     "c80800"
+    ],
+    [
+     34,
+     "3c340800"
+    ],
+    [
+     19,
+     "ec1000"
+    ],
+    [
+     38,
+     "35364800"
+    ],
+    [
+     132,
+     "0a000000"
+    ]
+   ],
+   "record_count": 15,
+   "record_end": 96,
+   "strings": [
+    "MO%Z&Z&Z%ZIO",
+    "EquipDescription_2121",
+    "lol_nszl,",
+    "2NewFlows/",
+    "/TearOfTheGoddess_refunds-",
+    "chargeBuff",
+    "delete2-",
+    "naatt.mp_return_value*1/10B"
+   ],
+   "trailer": null,
+   "errors": [
+    "record stream stopped at unknown type 0xf3"
+   ]
+  }
+ },
+ {
+  "label": "equip_2122",
+  "vfs": "0ffbabceed9c289be962125c6e0f2626",
+  "idx": 26,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/HEXARAM/WorkFlow/Equip/2122.bytes",
+  "size": 3849,
+  "sha1": "8644f76d01dfd6ee5192e28a359a6b0b0cef028c",
+  "md5": "733152c5bd8de4b333ee85529c6639b7",
+  "parse": {
+   "ok": true,
+   "clean": false,
+   "size": 3849,
+   "prefix": "66",
+   "marker_offset": 1,
+   "version": 1,
+   "header": {
+    "raw": "0100000c00b16a49000032450000f51a0414002a0b000100",
+    "common": "0100000c00",
+    "u32s": [
+     4811441,
+     4534784,
+     68875520
+    ]
+   },
+   "records": [
+    [
+     16,
+     "00"
+    ],
+    [
+     34,
+     "24410800"
+    ],
+    [
+     34,
+     "d8430800"
+    ],
+    [
+     19,
+     "a81800"
+    ],
+    [
+     19,
+     "211800"
+    ],
+    [
+     4,
+     "2800"
+    ],
+    [
+     34,
+     "6a490800"
+    ],
+    [
+     162,
+     "18030000"
+    ],
+    [
+     5,
+     "000000"
+    ],
+    [
+     82,
+     "471000"
+    ],
+    [
+     19,
+     "9e0800"
+    ],
+    [
+     19,
+     "ea0800"
+    ],
+    [
+     34,
+     "32450800"
+    ],
+    [
+     34,
+     "10480800"
+    ],
+    [
+     38,
+     "4f474800"
+    ],
+    [
+     132,
+     "0a000000"
+    ],
+    [
+     244,
+     "40691f"
+    ]
+   ],
+   "record_count": 17,
+   "record_end": 105,
+   "strings": [
+    ".5/(1+(att.Equip_Cd_Rate/100))",
+    "MO%Z&Z&Z%ZIO",
+    "Description_2122",
+    "olol_yg",
+    "01NewFlows/",
+    "/Sheen_buffBuffj",
+    "base_attr",
+    "level>12){*",
+    ";}else{(0.4+math.floor(?",
+    "-1)/4)*0.2)*F",
+    "ment_tips_095"
+   ],
+   "trailer": null,
+   "errors": [
+    "record stream stopped at unknown type 0x80"
+   ]
+  }
+ },
+ {
+  "label": "equip_2141",
+  "vfs": "0ffbabceed9c289be962125c6e0f2626",
+  "idx": 27,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/HEXARAM/WorkFlow/Equip/2141.bytes",
+  "size": 4829,
+  "sha1": "b0a9b11b1793c5eb491afb18e56327ea271b3d4d",
+  "md5": "f2827fe919a1b4d7d9b9c1d57f7a8312",
+  "parse": {
+   "ok": true,
+   "clean": false,
+   "size": 4829,
+   "prefix": "66",
+   "marker_offset": 1,
+   "version": 1,
+   "header": {
+    "raw": "0100000c00b10e560000964f0000fe610614002a0b000100",
+    "common": "0100000c00",
+    "u32s": [
+     5639857,
+     5215744,
+     107085312
+    ]
+   },
+   "records": [
+    [
+     16,
+     "00"
+    ],
+    [
+     34,
+     "944b0800"
+    ],
+    [
+     34,
+     "404e0800"
+    ],
+    [
+     19,
+     "a81800"
+    ],
+    [
+     19,
+     "911800"
+    ],
+    [
+     4,
+     "2800"
+    ],
+    [
+     34,
+     "0e560800"
+    ],
+    [
+     162,
+     "10030000"
+    ],
+    [
+     5,
+     "000000"
+    ]
+   ],
+   "record_count": 9,
+   "record_end": 69,
+   "strings": [
+    "ar.attr_max_hp*skill.total_dmg_ratio_fix",
+    "level-1)*(skT",
+    "!D2\"h$l'\"@%",
+    ")|\"\"(*t\"\"`*l\"\"",
+    "MO%Z&Z&Z%ZIO",
+    "EquipDescription_2141",
+    "lol_ldldzmtime3increase",
+    "7B0.02",
+    "on_textT:@",
+    "2NewFlows/",
+    "/LiandrysTorment_buff1*",
+    "c.stack",
+    "/2math.min(",
+    "1/100;}else{if(",
+    "monster_type==2){5!",
+    "evolistener",
+    "p_Heimer",
+    "conqueror_hurte=",
+    "tips_081"
+   ],
+   "trailer": null,
+   "errors": [
+    "record stream stopped at unknown type 0x46"
+   ]
+  }
+ },
+ {
+  "label": "equip_2142",
+  "vfs": "0ffbabceed9c289be962125c6e0f2626",
+  "idx": 28,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/HEXARAM/WorkFlow/Equip/2142.bytes",
+  "size": 4064,
+  "sha1": "e4cc906b9bbb5ea42f1e3931a9f46eabe140f188",
+  "md5": "b3369ee45fe1b1f75ff0cb83b5db0dfd",
+  "parse": {
+   "ok": true,
+   "clean": false,
+   "size": 4064,
+   "prefix": "66",
+   "marker_offset": 1,
+   "version": 1,
+   "header": {
+    "raw": "0100000c00b1f4500000664d00003b360414002a0b000100",
+    "common": "0100000c00",
+    "u32s": [
+     5305521,
+     5072384,
+     70662912
+    ]
+   },
+   "records": [
+    [
+     16,
+     "00"
+    ],
+    [
+     34,
+     "04490800"
+    ],
+    [
+     34,
+     "f04b0800"
+    ],
+    [
+     27,
+     "a81800"
+    ],
+    [
+     4,
+     "2800"
+    ],
+    [
+     34,
+     "f4500800"
+    ],
+    [
+     162,
+     "30030000"
+    ],
+    [
+     5,
+     "000000"
+    ],
+    [
+     242,
+     "4e10"
+    ]
+   ],
+   "record_count": 9,
+   "record_end": 68,
+   "strings": [
+    "+\"8 h*\"p @*\"",
+    "MO%Z&Z&Z%ZIO",
+    "EquipDescription_2142",
+    "lol_dtszz-",
+    "3NewFlows/",
+    "/ArchangelStaff_charge*",
+    "!TearOfTheGoddess_manaif(att.base_attr_max_mp>1){",
+    "*1/100;}else{0;}",
+    "prefundsJ",
+    "mp_return_value*25O"
+   ],
+   "trailer": null,
+   "errors": [
+    "record stream stopped at unknown type 0x0"
+   ]
+  }
+ },
+ {
+  "label": "equip_2143",
+  "vfs": "0ffbabceed9c289be962125c6e0f2626",
+  "idx": 29,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/HEXARAM/WorkFlow/Equip/2143.bytes",
+  "size": 4061,
+  "sha1": "4318df91b6fbf1bc26a0dd3f2f1ae2efcd2a1d50",
+  "md5": "6fd13385c5c9c22283953c257b4a6057",
+  "parse": {
+   "ok": true,
+   "clean": false,
+   "size": 4061,
+   "prefix": "66",
+   "marker_offset": 1,
+   "version": 1,
+   "header": {
+    "raw": "0100000c00b1744f0000ae4b000078370414002a0b000100",
+    "common": "0100000c00",
+    "u32s": [
+     5207217,
+     4959744,
+     70744064
+    ]
+   },
+   "records": [
+    [
+     16,
+     "00"
+    ],
+    [
+     34,
+     "58470800"
+    ],
+    [
+     34,
+     "3c4a0800"
+    ],
+    [
+     27,
+     "a81800"
+    ],
+    [
+     4,
+     "2800"
+    ],
+    [
+     34,
+     "744f0800"
+    ],
+    [
+     162,
+     "28030000"
+    ],
+    [
+     5,
+     "000000"
+    ],
+    [
+     98,
+     "4d1000"
+    ],
+    [
+     19,
+     "a20800"
+    ],
+    [
+     19,
+     "e20800"
+    ],
+    [
+     34,
+     "ae4b0800"
+    ],
+    [
+     34,
+     "024e0800"
+    ],
+    [
+     38,
+     "604d4800"
+    ],
+    [
+     132,
+     "0a000000"
+    ]
+   ],
+   "record_count": 15,
+   "record_end": 97,
+   "strings": [
+    ".5/(1+(att.Equip_Cd_Rate/100))",
+    "T2\"0 4'\"",
+    "!,'\"8!$'\"p!T&\"",
+    "!\"@'|!\"x'$",
+    "MO%Z&Z&Z%ZIO",
+    "Description_2143",
+    "lol_wyzh",
+    "01NewFlows/",
+    "/LichBane_buffBuffo",
+    "base_attr",
+    "qmagic*4",
+    ")*0.16(j"
+   ],
+   "trailer": null,
+   "errors": [
+    "record stream stopped at unknown type 0x73"
+   ]
+  }
+ },
+ {
+  "label": "equip_2144",
+  "vfs": "0ffbabceed9c289be962125c6e0f2626",
+  "idx": 30,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/HEXARAM/WorkFlow/Equip/2144.bytes",
+  "size": 1110,
+  "sha1": "e5d7c5018d98684dc6719a05d12e1311a6d6abcd",
+  "md5": "82daf15ab643f7bc1bdc31a7e3ea6e83",
+  "parse": {
+   "ok": true,
+   "clean": false,
+   "size": 1110,
+   "prefix": "66",
+   "marker_offset": 1,
+   "version": 1,
+   "header": {
+    "raw": "0100000c00a2f60f0000400f000091c214002a0b00010000",
+    "common": "0100000c00",
+    "u32s": [
+     1046178,
+     999424,
+     348295424
+    ]
+   },
+   "records": [
+    [
+     1,
+     "0000"
+    ],
+    [
+     16,
+     "00"
+    ],
+    [
+     35,
+     "800e1800"
+    ],
+    [
+     18,
+     "0f0800"
+    ],
+    [
+     28,
+     "a81800"
+    ]
+   ],
+   "record_count": 5,
+   "record_end": 46,
+   "strings": [
+    "MO%Z&Z&Z%ZIO",
+    "EquipDescription_2144",
+    "lol_xkfz"
+   ],
+   "trailer": null,
+   "errors": [
+    "record stream stopped at unknown type 0x3"
+   ]
+  }
+ },
+ {
+  "label": "equip_2147",
+  "vfs": "0ffbabceed9c289be962125c6e0f2626",
+  "idx": 31,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/HEXARAM/WorkFlow/Equip/2147.bytes",
+  "size": 3994,
+  "sha1": "12746b71bc70682a1365610be5d1b04ad429d3f2",
+  "md5": "97489655127d29b731443264b34c7ce3",
+  "parse": {
+   "ok": true,
+   "clean": false,
+   "size": 3994,
+   "prefix": "66",
+   "marker_offset": 1,
+   "version": 1,
+   "header": {
+    "raw": "0100000c00b14c420000da3d00007fb00414002a0b000100",
+    "common": "0100000c00",
+    "u32s": [
+     4345009,
+     4053504,
+     78675712
+    ]
+   },
+   "records": [
+    [
+     16,
+     "00"
+    ],
+    [
+     34,
+     "d43a0800"
+    ],
+    [
+     34,
+     "d83c0800"
+    ],
+    [
+     19,
+     "a81800"
+    ],
+    [
+     19,
+     "d11800"
+    ],
+    [
+     4,
+     "2800"
+    ],
+    [
+     34,
+     "4c420800"
+    ],
+    [
+     162,
+     "18030000"
+    ],
+    [
+     5,
+     "000000"
+    ],
+    [
+     30,
+     "401000"
+    ],
+    [
+     19,
+     "960800"
+    ],
+    [
+     34,
+     "0e410800"
+    ],
+    [
+     34,
+     "da3d0800"
+    ],
+    [
+     19,
+     "4a1000"
+    ],
+    [
+     38,
+     "1d404800"
+    ],
+    [
+     132,
+     "0a000000"
+    ],
+    [
+     119,
+     "416b1f80"
+    ]
+   ],
+   "record_count": 17,
+   "record_end": 106,
+   "strings": [
+    "kill.perap*s",
+    "MO%Z&Z&Z%ZIO",
+    "EquipDescription_2147",
+    "lol_sgzz",
+    "_maxhp",
+    "_maxmp",
+    "maxapinterval",
+    "2NewFlows/",
+    "#/RodofAges_injuredatt.Eternity_Damage_Value*15/100",
+    "ogrowth%",
+    "manaspentif(",
+    "mp_return_v",
+    ">25){25;}else{(",
+    "ment_tips_006"
+   ],
+   "trailer": null,
+   "errors": [
+    "record stream stopped at unknown type 0x0"
+   ]
+  }
+ },
+ {
+  "label": "equip_2150",
+  "vfs": "0ffbabceed9c289be962125c6e0f2626",
+  "idx": 32,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/HEXARAM/WorkFlow/Equip/2150.bytes",
+  "size": 6489,
+  "sha1": "9bba9eb3f1fff84f253fa86f1a24fac9a5b2c98e",
+  "md5": "d8d5b667ef78b0d683e35c84ec66cdd9",
+  "parse": {
+   "ok": true,
+   "clean": false,
+   "size": 6489,
+   "prefix": "66",
+   "marker_offset": 1,
+   "version": 1,
+   "header": {
+    "raw": "0100000c00b154880000d28000009c4c0814002a0b000100",
+    "common": "0100000c00",
+    "u32s": [
+     8934577,
+     8442368,
+     139238400
+    ]
+   },
+   "records": [
+    [
+     16,
+     "00"
+    ],
+    [
+     34,
+     "c4790800"
+    ],
+    [
+     34,
+     "787e0800"
+    ],
+    [
+     19,
+     "a81800"
+    ],
+    [
+     19,
+     "c11800"
+    ],
+    [
+     4,
+     "2800"
+    ],
+    [
+     34,
+     "54880800"
+    ],
+    [
+     162,
+     "28030000"
+    ],
+    [
+     5,
+     "000000"
+    ]
+   ],
+   "record_count": 9,
+   "record_end": 69,
+   "strings": [
+    ".5/(1+(att.Equip_Cd_Rate/100))",
+    "_\"`!tX\"0\"lX\"h\"dX\"",
+    "V\"p$,`\"('",
+    "R\"h(D`\" +",
+    "/4K\" 0,K\"X0TJ\"",
+    "4tF\"(5lF\"`5",
+    "T4(\"XT,(\"",
+    "MO%Z&Z&Z%ZIO",
+    "Description_2150",
+    "lol_bmhs",
+    "01NewFlows/",
+    "/IcebornGauntlet_buff01[",
+    "base_attr",
+    "rmor/4Buff",
+    "203(0.4+math.floor(",
+    "level-1)/4)*0.2)*(~",
+    ">12){0;}else{(1-y",
+    "o*0.16(`",
+    "DataListene*",
+    "ment_tips_0112"
+   ],
+   "trailer": null,
+   "errors": [
+    "record stream stopped at unknown type 0xe2"
+   ]
+  }
+ },
+ {
+  "label": "equip_2154",
+  "vfs": "0ffbabceed9c289be962125c6e0f2626",
+  "idx": 33,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/HEXARAM/WorkFlow/Equip/2154.bytes",
+  "size": 4085,
+  "sha1": "95c0a6cf915259b2b8541d1b032d467446150126",
+  "md5": "326635b1617133e1ba974c22505c4748",
+  "parse": {
+   "ok": true,
+   "clean": false,
+   "size": 4085,
+   "prefix": "66",
+   "marker_offset": 1,
+   "version": 1,
+   "header": {
+    "raw": "0100000c00b1944d0000d04900009b050414002a0b000100",
+    "common": "0100000c00",
+    "u32s": [
+     5084337,
+     4837376,
+     67476224
+    ]
+   },
+   "records": [
+    [
+     16,
+     "00"
+    ],
+    [
+     34,
+     "bc450800"
+    ],
+    [
+     34,
+     "74480800"
+    ],
+    [
+     19,
+     "a81800"
+    ],
+    [
+     19,
+     "b91800"
+    ],
+    [
+     4,
+     "2800"
+    ],
+    [
+     34,
+     "944d0800"
+    ],
+    [
+     162,
+     "30030000"
+    ],
+    [
+     5,
+     "000000"
+    ]
+   ],
+   "record_count": 9,
+   "record_end": 69,
+   "strings": [
+    "_`U00",
+    "\"\"H$D\"\"p'",
+    "MO%Z&Z&Z%ZIO",
+    "EquipDescription_2142",
+    "Name_2154lol_ctszydura:",
+    "2shieldex20@",
+    "3if(att.base_attr_max_mp>1){",
+    "*2/100;}else{0;}NewFlows/U",
+    "/SeraphEmbrace_refunds*",
+    "_effecttar",
+    "ment_tips_026"
+   ],
+   "trailer": null,
+   "errors": [
+    "record stream stopped at unknown type 0x70"
+   ]
+  }
+ },
+ {
+  "label": "equip_2170",
+  "vfs": "0ffbabceed9c289be962125c6e0f2626",
+  "idx": 34,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/HEXARAM/WorkFlow/Equip/2170.bytes",
+  "size": 2676,
+  "sha1": "cf6d0c21e9ebfd573264e5a8ec108da573f05935",
+  "md5": "81f62f8012629b843a5ceb557d1b1e58",
+  "parse": {
+   "ok": true,
+   "clean": false,
+   "size": 2676,
+   "prefix": "66",
+   "marker_offset": 1,
+   "version": 1,
+   "header": {
+    "raw": "0100000c00b1143200001e2f0000cd7a0314002a0b000100",
+    "common": "0100000c00",
+    "u32s": [
+     3282097,
+     3087872,
+     58379520
+    ]
+   },
+   "records": [
+    [
+     16,
+     "00"
+    ],
+    [
+     34,
+     "f02c0800"
+    ],
+    [
+     34,
+     "642e0800"
+    ],
+    [
+     27,
+     "a81800"
+    ],
+    [
+     4,
+     "2800"
+    ],
+    [
+     34,
+     "14320800"
+    ],
+    [
+     162,
+     "10030000"
+    ],
+    [
+     5,
+     "000000"
+    ]
+   ],
+   "record_count": 8,
+   "record_end": 65,
+   "strings": [
+    "ath.max(-buff_giver.bonus_attr_magic*1/2000-0.4,",
+    "MO%Z&Z&Z%ZIO",
+    "EquipDescription_2170",
+    "lol_fspd",
+    "apratemul",
+    "omNewFlows/Skill/",
+    "/fashupodun_U"
+   ],
+   "trailer": null,
+   "errors": [
+    "record stream stopped at unknown type 0xba"
+   ]
+  }
+ },
+ {
+  "label": "equip_2179",
+  "vfs": "0ffbabceed9c289be962125c6e0f2626",
+  "idx": 35,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/HEXARAM/WorkFlow/Equip/2179.bytes",
+  "size": 4472,
+  "sha1": "1ba5e30bf806b03ae70f3549f00b5923e6e5f2e4",
+  "md5": "292af6f9aff685635468d1db556f8e88",
+  "parse": {
+   "ok": true,
+   "clean": false,
+   "size": 4472,
+   "prefix": "66",
+   "marker_offset": 1,
+   "version": 1,
+   "header": {
+    "raw": "0100000c00b1f84d0000c0480000c6690514002a0b000100",
+    "common": "0100000c00",
+    "u32s": [
+     5109937,
+     4767744,
+     90818048
+    ]
+   },
+   "records": [
+    [
+     144,
+     "4b1000"
+    ],
+    [
+     34,
+     "104c0800"
+    ],
+    [
+     19,
+     "900800"
+    ],
+    [
+     34,
+     "c0480800"
+    ],
+    [
+     19,
+     "d01000"
+    ],
+    [
+     38,
+     "8d4b4800"
+    ],
+    [
+     132,
+     "0a000000"
+    ],
+    [
+     54,
+     "426e"
+    ],
+    [
+     31,
+     "80002605"
+    ]
+   ],
+   "record_count": 9,
+   "record_end": 104,
+   "strings": [
+    "kill.hp_rate*100",
+    "/(1+(att.Equip_Cd_Rate/100))",
+    "math.max+",
+    "o-0.5",
+    "\"0 d%\"H#D\"\" $",
+    "MO%Z&Z&Z%ZIO",
+    "Description_2179",
+    "Name_2611t3x_jsssbase40M=#hp",
+    "O0.07",
+    "cdaram_decay0.6",
+    "1NewFlows/",
+    "b/Redem",
+    "Checkhero)",
+    "bonus_attr_max_hpBuff",
+    "111lol_jiushu_cdx",
+    "CatalystofAeons_injured11",
+    "ternity_Damage_Value*15)",
+    "manaspent1if",
+    "mp_return_vL",
+    ">15){15;}else{(",
+    "_Aram60B"
+   ],
+   "trailer": null,
+   "errors": [
+    "record stream stopped at unknown type 0x0"
+   ]
+  }
+ },
+ {
+  "label": "equip_2181",
+  "vfs": "0ffbabceed9c289be962125c6e0f2626",
+  "idx": 36,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/HEXARAM/WorkFlow/Equip/2181.bytes",
+  "size": 3554,
+  "sha1": "11526475523e7d813011702596e26aa6a5f3eba9",
+  "md5": "552c3f000f6d308c11586029fecfcf8e",
+  "parse": {
+   "ok": true,
+   "clean": false,
+   "size": 3554,
+   "prefix": "66",
+   "marker_offset": 1,
+   "version": 1,
+   "header": {
+    "raw": "0100000c00b1463c00009c380000815a0414002a0b000100",
+    "common": "0100000c00",
+    "u32s": [
+     3950257,
+     3709952,
+     73040128
+    ]
+   },
+   "records": [
+    [
+     16,
+     "00"
+    ],
+    [
+     34,
+     "f0350800"
+    ],
+    [
+     34,
+     "b8370800"
+    ],
+    [
+     27,
+     "a81800"
+    ],
+    [
+     4,
+     "2800"
+    ],
+    [
+     34,
+     "463c0800"
+    ],
+    [
+     162,
+     "10030000"
+    ],
+    [
+     5,
+     "000000"
+    ]
+   ],
+   "record_count": 8,
+   "record_end": 65,
+   "strings": [
+    "kill.full_damage*s",
+    "attenuateratio",
+    "basiccd/(1+(att.Equip_Cd_Rate/100)) +",
+    "pfixdmg+,",
+    "attr_magic",
+    "MO%Z&Z&Z%ZIO",
+    "Description_2181",
+    "lol_bdeyxs",
+    "targetcooldownmark_durtaion5",
+    "J0.152",
+    "8cdNewFlows/S\\",
+    "/BandlesFantasy_InflictD`",
+    "ListenBuff="
+   ],
+   "trailer": null,
+   "errors": [
+    "record stream stopped at unknown type 0x54"
+   ]
+  }
+ },
+ {
+  "label": "equip_2244",
+  "vfs": "0ffbabceed9c289be962125c6e0f2626",
+  "idx": 37,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/HEXARAM/WorkFlow/Equip/2244.bytes",
+  "size": 5861,
+  "sha1": "45b427146d9739db2e436fc37cdd4ec90330f8ca",
+  "md5": "792154f5458d5778de7f9bfd165d6457",
+  "parse": {
+   "ok": true,
+   "clean": false,
+   "size": 5861,
+   "prefix": "66",
+   "marker_offset": 1,
+   "version": 1,
+   "header": {
+    "raw": "0100000c00b1c6780000f67200003dd40614002a0b000100",
+    "common": "0100000c00",
+    "u32s": [
+     7915185,
+     7534080,
+     114572544
+    ]
+   },
+   "records": [
+    [
+     16,
+     "00"
+    ],
+    [
+     34,
+     "6c6c0800"
+    ],
+    [
+     34,
+     "c8700800"
+    ],
+    [
+     19,
+     "a81800"
+    ],
+    [
+     19,
+     "691800"
+    ],
+    [
+     4,
+     "2800"
+    ],
+    [
+     34,
+     "c6780800"
+    ],
+    [
+     162,
+     "28030000"
+    ],
+    [
+     5,
+     "000000"
+    ]
+   ],
+   "record_count": 9,
+   "record_end": 69,
+   "strings": [
+    ".5/(1+(att.Equip_Cd_Rate/100))",
+    "?\"P.P",
+    "C\"h*tB\"`+dB\"",
+    ".l>\"h/d>\"",
+    "7,7\"87$7\"p7T6\"",
+    "-\"0A|*\"xD",
+    "%\"8It%\"xIl%\"",
+    "MO%Z&Z&Z%ZIO",
+    "Description_2244",
+    "lol_sxzl7h",
+    "1NewFlows/",
+    "/TrinityForce_buff&",
+    "base_attr",
+    "qack*2if",
+    "level>12){,",
+    ";}else{(0.4+math.floor(A",
+    "-1)/4)*0.2)*(I",
+    "phage_rage8",
+    "O0.32",
+    "ment_tips_057"
+   ],
+   "trailer": null,
+   "errors": [
+    "record stream stopped at unknown type 0xb2"
+   ]
+  }
+ },
+ {
+  "label": "equip_2247",
+  "vfs": "0ffbabceed9c289be962125c6e0f2626",
+  "idx": 38,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/HEXARAM/WorkFlow/Equip/2247.bytes",
+  "size": 6593,
+  "sha1": "56c2b5387147db416adcbc08af21449594d4f347",
+  "md5": "4fb036ff427402f307fc870d961aa6fe",
+  "parse": {
+   "ok": true,
+   "clean": false,
+   "size": 6593,
+   "prefix": "66",
+   "marker_offset": 1,
+   "version": 1,
+   "header": {
+    "raw": "0100000c00b1c68100009c7800008fc10814002a0b000100",
+    "common": "0100000c00",
+    "u32s": [
+     8505009,
+     7904256,
+     146902784
+    ]
+   },
+   "records": [
+    [
+     16,
+     "00"
+    ],
+    [
+     34,
+     "6c720800"
+    ],
+    [
+     34,
+     "8c760800"
+    ],
+    [
+     19,
+     "a81800"
+    ],
+    [
+     19,
+     "691800"
+    ],
+    [
+     4,
+     "2800"
+    ],
+    [
+     34,
+     "c6810800"
+    ],
+    [
+     162,
+     "18030000"
+    ],
+    [
+     5,
+     "000000"
+    ]
+   ],
+   "record_count": 9,
+   "record_end": 69,
+   "strings": [
+    "1*((att.Equip_Cd_Rate+100)/",
+    "@ZjR. ",
+    "/LC\"`0DC\"",
+    ";,9\"8;$9\"p;",
+    ">T5\"0?L5\"h?",
+    "B|1\"(Ct1\"`C",
+    "Q\\$\"8RT\"\"0UT",
+    "MO%Z&Z&Z%ZIO",
+    "Description_2247",
+    "lol_qcdc_new",
+    "~cd_move",
+    "attackspeed_dura",
+    "amountmindmg40maxdmg100minionsrate_min5",
+    "ax80NewFlows/Skill/",
+    "/StatikkFirecannon_buff_MoveToCharge8",
+    "!PFullS=",
+    "_Check:",
+    "HandsVfx4",
+    "pDamages)",
+    "attr_level-1)*(!",
+    "O)/14p",
+    "Lighting",
+    "RangeAdd4",
+    "!PCondin",
+    "!_Vfx((",
+    "Hex_Stormrazor_l",
+    "chongnengY",
+    "__crit_",
+    "listen_3449"
+   ],
+   "trailer": null,
+   "errors": [
+    "record stream stopped at unknown type 0x8"
+   ]
+  }
+ },
+ {
+  "label": "equip_2248",
+  "vfs": "0ffbabceed9c289be962125c6e0f2626",
+  "idx": 39,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/HEXARAM/WorkFlow/Equip/2248.bytes",
+  "size": 3915,
+  "sha1": "491a1934853a279e981135e993cc7f38ecd59180",
+  "md5": "a6dd56a5a036d4af3646730b2f48df2a",
+  "parse": {
+   "ok": true,
+   "clean": false,
+   "size": 3915,
+   "prefix": "66",
+   "marker_offset": 1,
+   "version": 1,
+   "header": {
+    "raw": "0100000c00b1bc4c00003048000040a30414002a0b000100",
+    "common": "0100000c00",
+    "u32s": [
+     5029041,
+     4730880,
+     77807616
+    ]
+   },
+   "records": [
+    [
+     16,
+     "00"
+    ],
+    [
+     34,
+     "88440800"
+    ],
+    [
+     34,
+     "f8460800"
+    ],
+    [
+     27,
+     "a81800"
+    ],
+    [
+     4,
+     "2800"
+    ],
+    [
+     34,
+     "bc4c0800"
+    ],
+    [
+     162,
+     "10030000"
+    ],
+    [
+     5,
+     "000000"
+    ],
+    [
+     148,
+     "4a1000"
+    ],
+    [
+     19,
+     "f40800"
+    ],
+    [
+     34,
+     "544b0800"
+    ],
+    [
+     34,
+     "30480800"
+    ],
+    [
+     19,
+     "841000"
+    ],
+    [
+     38,
+     "934a4800"
+    ],
+    [
+     132,
+     "0a000000"
+    ],
+    [
+     249,
+     "50e91f"
+    ]
+   ],
+   "record_count": 16,
+   "record_end": 101,
+   "strings": [
+    "1*((att.Equip_Cd_Rate+100)/",
+    " l%\"@ d%\"x ",
+    "MO%Z&Z&Z%ZIO",
+    "Description_2248",
+    "lol_sttkdrQ=",
+    "~cd_move",
+    "1NewFlows/",
+    "/StatikkShiv_buff%",
+    "o_ready+",
+    "attr_level*5B",
+    "ojsassp0"
+   ],
+   "trailer": null,
+   "errors": [
+    "record stream stopped at unknown type 0x80"
+   ]
+  }
+ },
+ {
+  "label": "equip_2256",
+  "vfs": "0ffbabceed9c289be962125c6e0f2626",
+  "idx": 40,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/HEXARAM/WorkFlow/Equip/2256.bytes",
+  "size": 5076,
+  "sha1": "c31bc8a915d10a39d98ed78975f9043121d706ba",
+  "md5": "8cd014ac0977a33bced59c3ae7ed21d3",
+  "parse": {
+   "ok": true,
+   "clean": false,
+   "size": 5076,
+   "prefix": "66",
+   "marker_offset": 1,
+   "version": 1,
+   "header": {
+    "raw": "0100000c00b154670000b66000005f4e0614002a0b000100",
+    "common": "0100000c00",
+    "u32s": [
+     6771889,
+     6338048,
+     105799424
+    ]
+   },
+   "records": [
+    [
+     16,
+     "00"
+    ],
+    [
+     34,
+     "e85b0800"
+    ],
+    [
+     34,
+     "1c5f0800"
+    ],
+    [
+     27,
+     "a81800"
+    ],
+    [
+     4,
+     "2800"
+    ],
+    [
+     34,
+     "54670800"
+    ],
+    [
+     162,
+     "18030000"
+    ],
+    [
+     5,
+     "000000"
+    ],
+    [
+     122,
+     "641000"
+    ],
+    [
+     19,
+     "fa0800"
+    ],
+    [
+     34,
+     "7a650800"
+    ],
+    [
+     34,
+     "b6600800"
+    ],
+    [
+     19,
+     "ba1000"
+    ],
+    [
+     38,
+     "77644800"
+    ],
+    [
+     132,
+     "0a000000"
+    ],
+    [
+     54,
+     "51ea"
+    ],
+    [
+     31,
+     "80002605"
+    ]
+   ],
+   "record_count": 17,
+   "record_end": 105,
+   "strings": [
+    "0/(1+(att.Equip_Cd_Rate/100))",
+    "2H*\"03@*\"h38*\"",
+    "6p&\"(7h&\"`7`&\"",
+    "MO%Z&Z&Z%ZIO",
+    "Description_2256",
+    "lol_dlks",
+    "03NewFlows/",
+    "/DuskbladeofDraktharr_findward2",
+    "buff2Buff",
+    "pdisable_",
+    "oattack0",
+    "attr_level-1)*71.4/10J",
+    "oeffect5",
+    "untargetble_battle<",
+    "evolistener"
+   ],
+   "trailer": null,
+   "errors": [
+    "record stream stopped at unknown type 0x0"
+   ]
+  }
+ },
+ {
+  "label": "equip_2262",
+  "vfs": "0ffbabceed9c289be962125c6e0f2626",
+  "idx": 41,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/HEXARAM/WorkFlow/Equip/2262.bytes",
+  "size": 3544,
+  "sha1": "86a99c8529db18e573c400d1bad1eb312e387e60",
+  "md5": "9587231eb5fee0b0bfe9cbcb0bf209fa",
+  "parse": {
+   "ok": true,
+   "clean": false,
+   "size": 3544,
+   "prefix": "66",
+   "marker_offset": 1,
+   "version": 1,
+   "header": {
+    "raw": "0100000c00b1644500001042000011a00314002a0b000100",
+    "common": "0100000c00",
+    "u32s": [
+     4547761,
+     4329472,
+     60821760
+    ]
+   },
+   "records": [
+    [
+     16,
+     "00"
+    ],
+    [
+     34,
+     "503e0800"
+    ],
+    [
+     34,
+     "d0400800"
+    ],
+    [
+     27,
+     "a81800"
+    ],
+    [
+     4,
+     "2800"
+    ],
+    [
+     34,
+     "64450800"
+    ]
+   ],
+   "record_count": 6,
+   "record_end": 56,
+   "strings": [
+    "MO%Z&Z&Z%ZIO",
+    "EquipDescription_2262",
+    "blol_mz*",
+    "2if(att.base_attr_max_mp>1){",
+    "*15/1000;}else{0;}NewFlows/W",
+    "/Manamune_refunds%",
+    "ocharge$",
+    "TearOfTheGoddess_manaN",
+    "mp_return_value",
+    "rupgradeH"
+   ],
+   "trailer": null,
+   "errors": [
+    "record stream stopped at unknown type 0xa3"
+   ]
+  }
+ },
+ {
+  "label": "equip_2263",
+  "vfs": "0ffbabceed9c289be962125c6e0f2626",
+  "idx": 42,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/HEXARAM/WorkFlow/Equip/2263.bytes",
+  "size": 5033,
+  "sha1": "3a923262f204c52d171447dd3bacdb247cf2bab5",
+  "md5": "83aa246c02e7b8ae8c7e058550e3a0c6",
+  "parse": {
+   "ok": true,
+   "clean": false,
+   "size": 5033,
+   "prefix": "66",
+   "marker_offset": 1,
+   "version": 1,
+   "header": {
+    "raw": "0100000c00b18a630000cc5d000091c30514002a0b000100",
+    "common": "0100000c00",
+    "u32s": [
+     6523569,
+     6147072,
+     96702720
+    ]
+   },
+   "records": [
+    [
+     16,
+     "00"
+    ],
+    [
+     34,
+     "bc580800"
+    ],
+    [
+     34,
+     "1c5c0800"
+    ],
+    [
+     19,
+     "a81800"
+    ],
+    [
+     19,
+     "b91800"
+    ],
+    [
+     4,
+     "2800"
+    ],
+    [
+     34,
+     "8a630800"
+    ],
+    [
+     64,
+     "300300"
+    ]
+   ],
+   "record_count": 8,
+   "record_end": 64,
+   "strings": [
+    "_5G`0",
+    "d9\"( ,9\"p L9\"",
+    "0\"p*<8\"(-<,\"",
+    "-4,\"0.,,\"h.T8\" 1d(\"",
+    "1\\(\"(2T(\"`2l8\"",
+    "5l$\"(6d$\"`6\\$\"",
+    "MO%Z&Z&Z%ZIO",
+    "EquipDescription_2262",
+    "3lol_mqadratio2attack",
+    "0.025spell",
+    "R40.06T",
+    "2if(att.base_attr_max_mp>1){",
+    "/100;}else{0;}NewFlows/a",
+    "/Muramana_refunds%",
+    "shockBuff",
+    "o_ready)",
+    "_effectV",
+    "rcharge_B",
+    "TearOfTheGoddess_8",
+    "odelete*",
+    "xability0",
+    "ment_tips_030"
+   ],
+   "trailer": null,
+   "errors": [
+    "record stream stopped at unknown type 0x0"
+   ]
+  }
+ },
+ {
+  "label": "equip_2269",
+  "vfs": "0ffbabceed9c289be962125c6e0f2626",
+  "idx": 43,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/HEXARAM/WorkFlow/Equip/2269.bytes",
+  "size": 5622,
+  "sha1": "a93deb2622628b16e881b939234d0312bac28c17",
+  "md5": "b1104b8d4e837a1df6c630f9a7437f69",
+  "parse": {
+   "ok": true,
+   "clean": false,
+   "size": 5622,
+   "prefix": "66",
+   "marker_offset": 1,
+   "version": 1,
+   "header": {
+    "raw": "0100000c00b1d0630000c65c00005be30614002a0b000100",
+    "common": "0100000c00",
+    "u32s": [
+     6541489,
+     6080000,
+     115563264
+    ]
+   },
+   "records": [
+    [
+     16,
+     "00"
+    ],
+    [
+     34,
+     "34580800"
+    ],
+    [
+     34,
+     "405b0800"
+    ],
+    [
+     19,
+     "a81800"
+    ],
+    [
+     19,
+     "311800"
+    ],
+    [
+     4,
+     "2800"
+    ],
+    [
+     34,
+     "d0630800"
+    ],
+    [
+     162,
+     "28030000"
+    ],
+    [
+     5,
+     "000000"
+    ],
+    [
+     146,
+     "601000"
+    ],
+    [
+     34,
+     "42610800"
+    ],
+    [
+     19,
+     "f20800"
+    ],
+    [
+     34,
+     "c65c0800"
+    ],
+    [
+     34,
+     "4a620800"
+    ],
+    [
+     38,
+     "8f604800"
+    ],
+    [
+     132,
+     "0a000000"
+    ],
+    [
+     120,
+     "51eb1f"
+    ]
+   ],
+   "record_count": 17,
+   "record_end": 106,
+   "strings": [
+    "28/28)*(att.attr_level)",
+    ".adrate*",
+    "abonus_",
+    "5+skill.basicdamage",
+    "9\"0 d8\"` ",
+    "%l3\"8&t2\"",
+    "&T/\"@*",
+    "2t&\"83l&\"p3d&\"",
+    "MO%Z&Z&Z%ZIO",
+    "EquipDescription_2269",
+    "Seryldas_GrudgeminarmorignorePmax",
+    "slow_amount",
+    "C#Rtotal.",
+    "uptimes5W",
+    "D0.15",
+    "internal0.2",
+    "/100NewFlows/3",
+    "_Trigger2",
+    "eveolistener",
+    "SlowDown_L_",
+    "frameendBuff@",
+    "Bloodlol_s",
+    "p/10WorkF",
+    "_reduceheal=",
+    "ment_tips_014"
+   ],
+   "trailer": null,
+   "errors": [
+    "record stream stopped at unknown type 0x80"
+   ]
+  }
+ },
+ {
+  "label": "equip_2272",
+  "vfs": "0ffbabceed9c289be962125c6e0f2626",
+  "idx": 44,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/HEXARAM/WorkFlow/Equip/2272.bytes",
+  "size": 7037,
+  "sha1": "6c7c038fa5465847050dba000637261120433c0a",
+  "md5": "3e2bb68fe5182110a477afafcc78c6ec",
+  "parse": {
+   "ok": true,
+   "clean": false,
+   "size": 7037,
+   "prefix": "66",
+   "marker_offset": 1,
+   "version": 1,
+   "header": {
+    "raw": "0100000c00b1be940000b285000059bb0d14002a0b000100",
+    "common": "0100000c00",
+    "u32s": [
+     9748145,
+     8761856,
+     230381824
+    ]
+   },
+   "records": [
+    [
+     16,
+     "00"
+    ],
+    [
+     34,
+     "b07e0800"
+    ],
+    [
+     34,
+     "5c830800"
+    ],
+    [
+     27,
+     "a81800"
+    ],
+    [
+     4,
+     "2800"
+    ],
+    [
+     34,
+     "be940800"
+    ],
+    [
+     162,
+     "28030000"
+    ],
+    [
+     5,
+     "000000"
+    ],
+    [
+     146,
+     "901000"
+    ],
+    [
+     34,
+     "4e910800"
+    ],
+    [
+     34,
+     "0a920800"
+    ],
+    [
+     34,
+     "b2850800"
+    ],
+    [
+     19,
+     "681000"
+    ],
+    [
+     38,
+     "91904800"
+    ],
+    [
+     16,
+     "0a"
+    ],
+    [
+     88,
+     "003451"
+    ]
+   ],
+   "record_count": 16,
+   "record_end": 99,
+   "strings": [
+    ".5/(1+(att.Equip_Cd_Rate/100))",
+    "f(skill.ratio_melee_damag\"",
+    "*tar.attr_max_hp<-",
+    "Qbase_0",
+    "attack){1",
+    ";}else{i",
+    "/X}P\\",
+    "$xZ\" %0X\"",
+    "Q\"h-@Q\"`.0Q\"",
+    "18M\"h20M\"",
+    "3\"0Mx3\"hMp3\"",
+    "U8,\"8Uh+\"",
+    "MO%Z&Z&Z%ZIO",
+    "Description_2272",
+    "lol_DivineSunderertime_ready10",
+    "62.5J",
+    "/50Tt",
+    "_building62.5",
+    "monsterNewFlows/SE",
+    "CastBuff",
+    "target_hp_value^",
+    "level>12)",
+    "(0.4+math.floor(W",
+    "Yordel_evolistener"
+   ],
+   "trailer": null,
+   "errors": [
+    "record stream stopped at unknown type 0xec"
+   ]
+  }
+ }
+]

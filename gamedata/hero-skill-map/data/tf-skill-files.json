@@ -1,0 +1,867 @@
+[
+ {
+  "vfs": "152f03eb6d23319dd62b6572d2461be0",
+  "idx": 60,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/ARUSB/WorkFlow/FreeSkill/50250501/50250501.bytes"
+ },
+ {
+  "vfs": "54d97966843141545dab9e6e90aef77f",
+  "idx": 5,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/ARUSB/WorkFlow/Hero/10025/10025.bytes"
+ },
+ {
+  "vfs": "7137babb9f1f514c918365eb6c96857b",
+  "idx": 5,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/CHERRY/WorkFlow/Hero/10025/10025.bytes"
+ },
+ {
+  "vfs": "7137babb9f1f514c918365eb6c96857b",
+  "idx": 52,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/CHERRY/WorkFlow/Hero/10025/Flow/twistedfate/addmoney.bytes"
+ },
+ {
+  "vfs": "7137babb9f1f514c918365eb6c96857b",
+  "idx": 53,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/CHERRY/WorkFlow/Hero/10025/Flow/twistedfate/loadeddice/e/proc.bytes"
+ },
+ {
+  "vfs": "7137babb9f1f514c918365eb6c96857b",
+  "idx": 54,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/CHERRY/WorkFlow/Hero/10025/Flow/twistedfate/passive/cherry.bytes"
+ },
+ {
+  "vfs": "19faca9d82c10eaf084bd0a57ed49d32",
+  "idx": 42,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/DOG/WorkFlow/FreeSkill/50250501/50250501.bytes"
+ },
+ {
+  "vfs": "19faca9d82c10eaf084bd0a57ed49d32",
+  "idx": 131,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/DOG/WorkFlow/Hero/10025/10025.bytes"
+ },
+ {
+  "vfs": "0ffbabceed9c289be962125c6e0f2626",
+  "idx": 429,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/HEXARAM/WorkFlow/FreeSkill/50250501/50250501.bytes"
+ },
+ {
+  "vfs": "6da0d79907059be11c34a7a5e95ae388",
+  "idx": 5,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/HEXARAM/WorkFlow/Hero/10025/10025.bytes"
+ },
+ {
+  "vfs": "ff05597c06ac9302be9704ceec126e3e",
+  "idx": 2,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/MR/WorkFlow/Hero/10025/10025.bytes"
+ },
+ {
+  "vfs": "ff05597c06ac9302be9704ceec126e3e",
+  "idx": 60,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/MR/WorkFlow/Hero/10025/Flow/twistedfate/addmoney.bytes"
+ },
+ {
+  "vfs": "ff05597c06ac9302be9704ceec126e3e",
+  "idx": 61,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/MR/WorkFlow/Hero/10025/Flow/twistedfate/attack01.bytes"
+ },
+ {
+  "vfs": "ff05597c06ac9302be9704ceec126e3e",
+  "idx": 62,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/MR/WorkFlow/Hero/10025/Flow/twistedfate/attack01/bullet 1.bytes"
+ },
+ {
+  "vfs": "ff05597c06ac9302be9704ceec126e3e",
+  "idx": 63,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/MR/WorkFlow/Hero/10025/Flow/twistedfate/attack01/bullet 2.bytes"
+ },
+ {
+  "vfs": "ff05597c06ac9302be9704ceec126e3e",
+  "idx": 64,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/MR/WorkFlow/Hero/10025/Flow/twistedfate/attack01/bullet 3.bytes"
+ },
+ {
+  "vfs": "ff05597c06ac9302be9704ceec126e3e",
+  "idx": 65,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/MR/WorkFlow/Hero/10025/Flow/twistedfate/attack01/bullet/add.bytes"
+ },
+ {
+  "vfs": "ff05597c06ac9302be9704ceec126e3e",
+  "idx": 66,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/MR/WorkFlow/Hero/10025/Flow/twistedfate/attack01/bullet/red.bytes"
+ },
+ {
+  "vfs": "ff05597c06ac9302be9704ceec126e3e",
+  "idx": 67,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/MR/WorkFlow/Hero/10025/Flow/twistedfate/attack01/bullet/yellow.bytes"
+ },
+ {
+  "vfs": "ff05597c06ac9302be9704ceec126e3e",
+  "idx": 68,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/MR/WorkFlow/Hero/10025/Flow/twistedfate/attack02.bytes"
+ },
+ {
+  "vfs": "ff05597c06ac9302be9704ceec126e3e",
+  "idx": 69,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/MR/WorkFlow/Hero/10025/Flow/twistedfate/card/blue.bytes"
+ },
+ {
+  "vfs": "ff05597c06ac9302be9704ceec126e3e",
+  "idx": 70,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/MR/WorkFlow/Hero/10025/Flow/twistedfate/card/red.bytes"
+ },
+ {
+  "vfs": "ff05597c06ac9302be9704ceec126e3e",
+  "idx": 71,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/MR/WorkFlow/Hero/10025/Flow/twistedfate/loadeddice/e/proc.bytes"
+ },
+ {
+  "vfs": "ff05597c06ac9302be9704ceec126e3e",
+  "idx": 72,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/MR/WorkFlow/Hero/10025/Flow/twistedfate/passive/blue.bytes"
+ },
+ {
+  "vfs": "ff05597c06ac9302be9704ceec126e3e",
+  "idx": 73,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/MR/WorkFlow/Hero/10025/Flow/twistedfate/passive/red.bytes"
+ },
+ {
+  "vfs": "ff05597c06ac9302be9704ceec126e3e",
+  "idx": 74,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/MR/WorkFlow/Hero/10025/Flow/twistedfate/passive/yellow.bytes"
+ },
+ {
+  "vfs": "ff05597c06ac9302be9704ceec126e3e",
+  "idx": 75,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/MR/WorkFlow/Hero/10025/Flow/twistedfate/skill01.bytes"
+ },
+ {
+  "vfs": "ff05597c06ac9302be9704ceec126e3e",
+  "idx": 76,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/MR/WorkFlow/Hero/10025/Flow/twistedfate/skill01/bullet.bytes"
+ },
+ {
+  "vfs": "ff05597c06ac9302be9704ceec126e3e",
+  "idx": 77,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/MR/WorkFlow/Hero/10025/Flow/twistedfate/skill02/bt.bytes"
+ },
+ {
+  "vfs": "ff05597c06ac9302be9704ceec126e3e",
+  "idx": 78,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/MR/WorkFlow/Hero/10025/Flow/twistedfate/skill02/buff01.bytes"
+ },
+ {
+  "vfs": "ff05597c06ac9302be9704ceec126e3e",
+  "idx": 79,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/MR/WorkFlow/Hero/10025/Flow/twistedfate/skill04/buff01.bytes"
+ },
+ {
+  "vfs": "ff05597c06ac9302be9704ceec126e3e",
+  "idx": 80,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/MR/WorkFlow/Hero/10025/Flow/twistedfate/stun/mark.bytes"
+ },
+ {
+  "vfs": "ff05597c06ac9302be9704ceec126e3e",
+  "idx": 81,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/MR/WorkFlow/Hero/10025/Flow/twistedfate/xuanyun/buff.bytes"
+ },
+ {
+  "vfs": "ff05597c06ac9302be9704ceec126e3e",
+  "idx": 197,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/MR/WorkFlow/Hero/10025/Skin/1002501/Replace/1002501.bytes"
+ },
+ {
+  "vfs": "ff05597c06ac9302be9704ceec126e3e",
+  "idx": 198,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/MR/WorkFlow/Hero/10025/Skin/1002502/Replace/1002502.bytes"
+ },
+ {
+  "vfs": "ff05597c06ac9302be9704ceec126e3e",
+  "idx": 199,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/MR/WorkFlow/Hero/10025/Skin/1002503/Replace/1002503.bytes"
+ },
+ {
+  "vfs": "ff05597c06ac9302be9704ceec126e3e",
+  "idx": 200,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/MR/WorkFlow/Hero/10025/Skin/1002504/Replace/1002504.bytes"
+ },
+ {
+  "vfs": "ff05597c06ac9302be9704ceec126e3e",
+  "idx": 201,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/MR/WorkFlow/Hero/10025/Skin/1002505/Replace/1002505.bytes"
+ },
+ {
+  "vfs": "ff05597c06ac9302be9704ceec126e3e",
+  "idx": 202,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/MR/WorkFlow/Hero/10025/Skin/1002506/Replace/1002506.bytes"
+ },
+ {
+  "vfs": "ff05597c06ac9302be9704ceec126e3e",
+  "idx": 203,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/MR/WorkFlow/Hero/10025/Skin/1002507/Replace/1002507.bytes"
+ },
+ {
+  "vfs": "ff05597c06ac9302be9704ceec126e3e",
+  "idx": 204,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/MR/WorkFlow/Hero/10025/Skin/1002507/ReplaceFlow/twistedfate/attack01/skin06.bytes"
+ },
+ {
+  "vfs": "ff05597c06ac9302be9704ceec126e3e",
+  "idx": 205,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/MR/WorkFlow/Hero/10025/Skin/1002508/Replace/1002508.bytes"
+ },
+ {
+  "vfs": "ff05597c06ac9302be9704ceec126e3e",
+  "idx": 206,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/MR/WorkFlow/Hero/10025/Skin/1002509/Replace/1002509.bytes"
+ },
+ {
+  "vfs": "ff05597c06ac9302be9704ceec126e3e",
+  "idx": 207,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/MR/WorkFlow/Hero/10025/Skin/1002509/ReplaceFlow/twistedfate/attack01/skin08.bytes"
+ },
+ {
+  "vfs": "ff05597c06ac9302be9704ceec126e3e",
+  "idx": 208,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/MR/WorkFlow/Hero/10025/Skin/1002510/Replace/1002510.bytes"
+ },
+ {
+  "vfs": "2cbbfb3d7e595ef10e599e5d95fe84b2",
+  "idx": 95,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/OLDHEXA/WorkFlow/FreeSkill/50250501/50250501.bytes"
+ },
+ {
+  "vfs": "160fc5619e6fb358017075b9f7bbb005",
+  "idx": 5,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/OLDHEXA/WorkFlow/Hero/10025/10025.bytes"
+ },
+ {
+  "vfs": "b3b41afab316fcd2729c576fc7779c89",
+  "idx": 30,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/TIGER/WorkFlow/Hero/10025/10025.bytes"
+ },
+ {
+  "vfs": "b411e1530d11910b34f1c9af8fc9a748",
+  "idx": 141,
+  "path": "Assets/ABPack/Resources/DataLayerCombined/URF/WorkFlow/Hero/10025/Flow/twistedfate/skill03/buff05.bytes"
+ },
+ {
+  "vfs": "dee95e00f461465f5d4a490468323048",
+  "idx": 0,
+  "path": "Assets/ABPack/Resources/WorkFlow/FreeSkill/50250201/50250201.bytes"
+ },
+ {
+  "vfs": "381f6beb3ad69ec21b1213cb00105fb7",
+  "idx": 448,
+  "path": "Assets/ABPack/Resources/WorkFlow/FreeSkill/50250201/Flow/twistedfate/skill01.bytes"
+ },
+ {
+  "vfs": "381f6beb3ad69ec21b1213cb00105fb7",
+  "idx": 449,
+  "path": "Assets/ABPack/Resources/WorkFlow/FreeSkill/50250201/Flow/twistedfate/skill01/bullet.bytes"
+ },
+ {
+  "vfs": "aa786f2e03766db03f786c9760661a36",
+  "idx": 58,
+  "path": "Assets/ABPack/Resources/WorkFlow/FreeSkill/50250201/Operate/SkillOperate/5002502.bytes"
+ },
+ {
+  "vfs": "fbbbdf4126c3175f8c6bd3d931d89c4f",
+  "idx": 0,
+  "path": "Assets/ABPack/Resources/WorkFlow/FreeSkill/50250301/50250301.bytes"
+ },
+ {
+  "vfs": "381f6beb3ad69ec21b1213cb00105fb7",
+  "idx": 450,
+  "path": "Assets/ABPack/Resources/WorkFlow/FreeSkill/50250301/Flow/twistedfate/attack01/bullet/blue.bytes"
+ },
+ {
+  "vfs": "381f6beb3ad69ec21b1213cb00105fb7",
+  "idx": 451,
+  "path": "Assets/ABPack/Resources/WorkFlow/FreeSkill/50250301/Flow/twistedfate/attack01/bullet/normal.bytes"
+ },
+ {
+  "vfs": "381f6beb3ad69ec21b1213cb00105fb7",
+  "idx": 452,
+  "path": "Assets/ABPack/Resources/WorkFlow/FreeSkill/50250301/Flow/twistedfate/attack01/bullet/red.bytes"
+ },
+ {
+  "vfs": "381f6beb3ad69ec21b1213cb00105fb7",
+  "idx": 453,
+  "path": "Assets/ABPack/Resources/WorkFlow/FreeSkill/50250301/Flow/twistedfate/attack01/bullet/yellow.bytes"
+ },
+ {
+  "vfs": "381f6beb3ad69ec21b1213cb00105fb7",
+  "idx": 454,
+  "path": "Assets/ABPack/Resources/WorkFlow/FreeSkill/50250301/Flow/twistedfate/attack02.bytes"
+ },
+ {
+  "vfs": "381f6beb3ad69ec21b1213cb00105fb7",
+  "idx": 455,
+  "path": "Assets/ABPack/Resources/WorkFlow/FreeSkill/50250301/Flow/twistedfate/card/blue.bytes"
+ },
+ {
+  "vfs": "381f6beb3ad69ec21b1213cb00105fb7",
+  "idx": 456,
+  "path": "Assets/ABPack/Resources/WorkFlow/FreeSkill/50250301/Flow/twistedfate/card/red.bytes"
+ },
+ {
+  "vfs": "381f6beb3ad69ec21b1213cb00105fb7",
+  "idx": 457,
+  "path": "Assets/ABPack/Resources/WorkFlow/FreeSkill/50250301/Flow/twistedfate/card/yellow.bytes"
+ },
+ {
+  "vfs": "381f6beb3ad69ec21b1213cb00105fb7",
+  "idx": 458,
+  "path": "Assets/ABPack/Resources/WorkFlow/FreeSkill/50250301/Flow/twistedfate/jiansu/buff.bytes"
+ },
+ {
+  "vfs": "381f6beb3ad69ec21b1213cb00105fb7",
+  "idx": 459,
+  "path": "Assets/ABPack/Resources/WorkFlow/FreeSkill/50250301/Flow/twistedfate/mana.bytes"
+ },
+ {
+  "vfs": "381f6beb3ad69ec21b1213cb00105fb7",
+  "idx": 460,
+  "path": "Assets/ABPack/Resources/WorkFlow/FreeSkill/50250301/Flow/twistedfate/skill02.bytes"
+ },
+ {
+  "vfs": "381f6beb3ad69ec21b1213cb00105fb7",
+  "idx": 461,
+  "path": "Assets/ABPack/Resources/WorkFlow/FreeSkill/50250301/Flow/twistedfate/skill02/bt.bytes"
+ },
+ {
+  "vfs": "381f6beb3ad69ec21b1213cb00105fb7",
+  "idx": 462,
+  "path": "Assets/ABPack/Resources/WorkFlow/FreeSkill/50250301/Flow/twistedfate/skill02/buff01.bytes"
+ },
+ {
+  "vfs": "381f6beb3ad69ec21b1213cb00105fb7",
+  "idx": 463,
+  "path": "Assets/ABPack/Resources/WorkFlow/FreeSkill/50250301/Flow/twistedfate/skill02/buff02.bytes"
+ },
+ {
+  "vfs": "381f6beb3ad69ec21b1213cb00105fb7",
+  "idx": 464,
+  "path": "Assets/ABPack/Resources/WorkFlow/FreeSkill/50250301/Flow/twistedfate/skill02/buff03.bytes"
+ },
+ {
+  "vfs": "381f6beb3ad69ec21b1213cb00105fb7",
+  "idx": 465,
+  "path": "Assets/ABPack/Resources/WorkFlow/FreeSkill/50250301/Flow/twistedfate/skill02/buff04.bytes"
+ },
+ {
+  "vfs": "381f6beb3ad69ec21b1213cb00105fb7",
+  "idx": 466,
+  "path": "Assets/ABPack/Resources/WorkFlow/FreeSkill/50250301/Flow/twistedfate/xuanyun/buff.bytes"
+ },
+ {
+  "vfs": "aa786f2e03766db03f786c9760661a36",
+  "idx": 59,
+  "path": "Assets/ABPack/Resources/WorkFlow/FreeSkill/50250301/Operate/SkillOperate/5002501.bytes"
+ },
+ {
+  "vfs": "aa786f2e03766db03f786c9760661a36",
+  "idx": 60,
+  "path": "Assets/ABPack/Resources/WorkFlow/FreeSkill/50250301/Operate/SkillOperate/5002503.bytes"
+ },
+ {
+  "vfs": "aa786f2e03766db03f786c9760661a36",
+  "idx": 61,
+  "path": "Assets/ABPack/Resources/WorkFlow/FreeSkill/50250301/Operate/SkillOperate/5002504.bytes"
+ },
+ {
+  "vfs": "5f7b21b9ad5b604daf860a0b8e95f17c",
+  "idx": 0,
+  "path": "Assets/ABPack/Resources/WorkFlow/FreeSkill/50250501/50250501.bytes"
+ },
+ {
+  "vfs": "381f6beb3ad69ec21b1213cb00105fb7",
+  "idx": 467,
+  "path": "Assets/ABPack/Resources/WorkFlow/FreeSkill/50250501/Flow/twistedfate/skill03.bytes"
+ },
+ {
+  "vfs": "381f6beb3ad69ec21b1213cb00105fb7",
+  "idx": 468,
+  "path": "Assets/ABPack/Resources/WorkFlow/FreeSkill/50250501/Flow/twistedfate/skill03/bt.bytes"
+ },
+ {
+  "vfs": "381f6beb3ad69ec21b1213cb00105fb7",
+  "idx": 469,
+  "path": "Assets/ABPack/Resources/WorkFlow/FreeSkill/50250501/Flow/twistedfate/skill03/buff01.bytes"
+ },
+ {
+  "vfs": "381f6beb3ad69ec21b1213cb00105fb7",
+  "idx": 470,
+  "path": "Assets/ABPack/Resources/WorkFlow/FreeSkill/50250501/Flow/twistedfate/skill03/buff03.bytes"
+ },
+ {
+  "vfs": "381f6beb3ad69ec21b1213cb00105fb7",
+  "idx": 471,
+  "path": "Assets/ABPack/Resources/WorkFlow/FreeSkill/50250501/Flow/twistedfate/skill03/buff05.bytes"
+ },
+ {
+  "vfs": "aa786f2e03766db03f786c9760661a36",
+  "idx": 62,
+  "path": "Assets/ABPack/Resources/WorkFlow/FreeSkill/50250501/Operate/SkillOperate/5002505.bytes"
+ },
+ {
+  "vfs": "aa786f2e03766db03f786c9760661a36",
+  "idx": 63,
+  "path": "Assets/ABPack/Resources/WorkFlow/FreeSkill/50250501/Operate/SkillOperate/5002506.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 0,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/10025.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 1,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Flow/h/twistedfate/die.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 2,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Flow/twistedfate/addmoney.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 10,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Flow/twistedfate/attack/add.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 11,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Flow/twistedfate/attack/addhit.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 3,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Flow/twistedfate/attack01.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 4,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Flow/twistedfate/attack01/bullet/add.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 5,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Flow/twistedfate/attack01/bullet/blue.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 6,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Flow/twistedfate/attack01/bullet/normal.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 7,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Flow/twistedfate/attack01/bullet/red.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 8,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Flow/twistedfate/attack01/bullet/yellow.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 9,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Flow/twistedfate/attack02.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 12,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Flow/twistedfate/born.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 13,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Flow/twistedfate/card/blue.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 14,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Flow/twistedfate/card/red.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 15,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Flow/twistedfate/card/yellow.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 16,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Flow/twistedfate/jiansu/buff.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 17,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Flow/twistedfate/loadeddice/e/proc.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 18,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Flow/twistedfate/mana.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 19,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Flow/twistedfate/passive.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 20,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Flow/twistedfate/return/001.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 21,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Flow/twistedfate/skill01.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 22,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Flow/twistedfate/skill01/bullet.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 23,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Flow/twistedfate/skill02.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 24,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Flow/twistedfate/skill02/bt.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 25,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Flow/twistedfate/skill02/buff01.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 26,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Flow/twistedfate/skill02/buff02.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 27,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Flow/twistedfate/skill02/buff03.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 28,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Flow/twistedfate/skill02/buff04.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 29,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Flow/twistedfate/skill02/reset.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 30,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Flow/twistedfate/skill03.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 31,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Flow/twistedfate/skill03/bt.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 32,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Flow/twistedfate/skill03/buff01.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 33,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Flow/twistedfate/skill03/buff02.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 34,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Flow/twistedfate/skill03/buff03.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 35,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Flow/twistedfate/skill03/buff04.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 36,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Flow/twistedfate/skill03/buff05.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 37,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Flow/twistedfate/skill03/buff06.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 38,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Flow/twistedfate/skill03/disappear.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 39,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Flow/twistedfate/skill03/reset.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 40,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Flow/twistedfate/skill04.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 41,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Flow/twistedfate/skill04/buff01.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 42,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Flow/twistedfate/skill04/buffvfx.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 43,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Flow/twistedfate/skillcast.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 44,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Flow/twistedfate/xuanyun/buff.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 45,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Operate/SkillOperate/1002501.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 46,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Operate/SkillOperate/1002502.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 47,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Operate/SkillOperate/1002503.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 48,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Operate/SkillOperate/1002504.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 49,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Operate/SkillOperate/1002505.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 50,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Operate/SkillOperate/1002506.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 51,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Operate/SkillOperate/1002511.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 52,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Operate/SkillOperate/1002512.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 53,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Operate/SkillOperate/1002513.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 54,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Operate/SkillOperate/1002514.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 55,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Skin/1002501/Item/1002501.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 56,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Skin/1002501/Replace/1002501.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 57,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Skin/1002502/Item/1002502.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 58,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Skin/1002502/Replace/1002502.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 59,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Skin/1002502/ReplaceFlow/twistedfate/return/skin01.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 60,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Skin/1002503/Item/1002503.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 61,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Skin/1002503/Replace/1002503.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 62,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Skin/1002503/ReplaceFlow/twistedfate/return/skin02.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 63,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Skin/1002504/Item/1002504.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 64,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Skin/1002504/Replace/1002504.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 65,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Skin/1002504/ReplaceFlow/twistedfate/return/skin03.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 66,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Skin/1002505/Item/1002505.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 67,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Skin/1002505/Replace/1002505.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 68,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Skin/1002505/ReplaceFlow/twistedfate/return/skin04.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 69,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Skin/1002506/Item/1002506.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 70,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Skin/1002506/Replace/1002506.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 71,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Skin/1002506/ReplaceFlow/twistedfate/return/skin05.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 72,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Skin/1002507/Item/1002507.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 73,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Skin/1002507/Replace/1002507.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 74,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Skin/1002507/ReplaceFlow/twistedfate/attack01/skin06.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 75,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Skin/1002507/ReplaceFlow/twistedfate/return/skin06.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 76,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Skin/1002508/Item/1002508.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 77,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Skin/1002508/Replace/1002508.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 78,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Skin/1002508/Replace/10025081.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 79,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Skin/1002508/Replace/10025082.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 80,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Skin/1002508/ReplaceFlow/twistedfate/return/skin07.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 81,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Skin/1002508/ReplaceFlow/twistedfate/return/skin07/upgrade01.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 82,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Skin/1002508/ReplaceFlow/twistedfate/return/skin07/upgrade02.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 83,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Skin/1002509/Item/1002509.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 84,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Skin/1002509/Replace/1002509.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 85,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Skin/1002509/ReplaceFlow/twistedfate/attack01/skin08.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 86,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Skin/1002509/ReplaceFlow/twistedfate/return/skin08.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 87,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Skin/1002510/Item/1002510.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 88,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Skin/1002510/Replace/1002510.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 89,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Skin/1002510/Replace/1025100201.bytes"
+ },
+ {
+  "vfs": "e864e9d7848de8613bc291545ad27a5d",
+  "idx": 90,
+  "path": "Assets/ABPack/Resources/WorkFlow/Hero/10025/Skin/1002510/ReplaceFlow/twistedfate/return/001/skin09.bytes"
+ }
+]

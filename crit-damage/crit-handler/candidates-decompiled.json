@@ -1,0 +1,242 @@
+{
+ "results": [
+  {
+   "label": "FlowActionTriggerBeforeCalcCritForAttacker_OnBeforeCalCritHandler",
+   "address": 78642016,
+   "decompiled": true,
+   "c_file": "candidate-04AFFB60-FlowActionTriggerBeforeCalcCritForAttacker_OnBeforeCalCritHa.c",
+   "c_len": 85
+  },
+  {
+   "label": "FlowActionTriggerBeforeCalcCritForTarget_OnBeforeCalCritTargetHandler",
+   "address": 78593492,
+   "decompiled": true,
+   "c_file": "candidate-04AF3DD4-FlowActionTriggerBeforeCalcCritForTarget_OnBeforeCalCritTarg.c",
+   "c_len": 85
+  },
+  {
+   "label": "FlowActionAfterCalDmgForAttacker_OnAfterCalDamageAttackHandler",
+   "address": 78450700,
+   "decompiled": true,
+   "c_file": "candidate-04AD100C-FlowActionAfterCalDmgForAttacker_OnAfterCalDamageAttackHandl.c",
+   "c_len": 85
+  },
+  {
+   "label": "FlowActionBeforeCalDmgForAttacker_OnBeforeCalDamageAttackHandler",
+   "address": 78454932,
+   "decompiled": true,
+   "c_file": "candidate-04AD2094-FlowActionBeforeCalDmgForAttacker_OnBeforeCalDamageAttackHan.c",
+   "c_len": 85
+  },
+  {
+   "label": "FlowActionAttackDelayDieTrigger_OnActorDie",
+   "address": 78358028,
+   "decompiled": true,
+   "c_file": "candidate-04ABA60C-FlowActionAttackDelayDieTrigger_OnActorDie.c",
+   "c_len": 746
+  },
+  {
+   "label": "FlowActionAttackDelayDieTrigger_OnInflict",
+   "address": 78357772,
+   "decompiled": true,
+   "c_file": "candidate-04ABA50C-FlowActionAttackDelayDieTrigger_OnInflict.c",
+   "c_len": 1123
+  },
+  {
+   "label": "FlowActionAttackTypeChangeTrigger_OnAttackTypeHandler",
+   "address": 78546504,
+   "decompiled": true,
+   "c_file": "candidate-04AE8648-FlowActionAttackTypeChangeTrigger_OnAttackTypeHandler.c",
+   "c_len": 197
+  },
+  {
+   "label": "FlowActionModifyAfterCalDamagebyAttacker_OnHurt",
+   "address": 78715176,
+   "decompiled": true,
+   "c_file": "candidate-04B11928-FlowActionModifyAfterCalDamagebyAttacker_OnHurt.c",
+   "c_len": 85
+  },
+  {
+   "label": "FlowActionRuneStatDataAddByTrigger_OnAfterCalDamageAttackHandler",
+   "address": 77862808,
+   "decompiled": true,
+   "c_file": "candidate-04A41798-FlowActionRuneStatDataAddByTrigger_OnAfterCalDamageAttackHan.c",
+   "c_len": 85
+  },
+  {
+   "label": "FlowActionRuneStatDataAddByTrigger_OnStatAttackerModificationRateValueDamage",
+   "address": 77863024,
+   "decompiled": true,
+   "c_file": "candidate-04A41870-FlowActionRuneStatDataAddByTrigger_OnStatAttackerModificatio.c",
+   "c_len": 85
+  },
+  {
+   "label": "FlowActionRunesStatistics_OnAfterCalDamageAttackHandler",
+   "address": 77869740,
+   "decompiled": true,
+   "c_file": "candidate-04A432AC-FlowActionRunesStatistics_OnAfterCalDamageAttackHandler.c",
+   "c_len": 85
+  },
+  {
+   "label": "ParallelFlowActionRuneStatDataAddByTrigger_OnAfterCalDamageAttackHandler",
+   "address": 80242716,
+   "decompiled": true,
+   "c_file": "candidate-04C8681C-ParallelFlowActionRuneStatDataAddByTrigger_OnAfterCalDamageA.c",
+   "c_len": 85
+  },
+  {
+   "label": "ParallelFlowActionTriggerCompareHpWithinTime_OnAttack",
+   "address": 80131608,
+   "decompiled": true,
+   "c_file": "candidate-04C6B618-ParallelFlowActionTriggerCompareHpWithinTime_OnAttack.c",
+   "c_len": 123
+  },
+  {
+   "label": "ParallelFlowActionTriggerHurt_OnAfterCalDamageAttack",
+   "address": 80163956,
+   "decompiled": true,
+   "c_file": "candidate-04C73474-ParallelFlowActionTriggerHurt_OnAfterCalDamageAttack.c",
+   "c_len": 198
+  },
+  {
+   "label": "ParallelFlowActionTriggerHurt_OnAttack",
+   "address": 80164164,
+   "decompiled": true,
+   "c_file": "candidate-04C73544-ParallelFlowActionTriggerHurt_OnAttack.c",
+   "c_len": 198
+  },
+  {
+   "label": "ParallelFlowActionTriggerHurt_OnBeforeAttack",
+   "address": 80163300,
+   "decompiled": true,
+   "c_file": "candidate-04C731E4-ParallelFlowActionTriggerHurt_OnBeforeAttack.c",
+   "c_len": 198
+  },
+  {
+   "label": "ParallelFlowActionTriggerHurt_OnBeforeCalDamageAttack",
+   "address": 80163508,
+   "decompiled": true,
+   "c_file": "candidate-04C732B4-ParallelFlowActionTriggerHurt_OnBeforeCalDamageAttack.c",
+   "c_len": 198
+  },
+  {
+   "label": "ParallelFlowActionTriggerHurt_OnPreAfterCalDamageAttack",
+   "address": 80163732,
+   "decompiled": true,
+   "c_file": "candidate-04C73394-ParallelFlowActionTriggerHurt_OnPreAfterCalDamageAttack.c",
+   "c_len": 304
+  },
+  {
+   "label": "PileAttackingRefreshGameState_OnAttackHander",
+   "address": 70427408,
+   "decompiled": true,
+   "c_file": "candidate-0432A310-PileAttackingRefreshGameState_OnAttackHander.c",
+   "c_len": 157
+  },
+  {
+   "label": "PileAttackingRefreshGameState_OnDieHander",
+   "address": 70427580,
+   "decompiled": true,
+   "c_file": "candidate-0432A3BC-PileAttackingRefreshGameState_OnDieHander.c",
+   "c_len": 85
+  },
+  {
+   "label": "PileAttackingRefreshGameState_OnKillHander",
+   "address": 70427436,
+   "decompiled": true,
+   "c_file": "candidate-0432A32C-PileAttackingRefreshGameState_OnKillHander.c",
+   "c_len": 649
+  },
+  {
+   "label": "ActorComponentAFKMgr_OnBeforeAttack",
+   "address": 33389816,
+   "decompiled": true,
+   "c_file": "candidate-01FD7CF8-ActorComponentAFKMgr_OnBeforeAttack.c",
+   "c_len": 85
+  },
+  {
+   "label": "ActorComponentAttackStateMgr_OnReset",
+   "address": 33528196,
+   "decompiled": true,
+   "c_file": "candidate-01FF9984-ActorComponentAttackStateMgr_OnReset.c",
+   "c_len": 49
+  },
+  {
+   "label": "HeroVariantAttackUseAssist_OnSkillChange",
+   "address": 33469752,
+   "decompiled": true,
+   "c_file": "candidate-01FEB538-HeroVariantAttackUseAssist_OnSkillChange.c",
+   "c_len": 85
+  },
+  {
+   "label": "HeroVariantAttackUseAssist_OnSkillStoped",
+   "address": 33469776,
+   "decompiled": true,
+   "c_file": "candidate-01FEB550-HeroVariantAttackUseAssist_OnSkillStoped.c",
+   "c_len": 85
+  },
+  {
+   "label": "HeroVariantAttackUseAssist_OnUseSkill",
+   "address": 33469728,
+   "decompiled": true,
+   "c_file": "candidate-01FEB520-HeroVariantAttackUseAssist_OnUseSkill.c",
+   "c_len": 85
+  },
+  {
+   "label": "ne5Logic14AttackerRecordE(type-fragment)",
+   "address": 31466920,
+   "decompiled": true,
+   "c_file": "candidate-01E025A8-ne5Logic14AttackerRecordE-type-fragment-.c",
+   "c_len": 738
+  },
+  {
+   "label": "r29SummonedYordleHeraldAttackingE(type-fragment)",
+   "address": 77939980,
+   "decompiled": false,
+   "error": "decompile returned None"
+  },
+  {
+   "label": "inner-attacker-handler (sub_4AFFB60 ->)",
+   "address": 78641064,
+   "decompiled": true,
+   "c_file": "candidate-04AFF7A8-inner-attacker-handler-sub_4AFFB60---.c",
+   "c_len": 3839
+  },
+  {
+   "label": "inner-target-handler (sub_4AF3DD4 ->)",
+   "address": 78592924,
+   "decompiled": true,
+   "c_file": "candidate-04AF3B9C-inner-target-handler-sub_4AF3DD4---.c",
+   "c_len": 1466
+  },
+  {
+   "label": "dispatch-core sub_1E8CD34",
+   "address": 32034100,
+   "decompiled": true,
+   "c_file": "candidate-01E8CD34-dispatch-core-sub_1E8CD34.c",
+   "c_len": 1425
+  },
+  {
+   "label": "dispatch-lookup sub_1A844A4",
+   "address": 27804836,
+   "decompiled": false,
+   "error": "decompile returned None"
+  },
+  {
+   "label": "trigger-helper sub_4AFF72C",
+   "address": 78640940,
+   "decompiled": true,
+   "c_file": "candidate-04AFF72C-trigger-helper-sub_4AFF72C.c",
+   "c_len": 441
+  },
+  {
+   "label": "map-lookup sub_42F28C4",
+   "address": 70199492,
+   "decompiled": false,
+   "error": "decompile returned None"
+  }
+ ],
+ "total": 34,
+ "ok": 31,
+ "total_seconds": 0.3
+}

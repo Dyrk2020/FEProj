@@ -1,0 +1,64 @@
+{
+ "name": "h_lulu",
+ "source": "Assets/ABPack/Resources/Actors/h_lulu/Skin00/InGame/ActorCfgData/h_lulu_pre.bytes",
+ "vfs": "48cec4b51dd6a45fae0027887aa82133",
+ "size": 680,
+ "md5": "2a68170a79101277aa7ce0974077f989",
+ "record_count": 8,
+ "record_end": 64,
+ "parse_confidence": 0.8,
+ "schema": "FrameEngine.Interface.ActorCfgData",
+ "schema_alignment_confidence": "none",
+ "container_records": 0,
+ "payload_records": 8,
+ "labeled_records": 0,
+ "parse_errors": [
+  "record stream stopped at unknown type 0xec"
+ ],
+ "hints": {
+  "name_keys": [],
+  "desc_keys": [],
+  "formulas": [],
+  "flows": [],
+  "attr_refs": []
+ },
+ "strings": [
+  "#Ze_tope_spinee_fire_r",
+  "`le_t01",
+  "2e_defaulte_headL"
+ ],
+ "fields": {
+  "field_0": {
+   "t": 16,
+   "v": 0
+  },
+  "field_1": {
+   "t": 34,
+   "v": 525688
+  },
+  "field_2": {
+   "t": 19,
+   "v": 2208
+  },
+  "field_3": {
+   "t": 27,
+   "v": 6312
+  },
+  "field_4": {
+   "t": 4,
+   "v": 40
+  },
+  "field_5": {
+   "t": 34,
+   "v": 525904
+  },
+  "field_6": {
+   "t": 147,
+   "v": 328
+  },
+  "field_7": {
+   "t": 5,
+   "v": 0
+  }
+ }
+}

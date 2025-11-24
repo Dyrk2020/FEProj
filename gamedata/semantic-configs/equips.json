@@ -1,0 +1,2021 @@
+[
+ {
+  "name": "equip_2121",
+  "source": "Assets/ABPack/Resources/DataLayerCombined/HEXARAM/WorkFlow/Equip/2121.bytes",
+  "vfs": "0ffbabceed9c289be962125c6e0f2626",
+  "size": 2954,
+  "md5": "4f6a10fcf7c2b292a63d4d44bd2d66e8",
+  "record_count": 15,
+  "record_end": 96,
+  "parse_confidence": 0.8,
+  "schema": "FrameEngineVisi.Common.EquipResObject",
+  "schema_alignment_confidence": "medium",
+  "container_records": 8,
+  "payload_records": 7,
+  "labeled_records": 15,
+  "parse_errors": [
+   "record stream stopped at unknown type 0xf3"
+  ],
+  "hints": {
+   "name_keys": [
+    "lol_nszl,"
+   ],
+   "desc_keys": [
+    "EquipDescription_2121"
+   ],
+   "formulas": [
+    "naatt.mp_return_value*1/10B"
+   ],
+   "flows": [
+    "2NewFlows/"
+   ],
+   "attr_refs": [
+    "mp_return_value"
+   ]
+  },
+  "strings": [
+   "MO%Z&Z&Z%ZIO",
+   "EquipDescription_2121",
+   "lol_nszl,",
+   "2NewFlows/",
+   "/TearOfTheGoddess_refunds-",
+   "chargeBuff",
+   "delete2-",
+   "naatt.mp_return_value*1/10B"
+  ],
+  "fields": {
+   "_seriaTypeNo_ConfigVisi": {
+    "t": 16,
+    "v": 0
+   },
+   "equipIconPath": {
+    "t": 34,
+    "v": 536988
+   },
+   "isInShelf": {
+    "t": 34,
+    "v": 537436
+   },
+   "disable": {
+    "t": 27,
+    "v": 6312
+   },
+   "isShowCompoundDesc": {
+    "t": 4,
+    "v": 40
+   },
+   "isUpCompoundEquip": {
+    "t": 34,
+    "v": 538572
+   },
+   "price": {
+    "t": 162,
+    "v": 792
+   },
+   "hp": {
+    "t": 5,
+    "v": 0
+   },
+   "hpRecover": {
+    "t": 56,
+    "v": 4150
+   },
+   "hpRecoverRate": {
+    "t": 19,
+    "v": 2176
+   },
+   "ad": {
+    "t": 19,
+    "v": 2248
+   },
+   "armor": {
+    "t": 34,
+    "v": 537660
+   },
+   "armorPierce": {
+    "t": 19,
+    "v": 4332
+   },
+   "armorPierceRate": {
+    "t": 38,
+    "v": 4732469
+   },
+   "criRate": {
+    "t": 132,
+    "v": 10
+   }
+  }
+ },
+ {
+  "name": "equip_2122",
+  "source": "Assets/ABPack/Resources/DataLayerCombined/HEXARAM/WorkFlow/Equip/2122.bytes",
+  "vfs": "0ffbabceed9c289be962125c6e0f2626",
+  "size": 3849,
+  "md5": "733152c5bd8de4b333ee85529c6639b7",
+  "record_count": 17,
+  "record_end": 105,
+  "parse_confidence": 0.8,
+  "schema": "FrameEngineVisi.Common.EquipResObject",
+  "schema_alignment_confidence": "medium",
+  "container_records": 9,
+  "payload_records": 8,
+  "labeled_records": 17,
+  "parse_errors": [
+   "record stream stopped at unknown type 0x80"
+  ],
+  "hints": {
+   "name_keys": [],
+   "desc_keys": [
+    "Description_2122",
+    "ment_tips_095"
+   ],
+   "formulas": [
+    ".5/(1+(att.Equip_Cd_Rate/100))",
+    ";}else{(0.4+math.floor(?"
+   ],
+   "flows": [
+    "01NewFlows/"
+   ],
+   "attr_refs": [
+    "Equip_Cd_Rate"
+   ]
+  },
+  "strings": [
+   ".5/(1+(att.Equip_Cd_Rate/100))",
+   "MO%Z&Z&Z%ZIO",
+   "Description_2122",
+   "olol_yg",
+   "01NewFlows/",
+   "/Sheen_buffBuffj",
+   "base_attr",
+   "level>12){*",
+   ";}else{(0.4+math.floor(?",
+   "-1)/4)*0.2)*F",
+   "ment_tips_095"
+  ],
+  "fields": {
+   "_seriaTypeNo_ConfigVisi": {
+    "t": 16,
+    "v": 0
+   },
+   "equipIconPath": {
+    "t": 34,
+    "v": 540964
+   },
+   "isInShelf": {
+    "t": 34,
+    "v": 541656
+   },
+   "disable": {
+    "t": 19,
+    "v": 6312
+   },
+   "isShowCompoundDesc": {
+    "t": 19,
+    "v": 6177
+   },
+   "isUpCompoundEquip": {
+    "t": 4,
+    "v": 40
+   },
+   "price": {
+    "t": 34,
+    "v": 543082
+   },
+   "hp": {
+    "t": 162,
+    "v": 792
+   },
+   "hpRecover": {
+    "t": 5,
+    "v": 0
+   },
+   "hpRecoverRate": {
+    "t": 82,
+    "v": 4167
+   },
+   "ad": {
+    "t": 19,
+    "v": 2206
+   },
+   "armor": {
+    "t": 19,
+    "v": 2282
+   },
+   "armorPierce": {
+    "t": 34,
+    "v": 542002
+   },
+   "armorPierceRate": {
+    "t": 34,
+    "v": 542736
+   },
+   "criRate": {
+    "t": 38,
+    "v": 4736847
+   },
+   "criDamage": {
+    "t": 132,
+    "v": 10
+   },
+   "attackSpeedRate": {
+    "t": 244,
+    "v": 2058560
+   }
+  }
+ },
+ {
+  "name": "equip_2141",
+  "source": "Assets/ABPack/Resources/DataLayerCombined/HEXARAM/WorkFlow/Equip/2141.bytes",
+  "vfs": "0ffbabceed9c289be962125c6e0f2626",
+  "size": 4829,
+  "md5": "f2827fe919a1b4d7d9b9c1d57f7a8312",
+  "record_count": 9,
+  "record_end": 69,
+  "parse_confidence": 0.8,
+  "schema": "FrameEngineVisi.Common.EquipResObject",
+  "schema_alignment_confidence": "medium",
+  "container_records": 9,
+  "payload_records": 0,
+  "labeled_records": 9,
+  "parse_errors": [
+   "record stream stopped at unknown type 0x46"
+  ],
+  "hints": {
+   "name_keys": [
+    "lol_ldldzmtime3increase"
+   ],
+   "desc_keys": [
+    "EquipDescription_2141",
+    "tips_081"
+   ],
+   "formulas": [
+    "ar.attr_max_hp*skill.total_dmg_ratio_fix",
+    "/2math.min(",
+    "1/100;}else{if("
+   ],
+   "flows": [
+    "2NewFlows/"
+   ],
+   "attr_refs": [
+    "max_hp",
+    "total_dmg_ratio_fix"
+   ]
+  },
+  "strings": [
+   "ar.attr_max_hp*skill.total_dmg_ratio_fix",
+   "level-1)*(skT",
+   "!D2\"h$l'\"@%",
+   ")|\"\"(*t\"\"`*l\"\"",
+   "MO%Z&Z&Z%ZIO",
+   "EquipDescription_2141",
+   "lol_ldldzmtime3increase",
+   "7B0.02",
+   "on_textT:@",
+   "2NewFlows/",
+   "/LiandrysTorment_buff1*",
+   "c.stack",
+   "/2math.min(",
+   "1/100;}else{if(",
+   "monster_type==2){5!",
+   "evolistener",
+   "p_Heimer",
+   "conqueror_hurte=",
+   "tips_081"
+  ],
+  "fields": {
+   "_seriaTypeNo_ConfigVisi": {
+    "t": 16,
+    "v": 0
+   },
+   "equipIconPath": {
+    "t": 34,
+    "v": 543636
+   },
+   "isInShelf": {
+    "t": 34,
+    "v": 544320
+   },
+   "disable": {
+    "t": 19,
+    "v": 6312
+   },
+   "isShowCompoundDesc": {
+    "t": 19,
+    "v": 6289
+   },
+   "isUpCompoundEquip": {
+    "t": 4,
+    "v": 40
+   },
+   "price": {
+    "t": 34,
+    "v": 546318
+   },
+   "hp": {
+    "t": 162,
+    "v": 784
+   },
+   "hpRecover": {
+    "t": 5,
+    "v": 0
+   }
+  }
+ },
+ {
+  "name": "equip_2142",
+  "source": "Assets/ABPack/Resources/DataLayerCombined/HEXARAM/WorkFlow/Equip/2142.bytes",
+  "vfs": "0ffbabceed9c289be962125c6e0f2626",
+  "size": 4064,
+  "md5": "b3369ee45fe1b1f75ff0cb83b5db0dfd",
+  "record_count": 9,
+  "record_end": 68,
+  "parse_confidence": 0.8,
+  "schema": "FrameEngineVisi.Common.EquipResObject",
+  "schema_alignment_confidence": "medium",
+  "container_records": 8,
+  "payload_records": 1,
+  "labeled_records": 9,
+  "parse_errors": [
+   "record stream stopped at unknown type 0x0"
+  ],
+  "hints": {
+   "name_keys": [
+    "lol_dtszz-"
+   ],
+   "desc_keys": [
+    "EquipDescription_2142"
+   ],
+   "formulas": [
+    "!TearOfTheGoddess_manaif(att.base_attr_max_mp>1){",
+    "*1/100;}else{0;}"
+   ],
+   "flows": [
+    "3NewFlows/"
+   ],
+   "attr_refs": [
+    "base_attr_max_mp"
+   ]
+  },
+  "strings": [
+   "+\"8 h*\"p @*\"",
+   "MO%Z&Z&Z%ZIO",
+   "EquipDescription_2142",
+   "lol_dtszz-",
+   "3NewFlows/",
+   "/ArchangelStaff_charge*",
+   "!TearOfTheGoddess_manaif(att.base_attr_max_mp>1){",
+   "*1/100;}else{0;}",
+   "prefundsJ",
+   "mp_return_value*25O"
+  ],
+  "fields": {
+   "_seriaTypeNo_ConfigVisi": {
+    "t": 16,
+    "v": 0
+   },
+   "equipIconPath": {
+    "t": 34,
+    "v": 542980
+   },
+   "isInShelf": {
+    "t": 34,
+    "v": 543728
+   },
+   "disable": {
+    "t": 27,
+    "v": 6312
+   },
+   "isShowCompoundDesc": {
+    "t": 4,
+    "v": 40
+   },
+   "isUpCompoundEquip": {
+    "t": 34,
+    "v": 545012
+   },
+   "price": {
+    "t": 162,
+    "v": 816
+   },
+   "hp": {
+    "t": 5,
+    "v": 0
+   },
+   "hpRecover": {
+    "t": 242,
+    "v": 4174
+   }
+  }
+ },
+ {
+  "name": "equip_2143",
+  "source": "Assets/ABPack/Resources/DataLayerCombined/HEXARAM/WorkFlow/Equip/2143.bytes",
+  "vfs": "0ffbabceed9c289be962125c6e0f2626",
+  "size": 4061,
+  "md5": "6fd13385c5c9c22283953c257b4a6057",
+  "record_count": 15,
+  "record_end": 97,
+  "parse_confidence": 0.8,
+  "schema": "FrameEngineVisi.Common.EquipResObject",
+  "schema_alignment_confidence": "medium",
+  "container_records": 8,
+  "payload_records": 7,
+  "labeled_records": 15,
+  "parse_errors": [
+   "record stream stopped at unknown type 0x73"
+  ],
+  "hints": {
+   "name_keys": [
+    "lol_wyzh"
+   ],
+   "desc_keys": [
+    "Description_2143"
+   ],
+   "formulas": [
+    ".5/(1+(att.Equip_Cd_Rate/100))"
+   ],
+   "flows": [
+    "01NewFlows/"
+   ],
+   "attr_refs": [
+    "Equip_Cd_Rate"
+   ]
+  },
+  "strings": [
+   ".5/(1+(att.Equip_Cd_Rate/100))",
+   "T2\"0 4'\"",
+   "!,'\"8!$'\"p!T&\"",
+   "!\"@'|!\"x'$",
+   "MO%Z&Z&Z%ZIO",
+   "Description_2143",
+   "lol_wyzh",
+   "01NewFlows/",
+   "/LichBane_buffBuffo",
+   "base_attr",
+   "qmagic*4",
+   ")*0.16(j"
+  ],
+  "fields": {
+   "_seriaTypeNo_ConfigVisi": {
+    "t": 16,
+    "v": 0
+   },
+   "equipIconPath": {
+    "t": 34,
+    "v": 542552
+   },
+   "isInShelf": {
+    "t": 34,
+    "v": 543292
+   },
+   "disable": {
+    "t": 27,
+    "v": 6312
+   },
+   "isShowCompoundDesc": {
+    "t": 4,
+    "v": 40
+   },
+   "isUpCompoundEquip": {
+    "t": 34,
+    "v": 544628
+   },
+   "price": {
+    "t": 162,
+    "v": 808
+   },
+   "hp": {
+    "t": 5,
+    "v": 0
+   },
+   "hpRecover": {
+    "t": 98,
+    "v": 4173
+   },
+   "hpRecoverRate": {
+    "t": 19,
+    "v": 2210
+   },
+   "ad": {
+    "t": 19,
+    "v": 2274
+   },
+   "armor": {
+    "t": 34,
+    "v": 543662
+   },
+   "armorPierce": {
+    "t": 34,
+    "v": 544258
+   },
+   "armorPierceRate": {
+    "t": 38,
+    "v": 4738400
+   },
+   "criRate": {
+    "t": 132,
+    "v": 10
+   }
+  }
+ },
+ {
+  "name": "equip_2144",
+  "source": "Assets/ABPack/Resources/DataLayerCombined/HEXARAM/WorkFlow/Equip/2144.bytes",
+  "vfs": "0ffbabceed9c289be962125c6e0f2626",
+  "size": 1110,
+  "md5": "82daf15ab643f7bc1bdc31a7e3ea6e83",
+  "record_count": 5,
+  "record_end": 46,
+  "parse_confidence": 0.8,
+  "schema": "FrameEngineVisi.Common.EquipResObject",
+  "schema_alignment_confidence": "medium",
+  "container_records": 0,
+  "payload_records": 5,
+  "labeled_records": 5,
+  "parse_errors": [
+   "record stream stopped at unknown type 0x3"
+  ],
+  "hints": {
+   "name_keys": [
+    "lol_xkfz"
+   ],
+   "desc_keys": [
+    "EquipDescription_2144"
+   ],
+   "formulas": [],
+   "flows": [],
+   "attr_refs": []
+  },
+  "strings": [
+   "MO%Z&Z&Z%ZIO",
+   "EquipDescription_2144",
+   "lol_xkfz"
+  ],
+  "fields": {
+   "_seriaTypeNo_ConfigVisi": {
+    "t": 1,
+    "v": 0
+   },
+   "equipIconPath": {
+    "t": 16,
+    "v": 0
+   },
+   "isInShelf": {
+    "t": 35,
+    "v": 1576576
+   },
+   "disable": {
+    "t": 18,
+    "v": 2063
+   },
+   "isShowCompoundDesc": {
+    "t": 28,
+    "v": 6312
+   }
+  }
+ },
+ {
+  "name": "equip_2147",
+  "source": "Assets/ABPack/Resources/DataLayerCombined/HEXARAM/WorkFlow/Equip/2147.bytes",
+  "vfs": "0ffbabceed9c289be962125c6e0f2626",
+  "size": 3994,
+  "md5": "97489655127d29b731443264b34c7ce3",
+  "record_count": 17,
+  "record_end": 106,
+  "parse_confidence": 0.8,
+  "schema": "FrameEngineVisi.Common.EquipResObject",
+  "schema_alignment_confidence": "medium",
+  "container_records": 9,
+  "payload_records": 8,
+  "labeled_records": 17,
+  "parse_errors": [
+   "record stream stopped at unknown type 0x0"
+  ],
+  "hints": {
+   "name_keys": [
+    "lol_sgzz"
+   ],
+   "desc_keys": [
+    "EquipDescription_2147",
+    "ment_tips_006"
+   ],
+   "formulas": [
+    "#/RodofAges_injuredatt.Eternity_Damage_Value*15/100"
+   ],
+   "flows": [
+    "2NewFlows/"
+   ],
+   "attr_refs": [
+    "Eternity_Damage_Value"
+   ]
+  },
+  "strings": [
+   "kill.perap*s",
+   "MO%Z&Z&Z%ZIO",
+   "EquipDescription_2147",
+   "lol_sgzz",
+   "_maxhp",
+   "_maxmp",
+   "maxapinterval",
+   "2NewFlows/",
+   "#/RodofAges_injuredatt.Eternity_Damage_Value*15/100",
+   "ogrowth%",
+   "manaspentif(",
+   "mp_return_v",
+   ">25){25;}else{(",
+   "ment_tips_006"
+  ],
+  "fields": {
+   "_seriaTypeNo_ConfigVisi": {
+    "t": 16,
+    "v": 0
+   },
+   "equipIconPath": {
+    "t": 34,
+    "v": 539348
+   },
+   "isInShelf": {
+    "t": 34,
+    "v": 539864
+   },
+   "disable": {
+    "t": 19,
+    "v": 6312
+   },
+   "isShowCompoundDesc": {
+    "t": 19,
+    "v": 6353
+   },
+   "isUpCompoundEquip": {
+    "t": 4,
+    "v": 40
+   },
+   "price": {
+    "t": 34,
+    "v": 541260
+   },
+   "hp": {
+    "t": 162,
+    "v": 792
+   },
+   "hpRecover": {
+    "t": 5,
+    "v": 0
+   },
+   "hpRecoverRate": {
+    "t": 30,
+    "v": 4160
+   },
+   "ad": {
+    "t": 19,
+    "v": 2198
+   },
+   "armor": {
+    "t": 34,
+    "v": 540942
+   },
+   "armorPierce": {
+    "t": 34,
+    "v": 540122
+   },
+   "armorPierceRate": {
+    "t": 19,
+    "v": 4170
+   },
+   "criRate": {
+    "t": 38,
+    "v": 4735005
+   },
+   "criDamage": {
+    "t": 132,
+    "v": 10
+   },
+   "attackSpeedRate": {
+    "t": 119,
+    "v": 2149542721
+   }
+  }
+ },
+ {
+  "name": "equip_2150",
+  "source": "Assets/ABPack/Resources/DataLayerCombined/HEXARAM/WorkFlow/Equip/2150.bytes",
+  "vfs": "0ffbabceed9c289be962125c6e0f2626",
+  "size": 6489,
+  "md5": "d8d5b667ef78b0d683e35c84ec66cdd9",
+  "record_count": 9,
+  "record_end": 69,
+  "parse_confidence": 0.8,
+  "schema": "FrameEngineVisi.Common.EquipResObject",
+  "schema_alignment_confidence": "medium",
+  "container_records": 9,
+  "payload_records": 0,
+  "labeled_records": 9,
+  "parse_errors": [
+   "record stream stopped at unknown type 0xe2"
+  ],
+  "hints": {
+   "name_keys": [
+    "lol_bmhs"
+   ],
+   "desc_keys": [
+    "Description_2150",
+    "ment_tips_0112"
+   ],
+   "formulas": [
+    ".5/(1+(att.Equip_Cd_Rate/100))",
+    "203(0.4+math.floor("
+   ],
+   "flows": [
+    "01NewFlows/"
+   ],
+   "attr_refs": [
+    "Equip_Cd_Rate"
+   ]
+  },
+  "strings": [
+   ".5/(1+(att.Equip_Cd_Rate/100))",
+   "_\"`!tX\"0\"lX\"h\"dX\"",
+   "V\"p$,`\"('",
+   "R\"h(D`\" +",
+   "/4K\" 0,K\"X0TJ\"",
+   "4tF\"(5lF\"`5",
+   "T4(\"XT,(\"",
+   "MO%Z&Z&Z%ZIO",
+   "Description_2150",
+   "lol_bmhs",
+   "01NewFlows/",
+   "/IcebornGauntlet_buff01[",
+   "base_attr",
+   "rmor/4Buff",
+   "203(0.4+math.floor(",
+   "level-1)/4)*0.2)*(~",
+   ">12){0;}else{(1-y",
+   "o*0.16(`",
+   "DataListene*",
+   "ment_tips_0112"
+  ],
+  "fields": {
+   "_seriaTypeNo_ConfigVisi": {
+    "t": 16,
+    "v": 0
+   },
+   "equipIconPath": {
+    "t": 34,
+    "v": 555460
+   },
+   "isInShelf": {
+    "t": 34,
+    "v": 556664
+   },
+   "disable": {
+    "t": 19,
+    "v": 6312
+   },
+   "isShowCompoundDesc": {
+    "t": 19,
+    "v": 6337
+   },
+   "isUpCompoundEquip": {
+    "t": 4,
+    "v": 40
+   },
+   "price": {
+    "t": 34,
+    "v": 559188
+   },
+   "hp": {
+    "t": 162,
+    "v": 808
+   },
+   "hpRecover": {
+    "t": 5,
+    "v": 0
+   }
+  }
+ },
+ {
+  "name": "equip_2154",
+  "source": "Assets/ABPack/Resources/DataLayerCombined/HEXARAM/WorkFlow/Equip/2154.bytes",
+  "vfs": "0ffbabceed9c289be962125c6e0f2626",
+  "size": 4085,
+  "md5": "326635b1617133e1ba974c22505c4748",
+  "record_count": 9,
+  "record_end": 69,
+  "parse_confidence": 0.8,
+  "schema": "FrameEngineVisi.Common.EquipResObject",
+  "schema_alignment_confidence": "medium",
+  "container_records": 9,
+  "payload_records": 0,
+  "labeled_records": 9,
+  "parse_errors": [
+   "record stream stopped at unknown type 0x70"
+  ],
+  "hints": {
+   "name_keys": [
+    "Name_2154lol_ctszydura:"
+   ],
+   "desc_keys": [
+    "EquipDescription_2142",
+    "ment_tips_026"
+   ],
+   "formulas": [
+    "3if(att.base_attr_max_mp>1){"
+   ],
+   "flows": [
+    "*2/100;}else{0;}NewFlows/U"
+   ],
+   "attr_refs": [
+    "base_attr_max_mp"
+   ]
+  },
+  "strings": [
+   "_`U00",
+   "\"\"H$D\"\"p'",
+   "MO%Z&Z&Z%ZIO",
+   "EquipDescription_2142",
+   "Name_2154lol_ctszydura:",
+   "2shieldex20@",
+   "3if(att.base_attr_max_mp>1){",
+   "*2/100;}else{0;}NewFlows/U",
+   "/SeraphEmbrace_refunds*",
+   "_effecttar",
+   "ment_tips_026"
+  ],
+  "fields": {
+   "_seriaTypeNo_ConfigVisi": {
+    "t": 16,
+    "v": 0
+   },
+   "equipIconPath": {
+    "t": 34,
+    "v": 542140
+   },
+   "isInShelf": {
+    "t": 34,
+    "v": 542836
+   },
+   "disable": {
+    "t": 19,
+    "v": 6312
+   },
+   "isShowCompoundDesc": {
+    "t": 19,
+    "v": 6329
+   },
+   "isUpCompoundEquip": {
+    "t": 4,
+    "v": 40
+   },
+   "price": {
+    "t": 34,
+    "v": 544148
+   },
+   "hp": {
+    "t": 162,
+    "v": 816
+   },
+   "hpRecover": {
+    "t": 5,
+    "v": 0
+   }
+  }
+ },
+ {
+  "name": "equip_2170",
+  "source": "Assets/ABPack/Resources/DataLayerCombined/HEXARAM/WorkFlow/Equip/2170.bytes",
+  "vfs": "0ffbabceed9c289be962125c6e0f2626",
+  "size": 2676,
+  "md5": "81f62f8012629b843a5ceb557d1b1e58",
+  "record_count": 8,
+  "record_end": 65,
+  "parse_confidence": 0.8,
+  "schema": "FrameEngineVisi.Common.EquipResObject",
+  "schema_alignment_confidence": "medium",
+  "container_records": 8,
+  "payload_records": 0,
+  "labeled_records": 8,
+  "parse_errors": [
+   "record stream stopped at unknown type 0xba"
+  ],
+  "hints": {
+   "name_keys": [
+    "lol_fspd"
+   ],
+   "desc_keys": [
+    "EquipDescription_2170"
+   ],
+   "formulas": [
+    "ath.max(-buff_giver.bonus_attr_magic*1/2000-0.4,"
+   ],
+   "flows": [
+    "omNewFlows/Skill/"
+   ],
+   "attr_refs": [
+    "magic"
+   ]
+  },
+  "strings": [
+   "ath.max(-buff_giver.bonus_attr_magic*1/2000-0.4,",
+   "MO%Z&Z&Z%ZIO",
+   "EquipDescription_2170",
+   "lol_fspd",
+   "apratemul",
+   "omNewFlows/Skill/",
+   "/fashupodun_U"
+  ],
+  "fields": {
+   "_seriaTypeNo_ConfigVisi": {
+    "t": 16,
+    "v": 0
+   },
+   "equipIconPath": {
+    "t": 34,
+    "v": 535792
+   },
+   "isInShelf": {
+    "t": 34,
+    "v": 536164
+   },
+   "disable": {
+    "t": 27,
+    "v": 6312
+   },
+   "isShowCompoundDesc": {
+    "t": 4,
+    "v": 40
+   },
+   "isUpCompoundEquip": {
+    "t": 34,
+    "v": 537108
+   },
+   "price": {
+    "t": 162,
+    "v": 784
+   },
+   "hp": {
+    "t": 5,
+    "v": 0
+   }
+  }
+ },
+ {
+  "name": "equip_2179",
+  "source": "Assets/ABPack/Resources/DataLayerCombined/HEXARAM/WorkFlow/Equip/2179.bytes",
+  "vfs": "0ffbabceed9c289be962125c6e0f2626",
+  "size": 4472,
+  "md5": "292af6f9aff685635468d1db556f8e88",
+  "record_count": 9,
+  "record_end": 104,
+  "parse_confidence": 0.8,
+  "schema": "FrameEngineVisi.Common.EquipResObject",
+  "schema_alignment_confidence": "medium",
+  "container_records": 0,
+  "payload_records": 9,
+  "labeled_records": 9,
+  "parse_errors": [
+   "record stream stopped at unknown type 0x0"
+  ],
+  "hints": {
+   "name_keys": [
+    "Name_2611t3x_jsssbase40M=#hp"
+   ],
+   "desc_keys": [
+    "Description_2179"
+   ],
+   "formulas": [
+    "kill.hp_rate*100",
+    "/(1+(att.Equip_Cd_Rate/100))",
+    "math.max+",
+    "bonus_attr_max_hpBuff"
+   ],
+   "flows": [
+    "1NewFlows/"
+   ],
+   "attr_refs": [
+    "Equip_Cd_Rate",
+    "max_hpBuff"
+   ]
+  },
+  "strings": [
+   "kill.hp_rate*100",
+   "/(1+(att.Equip_Cd_Rate/100))",
+   "math.max+",
+   "o-0.5",
+   "\"0 d%\"H#D\"\" $",
+   "MO%Z&Z&Z%ZIO",
+   "Description_2179",
+   "Name_2611t3x_jsssbase40M=#hp",
+   "O0.07",
+   "cdaram_decay0.6",
+   "1NewFlows/",
+   "b/Redem",
+   "Checkhero)",
+   "bonus_attr_max_hpBuff",
+   "111lol_jiushu_cdx",
+   "CatalystofAeons_injured11",
+   "ternity_Damage_Value*15)",
+   "manaspent1if",
+   "mp_return_vL",
+   ">15){15;}else{(",
+   "_Aram60B"
+  ],
+  "fields": {
+   "_seriaTypeNo_ConfigVisi": {
+    "t": 144,
+    "v": 4171
+   },
+   "equipIconPath": {
+    "t": 34,
+    "v": 543760
+   },
+   "isInShelf": {
+    "t": 19,
+    "v": 2192
+   },
+   "disable": {
+    "t": 34,
+    "v": 542912
+   },
+   "isShowCompoundDesc": {
+    "t": 19,
+    "v": 4304
+   },
+   "isUpCompoundEquip": {
+    "t": 38,
+    "v": 4737933
+   },
+   "price": {
+    "t": 132,
+    "v": 10
+   },
+   "hp": {
+    "t": 54,
+    "v": 28226
+   },
+   "hpRecover": {
+    "t": 31,
+    "v": 86376576
+   }
+  }
+ },
+ {
+  "name": "equip_2181",
+  "source": "Assets/ABPack/Resources/DataLayerCombined/HEXARAM/WorkFlow/Equip/2181.bytes",
+  "vfs": "0ffbabceed9c289be962125c6e0f2626",
+  "size": 3554,
+  "md5": "552c3f000f6d308c11586029fecfcf8e",
+  "record_count": 8,
+  "record_end": 65,
+  "parse_confidence": 0.8,
+  "schema": "FrameEngineVisi.Common.EquipResObject",
+  "schema_alignment_confidence": "medium",
+  "container_records": 8,
+  "payload_records": 0,
+  "labeled_records": 8,
+  "parse_errors": [
+   "record stream stopped at unknown type 0x54"
+  ],
+  "hints": {
+   "name_keys": [
+    "lol_bdeyxs"
+   ],
+   "desc_keys": [
+    "Description_2181"
+   ],
+   "formulas": [
+    "basiccd/(1+(att.Equip_Cd_Rate/100)) +",
+    "pfixdmg+,",
+    "attr_magic"
+   ],
+   "flows": [
+    "8cdNewFlows/S\\"
+   ],
+   "attr_refs": [
+    "Equip_Cd_Rate",
+    "magic"
+   ]
+  },
+  "strings": [
+   "kill.full_damage*s",
+   "attenuateratio",
+   "basiccd/(1+(att.Equip_Cd_Rate/100)) +",
+   "pfixdmg+,",
+   "attr_magic",
+   "MO%Z&Z&Z%ZIO",
+   "Description_2181",
+   "lol_bdeyxs",
+   "targetcooldownmark_durtaion5",
+   "J0.152",
+   "8cdNewFlows/S\\",
+   "/BandlesFantasy_InflictD`",
+   "ListenBuff="
+  ],
+  "fields": {
+   "_seriaTypeNo_ConfigVisi": {
+    "t": 16,
+    "v": 0
+   },
+   "equipIconPath": {
+    "t": 34,
+    "v": 538096
+   },
+   "isInShelf": {
+    "t": 34,
+    "v": 538552
+   },
+   "disable": {
+    "t": 27,
+    "v": 6312
+   },
+   "isShowCompoundDesc": {
+    "t": 4,
+    "v": 40
+   },
+   "isUpCompoundEquip": {
+    "t": 34,
+    "v": 539718
+   },
+   "price": {
+    "t": 162,
+    "v": 784
+   },
+   "hp": {
+    "t": 5,
+    "v": 0
+   }
+  }
+ },
+ {
+  "name": "equip_2244",
+  "source": "Assets/ABPack/Resources/DataLayerCombined/HEXARAM/WorkFlow/Equip/2244.bytes",
+  "vfs": "0ffbabceed9c289be962125c6e0f2626",
+  "size": 5861,
+  "md5": "792154f5458d5778de7f9bfd165d6457",
+  "record_count": 9,
+  "record_end": 69,
+  "parse_confidence": 0.8,
+  "schema": "FrameEngineVisi.Common.EquipResObject",
+  "schema_alignment_confidence": "medium",
+  "container_records": 9,
+  "payload_records": 0,
+  "labeled_records": 9,
+  "parse_errors": [
+   "record stream stopped at unknown type 0xb2"
+  ],
+  "hints": {
+   "name_keys": [
+    "lol_sxzl7h"
+   ],
+   "desc_keys": [
+    "Description_2244",
+    "ment_tips_057"
+   ],
+   "formulas": [
+    ".5/(1+(att.Equip_Cd_Rate/100))",
+    ";}else{(0.4+math.floor(A"
+   ],
+   "flows": [
+    "1NewFlows/"
+   ],
+   "attr_refs": [
+    "Equip_Cd_Rate"
+   ]
+  },
+  "strings": [
+   ".5/(1+(att.Equip_Cd_Rate/100))",
+   "?\"P.P",
+   "C\"h*tB\"`+dB\"",
+   ".l>\"h/d>\"",
+   "7,7\"87$7\"p7T6\"",
+   "-\"0A|*\"xD",
+   "%\"8It%\"xIl%\"",
+   "MO%Z&Z&Z%ZIO",
+   "Description_2244",
+   "lol_sxzl7h",
+   "1NewFlows/",
+   "/TrinityForce_buff&",
+   "base_attr",
+   "qack*2if",
+   "level>12){,",
+   ";}else{(0.4+math.floor(A",
+   "-1)/4)*0.2)*(I",
+   "phage_rage8",
+   "O0.32",
+   "ment_tips_057"
+  ],
+  "fields": {
+   "_seriaTypeNo_ConfigVisi": {
+    "t": 16,
+    "v": 0
+   },
+   "equipIconPath": {
+    "t": 34,
+    "v": 552044
+   },
+   "isInShelf": {
+    "t": 34,
+    "v": 553160
+   },
+   "disable": {
+    "t": 19,
+    "v": 6312
+   },
+   "isShowCompoundDesc": {
+    "t": 19,
+    "v": 6249
+   },
+   "isUpCompoundEquip": {
+    "t": 4,
+    "v": 40
+   },
+   "price": {
+    "t": 34,
+    "v": 555206
+   },
+   "hp": {
+    "t": 162,
+    "v": 808
+   },
+   "hpRecover": {
+    "t": 5,
+    "v": 0
+   }
+  }
+ },
+ {
+  "name": "equip_2247",
+  "source": "Assets/ABPack/Resources/DataLayerCombined/HEXARAM/WorkFlow/Equip/2247.bytes",
+  "vfs": "0ffbabceed9c289be962125c6e0f2626",
+  "size": 6593,
+  "md5": "4fb036ff427402f307fc870d961aa6fe",
+  "record_count": 9,
+  "record_end": 69,
+  "parse_confidence": 0.8,
+  "schema": "FrameEngineVisi.Common.EquipResObject",
+  "schema_alignment_confidence": "medium",
+  "container_records": 9,
+  "payload_records": 0,
+  "labeled_records": 9,
+  "parse_errors": [
+   "record stream stopped at unknown type 0x8"
+  ],
+  "hints": {
+   "name_keys": [
+    "lol_qcdc_new"
+   ],
+   "desc_keys": [
+    "Description_2247"
+   ],
+   "formulas": [
+    "1*((att.Equip_Cd_Rate+100)/",
+    "amountmindmg40maxdmg100minionsrate_min5",
+    "attr_level-1)*(!"
+   ],
+   "flows": [
+    "ax80NewFlows/Skill/"
+   ],
+   "attr_refs": [
+    "Equip_Cd_Rate",
+    "level"
+   ]
+  },
+  "strings": [
+   "1*((att.Equip_Cd_Rate+100)/",
+   "@ZjR. ",
+   "/LC\"`0DC\"",
+   ";,9\"8;$9\"p;",
+   ">T5\"0?L5\"h?",
+   "B|1\"(Ct1\"`C",
+   "Q\\$\"8RT\"\"0UT",
+   "MO%Z&Z&Z%ZIO",
+   "Description_2247",
+   "lol_qcdc_new",
+   "~cd_move",
+   "attackspeed_dura",
+   "amountmindmg40maxdmg100minionsrate_min5",
+   "ax80NewFlows/Skill/",
+   "/StatikkFirecannon_buff_MoveToCharge8",
+   "!PFullS=",
+   "_Check:",
+   "HandsVfx4",
+   "pDamages)",
+   "attr_level-1)*(!",
+   "O)/14p",
+   "Lighting",
+   "RangeAdd4",
+   "!PCondin",
+   "!_Vfx((",
+   "Hex_Stormrazor_l",
+   "chongnengY",
+   "__crit_",
+   "listen_3449"
+  ],
+  "fields": {
+   "_seriaTypeNo_ConfigVisi": {
+    "t": 16,
+    "v": 0
+   },
+   "equipIconPath": {
+    "t": 34,
+    "v": 553580
+   },
+   "isInShelf": {
+    "t": 34,
+    "v": 554636
+   },
+   "disable": {
+    "t": 19,
+    "v": 6312
+   },
+   "isShowCompoundDesc": {
+    "t": 19,
+    "v": 6249
+   },
+   "isUpCompoundEquip": {
+    "t": 4,
+    "v": 40
+   },
+   "price": {
+    "t": 34,
+    "v": 557510
+   },
+   "hp": {
+    "t": 162,
+    "v": 792
+   },
+   "hpRecover": {
+    "t": 5,
+    "v": 0
+   }
+  }
+ },
+ {
+  "name": "equip_2248",
+  "source": "Assets/ABPack/Resources/DataLayerCombined/HEXARAM/WorkFlow/Equip/2248.bytes",
+  "vfs": "0ffbabceed9c289be962125c6e0f2626",
+  "size": 3915,
+  "md5": "a6dd56a5a036d4af3646730b2f48df2a",
+  "record_count": 16,
+  "record_end": 101,
+  "parse_confidence": 0.8,
+  "schema": "FrameEngineVisi.Common.EquipResObject",
+  "schema_alignment_confidence": "medium",
+  "container_records": 8,
+  "payload_records": 8,
+  "labeled_records": 16,
+  "parse_errors": [
+   "record stream stopped at unknown type 0x80"
+  ],
+  "hints": {
+   "name_keys": [
+    "lol_sttkdrQ="
+   ],
+   "desc_keys": [
+    "Description_2248"
+   ],
+   "formulas": [
+    "1*((att.Equip_Cd_Rate+100)/",
+    "attr_level*5B"
+   ],
+   "flows": [
+    "1NewFlows/"
+   ],
+   "attr_refs": [
+    "Equip_Cd_Rate",
+    "level"
+   ]
+  },
+  "strings": [
+   "1*((att.Equip_Cd_Rate+100)/",
+   " l%\"@ d%\"x ",
+   "MO%Z&Z&Z%ZIO",
+   "Description_2248",
+   "lol_sttkdrQ=",
+   "~cd_move",
+   "1NewFlows/",
+   "/StatikkShiv_buff%",
+   "o_ready+",
+   "attr_level*5B",
+   "ojsassp0"
+  ],
+  "fields": {
+   "_seriaTypeNo_ConfigVisi": {
+    "t": 16,
+    "v": 0
+   },
+   "equipIconPath": {
+    "t": 34,
+    "v": 541832
+   },
+   "isInShelf": {
+    "t": 34,
+    "v": 542456
+   },
+   "disable": {
+    "t": 27,
+    "v": 6312
+   },
+   "isShowCompoundDesc": {
+    "t": 4,
+    "v": 40
+   },
+   "isUpCompoundEquip": {
+    "t": 34,
+    "v": 543932
+   },
+   "price": {
+    "t": 162,
+    "v": 784
+   },
+   "hp": {
+    "t": 5,
+    "v": 0
+   },
+   "hpRecover": {
+    "t": 148,
+    "v": 4170
+   },
+   "hpRecoverRate": {
+    "t": 19,
+    "v": 2292
+   },
+   "ad": {
+    "t": 34,
+    "v": 543572
+   },
+   "armor": {
+    "t": 34,
+    "v": 542768
+   },
+   "armorPierce": {
+    "t": 19,
+    "v": 4228
+   },
+   "armorPierceRate": {
+    "t": 38,
+    "v": 4737683
+   },
+   "criRate": {
+    "t": 132,
+    "v": 10
+   },
+   "criDamage": {
+    "t": 249,
+    "v": 2091344
+   }
+  }
+ },
+ {
+  "name": "equip_2256",
+  "source": "Assets/ABPack/Resources/DataLayerCombined/HEXARAM/WorkFlow/Equip/2256.bytes",
+  "vfs": "0ffbabceed9c289be962125c6e0f2626",
+  "size": 5076,
+  "md5": "8cd014ac0977a33bced59c3ae7ed21d3",
+  "record_count": 17,
+  "record_end": 105,
+  "parse_confidence": 0.8,
+  "schema": "FrameEngineVisi.Common.EquipResObject",
+  "schema_alignment_confidence": "medium",
+  "container_records": 8,
+  "payload_records": 9,
+  "labeled_records": 17,
+  "parse_errors": [
+   "record stream stopped at unknown type 0x0"
+  ],
+  "hints": {
+   "name_keys": [
+    "lol_dlks"
+   ],
+   "desc_keys": [
+    "Description_2256"
+   ],
+   "formulas": [
+    "0/(1+(att.Equip_Cd_Rate/100))",
+    "attr_level-1)*71.4/10J"
+   ],
+   "flows": [
+    "03NewFlows/"
+   ],
+   "attr_refs": [
+    "Equip_Cd_Rate",
+    "level"
+   ]
+  },
+  "strings": [
+   "0/(1+(att.Equip_Cd_Rate/100))",
+   "2H*\"03@*\"h38*\"",
+   "6p&\"(7h&\"`7`&\"",
+   "MO%Z&Z&Z%ZIO",
+   "Description_2256",
+   "lol_dlks",
+   "03NewFlows/",
+   "/DuskbladeofDraktharr_findward2",
+   "buff2Buff",
+   "pdisable_",
+   "oattack0",
+   "attr_level-1)*71.4/10J",
+   "oeffect5",
+   "untargetble_battle<",
+   "evolistener"
+  ],
+  "fields": {
+   "_seriaTypeNo_ConfigVisi": {
+    "t": 16,
+    "v": 0
+   },
+   "equipIconPath": {
+    "t": 34,
+    "v": 547816
+   },
+   "isInShelf": {
+    "t": 34,
+    "v": 548636
+   },
+   "disable": {
+    "t": 27,
+    "v": 6312
+   },
+   "isShowCompoundDesc": {
+    "t": 4,
+    "v": 40
+   },
+   "isUpCompoundEquip": {
+    "t": 34,
+    "v": 550740
+   },
+   "price": {
+    "t": 162,
+    "v": 792
+   },
+   "hp": {
+    "t": 5,
+    "v": 0
+   },
+   "hpRecover": {
+    "t": 122,
+    "v": 4196
+   },
+   "hpRecoverRate": {
+    "t": 19,
+    "v": 2298
+   },
+   "ad": {
+    "t": 34,
+    "v": 550266
+   },
+   "armor": {
+    "t": 34,
+    "v": 549046
+   },
+   "armorPierce": {
+    "t": 19,
+    "v": 4282
+   },
+   "armorPierceRate": {
+    "t": 38,
+    "v": 4744311
+   },
+   "criRate": {
+    "t": 132,
+    "v": 10
+   },
+   "criDamage": {
+    "t": 54,
+    "v": 59985
+   },
+   "attackSpeedRate": {
+    "t": 31,
+    "v": 86376576
+   }
+  }
+ },
+ {
+  "name": "equip_2262",
+  "source": "Assets/ABPack/Resources/DataLayerCombined/HEXARAM/WorkFlow/Equip/2262.bytes",
+  "vfs": "0ffbabceed9c289be962125c6e0f2626",
+  "size": 3544,
+  "md5": "9587231eb5fee0b0bfe9cbcb0bf209fa",
+  "record_count": 6,
+  "record_end": 56,
+  "parse_confidence": 0.8,
+  "schema": "FrameEngineVisi.Common.EquipResObject",
+  "schema_alignment_confidence": "medium",
+  "container_records": 0,
+  "payload_records": 6,
+  "labeled_records": 6,
+  "parse_errors": [
+   "record stream stopped at unknown type 0xa3"
+  ],
+  "hints": {
+   "name_keys": [],
+   "desc_keys": [
+    "EquipDescription_2262"
+   ],
+   "formulas": [
+    "2if(att.base_attr_max_mp>1){"
+   ],
+   "flows": [
+    "*15/1000;}else{0;}NewFlows/W"
+   ],
+   "attr_refs": [
+    "base_attr_max_mp"
+   ]
+  },
+  "strings": [
+   "MO%Z&Z&Z%ZIO",
+   "EquipDescription_2262",
+   "blol_mz*",
+   "2if(att.base_attr_max_mp>1){",
+   "*15/1000;}else{0;}NewFlows/W",
+   "/Manamune_refunds%",
+   "ocharge$",
+   "TearOfTheGoddess_manaN",
+   "mp_return_value",
+   "rupgradeH"
+  ],
+  "fields": {
+   "_seriaTypeNo_ConfigVisi": {
+    "t": 16,
+    "v": 0
+   },
+   "equipIconPath": {
+    "t": 34,
+    "v": 540240
+   },
+   "isInShelf": {
+    "t": 34,
+    "v": 540880
+   },
+   "disable": {
+    "t": 27,
+    "v": 6312
+   },
+   "isShowCompoundDesc": {
+    "t": 4,
+    "v": 40
+   },
+   "isUpCompoundEquip": {
+    "t": 34,
+    "v": 542052
+   }
+  }
+ },
+ {
+  "name": "equip_2263",
+  "source": "Assets/ABPack/Resources/DataLayerCombined/HEXARAM/WorkFlow/Equip/2263.bytes",
+  "vfs": "0ffbabceed9c289be962125c6e0f2626",
+  "size": 5033,
+  "md5": "83aa246c02e7b8ae8c7e058550e3a0c6",
+  "record_count": 8,
+  "record_end": 64,
+  "parse_confidence": 0.8,
+  "schema": "FrameEngineVisi.Common.EquipResObject",
+  "schema_alignment_confidence": "medium",
+  "container_records": 0,
+  "payload_records": 8,
+  "labeled_records": 8,
+  "parse_errors": [
+   "record stream stopped at unknown type 0x0"
+  ],
+  "hints": {
+   "name_keys": [],
+   "desc_keys": [
+    "EquipDescription_2262",
+    "ment_tips_030"
+   ],
+   "formulas": [
+    "2if(att.base_attr_max_mp>1){"
+   ],
+   "flows": [
+    "/100;}else{0;}NewFlows/a"
+   ],
+   "attr_refs": [
+    "base_attr_max_mp"
+   ]
+  },
+  "strings": [
+   "_5G`0",
+   "d9\"( ,9\"p L9\"",
+   "0\"p*<8\"(-<,\"",
+   "-4,\"0.,,\"h.T8\" 1d(\"",
+   "1\\(\"(2T(\"`2l8\"",
+   "5l$\"(6d$\"`6\\$\"",
+   "MO%Z&Z&Z%ZIO",
+   "EquipDescription_2262",
+   "3lol_mqadratio2attack",
+   "0.025spell",
+   "R40.06T",
+   "2if(att.base_attr_max_mp>1){",
+   "/100;}else{0;}NewFlows/a",
+   "/Muramana_refunds%",
+   "shockBuff",
+   "o_ready)",
+   "_effectV",
+   "rcharge_B",
+   "TearOfTheGoddess_8",
+   "odelete*",
+   "xability0",
+   "ment_tips_030"
+  ],
+  "fields": {
+   "_seriaTypeNo_ConfigVisi": {
+    "t": 16,
+    "v": 0
+   },
+   "equipIconPath": {
+    "t": 34,
+    "v": 547004
+   },
+   "isInShelf": {
+    "t": 34,
+    "v": 547868
+   },
+   "disable": {
+    "t": 19,
+    "v": 6312
+   },
+   "isShowCompoundDesc": {
+    "t": 19,
+    "v": 6329
+   },
+   "isUpCompoundEquip": {
+    "t": 4,
+    "v": 40
+   },
+   "price": {
+    "t": 34,
+    "v": 549770
+   },
+   "hp": {
+    "t": 64,
+    "v": 816
+   }
+  }
+ },
+ {
+  "name": "equip_2269",
+  "source": "Assets/ABPack/Resources/DataLayerCombined/HEXARAM/WorkFlow/Equip/2269.bytes",
+  "vfs": "0ffbabceed9c289be962125c6e0f2626",
+  "size": 5622,
+  "md5": "b1104b8d4e837a1df6c630f9a7437f69",
+  "record_count": 17,
+  "record_end": 106,
+  "parse_confidence": 0.8,
+  "schema": "FrameEngineVisi.Common.EquipResObject",
+  "schema_alignment_confidence": "medium",
+  "container_records": 9,
+  "payload_records": 8,
+  "labeled_records": 17,
+  "parse_errors": [
+   "record stream stopped at unknown type 0x80"
+  ],
+  "hints": {
+   "name_keys": [],
+   "desc_keys": [
+    "EquipDescription_2269",
+    "ment_tips_014"
+   ],
+   "formulas": [
+    "28/28)*(att.attr_level)",
+    "5+skill.basicdamage"
+   ],
+   "flows": [
+    "/100NewFlows/3"
+   ],
+   "attr_refs": [
+    "attr_level",
+    "basicdamage"
+   ]
+  },
+  "strings": [
+   "28/28)*(att.attr_level)",
+   ".adrate*",
+   "abonus_",
+   "5+skill.basicdamage",
+   "9\"0 d8\"` ",
+   "%l3\"8&t2\"",
+   "&T/\"@*",
+   "2t&\"83l&\"p3d&\"",
+   "MO%Z&Z&Z%ZIO",
+   "EquipDescription_2269",
+   "Seryldas_GrudgeminarmorignorePmax",
+   "slow_amount",
+   "C#Rtotal.",
+   "uptimes5W",
+   "D0.15",
+   "internal0.2",
+   "/100NewFlows/3",
+   "_Trigger2",
+   "eveolistener",
+   "SlowDown_L_",
+   "frameendBuff@",
+   "Bloodlol_s",
+   "p/10WorkF",
+   "_reduceheal=",
+   "ment_tips_014"
+  ],
+  "fields": {
+   "_seriaTypeNo_ConfigVisi": {
+    "t": 16,
+    "v": 0
+   },
+   "equipIconPath": {
+    "t": 34,
+    "v": 546868
+   },
+   "isInShelf": {
+    "t": 34,
+    "v": 547648
+   },
+   "disable": {
+    "t": 19,
+    "v": 6312
+   },
+   "isShowCompoundDesc": {
+    "t": 19,
+    "v": 6193
+   },
+   "isUpCompoundEquip": {
+    "t": 4,
+    "v": 40
+   },
+   "price": {
+    "t": 34,
+    "v": 549840
+   },
+   "hp": {
+    "t": 162,
+    "v": 808
+   },
+   "hpRecover": {
+    "t": 5,
+    "v": 0
+   },
+   "hpRecoverRate": {
+    "t": 146,
+    "v": 4192
+   },
+   "ad": {
+    "t": 34,
+    "v": 549186
+   },
+   "armor": {
+    "t": 19,
+    "v": 2290
+   },
+   "armorPierce": {
+    "t": 34,
+    "v": 548038
+   },
+   "armorPierceRate": {
+    "t": 34,
+    "v": 549450
+   },
+   "criRate": {
+    "t": 38,
+    "v": 4743311
+   },
+   "criDamage": {
+    "t": 132,
+    "v": 10
+   },
+   "attackSpeedRate": {
+    "t": 120,
+    "v": 2091857
+   }
+  }
+ },
+ {
+  "name": "equip_2272",
+  "source": "Assets/ABPack/Resources/DataLayerCombined/HEXARAM/WorkFlow/Equip/2272.bytes",
+  "vfs": "0ffbabceed9c289be962125c6e0f2626",
+  "size": 7037,
+  "md5": "3e2bb68fe5182110a477afafcc78c6ec",
+  "record_count": 16,
+  "record_end": 99,
+  "parse_confidence": 0.8,
+  "schema": "FrameEngineVisi.Common.EquipResObject",
+  "schema_alignment_confidence": "medium",
+  "container_records": 8,
+  "payload_records": 8,
+  "labeled_records": 16,
+  "parse_errors": [
+   "record stream stopped at unknown type 0xec"
+  ],
+  "hints": {
+   "name_keys": [
+    "lol_DivineSunderertime_ready10"
+   ],
+   "desc_keys": [
+    "Description_2272"
+   ],
+   "formulas": [
+    ".5/(1+(att.Equip_Cd_Rate/100))",
+    "f(skill.ratio_melee_damag\"",
+    "*tar.attr_max_hp<-",
+    "(0.4+math.floor(W"
+   ],
+   "flows": [
+    "monsterNewFlows/SE"
+   ],
+   "attr_refs": [
+    "Equip_Cd_Rate",
+    "max_hp",
+    "ratio_melee_damag"
+   ]
+  },
+  "strings": [
+   ".5/(1+(att.Equip_Cd_Rate/100))",
+   "f(skill.ratio_melee_damag\"",
+   "*tar.attr_max_hp<-",
+   "Qbase_0",
+   "attack){1",
+   ";}else{i",
+   "/X}P\\",
+   "$xZ\" %0X\"",
+   "Q\"h-@Q\"`.0Q\"",
+   "18M\"h20M\"",
+   "3\"0Mx3\"hMp3\"",
+   "U8,\"8Uh+\"",
+   "MO%Z&Z&Z%ZIO",
+   "Description_2272",
+   "lol_DivineSunderertime_ready10",
+   "62.5J",
+   "/50Tt",
+   "_building62.5",
+   "monsterNewFlows/SE",
+   "CastBuff",
+   "target_hp_value^",
+   "level>12)",
+   "(0.4+math.floor(W",
+   "Yordel_evolistener"
+  ],
+  "fields": {
+   "_seriaTypeNo_ConfigVisi": {
+    "t": 16,
+    "v": 0
+   },
+   "equipIconPath": {
+    "t": 34,
+    "v": 556720
+   },
+   "isInShelf": {
+    "t": 34,
+    "v": 557916
+   },
+   "disable": {
+    "t": 27,
+    "v": 6312
+   },
+   "isShowCompoundDesc": {
+    "t": 4,
+    "v": 40
+   },
+   "isUpCompoundEquip": {
+    "t": 34,
+    "v": 562366
+   },
+   "price": {
+    "t": 162,
+    "v": 808
+   },
+   "hp": {
+    "t": 5,
+    "v": 0
+   },
+   "hpRecover": {
+    "t": 146,
+    "v": 4240
+   },
+   "hpRecoverRate": {
+    "t": 34,
+    "v": 561486
+   },
+   "ad": {
+    "t": 34,
+    "v": 561674
+   },
+   "armor": {
+    "t": 34,
+    "v": 558514
+   },
+   "armorPierce": {
+    "t": 19,
+    "v": 4200
+   },
+   "armorPierceRate": {
+    "t": 38,
+    "v": 4755601
+   },
+   "criRate": {
+    "t": 16,
+    "v": 10
+   },
+   "criDamage": {
+    "t": 88,
+    "v": 5321728
+   }
+  }
+ }
+]

@@ -1,0 +1,474 @@
+{
+ "h_jhin": {
+  "label": "h_jhin",
+  "vfs": "38e0f2e1c238e7b3e229b3a261a64065",
+  "idx": 0,
+  "path": "Assets/ABPack/Resources/Actors/h_jhin/Skin00/InGame/ActorCfgData/h_jhin_pre.bytes",
+  "size": 612,
+  "sha1": "c81906e1ffe3140f73a5e1883cefe82bd9b32648",
+  "md5": "70ac93bd12d41c8d21dbcdf168c8ceef",
+  "parse": {
+   "ok": true,
+   "clean": false,
+   "size": 612,
+   "prefix": "66",
+   "marker_offset": 1,
+   "version": 1,
+   "header": {
+    "raw": "0100000c0050be05000036040012b414002a0b0001000110",
+    "common": "0100000c00",
+    "u32s": [
+     376400,
+     275968,
+     1356818
+    ]
+   },
+   "records": [
+    [
+     18,
+     "b41400"
+    ],
+    [
+     42,
+     "0b00"
+    ],
+    [
+     1,
+     "0001"
+    ],
+    [
+     16,
+     "00"
+    ],
+    [
+     18,
+     "050800"
+    ],
+    [
+     19,
+     "240800"
+    ],
+    [
+     27,
+     "a81800"
+    ],
+    [
+     4,
+     "2800"
+    ],
+    [
+     19,
+     "be1000"
+    ],
+    [
+     33,
+     "40011b00"
+    ],
+    [
+     35,
+     "00661000"
+    ],
+    [
+     19,
+     "820800"
+    ],
+    [
+     19,
+     "9e0800"
+    ],
+    [
+     19,
+     "360800"
+    ],
+    [
+     19,
+     "ac0800"
+    ],
+    [
+     23,
+     "664800"
+    ],
+    [
+     132,
+     "0a000000"
+    ],
+    [
+     170,
+     "dc1c"
+    ],
+    [
+     106,
+     "800026"
+    ],
+    [
+     5,
+     "000100"
+    ],
+    [
+     118,
+     "0900094000"
+    ],
+    [
+     40,
+     "071100"
+    ],
+    [
+     131,
+     "385c0101000000"
+    ],
+    [
+     152,
+     "28001b"
+    ],
+    [
+     208,
+     "08002f"
+    ]
+   ],
+   "record_count": 25,
+   "record_end": 123,
+   "strings": [
+    "#Ze_tope_spinee_fire_r",
+    "le_t01e_defaulte_head"
+   ],
+   "trailer": null,
+   "errors": [
+    "record stream stopped at unknown type 0x8"
+   ]
+  },
+  "member_source": "corpus"
+ },
+ "h_twistedfate": {
+  "label": "h_twistedfate",
+  "vfs": "0033fe362746b515063b7f1e1eab4378",
+  "idx": 0,
+  "path": "Assets/ABPack/Resources/Actors/h/twistedfate/Skin00/InGame/ActorCfgData/h/twistedfate/pre.bytes",
+  "size": 8168,
+  "sha1": "ef0a6ea037e7795ae552cad073718603310216dc",
+  "md5": "acb693768031a1b16350915353659497",
+  "parse": {
+   "ok": true,
+   "clean": false,
+   "size": 8168,
+   "prefix": "66",
+   "marker_offset": 1,
+   "version": 1,
+   "header": {
+    "raw": "0100000c00b124590000685500002f120b14002a0b000100",
+    "common": "0100000c00",
+    "u32s": [
+     5842097,
+     5597184,
+     185741056
+    ]
+   },
+   "records": [
+    [
+     16,
+     "00"
+    ],
+    [
+     34,
+     "444c0800"
+    ],
+    [
+     34,
+     "5c520800"
+    ],
+    [
+     19,
+     "a81800"
+    ],
+    [
+     19,
+     "411800"
+    ],
+    [
+     4,
+     "2800"
+    ],
+    [
+     34,
+     "24590800"
+    ],
+    [
+     162,
+     "38010000"
+    ],
+    [
+     5,
+     "000000"
+    ],
+    [
+     180,
+     "551000"
+    ],
+    [
+     19,
+     "dc0800"
+    ],
+    [
+     34,
+     "04560800"
+    ],
+    [
+     19,
+     "681000"
+    ],
+    [
+     19,
+     "181000"
+    ],
+    [
+     38,
+     "b3554800"
+    ],
+    [
+     132,
+     "0a000000"
+    ],
+    [
+     244,
+     "520514"
+    ]
+   ],
+   "record_count": 17,
+   "record_end": 104,
+   "strings": [
+    "-(!\"P.",
+    "/8 \"X/",
+    "e_tope_spinee_fire_r",
+    "le_defaulte_headattack01"
+   ],
+   "trailer": null,
+   "errors": [
+    "record stream stopped at unknown type 0x80"
+   ]
+  },
+  "member_source": "vfs-extracted"
+ },
+ "h_caitlyn": {
+  "label": "h_caitlyn",
+  "vfs": "f2b2750c7ea12b58a93c70cf4234ff4b",
+  "idx": 0,
+  "path": "Assets/ABPack/Resources/Actors/h_caitlyn/Skin00/InGame/ActorCfgData/h_caitlyn_pre.bytes",
+  "size": 676,
+  "sha1": "be1699d4e6ad45a78a54bd6868578c8a097497b2",
+  "md5": "f18c45d72988a8d7b54f966f17eb2166",
+  "parse": {
+   "ok": true,
+   "clean": false,
+   "size": 676,
+   "prefix": "66",
+   "marker_offset": 1,
+   "version": 1,
+   "header": {
+    "raw": "0100000c00a250060000b40500007bd714002a0b00010000",
+    "common": "0100000c00",
+    "u32s": [
+     413858,
+     373760,
+     349666048
+    ]
+   },
+   "records": [
+    [
+     1,
+     "0000"
+    ],
+    [
+     16,
+     "00"
+    ],
+    [
+     34,
+     "78050800"
+    ],
+    [
+     19,
+     "a00800"
+    ],
+    [
+     27,
+     "a81800"
+    ],
+    [
+     4,
+     "2800"
+    ],
+    [
+     34,
+     "50060800"
+    ],
+    [
+     147,
+     "48010000"
+    ],
+    [
+     5,
+     "000000"
+    ]
+   ],
+   "record_count": 9,
+   "record_end": 63,
+   "strings": [
+    "#Ze_tope_spinee_fire_r",
+    "`le_t01",
+    "2e_defaulte_headL"
+   ],
+   "trailer": null,
+   "errors": [
+    "record stream stopped at unknown type 0xec"
+   ]
+  },
+  "member_source": "corpus"
+ },
+ "h_yasuo": {
+  "label": "h_yasuo",
+  "vfs": "a48e29c0387cbca40e97f4fd236b362c",
+  "idx": 0,
+  "path": "Assets/ABPack/Resources/Actors/h_yasuo/Skin00/InGame/ActorCfgData/h_yasuo_pre.bytes",
+  "size": 679,
+  "sha1": "13d01fb4a13546dc098b4291faaa66b1ab0dc558",
+  "md5": "0d440f93c94f361db322349ffa5c291c",
+  "parse": {
+   "ok": true,
+   "clean": false,
+   "size": 679,
+   "prefix": "66",
+   "marker_offset": 1,
+   "version": 1,
+   "header": {
+    "raw": "0100000c00a250060000b405000006d614002a0b00010000",
+    "common": "0100000c00",
+    "u32s": [
+     413858,
+     373760,
+     349570560
+    ]
+   },
+   "records": [
+    [
+     1,
+     "0000"
+    ],
+    [
+     16,
+     "00"
+    ],
+    [
+     34,
+     "78050800"
+    ],
+    [
+     19,
+     "a00800"
+    ],
+    [
+     27,
+     "a81800"
+    ],
+    [
+     4,
+     "2800"
+    ],
+    [
+     34,
+     "50060800"
+    ],
+    [
+     147,
+     "48010000"
+    ],
+    [
+     5,
+     "000000"
+    ]
+   ],
+   "record_count": 9,
+   "record_end": 63,
+   "strings": [
+    "#Ze_tope_spinee_fire_r",
+    "`le_t01",
+    "2e_defaulte_headL"
+   ],
+   "trailer": null,
+   "errors": [
+    "record stream stopped at unknown type 0xec"
+   ]
+  },
+  "member_source": "corpus"
+ },
+ "h_lulu": {
+  "label": "h_lulu",
+  "vfs": "48cec4b51dd6a45fae0027887aa82133",
+  "idx": 0,
+  "path": "Assets/ABPack/Resources/Actors/h_lulu/Skin00/InGame/ActorCfgData/h_lulu_pre.bytes",
+  "size": 680,
+  "sha1": "0d0f85f815a313b63e261e53b1bbaf60d700472f",
+  "md5": "2a68170a79101277aa7ce0974077f989",
+  "parse": {
+   "ok": true,
+   "clean": false,
+   "size": 680,
+   "prefix": "66",
+   "marker_offset": 1,
+   "version": 1,
+   "header": {
+    "raw": "0100000c00b150060000b4050000e9020114002a0b000100",
+    "common": "0100000c00",
+    "u32s": [
+     413873,
+     373760,
+     16967936
+    ]
+   },
+   "records": [
+    [
+     16,
+     "00"
+    ],
+    [
+     34,
+     "78050800"
+    ],
+    [
+     19,
+     "a00800"
+    ],
+    [
+     27,
+     "a81800"
+    ],
+    [
+     4,
+     "2800"
+    ],
+    [
+     34,
+     "50060800"
+    ],
+    [
+     147,
+     "48010000"
+    ],
+    [
+     5,
+     "000000"
+    ]
+   ],
+   "record_count": 8,
+   "record_end": 64,
+   "strings": [
+    "#Ze_tope_spinee_fire_r",
+    "`le_t01",
+    "2e_defaulte_headL"
+   ],
+   "trailer": null,
+   "errors": [
+    "record stream stopped at unknown type 0xec"
+   ]
+  },
+  "member_source": "corpus"
+ }
+}

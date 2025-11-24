@@ -1,0 +1,6345 @@
+{
+ "total": 792,
+ "counts": {
+  "event-handler": 743,
+  "type-name": 49
+ },
+ "entries": [
+  {
+   "name": "11FrameEngine3Lua21LFEDictionary_MethodsINS2_6Common12FEDictio",
+   "len": 62,
+   "handler": 79755740,
+   "registrar": 19810952,
+   "name_mode": "island@0x580f2e3((-262144, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "15DataShellConfig9IsDemDataENS4_11No",
+   "len": 36,
+   "handler": 31132152,
+   "registrar": 18206132,
+   "name_mode": "island@0x569c12d((-327680, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "16BehaviorDesigner14BehaviorStr256E",
+   "len": 35,
+   "handler": 77928668,
+   "registrar": 19735644,
+   "name_mode": "island@0x57fc34e((-262144, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "1FrameEngine5Logic32FlowActionGetDis",
+   "len": 36,
+   "handler": 75677440,
+   "registrar": 19676116,
+   "name_mode": "xor30@0x57ed062",
+   "class": "type-name"
+  },
+  {
+   "name": "3Lua21LFEDictionary_MethodsINS2_6Com",
+   "len": 36,
+   "handler": 71363684,
+   "registrar": 19603760,
+   "name_mode": "xor30@0x57cd980",
+   "class": "event-handler"
+  },
+  {
+   "name": "4IFlowEvaluatorIsOpenGrayToogleSyn",
+   "len": 34,
+   "handler": 18446744073709551615,
+   "registrar": 19647264,
+   "name_mode": "island@0x57dc7e8((-196608, 'xor30'))",
+   "class": "type-name"
+  },
+  {
+   "name": "6detail13UserdataValueIN11FrameEngi",
+   "len": 35,
+   "handler": 73415404,
+   "registrar": 19649920,
+   "name_mode": "island@0x57df63b((-65536, 'xor30'))",
+   "class": "type-name"
+  },
+  {
+   "name": "7ActorComponentAttrBECon",
+   "len": 24,
+   "handler": 76070176,
+   "registrar": 19687984,
+   "name_mode": "xor30@0x57efd55",
+   "class": "event-handler"
+  },
+  {
+   "name": "7ChampionGainConfigResObjectEEEiS8_E8D",
+   "len": 38,
+   "handler": 75678952,
+   "registrar": 19676848,
+   "name_mode": "island@0x57ed22d((-131072, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "8ActorConditionIndependent",
+   "len": 26,
+   "handler": 75682888,
+   "registrar": 19678572,
+   "name_mode": "xor30@0x57ed655",
+   "class": "event-handler"
+  },
+  {
+   "name": "8DataSync38IFlowEvaluatorShared",
+   "len": 31,
+   "handler": 75683976,
+   "registrar": 19679512,
+   "name_mode": "island@0x57ed86e((-262144, 'xor30'))",
+   "class": "type-name"
+  },
+  {
+   "name": "9FlowEvaluatorPositionInRealmOutsideSy",
+   "len": 38,
+   "handler": 75680224,
+   "registrar": 19677376,
+   "name_mode": "island@0x57ed375((-262144, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "AIActivity_onAIObjDestroy",
+   "len": 25,
+   "handler": 72804996,
+   "registrar": 19644624,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "AICoachMonitor_OnActorApplyBuff",
+   "len": 31,
+   "handler": 74661044,
+   "registrar": 19666980,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "AICoachMonitor_OnActorFinishInit",
+   "len": 32,
+   "handler": 74660820,
+   "registrar": 19666980,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "AICoachMonitor_OnActorRemoveBuff",
+   "len": 32,
+   "handler": 74661096,
+   "registrar": 19666980,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "AICoachMonitor_OnDie",
+   "len": 20,
+   "handler": 74660800,
+   "registrar": 19666980,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "AICoachMonitor_OnReciveHighLight",
+   "len": 32,
+   "handler": 74660928,
+   "registrar": 19666980,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "AITeamSceneObjs_onUseSkill",
+   "len": 26,
+   "handler": 72795980,
+   "registrar": 19644300,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ActionRushEventCheckCollision_OnSkillInterrupt",
+   "len": 46,
+   "handler": 77322808,
+   "registrar": 19719460,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ActionRushEventOnFlash_OnFlash",
+   "len": 30,
+   "handler": 77375688,
+   "registrar": 19720124,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ActionRushEventOnHitCamilleBlock_OnCamilleBlock",
+   "len": 47,
+   "handler": 77317444,
+   "registrar": 19719316,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ActorAttackAuxiliaryProcessor_OnReset",
+   "len": 37,
+   "handler": 75779396,
+   "registrar": 19680912,
+   "name_mode": "island@0x57eddf5((-65536, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "ActorComponentAFKMgr_OnActorHurt",
+   "len": 32,
+   "handler": 33389792,
+   "registrar": 18221280,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ActorComponentAFKMgr_OnBeforeAttack",
+   "len": 35,
+   "handler": 33389816,
+   "registrar": 18221280,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ActorComponentAFKMgr_OnGiveBuff",
+   "len": 31,
+   "handler": 33389840,
+   "registrar": 18221280,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ActorComponentAttackStateMgr_OnReset",
+   "len": 36,
+   "handler": 33528196,
+   "registrar": 18223524,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ActorComponentAttribute_OnHurtHp",
+   "len": 32,
+   "handler": 33601456,
+   "registrar": 18223948,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ActorComponentAttribute_OnHurtingHandler",
+   "len": 40,
+   "handler": 33601240,
+   "registrar": 18223948,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ActorComponentAttribute_OnReborn",
+   "len": 32,
+   "handler": 33601216,
+   "registrar": 18223948,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ActorComponentAttribute_OnUSBSkillChange",
+   "len": 40,
+   "handler": 33601676,
+   "registrar": 18223948,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ActorComponentBuffMgr_OnDie",
+   "len": 27,
+   "handler": 33418380,
+   "registrar": 18221568,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ActorComponentChaosZone_OnLevelup",
+   "len": 33,
+   "handler": 33918724,
+   "registrar": 18226608,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ActorComponentEdgeLengthCDRecorder_OnActorDie",
+   "len": 45,
+   "handler": 33750400,
+   "registrar": 18225476,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ActorComponentFightStateMgr_OnActorApplyBuff",
+   "len": 44,
+   "handler": 33740772,
+   "registrar": 18225044,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ActorComponentFightStateMgr_OnActorDodge",
+   "len": 40,
+   "handler": 33741020,
+   "registrar": 18225044,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ActorComponentFightStateMgr_OnActorHitMiss",
+   "len": 42,
+   "handler": 33741212,
+   "registrar": 18225044,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ActorComponentFightStateMgr_OnActorHurt",
+   "len": 39,
+   "handler": 33740540,
+   "registrar": 18225044,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ActorComponentFightStateMgr_OnActorImmuneBuff",
+   "len": 45,
+   "handler": 33740796,
+   "registrar": 18225044,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ActorComponentFootPrint_OnReborn",
+   "len": 32,
+   "handler": 33346536,
+   "registrar": 18220568,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ActorComponentFow_OnDie",
+   "len": 23,
+   "handler": 33550984,
+   "registrar": 18223732,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ActorComponentFow_OnReborn",
+   "len": 26,
+   "handler": 33550868,
+   "registrar": 18223732,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ActorComponentGemSkillMonster_OnCallerDie",
+   "len": 41,
+   "handler": 32726364,
+   "registrar": 18216372,
+   "name_mode": "island@0x56ad1cf((-393216, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "ActorComponentGemSkillMonster_OnCallerSkillInterrupt",
+   "len": 52,
+   "handler": 32726644,
+   "registrar": 18216372,
+   "name_mode": "island@0x56ad1f9((-393216, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "ActorComponentHatred_OnApplyBuff",
+   "len": 32,
+   "handler": 33443868,
+   "registrar": 18221776,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ActorComponentHatred_OnHurt",
+   "len": 27,
+   "handler": 33443892,
+   "registrar": 18221776,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ActorComponentHatred_OnImmuneBuff",
+   "len": 33,
+   "handler": 33443916,
+   "registrar": 18221776,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ActorComponentHatred_OnReborn",
+   "len": 29,
+   "handler": 33443824,
+   "registrar": 18221776,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ActorComponentHelpMarker_OnActorApplyBuff",
+   "len": 41,
+   "handler": 33455372,
+   "registrar": 18222136,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ActorComponentHelpMarker_OnActorRemoveBuff",
+   "len": 42,
+   "handler": 33455540,
+   "registrar": 18222136,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ActorComponentHelpMarker_OnBeHealHP",
+   "len": 35,
+   "handler": 33455708,
+   "registrar": 18222136,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ActorComponentHurtDelay_OnDie",
+   "len": 29,
+   "handler": 33064904,
+   "registrar": 18219080,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ActorComponentKillAssist_OnActorApplyBuff",
+   "len": 41,
+   "handler": 33134180,
+   "registrar": 18219640,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ActorComponentKillAssist_OnBeforeDieHandler",
+   "len": 43,
+   "handler": 33134156,
+   "registrar": 18219640,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ActorComponentLife_OnReborn",
+   "len": 27,
+   "handler": 33253612,
+   "registrar": 18220064,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ActorComponentMarkMgr_OnDie",
+   "len": 27,
+   "handler": 33378688,
+   "registrar": 18220992,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ActorComponentMovementHero_AbilityChangeAction",
+   "len": 46,
+   "handler": 34759016,
+   "registrar": 18236260,
+   "name_mode": "island@0x56bf510((-131072, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "ActorComponentPostureAnim_OnActorHurt",
+   "len": 37,
+   "handler": 33474528,
+   "registrar": 18222772,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ActorComponentPostureAnim_OnStateChangedHandler",
+   "len": 47,
+   "handler": 33474736,
+   "registrar": 18222772,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ActorComponentPostureAnim_OnUseSkill",
+   "len": 36,
+   "handler": 33474508,
+   "registrar": 18222772,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ActorComponentRecentlyDamage_OnHurt",
+   "len": 35,
+   "handler": 33706604,
+   "registrar": 18224772,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ActorComponentSkillMgr_OnBeforeDie",
+   "len": 34,
+   "handler": 33202644,
+   "registrar": 18219920,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ActorComponentSummmon_OnCallerDie",
+   "len": 33,
+   "handler": 33518180,
+   "registrar": 18223380,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ActorComponentTrait_OnGainAdd",
+   "len": 29,
+   "handler": 33358380,
+   "registrar": 18220712,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ActorComponentTrait_OnGainRemove",
+   "len": 32,
+   "handler": 33358404,
+   "registrar": 18220712,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ActorComponentVisible_OnActorApplyBuff",
+   "len": 38,
+   "handler": 33493948,
+   "registrar": 18223060,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ActorComponentVisible_OnActorEnterGrass",
+   "len": 39,
+   "handler": 33493972,
+   "registrar": 18223060,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ActorComponentVisible_OnActorLeaveGrass",
+   "len": 39,
+   "handler": 33493996,
+   "registrar": 18223060,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ActorEventAdapter_EventCallback",
+   "len": 31,
+   "handler": 70282980,
+   "registrar": 19574908,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ActorMoveToBestProfitPositionA_filterSkillInAdv",
+   "len": 47,
+   "handler": 71337488,
+   "registrar": 19602952,
+   "name_mode": "island@0x57cd75d((393216, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "ActorSkill_OnRideStateChange",
+   "len": 28,
+   "handler": 31234572,
+   "registrar": 18206476,
+   "name_mode": "island@0x569cbf2((-131072, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "ActorState_FeatureCollection_AiFeatureCollect_ActorRebornCD",
+   "len": 59,
+   "handler": 73388984,
+   "registrar": 19648776,
+   "name_mode": "island@0x57df153((393216, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "AiInteractiveA_FirstKillHandler",
+   "len": 31,
+   "handler": 70840904,
+   "registrar": 19589044,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "AiInteractiveA_OnCreateInteractive",
+   "len": 34,
+   "handler": 70840944,
+   "registrar": 19589044,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "AiInteractiveA_OnReciveHighlightEvent",
+   "len": 37,
+   "handler": 70840964,
+   "registrar": 19589044,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "AiInteractiveA_ShortCutsHandler",
+   "len": 31,
+   "handler": 70840924,
+   "registrar": 19589044,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "AiInteractiveNewA_FirstKillHandler",
+   "len": 34,
+   "handler": 70682656,
+   "registrar": 19586740,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "AiInteractiveNewA_OnCreateInteractive",
+   "len": 37,
+   "handler": 70682744,
+   "registrar": 19586740,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "AiInteractiveNewA_OnReciveHighlightEvent",
+   "len": 40,
+   "handler": 70682764,
+   "registrar": 19586740,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "AiInteractiveNewA_ShortCutsHandler",
+   "len": 34,
+   "handler": 70682724,
+   "registrar": 19586740,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "AiLineData_FeatureCollection_AiFeatureCollect_LineHeroCount",
+   "len": 59,
+   "handler": 73395500,
+   "registrar": 19649208,
+   "name_mode": "island@0x57df30c((393216, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "AiLineData_FeatureCollection_AiFeatureCollect_SoldierLineModel",
+   "len": 62,
+   "handler": 73395724,
+   "registrar": 19649208,
+   "name_mode": "island@0x57df3ca((393216, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "AiObjHero_OnOfflineModeReload",
+   "len": 29,
+   "handler": 74202664,
+   "registrar": 19660364,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "AiSurrenderVoteA_OnResultSurrender",
+   "len": 34,
+   "handler": 70830144,
+   "registrar": 19588828,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "AiSurrenderVoteA_OnUpdateSurrender",
+   "len": 34,
+   "handler": 70830124,
+   "registrar": 19588828,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "AiSystem_OnMapSwitchMapLayer",
+   "len": 28,
+   "handler": 28390060,
+   "registrar": 18192972,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "AiSystem_OnRiftElementChange",
+   "len": 28,
+   "handler": 28390040,
+   "registrar": 18192972,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "AnniesBearRegression_OnActorApplyBuff",
+   "len": 37,
+   "handler": 81025968,
+   "registrar": 19853212,
+   "name_mode": "label+off@0x581d1d6(delta=-0x20000)",
+   "class": "event-handler"
+  },
+  {
+   "name": "AnniesBearRegression_OnActorDodge",
+   "len": 33,
+   "handler": 81026224,
+   "registrar": 19853212,
+   "name_mode": "label+off@0x581d223(delta=-0x20000)",
+   "class": "event-handler"
+  },
+  {
+   "name": "AnniesBearRegression_OnActorHitMiss",
+   "len": 35,
+   "handler": 81026400,
+   "registrar": 19853212,
+   "name_mode": "label+off@0x581d245(delta=-0x20000)",
+   "class": "event-handler"
+  },
+  {
+   "name": "AnniesBearRegression_OnActorHurt",
+   "len": 32,
+   "handler": 81025800,
+   "registrar": 19853212,
+   "name_mode": "label+off@0x581d1b5(delta=-0x20000)",
+   "class": "event-handler"
+  },
+  {
+   "name": "AnniesBearRegression_OnActorImmuneBuff",
+   "len": 38,
+   "handler": 81025992,
+   "registrar": 19853212,
+   "name_mode": "label+off@0x581d1fc(delta=-0x20000)",
+   "class": "event-handler"
+  },
+  {
+   "name": "AnniesBearRegression_OnAfterDamageCalculate",
+   "len": 43,
+   "handler": 81026692,
+   "registrar": 19853212,
+   "name_mode": "label+off@0x581d269(delta=-0x20000)",
+   "class": "event-handler"
+  },
+  {
+   "name": "AramSLGlobalDataMonitor_OnDie",
+   "len": 29,
+   "handler": 74951872,
+   "registrar": 19672092,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "AramSLUnitDataMonitor_OnHurt",
+   "len": 28,
+   "handler": 74984924,
+   "registrar": 19672236,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "BSDCPerfectControl_OnActorApplyBuff",
+   "len": 35,
+   "handler": 31883132,
+   "registrar": 18211292,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "BSDCSingleMultiKill_OnKill",
+   "len": 26,
+   "handler": 31890712,
+   "registrar": 18211500,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "BattleActor_OnAfterFowChange",
+   "len": 28,
+   "handler": 32044112,
+   "registrar": 18212796,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "BattleActor_OnBeforeFowChange",
+   "len": 29,
+   "handler": 32043940,
+   "registrar": 18212796,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "BattleActor_OnHurtingHandler",
+   "len": 28,
+   "handler": 32043716,
+   "registrar": 18212796,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "BattleActor_OnNaviTransformed",
+   "len": 29,
+   "handler": 32043920,
+   "registrar": 18212796,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "BattleActor_OnReborn",
+   "len": 20,
+   "handler": 32043276,
+   "registrar": 18212796,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "BattleActor_OnStateChangedHandler",
+   "len": 33,
+   "handler": 32043480,
+   "registrar": 18212796,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "BattleEquipCancelRuleMgr_OnUseSkill",
+   "len": 35,
+   "handler": 32522208,
+   "registrar": 18214660,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "BattleEquipMgr_OnActorHurt",
+   "len": 26,
+   "handler": 32478604,
+   "registrar": 18214452,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "BattleFow_OnHomeBaseDestroyed",
+   "len": 29,
+   "handler": 35811112,
+   "registrar": 18242396,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "BattleHero_OnStealSkillHandler",
+   "len": 30,
+   "handler": 32758092,
+   "registrar": 18216908,
+   "name_mode": "island@0x56ad892((-393216, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "BattleKeyInfoMgr_OnFightStateChange",
+   "len": 35,
+   "handler": 30832544,
+   "registrar": 18204748,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "BattleKeyInfoMgr_OnMobaKillInfo",
+   "len": 31,
+   "handler": 30832568,
+   "registrar": 18204748,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "BattlePlayerInteractiveMgr_OnActorHurt",
+   "len": 38,
+   "handler": 31899692,
+   "registrar": 18211708,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "BattlePlayerInteractiveMgr_OnActorKillInfo",
+   "len": 42,
+   "handler": 31899712,
+   "registrar": 18211708,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "BattlePlayerInteractiveMgr_OnCreateInteractive",
+   "len": 46,
+   "handler": 31899672,
+   "registrar": 18211708,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "BattlePlayerInteractiveMgr_OnFastSignalReply",
+   "len": 44,
+   "handler": 31899652,
+   "registrar": 18211708,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "BattlePlayerInteractiveMgr_OnNotifyInteractiveFistbump",
+   "len": 54,
+   "handler": 31899752,
+   "registrar": 18211708,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "BattlePlayerInteractiveMgr_OnSendFastSignal",
+   "len": 43,
+   "handler": 31899452,
+   "registrar": 18211708,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "BattlePlayerInteractiveMgr_OnSpecialEvent",
+   "len": 41,
+   "handler": 31899732,
+   "registrar": 18211708,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "BattleScoringHighlight_OnReciveHighlightEvent",
+   "len": 45,
+   "handler": 31847652,
+   "registrar": 18210892,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "BattleScoringManager_OnActorApplyBuff",
+   "len": 37,
+   "handler": 31784136,
+   "registrar": 18209100,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "BattleScoringManager_OnActorCreate",
+   "len": 34,
+   "handler": 31782980,
+   "registrar": 18209100,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "BattleScoringManager_OnActorDie",
+   "len": 31,
+   "handler": 31784440,
+   "registrar": 18209100,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "BattleScoringManager_OnActorGiveBuff",
+   "len": 36,
+   "handler": 31784180,
+   "registrar": 18209100,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "BattleScoringManager_OnActorHurt",
+   "len": 32,
+   "handler": 31783000,
+   "registrar": 18209100,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "BattleScoringManager_OnActorStateChange",
+   "len": 39,
+   "handler": 31784204,
+   "registrar": 18209100,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "BattleScoringManager_OnAddHeroAchievement",
+   "len": 41,
+   "handler": 31783204,
+   "registrar": 18209100,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "BattleScoringManager_OnBattleShopBuy",
+   "len": 36,
+   "handler": 31783336,
+   "registrar": 18209100,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "BattleScoringManager_OnCollectBuffElapsedTime",
+   "len": 45,
+   "handler": 31784224,
+   "registrar": 18209100,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "BattleScoringManager_OnCreateInteractive",
+   "len": 40,
+   "handler": 31784244,
+   "registrar": 18209100,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "BattleScoringManager_OnDie",
+   "len": 26,
+   "handler": 31782684,
+   "registrar": 18209100,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "BattleScoringManager_OnHextechBoxGained",
+   "len": 39,
+   "handler": 31784656,
+   "registrar": 18209100,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "BattleScoringManager_OnHextechBoxUsed",
+   "len": 37,
+   "handler": 31784876,
+   "registrar": 18209100,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "BattleScoringManager_OnNotifyInteractiveFistbump",
+   "len": 48,
+   "handler": 31784420,
+   "registrar": 18209100,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "BattleScoringManager_OnReborn",
+   "len": 29,
+   "handler": 31782704,
+   "registrar": 18209100,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "BattleScoringManager_OnSelectUSBSkill",
+   "len": 37,
+   "handler": 31785096,
+   "registrar": 18209100,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "BattleScoringManager_OnStackBuffChange",
+   "len": 38,
+   "handler": 31784160,
+   "registrar": 18209100,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "BattleScoringManager_OnStrategicPointStateChange",
+   "len": 48,
+   "handler": 31784264,
+   "registrar": 18209100,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "BattleScoringManager_OnUpdateSurrender",
+   "len": 38,
+   "handler": 31783020,
+   "registrar": 18209100,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "BattleScoringManager_OnUseExpression",
+   "len": 36,
+   "handler": 31783356,
+   "registrar": 18209100,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "BattleScoringManager_OnUseFastChatSignal",
+   "len": 40,
+   "handler": 31783540,
+   "registrar": 18209100,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "BattleScoringManager_OnUseMiniMapSignal",
+   "len": 39,
+   "handler": 31783768,
+   "registrar": 18209100,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "BattleScoringManager_OnUseSkill",
+   "len": 31,
+   "handler": 31784116,
+   "registrar": 18209100,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "BevTreeExtraAnalyzer_OnApplyCtrlEffect",
+   "len": 38,
+   "handler": 28600928,
+   "registrar": 18194808,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "BevTreeExtraAnalyzer_OnKill",
+   "len": 27,
+   "handler": 28600924,
+   "registrar": 18194808,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "BevTreeExtraAnalyzer_OnUseSkill",
+   "len": 31,
+   "handler": 28600920,
+   "registrar": 18194808,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "BevTreeSkillAnalyzer_OnApplyBuff",
+   "len": 32,
+   "handler": 28571040,
+   "registrar": 18194160,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "BevTreeSkillAnalyzer_OnHurt",
+   "len": 27,
+   "handler": 28570976,
+   "registrar": 18194160,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "BevTreeSkillAnalyzer_OnKill",
+   "len": 27,
+   "handler": 28570996,
+   "registrar": 18194160,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "BevTreeSkillAnalyzer_OnUseSkill",
+   "len": 31,
+   "handler": 28571016,
+   "registrar": 18194160,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "BevTreeStateAnalyzer_OnBackHome",
+   "len": 31,
+   "handler": 28586604,
+   "registrar": 18194520,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "BevTreeStateAnalyzer_OnKill",
+   "len": 27,
+   "handler": 28586652,
+   "registrar": 18194520,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "BevTreeStateAnalyzer_OnUseSkill",
+   "len": 31,
+   "handler": 28586628,
+   "registrar": 18194520,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "CCSGlobalDataMonitor_OnDie",
+   "len": 26,
+   "handler": 28810524,
+   "registrar": 18197104,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "CCSUnitDataMonitor_OnHurt",
+   "len": 25,
+   "handler": 28786368,
+   "registrar": 18196816,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "CCSUnitDataMonitor_OnUseFastChatSignal",
+   "len": 38,
+   "handler": 28786388,
+   "registrar": 18196816,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "CCSUnitDataMonitor_OnUseMiniMapSignal",
+   "len": 37,
+   "handler": 28786408,
+   "registrar": 18196816,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "CHAOMoveToBestProfitPosA_filterSkill",
+   "len": 36,
+   "handler": 70894328,
+   "registrar": 19591068,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ChangeDifficultyOnLane_OnHurt",
+   "len": 29,
+   "handler": 70501708,
+   "registrar": 19583332,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "CheckTimeToBeCatchUpC_filterSkill",
+   "len": 33,
+   "handler": 71925116,
+   "registrar": 19624920,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "CheckTimeToCatchUpTargetC_filterSkill",
+   "len": 37,
+   "handler": 71906972,
+   "registrar": 19623944,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "CherryDataMgr_OnActorHurtUpdateFightRecord",
+   "len": 42,
+   "handler": 35519284,
+   "registrar": 18240244,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "CherryEventProcess_OnCherryAfterRounrdChange",
+   "len": 44,
+   "handler": 71140024,
+   "registrar": 19595640,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "CherryEventProcess_ReadyToRestSkillHandler",
+   "len": 42,
+   "handler": 71140168,
+   "registrar": 19595640,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "CherryRandomGainRuleMgr_OnRandomGainPicked",
+   "len": 42,
+   "handler": 31042708,
+   "registrar": 18205916,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "CherryRandomGainRuleMgr_OnRandomGainShowPickedFinish",
+   "len": 52,
+   "handler": 31042688,
+   "registrar": 18205916,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "CppHotFixHelper_OnEvent1",
+   "len": 24,
+   "handler": 32939968,
+   "registrar": 18217820,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "CppHotFixHelper_OnEvent2",
+   "len": 24,
+   "handler": 32939988,
+   "registrar": 18217820,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "CppHotFixHelper_OnEvent3",
+   "len": 24,
+   "handler": 32940008,
+   "registrar": 18217820,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "DictionaryIiPNS5_16Ve",
+   "len": 21,
+   "handler": 75683700,
+   "registrar": 19679040,
+   "name_mode": "island@0x57ed7bb((-131072, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "DictionaryIiPNS_5Logic9DamageFixENS",
+   "len": 35,
+   "handler": 31132124,
+   "registrar": 18206132,
+   "name_mode": "island@0x569c109((-327680, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "Dictionary_MethodsINS2_6Common12FED",
+   "len": 35,
+   "handler": 75677696,
+   "registrar": 19676316,
+   "name_mode": "island@0x57ed0b9((-131072, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "EDictionary_MethodsINS2_6Common12FEDictiona",
+   "len": 43,
+   "handler": 75984560,
+   "registrar": 19684944,
+   "name_mode": "island@0x57ef2f8((-131072, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "EEventMsgFlowActionChangeModel_OnEnter_PutM",
+   "len": 43,
+   "handler": 75690096,
+   "registrar": 19679912,
+   "name_mode": "island@0x57ed8e9((-327680, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "EGADestroyTurretAnalyzer_OnKill",
+   "len": 31,
+   "handler": 74616392,
+   "registrar": 19666396,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "EGAPushEfficiencyAnalyzer_OnDie",
+   "len": 31,
+   "handler": 74537784,
+   "registrar": 19664668,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "EGAPushEfficiencyAnalyzer_OnUseSkill",
+   "len": 36,
+   "handler": 74537760,
+   "registrar": 19664668,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "EGATeamFightAnalyzer_OnApplyCtrlEffect",
+   "len": 38,
+   "handler": 74578060,
+   "registrar": 19665268,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "EGATeamFightAnalyzer_OnHurt",
+   "len": 27,
+   "handler": 74578080,
+   "registrar": 19665268,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "EGATeamFightAnalyzer_OnKill",
+   "len": 27,
+   "handler": 74578120,
+   "registrar": 19665268,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "EGATeamFightAnalyzer_OnTreatCure",
+   "len": 32,
+   "handler": 74578100,
+   "registrar": 19665268,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ESDCGamePause_OnGamePause",
+   "len": 25,
+   "handler": 75678692,
+   "registrar": 19676716,
+   "name_mode": "island@0x57ed1bd((-65536, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "ESDCRiftHerald_OnActorBeKilled",
+   "len": 30,
+   "handler": 75682044,
+   "registrar": 19677900,
+   "name_mode": "island@0x57ed4cb((-65536, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "ESDCRiftHerald_OnHexPoroPurchased",
+   "len": 33,
+   "handler": 75682068,
+   "registrar": 19677900,
+   "name_mode": "island@0x57ed584((-65536, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "ESDCTowerPlateDestroyed_OnTowerPlateDestroyed",
+   "len": 45,
+   "handler": 75683144,
+   "registrar": 19678908,
+   "name_mode": "island@0x57ed6b7((-65536, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "EffectCreateRangeVision_OnPositionChange",
+   "len": 40,
+   "handler": 76035372,
+   "registrar": 19686616,
+   "name_mode": "island@0x57ef979((-65536, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "EffectModHealMpByBuff_OnBeHealMp",
+   "len": 32,
+   "handler": 76174920,
+   "registrar": 19691400,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "EffectModHurtArguments_OnCalculateHurt",
+   "len": 38,
+   "handler": 76152400,
+   "registrar": 19690536,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "EffectModSingleHurt_OnCalculateHurt",
+   "len": 35,
+   "handler": 76129092,
+   "registrar": 19689752,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "EffectModSkillRange_OnRepalceSkillHandler",
+   "len": 41,
+   "handler": 76046056,
+   "registrar": 19686952,
+   "name_mode": "island@0x57efa90((-65536, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "EffectModSkillRange_OnSkillGemModifyHandler",
+   "len": 43,
+   "handler": 76046120,
+   "registrar": 19686952,
+   "name_mode": "island@0x57efaea((-65536, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "EffectModificationKillExp_ActorVarResetHandler",
+   "len": 46,
+   "handler": 76216640,
+   "registrar": 19692056,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "EffectModificationKillMoney_ActorVarResetHandler",
+   "len": 48,
+   "handler": 76173068,
+   "registrar": 19691256,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "Engine5Logic21MovementTolera",
+   "len": 28,
+   "handler": 76069992,
+   "registrar": 19687984,
+   "name_mode": "island@0x57efd38((-262144, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "Engine5Logic27ActorConditi",
+   "len": 26,
+   "handler": 75682052,
+   "registrar": 19677900,
+   "name_mode": "xor30@0x57ed508",
+   "class": "event-handler"
+  },
+  {
+   "name": "Engine5Logic35FlowEvaluatorMonsterEvoluti",
+   "len": 41,
+   "handler": 75676936,
+   "registrar": 19675916,
+   "name_mode": "island@0x57ecfd8((-262144, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "Engine5Logic37LgcMsg_EVENT_TRIGGER_CONTR",
+   "len": 40,
+   "handler": 36229560,
+   "registrar": 18245668,
+   "name_mode": "island@0x56cd808((-262144, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionAbilityChangeTrigger_AbilityChangeAction",
+   "len": 50,
+   "handler": 78591652,
+   "registrar": 19767896,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionActorBackHomeTrigger_OnBackHome",
+   "len": 41,
+   "handler": 78380496,
+   "registrar": 19753140,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionActorBornEventTrigger_ActorBornHandler",
+   "len": 48,
+   "handler": 78660140,
+   "registrar": 19772792,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionActorDeadEventTrigger_ActorDieHandler",
+   "len": 47,
+   "handler": 78471676,
+   "registrar": 19759220,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionActorDeadTrigger_OnDie",
+   "len": 32,
+   "handler": 78652200,
+   "registrar": 19772216,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionActorDieByGATrigger_OnDieByAG",
+   "len": 39,
+   "handler": 78384812,
+   "registrar": 19753428,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionActorDiscardEvacuateDepotTrigger_OnDiscard",
+   "len": 52,
+   "handler": 81880692,
+   "registrar": 19862512,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionActorEnterBlock_OnActorEnterBlock",
+   "len": 43,
+   "handler": 77597176,
+   "registrar": 19725804,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionActorEvacuateTrigger_OnEvacuateHandler",
+   "len": 48,
+   "handler": 79815396,
+   "registrar": 19813652,
+   "name_mode": "island@0x580fad2((-131072, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionActorGetAddSkillSlotTrigger_OnSelectSkillSlotIndex",
+   "len": 60,
+   "handler": 78419548,
+   "registrar": 19755564,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionActorMovingTrigger_OnActorMoving",
+   "len": 42,
+   "handler": 78465396,
+   "registrar": 19758788,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionActorRebornByGATrigger_OnRebornByAG",
+   "len": 45,
+   "handler": 78477384,
+   "registrar": 19759652,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionActorRebornTrigger_OnReborn",
+   "len": 37,
+   "handler": 78587864,
+   "registrar": 19767608,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionActorSyncVisibleRelatedRef_OnVisibleRelatedRefCountChanged",
+   "len": 68,
+   "handler": 79711372,
+   "registrar": 19809704,
+   "name_mode": "island@0x580eaec((-131072, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionAdaptiveChangedTrigger_OnAdaptiveChanged",
+   "len": 50,
+   "handler": 78573720,
+   "registrar": 19766760,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionAfterCalDmgForAttacker_OnAfterCalDamageAttackHandler",
+   "len": 62,
+   "handler": 78450700,
+   "registrar": 19757572,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionAfterCalDmgForTarget_OnAfterCalDamageTargetHandler",
+   "len": 60,
+   "handler": 78494800,
+   "registrar": 19760868,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionAfterCalcHealHPTrigger_OnAfterCalcHealHP",
+   "len": 50,
+   "handler": 78388892,
+   "registrar": 19753716,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionAfterCalcShieldTrigger_OnAfterCalcShield",
+   "len": 50,
+   "handler": 78685760,
+   "registrar": 19774224,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionAfterCauseHurtTrigger_OnAfterCauseHurt",
+   "len": 48,
+   "handler": 76806588,
+   "registrar": 19698848,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionAfterHealHPTrigger_OnHealHp",
+   "len": 37,
+   "handler": 78509052,
+   "registrar": 19761948,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionAfterHurtTrigger_OnAfterHurt",
+   "len": 38,
+   "handler": 78438976,
+   "registrar": 19756788,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionAhriTalent_OnSkillLevelUP",
+   "len": 35,
+   "handler": 77928740,
+   "registrar": 19735644,
+   "name_mode": "island@0x57fc3b1((65536, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionAhriTalent_OnUseSkill",
+   "len": 31,
+   "handler": 77928428,
+   "registrar": 19735644,
+   "name_mode": "island@0x57fc32e((65536, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionApplyBuffTrigger_OnApplyBuff",
+   "len": 38,
+   "handler": 78434068,
+   "registrar": 19756428,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionApplyMarkTrigger_OnApplyMark",
+   "len": 38,
+   "handler": 78475692,
+   "registrar": 19759508,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionAttackDelayDieTrigger_OnActorDie",
+   "len": 42,
+   "handler": 78358028,
+   "registrar": 19751412,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionAttackDelayDieTrigger_OnInflict",
+   "len": 41,
+   "handler": 78357772,
+   "registrar": 19751412,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionAttackTypeChangeTrigger_OnAttackTypeHandler",
+   "len": 53,
+   "handler": 78546504,
+   "registrar": 19764756,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionBackInTime_OnBackInTime",
+   "len": 33,
+   "handler": 78866968,
+   "registrar": 19780472,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionBeHealedTrigger_OnBeHealedHandler",
+   "len": 43,
+   "handler": 78371052,
+   "registrar": 19752492,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionBeHitTrigger_OnBeHitHandler",
+   "len": 37,
+   "handler": 78436540,
+   "registrar": 19756572,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionBeHitTrigger_OnBeHitSpellShieldHandler",
+   "len": 48,
+   "handler": 78436728,
+   "registrar": 19756572,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionBeImmuneBuffTrigger_OnBeImmuneBuff",
+   "len": 44,
+   "handler": 78376920,
+   "registrar": 19752780,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionBeImmuneBuffTrigger_OnBeImmuneSpellShield",
+   "len": 51,
+   "handler": 78376944,
+   "registrar": 19752780,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionBeforeCalDmgForAttacker_OnBeforeCalDamageAttackHandler",
+   "len": 64,
+   "handler": 78454932,
+   "registrar": 19757860,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionBeforeCalDmgForTarget_OnBeforeCalDamageTargetHandler",
+   "len": 62,
+   "handler": 78624260,
+   "registrar": 19770200,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionBeforeCalcHealHPTrigger_OnBeforeCalcHealHP",
+   "len": 52,
+   "handler": 78393096,
+   "registrar": 19753924,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionBeforeCalcShieldTrigger_OnBeforeCalcShield",
+   "len": 52,
+   "handler": 78679144,
+   "registrar": 19773936,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionBeforeDieTrigger_OnBeforDieHandler",
+   "len": 44,
+   "handler": 78564300,
+   "registrar": 19766052,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionBeforeGiveShieldTrigger_OnBeforeShield",
+   "len": 48,
+   "handler": 78440880,
+   "registrar": 19756932,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionBeforeHealHPTrigger_OnBeforeHealHP",
+   "len": 44,
+   "handler": 78397068,
+   "registrar": 19754212,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionBeforeHurtTrigger_OnBeforeHurt",
+   "len": 40,
+   "handler": 78383336,
+   "registrar": 19753284,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionBeforePlaySkillFlowTrigger_OnBeforePlaySkillFlow",
+   "len": 58,
+   "handler": 78636624,
+   "registrar": 19771064,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionBeforeSelectUSBSkillTrigger_OnBeforeSelectSkill",
+   "len": 57,
+   "handler": 78499996,
+   "registrar": 19761300,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionBeforeShieldGotAfterCalcTrigger_OnBeforeShield",
+   "len": 56,
+   "handler": 78367180,
+   "registrar": 19752204,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionBeforeShieldGotTrigger_OnBeforeShield",
+   "len": 47,
+   "handler": 78501900,
+   "registrar": 19761444,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionBeforeUseSkillTrigger_OnBeforeUseSkill",
+   "len": 48,
+   "handler": 78460420,
+   "registrar": 19758356,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionBlockBulletTrigger_OnBulletBlocked",
+   "len": 44,
+   "handler": 78617528,
+   "registrar": 19769768,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionBonePlating_OnAfterCalDamageHandler",
+   "len": 45,
+   "handler": 77847896,
+   "registrar": 19732092,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionBonePlating_OnBeforeCalDamageHandler",
+   "len": 46,
+   "handler": 77847872,
+   "registrar": 19732092,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionBulletBlocked_OnBulletBlocked",
+   "len": 39,
+   "handler": 77799008,
+   "registrar": 19730436,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionBulletEmitter_CalcTrasnformInfo",
+   "len": 41,
+   "handler": 77794828,
+   "registrar": 19730292,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionBulletGetCollisionInfo_OnHitActor",
+   "len": 43,
+   "handler": 77224988,
+   "registrar": 19716940,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionBulletSetControl_OnHitActor",
+   "len": 37,
+   "handler": 79086452,
+   "registrar": 19786556,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionBuyEquipOutsideTrigger_OnBuyEquipOutsideSpring",
+   "len": 56,
+   "handler": 78595140,
+   "registrar": 19768184,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionCallBuffTransferTrigger_OnCallTarget",
+   "len": 46,
+   "handler": 78469524,
+   "registrar": 19759076,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionCauseChangeAttrBETrigger_OnCauseChangeAttrBE",
+   "len": 54,
+   "handler": 82009380,
+   "registrar": 19865504,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionCircularFollowMove_OnFollowTargetMove",
+   "len": 47,
+   "handler": 80639964,
+   "registrar": 19846692,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionClearGridFow_OnAfterFowChanged",
+   "len": 40,
+   "handler": 78903132,
+   "registrar": 19781384,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionClearGridFow_OnBeforeFowChanged",
+   "len": 41,
+   "handler": 78903112,
+   "registrar": 19781384,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionCountDamage_OnHurt",
+   "len": 28,
+   "handler": 79364212,
+   "registrar": 19795896,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionCreateBulletTrigger_OnCreateBullet",
+   "len": 44,
+   "handler": 78411776,
+   "registrar": 19755140,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionDoSetCDTrigger_OnDoSetCD",
+   "len": 34,
+   "handler": 78560648,
+   "registrar": 19765764,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionDodgeEffect_OnBeforeApplyBuff",
+   "len": 39,
+   "handler": 78748764,
+   "registrar": 19777528,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionDodgeEffect_OnCanBehit",
+   "len": 32,
+   "handler": 78748740,
+   "registrar": 19777528,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionDynamicSkillAddToUITrigger_DynamicSkillToUIHandler",
+   "len": 60,
+   "handler": 78552824,
+   "registrar": 19765188,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionEffectDodgeTrigger_OnDodgeAction",
+   "len": 42,
+   "handler": 78526876,
+   "registrar": 19763388,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionElectrocute_OnGiveBuff",
+   "len": 32,
+   "handler": 77840356,
+   "registrar": 19731948,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionEnterGrassTrigger_ActorEnterGrass",
+   "len": 43,
+   "handler": 78600828,
+   "registrar": 19768616,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionEnterRealmTrigger_OnEnterRealm",
+   "len": 40,
+   "handler": 78544596,
+   "registrar": 19764612,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionEquipChangeTrigger_OnEquipChange",
+   "len": 42,
+   "handler": 78481608,
+   "registrar": 19759940,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionEquipStatDataAddByTrigger_OnBeHurtForGiver",
+   "len": 52,
+   "handler": 79755836,
+   "registrar": 19810952,
+   "name_mode": "island@0x580f3c2((-131072, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionEquipStatDataAddByTrigger_OnHealHPHandler",
+   "len": 51,
+   "handler": 79755644,
+   "registrar": 19810952,
+   "name_mode": "island@0x580f20d((-131072, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionEquipStatDataAddByTrigger_OnStatPierceDamage",
+   "len": 54,
+   "handler": 79755716,
+   "registrar": 19810952,
+   "name_mode": "island@0x580f2ac((-131072, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionEquipStatDataAddByTrigger_OnStatSuckBlood",
+   "len": 51,
+   "handler": 79755764,
+   "registrar": 19810952,
+   "name_mode": "island@0x580f322((-131072, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionEvacuateItemPickTrigger_OnPick",
+   "len": 40,
+   "handler": 81896772,
+   "registrar": 19863072,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionExitDurationOnCollision_OnSkillInterrupt",
+   "len": 50,
+   "handler": 77392332,
+   "registrar": 19720604,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionFightStateChangeTrigger_OnFightStateChange",
+   "len": 52,
+   "handler": 78650036,
+   "registrar": 19772072,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionFightStateRefreshTrigger_OnFightStateRefresh",
+   "len": 54,
+   "handler": 78627864,
+   "registrar": 19770488,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionFinishBattleTeamVarRankTrigger_OnReciveChange",
+   "len": 55,
+   "handler": 78575320,
+   "registrar": 19766904,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionFixEnemyHeroTrigger_OnMakeOtherAbilityChanged",
+   "len": 55,
+   "handler": 78634180,
+   "registrar": 19770920,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionForbidObtainResource_OnModResource",
+   "len": 44,
+   "handler": 79428424,
+   "registrar": 19798296,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionForceSetActorFogPos_OnAfterFowChanged",
+   "len": 47,
+   "handler": 77153524,
+   "registrar": 19714532,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionForceSetActorFogPos_OnBeforeFowChanged",
+   "len": 48,
+   "handler": 77153504,
+   "registrar": 19714532,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionFrameEndTrigger_OnFrameEnd",
+   "len": 36,
+   "handler": 78400052,
+   "registrar": 19754500,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionGMFlowEventTrigger_GMFlowEventHandler",
+   "len": 47,
+   "handler": 78489200,
+   "registrar": 19760516,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionGainSkillGemTrigger_OnGainSkillGem",
+   "len": 44,
+   "handler": 80659520,
+   "registrar": 19847156,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionGiveBuffTrigger_OnGiveBuff",
+   "len": 36,
+   "handler": 78409540,
+   "registrar": 19754996,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionGiveRemoveBuffTrigger_OnGiveRemoveBuff",
+   "len": 48,
+   "handler": 80033560,
+   "registrar": 19817604,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionGiveShieldTrigger_OnGiveShield",
+   "len": 40,
+   "handler": 78708104,
+   "registrar": 19775880,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionHealHPTrigger_OnHealHp",
+   "len": 32,
+   "handler": 78613600,
+   "registrar": 19769480,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionHeroKillAssistTrigger_OnKillAssistHander",
+   "len": 50,
+   "handler": 78700384,
+   "registrar": 19775232,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionHeroKillAssistTrigger_OnKillHander",
+   "len": 44,
+   "handler": 78700116,
+   "registrar": 19775232,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionHeroRebornTrigger_OnReborn",
+   "len": 36,
+   "handler": 78639736,
+   "registrar": 19771352,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionHitTrigger_OnHitBlockHandler",
+   "len": 38,
+   "handler": 78536100,
+   "registrar": 19763676,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionHitTrigger_OnHitHandler",
+   "len": 33,
+   "handler": 78536052,
+   "registrar": 19763676,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionHitTrigger_OnHitReflectBlockHander",
+   "len": 44,
+   "handler": 78536148,
+   "registrar": 19763676,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionHitTrigger_OnHitSpellShieldHandler",
+   "len": 44,
+   "handler": 78536124,
+   "registrar": 19763676,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionHitTrigger_OnMissHitHandler",
+   "len": 37,
+   "handler": 78536076,
+   "registrar": 19763676,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionHurtAccumulator_OnHurt",
+   "len": 32,
+   "handler": 78725016,
+   "registrar": 19776616,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionHurtDelayTrigger_OnHurt",
+   "len": 33,
+   "handler": 78479584,
+   "registrar": 19759796,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionHurtFilterCastTrigger_OnHurtFilterCast",
+   "len": 48,
+   "handler": 78615180,
+   "registrar": 19769624,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionHurtOnCollision_OnFlash",
+   "len": 33,
+   "handler": 77503764,
+   "registrar": 19722284,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionHurtOnCollision_OnSkillInterrupt",
+   "len": 42,
+   "handler": 77503516,
+   "registrar": 19722284,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionHurtTrigger_OnHurt",
+   "len": 28,
+   "handler": 78428408,
+   "registrar": 19756140,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionImminentHurtTrigger_OnHurt",
+   "len": 36,
+   "handler": 78690436,
+   "registrar": 19774512,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionImmuneBuffTrigger_OnImmuneBuff",
+   "len": 40,
+   "handler": 78504620,
+   "registrar": 19761588,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionImmuneBuffTrigger_OnImmuneSpellShield",
+   "len": 47,
+   "handler": 78504644,
+   "registrar": 19761588,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionImmuneDeathTrigger_OnImmuneDeath",
+   "len": 42,
+   "handler": 78452176,
+   "registrar": 19757716,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionImmuneHurt_OnHurt",
+   "len": 27,
+   "handler": 77181604,
+   "registrar": 19715388,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionIncrementSkillRange_OnSkillChangeHandler",
+   "len": 50,
+   "handler": 77831840,
+   "registrar": 19731540,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionIncrementSkillRange_OnSkillGemChangeHandler",
+   "len": 53,
+   "handler": 77832092,
+   "registrar": 19731540,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionInflictTrigger_OnInflict",
+   "len": 34,
+   "handler": 78683480,
+   "registrar": 19774080,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionInteractionFistbumpTrigger_OnInteractionFistbump",
+   "len": 58,
+   "handler": 78582136,
+   "registrar": 19767176,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionKillAwardFinishTrigger_OnKillAwardFinishHandler",
+   "len": 57,
+   "handler": 78498268,
+   "registrar": 19761156,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionKillTrigger_OnFrameEnd",
+   "len": 32,
+   "handler": 78704292,
+   "registrar": 19775448,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionKillTrigger_OnInflict",
+   "len": 31,
+   "handler": 78704028,
+   "registrar": 19775448,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionKillTrigger_OnKillHander",
+   "len": 34,
+   "handler": 78704004,
+   "registrar": 19775448,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionLEditorTestCallTrigger_OnCall",
+   "len": 39,
+   "handler": 78368780,
+   "registrar": 19752348,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionLeaveGrassTrigger_ActorLeaveGrass",
+   "len": 43,
+   "handler": 78378704,
+   "registrar": 19752996,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionLeaveRealmTrigger_OnLeaveRealm",
+   "len": 40,
+   "handler": 78638132,
+   "registrar": 19771208,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionLevelResetTrigger_OnLevelReset",
+   "len": 40,
+   "handler": 78361752,
+   "registrar": 19751772,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionLevelUpTrigger_OnLevelUp",
+   "len": 34,
+   "handler": 78672972,
+   "registrar": 19773504,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionLuaScript_FinishHandler",
+   "len": 33,
+   "handler": 76829836,
+   "registrar": 19699376,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionMarkHeroTrigger_OnMarkCamp",
+   "len": 36,
+   "handler": 78538560,
+   "registrar": 19764108,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionMarkHeroTrigger_OnMarkHero",
+   "len": 36,
+   "handler": 78538352,
+   "registrar": 19764108,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionMaxHPChangeTrigger_OnMaxHpChange",
+   "len": 42,
+   "handler": 78443944,
+   "registrar": 19757140,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionModSkillRange_OnSkillChangeHandler",
+   "len": 44,
+   "handler": 77237392,
+   "registrar": 19717084,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionModSkillRange_OnSkillGemChangeHandler",
+   "len": 47,
+   "handler": 77237424,
+   "registrar": 19717084,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionModifyAfterCalDamagebyAttacker_OnHurt",
+   "len": 47,
+   "handler": 78715176,
+   "registrar": 19776216,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionModifyBuffMaxStack_OnSkillLevelUp",
+   "len": 43,
+   "handler": 78926832,
+   "registrar": 19781900,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionModifySkillRangeBySlot_OnRepalceSkillHandler",
+   "len": 54,
+   "handler": 77735724,
+   "registrar": 19728572,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionModifySkillRangeBySlot_OnSkillGemModifyHandler",
+   "len": 56,
+   "handler": 77735788,
+   "registrar": 19728572,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionModifySkillRangeBySlot_OnSkillLvUpHandler",
+   "len": 51,
+   "handler": 77735692,
+   "registrar": 19728572,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionModifySkillRangeBySlot_OnSkillRuningLvUpEndHandler",
+   "len": 60,
+   "handler": 77735756,
+   "registrar": 19728572,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionModifySkillRange_OnRepalceSkillHandler",
+   "len": 48,
+   "handler": 77583116,
+   "registrar": 19724564,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionModifySkillRange_OnSkillGemModifyHandler",
+   "len": 50,
+   "handler": 77583180,
+   "registrar": 19724564,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionModifySkillRange_OnSkillLvUpHandler",
+   "len": 45,
+   "handler": 77583084,
+   "registrar": 19724564,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionModifySkillRange_OnSkillRuningLvUpEndHandler",
+   "len": 54,
+   "handler": 77583148,
+   "registrar": 19724564,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionMonsterSpawnTrigger_MonsterSpawnHandler",
+   "len": 49,
+   "handler": 78589408,
+   "registrar": 19767752,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionMultiKillTrigger_OnMultiKillHandler",
+   "len": 45,
+   "handler": 78528184,
+   "registrar": 19763532,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionOnKillBeginTrigger_OnKillBeginHandler",
+   "len": 47,
+   "handler": 78402044,
+   "registrar": 19754644,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionOriannaTalent_OnRebornHander",
+   "len": 38,
+   "handler": 77940248,
+   "registrar": 19736148,
+   "name_mode": "island@0x57fc477((65536, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionPickupHexBuffTrigger_OnPickupHexBuff",
+   "len": 46,
+   "handler": 78706300,
+   "registrar": 19775736,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionPixBehavior_OnParentAttackHitHandler",
+   "len": 46,
+   "handler": 77975736,
+   "registrar": 19737012,
+   "name_mode": "island@0x57fc6ff((65536, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionPixBehavior_OnParentBaseAttackHandler",
+   "len": 47,
+   "handler": 77975712,
+   "registrar": 19737012,
+   "name_mode": "island@0x57fc6cf((65536, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionPlayEmoteTrigger_ActorPlayEmoteHandler",
+   "len": 48,
+   "handler": 78456716,
+   "registrar": 19758004,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionRecordStateData_OnHurt",
+   "len": 32,
+   "handler": 79659636,
+   "registrar": 19807552,
+   "name_mode": "island@0x580e319((-131072, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionReflectBulletTrigger_OnReflectBullet",
+   "len": 46,
+   "handler": 78597344,
+   "registrar": 19768328,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionRemoveBuffTrigger_OnRemoveBuff",
+   "len": 40,
+   "handler": 78548872,
+   "registrar": 19764900,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionReplaceSkillTrigger_OnReplaceSkillHandler",
+   "len": 51,
+   "handler": 78697856,
+   "registrar": 19775088,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionRuneStatDataAddByTrigger_OnAfterCalDamageAttackHandler",
+   "len": 64,
+   "handler": 77862808,
+   "registrar": 19732308,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionRuneStatDataAddByTrigger_OnHealHPHandler",
+   "len": 50,
+   "handler": 77862832,
+   "registrar": 19732308,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionRuneStatDataAddByTrigger_OnHealMPHandler",
+   "len": 50,
+   "handler": 77862880,
+   "registrar": 19732308,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionRuneStatDataAddByTrigger_OnShieldHandler",
+   "len": 50,
+   "handler": 77862856,
+   "registrar": 19732308,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionRuneStatDataAddByTrigger_OnStatAttackerModificationRateValueDamage",
+   "len": 76,
+   "handler": 77863024,
+   "registrar": 19732308,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionRuneStatDataAddByTrigger_OnStatBuyEquip",
+   "len": 49,
+   "handler": 77863000,
+   "registrar": 19732308,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionRuneStatDataAddByTrigger_OnStatPierceDamge",
+   "len": 52,
+   "handler": 77862904,
+   "registrar": 19732308,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionRuneStatDataAddByTrigger_OnStatReduceActiveEquipCd",
+   "len": 60,
+   "handler": 77863120,
+   "registrar": 19732308,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionRuneStatDataAddByTrigger_OnStatReduceDamage",
+   "len": 53,
+   "handler": 77862928,
+   "registrar": 19732308,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionRuneStatDataAddByTrigger_OnStatReduceEquipCd",
+   "len": 54,
+   "handler": 77863096,
+   "registrar": 19732308,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionRuneStatDataAddByTrigger_OnStatReduceSkillCd",
+   "len": 54,
+   "handler": 77863048,
+   "registrar": 19732308,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionRuneStatDataAddByTrigger_OnStatShieldDamageAbsorbed",
+   "len": 61,
+   "handler": 77863072,
+   "registrar": 19732308,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionRuneStatDataAddByTrigger_OnStatSuckBlood",
+   "len": 50,
+   "handler": 77862976,
+   "registrar": 19732308,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionRuneStatDataAddByTrigger_OnStatTargetModificationRateValueDamage",
+   "len": 74,
+   "handler": 77862952,
+   "registrar": 19732308,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionRunesStatistics_OnAddMoneyHandler",
+   "len": 43,
+   "handler": 77869836,
+   "registrar": 19733452,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionRunesStatistics_OnAfterCalDamageAttackHandler",
+   "len": 55,
+   "handler": 77869740,
+   "registrar": 19733452,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionRunesStatistics_OnBeHealHPHandler",
+   "len": 43,
+   "handler": 77869788,
+   "registrar": 19733452,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionRunesStatistics_OnHealHPHandler",
+   "len": 41,
+   "handler": 77869764,
+   "registrar": 19733452,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionRunesStatistics_OnShieldHandler",
+   "len": 41,
+   "handler": 77869812,
+   "registrar": 19733452,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionRushBlockTrigger_OnRushBlock",
+   "len": 38,
+   "handler": 78562292,
+   "registrar": 19765908,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionRushFollow_OnRushHitCamilleBlock",
+   "len": 42,
+   "handler": 77357908,
+   "registrar": 19719748,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionRushForward_OnRushHitCamilleBlock",
+   "len": 43,
+   "handler": 77387752,
+   "registrar": 19720460,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionRushToPositionByCircularMotion_OnRushHitCamilleBlock",
+   "len": 62,
+   "handler": 77338540,
+   "registrar": 19719604,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionRushToPosition_OnRushHitCamilleBlock",
+   "len": 46,
+   "handler": 77338540,
+   "registrar": 19719916,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionSearchTargetResultTrigger_OnSearchTargetResult",
+   "len": 56,
+   "handler": 81901936,
+   "registrar": 19863280,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionSelectUSBSkillTrigger_OnSelectSkill",
+   "len": 45,
+   "handler": 78692408,
+   "registrar": 19774656,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionSetActorDeadProtected_OnHpToZero",
+   "len": 42,
+   "handler": 79469772,
+   "registrar": 19799656,
+   "name_mode": "island@0x580c3cc((-131072, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionSetClientEvacuateTrigger_OnDepotReady",
+   "len": 47,
+   "handler": 79821560,
+   "registrar": 19813924,
+   "name_mode": "island@0x580fbca((-131072, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionSetMonsterGroupMaxCount_OnLevelUp",
+   "len": 43,
+   "handler": 78998832,
+   "registrar": 19783532,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionShareDamageTrigger_OnAfterHurt",
+   "len": 40,
+   "handler": 78513384,
+   "registrar": 19762236,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionShareDamageTrigger_OnPreHurt",
+   "len": 38,
+   "handler": 78513360,
+   "registrar": 19762236,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionShieldAbsorbDamageTrigger_OnShieldAbsorbDamage",
+   "len": 56,
+   "handler": 78373004,
+   "registrar": 19752636,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionShieldBreakTrigger_OnShieldBreak",
+   "len": 42,
+   "handler": 78473844,
+   "registrar": 19759364,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionShieldGotTrigger_OnAddShield",
+   "len": 38,
+   "handler": 78570308,
+   "registrar": 19766484,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionShopBuyTrigger_OnShopBuy",
+   "len": 34,
+   "handler": 78463696,
+   "registrar": 19758644,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionSkillCastBackswingTrigger_OnSkillCastBackswingHandler",
+   "len": 63,
+   "handler": 78606836,
+   "registrar": 19769048,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionSkillCastSuccessTrigger_OnSkillCastSuccess",
+   "len": 52,
+   "handler": 78542968,
+   "registrar": 19764468,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionSkillConsumeTrigger_OnSkillConsumeHandler",
+   "len": 51,
+   "handler": 78487756,
+   "registrar": 19760372,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionSkillDoComboTrigger_OnTriggerEventHandler",
+   "len": 51,
+   "handler": 80035556,
+   "registrar": 19817748,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionSkillField_OnSkillInterrupt",
+   "len": 37,
+   "handler": 77245820,
+   "registrar": 19717364,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionSkillLevelUpTrigger_OnSkillLevelUp",
+   "len": 44,
+   "handler": 78656512,
+   "registrar": 19772504,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionSkillPushQueueTrigger_OnSkillPushQueue",
+   "len": 48,
+   "handler": 78665988,
+   "registrar": 19773296,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionSkillStopTrigger_OnSkillStop",
+   "len": 38,
+   "handler": 78566192,
+   "registrar": 19766196,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionSnatchMonsterTrigger_OnMonsterDie",
+   "len": 43,
+   "handler": 78514692,
+   "registrar": 19762452,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionSpecificEvtTrigger_OnTriggerSpecificEventHandler",
+   "len": 58,
+   "handler": 78467616,
+   "registrar": 19758932,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionSpiralForceMove_OnRushHitCamilleBlock",
+   "len": 47,
+   "handler": 78942192,
+   "registrar": 19782172,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionStealHpTrigger_OnStealHp",
+   "len": 34,
+   "handler": 78675156,
+   "registrar": 19773648,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionSummonActorBornEventTrigger_SummonActorBornHandler",
+   "len": 60,
+   "handler": 78629992,
+   "registrar": 19770632,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionSyncActorLocation_OnActorFlash",
+   "len": 40,
+   "handler": 78862828,
+   "registrar": 19780112,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionSyncActorLocation_OnForwardChange",
+   "len": 43,
+   "handler": 78862428,
+   "registrar": 19780112,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionSyncActorLocation_OnPositionChange",
+   "len": 44,
+   "handler": 78862404,
+   "registrar": 19780112,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionSyncActorLocation_OnUpdateSync",
+   "len": 40,
+   "handler": 78862620,
+   "registrar": 19780112,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionSyncVisualFieldExposure_OnVisualFieldExposureChanged",
+   "len": 62,
+   "handler": 79408900,
+   "registrar": 19797640,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTowerPlateDestroyTrigger_OnTowerPlateDestroyed",
+   "len": 56,
+   "handler": 78647536,
+   "registrar": 19771928,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerAced_AcedHandler",
+   "len": 33,
+   "handler": 78430196,
+   "registrar": 19756284,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerActiveBlockAnchor_OnActiveBlockAnchor",
+   "len": 54,
+   "handler": 78558656,
+   "registrar": 19765620,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerActorBuffLayer_ActorBuffChange",
+   "len": 47,
+   "handler": 78520988,
+   "registrar": 19762884,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerActorBuffLayer_OnApplyBuff",
+   "len": 43,
+   "handler": 78521248,
+   "registrar": 19762884,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerActorCustomEvent_OnEventHandler",
+   "len": 48,
+   "handler": 78447364,
+   "registrar": 19757428,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerActorGoldBodyStateChanged_OnGoldBodyStateChanged",
+   "len": 65,
+   "handler": 78610628,
+   "registrar": 19769336,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerActorModBeDamage_OnModifyBeDamage",
+   "len": 50,
+   "handler": 78645536,
+   "registrar": 19771784,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerActorObjEvent_OnEventHandler",
+   "len": 45,
+   "handler": 78359972,
+   "registrar": 19751628,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerActorStateChange_OnStateChangedHandler",
+   "len": 55,
+   "handler": 78664292,
+   "registrar": 19773152,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerActorUseRushSkillEnd_OnActorUseRushSkillEnd",
+   "len": 60,
+   "handler": 78687272,
+   "registrar": 19774368,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerActorUseRushSkill_OnActorUseRushSkill",
+   "len": 54,
+   "handler": 78568296,
+   "registrar": 19766340,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerBattleTeamVarChange_OnReciveChange",
+   "len": 51,
+   "handler": 80584940,
+   "registrar": 19845524,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerBeHeal_OnActorBeHeal",
+   "len": 37,
+   "handler": 78694172,
+   "registrar": 19774800,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerBeRide_OnBeRideHandler",
+   "len": 39,
+   "handler": 78571524,
+   "registrar": 19766628,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerBeforeBeHealHpAfterCalc_OnBeforeBeHealHp",
+   "len": 57,
+   "handler": 78631660,
+   "registrar": 19770776,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerBeforeCalcCritForAttacker_OnBeforeCalCritHandler",
+   "len": 65,
+   "handler": 78642016,
+   "registrar": 19771496,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerBeforeCalcCritForTarget_OnBeforeCalCritTargetHandler",
+   "len": 69,
+   "handler": 78593492,
+   "registrar": 19768040,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerBeforeCherryRoundChange_OnRoundChange",
+   "len": 54,
+   "handler": 78398308,
+   "registrar": 19754356,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerBeforeStealHp_OnBeforeStealHp",
+   "len": 46,
+   "handler": 78557088,
+   "registrar": 19765476,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerBuyEquip_EquipOnBought",
+   "len": 39,
+   "handler": 78425488,
+   "registrar": 19755996,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerBuyOutsideSpringTypeChanged_OnBuyOutsideSpringTypeChanged",
+   "len": 74,
+   "handler": 78506212,
+   "registrar": 19761804,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerCancelBuyEquip_OnCancelBuyEquipHandler",
+   "len": 55,
+   "handler": 78445600,
+   "registrar": 19757284,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerCherryRoundChange_OnRoundChange",
+   "len": 48,
+   "handler": 78362916,
+   "registrar": 19751916,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerCherrySubBattleFinish_OnSubBattleFinish",
+   "len": 56,
+   "handler": 78625828,
+   "registrar": 19770344,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerCreateInteractive_OnCreateInteractive",
+   "len": 54,
+   "handler": 78603084,
+   "registrar": 19768760,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerCustomEvent_OnEventHandler",
+   "len": 43,
+   "handler": 78585896,
+   "registrar": 19767464,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerDeadInTheDistance_KillHandler",
+   "len": 46,
+   "handler": 78417888,
+   "registrar": 19755348,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerDeadInTheDistance_ZombieDieHandler",
+   "len": 51,
+   "handler": 78417868,
+   "registrar": 19755348,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerEquipSelectAlly_OnEquipSelectAlly",
+   "len": 50,
+   "handler": 78483412,
+   "registrar": 19760084,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerFirstBlood_OnFirstBlood",
+   "len": 40,
+   "handler": 78658304,
+   "registrar": 19772648,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerForgeBuyOrigin_OnBuyOrigin",
+   "len": 43,
+   "handler": 79155028,
+   "registrar": 19788876,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerForgeEquipmentLayer_OnEquipmentLayer",
+   "len": 53,
+   "handler": 78496452,
+   "registrar": 19761012,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerForgeSelectOrigin_OnSelectOrigin",
+   "len": 49,
+   "handler": 79164468,
+   "registrar": 19789404,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerForwardChange_OnForwardChangedHandler",
+   "len": 54,
+   "handler": 78518084,
+   "registrar": 19762740,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerGainForceQuality_OnGainForceQuality",
+   "len": 52,
+   "handler": 81852708,
+   "registrar": 19862112,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerHurtDelay_OnHurt",
+   "len": 33,
+   "handler": 78423576,
+   "registrar": 19755852,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerMobaKillAwarded_OnMobaKillAwarded",
+   "len": 50,
+   "handler": 78394696,
+   "registrar": 19754068,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerMonsterEvolution_OnMonsterEvolution",
+   "len": 52,
+   "handler": 78492376,
+   "registrar": 19760724,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerMultiCastCD_OnDoSetCD",
+   "len": 38,
+   "handler": 78584072,
+   "registrar": 19767320,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerOnBuffFlowEvent_BuffFlowEventHandler",
+   "len": 53,
+   "handler": 78550856,
+   "registrar": 19765044,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerPlayerBetOnTeam_OnPlayerBet",
+   "len": 44,
+   "handler": 78405860,
+   "registrar": 19754852,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerPlayerBetResult_OnReciveResult",
+   "len": 47,
+   "handler": 78676748,
+   "registrar": 19773792,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerPlayerSurrenderVote_OnSurrenderVote",
+   "len": 52,
+   "handler": 78540388,
+   "registrar": 19764324,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerPositionChange_OnPositionChangedHandler",
+   "len": 56,
+   "handler": 78554564,
+   "registrar": 19765332,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerPreAfterCalcDmgForTarget_OnPreAfterCalDamageTargetHandler",
+   "len": 74,
+   "handler": 78485800,
+   "registrar": 19760228,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerRemainCDChange_OnRemainCdChange",
+   "len": 48,
+   "handler": 78524684,
+   "registrar": 19763244,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerRide_OnRideHandler",
+   "len": 35,
+   "handler": 78695472,
+   "registrar": 19774944,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerRuinRoundEnd_OnRoundEnd",
+   "len": 40,
+   "handler": 78522684,
+   "registrar": 19763100,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerRuinRoundStart_OnRoundStart",
+   "len": 44,
+   "handler": 78457908,
+   "registrar": 19758148,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerSelectDistributeLocation_ActorSelectDistributeLocation",
+   "len": 71,
+   "handler": 78608972,
+   "registrar": 19769192,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerSellEquip_EquipOnSold",
+   "len": 38,
+   "handler": 78643668,
+   "registrar": 19771640,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerSignalResponse_OnUseFastChatSignal",
+   "len": 51,
+   "handler": 78662312,
+   "registrar": 19772936,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerSignalResponse_OnUseMiniMapSignal",
+   "len": 50,
+   "handler": 78662332,
+   "registrar": 19772936,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerStartDashing_OnStartDashing",
+   "len": 44,
+   "handler": 78619052,
+   "registrar": 19769912,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerStartForceMove_OnStartForceMove",
+   "len": 48,
+   "handler": 78421172,
+   "registrar": 19755708,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerStealSkillCastSuccess_OnStealSkillCastSuccess",
+   "len": 62,
+   "handler": 78462120,
+   "registrar": 19758500,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerStealZeroHp_OnStealZeroHp",
+   "len": 42,
+   "handler": 78386484,
+   "registrar": 19753572,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerStopForceMove_OnStopForceMove",
+   "len": 46,
+   "handler": 78598620,
+   "registrar": 19768472,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerSuckBloodRetrain_OnSuckBloodRetrainHandler",
+   "len": 59,
+   "handler": 78510616,
+   "registrar": 19762092,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerTraitProgressChange_ActorTraitProgressChange",
+   "len": 61,
+   "handler": 78516172,
+   "registrar": 19762596,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerTraitRecast_ActorTraitRecast",
+   "len": 45,
+   "handler": 78605008,
+   "registrar": 19768904,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionTriggerUseRushSkillInTheDistance_OnUseRushSkillHandler",
+   "len": 64,
+   "handler": 78365032,
+   "registrar": 19752060,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionUseExpressionTrigger_OnUseExpression",
+   "len": 46,
+   "handler": 78621792,
+   "registrar": 19770056,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionUseMultiSkillTrigger_OnUseAutoCastSkill",
+   "len": 49,
+   "handler": 77588152,
+   "registrar": 19725052,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionUseMultiSkillTrigger_OnUseGhostSkill",
+   "len": 46,
+   "handler": 77588096,
+   "registrar": 19725052,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionUseMultiSkillTrigger_OnUseMultiFireSkill",
+   "len": 50,
+   "handler": 77587928,
+   "registrar": 19725052,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionUseMultiSkillTrigger_OnUseScatterSkill",
+   "len": 48,
+   "handler": 77588040,
+   "registrar": 19725052,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionUseMultiSkillTrigger_OnUseSplitSkill",
+   "len": 46,
+   "handler": 77587984,
+   "registrar": 19725052,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionUseSkillTrigger_OnUseSkill",
+   "len": 36,
+   "handler": 78654752,
+   "registrar": 19772360,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowActionWardTotem_OnUseSkillHandler",
+   "len": 37,
+   "handler": 77251216,
+   "registrar": 19717508,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FlowEvaluatorRealmBeforeRe",
+   "len": 26,
+   "handler": 75682884,
+   "registrar": 19678572,
+   "name_mode": "island@0x57ed63a((-262144, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "ForgeLayer_EquipOnBuy",
+   "len": 21,
+   "handler": 35580900,
+   "registrar": 18241156,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ForgeLayer_EquipOnSold",
+   "len": 22,
+   "handler": 35581028,
+   "registrar": 18241156,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "FrameEngine5Logic27FlowActionChangeA",
+   "len": 36,
+   "handler": 75676932,
+   "registrar": 19675916,
+   "name_mode": "xor30@0x57ecfb3",
+   "class": "type-name"
+  },
+  {
+   "name": "FrameEngine5Logic32FlowActionGetCurGainR",
+   "len": 40,
+   "handler": 77987308,
+   "registrar": 19737644,
+   "name_mode": "island@0x57fc8b3((-65536, 'xor30'))",
+   "class": "type-name"
+  },
+  {
+   "name": "FrameEngine5Logic41FlowEvalua",
+   "len": 29,
+   "handler": 75683692,
+   "registrar": 19679040,
+   "name_mode": "island@0x57ed783((-262144, 'xor30'))",
+   "class": "type-name"
+  },
+  {
+   "name": "FrameEngine8DataSync2",
+   "len": 21,
+   "handler": 75682056,
+   "registrar": 19677900,
+   "name_mode": "island@0x57ed523((-262144, 'xor30'))",
+   "class": "type-name"
+  },
+  {
+   "name": "FrameEngine8DataSync23IFlowEvaluato",
+   "len": 35,
+   "handler": 77940224,
+   "registrar": 19736148,
+   "name_mode": "island@0x57fc453((-327680, 'xor30'))",
+   "class": "type-name"
+  },
+  {
+   "name": "GainWeightResObjectEEEiS8_E8DictItorE",
+   "len": 37,
+   "handler": 75682064,
+   "registrar": 19677900,
+   "name_mode": "island@0x57ed55e((-131072, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "GameArtistDeathStateMonitor_OnApplyCtrlEffect",
+   "len": 45,
+   "handler": 74525368,
+   "registrar": 19663820,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "GameArtistDeathStateMonitor_OnBeforeDie",
+   "len": 39,
+   "handler": 74525416,
+   "registrar": 19663820,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "GameArtistDeathStateMonitor_OnDie",
+   "len": 33,
+   "handler": 74525348,
+   "registrar": 19663820,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "GameArtistDeathStateMonitor_OnEnterGrass",
+   "len": 40,
+   "handler": 74525472,
+   "registrar": 19663820,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "GameArtistDeathStateMonitor_OnFinishCtrlEffect",
+   "len": 46,
+   "handler": 74525392,
+   "registrar": 19663820,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "GameArtistDeathStateMonitor_OnHitActor",
+   "len": 38,
+   "handler": 74525536,
+   "registrar": 19663820,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "GameArtistDeathStateMonitor_OnHurt",
+   "len": 34,
+   "handler": 74525328,
+   "registrar": 19663820,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "GameArtistDeathStateMonitor_OnLeaveGrass",
+   "len": 40,
+   "handler": 74525504,
+   "registrar": 19663820,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "GameArtistDeathStateMonitor_OnUseSkill",
+   "len": 38,
+   "handler": 74525448,
+   "registrar": 19663820,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "GameArtistMonitor_OnApplyCtrlEffect",
+   "len": 35,
+   "handler": 28687812,
+   "registrar": 18195432,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "GameArtistMonitor_OnBeforeDie",
+   "len": 29,
+   "handler": 28687912,
+   "registrar": 18195432,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "GameArtistMonitor_OnBuyEquip",
+   "len": 28,
+   "handler": 28688084,
+   "registrar": 18195432,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "GameArtistMonitor_OnDie",
+   "len": 23,
+   "handler": 28687872,
+   "registrar": 18195432,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "GameArtistMonitor_OnEnterGrass",
+   "len": 30,
+   "handler": 28688020,
+   "registrar": 18195432,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "GameArtistMonitor_OnHeroReborn",
+   "len": 30,
+   "handler": 28687944,
+   "registrar": 18195432,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "GameArtistMonitor_OnHurt",
+   "len": 24,
+   "handler": 28687852,
+   "registrar": 18195432,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "GameArtistMonitor_OnLeaveGrass",
+   "len": 30,
+   "handler": 28688052,
+   "registrar": 18195432,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "GameArtistMonitor_OnMonsterSpawn",
+   "len": 32,
+   "handler": 28687832,
+   "registrar": 18195432,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "GameArtistMonitor_OnTreatCure",
+   "len": 29,
+   "handler": 28687892,
+   "registrar": 18195432,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "GameArtistMonitor_OnUpGrade",
+   "len": 27,
+   "handler": 28688000,
+   "registrar": 18195432,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "GameArtistMonitor_OnUseSkill",
+   "len": 28,
+   "handler": 28687976,
+   "registrar": 18195432,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "GameFinishMonitor_OnApplyCtrlEffect",
+   "len": 35,
+   "handler": 74465084,
+   "registrar": 19663332,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "GameFinishMonitor_OnHurt",
+   "len": 24,
+   "handler": 74465104,
+   "registrar": 19663332,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "GameFinishMonitor_OnKill",
+   "len": 24,
+   "handler": 74465124,
+   "registrar": 19663332,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "GameFinishMonitor_OnUseSkill",
+   "len": 28,
+   "handler": 74465144,
+   "registrar": 19663332,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "GameSafeMonitor_OnActorHurt",
+   "len": 27,
+   "handler": 74711184,
+   "registrar": 19667540,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "GameSafeMonitor_OnActorKillOrDie",
+   "len": 32,
+   "handler": 74711204,
+   "registrar": 19667540,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "GameSafeMonitor_OnActorUseHexGate",
+   "len": 33,
+   "handler": 74711264,
+   "registrar": 19667540,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "GameSafeMonitor_OnActorUseSkill",
+   "len": 31,
+   "handler": 74711224,
+   "registrar": 19667540,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "GameSafeMonitor_OnSendFastSignal",
+   "len": 32,
+   "handler": 74711284,
+   "registrar": 19667540,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "GameSafeMonitor_OnSendMiniMapSignal",
+   "len": 35,
+   "handler": 74711304,
+   "registrar": 19667540,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "GameSafeMonitor_OnSendSignal",
+   "len": 28,
+   "handler": 74711244,
+   "registrar": 19667540,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "GameSafeMonitor_OnStrategicTargetUpdate",
+   "len": 39,
+   "handler": 74711164,
+   "registrar": 19667540,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "GlobalDataMonitor_OnDie",
+   "len": 23,
+   "handler": 74795876,
+   "registrar": 19669260,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "HangUpMgr_HangUpInfo_OnCherryRoundChange",
+   "len": 40,
+   "handler": 31575736,
+   "registrar": 18208700,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "HeroCheckSelectUSBSkillC_SelectEasterEggSkill",
+   "len": 45,
+   "handler": 71891176,
+   "registrar": 19623088,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "HeroCheckSelectUSBSkillC_SelectUSBSkill",
+   "len": 39,
+   "handler": 71891060,
+   "registrar": 19623088,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "HeroComponentEquipmentForge_EquipOnBuy",
+   "len": 38,
+   "handler": 33095840,
+   "registrar": 18219288,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "HeroComponentEquipmentForge_EquipOnSold",
+   "len": 39,
+   "handler": 33096032,
+   "registrar": 18219288,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "HeroComponentEquipmentForge_ModifyEquipSlot",
+   "len": 43,
+   "handler": 33096212,
+   "registrar": 18219288,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "HeroComponentExpMoneyShared_OnActorDie",
+   "len": 38,
+   "handler": 33384120,
+   "registrar": 18221136,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "HeroComponentForge_EquipOnBuy",
+   "len": 29,
+   "handler": 33318532,
+   "registrar": 18220208,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "HeroComponentForge_EquipOnSold",
+   "len": 30,
+   "handler": 33318684,
+   "registrar": 18220208,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "HeroComponentForge_OnCheckDodge",
+   "len": 31,
+   "handler": 33318488,
+   "registrar": 18220208,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "HeroComponentForge_OnRoundChange",
+   "len": 32,
+   "handler": 33318512,
+   "registrar": 18220208,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "HeroComponentKillAssist_OnActorApplyBuff",
+   "len": 40,
+   "handler": 35898712,
+   "registrar": 18244352,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "HeroComponentKillAssist_OnActorRemoveBuff",
+   "len": 41,
+   "handler": 35898752,
+   "registrar": 18244352,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "HeroComponentKillAssist_OnBeHitSpellShield",
+   "len": 42,
+   "handler": 35898776,
+   "registrar": 18244352,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "HeroComponentKillAssist_OnBeforeDieHandler",
+   "len": 42,
+   "handler": 35898680,
+   "registrar": 18244352,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "HeroComponentKillAssist_OnCollectBuffElapsedTime",
+   "len": 48,
+   "handler": 35898984,
+   "registrar": 18244352,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "HeroComponentKillAssist_OnStrategicPointStateChange",
+   "len": 51,
+   "handler": 35898800,
+   "registrar": 18244352,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "HeroComponentReflectMgr_OnSkillLevelUp",
+   "len": 38,
+   "handler": 32981988,
+   "registrar": 18218300,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "HeroComponentReflectMgr_OnSkillStop",
+   "len": 35,
+   "handler": 32981964,
+   "registrar": 18218300,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "HeroComponentSpecialEvent_ReloadEventHandler",
+   "len": 44,
+   "handler": 33047236,
+   "registrar": 18218808,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "HeroComponentStealMgr_OnBackHome",
+   "len": 32,
+   "handler": 33793312,
+   "registrar": 18225684,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "HeroComponentStealMgr_OnBattleFinish",
+   "len": 36,
+   "handler": 33793532,
+   "registrar": 18225684,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "HeroComponentStealMgr_OnBeforeApplyBuff",
+   "len": 39,
+   "handler": 33792752,
+   "registrar": 18225684,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "HeroComponentStealMgr_OnBeforeGiveBuff",
+   "len": 38,
+   "handler": 33792980,
+   "registrar": 18225684,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "HeroComponentStealMgr_OnDynamicSkillChanged",
+   "len": 43,
+   "handler": 33793004,
+   "registrar": 18225684,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "HeroComponentStealMgr_OnSkillPassiveEffectEnable",
+   "len": 48,
+   "handler": 33793028,
+   "registrar": 18225684,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "HeroComponentStealMgr_OnUseSkill",
+   "len": 32,
+   "handler": 33793512,
+   "registrar": 18225684,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "HeroRandomGainEventProcess_ReadyToRestEquipmentForgeHandler",
+   "len": 59,
+   "handler": 71840948,
+   "registrar": 19619864,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "HeroRandomGainEventProcess_ReadyToRestSkillHandler",
+   "len": 50,
+   "handler": 71840928,
+   "registrar": 19619864,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "HeroRandomGainEventProcess_ReadyToSelectEnhanceNumHandler",
+   "len": 57,
+   "handler": 71841248,
+   "registrar": 19619864,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "HeroRandomGainEventProcess_ReadyToSelectFlySwordHandler",
+   "len": 55,
+   "handler": 71841092,
+   "registrar": 19619864,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "HeroRandomSelectPixiuEventProcess_ReadyToRestBetOnPixiuTeamHandler",
+   "len": 66,
+   "handler": 71848948,
+   "registrar": 19620608,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "HeroRandomSelectPixiuEventProcess_ReadyToRestPixiuPathHandler",
+   "len": 61,
+   "handler": 71848836,
+   "registrar": 19620608,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "HeroSelectForgingCrad_ReadyToSelectForgingCard",
+   "len": 46,
+   "handler": 71879872,
+   "registrar": 19622264,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "HeroSelectForgingCrad_ReadyToSelectSkillGem",
+   "len": 43,
+   "handler": 71880040,
+   "registrar": 19622264,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "HeroTestCmdMgr_OnBeforeDieHandler",
+   "len": 33,
+   "handler": 81995564,
+   "registrar": 19865168,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "HeroVariantAttackUseAssist_OnSkillChange",
+   "len": 40,
+   "handler": 33469752,
+   "registrar": 18222488,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "HeroVariantAttackUseAssist_OnSkillStoped",
+   "len": 40,
+   "handler": 33469776,
+   "registrar": 18222488,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "HeroVariantAttackUseAssist_OnUseSkill",
+   "len": 37,
+   "handler": 33469728,
+   "registrar": 18222488,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "HexAramHeroRandomGainMgr_OnDesignateUltimateGain",
+   "len": 48,
+   "handler": 76422984,
+   "registrar": 19695288,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "INS2_6Common12FEDictionaryImPNS2_5Logic25BattleAllyInteractiveDat",
+   "len": 65,
+   "handler": 79755620,
+   "registrar": 19810952,
+   "name_mode": "island@0x580f1cb((-262144, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "LgcEventAdapter_EventCallback",
+   "len": 29,
+   "handler": 70273056,
+   "registrar": 19574636,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "LiveShowDcBuildingDestroy_OnActorBeKilled",
+   "len": 41,
+   "handler": 81520660,
+   "registrar": 19859984,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "LiveShowDcChampionKill_OnActorBeKilled",
+   "len": 38,
+   "handler": 81522164,
+   "registrar": 19860376,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "LiveShowDcChampionKill_OnActorBeKilledBegin",
+   "len": 43,
+   "handler": 81522168,
+   "registrar": 19860376,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "LiveShowDcMonsterKill_OnActorBeKilled",
+   "len": 37,
+   "handler": 81521844,
+   "registrar": 19860244,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "MonsterAnchor_ChangePath",
+   "len": 24,
+   "handler": 34830708,
+   "registrar": 18236904,
+   "name_mode": "island@0x56bfea1((-131072, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "MonsterAnchor_OnRiftElementChange",
+   "len": 33,
+   "handler": 34830728,
+   "registrar": 18236904,
+   "name_mode": "island@0x56bfeba((-131072, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "MonsterComponentEvolution_OnEvolutionMsg",
+   "len": 40,
+   "handler": 33650312,
+   "registrar": 18224500,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "MonsterSacrificeProcessor_OnFightStateChange",
+   "len": 44,
+   "handler": 81883204,
+   "registrar": 19862656,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "N11FrameEngine5Logic11Effect",
+   "len": 28,
+   "handler": 73415364,
+   "registrar": 19649920,
+   "name_mode": "xor30@0x57df600",
+   "class": "type-name"
+  },
+  {
+   "name": "N11FrameEngine5Logic26FlowEvalua",
+   "len": 32,
+   "handler": 77928716,
+   "registrar": 19735644,
+   "name_mode": "island@0x57fc390((-327680, 'xor30'))",
+   "class": "type-name"
+  },
+  {
+   "name": "N11FrameEngine5Logic35FlowEvaluatorSkillCurRange",
+   "len": 48,
+   "handler": 78152204,
+   "registrar": 19742932,
+   "name_mode": "island@0x57fe460((-327680, 'xor30'))",
+   "class": "type-name"
+  },
+  {
+   "name": "NS2_6Common12FEDictionaryIiPNS5_25Univ",
+   "len": 38,
+   "handler": 77939980,
+   "registrar": 19736148,
+   "name_mode": "island@0x57fc42c((-196608, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "NS2_6Common12FEDictionaryImPNS2_5Logic25BattleAllyInterac",
+   "len": 57,
+   "handler": 73389212,
+   "registrar": 19648776,
+   "name_mode": "island@0x57df1cc((-65536, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "NS5_20EffectGroupResObjectEEEEEiSB_E8DictItorE",
+   "len": 46,
+   "handler": 75690296,
+   "registrar": 19679912,
+   "name_mode": "island@0x57ed915((-131072, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "OfflineDataCollector_OnAttacHandler",
+   "len": 35,
+   "handler": 74298788,
+   "registrar": 19661788,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "OfflineDataCollector_OnUseSkill",
+   "len": 31,
+   "handler": 74298764,
+   "registrar": 19661788,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParalleFlowActionCommerceUseDisguiseItem_OnUseExpression",
+   "len": 56,
+   "handler": 80337768,
+   "registrar": 19836540,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParalleFlowActionFistbumpInteractive_OnCreateInteractive",
+   "len": 56,
+   "handler": 80419640,
+   "registrar": 19840236,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionActorBornEventTrigger_ActorBornHandler",
+   "len": 56,
+   "handler": 80124024,
+   "registrar": 19822828,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionActorEvacuateTrigger_OnActorEvacuate",
+   "len": 54,
+   "handler": 81885356,
+   "registrar": 19862864,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionComponentFlowEventListener_OnEventHandler",
+   "len": 59,
+   "handler": 80342292,
+   "registrar": 19836684,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionFlowEventListener_OnEventHandler",
+   "len": 50,
+   "handler": 80105456,
+   "registrar": 19821860,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionGMFlowEventTrigger_GMFlowEventHandler",
+   "len": 55,
+   "handler": 80156196,
+   "registrar": 19826420,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionLuaScript_FinishHandler",
+   "len": 41,
+   "handler": 80256812,
+   "registrar": 19832952,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionMonsterSacrifice_ActorBeforeDieHandler",
+   "len": 56,
+   "handler": 80458984,
+   "registrar": 19841596,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionMonsterSacrifice_MonsterSpawnHandler",
+   "len": 54,
+   "handler": 80458928,
+   "registrar": 19841596,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionMonsterSpawnTrigger_MonsterSpawnHandler",
+   "len": 57,
+   "handler": 80140704,
+   "registrar": 19824772,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionRuneStatDataAddByTrigger_OnAfterCalDamageAttackHandler",
+   "len": 72,
+   "handler": 80242716,
+   "registrar": 19832208,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionRuneStatDataAddByTrigger_OnHealHPHandler",
+   "len": 58,
+   "handler": 80242740,
+   "registrar": 19832208,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionRuneStatDataAddByTrigger_OnHealMPHandler",
+   "len": 58,
+   "handler": 80242788,
+   "registrar": 19832208,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionRuneStatDataAddByTrigger_OnShieldHandler",
+   "len": 58,
+   "handler": 80242764,
+   "registrar": 19832208,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerActiveBlockAnchor_OnActiveBlockAnchor",
+   "len": 62,
+   "handler": 80142736,
+   "registrar": 19824980,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerActorDeadEvent_KillHandler",
+   "len": 51,
+   "handler": 80151236,
+   "registrar": 19825916,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerActorDie_ActorDieHandler",
+   "len": 49,
+   "handler": 80173260,
+   "registrar": 19828496,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerActorDie_ActorRebornHandler",
+   "len": 52,
+   "handler": 80173316,
+   "registrar": 19828496,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerActorVisibleSwitch_ActorBeforeDieHandler",
+   "len": 65,
+   "handler": 80127776,
+   "registrar": 19823116,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerActorVisibleSwitch_ActorRebornHandler",
+   "len": 62,
+   "handler": 80127988,
+   "registrar": 19823116,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerApplyBuff_ApplyBuffHandler",
+   "len": 51,
+   "handler": 80184476,
+   "registrar": 19829504,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerBeforeAddExp_BeforeAddExpHandler",
+   "len": 57,
+   "handler": 80137024,
+   "registrar": 19824340,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerBeforeAddMoney_BeforeAddMoneyHandler",
+   "len": 61,
+   "handler": 80174724,
+   "registrar": 19828712,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerBeforeDie_ActorBeforeDieHandler",
+   "len": 56,
+   "handler": 80129248,
+   "registrar": 19823332,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerBeforeLevelUp_OnBeforeLevelUp",
+   "len": 54,
+   "handler": 80143860,
+   "registrar": 19825124,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerBuffAlive_RemoveBuffHandler",
+   "len": 52,
+   "handler": 80168944,
+   "registrar": 19828208,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerBuffCustomFlowEvent_BuffFlowEventHandler",
+   "len": 65,
+   "handler": 80178388,
+   "registrar": 19829000,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerCherrySelectCard_OnBuyEquip",
+   "len": 52,
+   "handler": 80150140,
+   "registrar": 19825556,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerCherrySelectCard_OnSelectEquipmentForge",
+   "len": 64,
+   "handler": 80150036,
+   "registrar": 19825556,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerCherrySelectCard_OnSelectForge",
+   "len": 55,
+   "handler": 80150088,
+   "registrar": 19825556,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerCherrySelectCard_OnSelectGain",
+   "len": 54,
+   "handler": 80149984,
+   "registrar": 19825556,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerCompareHpWithinTime_OnAttack",
+   "len": 53,
+   "handler": 80131608,
+   "registrar": 19823476,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerCompareHpWithinTime_OnKill",
+   "len": 51,
+   "handler": 80131668,
+   "registrar": 19823476,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerComponentFlowEvent_OnEventHandler",
+   "len": 58,
+   "handler": 80157068,
+   "registrar": 19826564,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerCustomEvent_OnEventHandler",
+   "len": 51,
+   "handler": 80361040,
+   "registrar": 19837596,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerDoSetCD_OnDoSetCD",
+   "len": 42,
+   "handler": 80120308,
+   "registrar": 19822468,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerFirstBlood_KillHandler",
+   "len": 47,
+   "handler": 80135656,
+   "registrar": 19824196,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerGameEvent_GameEventHandler",
+   "len": 51,
+   "handler": 80137972,
+   "registrar": 19824484,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerGiveBuff_GiveBuffHandler",
+   "len": 49,
+   "handler": 80139456,
+   "registrar": 19824628,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerGlobalActorReborn_ActorRebornHandler",
+   "len": 61,
+   "handler": 80167172,
+   "registrar": 19828064,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerHighlightEvent_HighlightEventHandler",
+   "len": 61,
+   "handler": 80165788,
+   "registrar": 19827920,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerHit_OnHitBlockHandler",
+   "len": 46,
+   "handler": 80182568,
+   "registrar": 19829144,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerHit_OnHitHandler",
+   "len": 41,
+   "handler": 80182100,
+   "registrar": 19829144,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerHit_OnHitSpellShieldHandler",
+   "len": 52,
+   "handler": 80182780,
+   "registrar": 19829144,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerHit_OnMissHitHandler",
+   "len": 45,
+   "handler": 80182360,
+   "registrar": 19829144,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerHurt_OnAfterCalDamage",
+   "len": 46,
+   "handler": 80163812,
+   "registrar": 19826916,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerHurt_OnAfterCalDamageAttack",
+   "len": 52,
+   "handler": 80163956,
+   "registrar": 19826916,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerHurt_OnAfterHurt",
+   "len": 41,
+   "handler": 80164372,
+   "registrar": 19826916,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerHurt_OnAttack",
+   "len": 38,
+   "handler": 80164164,
+   "registrar": 19826916,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerHurt_OnBeforeAttack",
+   "len": 44,
+   "handler": 80163300,
+   "registrar": 19826916,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerHurt_OnBeforeCalDamage",
+   "len": 47,
+   "handler": 80163364,
+   "registrar": 19826916,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerHurt_OnBeforeCalDamageAttack",
+   "len": 53,
+   "handler": 80163508,
+   "registrar": 19826916,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerHurt_OnBeforeHurt",
+   "len": 42,
+   "handler": 80163012,
+   "registrar": 19826916,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerHurt_OnHurt",
+   "len": 36,
+   "handler": 80164020,
+   "registrar": 19826916,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerHurt_OnHurtBlock",
+   "len": 41,
+   "handler": 80164228,
+   "registrar": 19826916,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerHurt_OnHurting",
+   "len": 39,
+   "handler": 80163156,
+   "registrar": 19826916,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerHurt_OnPreAfterCalDamage",
+   "len": 49,
+   "handler": 80163572,
+   "registrar": 19826916,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerHurt_OnPreAfterCalDamageAttack",
+   "len": 55,
+   "handler": 80163732,
+   "registrar": 19826916,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerLeaveGrass_ActorLeaveGrass",
+   "len": 51,
+   "handler": 80118400,
+   "registrar": 19822324,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerLevelUp_OnLevelUp",
+   "len": 42,
+   "handler": 80146728,
+   "registrar": 19825412,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerRemoveBuff_RemoveBuffHandler",
+   "len": 53,
+   "handler": 80170744,
+   "registrar": 19828352,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerSignalResponse_OnUseFastChatSignal",
+   "len": 59,
+   "handler": 80122164,
+   "registrar": 19822612,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerSignalResponse_OnUseMiniMapSignal",
+   "len": 58,
+   "handler": 80122376,
+   "registrar": 19822612,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerSingleActorDead_OnDieHandler",
+   "len": 53,
+   "handler": 80158896,
+   "registrar": 19826772,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerSkillDistance_OnStopSkill",
+   "len": 50,
+   "handler": 80153516,
+   "registrar": 19826060,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerSkillDistance_OnUseSkill",
+   "len": 49,
+   "handler": 80153260,
+   "registrar": 19826060,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerSkill_OnBeforeUseSkill",
+   "len": 47,
+   "handler": 80134228,
+   "registrar": 19823692,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerSkill_OnCastSkill",
+   "len": 42,
+   "handler": 80134484,
+   "registrar": 19823692,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerSkill_OnSkillCastSuccess",
+   "len": 49,
+   "handler": 80134548,
+   "registrar": 19823692,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerSkill_OnSkillInterrupt",
+   "len": 47,
+   "handler": 80134420,
+   "registrar": 19823692,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerSkill_OnStopSkill",
+   "len": 42,
+   "handler": 80134356,
+   "registrar": 19823692,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerSkill_OnUseSkill",
+   "len": 41,
+   "handler": 80134292,
+   "registrar": 19823692,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerSoilderFighting_ActorHurtHandler",
+   "len": 57,
+   "handler": 80125424,
+   "registrar": 19822972,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerSuckBloodRetrain_OnSuckBloodRetrainHandler",
+   "len": 67,
+   "handler": 80145160,
+   "registrar": 19825268,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerSurrenderVote_SurrenderVoteHandler",
+   "len": 59,
+   "handler": 80154976,
+   "registrar": 19826276,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ParallelFlowActionTriggerTowerPlateDestroyed_OnTowerPlateDestroyed",
+   "len": 66,
+   "handler": 80176476,
+   "registrar": 19828856,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "PileAttackingRefreshGameState_OnAttackHander",
+   "len": 44,
+   "handler": 70427408,
+   "registrar": 19580740,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "PileAttackingRefreshGameState_OnDieHander",
+   "len": 41,
+   "handler": 70427580,
+   "registrar": 19580740,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "PileAttackingRefreshGameState_OnKillHander",
+   "len": 42,
+   "handler": 70427436,
+   "registrar": 19580740,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "PixiuAwardMgr_OnBetEnd",
+   "len": 22,
+   "handler": 35489816,
+   "registrar": 18239812,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "PixiuAwardMgr_OnBetStart",
+   "len": 24,
+   "handler": 35489796,
+   "registrar": 18239812,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "PixiuAwardMgr_OnPathSelectEnd",
+   "len": 29,
+   "handler": 35489776,
+   "registrar": 18239812,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "PixiuAwardMgr_OnRoundChange",
+   "len": 27,
+   "handler": 35489756,
+   "registrar": 18239812,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "PixiuAwardMgr_OnTeamBattleHasResult",
+   "len": 35,
+   "handler": 35489836,
+   "registrar": 18239812,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "PureRLGlobalDataMonitor_OnDie",
+   "len": 29,
+   "handler": 74782616,
+   "registrar": 19668860,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "PureRLUnitDataMonitor_OnHurt",
+   "len": 28,
+   "handler": 74754804,
+   "registrar": 19668188,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "PureRLUnitDataMonitor_OnUseFastChatSignal",
+   "len": 41,
+   "handler": 74754824,
+   "registrar": 19668188,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "PureRLUnitDataMonitor_OnUseMiniMapSignal",
+   "len": 40,
+   "handler": 74754844,
+   "registrar": 19668188,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "RLComponentMgr_OnRiftElementChange",
+   "len": 34,
+   "handler": 74152944,
+   "registrar": 19660028,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ResObject_EquipSpResObject_Sk",
+   "len": 29,
+   "handler": 71585356,
+   "registrar": 19611456,
+   "name_mode": "island@0x57cf010((-524288, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "RuinDataMgr_ActorDieHandler",
+   "len": 27,
+   "handler": 35555964,
+   "registrar": 18240596,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "RuinDataMgr_EnterBattle",
+   "len": 23,
+   "handler": 35555984,
+   "registrar": 18240596,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "RuinDataMgr_MonsterCreateFinish",
+   "len": 31,
+   "handler": 35556136,
+   "registrar": 18240596,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "RuinEquipShelves_OnRuinEquipFreeCount",
+   "len": 37,
+   "handler": 35564688,
+   "registrar": 18240884,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "RuinSkillShelves_OnRuinSkillFreeCount",
+   "len": 37,
+   "handler": 35541960,
+   "registrar": 18240388,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "S2_6Common12FEDictionaryIiPNS2_5Logic26BattleScoringApplyBuf",
+   "len": 60,
+   "handler": 73395704,
+   "registrar": 19649208,
+   "name_mode": "island@0x57df38d((-65536, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "SLGlobalDataMonitor_OnDie",
+   "len": 25,
+   "handler": 74436236,
+   "registrar": 19662740,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "SLUnitDataMonitor_OnHurt",
+   "len": 24,
+   "handler": 74369692,
+   "registrar": 19662132,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "SLUnitDataMonitor_OnUseFastChatSignal",
+   "len": 37,
+   "handler": 74369712,
+   "registrar": 19662132,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "SLUnitDataMonitor_OnUseMiniMapSignal",
+   "len": 36,
+   "handler": 74369732,
+   "registrar": 19662132,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "SeekFruitForSupplyC_onEndSimulate",
+   "len": 33,
+   "handler": 71855684,
+   "registrar": 19620824,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "SeekFruitForSupplyC_onHeroJoin",
+   "len": 30,
+   "handler": 71855664,
+   "registrar": 19620824,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "SeekFruitForSupplyC_onStartSimulate",
+   "len": 35,
+   "handler": 71855644,
+   "registrar": 19620824,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "SeekFruitTreeForSupplyC_onEndSimulate",
+   "len": 37,
+   "handler": 71819904,
+   "registrar": 19619384,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "SeekFruitTreeForSupplyC_onHeroJoin",
+   "len": 34,
+   "handler": 71819884,
+   "registrar": 19619384,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "SeekFruitTreeForSupplyC_onStartSimulate",
+   "len": 39,
+   "handler": 71819864,
+   "registrar": 19619384,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ShouldGoBackToSpringForSupplyC_onEndSimulate",
+   "len": 44,
+   "handler": 71889380,
+   "registrar": 19622800,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ShouldGoBackToSpringForSupplyC_onHeroJoin",
+   "len": 41,
+   "handler": 71889360,
+   "registrar": 19622800,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ShouldGoBackToSpringForSupplyC_onStartSimulate",
+   "len": 46,
+   "handler": 71889340,
+   "registrar": 19622800,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "SkillAIEvaluation_OnAttacHandler",
+   "len": 32,
+   "handler": 30915944,
+   "registrar": 18205156,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "SkillAIEvaluation_OnCreateBullet",
+   "len": 32,
+   "handler": 30915920,
+   "registrar": 18205156,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "SkillAIEvaluation_OnStopSkill",
+   "len": 29,
+   "handler": 30915896,
+   "registrar": 18205156,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "SkillAIEvaluation_OnUseSkill",
+   "len": 28,
+   "handler": 30915684,
+   "registrar": 18205156,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "SkillCDMgr_OnDie",
+   "len": 16,
+   "handler": 76304164,
+   "registrar": 19693880,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "SkillCDMgr_OnReborn",
+   "len": 19,
+   "handler": 76304152,
+   "registrar": 19693880,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "SkillInterrupt_OnActorHurt",
+   "len": 26,
+   "handler": 30999168,
+   "registrar": 18205644,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "SkillPassiveEffectMgr_OnReborn",
+   "len": 30,
+   "handler": 76351412,
+   "registrar": 19694624,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "SkillPassiveEffectMgr_OnZombieReborn",
+   "len": 36,
+   "handler": 76351512,
+   "registrar": 19694624,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "SkillSlotStrengthenInfo_OnActorLevelUp",
+   "len": 38,
+   "handler": 33837664,
+   "registrar": 18226272,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "SpecialEventFlowDriver_ReloadEventHandler",
+   "len": 41,
+   "handler": 32677844,
+   "registrar": 18215716,
+   "name_mode": "island@0x56ac997((-393216, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "SpellBookRandomSkillMgr_OnRandomFreeSkillStart",
+   "len": 46,
+   "handler": 76294764,
+   "registrar": 19693672,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "StrategicFeatureProcessorOnClacGradient",
+   "len": 39,
+   "handler": 18446744073709551615,
+   "registrar": 19647264,
+   "name_mode": "island@0x57dc78d((393216, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "SurrenderMgr_OnSetCannotSurrender",
+   "len": 33,
+   "handler": 31412400,
+   "registrar": 18207688,
+   "name_mode": "island@0x569eb56((-131072, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "TargetAggregation_FeatureCollection_AiFeatureCollect_Hero_HeroAggregation",
+   "len": 73,
+   "handler": 73403252,
+   "registrar": 19649568,
+   "name_mode": "island@0x57df48f((393216, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "TargetAggregation_FeatureCollection_AiFeatureCollect_Monster_HeroAggregation",
+   "len": 76,
+   "handler": 73403272,
+   "registrar": 19649568,
+   "name_mode": "island@0x57df4d9((393216, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "Target_OnReset",
+   "len": 14,
+   "handler": 81199668,
+   "registrar": 19857204,
+   "name_mode": "label+off@0x581e44c(delta=-0x20000)",
+   "class": "event-handler"
+  },
+  {
+   "name": "TeamAiExcuteMonitorOnEventRecived",
+   "len": 33,
+   "handler": 28621064,
+   "registrar": 18195160,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "TeamAiTacticsMgr_OnAIObjCreate",
+   "len": 30,
+   "handler": 72560604,
+   "registrar": 19641612,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "TeamAiTacticsMgr_OnAiObjDestroy",
+   "len": 31,
+   "handler": 72560624,
+   "registrar": 19641612,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "TeamAiTacticsMgr_OnDie",
+   "len": 22,
+   "handler": 72560644,
+   "registrar": 19641612,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ThreatValueMapSetAdditionalThreathValue",
+   "len": 39,
+   "handler": 73548876,
+   "registrar": 19652104,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "ToggleSkill_OnDieHandler",
+   "len": 24,
+   "handler": 76327776,
+   "registrar": 19694288,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "TutorialCmdMgr_OnConsumeHPHandle",
+   "len": 32,
+   "handler": 35951752,
+   "registrar": 18244912,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "TutorialCmdMgr_OnHurtHPHandle",
+   "len": 29,
+   "handler": 35951728,
+   "registrar": 18244912,
+   "name_mode": "literal",
+   "class": "event-handler"
+  },
+  {
+   "name": "_18FreeSkillResObjectEEEiS8_E8Dict",
+   "len": 34,
+   "handler": 18446744073709551615,
+   "registrar": 19647264,
+   "name_mode": "island@0x57dc80b((-65536, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "_6Common12FEDictionaryIiPNS5_13GainR",
+   "len": 36,
+   "handler": 75683680,
+   "registrar": 19679040,
+   "name_mode": "island@0x57ed71f((-131072, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "aSync38IFlowEvaluatorIsTransfoN",
+   "len": 31,
+   "handler": 79511900,
+   "registrar": 19801224,
+   "name_mode": "island@0x580ca62((-393216, 'xor30'))",
+   "class": "type-name"
+  },
+  {
+   "name": "aValueIN11FrameEngine3Lua21LFEDiction",
+   "len": 37,
+   "handler": 75678196,
+   "registrar": 19676516,
+   "name_mode": "island@0x57ed13b((-131072, 'xor30'))",
+   "class": "type-name"
+  },
+  {
+   "name": "ail13UserdataValueIN11FrameE",
+   "len": 28,
+   "handler": 70894328,
+   "registrar": 19600156,
+   "name_mode": "xor30@0x57cceaf",
+   "class": "type-name"
+  },
+  {
+   "name": "ail13UserdataValueIN11FrameEngine3Lua21LFEDictionary_Method",
+   "len": 59,
+   "handler": 78148132,
+   "registrar": 19742788,
+   "name_mode": "island@0x57fe3df((-196608, 'xor30'))",
+   "class": "type-name"
+  },
+  {
+   "name": "ail13UserdataValueIN11FrameEngine3Lua21LFEDictionary_Methods",
+   "len": 60,
+   "handler": 73389192,
+   "registrar": 19648776,
+   "name_mode": "island@0x57df18f((-65536, 'xor30'))",
+   "class": "type-name"
+  },
+  {
+   "name": "ameEngine5Logic26FlowActionSetActorLife",
+   "len": 39,
+   "handler": 75678948,
+   "registrar": 19676848,
+   "name_mode": "xor30@0x57ed205",
+   "class": "type-name"
+  },
+  {
+   "name": "ameEngine5Logic27FlowActionSetOperati",
+   "len": 37,
+   "handler": 75710836,
+   "registrar": 19680384,
+   "name_mode": "xor30@0x57eda95",
+   "class": "type-name"
+  },
+  {
+   "name": "ameEngine5Logic27FlowEvaluatorIsSkillDot",
+   "len": 40,
+   "handler": 79511476,
+   "registrar": 19801224,
+   "name_mode": "island@0x580ca15((-393216, 'xor30'))",
+   "class": "type-name"
+  },
+  {
+   "name": "ameEngine8DataSync34IFlowEvaluatorHasS",
+   "len": 38,
+   "handler": 77928764,
+   "registrar": 19735644,
+   "name_mode": "island@0x57fc3d5((-327680, 'xor30'))",
+   "class": "type-name"
+  },
+  {
+   "name": "ameEngine8DataSync39IFlowEvaluatorTwoSharedFix64Compar",
+   "len": 54,
+   "handler": 79755692,
+   "registrar": 19810952,
+   "name_mode": "island@0x580f275((-393216, 'xor30'))",
+   "class": "type-name"
+  },
+  {
+   "name": "aryIiPNS5_13GainResObjectEEEiS8_E8DictItor",
+   "len": 42,
+   "handler": 70894328,
+   "registrar": 19602952,
+   "name_mode": "xor30@0x57cd732",
+   "class": "event-handler"
+  },
+  {
+   "name": "aryIiPNS5_22SummonerSkillResObjectEEEiS8",
+   "len": 40,
+   "handler": 79512088,
+   "registrar": 19801224,
+   "name_mode": "island@0x580ca82((-262144, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "aryIiPNS5_24VirtualChampionResObjectEEEiS8_E8DictI",
+   "len": 50,
+   "handler": 77975988,
+   "registrar": 19737012,
+   "name_mode": "island@0x57fc762((-196608, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "ary_MethodsINS2_6Common12FEDictionaryIiPNS5_25",
+   "len": 46,
+   "handler": 79470008,
+   "registrar": 19799656,
+   "name_mode": "island@0x580c420((-262144, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "atDataAddByTrigger_OnAfterCalDamage",
+   "len": 35,
+   "handler": 75974000,
+   "registrar": 19684544,
+   "name_mode": "xor30@0x57ef1dc",
+   "class": "event-handler"
+  },
+  {
+   "name": "c32INpcAttackAuxiliaryProces",
+   "len": 28,
+   "handler": 76076224,
+   "registrar": 19688328,
+   "name_mode": "island@0x57efdf6((-262144, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "c36IFlowEvaluatorIsMoveJoystickCastSyn",
+   "len": 38,
+   "handler": 18446744073709551615,
+   "registrar": 19647264,
+   "name_mode": "island@0x57dc766((-196608, 'xor30'))",
+   "class": "type-name"
+  },
+  {
+   "name": "cENS0_22MultiPassRemovalLis",
+   "len": 27,
+   "handler": 34830688,
+   "registrar": 18236904,
+   "name_mode": "island@0x56bfe85((-327680, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "ce17UnitStateFilter_TINS_5Logic15Batt",
+   "len": 37,
+   "handler": 34704040,
+   "registrar": 18235376,
+   "name_mode": "island@0x56bef16((-327680, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "ctionary_MethodsINS2_6Common12FE",
+   "len": 32,
+   "handler": 75987192,
+   "registrar": 19685160,
+   "name_mode": "island@0x57ef37b((-131072, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "dge6detail13UserdataValueIN11FrameEngine3Lua21LFEDictionary_Me",
+   "len": 62,
+   "handler": 73388720,
+   "registrar": 19648776,
+   "name_mode": "island@0x57df0d8((-65536, 'xor30'))",
+   "class": "type-name"
+  },
+  {
+   "name": "dge6detail13UserdataValueIN11FrameEngine3Lua21LFEDictionary_MethodsI",
+   "len": 68,
+   "handler": 73395684,
+   "registrar": 19649208,
+   "name_mode": "island@0x57df348((-65536, 'xor30'))",
+   "class": "type-name"
+  },
+  {
+   "name": "dsINS2_6Common12FEDictionaryIiPNS5_1",
+   "len": 36,
+   "handler": 75682060,
+   "registrar": 19677900,
+   "name_mode": "island@0x57ed539((-131072, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "e27FEEffectResetNcAnimation",
+   "len": 27,
+   "handler": 76002068,
+   "registrar": 19685688,
+   "name_mode": "island@0x57ef4e7((-196608, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "e5Logic33FlowEvaluatorMoveInputForwardSync",
+   "len": 42,
+   "handler": 75677700,
+   "registrar": 19676316,
+   "name_mode": "island@0x57ed0dd((-262144, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "e6detail13UserdataValueIN11FrameEngin",
+   "len": 37,
+   "handler": 79659660,
+   "registrar": 19807552,
+   "name_mode": "island@0x580e33a((-262144, 'xor30'))",
+   "class": "type-name"
+  },
+  {
+   "name": "e8DataSync37IFlowEvaluatorSkillIsQui",
+   "len": 36,
+   "handler": 79693764,
+   "registrar": 19809112,
+   "name_mode": "island@0x580e82d((-393216, 'xor30'))",
+   "class": "type-name"
+  },
+  {
+   "name": "e9Interface17FEEffectSetVfxMs",
+   "len": 29,
+   "handler": 73415384,
+   "registrar": 19649920,
+   "name_mode": "island@0x57df61d((-131072, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "erdataValueIN11FrameEngine3Lua21LFEDictionary_Metho",
+   "len": 51,
+   "handler": 79755788,
+   "registrar": 19810952,
+   "name_mode": "island@0x580f356((-262144, 'xor30'))",
+   "class": "type-name"
+  },
+  {
+   "name": "erdataValueIN11FrameEngine3Lua21LFEDictionary_MethodsINS2_6Common12FEDictionaryIi",
+   "len": 81,
+   "handler": 73403292,
+   "registrar": 19649568,
+   "name_mode": "island@0x57df526((-65536, 'xor30'))",
+   "class": "type-name"
+  },
+  {
+   "name": "gic34FlowEvaluatorPositionIsVisibleSy",
+   "len": 37,
+   "handler": 75681224,
+   "registrar": 19677768,
+   "name_mode": "island@0x57ed471((-262144, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "gic37ActorConditionExclud",
+   "len": 25,
+   "handler": 75683696,
+   "registrar": 19679040,
+   "name_mode": "xor30@0x57ed7a1",
+   "class": "event-handler"
+  },
+  {
+   "name": "gic8Behavior31SummonedYordleHeraldBehavi",
+   "len": 40,
+   "handler": 77918992,
+   "registrar": 19735356,
+   "name_mode": "xor30@0x57fc271",
+   "class": "event-handler"
+  },
+  {
+   "name": "gine5Logic36FlowEvaluatorPosi",
+   "len": 29,
+   "handler": 75682048,
+   "registrar": 19677900,
+   "name_mode": "island@0x57ed4ea((-262144, 'xor30'))",
+   "class": "type-name"
+  },
+  {
+   "name": "gine5Logic37FlowEvaluatorSharedAc",
+   "len": 33,
+   "handler": 75683968,
+   "registrar": 19679512,
+   "name_mode": "island@0x57ed82a((-262144, 'xor30'))",
+   "class": "type-name"
+  },
+  {
+   "name": "gine5Logic38ActionTriggerConditionSkillSlotCom",
+   "len": 46,
+   "handler": 79840296,
+   "registrar": 19814132,
+   "name_mode": "xor30@0x580fc3a",
+   "class": "type-name"
+  },
+  {
+   "name": "gine9Interface31FEEventMsCamera_FixedExitOffset",
+   "len": 47,
+   "handler": 76046088,
+   "registrar": 19686952,
+   "name_mode": "island@0x57efaba((-196608, 'xor30'))",
+   "class": "type-name"
+  },
+  {
+   "name": "hodsINS2_6Common12FEDictionaryIiPNS2_5Logic29CommercialInfo",
+   "len": 59,
+   "handler": 73388912,
+   "registrar": 19648776,
+   "name_mode": "island@0x57df117((-65536, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "ic31FlowEvaluatorSkillIsRunningSy",
+   "len": 33,
+   "handler": 75920684,
+   "registrar": 19683528,
+   "name_mode": "island@0x57ee8f2((-262144, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "ictionaryIiPNS5_17SkillGemResObjectEE",
+   "len": 37,
+   "handler": 75677436,
+   "registrar": 19676116,
+   "name_mode": "island@0x57ed03c((-131072, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "idge6detail13UserdataValueIN11FrameEngine3Lua21LFEDictionary_Metho",
+   "len": 66,
+   "handler": 79755860,
+   "registrar": 19810952,
+   "name_mode": "island@0x580f3f7((-262144, 'xor30'))",
+   "class": "type-name"
+  },
+  {
+   "name": "ine3Lua21LFEDictionary_MethodsINS2_6Common",
+   "len": 42,
+   "handler": 77978912,
+   "registrar": 19737372,
+   "name_mode": "island@0x57fc7cd((-196608, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "ine5Logic18MovementStickySync",
+   "len": 29,
+   "handler": 76065308,
+   "registrar": 19687696,
+   "name_mode": "island@0x57efc9b((-262144, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "ionaryIiPNS2_5Logic14MapBlockAnchorE",
+   "len": 36,
+   "handler": 75962072,
+   "registrar": 19684192,
+   "name_mode": "island@0x57eef3f((-131072, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "l13UserdataValueIN11FrameEngine3Lua21LFEDictionary_",
+   "len": 51,
+   "handler": 79755668,
+   "registrar": 19810952,
+   "name_mode": "island@0x580f241((-262144, 'xor30'))",
+   "class": "type-name"
+  },
+  {
+   "name": "luabridge6detail13UserdataValueI",
+   "len": 32,
+   "handler": 75970532,
+   "registrar": 19684400,
+   "name_mode": "island@0x57ef182((-131072, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "lueIN11FrameEngine3Lua21LFEDictiona",
+   "len": 35,
+   "handler": 79511708,
+   "registrar": 19801224,
+   "name_mode": "island@0x580ca3e((-262144, 'xor30'))",
+   "class": "type-name"
+  },
+  {
+   "name": "meEngine5Extra14LogicFlowUtilsE",
+   "len": 31,
+   "handler": 79729796,
+   "registrar": 19810424,
+   "name_mode": "island@0x580ed86((-458752, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "meEngine5Logic14ActorCond",
+   "len": 25,
+   "handler": 75682072,
+   "registrar": 19677900,
+   "name_mode": "xor30@0x57ed5a6",
+   "class": "event-handler"
+  },
+  {
+   "name": "meEngine5Logic14FlowActionR",
+   "len": 27,
+   "handler": 75920660,
+   "registrar": 19683528,
+   "name_mode": "xor30@0x57ee8d6",
+   "class": "event-handler"
+  },
+  {
+   "name": "meEngine5Logic26ActorConditionInSki",
+   "len": 35,
+   "handler": 75683964,
+   "registrar": 19679512,
+   "name_mode": "xor30@0x57ed806",
+   "class": "event-handler"
+  },
+  {
+   "name": "meEngine5Logic35FlowEvaluatorPosi",
+   "len": 33,
+   "handler": 75679460,
+   "registrar": 19677180,
+   "name_mode": "island@0x57ed2d6((-262144, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "nc48IFlowEvaluatorSharedActorHasObstructInRadiu",
+   "len": 47,
+   "handler": 73344284,
+   "registrar": 19648568,
+   "name_mode": "island@0x57dd905((-196608, 'xor30'))",
+   "class": "type-name"
+  },
+  {
+   "name": "ne3Lua21LFEDictionary_MethodsINS2_6Common12FEDictio",
+   "len": 51,
+   "handler": 77975964,
+   "registrar": 19737012,
+   "name_mode": "island@0x57fc72e((-196608, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "ne5Logic14AttackerRecor",
+   "len": 23,
+   "handler": 31466920,
+   "registrar": 18208024,
+   "name_mode": "xor30@0x569eefc",
+   "class": "event-handler"
+  },
+  {
+   "name": "ne5Logic24ActorConditionIsAttache",
+   "len": 33,
+   "handler": 75683972,
+   "registrar": 19679512,
+   "name_mode": "xor30@0x57ed84c",
+   "class": "event-handler"
+  },
+  {
+   "name": "ne8DataSync30IFlowEvaluatorIsPoly",
+   "len": 33,
+   "handler": 77987332,
+   "registrar": 19737644,
+   "name_mode": "island@0x57fc8dc((-327680, 'xor30'))",
+   "class": "type-name"
+  },
+  {
+   "name": "ne8DataSync35IHexMiniS",
+   "len": 22,
+   "handler": 76026108,
+   "registrar": 19686344,
+   "name_mode": "island@0x57ef86c((-262144, 'xor30'))",
+   "class": "type-name"
+  },
+  {
+   "name": "ngine5Logic24SkillGemVarPa",
+   "len": 26,
+   "handler": 76066872,
+   "registrar": 19687840,
+   "name_mode": "xor30@0x57efce9",
+   "class": "event-handler"
+  },
+  {
+   "name": "ngine9Interface37FEEventMsCamera_FixCa",
+   "len": 38,
+   "handler": 76046024,
+   "registrar": 19686952,
+   "name_mode": "island@0x57efa69((-196608, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "ntMsgBattleActor_RefreshTransformSync_FD",
+   "len": 40,
+   "handler": 77921396,
+   "registrar": 19735500,
+   "name_mode": "island@0x57fc2cf((-262144, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "ogic21ActorConditionHasMa",
+   "len": 25,
+   "handler": 75682880,
+   "registrar": 19678572,
+   "name_mode": "xor30@0x57ed620",
+   "class": "event-handler"
+  },
+  {
+   "name": "ogic22FlowActionGetActorAt",
+   "len": 26,
+   "handler": 75679208,
+   "registrar": 19677048,
+   "name_mode": "xor30@0x57ed290",
+   "class": "event-handler"
+  },
+  {
+   "name": "onaryImPNS5_6FEListIiEEEEmS9_E8DictIto",
+   "len": 38,
+   "handler": 71604000,
+   "registrar": 19612312,
+   "name_mode": "xor30@0x57cf290",
+   "class": "event-handler"
+  },
+  {
+   "name": "owActionEquipStatDataAddByTrigger_OnStatSu",
+   "len": 42,
+   "handler": 75984768,
+   "registrar": 19684944,
+   "name_mode": "xor30@0x57ef324",
+   "class": "event-handler"
+  },
+  {
+   "name": "owEvaluatorSharedActorHasObstructInRadiusSy",
+   "len": 43,
+   "handler": 79599896,
+   "registrar": 19805104,
+   "name_mode": "island@0x580d958((-393216, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "pc32FEBattleDcPlayerSecurityDataItemEEEEEm",
+   "len": 42,
+   "handler": 75797628,
+   "registrar": 19681184,
+   "name_mode": "island@0x57ede84((-131072, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "rameEngine3Lua21LFEDictionary_Method",
+   "len": 36,
+   "handler": 71613148,
+   "registrar": 19612456,
+   "name_mode": "xor30@0x57cf2e6",
+   "class": "type-name"
+  },
+  {
+   "name": "rameEngine3Lua21LFEDictionary_MethodsINS2_6Common1",
+   "len": 50,
+   "handler": 81228996,
+   "registrar": 19858088,
+   "name_mode": "label+off@0x581e6b6(delta=-0x50000)",
+   "class": "type-name"
+  },
+  {
+   "name": "rameEngine5Logic19ActorConditi",
+   "len": 30,
+   "handler": 75683688,
+   "registrar": 19679040,
+   "name_mode": "xor30@0x57ed764",
+   "class": "type-name"
+  },
+  {
+   "name": "rameEngine5Logic33FlowActi",
+   "len": 26,
+   "handler": 75676668,
+   "registrar": 19675784,
+   "name_mode": "xor30@0x57ecf74",
+   "class": "type-name"
+  },
+  {
+   "name": "rdataValueIN11FrameEngine3Lua21LFEDictio",
+   "len": 40,
+   "handler": 79469796,
+   "registrar": 19799656,
+   "name_mode": "island@0x580c3f7((-262144, 'xor30'))",
+   "class": "type-name"
+  },
+  {
+   "name": "ryIiPNS5_19GainWeightResObjectEEEiS",
+   "len": 35,
+   "handler": 71324380,
+   "registrar": 19602360,
+   "name_mode": "xor30@0x57cd553",
+   "class": "event-handler"
+  },
+  {
+   "name": "ry_MethodsINS2_6Common12FEDictionaryIiPNS5_1",
+   "len": 44,
+   "handler": 75678200,
+   "registrar": 19676516,
+   "name_mode": "island@0x57ed161((-131072, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "sINS2_6Common12FEDictionaryIiPNS2_5Logic26BattleScoring",
+   "len": 55,
+   "handler": 79755812,
+   "registrar": 19810952,
+   "name_mode": "island@0x580f38a((-262144, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "serdataValueIN11FrameEngine3Lua21LFEDictionary_Met",
+   "len": 50,
+   "handler": 18446744073709551615,
+   "registrar": 19647264,
+   "name_mode": "island@0x57dc7b5((-65536, 'xor30'))",
+   "class": "type-name"
+  },
+  {
+   "name": "tail13UserdataValueIN11FrameEngine3Lua21L",
+   "len": 41,
+   "handler": 71585380,
+   "registrar": 19611456,
+   "name_mode": "xor30@0x57cf02e",
+   "class": "type-name"
+  },
+  {
+   "name": "terGrowttleEquipPurchaseoBattleE",
+   "len": 32,
+   "handler": 70894328,
+   "registrar": 19603424,
+   "name_mode": "island@0x57cd888((-524288, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "tionChangeEffectModel_Chan",
+   "len": 26,
+   "handler": 75682892,
+   "registrar": 19678572,
+   "name_mode": "island@0x57ed670((-327680, 'xor30'))",
+   "class": "type-name"
+  },
+  {
+   "name": "torLgcAnim_SetActorModelOffsetY",
+   "len": 31,
+   "handler": 75680220,
+   "registrar": 19677376,
+   "name_mode": "island@0x57ed355((-327680, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "ua21LFEDictionary_MethodsINS2",
+   "len": 29,
+   "handler": 77928692,
+   "registrar": 19735644,
+   "name_mode": "island@0x57fc372((-196608, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "utSideHeroHeadBar_Paddin",
+   "len": 24,
+   "handler": 31466756,
+   "registrar": 18208024,
+   "name_mode": "island@0x569eee3((-262144, 'xor30'))",
+   "class": "event-handler"
+  },
+  {
+   "name": "ync31IFlowEvaluatorSkillIsBulletSyn",
+   "len": 35,
+   "handler": 78161580,
+   "registrar": 19743140,
+   "name_mode": "island@0x57fe6a4((-327680, 'xor30'))",
+   "class": "type-name"
+  },
+  {
+   "name": "ync42IFlowEvaluatorReflectBulle",
+   "len": 31,
+   "handler": 75683684,
+   "registrar": 19679040,
+   "name_mode": "island@0x57ed744((-262144, 'xor30'))",
+   "class": "type-name"
+  }
+ ]
+}

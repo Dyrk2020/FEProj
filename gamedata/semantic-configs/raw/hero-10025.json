@@ -1,0 +1,122 @@
+{
+ "label": "hero_10025_BaseHeroScData",
+ "vfs": "ff05597c06ac9302be9704ceec126e3e",
+ "idx": 2,
+ "path": "Assets/ABPack/Resources/DataLayerCombined/MR/WorkFlow/Hero/10025/10025.bytes",
+ "size": 25640,
+ "sha1": "716b3e6553ede8e30dfb5625d4d5cc376007c37f",
+ "md5": "c69d4465276937f015ba4e70889a4af6",
+ "parse": {
+  "ok": true,
+  "clean": false,
+  "size": 25640,
+  "prefix": "66",
+  "marker_offset": 1,
+  "version": 1,
+  "header": {
+   "raw": "0100000c00b1fefc010068dd010028552914002a0b000100",
+   "common": "0100000c00",
+   "u32s": [
+    33357489,
+    31287296,
+    693446656
+   ]
+  },
+  "records": [
+   [
+    16,
+    "00"
+   ],
+   [
+    33,
+    "c4010800"
+   ],
+   [
+    34,
+    "f0d40800"
+   ],
+   [
+    27,
+    "a81800"
+   ],
+   [
+    4,
+    "2800"
+   ],
+   [
+    34,
+    "fefc1000"
+   ],
+   [
+    162,
+    "580a0000"
+   ],
+   [
+    5,
+    "000000"
+   ],
+   [
+    4,
+    "ef10"
+   ]
+  ],
+  "record_count": 9,
+  "record_end": 68,
+  "strings": [
+   "_0[7u",
+   "kill.basicdamage+att.attr_magic*s!",
+   "tt.tf_e_gold_total",
+   "$oyellowx",
+   "_,yH!",
+   "MO%Z&Z&Z%ZIO",
+   "Actors/h_twistedfate/Skin00/InGame",
+   "_preWorkFlow/Hero/10025/",
+   "pbornNew",
+   "Visi/Common/hero\"",
+   "__visiP",
+   "dieLegoClipNameResObject.",
+   "0spell03&",
+   "1attack02'",
+   "3run_fast'",
+   "qskill01",
+   ".basicdamage+att.attr_magic*!",
+   "apratiototal(",
+   "eP+10y_",
+   "1slowrateP+0.05",
+   "P+15manrecoverP+30",
+   "pP+5stun",
+   "t0.8half",
+   "0625active",
+   "dsecond ",
+   "4P+450.6bonus",
+   "speedasdu",
+   "pnunused",
+   "tf_e_gold_",
+   "earnedpassive_@",
+   "onP+1cast",
+   "?_bts",
+   "2red_radius2.75e_spinenone",
+   "Effects/Default/T`",
+   "o_fly01M",
+   "/?_twP",
+   ":p_twBuff",
+   "O_add",
+   "0UI/_",
+   "addmoney",
+   "jiansu_buff0-F",
+   "FlyText_Stunh",
+   "qxuanyuni",
+   "ps_battl",
+   "}zzyiconk",
+   "Rcard_",
+   "_reset",
+   "disappeag",
+   "loadeddice_O",
+   "addhurt_reflect"
+  ],
+  "trailer": null,
+  "errors": [
+   "record stream stopped at unknown type 0x0"
+  ]
+ }
+}

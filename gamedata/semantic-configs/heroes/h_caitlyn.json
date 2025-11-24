@@ -1,0 +1,68 @@
+{
+ "name": "h_caitlyn",
+ "source": "Assets/ABPack/Resources/Actors/h_caitlyn/Skin00/InGame/ActorCfgData/h_caitlyn_pre.bytes",
+ "vfs": "f2b2750c7ea12b58a93c70cf4234ff4b",
+ "size": 676,
+ "md5": "f18c45d72988a8d7b54f966f17eb2166",
+ "record_count": 9,
+ "record_end": 63,
+ "parse_confidence": 0.8,
+ "schema": "FrameEngine.Interface.ActorCfgData",
+ "schema_alignment_confidence": "none",
+ "container_records": 0,
+ "payload_records": 9,
+ "labeled_records": 0,
+ "parse_errors": [
+  "record stream stopped at unknown type 0xec"
+ ],
+ "hints": {
+  "name_keys": [],
+  "desc_keys": [],
+  "formulas": [],
+  "flows": [],
+  "attr_refs": []
+ },
+ "strings": [
+  "#Ze_tope_spinee_fire_r",
+  "`le_t01",
+  "2e_defaulte_headL"
+ ],
+ "fields": {
+  "field_0": {
+   "t": 1,
+   "v": 0
+  },
+  "field_1": {
+   "t": 16,
+   "v": 0
+  },
+  "field_2": {
+   "t": 34,
+   "v": 525688
+  },
+  "field_3": {
+   "t": 19,
+   "v": 2208
+  },
+  "field_4": {
+   "t": 27,
+   "v": 6312
+  },
+  "field_5": {
+   "t": 4,
+   "v": 40
+  },
+  "field_6": {
+   "t": 34,
+   "v": 525904
+  },
+  "field_7": {
+   "t": 147,
+   "v": 328
+  },
+  "field_8": {
+   "t": 5,
+   "v": 0
+  }
+ }
+}

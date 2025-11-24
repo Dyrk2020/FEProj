@@ -1,0 +1,101 @@
+{
+ "name": "h_twistedfate",
+ "source": "Assets/ABPack/Resources/Actors/h/twistedfate/Skin00/InGame/ActorCfgData/h/twistedfate/pre.bytes",
+ "vfs": "0033fe362746b515063b7f1e1eab4378",
+ "size": 8168,
+ "md5": "acb693768031a1b16350915353659497",
+ "record_count": 17,
+ "record_end": 104,
+ "parse_confidence": 0.8,
+ "schema": "FrameEngine.Interface.ActorCfgData",
+ "schema_alignment_confidence": "none",
+ "container_records": 9,
+ "payload_records": 8,
+ "labeled_records": 0,
+ "parse_errors": [
+  "record stream stopped at unknown type 0x80"
+ ],
+ "hints": {
+  "name_keys": [],
+  "desc_keys": [],
+  "formulas": [],
+  "flows": [],
+  "attr_refs": []
+ },
+ "strings": [
+  "-(!\"P.",
+  "/8 \"X/",
+  "e_tope_spinee_fire_r",
+  "le_defaulte_headattack01"
+ ],
+ "fields": {
+  "field_0": {
+   "t": 16,
+   "v": 0
+  },
+  "field_1": {
+   "t": 34,
+   "v": 543812
+  },
+  "field_2": {
+   "t": 34,
+   "v": 545372
+  },
+  "field_3": {
+   "t": 19,
+   "v": 6312
+  },
+  "field_4": {
+   "t": 19,
+   "v": 6209
+  },
+  "field_5": {
+   "t": 4,
+   "v": 40
+  },
+  "field_6": {
+   "t": 34,
+   "v": 547108
+  },
+  "field_7": {
+   "t": 162,
+   "v": 312
+  },
+  "field_8": {
+   "t": 5,
+   "v": 0
+  },
+  "field_9": {
+   "t": 180,
+   "v": 4181
+  },
+  "field_10": {
+   "t": 19,
+   "v": 2268
+  },
+  "field_11": {
+   "t": 34,
+   "v": 546308
+  },
+  "field_12": {
+   "t": 19,
+   "v": 4200
+  },
+  "field_13": {
+   "t": 19,
+   "v": 4120
+  },
+  "field_14": {
+   "t": 38,
+   "v": 4740531
+  },
+  "field_15": {
+   "t": 132,
+   "v": 10
+  },
+  "field_16": {
+   "t": 244,
+   "v": 1312082
+  }
+ }
+}

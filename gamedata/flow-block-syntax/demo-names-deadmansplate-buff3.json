@@ -1,0 +1,30 @@
+{
+ "file": "16cb8fc9f0bb1e3df75ed148e5a2e3a7.vfs__133_Assets_ABPack_Resources_NewFlows_Skill_Equip_DeadmansPlate_buff3.bytes",
+ "inc32_global_offsets": [
+  "0x1154",
+  "0x1159",
+  "0x115e",
+  "0x116c",
+  "0x1170",
+  "0x1178"
+ ],
+ "dec24_object_offsets": [
+  "0x730010",
+  "0x657220",
+  "0x637564",
+  "0xfb065",
+  "0xefc00",
+  "0xe7800",
+  "0xdf400",
+  "0xd5800",
+  "0xcd400",
+  "0xc5000"
+ ],
+ "names_via_delta_segmentation": [
+  "owner",
+  "giver",
+  "buffLayerCount",
+  "flow",
+  "attacker"
+ ]
+}

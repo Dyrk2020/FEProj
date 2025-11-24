@@ -1,0 +1,25 @@
+{
+ "files_used": 24529,
+ "T1_node_size": {
+  "adjacent_A_diff_total": 1162107,
+  "hits_in_node_bytes": 63630,
+  "hit_rate": 0.0548,
+  "verdict": "rejected"
+ },
+ "T2_node_offset": {
+  "files_tested": 24529,
+  "files_with_const_c_ge80pct_joint": 102,
+  "verdict": "rejected"
+ },
+ "T3_pool_offset": {
+  "A_in_dec24_inc32": 0.0004,
+  "B_in_dec24_inc32": 0.0006,
+  "B_lo16_in_pool_refs": 0.0013,
+  "verdict": "rejected"
+ },
+ "T4_edge_table": {
+  "median_run22_over_trans": 1.8571428571428572,
+  "median_run22_over_nodes": 1.5,
+  "verdict": "rejected"
+ }
+}

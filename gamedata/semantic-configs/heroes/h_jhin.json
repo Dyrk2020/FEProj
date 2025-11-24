@@ -1,0 +1,131 @@
+{
+ "name": "h_jhin",
+ "source": "Assets/ABPack/Resources/Actors/h_jhin/Skin00/InGame/ActorCfgData/h_jhin_pre.bytes",
+ "vfs": "38e0f2e1c238e7b3e229b3a261a64065",
+ "size": 612,
+ "md5": "70ac93bd12d41c8d21dbcdf168c8ceef",
+ "record_count": 25,
+ "record_end": 123,
+ "parse_confidence": 0.8,
+ "schema": "FrameEngine.Interface.ActorCfgData",
+ "schema_alignment_confidence": "none",
+ "container_records": 0,
+ "payload_records": 25,
+ "labeled_records": 0,
+ "parse_errors": [
+  "record stream stopped at unknown type 0x8"
+ ],
+ "hints": {
+  "name_keys": [],
+  "desc_keys": [],
+  "formulas": [],
+  "flows": [],
+  "attr_refs": []
+ },
+ "strings": [
+  "#Ze_tope_spinee_fire_r",
+  "le_t01e_defaulte_head"
+ ],
+ "fields": {
+  "field_0": {
+   "t": 18,
+   "v": 5300
+  },
+  "field_1": {
+   "t": 42,
+   "v": 11
+  },
+  "field_2": {
+   "t": 1,
+   "v": 256
+  },
+  "field_3": {
+   "t": 16,
+   "v": 0
+  },
+  "field_4": {
+   "t": 18,
+   "v": 2053
+  },
+  "field_5": {
+   "t": 19,
+   "v": 2084
+  },
+  "field_6": {
+   "t": 27,
+   "v": 6312
+  },
+  "field_7": {
+   "t": 4,
+   "v": 40
+  },
+  "field_8": {
+   "t": 19,
+   "v": 4286
+  },
+  "field_9": {
+   "t": 33,
+   "v": 1769792
+  },
+  "field_10": {
+   "t": 35,
+   "v": 1074688
+  },
+  "field_11": {
+   "t": 19,
+   "v": 2178
+  },
+  "field_12": {
+   "t": 19,
+   "v": 2206
+  },
+  "field_13": {
+   "t": 19,
+   "v": 2102
+  },
+  "field_14": {
+   "t": 19,
+   "v": 2220
+  },
+  "field_15": {
+   "t": 23,
+   "v": 18534
+  },
+  "field_16": {
+   "t": 132,
+   "v": 10
+  },
+  "field_17": {
+   "t": 170,
+   "v": 7388
+  },
+  "field_18": {
+   "t": 106,
+   "v": 2490496
+  },
+  "field_19": {
+   "t": 5,
+   "v": 256
+  },
+  "field_20": {
+   "t": 118,
+   "v": 1074331657
+  },
+  "field_21": {
+   "t": 40,
+   "v": 4359
+  },
+  "field_22": {
+   "t": 131,
+   "v": "385c0101000000"
+  },
+  "field_23": {
+   "t": 152,
+   "v": 1769512
+  },
+  "field_24": {
+   "t": 208,
+   "v": 3080200
+  }
+ }
+}

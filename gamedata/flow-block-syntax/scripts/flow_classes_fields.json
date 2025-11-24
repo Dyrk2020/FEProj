@@ -1,0 +1,7811 @@
+{
+"NcFlowTextureCurveControl": [
+"flowTextureData",
+"flowValue",
+"flowBlend",
+"m_FlowTexTransformID",
+"m_FlowScaleID",
+"m_FlowBlendID",
+"m_FlowTexTransformName",
+"m_FlowScaleName",
+"m_FlowBlendName",
+"m_RenderMatBlock",
+"m_Renderer",
+"m_IsValidRenderer",
+"m_IsShaderCorrect",
+"isControlTextureData",
+"isControlFlowValue",
+"isControlFlowBlend"
+],
+"AgFlowDrive": [
+"m_Flows"
+],
+"OutBattleFlowUtils": [
+"agFlowDrive"
+],
+"SISBuffPlayFlowEffect": [
+"flowPath",
+"buffEntity",
+"directorEntityID"
+],
+"SISBornFlowComponent": [
+"agActor",
+"flowPaths"
+],
+"SISFlowSystem": [
+"_group"
+],
+"SISLogicFlowComponent": [
+"flow",
+"active"
+],
+"BuffPlayFlowEffectConfig": [
+"flowPath"
+],
+"<ShowPopupFlow>d__44": [
+"<>1__state",
+"<>2__current",
+"<>4__this",
+"<saveData>5__2",
+"<i>5__3"
+],
+"UIAutomatedTestingFlowPanelCtrl": [
+"toggleItemObject",
+"comfirmButton",
+"cancleButton",
+"closeButton",
+"togglesRoot",
+"AUTOMATED_TESTING_RESOURCES_FOLDER_PATH"
+],
+"UIAutomatedTestingFlowPanelAGCtrl": [
+"toggleItemObject",
+"comfirmButton",
+"cancleButton",
+"closeButton",
+"togglesRoot",
+"AUTOMATED_TESTING_RESOURCES_FOLDER_PATH"
+],
+"BattleResultFlowMgr": [
+"popUpInterfaceMgr",
+"clearStarAcotrAction",
+"popUpList",
+"popUpInfoQueue",
+"overrideShowArgs",
+"myTeamRoleID",
+"currentFocusRoleID",
+"tempSkinUpgradeIDs"
+],
+"<ShowEntryMainFlow>d__28": [
+"<>1__state",
+"<>2__current",
+"<>4__this",
+"<hasPopupShown>5__2",
+"<popUpPlayMainAniOrder>5__3",
+"<curCnt>5__4",
+"<i>5__5",
+"<count>5__6",
+"<checkNext>5__7",
+"<globalOrder>5__8"
+],
+"EntryMainFlowMgr": [
+"isEntryTypeSorted",
+"entryMainDelayTime",
+"entryMainPopupTypes",
+"entryMainThread",
+"needPopPandoraAtLast",
+"<CurrrentSortNumber>k__BackingField",
+"deleCacheOf_OnCheckMcFlurryNewPresent",
+"deleCacheOf_OnPandoraUIReady"
+],
+"<ShowEntryFlow>d__95": [
+"<>1__state",
+"<>2__current",
+"<>4__this",
+"<entryPopupTypes>5__2",
+"<popupInterfaceMgr>5__3",
+"<i>5__4",
+"<count>5__5"
+],
+"UIGameResultParamFromFlow": [
+"flowContainsBattleLike"
+],
+"<ChargeLotteryFlow>d__49": [
+"<>1__state",
+"<>2__current",
+"<>4__this",
+"chargeUid"
+],
+"<NormalLotteryFlow>d__44": [
+"<>1__state",
+"<>2__current",
+"<>4__this",
+"<lotteryPlayers>5__2"
+],
+"<PlayInteractAniFlow>d__21": [
+"<>1__state",
+"<>2__current",
+"<>4__this"
+],
+"<PlaySmashEggFlow>d__23": [
+"<>1__state",
+"<>2__current",
+"<>4__this"
+],
+"<PlayActiveFlow>d__31": [
+"<>1__state",
+"<>2__current",
+"<>4__this"
+],
+"FlowVariablesSet": [
+"name",
+"value"
+],
+"HeroRelaxAnimationFlowControl": [
+"actorHero",
+"flowDrive",
+"playingAniName",
+"actorConfig",
+"listFlowInfo",
+"deleCacheOf_ActorStealSoul",
+"deleCacheOf_ActorDiscardSoul"
+],
+"BattleEventConditionFlowBattleEvent": [
+"deleCacheOf_OnFlowBattleEvent"
+],
+"<HeroBornTestLoadBornFlow>d__33": [
+"<>1__state",
+"<>2__current",
+"<>4__this",
+"playerRoleId",
+"player"
+],
+"BattleHeroBornFlowVisiMgr": [
+"curPlayerBornFlowVisiDic",
+"teamPlayerBornFlowVisiDic",
+"originTeamPlayerBornFlowVisiDic",
+"teamSpecialPlayerBornFLowVisiDic",
+"otherPlayerBornFlowVisiDic",
+"waitStartCherryBornFlowQueue",
+"isStartCherryBornFlowQueue",
+"isPlay",
+"isHeroBornTest",
+"isPigeonMode",
+"commonFlowPath",
+"deleCacheOf_OnSwitchHeroSuccess",
+"deleCacheOf_OnCherryRoundChange"
+],
+"BattleHomeBaseDieFlowMgr": [
+"homeBaseDieFlow",
+"HOME_BASE_DIE_FLOW_FORMAT",
+"deleCacheOf_HomeBaseDied"
+],
+"CameraFlowLocalMoveComponent": [
+"targetOffset",
+"startOffset"
+],
+"CoreFlowLog": [
+"CORE_FLOW_FORMAT",
+"CORE_FLOW_MEM_FORMAT",
+"CORE_FLOW_MEM_FORMAT_EX",
+"IsOpenGmShipping"
+],
+"CoreFlowReport": [
+"ParamType_RoomID",
+"ParamType_IsReEnter",
+"curRoomID",
+"enterRoomStamp"
+],
+"UIEasyGMSoftFlow": [
+"paramsDic",
+"_lastSortFlowPath"
+],
+"ActorFlowType": [
+"value__",
+"Null",
+"Born",
+"Die",
+"Run",
+"Count"
+],
+"LAssetFlow": [
+"asset"
+],
+"VisiMsg_TestingFlowDebuggerRecvMsg": [
+"msg"
+],
+"VisiMsg_TestingFlowActorRenderChange": [
+"actor",
+"type"
+],
+"VisiMsg_TestingFlowActorMoveUISimulator": [
+"actor",
+"targetPos",
+"isStop"
+],
+"FlowPool": [
+"flowResourcesPath",
+"pool"
+],
+"FlowUtils": [
+"flowResourcesPath",
+"flowFilePathLogic",
+"flowFilePathVisi",
+"flowFilePathCommon"
+],
+"LevelFlowDriveVisi": [
+"flows",
+"visiActions",
+"runningActions",
+"finishedActions"
+],
+"ActivitiesFlowVisi": [
+"_seriaTypeNo_ConfigVisi"
+],
+"AgFlow": [
+"_seriaTypeNo_ConfigVisi",
+"agActor"
+],
+"BattleHeroBornVisiFlow": [
+"_seriaTypeNo_ConfigVisi"
+],
+"FlowActionAg": [
+"_seriaTypeNo_ConfigVisi",
+"agActor",
+"curAgFlow"
+],
+"FlowActionCameraFadeIn": [
+"_seriaTypeNo_ConfigVisi",
+"color",
+"texture",
+"curve",
+"colorLerp",
+"elapsedTime"
+],
+"FlowActionCameraFadeOut": [
+"_seriaTypeNo_ConfigVisi",
+"color",
+"texture",
+"curve",
+"colorLerp",
+"elapsedTime"
+],
+"FlowActionCameraFovOffset": [
+"_seriaTypeNo_ConfigVisi",
+"useCustomCurve",
+"targetFov",
+"tweenDuration",
+"animationCurve"
+],
+"FlowActionCameraFovReset": [
+"_seriaTypeNo_ConfigVisi",
+"tweenDuration",
+"delayReset"
+],
+"FlowActionCameraHeightOffset": [
+"_seriaTypeNo_ConfigVisi",
+"useCustomCurve",
+"adaptiveSkill",
+"targetHeight",
+"tweenDuration",
+"animationCurve",
+"force"
+],
+"FlowActionCameraHeightReset": [
+"_seriaTypeNo_ConfigVisi",
+"tweenDuration",
+"delayReset",
+"force"
+],
+"FlowActionCameraPosOffset": [
+"_seriaTypeNo_ConfigVisi",
+"offsetWithForward",
+"useCustomCurve",
+"adaptiveSkill",
+"tweenDuration",
+"offset",
+"customCurve"
+],
+"FlowActionCameraPosReset": [
+"_seriaTypeNo_ConfigVisi",
+"tweenDuration",
+"delayReset"
+],
+"FlowActionCameraRotOffset": [
+"_seriaTypeNo_ConfigVisi",
+"DEGREE_360",
+"DEGREE_180",
+"isFollowFocusPoint",
+"useCustomCurve",
+"adaptiveSkill",
+"tweenDuration",
+"offset",
+"animationCurve"
+],
+"FlowActionCameraRotReset": [
+"_seriaTypeNo_ConfigVisi",
+"tweenDuration"
+],
+"FlowActionCameraShutterIn": [
+"_seriaTypeNo_ConfigVisi",
+"color",
+"numStripes",
+"colorLerp",
+"elapsedTime"
+],
+"FlowActionCameraShutterOut": [
+"_seriaTypeNo_ConfigVisi",
+"color",
+"numStripes",
+"colorLerp",
+"elapsedTime"
+],
+"FlowActionCameraTweenColor": [
+"_seriaTypeNo_ConfigVisi",
+"colorSource",
+"colorTarget",
+"texture",
+"curve",
+"colorLerp",
+"elapsedTime"
+],
+"FlowActionChangeEffectModelAg": [
+"_seriaTypeNo_ConfigVisi",
+"modelDatas"
+],
+"FlowActionChangeEffectModelVisi": [
+"_seriaTypeNo_ConfigVisi",
+"lstOption",
+"checkExist",
+"actorVisi",
+"succ"
+],
+"FlowActionCheckFightState": [
+"_seriaTypeNo_ConfigVisi",
+"shareBool",
+"actor"
+],
+"FlowActionCheckWarnLevelVisi": [
+"_seriaTypeNo_ConfigVisi",
+"shareInt",
+"stopAndJumpValue0",
+"stopAndJumpValue1",
+"actor"
+],
+"FlowActionClearDisguiseAg": [
+"_seriaTypeNo_ConfigVisi",
+"sceneContext",
+"disguiseDict",
+"disguiseType",
+"curSceneContext",
+"curDisguiseDict",
+"curDisguiseItem",
+"curDisguisePlayer"
+],
+"FlowActionCreateVfxAg": [
+"_seriaTypeNo_ConfigVisi",
+"effectDatas"
+],
+"FlowActionCreateVfxVisi": [
+"_seriaTypeNo_ConfigVisi",
+"attachParent",
+"ignoreRotate",
+"autoDestroy",
+"vfxPath",
+"joint",
+"position",
+"rotation",
+"customForward",
+"scale",
+"customPos",
+"delayTime",
+"showInFog",
+"removeMode",
+"lifeTime",
+"canBeReplace",
+"vfxAsset",
+"elapsedTime",
+"goPosition",
+"goRotation",
+"goForward",
+"isCreateVfx",
+"isUseCustomForward"
+],
+"FlowActionDebugLogVisi": [
+"_seriaTypeNo_ConfigVisi",
+"content"
+],
+"FlowActionExclamationToRiftTrigger": [
+"_seriaTypeNo_ConfigVisi",
+"riftDescId"
+],
+"FlowActionExclamationTrigger": [
+"_seriaTypeNo_ConfigVisi"
+],
+"FlowActionForceSampleAnimationVisi": [
+"_seriaTypeNo_ConfigVisi"
+],
+"FlowActionGetBornIndexVisi": [
+"_seriaTypeNo_ConfigVisi",
+"isGlobalBornIndex",
+"outBornIndex",
+"outBornPos",
+"outBornForward"
+],
+"FlowActionHideHeadBar": [
+"_seriaTypeNo_ConfigVisi",
+"leaveReset"
+],
+"FlowActionLoadPrefabInSceneAg": [
+"_seriaTypeNo_ConfigVisi",
+"sceneContext",
+"targetIndex",
+"assetPath",
+"releaseWhenEnd",
+"useCustomLocation",
+"actorType",
+"skinId",
+"position",
+"rotation",
+"assetGo",
+"curTarget",
+"curSceneContext",
+"curAsset"
+],
+"FlowActionMoveAg": [
+"_seriaTypeNo_ConfigVisi",
+"sceneContext",
+"throughIndex",
+"targetIndex",
+"moveSpeed",
+"reachRadius",
+"alignToTarget",
+"actorType",
+"minionID",
+"animationClip",
+"fadeTime",
+"minionIdle",
+"curSceneContext",
+"moveRoot",
+"modelTrans",
+"finalTarget",
+"targetsList",
+"curTarget",
+"minionActor",
+"moveDuration",
+"leaveNodeWhenReach"
+],
+"FlowActionPlayAnimationAg": [
+"_seriaTypeNo_ConfigVisi",
+"clipName",
+"backUpClipName",
+"speed",
+"crossFade",
+"isLoop",
+"leaveWhenEnd",
+"skinId",
+"actorType",
+"sceneContext",
+"minionID",
+"curDisguiseActor",
+"minionActor",
+"anim",
+"defaultIdleAnimName",
+"runAnimName",
+"runFastAnimName",
+"cachedClipName",
+"lastEnterFrameCnt",
+"loopLimit",
+"checkLoopCnt"
+],
+"FlowActionPlayAnimationVisi": [
+"_seriaTypeNo_ConfigVisi",
+"keepPlay",
+"forceKeepPlay",
+"curveiID",
+"crossFadeInTime",
+"crossFadeOutTime",
+"clipName",
+"customPlayTime",
+"clearHighIdleAnims",
+"isGoldBodyPlay"
+],
+"FlowActionPlayAudioVisi": [
+"_seriaTypeNo_ConfigVisi",
+"showSkinAudio",
+"isKeepPlay",
+"playOnDead",
+"playOnBattleFinish",
+"distanceClip",
+"cvAttack",
+"canBeReplace",
+"isPlay",
+"playingID",
+"eventName",
+"skinAudios",
+"playTarget",
+"audioBindTo",
+"posType",
+"bindBullet",
+"bindActor",
+"bindPos"
+],
+"FlowActionPlayGVoiceVisi": [
+"_seriaTypeNo_ConfigVisi",
+"GVoiceKey"
+],
+"FlowActionPlayMovie": [
+"_seriaTypeNo_ConfigVisi",
+"moviePath"
+],
+"FlowActionPostVisiEvent": [
+"_seriaTypeNo_ConfigVisi",
+"onlySelf",
+"eventType",
+"eventArgs"
+],
+"FlowActionReplaceMaterialVisi": [
+"_seriaTypeNo_ConfigVisi",
+"beReplacedActor",
+"provideActor",
+"isGlobal",
+"isGamePlayMaterial",
+"materialIndex",
+"modelIndex",
+"replaceId",
+"priority",
+"sourceActor",
+"targetActor"
+],
+"FlowActionRootTranslateAg": [
+"_seriaTypeNo_ConfigVisi",
+"sceneContext",
+"targetIndex",
+"actorType",
+"minionID",
+"resetActorTransform",
+"position",
+"rotation",
+"cameraPos",
+"actorRoot",
+"modelTrans",
+"curTarget",
+"curSceneContext"
+],
+"FlowActionSelfKillAssistTrigger": [
+"_seriaTypeNo_ConfigVisi",
+"onlyCheckSolider",
+"onlyCheckHero",
+"onlyCheckResId",
+"resId",
+"objId",
+"assist",
+"deleCacheOf_OnSelffKill",
+"deleCacheOf_OnSelffAssist"
+],
+"FlowActionSendCounter": [
+"_seriaTypeNo_ConfigVisi",
+"killerObjectId"
+],
+"FlowActionSetBaseIdleAnimVisi": [
+"_seriaTypeNo_ConfigVisi",
+"standAnimName"
+],
+"FlowActionSetHeadBarShowStateVisi": [
+"_seriaTypeNo_ConfigVisi",
+"headBarShowState"
+],
+"FlowActionSetShaderGroupVisi": [
+"_seriaTypeNo_ConfigVisi",
+"colorTypeIDs",
+"floatTypeIDs",
+"boolTypeIDs",
+"effectModelList",
+"priority",
+"removeHandleVar",
+"removeHandle",
+"colorTypeIds",
+"floatTypeIds",
+"boolTypeIds",
+"effectModelIds"
+],
+"FlowActionSetSwitch": [
+"_seriaTypeNo_ConfigVisi",
+"switchType",
+"isOn"
+],
+"FlowActionSetTutorialSoftLock": [
+"_seriaTypeNo_ConfigVisi",
+"setLock"
+],
+"FlowActionShaderSetAlphaVisi": [
+"_seriaTypeNo_ConfigVisi",
+"useCustomCurve",
+"toAlpha",
+"property",
+"elapsedTime",
+"curve",
+"materialColors",
+"actor"
+],
+"FlowActionShaderSetColorVisi": [
+"_seriaTypeNo_ConfigVisi",
+"colorType",
+"color",
+"modBindVfx",
+"maxDurationTime",
+"isFadeColor",
+"fadeInTime",
+"fadeOutTime",
+"fadeTime",
+"isGradient",
+"gradientMode",
+"colorGradient",
+"colorGradientTime",
+"alphaGradient",
+"alphaGradientTime",
+"groupIdVar",
+"groupId",
+"actor",
+"removeHandle"
+],
+"FlowActionShaderSetPropertyVisi": [
+"_seriaTypeNo_ConfigVisi",
+"propertyType",
+"fromValue",
+"toValue",
+"curve",
+"customTime",
+"time",
+"modBindVfx",
+"groupIdVar",
+"groupId",
+"actor",
+"removeHandle",
+"elapsedTime",
+"curveTime"
+],
+"FlowActionShowDisguiseAg": [
+"_seriaTypeNo_ConfigVisi",
+"sceneContext",
+"disguiseDict",
+"disguiseType",
+"releaseWhenLeave",
+"disguiseShowParam",
+"curSceneContext",
+"curDisguiseDict",
+"curDisguiseItem",
+"curDisguisePlayer",
+"curPlayParam"
+],
+"FlowActionShowHeroLabelGuideUI": [
+"_seriaTypeNo_ConfigVisi",
+"time",
+"key",
+"closeWhenLeave"
+],
+"FlowActionSISApplyBuff": [
+"_seriaTypeNo_ConfigVisi",
+"sharedTarget",
+"buffID",
+"sharedBuffEntity"
+],
+"FlowActionSISBulletMovement": [
+"_seriaTypeNo_ConfigVisi",
+"trackType",
+"followType"
+],
+"FlowActionSISCastHitQuery": [
+"_seriaTypeNo_ConfigVisi",
+"sharedTarget",
+"castQueryMask"
+],
+"FlowActionSISChangeChainVfxTarget": [
+"_seriaTypeNo_ConfigVisi",
+"sharedChainVfx",
+"sharedBindEntity",
+"targetJoint",
+"targetOffset"
+],
+"FlowActionSISCreateBullet": [
+"_seriaTypeNo_ConfigVisi",
+"bulletID",
+"bulletFlowPath",
+"sharedEmitPos",
+"joint",
+"offset",
+"emitType",
+"sharedDirection",
+"sharedTargetPos",
+"sharedTargetEntity",
+"sharedVarBullet",
+"BULLET_EMPTY_CAPSULE"
+],
+"FlowActionSISCreateChainVfx": [
+"_seriaTypeNo_ConfigVisi",
+"sharedBindEntity",
+"targetJoint",
+"targetOffset",
+"sharedChainObj",
+"chainEntityID"
+],
+"FlowActionSISCreateSummoned": [
+"_seriaTypeNo_ConfigVisi",
+"summonedID",
+"summonedFlowPath",
+"sharedBornPos",
+"sharedBornRot",
+"sharedSummoned"
+],
+"FlowActionSISCreateTrailVfx": [
+"_seriaTypeNo_ConfigVisi",
+"trailEntityObjID"
+],
+"FlowActionSISCreateVfx": [
+"_seriaTypeNo_ConfigVisi",
+"sharedTarget",
+"vfxPath",
+"joint",
+"offset",
+"lifeTimeMode",
+"fixLifeTime",
+"forwardType",
+"fixTimeVfxObjID"
+],
+"FlowActionSISDestroyChainVfx": [
+"_seriaTypeNo_ConfigVisi",
+"sharedTarget",
+"sharedChainObj"
+],
+"FlowActionSISDestroyEntity": [
+"_seriaTypeNo_ConfigVisi",
+"lhs"
+],
+"FlowActionSISForceMove": [
+"_seriaTypeNo_ConfigVisi",
+"sharedTarget",
+"trackType",
+"followType",
+"sharedBuffDuration",
+"forceMoveSpeed",
+"sharedDir",
+"sharedFollowTarget",
+"sharedCenter"
+],
+"FlowActionSISGetBulletHitterResult": [
+"_seriaTypeNo_ConfigVisi",
+"sharedBullet",
+"sharedHitter",
+"sharedHitPos",
+"sharedHitNormal"
+],
+"FlowActionSISGetEntityParam": [
+"_seriaTypeNo_ConfigVisi",
+"sharedEntity",
+"sharedPos",
+"sharedRot"
+],
+"FlowActionSISGetFlowVariable": [
+"_seriaTypeNo_ConfigVisi",
+"sharedFlowEntity",
+"variableName",
+"sharedValue"
+],
+"FlowActionSISGetSkillInstEntity": [
+"_seriaTypeNo_ConfigVisi",
+"sharedCaster",
+"skillID",
+"sharedValue"
+],
+"FlowActionSISLockForward": [
+"_seriaTypeNo_ConfigVisi",
+"sharedTarget",
+"sharedLockForward"
+],
+"FlowActionSISLookAtTarget": [
+"_seriaTypeNo_ConfigVisi",
+"sharedTarget",
+"sharedFaceToTarget",
+"useSmooth"
+],
+"FlowActionSISPlayAnimation": [
+"_seriaTypeNo_ConfigVisi",
+"sharedTarget",
+"animationClip",
+"crossFadeInTime"
+],
+"FlowActionSISRemoveBuff": [
+"_seriaTypeNo_ConfigVisi",
+"sharedTarget",
+"removeBuffAciton",
+"buffID",
+"sharedBuff",
+"buffTag"
+],
+"FlowActionSISReplaceSkillSlot": [
+"_seriaTypeNo_ConfigVisi",
+"sharedTarget",
+"skillSlotIndex",
+"replaceSkillID"
+],
+"FlowActionSISSetFlowVariable": [
+"_seriaTypeNo_ConfigVisi",
+"sharedEntity",
+"variableName",
+"sharedValue"
+],
+"FlowActionSISSkillEnterCD": [
+"_seriaTypeNo_ConfigVisi",
+"sharedTarget"
+],
+"FlowActionSISTrigger": [
+"_seriaTypeNo_ConfigVisi",
+"conditions",
+"switchVarOut"
+],
+"FlowActionSIS": [
+"_seriaTypeNo_ConfigVisi",
+"sisFlow",
+"entity"
+],
+"FlowActionSoftTutorialAddProgress": [
+"_seriaTypeNo_ConfigVisi",
+"progress",
+"softTutorialID"
+],
+"FlowActionSoftTutorialCanExecuteTrigger": [
+"_seriaTypeNo_ConfigVisi",
+"deleCacheOf_OnMonsterCanBeExecuted"
+],
+"FlowActionSoftTutorialGetPlayerLocation": [
+"_seriaTypeNo_ConfigVisi",
+"outLocationInt"
+],
+"FlowActionSoftTutorialGetPlayerMoney": [
+"_seriaTypeNo_ConfigVisi",
+"campFilter",
+"playerLoc",
+"isTotalCollectMoney",
+"outMoney"
+],
+"FlowActionSoftTutorialGetTeamMoney": [
+"_seriaTypeNo_ConfigVisi",
+"campFilter",
+"isTotalCollectMoney",
+"outMoney"
+],
+"FlowActionSoftTutorialSelfKillTrigger": [
+"_seriaTypeNo_ConfigVisi",
+"onlyCheckSolider",
+"deleCacheOf_OnActorKill"
+],
+"FlowActionSoftTutorialSetTriggered": [
+"_seriaTypeNo_ConfigVisi",
+"triggered"
+],
+"FlowActionSoftTutorialTriggerStrategicPointBorn": [
+"_seriaTypeNo_ConfigVisi",
+"deleCacheOf_OnStrategicPointBorn"
+],
+"FlowActionSpawnMinionAg": [
+"_seriaTypeNo_ConfigVisi",
+"sceneContext",
+"disguiseDict",
+"minionType",
+"isBlueTeam",
+"minionID",
+"curSceneContext",
+"minionResID",
+"activityID",
+"curMinionActor"
+],
+"FlowActionStarBindCamera": [
+"_seriaTypeNo_ConfigVisi"
+],
+"FlowActionStarChangeActorModel": [
+"_seriaTypeNo_ConfigVisi",
+"resetWhenLeave",
+"destroyOldModel",
+"formIndex",
+"oldFormIndex"
+],
+"FlowActionStarChangeMaterial": [
+"_seriaTypeNo_ConfigVisi",
+"materialGroups",
+"cachedMaterials",
+"belongID"
+],
+"FlowActionStarCreateDialog": [
+"_seriaTypeNo_ConfigVisi",
+"dialogTriggerType",
+"dialogEvaluatorSceneEnum"
+],
+"FlowActionStarCreateVfx": [
+"_seriaTypeNo_ConfigVisi",
+"uiJointVfx",
+"lockTransform",
+"lockRotationParent",
+"lockDirection",
+"useAsyncLoad",
+"forbidFastforward",
+"vfxPath",
+"joint",
+"syncAnim",
+"destroyType",
+"lifeTime",
+"belongID",
+"offset",
+"controlScale",
+"scale",
+"vfxEvaluatorSceneEnum",
+"extraEvaluators",
+"vfxReplacePath",
+"vfxObj",
+"uiJointName"
+],
+"FlowActionStarDeleteVfx": [
+"_seriaTypeNo_ConfigVisi",
+"belongID"
+],
+"FlowActionStarDisableVfx": [
+"_seriaTypeNo_ConfigVisi",
+"recoverWhenLeave",
+"belongID",
+"starObj"
+],
+"FlowActionStarLightControl": [
+"_seriaTypeNo_ConfigVisi",
+"transitionDuration",
+"transitionCurve",
+"transitionProgress",
+"lightDatas",
+"playable",
+"originLightDatas",
+"LightDataCurves",
+"bInited",
+"bShowPosture",
+"bIsLowDevice",
+"tempLightData01",
+"tempLightDatas"
+],
+"FlowActionStarLoadStage": [
+"_seriaTypeNo_ConfigVisi",
+"stageName"
+],
+"FlowActionStarMatchScreenCamera": [
+"_seriaTypeNo_ConfigVisi",
+"flowEventType"
+],
+"FlowActionStarMixAnimation": [
+"_seriaTypeNo_ConfigVisi",
+"mixAnimationName",
+"randomPlayMixAnimMinValue",
+"randomPlayMaxAnimMaxValue",
+"loopAnimtionName",
+"loopWeight",
+"loopMixAnimClip",
+"loopRunTime",
+"loopIsPlayMixAnim",
+"loopTotalTime",
+"mixAnimClip",
+"randomTotalTime",
+"runTime",
+"isPlayMixAnim"
+],
+"FlowActionStarModePosYCtrl": [
+"_seriaTypeNo_ConfigVisi",
+"PosY",
+"pos"
+],
+"FlowActionStarOpenDialog": [
+"_seriaTypeNo_ConfigVisi",
+"panel"
+],
+"FlowActionStarPetJourneyJump": [
+"_seriaTypeNo_ConfigVisi",
+"minHeight",
+"maxHeight",
+"upSpeed",
+"downSpeed"
+],
+"FlowActionStarPetJourneyReportTask": [
+"_seriaTypeNo_ConfigVisi",
+"monsterTypeVar"
+],
+"FlowActionStarPlayAnimation": [
+"_seriaTypeNo_ConfigVisi",
+"animFlag",
+"globalFlag",
+"percent",
+"speed",
+"crossFadeToNextNode",
+"animationClip",
+"isChangeCurFlowEventType",
+"anim",
+"lastEnterFrameCnt",
+"loopLimit",
+"checkLoopCnt",
+"curFlowEventType"
+],
+"FlowActionStarPlayAudio": [
+"_seriaTypeNo_ConfigVisi",
+"audioType",
+"playingID",
+"eventName",
+"bindAnimName"
+],
+"FlowActionStarPlayTimeline": [
+"_seriaTypeNo_ConfigVisi",
+"animFlag",
+"globalFlag",
+"useEndWhenComplete",
+"useCustomTimelinePath",
+"timelinePath",
+"curFlowEventType",
+"useEnd",
+"director",
+"timeLineDuration",
+"animClip",
+"lastEnterFrameCnt",
+"loopLimit",
+"checkLoopCnt"
+],
+"FlowActionStarPostFlow": [
+"_seriaTypeNo_ConfigVisi",
+"breakType",
+"watchEvent",
+"deleCacheOf_OnBreakPostFlow"
+],
+"FlowActionStarResetSpinebone": [
+"_seriaTypeNo_ConfigVisi"
+],
+"FlowActionStarRootTranslate": [
+"_seriaTypeNo_ConfigVisi",
+"resetActorTransform",
+"position",
+"rotation"
+],
+"FlowActionStarSampleAnimation": [
+"_seriaTypeNo_ConfigVisi",
+"animationClip",
+"deltaTime",
+"anim"
+],
+"FlowActionStarShadow": [
+"_seriaTypeNo_ConfigVisi",
+"shadowStrength"
+],
+"FlowActionStarShowActor": [
+"_seriaTypeNo_ConfigVisi",
+"modelPath",
+"flowPath",
+"startEvent",
+"m_ShowActor"
+],
+"FlowActionStarStageNodeActive": [
+"_seriaTypeNo_ConfigVisi",
+"isActive",
+"nodeID"
+],
+"FlowActionStarStageNodeTransform": [
+"_seriaTypeNo_ConfigVisi",
+"nodeID",
+"position",
+"rotation"
+],
+"FlowActionStarUIEntryState": [
+"_seriaTypeNo_ConfigVisi",
+"isHide"
+],
+"FlowActionStarVisiEvent": [
+"_seriaTypeNo_ConfigVisi",
+"start",
+"triggerDelay",
+"visiEvent",
+"targetMonster",
+"targetFlowEvent"
+],
+"FlowActionStar": [
+"_seriaTypeNo_ConfigVisi",
+"starFlow",
+"starActor"
+],
+"FlowActionTutorialActionCommon": [
+"_seriaTypeNo_ConfigVisi",
+"actionType"
+],
+"FlowActionTutorialActorAttrSetting": [
+"_seriaTypeNo_ConfigVisi",
+"camp",
+"isMyHero",
+"applyHpPercent",
+"applyHpMax",
+"applyHeroHpLimit",
+"applyHeroLevel",
+"applyHeroTransform",
+"applySkillLevel",
+"applySkillCD",
+"cancleCD",
+"allSkill",
+"applySkillConsume",
+"skillConsume",
+"createKey",
+"resId",
+"heroLevel",
+"skillLevel",
+"hpPercent",
+"hpMax",
+"heroHpLimit",
+"heroPosition",
+"allowHpRecover",
+"slotIndex",
+"cdSlotIndex"
+],
+"FlowActionTutorialActorChangeAI": [
+"_seriaTypeNo_ConfigVisi",
+"camp",
+"resId",
+"createKey",
+"bevTreeName",
+"teamBevTree"
+],
+"FlowActionTutorialActorStopMove": [
+"_seriaTypeNo_ConfigVisi",
+"resId"
+],
+"FlowActionTutorialAddTeamMoney": [
+"_seriaTypeNo_ConfigVisi",
+"camp",
+"money"
+],
+"FlowActionTutorialBaronNashorDetect": [
+"_seriaTypeNo_ConfigVisi",
+"myHeroLoseHpPercentA",
+"nashorHpPercentA",
+"myHeroLoseHpPercentB",
+"nashorHpPercentB",
+"triggered",
+"targetIsMe",
+"detectHurtValueTarget",
+"deleCacheOf_OnActorDie",
+"deleCacheOf_OnActorBeHurting",
+"lastframeCnt",
+"DebugDataString",
+"lastMyHeroLostHp",
+"lastNashorHp",
+"lastHasTarget"
+],
+"FlowActionTutorialBase": [
+"_seriaTypeNo_ConfigVisi",
+"parentFlow"
+],
+"FlowActionTutorialBattleResult": [
+"_seriaTypeNo_ConfigVisi",
+"resultVictory"
+],
+"FlowActionTutorialBattleSettingScrollOnOff": [
+"_seriaTypeNo_ConfigVisi"
+],
+"FlowActionTutorialBattleSetting": [
+"_seriaTypeNo_ConfigVisi",
+"resumeInput",
+"pauseBattle",
+"fow",
+"expKill",
+"expTimingGrowth",
+"expOther",
+"moneyTimingGrowth",
+"moneyKill",
+"moneyAssist",
+"moneyShare",
+"moneyOther",
+"refreshSoldier",
+"soldierAI",
+"refreshBuilding",
+"buildingAI",
+"refreshMonster",
+"monsterAI",
+"heroAI",
+"useFixCameraHeight",
+"refreshMapAnchor",
+"refreshMapAnchorList"
+],
+"FlowActionTutorialBroadcastFilter": [
+"_seriaTypeNo_ConfigVisi",
+"isFilter",
+"broadcastList"
+],
+"FlowActionTutorialCacheSystemSetting": [
+"_seriaTypeNo_ConfigVisi",
+"fingerSelect",
+"chooseEnemySetting",
+"entered"
+],
+"FlowActionTutorialCameraIsTransiting": [
+"_seriaTypeNo_ConfigVisi"
+],
+"FlowActionTutorialCameraSwitchMyHero": [
+"_seriaTypeNo_ConfigVisi",
+"speed",
+"camDuration",
+"speedCurve"
+],
+"FlowActionTutorialCameraSwitchPosition": [
+"_seriaTypeNo_ConfigVisi",
+"targetPos",
+"speed",
+"moveDuration",
+"isUseDuration",
+"speedCurve"
+],
+"FlowActionTutorialCameraSwitchRotation": [
+"_seriaTypeNo_ConfigVisi",
+"DEGREE_360",
+"DEGREE_180",
+"roateY",
+"roateSpeed",
+"cameraHeight",
+"isDefaultHeight",
+"isFollowFocusPoint",
+"useCustomCurve",
+"adaptiveSkill",
+"tweenDuration",
+"offset",
+"animationCurve",
+"exitWhenLeave",
+"isRevertRoate"
+],
+"FlowActionTutorialCameraSwitchTower": [
+"_seriaTypeNo_ConfigVisi",
+"line",
+"camp",
+"speed",
+"targetFilterType",
+"layer",
+"isNearest"
+],
+"FlowActionTutorialCancleSkill": [
+"_seriaTypeNo_ConfigVisi",
+"skillSlot"
+],
+"FlowActionTutorialCastSkill": [
+"_seriaTypeNo_ConfigVisi",
+"skillSlot",
+"useSharedDirPos",
+"skillActionType",
+"createKey",
+"pressTime",
+"dir",
+"sharedDir",
+"triggerIndicator",
+"indicatorTime",
+"elapsedTime",
+"skillId",
+"skillOpId",
+"skillDirVec3",
+"indeicatorReleased"
+],
+"FlowActionTutorialCloseBuffIcon": [
+"_seriaTypeNo_ConfigVisi",
+"bClose",
+"buffID"
+],
+"FlowActionTutorialCloseUI": [
+"_seriaTypeNo_ConfigVisi",
+"destroy",
+"uiName"
+],
+"FlowActionTutorialCreateActorVfxToPostion": [
+"_seriaTypeNo_ConfigVisi",
+"resetRemove",
+"autoGenVfxInsId",
+"vfxInsId",
+"lifeTime",
+"vfxSpeed",
+"vfxPath",
+"position",
+"rotation",
+"scale",
+"isCreateAtMyHeroPos",
+"msg"
+],
+"FlowActionTutorialCreateActor": [
+"_seriaTypeNo_ConfigVisi",
+"actorType",
+"monsterAnalysisGroupEnum",
+"camp",
+"line",
+"useRelativePosition",
+"towardsHero",
+"useAnchorPosition",
+"allowReborn",
+"isPreload",
+"resId",
+"bevTree",
+"createKey",
+"destroyOnDie",
+"unSelectable",
+"disableAI",
+"hideHeadBar",
+"hideMinimapIcon",
+"onlyModel",
+"vfxPath",
+"modelChangeVfxPath",
+"audios",
+"ignoreAnchorCheck",
+"useSpecialAnchor",
+"areaCamp",
+"poiType",
+"lifeTime",
+"position",
+"notRefreshPos",
+"forward",
+"heroModelDic"
+],
+"FlowActionTutorialCreateIndicatorLineRender": [
+"_seriaTypeNo_ConfigVisi",
+"vfxPath",
+"joint",
+"tarPos",
+"fadeInTime",
+"fadeOutTime",
+"halfWayVfx",
+"halfVfxPath",
+"halfWayDis",
+"hideHalfWayDis",
+"lineIndicatorCtrl",
+"eff",
+"_tarPos",
+"jointTrans"
+],
+"FlowActionTutorialCreateMoveIndicator": [
+"_seriaTypeNo_ConfigVisi",
+"linePrefab",
+"useCustomerLine",
+"customerLinePrefab",
+"targetPosition",
+"radius",
+"in_duration",
+"in_alpha",
+"out_duration",
+"out_alpha",
+"lineIndicatorCtrl"
+],
+"FlowActionTutorialCreateSkillIndicator": [
+"_seriaTypeNo_ConfigVisi",
+"slotIndex",
+"animPath",
+"bindNodeName",
+"indicatorOffset",
+"indicatorRotation",
+"skillIndicatorAnimGo",
+"focusIndicator",
+"skillIndicatorCtrs"
+],
+"FlowActionTutorialCreateUIFx": [
+"_seriaTypeNo_ConfigVisi",
+"fxDepth",
+"fxPath",
+"hideWhenLeave",
+"uiNode",
+"vfxGo"
+],
+"FlowActionTutorialCreateVfxAtPosition": [
+"_seriaTypeNo_ConfigVisi",
+"resetRemove",
+"autoGenVfxInsId",
+"vfxInsId",
+"lifeTime",
+"vfxSpeed",
+"vfxPath",
+"position",
+"rotation",
+"scale",
+"isCreateAtMyHeroPos",
+"msg"
+],
+"FlowActionTutorialCreateVfxOnActor": [
+"_seriaTypeNo_ConfigVisi",
+"line",
+"camp",
+"attachParent",
+"ignoreRotate",
+"resetRemove",
+"autoDestroy",
+"actorToVfxDic",
+"removeList",
+"resID",
+"createKey",
+"extraValue",
+"lifeTime",
+"vfxPath",
+"joint",
+"targetFilterType",
+"layer",
+"position",
+"rotation",
+"scale"
+],
+"FlowActionTutorialDeathUIAddIconInfo": [
+"_seriaTypeNo_ConfigVisi",
+"iconPath",
+"iconId"
+],
+"FlowActionTutorialDeleteVfx": [
+"_seriaTypeNo_ConfigVisi",
+"vfxInsId"
+],
+"FlowActionTutorialDisableDragSkill": [
+"_seriaTypeNo_ConfigVisi"
+],
+"FlowActionTutorialDownloadTip": [
+"_seriaTypeNo_ConfigVisi",
+"netType",
+"countDownTime"
+],
+"FlowActionTutorialEventBattleShopBuyFail": [
+"_seriaTypeNo_ConfigVisi",
+"isFailed",
+"reason",
+"failed",
+"deleCacheOf_HandleBuyFailed"
+],
+"FlowActionTutorialFECommand": [
+"_seriaTypeNo_ConfigVisi",
+"cmdType",
+"cmdParamCnt",
+"cmdParam1"
+],
+"FlowActionTutorialFinishCondition": [
+"_seriaTypeNo_ConfigVisi",
+"evaluators",
+"interval",
+"lastCheckTime"
+],
+"FlowActionTutorialForbidSkillReplace": [
+"_seriaTypeNo_ConfigVisi",
+"skillID",
+"forbid"
+],
+"FlowActionTutorialForceRefreshDragon": [
+"_seriaTypeNo_ConfigVisi",
+"refreshBaron",
+"refreshDragon"
+],
+"FlowActionTutorialGetBattleFieldElementTypeAndCache": [
+"_seriaTypeNo_ConfigVisi",
+"objId"
+],
+"FlowActionTutorialGetBattleTimeAndCache": [
+"_seriaTypeNo_ConfigVisi",
+"battleTimeCache"
+],
+"FlowActionTutorialGetBattleTime": [
+"_seriaTypeNo_ConfigVisi",
+"battleTime"
+],
+"FlowActionTutorialGetCherryCurRound": [
+"_seriaTypeNo_ConfigVisi",
+"outCurRound"
+],
+"FlowActionTutorialGetSettingValue": [
+"_seriaTypeNo_ConfigVisi",
+"type",
+"settingValue"
+],
+"FlowActionTutorialGuideAnim": [
+"_seriaTypeNo_ConfigVisi",
+"blockUserTouch",
+"triggerSkill",
+"closeWhenLeave",
+"triggerIndecator",
+"guideUIName",
+"delCacheOf_OnScreenSizeChange"
+],
+"FlowActionTutorialHeroBuffOpt": [
+"_seriaTypeNo_ConfigVisi",
+"createKey",
+"resID",
+"camp",
+"buffID",
+"buffOpt",
+"buffTime"
+],
+"FlowActionTutorialHeroEnableCmp": [
+"_seriaTypeNo_ConfigVisi",
+"enableMoveCmp",
+"enableAuxCmp"
+],
+"FlowActionTutorialHeroMoveToPosition": [
+"_seriaTypeNo_ConfigVisi",
+"targetPosition",
+"createKey",
+"heroID",
+"isTeleport",
+"lastSyncTicks",
+"tsync"
+],
+"FlowActionTutorialHeroStopAttack": [
+"_seriaTypeNo_ConfigVisi"
+],
+"FlowActionTutorialHeroStopMove": [
+"_seriaTypeNo_ConfigVisi"
+],
+"FlowActionTutorialHideHeadBar": [
+"_seriaTypeNo_ConfigVisi",
+"resID",
+"createKey",
+"hide"
+],
+"FlowActionTutorialHighLightGrass": [
+"_seriaTypeNo_ConfigVisi",
+"isHighLight",
+"targetPosition",
+"speedCurve",
+"tsync"
+],
+"FlowActionTutorialHighLightHPBar": [
+"_seriaTypeNo_ConfigVisi",
+"uxType",
+"createKey",
+"twinkleCnt",
+"twinkleTime",
+"controlBase",
+"selectBorder1",
+"alphaDelta1",
+"color1",
+"originColor1",
+"originState1",
+"originImg1",
+"selectBorder2",
+"alphaDelta2",
+"color2",
+"originColor2",
+"originState2",
+"originImg2"
+],
+"FlowActionTutorialIsTutorialSoftLock": [
+"_seriaTypeNo_ConfigVisi",
+"isLocked"
+],
+"FlowActionTutorialJungleMonstersDetect": [
+"_seriaTypeNo_ConfigVisi",
+"beforeTime",
+"jungleGoldPercent",
+"smiteUseTime",
+"detectJungleGoldPercent",
+"detectSmiteUseTime",
+"deleCacheOf_OnActorCastSkillHandler"
+],
+"FlowActionTutorialLanesDetect": [
+"_seriaTypeNo_ConfigVisi",
+"rightTime",
+"beforeTime",
+"detectRightTimes",
+"triggered",
+"lastDetectTime",
+"laneTimes"
+],
+"FlowActionTutorialLanesReport": [
+"_seriaTypeNo_ConfigVisi",
+"rightTime",
+"beforeTime",
+"detectRightTimes",
+"laneTimes",
+"lastDetectTime"
+],
+"FlowActionTutorialLoadFlow": [
+"_seriaTypeNo_ConfigVisi",
+"flowPath",
+"stopWhenLeave",
+"subFlow"
+],
+"FlowActionTutorialLogInfo": [
+"_seriaTypeNo_ConfigVisi",
+"logString",
+"logLevel",
+"logVarList"
+],
+"FlowActionTutorialMarkAsFinished": [
+"_seriaTypeNo_ConfigVisi",
+"isInBattleTutorial",
+"tutorialID"
+],
+"FlowActionTutorialMinionTurretBtnDetect": [
+"_seriaTypeNo_ConfigVisi",
+"allClickTime",
+"earlyClickTime",
+"beforeTime",
+"triggered",
+"detectedAllClickTime",
+"detectedEarlyClickTime",
+"deleCacheOf_OnBtnClick"
+],
+"FlowActionTutorialOperateSetting": [
+"_seriaTypeNo_ConfigVisi",
+"bCancelByButton",
+"bTargetPriorityPlan",
+"bAutoSkillLevelUpTime",
+"bCameraOffset",
+"lockEnmyWithDist_old",
+"cancleSkillWithBtn_old",
+"autoUpgradeSkill_old",
+"cameraOffset_old",
+"haveStoreRegionSetting"
+],
+"FlowActionTutorialPlayAudioNew": [
+"_seriaTypeNo_ConfigVisi",
+"args",
+"closeWhenLeave"
+],
+"FlowActionTutorialPlayAudio": [
+"_seriaTypeNo_ConfigVisi",
+"closeWhenLeave",
+"bLoop",
+"loopInterval",
+"backgoundVolume",
+"loopTimes",
+"audioName",
+"extraArgs",
+"isHighModeAudio",
+"isEnterAudioQueue"
+],
+"FlowActionTutorialPortraitLockDetect": [
+"_seriaTypeNo_ConfigVisi",
+"allFpUseTime",
+"detectAllFpUseTime",
+"deleCacheOf_OnPortraitLock"
+],
+"FlowActionTutorialPositionDetect": [
+"_seriaTypeNo_ConfigVisi",
+"heroPos",
+"lineDown",
+"lineMiddle",
+"lineJungleRight",
+"detectedTime",
+"areaCount",
+"detectInterval"
+],
+"FlowActionTutorialRecommendSkillUpgradeTips": [
+"_seriaTypeNo_ConfigVisi",
+"checkSkillSlot",
+"deleCacheOf_OnHeroLevelUp",
+"frameTime",
+"refreshTime"
+],
+"FlowActionTutorialRecordPos": [
+"_seriaTypeNo_ConfigVisi",
+"laneType"
+],
+"FlowActionTutorialRefreshLockEnemy": [
+"_seriaTypeNo_ConfigVisi"
+],
+"FlowActionTutorialRemoveActor": [
+"_seriaTypeNo_ConfigVisi",
+"createKey",
+"camp",
+"resId"
+],
+"FlowActionTutorialRemoveBlocks": [
+"_seriaTypeNo_ConfigVisi",
+"resId"
+],
+"FlowActionTutorialRemoveBuff": [
+"_seriaTypeNo_ConfigVisi",
+"createKey",
+"targetResId",
+"camp",
+"buffID"
+],
+"FlowActionTutorialRemoveCacheActor": [
+"_seriaTypeNo_ConfigVisi",
+"objId"
+],
+"FlowActionTutorialRemoveHeroWithModel": [
+"_seriaTypeNo_ConfigVisi",
+"pos"
+],
+"FlowActionTutorialRemoveHero": [
+"_seriaTypeNo_ConfigVisi",
+"camp",
+"resId",
+"createKey",
+"actorToDestroy"
+],
+"FlowActionTutorialRemoveSoldier": [
+"_seriaTypeNo_ConfigVisi",
+"camp",
+"actorToDestroy",
+"resId"
+],
+"FlowActionTutorialRotateActor": [
+"_seriaTypeNo_ConfigVisi",
+"angle",
+"createKey",
+"heroID"
+],
+"FlowActionTutorialSendExpression": [
+"_seriaTypeNo_ConfigVisi",
+"expressionId",
+"resID",
+"createKey",
+"isTauntAnim"
+],
+"FlowActionTutorialSendSignalOnMinimap": [
+"_seriaTypeNo_ConfigVisi",
+"useCreateKey",
+"createKey",
+"pos",
+"fxPath",
+"lifeTime"
+],
+"FlowActionTutorialSendSignal": [
+"_seriaTypeNo_ConfigVisi",
+"targetID",
+"signalId",
+"IgnoreBanner",
+"IgnoreVFX"
+],
+"FlowActionTutorialSetActorDir": [
+"_seriaTypeNo_ConfigVisi",
+"resId",
+"createKey",
+"camp",
+"angle"
+],
+"FlowActionTutorialSetAttrMul": [
+"_seriaTypeNo_ConfigVisi",
+"fellowMinion",
+"enemyMinion",
+"fellowOutTower",
+"fellowMidTower",
+"fellowInnerTower",
+"enemyOutTower",
+"enemyMidTower",
+"enemyInnerTower",
+"fellowBase",
+"enemyBase"
+],
+"FlowActionTutorialSetBattleTime": [
+"_seriaTypeNo_ConfigVisi",
+"battleTime"
+],
+"FlowActionTutorialSetBuffLifetime": [
+"_seriaTypeNo_ConfigVisi",
+"camp",
+"isApplyToAll",
+"isMyHero",
+"resId",
+"buffId",
+"lifeTime"
+],
+"FlowActionTutorialSetDisableHeroAI": [
+"_seriaTypeNo_ConfigVisi",
+"resID",
+"createKey",
+"disableAI"
+],
+"FlowActionTutorialSetHeroAILine": [
+"_seriaTypeNo_ConfigVisi",
+"resID",
+"createKey",
+"battleLine"
+],
+"FlowActionTutorialSetOvertime": [
+"_seriaTypeNo_ConfigVisi",
+"sharedFix64OverTime",
+"overTime",
+"valueOverTime",
+"sharedFix64Count",
+"count",
+"valueCount"
+],
+"FlowActionTutorialSetPause": [
+"_seriaTypeNo_ConfigVisi",
+"pause",
+"NORMAL_PLAY_SPEED"
+],
+"FlowActionTutorialSetPlayerRebornTime": [
+"_seriaTypeNo_ConfigVisi",
+"isMyself",
+"resID",
+"createKey",
+"rebornTimeUpperLimit",
+"rebornTimeLowerLimit"
+],
+"FlowActionTutorialSetSettingValue": [
+"_seriaTypeNo_ConfigVisi",
+"type",
+"setValue",
+"isSingleEffective"
+],
+"FlowActionTutorialSetSharedVec3": [
+"_seriaTypeNo_ConfigVisi",
+"bGetPosFromActor",
+"createKey",
+"defaultValue",
+"sharedVec3"
+],
+"FlowActionTutorialSetSkillCD": [
+"_seriaTypeNo_ConfigVisi",
+"skillID",
+"isAll",
+"isReset",
+"cdTime"
+],
+"FlowActionTutorialSetSkipTips": [
+"_seriaTypeNo_ConfigVisi",
+"keyList",
+"isAdd"
+],
+"FlowActionTutorialSettingConfig": [
+"_seriaTypeNo_ConfigVisi",
+"value"
+],
+"FlowActionTutorialSettingPanelSlideToPos": [
+"_seriaTypeNo_ConfigVisi",
+"uiNode",
+"slideOffset"
+],
+"FlowActionTutorialShowCancelSkillBtn": [
+"_seriaTypeNo_ConfigVisi"
+],
+"FlowActionTutorialShowCommonUIMaskableTips": [
+"_seriaTypeNo_ConfigVisi",
+"commonID"
+],
+"FlowActionTutorialShowCustomMinimap": [
+"_seriaTypeNo_ConfigVisi",
+"targetCreateKey",
+"closeMinimap"
+],
+"FlowActionTutorialShowMinimapPioneerFx": [
+"_seriaTypeNo_ConfigVisi",
+"battleLine",
+"battleCamp",
+"showTime"
+],
+"FlowActionTutorialShowMsgBox": [
+"_seriaTypeNo_ConfigVisi",
+"resultVar",
+"title",
+"content",
+"confirmBtnTxt",
+"cancelBtnTxt"
+],
+"FlowActionTutorialShowTips": [
+"_seriaTypeNo_ConfigVisi",
+"tipsIntervalTime",
+"showTipsTypePriorityList",
+"lastShowTime",
+"cacheShowTipsTypeList",
+"responseMsgFrame",
+"showTipsDic",
+"deleof_OnShowSkillCannotUseTip"
+],
+"FlowActionTutorialShowUIBase": [
+"_seriaTypeNo_ConfigVisi",
+"closeWhenLeave",
+"overrideSortingOrder"
+],
+"FlowActionTutorialShowUIBattleTask": [
+"_seriaTypeNo_ConfigVisi",
+"resetTask",
+"finishTask",
+"line",
+"camp",
+"enterAnim",
+"exitsAnim",
+"taskYAxisOffset",
+"taskCountDownTime",
+"warnningTime",
+"taskStep",
+"taskTotal",
+"taskName",
+"taskDesc",
+"guideFlowPath",
+"targetFilterType",
+"layer",
+"isRealTime",
+"isNearest",
+"isAttackable",
+"fxPath",
+"lifeTime"
+],
+"FlowActionTutorialShowUIBoxInBattle": [
+"_seriaTypeNo_ConfigVisi",
+"heroID",
+"contentKey"
+],
+"FlowActionTutorialShowUICDGuideTips": [
+"_seriaTypeNo_ConfigVisi",
+"showDrakGround",
+"countDownSeconds",
+"rootShiftX",
+"rootShiftY",
+"contentKey",
+"continueKey",
+"countdownKey"
+],
+"FlowActionTutorialShowUICustom": [
+"_seriaTypeNo_ConfigVisi",
+"uiName",
+"delCacheOf_OnScreenSizeChange"
+],
+"FlowActionTutorialShowUIHeadBarMark": [
+"_seriaTypeNo_ConfigVisi",
+"camp",
+"resId",
+"prefabPath"
+],
+"FlowActionTutorialShowUIIntroDiversion": [
+"_seriaTypeNo_ConfigVisi",
+"heroName",
+"heroDesc",
+"heroImgPath",
+"line"
+],
+"FlowActionTutorialShowUIMaskableTips": [
+"_seriaTypeNo_ConfigVisi",
+"followActor",
+"followGrass",
+"objId",
+"autoUpdatePos",
+"overrideNodePos",
+"overrideNodeSize",
+"showCursor",
+"showDarkBg",
+"isVfxTips",
+"uiNode",
+"sortingOrder",
+"overridePosX",
+"overridePosY",
+"overrideSizeX",
+"overrideSizeY",
+"lineLength",
+"lineOffset",
+"tipsText",
+"uiMaskType",
+"cursorAlignment",
+"posAlignment",
+"uiAlignment",
+"actorJoint",
+"worldPos",
+"tipsArgs",
+"followNode"
+],
+"FlowActionTutorialShowUINpcDialog": [
+"_seriaTypeNo_ConfigVisi",
+"dialogs",
+"title"
+],
+"FlowActionTutorialShowUINpcPrompt": [
+"_seriaTypeNo_ConfigVisi",
+"title",
+"content"
+],
+"FlowActionTutorialShowUIStringByte": [
+"_seriaTypeNo_ConfigVisi",
+"param1",
+"uiName",
+"param0",
+"curActionShowGuideRefIndex"
+],
+"FlowActionTutorialShowUIStringString": [
+"_seriaTypeNo_ConfigVisi",
+"uiName",
+"param0",
+"param1"
+],
+"FlowActionTutorialShowUIString": [
+"_seriaTypeNo_ConfigVisi",
+"uiName",
+"param0"
+],
+"FlowActionTutorialShowUITextureGroupNew": [
+"_seriaTypeNo_ConfigVisi",
+"textureArgs"
+],
+"FlowActionTutorialShowUITextureGroup": [
+"_seriaTypeNo_ConfigVisi",
+"titleText",
+"textureGroup1",
+"textureGroup2",
+"textureGroup3"
+],
+"FlowActionTutorialShowUITutorialGuideStyleTipsPanel": [
+"_seriaTypeNo_ConfigVisi",
+"style",
+"topTitle",
+"content",
+"tipsDuration",
+"iconPath",
+"imagePath",
+"videoPath",
+"videoID",
+"title",
+"bottomDesc",
+"deleCacheOf_ShowUIPlayVideoOrImageGuide"
+],
+"FlowActionTutorialShowUIVideoPlayer": [
+"_seriaTypeNo_ConfigVisi",
+"isLoop",
+"haveWords",
+"videoPath",
+"timeLineWords"
+],
+"FlowActionTutorialShowVideoOrImageGudie": [
+"_seriaTypeNo_ConfigVisi",
+"imagePath",
+"videoPath",
+"videoID",
+"title",
+"bottomDesc"
+],
+"FlowActionTutorialSmoothMask": [
+"_seriaTypeNo_ConfigVisi",
+"fadeInTime",
+"fadeOutTime",
+"fairLength",
+"maskRaduis",
+"maskColor",
+"idx",
+"delCacheOf_OnScreenSizeChange"
+],
+"FlowActionTutorialStarActorShow": [
+"_seriaTypeNo_ConfigVisi",
+"prefabPath",
+"lerpDuration",
+"lerpTime",
+"vfxObject",
+"showStarActor",
+"DelayAnimTime"
+],
+"FlowActionTutorialStatBattleInfo": [
+"_seriaTypeNo_ConfigVisi",
+"allwaysReport",
+"baseCenter",
+"baseRaduis",
+"usePurcahseRange",
+"TIME_CNT",
+"hurtFromBuild",
+"hurtFromHero",
+"hurtFromSoldier",
+"hurtToBuild",
+"hurtToHero",
+"hurtToSoldier",
+"timeInSpring",
+"totalHurtFromBuild",
+"myHeroObjId",
+"willReport",
+"baseRaduisSqr",
+"deleCacheOf_OnActorHurtHandler",
+"deleCacheOf_OnBattleKillInfo"
+],
+"FlowActionTutorialStopSkill": [
+"_seriaTypeNo_ConfigVisi",
+"skillId"
+],
+"FlowActionTutorialSwitchBaronDragonTips": [
+"_seriaTypeNo_ConfigVisi",
+"switchDuration",
+"switchAngle"
+],
+"FlowActionTutorialSwitchDeathCameraAndHeroAbility": [
+"_seriaTypeNo_ConfigVisi",
+"bShowDeathCamera",
+"bShowHeroAbility"
+],
+"FlowActionTutorialSwitchHeroWithModel": [
+"_seriaTypeNo_ConfigVisi",
+"pos",
+"targetPos",
+"myHeroShowDelayTime",
+"switchHeroShowDelayTime",
+"copySkillSlotList"
+],
+"FlowActionTutorialSwitchSkillFlow": [
+"_seriaTypeNo_ConfigVisi",
+"useSkillSlot",
+"skillSlot",
+"skillId",
+"flowPath"
+],
+"FlowActionTutorialSwitchSkin": [
+"_seriaTypeNo_ConfigVisi",
+"skinId"
+],
+"FlowActionTutorialSwitchSummonerSkill": [
+"_seriaTypeNo_ConfigVisi",
+"createKey",
+"heroID",
+"slotIndex",
+"skillID"
+],
+"FlowActionTutorialTowerBuffOpt": [
+"_seriaTypeNo_ConfigVisi",
+"camp",
+"defenseLayer",
+"buffID",
+"buffOpt",
+"buffTime"
+],
+"FlowActionTutorialTriggerCondition": [
+"_seriaTypeNo_ConfigVisi",
+"reorderUsingPriority",
+"executeByOrder",
+"conditions",
+"switchVarOut"
+],
+"FlowActionTutorialTurretsDetect": [
+"_seriaTypeNo_ConfigVisi",
+"beforeTime",
+"turretHpPercent",
+"heroLevel",
+"hurtHpPercent",
+"enemyHeroHpPercent",
+"triggered",
+"lastTarIsMeTower",
+"lastTotalHurtValue",
+"deleCacheOf_OnActorDie",
+"deleCacheOf_OnActorBeHurting",
+"lastframeCnt",
+"lastTurretHpPer",
+"lastTurretEnemyPer",
+"lastTurretCurHpPer",
+"DebugDataString"
+],
+"FlowActionTutorialUIFingerTween": [
+"_seriaTypeNo_ConfigVisi",
+"state",
+"hideWhenLeave",
+"flip",
+"uiNode",
+"targetPos"
+],
+"FlowActionTutorialUILoadingCloseTrigger": [
+"_seriaTypeNo_ConfigVisi",
+"deleCacheOf_OnUILodingClose"
+],
+"FlowActionTutorialUINodeState": [
+"_seriaTypeNo_ConfigVisi",
+"uiNodeStatesActive",
+"uiNodeStatesInteractive"
+],
+"FlowActionTutorialUnLoadFlow": [
+"_seriaTypeNo_ConfigVisi",
+"flowPath"
+],
+"FlowActionTutorialUpdateMiniMap": [
+"_seriaTypeNo_ConfigVisi",
+"useRedCamp",
+"resetWhenLeave"
+],
+"FlowActionTutorialVFXMoveControl": [
+"_seriaTypeNo_ConfigVisi",
+"vfxPath",
+"initialPos",
+"targetPos",
+"flyTime",
+"vfxDelayUnloadTime",
+"curve",
+"elapsed",
+"vfxAsset",
+"vfxTransform",
+"keyframes",
+"curveTime",
+"posX",
+"posY",
+"posZ"
+],
+"FlowActionTutorialWasKilledTrigger": [
+"_seriaTypeNo_ConfigVisi",
+"killerObjectId",
+"isFirst",
+"killers",
+"deleCacheOf_OnActorDie"
+],
+"FlowActionTweenAlphaVisi": [
+"_seriaTypeNo_ConfigVisi",
+"from",
+"to",
+"curve",
+"keep",
+"playOnReload",
+"elapsedTime",
+"actor",
+"minDuration"
+],
+"FlowActionVisiBase": [
+"_seriaTypeNo_ConfigVisi"
+],
+"FlowActionVisiEventAg": [
+"_seriaTypeNo_ConfigVisi",
+"eventActionType",
+"eventType"
+],
+"FlowActionWaitBornVisi": [
+"_seriaTypeNo_ConfigVisi",
+"deltaTime",
+"waitTime",
+"ignoreWaitTime",
+"bornIndex",
+"bornPos",
+"bornForward",
+"realWaitTime"
+],
+"FlowEvaluatorActorAroundGameLevel": [
+"_seriaTypeNo_ConfigVisi",
+"targetLv",
+"operatorType"
+],
+"FlowEvaluatorActorFightStateVisi": [
+"_seriaTypeNo_ConfigVisi",
+"sharedActor"
+],
+"FlowEvaluatorActorGrade": [
+"_seriaTypeNo_ConfigVisi",
+"targetGrade",
+"operatorType"
+],
+"FlowEvaluatorBattleShopBuyItem": [
+"_seriaTypeNo_ConfigVisi",
+"equipmentType",
+"equipmentLevel",
+"triggered",
+"deleCacheOf_HandleItemBuy"
+],
+"FlowEvaluatorBattleShopCancelBuyItem": [
+"_seriaTypeNo_ConfigVisi",
+"equipmentType",
+"equipmentLevel",
+"triggered",
+"deleCacheOf_HandleItemCancelBuy"
+],
+"FlowEvaluatorBattleTime": [
+"_seriaTypeNo_ConfigVisi",
+"intVar"
+],
+"FlowEvaluatorDistributedLoc": [
+"_seriaTypeNo_ConfigVisi",
+"loc",
+"GM_LOCATION"
+],
+"FlowEvaluatorEnableDistributedLoc": [
+"_seriaTypeNo_ConfigVisi"
+],
+"FlowEvaluatorGamePlayModeCheckVisi": [
+"_seriaTypeNo_ConfigVisi",
+"checkMode"
+],
+"FlowEvaluatorHeroLabel": [
+"_seriaTypeNo_ConfigVisi",
+"label"
+],
+"FlowEvaluatorIGGuideIconClick": [
+"_seriaTypeNo_ConfigVisi",
+"iconId",
+"imagePath",
+"videoPath",
+"videoID",
+"title",
+"bottomDesc",
+"bClickIcon",
+"deleCacheOf_OnIGGuideIconClick"
+],
+"FlowEvaluatorKillByIdCountDiePlayBack": [
+"_seriaTypeNo_ConfigVisi",
+"resId",
+"hurtPercent",
+"count",
+"curKillCount",
+"deleCacheOf_OnActorDie"
+],
+"FlowEvaluatorKillByIdCount": [
+"_seriaTypeNo_ConfigVisi",
+"resId",
+"count",
+"curKillCount",
+"deleCacheOf_OnActorDie"
+],
+"FlowEvaluatorKillIdCount": [
+"_seriaTypeNo_ConfigVisi",
+"resId",
+"count",
+"curKillCount",
+"deleCacheOf_OnActorDie"
+],
+"FlowEvaluatorLastActorStateCheckVisi": [
+"_seriaTypeNo_ConfigVisi",
+"lastStateId"
+],
+"FlowEvaluatorMyHeroBornFlow": [
+"_seriaTypeNo_ConfigVisi",
+"triggered",
+"deleCacheOf_BronFlow"
+],
+"FlowEvaluatorSharedIntCompareVisi": [
+"_seriaTypeNo_ConfigVisi",
+"iVar",
+"lhs",
+"rhs",
+"operatorType"
+],
+"FlowEvaluatorSISEntityCompare": [
+"_seriaTypeNo_ConfigVisi",
+"lhs",
+"operatorType",
+"rhs"
+],
+"FlowEvaluatorSISEntityDistance": [
+"_seriaTypeNo_ConfigVisi",
+"lhs",
+"rhs",
+"operatorType",
+"distance"
+],
+"FlowEvaluatorSISEntityHasBuff": [
+"_seriaTypeNo_ConfigVisi",
+"target",
+"checkActionType",
+"buffID",
+"buffInst",
+"buffTag"
+],
+"FlowEvaluatorSISNodeTimeElapsed": [
+"_seriaTypeNo_ConfigVisi",
+"rhs",
+"operatorType"
+],
+"FlowEvaluatorSISOnBulletHit": [
+"_seriaTypeNo_ConfigVisi",
+"lhs"
+],
+"FlowEvaluatorSISSharedEntityLayerType": [
+"_seriaTypeNo_ConfigVisi",
+"lhs",
+"layerType",
+"operatorType"
+],
+"FlowEvaluatorSoftTutorialProgressCompare": [
+"_seriaTypeNo_ConfigVisi",
+"rhsFix64Var",
+"operatorType",
+"tutorialID"
+],
+"FlowEvaluatorSoftTutorialSharedVarCompare": [
+"_seriaTypeNo_ConfigVisi",
+"softFlowID",
+"sharedVarName",
+"rhsFix64Var",
+"operatorType"
+],
+"FlowEvaluatorSoftTutorialTrySetTriggered": [
+"_seriaTypeNo_ConfigVisi"
+],
+"FlowEvaluatorStarActorAnimExists": [
+"_seriaTypeNo_ConfigVisi",
+"animName"
+],
+"FlowEvaluatorStarActorEffectLodLevel": [
+"_seriaTypeNo_ConfigVisi",
+"lodLevel"
+],
+"FlowEvaluatorStarActorPlayerOwnSkin": [
+"_seriaTypeNo_ConfigVisi",
+"skinIDs"
+],
+"FlowEvaluatorStarActorUIScene": [
+"_seriaTypeNo_ConfigVisi",
+"evaluatorScene"
+],
+"FlowEvaluatorTutoriaInNeutralEyeRange": [
+"_seriaTypeNo_ConfigVisi",
+"camp",
+"radius"
+],
+"FlowEvaluatorTutorialActionSkillState": [
+"_seriaTypeNo_ConfigVisi",
+"cachedTipsValue",
+"sharedCount",
+"skillState",
+"slotIndex"
+],
+"FlowEvaluatorTutorialActiveEyeCount": [
+"_seriaTypeNo_ConfigVisi",
+"count"
+],
+"FlowEvaluatorTutorialActorBuffTimeCompare": [
+"_seriaTypeNo_ConfigVisi",
+"buffID",
+"rhsVar",
+"operatorType"
+],
+"FlowEvaluatorTutorialActorDirRange": [
+"_seriaTypeNo_ConfigVisi",
+"createKey",
+"dir",
+"raduis",
+"angle",
+"targetActor",
+"myHero",
+"raduisSquare"
+],
+"FlowEvaluatorTutorialActorHasBuff": [
+"_seriaTypeNo_ConfigVisi",
+"isNotPlayer",
+"resID",
+"createKey",
+"buffID"
+],
+"FlowEvaluatorTutorialActorHurtTarget": [
+"_seriaTypeNo_ConfigVisi",
+"targetFilterType",
+"defenseLayer",
+"cacheHurtActor",
+"deleCacheOf_OnActorHurtHp"
+],
+"FlowEvaluatorTutorialActorValid": [
+"_seriaTypeNo_ConfigVisi",
+"camp",
+"createKey",
+"resId"
+],
+"FlowEvaluatorTutorialActorVarCompare": [
+"_seriaTypeNo_ConfigVisi",
+"varType",
+"rhsFix64Var",
+"operatorType"
+],
+"FlowEvaluatorTutorialAddObjRes": [
+"_seriaTypeNo_ConfigVisi",
+"resId",
+"objId",
+"result",
+"deleCacheOf_OnActorAdd"
+],
+"FlowEvaluatorTutorialAttackBy": [
+"_seriaTypeNo_ConfigVisi",
+"targetFilterTypes",
+"checkInterval",
+"lastCheckTime"
+],
+"FlowEvaluatorTutorialBattleActorsDied": [
+"_seriaTypeNo_ConfigVisi",
+"caredActorCreateKeys"
+],
+"FlowEvaluatorTutorialBattleShopBuyFail": [
+"_seriaTypeNo_ConfigVisi",
+"failed"
+],
+"FlowEvaluatorTutorialBattleSignalSended": [
+"_seriaTypeNo_ConfigVisi",
+"bManualInput",
+"bReciveSignal",
+"signalID",
+"deleCacheOf_OnRecvFastSignal",
+"deleCacheOf_OnRecviMinimapSignal"
+],
+"FlowEvaluatorTutorialBornCamp": [
+"_seriaTypeNo_ConfigVisi",
+"camp"
+],
+"FlowEvaluatorTutorialCacheActorInGrass": [
+"_seriaTypeNo_ConfigVisi",
+"objId",
+"cacheActor"
+],
+"FlowEvaluatorTutorialCacheActorPosition": [
+"_seriaTypeNo_ConfigVisi",
+"position",
+"dis",
+"objId",
+"cacheActor",
+"sqrDis"
+],
+"FlowEvaluatorTutorialChampionPos": [
+"_seriaTypeNo_ConfigVisi",
+"tmpResult",
+"heroId",
+"laneType",
+"heroRes"
+],
+"FlowEvaluatorTutorialCheckAuxiliaryIndicatorLane": [
+"_seriaTypeNo_ConfigVisi"
+],
+"FlowEvaluatorTutorialCheckBattleShopPreBuyBackHome": [
+"_seriaTypeNo_ConfigVisi"
+],
+"FlowEvaluatorTutorialCheckCacheActorIsSameCamp": [
+"_seriaTypeNo_ConfigVisi",
+"objId"
+],
+"FlowEvaluatorTutorialCheckHasHealSummonSkillAndNotInCD": [
+"_seriaTypeNo_ConfigVisi",
+"summonSkillIndex"
+],
+"FlowEvaluatorTutorialCheckHeroInRange": [
+"_seriaTypeNo_ConfigVisi",
+"range"
+],
+"FlowEvaluatorTutorialCheckIsCN": [
+"_seriaTypeNo_ConfigVisi"
+],
+"FlowEvaluatorTutorialCompareBattleFieldElementType": [
+"_seriaTypeNo_ConfigVisi",
+"elementRiftType"
+],
+"FlowEvaluatorTutorialCurAttackTargetIsTower": [
+"_seriaTypeNo_ConfigVisi",
+"resID",
+"objId"
+],
+"FlowEvaluatorTutorialEquipmentPurchasable": [
+"_seriaTypeNo_ConfigVisi",
+"findT3"
+],
+"FlowEvaluatorTutorialEquipmentPurchased": [
+"_seriaTypeNo_ConfigVisi",
+"resId",
+"eventTriggered",
+"deleCacheOf_OnBuyProps"
+],
+"FlowEvaluatorTutorialFellowMinionInAttackingTower": [
+"_seriaTypeNo_ConfigVisi",
+"fellowMinion"
+],
+"FlowEvaluatorTutorialFingerSelectOpend": [
+"_seriaTypeNo_ConfigVisi"
+],
+"FlowEvaluatorTutorialGetActorInRange": [
+"_seriaTypeNo_ConfigVisi",
+"resId",
+"objId",
+"range",
+"selectAble",
+"useCamera",
+"camScreenRatio",
+"battleCam"
+],
+"FlowEvaluatorTutorialGetGrassInRange": [
+"_seriaTypeNo_ConfigVisi",
+"objId",
+"range",
+"useCamera",
+"camScreenRatio",
+"battleCam"
+],
+"FlowEvaluatorTutorialGetIsEnabledForge": [
+"_seriaTypeNo_ConfigVisi"
+],
+"FlowEvaluatorTutorialHasDynamicSkill": [
+"_seriaTypeNo_ConfigVisi",
+"skillid",
+"isActive"
+],
+"FlowEvaluatorTutorialHaveSummonSpell": [
+"_seriaTypeNo_ConfigVisi",
+"summerSpellID"
+],
+"FlowEvaluatorTutorialHeroAttrCompare": [
+"_seriaTypeNo_ConfigVisi",
+"createKey",
+"attrType",
+"rhsFix64Var",
+"operatorType",
+"extraValue"
+],
+"FlowEvaluatorTutorialHeroDied": [
+"_seriaTypeNo_ConfigVisi",
+"camp",
+"isMyHero",
+"heroID",
+"createKey"
+],
+"FlowEvaluatorTutorialHeroLevel": [
+"_seriaTypeNo_ConfigVisi",
+"targetLevel"
+],
+"FlowEvaluatorTutorialHeroProficiencyIG": [
+"_seriaTypeNo_ConfigVisi",
+"proficiencyLevel",
+"operatorType"
+],
+"FlowEvaluatorTutorialHeroProficiency": [
+"_seriaTypeNo_ConfigVisi",
+"proficiencyLevel",
+"operatorType"
+],
+"FlowEvaluatorTutorialHeroShortDescExist": [
+"_seriaTypeNo_ConfigVisi"
+],
+"FlowEvaluatorTutorialHomeDestroyed": [
+"_seriaTypeNo_ConfigVisi",
+"camp"
+],
+"FlowEvaluatorTutorialInFightState": [
+"_seriaTypeNo_ConfigVisi"
+],
+"FlowEvaluatorTutorialInWireSector": [
+"_seriaTypeNo_ConfigVisi",
+"position",
+"radiusMax",
+"radiusMin",
+"angle",
+"rotate",
+"useBluecamp",
+"sqrRadiusMin",
+"sqrRadiusMax"
+],
+"FlowEvaluatorTutorialIsAudioPlayed": [
+"_seriaTypeNo_ConfigVisi",
+"audioName",
+"audioMgr"
+],
+"FlowEvaluatorTutorialIsAudioPlaying": [
+"_seriaTypeNo_ConfigVisi",
+"audioName",
+"audioMgr"
+],
+"FlowEvaluatorTutorialIsBattleStart": [
+"_seriaTypeNo_ConfigVisi"
+],
+"FlowEvaluatorTutorialIsInCourse": [
+"_seriaTypeNo_ConfigVisi"
+],
+"FlowEvaluatorTutorialIsInJoystickRange": [
+"_seriaTypeNo_ConfigVisi",
+"createKey",
+"joystickRaduis",
+"joystickAngleRange",
+"joystickType",
+"useFowardIfJoystickUp",
+"needInit",
+"targetActorObjId",
+"buttonStateBuffer",
+"joystickRaduisSqr",
+"fixJoystickDir"
+],
+"FlowEvaluatorTutorialIsMoving": [
+"_seriaTypeNo_ConfigVisi"
+],
+"FlowEvaluatorTutorialIsSkillCDing": [
+"_seriaTypeNo_ConfigVisi",
+"useSkillSlot",
+"skillIdIsCurrent",
+"slotIndex",
+"skillId"
+],
+"FlowEvaluatorTutorialKillActorReceive": [
+"_seriaTypeNo_ConfigVisi",
+"resID",
+"createKey",
+"isTrigger",
+"deleCacheOf_OnActorKill"
+],
+"FlowEvaluatorTutorialKillIdCount": [
+"_seriaTypeNo_ConfigVisi",
+"resId",
+"count"
+],
+"FlowEvaluatorTutorialKillSoldierCount": [
+"_seriaTypeNo_ConfigVisi",
+"count"
+],
+"FlowEvaluatorTutorialLowProfileMobile": [
+"_seriaTypeNo_ConfigVisi"
+],
+"FlowEvaluatorTutorialManualCancelSkill": [
+"_seriaTypeNo_ConfigVisi",
+"value",
+"deleCacheOf_OnEvent"
+],
+"FlowEvaluatorTutorialManualUpgradedSkill": [
+"_seriaTypeNo_ConfigVisi",
+"manualUpgraded",
+"deleCacheOf_OnHeroSkillManualLevelUp"
+],
+"FlowEvaluatorTutorialMinimapSignal": [
+"_seriaTypeNo_ConfigVisi",
+"resSignalId",
+"eventTriggered",
+"deleCacheOf_OnMinimapSignal"
+],
+"FlowEvaluatorTutorialMonsterDied": [
+"_seriaTypeNo_ConfigVisi",
+"resID"
+],
+"FlowEvaluatorTutorialMoveButtonState": [
+"_seriaTypeNo_ConfigVisi",
+"moveButtonState"
+],
+"FlowEvaluatorTutorialMoveToPosition": [
+"_seriaTypeNo_ConfigVisi",
+"targetPosition",
+"sqrDistance",
+"resId",
+"createKey",
+"actorType",
+"camp"
+],
+"FlowEvaluatorTutorialNodeTimeElapsed": [
+"_seriaTypeNo_ConfigVisi",
+"time"
+],
+"FlowEvaluatorTutorialObjHasBuff": [
+"_seriaTypeNo_ConfigVisi",
+"objId",
+"buffIDAsset"
+],
+"FlowEvaluatorTutorialPlayerHero": [
+"_seriaTypeNo_ConfigVisi",
+"heroID"
+],
+"FlowEvaluatorTutorialSharedBool": [
+"_seriaTypeNo_ConfigVisi",
+"boolVar"
+],
+"FlowEvaluatorTutorialSkillCasterToTargetZone": [
+"_seriaTypeNo_ConfigVisi",
+"skillID",
+"skillTargeZoneType",
+"center",
+"xLength",
+"yLength",
+"rotation",
+"scale",
+"vfxPath",
+"indicatorPath",
+"indicatorCheckCenter",
+"vfxInsId",
+"oriCol",
+"selectCol",
+"targetFx",
+"meshRenders",
+"lastTickIndicatorInTargetZone"
+],
+"FlowEvaluatorTutorialSkillFinished": [
+"_seriaTypeNo_ConfigVisi",
+"slotIndex"
+],
+"FlowEvaluatorTutorialSkillSlotSwitch": [
+"_seriaTypeNo_ConfigVisi",
+"slotIndex",
+"skillID"
+],
+"FlowEvaluatorTutorialSkillUpgradable": [
+"_seriaTypeNo_ConfigVisi",
+"slotIndex"
+],
+"FlowEvaluatorTutorialSkillUpgraded": [
+"_seriaTypeNo_ConfigVisi",
+"slotIndex",
+"level",
+"eventTriggered",
+"deleCacheOf_OnSkillLevelUp"
+],
+"FlowEvaluatorTutorialSkillUsed": [
+"_seriaTypeNo_ConfigVisi",
+"slotIndex"
+],
+"FlowEvaluatorTutorialSlotSkillReplaced": [
+"_seriaTypeNo_ConfigVisi",
+"slotIndex",
+"skillID",
+"skillSlot"
+],
+"FlowEvaluatorTutorialSpecialUIState": [
+"_seriaTypeNo_ConfigVisi"
+],
+"FlowEvaluatorTutorialTargetedBy": [
+"_seriaTypeNo_ConfigVisi",
+"targetFilterType",
+"resId",
+"checkInterval",
+"lastCheckTime"
+],
+"FlowEvaluatorTutorialTargeting": [
+"_seriaTypeNo_ConfigVisi",
+"targetFilterType",
+"resId",
+"createKey",
+"andIsAttacking",
+"mustAimming"
+],
+"FlowEvaluatorTutorialTargetRefreshType": [
+"_seriaTypeNo_ConfigVisi",
+"targetType"
+],
+"FlowEvaluatorTutorialTouchScreen": [
+"_seriaTypeNo_ConfigVisi"
+],
+"FlowEvaluatorTutorialTowerDestroyed": [
+"_seriaTypeNo_ConfigVisi",
+"camp",
+"line",
+"layer"
+],
+"FlowEvaluatorTutorialTowerHpPercent": [
+"_seriaTypeNo_ConfigVisi",
+"camp",
+"line",
+"layer",
+"hpPercent",
+"op"
+],
+"FlowEvaluatorTutorialUIBtnClicked": [
+"_seriaTypeNo_ConfigVisi",
+"btnType"
+],
+"FlowEvaluatorTutorialUIClosed": [
+"_seriaTypeNo_ConfigVisi",
+"uiName"
+],
+"FlowEvaluatorTutorialUIFocused": [
+"_seriaTypeNo_ConfigVisi",
+"bCustomId",
+"uiEnums",
+"bCheckBuffTips",
+"buffId"
+],
+"FlowEvaluatorTutorialUINodeStateNew": [
+"_seriaTypeNo_ConfigVisi",
+"allSame",
+"targetState",
+"isCommonNode",
+"idx",
+"index"
+],
+"FlowEvaluatorTutorialUINodeState": [
+"_seriaTypeNo_ConfigVisi",
+"idx",
+"state"
+],
+"FlowEvaluatorTutorialUISkillTipsOpened": [
+"_seriaTypeNo_ConfigVisi",
+"slotIndex"
+],
+"FlowEvaluatorTutorial": [
+"_seriaTypeNo_ConfigVisi",
+"parentFlow"
+],
+"FlowNodeConditionTutorial": [
+"_seriaTypeNo_ConfigVisi",
+"boolArg",
+"bCanRepeat",
+"isEntered",
+"intArg",
+"subStep",
+"comment"
+],
+"FlowNodeDisguiseTypeSwitch": [
+"_seriaTypeNo_ConfigVisi",
+"caseArray",
+"switchVar"
+],
+"FlowNodeDurationCondition": [
+"_seriaTypeNo_ConfigVisi",
+"evaluateAllInOneTick",
+"evaluators",
+"currentEvaIndx"
+],
+"FlowNodeDurationTutorial": [
+"_seriaTypeNo_ConfigVisi",
+"boolArg",
+"bCanRepeat",
+"isEntered",
+"canLeave",
+"intArg",
+"subStep",
+"battleID",
+"comment"
+],
+"FlowNodeLevelEvent": [
+"_seriaTypeNo_ConfigVisi",
+"eventId",
+"eventArg"
+],
+"FlowNodeListenerVisi": [
+"_seriaTypeNo_ConfigVisi",
+"watchEvent"
+],
+"FlowNodeRandomConditionShuffle": [
+"_seriaTypeNo_ConfigVisi",
+"evaluators",
+"shuffleIndex",
+"validTransitions"
+],
+"FlowNodeStarUISceneConditionSwitch": [
+"_seriaTypeNo_ConfigVisi",
+"switches"
+],
+"FlowNodeTutorialListenerVisi": [
+"_seriaTypeNo_ConfigVisi",
+"watchEvent",
+"byteParam",
+"cachedEvent",
+"deleCacheOf_OnVisiEvent"
+],
+"HeroBornAgFlow": [
+"_seriaTypeNo_ConfigVisi"
+],
+"HomeBaseDieFlow": [
+"_seriaTypeNo_ConfigVisi"
+],
+"JoystickFlow": [
+"_seriaTypeNo_ConfigVisi",
+"skillOperParam"
+],
+"LevelFlowVisi": [
+"_seriaTypeNo_ConfigVisi",
+"levelEventNodes"
+],
+"SISBuffFlow": [
+"_seriaTypeNo_ConfigVisi",
+"sharedDirector",
+"sharedTarget",
+"sharedBuffDuration"
+],
+"SISBulletFlow": [
+"_seriaTypeNo_ConfigVisi",
+"sharedSkill",
+"sharedEmitPos",
+"sharedEmitType",
+"sharedCastTarget",
+"sharedCastPos",
+"sharedCastDir",
+"sharedHitters",
+"sharedHitterStart"
+],
+"SISFlow": [
+"_seriaTypeNo_ConfigVisi",
+"sharedEntity",
+"sharedCaster"
+],
+"SISSkillFlow": [
+"_seriaTypeNo_ConfigVisi",
+"sharedCastTarget",
+"sharedCastDir",
+"sharedCastPos"
+],
+"StarFlow": [
+"_seriaTypeNo_ConfigVisi",
+"star",
+"formIndex",
+"crossFade",
+"runningAnimClip",
+"forceSyncAnimFlag",
+"forceSyncAnim",
+"fastforwardState",
+"EVENT_ID_NODE_ENTER",
+"EVENT_ID_NODE_LEAVE",
+"deleCacheOf_OnAnimFinishForceSync"
+],
+"TutorialFlow": [
+"_seriaTypeNo_ConfigVisi",
+"isValid",
+"isSetOvertime",
+"overtimeThreshold",
+"overTimeTryCounts",
+"curTryCounts",
+"waitForTrigger",
+"lastNode",
+"curNodeCountTime",
+"<isStoping>k__BackingField",
+"enterTutorialFromCourse",
+"inBattleTutorialID",
+"assetCollecter",
+"tutorialBattleSys",
+"heroSwitchCount",
+"_idStart"
+],
+"TutorialLevelFlow": [
+"_seriaTypeNo_ConfigVisi"
+],
+"TutorialSoftFlow": [
+"_seriaTypeNo_ConfigVisi",
+"m_IsTriggered",
+"m_TutorialID",
+"m_Priority",
+"m_Progress",
+"m_MutexGroup",
+"m_MaxProgress",
+"mutexTag"
+],
+"VisiActorFlow": [
+"_seriaTypeNo_ConfigVisi"
+],
+"VisiFlow": [
+"_seriaTypeNo_ConfigVisi"
+],
+"GameFlowEvent": [
+"value__",
+"None",
+"LoadingFinish",
+"Login",
+"PostLogin",
+"MainScreen",
+"BattlePreshowLoading",
+"BattleLoading",
+"BattleFinishing",
+"EndEntryScene",
+"LoginToMainWhenNotIdle",
+"PostReset",
+"UpdateAG",
+"Per5FrameUpdateAG",
+"LateUpdateAG",
+"Per5FrameLateUpdateAG",
+"UpdateIG",
+"Per5FrameUpdateIG",
+"LateUpdateIG",
+"Per5FrameLateUpdateIG",
+"HeroSelectOpen",
+"HeroSelectReadyToBattle",
+"RespBattleRoomStart",
+"BattleIdleState_OnEnter",
+"BattleIdleState_OnLeave",
+"BattleInMatchTeamState_OnEnter",
+"BattleInMatchTeamState_OnLeave",
+"BattleInMatchTeamState_ResponseTeamAskPermission",
+"BattleInRoomState_OnEnter",
+"BattleInRoomState_OnLeave",
+"BattleMatchSuccessState_OnEnter",
+"BattleMatchSuccessState_OnLeave",
+"BattleMatchSuccessState_ExitRoom",
+"BattleSelectHeroState_OnEnter",
+"BattleSelectHeroState_OnLeave",
+"BattleSelectHeroState_OnPostUpdateSelectHeroState",
+"BattleReEnterRoomState_OnEnter",
+"BattleReEnterRoomState_OnLeave",
+"BattleInBattleState_OnEnter",
+"BattleInBattleState_OnLeave",
+"BattleInBattleState_OnResponseGameResult",
+"BattleInBattleState_OnHomeBaseDied",
+"BattleFinishState_OnEnter",
+"BattleFinishState_OnLeave",
+"BattleFinishState_ClearUp",
+"BattleFinishState_OnResponseGameResult",
+"MatchTeamPanel_Open",
+"MatchTeamPanel_Open_Anim_Finish",
+"CustomRoomPanel_Open",
+"CustomRoomPanel_Open_Anim_Finish",
+"PVE_Start_Resend_GameResult",
+"PVE_Recv_GameResult",
+"Max"
+],
+"GameFlowControl": [
+"m_Observers",
+"m_Handlers",
+"m_ArgHandlers",
+"m_dirtyHandles",
+"m_dirty"
+],
+"GameFlowObserver": [
+"m_Controller"
+],
+"ActivityThemeCorePlayFlowReplaceId": [
+"value__",
+"MainPanel_Base",
+"MainPanel_ToggleList",
+"MainPanel_PlayBtn",
+"MainPanel_ActivityTracker",
+"PlayBtn_Effect",
+"ModeSelect_ToggleList",
+"ModeSelect_ToggleItem",
+"ModeSelect_BG",
+"ModeSelect_BG_ARENA",
+"ModeSelect_Entry_ARENA",
+"ModeSelect_BG_ARENA_lock",
+"ModeSelect_Topbar",
+"ModeSelect_Champion_Bg_Lock",
+"ModeSelect_Champion_Bg_UnLock",
+"ModeSelect_Rank_Bg",
+"ModeSelect_Match_Bg",
+"SelectMapItem_Base",
+"SelectMapItem_ARAM",
+"SelectMapQualifyTogglePanel",
+"SelectMapItem_AI",
+"SelectMapItem_HexAram",
+"SelectMapItem_Arena",
+"SelectMapItem_Ultimate",
+"MatchSuccess",
+"MatchSuccess_Incomming_Effect",
+"MatchSuccess_Accept_Effect",
+"MatchSuccess_BG",
+"DraftHeroSelect",
+"HeroSelect_HighModePlayerInfo",
+"HeroSelect_SelectSkinSelector",
+"HeroSelect_HighModePlayerInfoItem",
+"HeroSelect_Stage",
+"HeroSelect_Stage_ARAM",
+"HeroSelect_Stage_URF",
+"HeroSelect_Stage_ARENE",
+"HeroSelect_DraftPool_ARENA",
+"HeroSelect_NormalPlayerInfo",
+"ResultGrade_UI",
+"BattleLike_UI",
+"Settlement_UI",
+"BattleLike_Stage",
+"BattleLike_Stage_ARAM",
+"BattleLike_Stage_URF",
+"BattleLike_Stage_ARENA",
+"CherryPassEnter",
+"Btn_SeasonCollection",
+"UICollectorAchievementBannerItem",
+"SeasonCollection_UI",
+"LoadingBattle",
+"LoadingBattle_ARAM",
+"MatchTeam_BG",
+"ChampSelect_BG",
+"MatchTime_UI",
+"MatchTeam_UI",
+"StartMatchBtn_Effect",
+"MatchTime_Effect",
+"OnLineFriendUI"
+],
+"GmActionCmdLgcFlowEvent": [
+"eventID",
+"intParam",
+"fix64Param",
+"moneyValue"
+],
+"FlowActionStarLightControlBehavior": [
+"flowActionStarLightControl",
+"lightDatas"
+],
+"FlowActionStarLightControlPlayable": [
+"lightDatas",
+"behavior",
+"ctrl"
+],
+"TutorialSoftFlowRecordData": [
+"Effective",
+"MAX_RECORD_COUNT",
+"DataLength",
+"battleRecords",
+"DebugString"
+],
+"Step_NewLoginFlow": [
+"value__",
+"START",
+"UPDATE_UI",
+"TUTORIAL_ENTER",
+"TUTORIAL_FINISH",
+"CHOOSE_CHAMPION_UI",
+"UPDATE_FINISH",
+"LOGIN_UI"
+],
+"TestingFlowActionActorInput": [
+"mActorInputResObject"
+],
+"TestingFlowActionActorInputOfMove": [
+"mActorInputOfMoveResObject"
+],
+"TestingFlowActionActorInputOfSkill": [
+"mActorInputOfSkillResObject"
+],
+"TestingFlowActionCallGMIG": [
+"mCallGMIGResObject"
+],
+"TestingFlowActionCastSkill": [
+"castSkillRes"
+],
+"TestingFlowActionClearEquip": [
+"clearEquipRes"
+],
+"TestingFlowActionCreateHero": [
+"createHeroRes",
+"owner"
+],
+"TestingFlowActionDestroyAllChampions": [
+"destroyAllChampionsResObject"
+],
+"TestingFlowActionIntOperator": [
+"intOperatorRes"
+],
+"TestingFlowActionSetActorAttribute": [
+"setActorAttributeRes"
+],
+"TestingFlowActionSetActorPosition": [
+"actorToPositionRes"
+],
+"TestingFlowActionSetActorRotation": [
+"setActorRotationRes"
+],
+"TestingFlowActionSetExp": [
+"mSetExpResObject"
+],
+"TestingFlowActionSetHeroLevel": [
+"setHeroLevelRes",
+"varTarget"
+],
+"TestingFlowActionSetMoney": [
+"setMoneyRes"
+],
+"TestingFlowActionSetSkillLevel": [
+"setSkillLevelRes",
+"varTarget"
+],
+"TestingFlowActionSwitchCurrentPlayerHero": [
+"switchCurrentPlayerHeroResObject",
+"skinId"
+],
+"FlowDebugEvent": [
+"value__",
+"FlowDebugReset",
+"FlowConfigSync",
+"FlowSync",
+"FlowTransition",
+"FlowFinish",
+"VariableSync",
+"DomainSync",
+"NodeSync",
+"NodeFinish",
+"DebugLog",
+"ConnectState",
+"FlowSelected",
+"RunFlow",
+"StopFlow",
+"EditorTimeSync",
+"PauseFlowEditorMsg",
+"PauseFlowSync",
+"SetNodeBreakPointEditorMsg",
+"RemoveNodeBreakPointEditorMsg",
+"NodeBreakPointSyncMsg",
+"RemoveNodeBreakPointSyncMsg",
+"ActorAttrSync",
+"RequestActorAttr",
+"RequestActorBuff",
+"ActorBuffSync",
+"CleanFlowCache",
+"RequestGameVersion",
+"GameVersionSync",
+"RecordStart",
+"RecordFinish",
+"RecordNodeSync",
+"RunPlayTestConfig",
+"IGRecord",
+"DeviceDebug",
+"ReportStats",
+"FEFlowConfigSync",
+"FEFlowFinish",
+"FEDomainSync",
+"FERunFlow",
+"FEStopFlow",
+"FEPauseFlow",
+"FEFlowSelected",
+"FENodeSync",
+"FESetNodeBreakPoint",
+"FERemoveNodeBreakPoint",
+"AGTestAutoGen_FlowEnter",
+"AGTestAutoGen_FlowFinish",
+"AGTestAutoGen_TriggerTransition",
+"AGTestAutoGen_FlowExecuteDurationNode",
+"AGTestAutoGen_FlowExecuteEvaluatorNode",
+"AGTestAutoGen_VariableItemSync",
+"AGTestAutoGen_VariableStringSync"
+],
+"FlowDebugMgr": [
+"instance"
+],
+"TestingFlowAction": [
+"syncId"
+],
+"TestingFlowActionTrigger": [
+"triggerRes",
+"triggerCount",
+"actorSkill",
+"conditionBullet",
+"runTimeEndCondition",
+"runTimeTriggerCondition"
+],
+"TestingFlow": [
+"actorCache",
+"parentFlow"
+],
+"FlowActionSwitchMgr": [
+"switchDic"
+],
+"SoftFlowSys": [
+"softFlowDriveList",
+"softFlowMutexGroupDic",
+"softFlowItems",
+"softFlowMutexGroupLockDic",
+"exclamationTriggerQueue",
+"maxExclamationTriggerNum",
+"needTutorialUINodes",
+"uiNodeMgr",
+"tutorialBattleUIMgr",
+"deleCacheOf_OnBattleFinish",
+"tempQueryResults",
+"deleCacheOf_RegCommonNode",
+"deleCacheOf_OnBattleStart"
+],
+"StarActorFlowVisiEvent": [
+"value__",
+"HideTransformBtn",
+"PostFlowEventIdle01",
+"ShowGainHeroOrSkinUI",
+"ShadowRefresh",
+"PetTravelMonsterBroad"
+],
+"FlowEvaluatorStarActorUISceneEnum": [
+"value__",
+"NotControl",
+"PROJECTAUTOIDLE",
+"AUTOZOOMIN",
+"BPENTERIDLE02",
+"SHOWGAINHEROSKINUI",
+"RESULT_SPECIAL_IDLE02IN",
+"PLAYERINFO_CARD",
+"PET_PLAYDIALOG",
+"PET_AICHAT",
+"PET_DETAIL",
+"PET_LOTTERY",
+"PET_TRAVEL"
+],
+"FlowEventVisiSingle": [
+"real"
+],
+"FlowEventVisi": [
+"joystickCancel",
+"joystickOutDeadZoneCurrent",
+"joystickFirstOutDeadZoneCurrent",
+"joystickOutDeadZoneOnce",
+"downFrameSeq",
+"downTime",
+"tapTime",
+"joystickStrength",
+"joystickSpeed",
+"eventType",
+"joystickForward",
+"rawToIdleName"
+],
+"FlowActionEnum": [
+"value__",
+"None",
+"FlowActionHurt",
+"FlowActionApplyBuff",
+"FlowActionBulletEmitter",
+"FlowActionSkillField",
+"FlowActionElectrocute",
+"FlowActionOriannaTalent",
+"FlowActionDariusTalent",
+"FlowActionAhriTalent",
+"FlowActionTrigger",
+"FlowactionCreateBattleActor",
+"FlowActionMoveApplyBuff",
+"FlowActionCreateMultiFakeBodies",
+"FlowActionSetVfx",
+"FlowActionCreateFullScreenVfx",
+"FlowActionCreateChainVfxBase",
+"FlowActionChangeModel",
+"FlowActionChangeEffectModel",
+"FlowActionBulletSetControl",
+"FlowActionHurtRange",
+"FlowActionHurtOnCollision",
+"FlowActionHurtRangeInCircle",
+"FlowActionHurtRangeInDoubleCircle",
+"FlowActionHurtRangeInDoubleSector",
+"FlowActionHurtRangeInRect",
+"FlowActionHurtRangeInSector",
+"FlowActionHurtRangeInTriangle",
+"FlowActionHurtRangeInPolygon",
+"FlowActionBulletFrameHitListHurt",
+"FlowActionCreateVfx",
+"FlowActionCustom",
+"FlowActionReplaceBulletVFX",
+"FlowActionReplaceSkillIcon",
+"FlowActionRushToPosition"
+],
+"FlowPathType": [
+"value__",
+"SpecifyTesting",
+"AutomatedTesting"
+],
+"ParallelFlowCacheMgr": [
+"flowTemplates",
+"formulaVariableCaches",
+"objectPool",
+"_instance",
+"_nodeCounter"
+],
+"MSDKToolsFreeFlowInfo": [
+"ipAll",
+"ipConnect",
+"isFree",
+"ccType"
+],
+"MSDKToolsFreeFlowRet": [
+"freeFlowInfo"
+],
+"ParallelFlowNodeDuration": [
+"durationResObject",
+"runningActionList"
+],
+"ParallelFlowNodeEvaluator": [
+"nodeEvaluatorRes"
+],
+"TestingFlowTags": [
+"flowTags"
+],
+"TestingFlowAuthors": [
+"flowAuthors"
+],
+"FlowResObject": [
+"testingFlowTags",
+"testingFlowAuthors",
+"name",
+"infinity",
+"duration",
+"nodes",
+"variables",
+"endNode",
+"msgBoxContents",
+"performanceChecker",
+"varGroups"
+],
+"ParallelFlow": [
+"res",
+"domain",
+"domains",
+"<Status>k__BackingField",
+"<Paused>k__BackingField",
+"<ElaspedTime>k__BackingField",
+"runningNodes",
+"invoke",
+"pausedNodeIndex",
+"path",
+"onNodeEnter",
+"onNodeLeave",
+"onNodeTransition",
+"onDomainCreated",
+"onFlowLeave",
+"onFlowTick",
+"onFlowNodeTick",
+"msgBoxContents",
+"skipTime",
+"skipStartTime",
+"skippingFront"
+],
+"ParallelFlowAction": [
+"actionResObject",
+"<status>k__BackingField",
+"node"
+],
+"FlowConditionResObject": [
+"combine",
+"inverte"
+],
+"ParallelFlowCondition": [
+"conditionRes",
+"node",
+"trigger"
+],
+"FlowCombine": [
+"value__",
+"None",
+"Or",
+"And"
+],
+"ParallelFlowEvaluator": [
+"evaluatorRes",
+"node"
+],
+"FlowNodeEnum": [
+"value__",
+"None",
+"FlowNode",
+"Max"
+],
+"FlowNodeResObject": [
+"id",
+"outputNewVariableList",
+"position",
+"ignore",
+"name"
+],
+"ParallelFlowNode": [
+"domain",
+"flow",
+"nodeResObject",
+"<Actived>k__BackingField",
+"<ElapsedTime>k__BackingField",
+"<Status>k__BackingField"
+],
+"ParallelFlowStatus": [
+"value__",
+"Inactive",
+"Running",
+"Stopping",
+"Finished"
+],
+"ParallelFlowTransition": [
+"name",
+"enable",
+"current",
+"nextNodes"
+],
+"FlowVariable": [
+"domain",
+"res",
+"index",
+"isOverride"
+],
+"TutorialFlowEventType": [
+"value__",
+"NONE",
+"CAST_SKILL",
+"CANCLE_SKILL",
+"TOUCH_MOVE_TO_CANCEL",
+"TASK_CD_FINSH",
+"FLOW_NODE_ENTER",
+"FLOW_NODE_LEAVE"
+],
+"AssetGameFlowStage": [
+"value__",
+"OutBattle",
+"BattleloadingPage",
+"BattleLoading",
+"InBattle"
+],
+"AssetNodeFlowType": [
+"value__",
+"None",
+"ActorFlow",
+"AIFlow",
+"BuffFlow",
+"BulletFlow",
+"OpeatorFlow",
+"SkillFlow",
+"Max"
+],
+"AssetNodeBuffFlow": [
+"skillId"
+],
+"AssetNodeBulletFlow": [
+"skillId"
+],
+"AssetNodeFlow": [
+"flowType",
+"skinAssetActions",
+"skinAssetActionsFull",
+"flowCount",
+"flowCapacity",
+"flowPath"
+],
+"AssetNodeSkillFlow": [
+"skillId"
+],
+"RoleFreeFlowInfo": [
+"bIsFree",
+"usereflection",
+"CLASS_ID",
+"BASEVERSION",
+"CURRVERSION"
+],
+"RoleFlowLog": [
+"ullUin",
+"chIsAdd",
+"usereflection",
+"CLASS_ID",
+"BASEVERSION",
+"CURRVERSION"
+],
+"TaskFlowParam": [
+"iWeekActiveVal",
+"iMapTaskScore",
+"iMapTaskTime",
+"usereflection",
+"CLASS_ID",
+"BASEVERSION",
+"CURRVERSION"
+],
+"HeroLibFlowParam": [
+"iConsumeType",
+"iConsumeID",
+"iConsumeNum",
+"iReason",
+"iSubReason",
+"dwProficiencyValue",
+"nProficiencyLevel",
+"szPermanetHeros",
+"szTemporaryHeros",
+"szPermanetSkins",
+"szTemporarySkins",
+"usereflection",
+"CLASS_ID",
+"BASEVERSION",
+"CURRVERSION",
+"LENGTH_szPermanetHeros",
+"LENGTH_szTemporaryHeros",
+"LENGTH_szPermanetSkins",
+"LENGTH_szTemporarySkins"
+],
+"ShopRecommendFlowData": [
+"iPosition",
+"iPopChannel",
+"szRecommendIDStr",
+"szAlgoTypeStr",
+"szCredidStr",
+"iItemType",
+"szDiscountStr",
+"szUUID",
+"szRecID",
+"usereflection",
+"CLASS_ID",
+"BASEVERSION",
+"CURRVERSION",
+"VERSION_iPosition",
+"VERSION_iPopChannel",
+"VERSION_szRecommendIDStr",
+"VERSION_szAlgoTypeStr",
+"VERSION_szCredidStr",
+"VERSION_iItemType",
+"VERSION_szDiscountStr",
+"VERSION_szUUID",
+"VERSION_szRecID",
+"LENGTH_szRecommendIDStr",
+"LENGTH_szAlgoTypeStr",
+"LENGTH_szCredidStr",
+"LENGTH_szDiscountStr",
+"LENGTH_szUUID",
+"LENGTH_szRecID"
+],
+"RecommendFlowData": [
+"szUUID",
+"szRecID",
+"usereflection",
+"CLASS_ID",
+"BASEVERSION",
+"CURRVERSION",
+"LENGTH_szUUID",
+"LENGTH_szRecID"
+],
+"CSBackFlowBuff": [
+"iUsedRound",
+"usereflection",
+"CLASS_ID",
+"BASEVERSION",
+"CURRVERSION"
+],
+"BackFlowTaskData": [
+"nNum",
+"astList",
+"iBaseSeasonID",
+"iBeginTime",
+"iBackFlowTaskBaseGrade",
+"usereflection",
+"CLASS_ID",
+"BASEVERSION",
+"CURRVERSION",
+"VERSION_iBeginTime",
+"VERSION_iBackFlowTaskBaseGrade"
+],
+"BackFlowBuff": [
+"iUsedRound",
+"usereflection",
+"CLASS_ID",
+"BASEVERSION",
+"CURRVERSION"
+],
+"<_szTutorialFlow>e__FixedBuffer": [
+"FixedElementField"
+],
+"<_szFlowPath>e__FixedBuffer": [
+"FixedElementField"
+],
+"<_szAGFlowPath>e__FixedBuffer": [
+"FixedElementField"
+],
+"WebSMatchRoomFlow": [
+"ullRoomID",
+"iBattleMode",
+"chMatchType",
+"chWarmRound",
+"iBlueCampElo",
+"iRedCampElo",
+"iBlueCampGrade",
+"iRedCampGrade",
+"nPlayerNum",
+"astPlayerList",
+"usereflection",
+"CLASS_ID",
+"BASEVERSION",
+"CURRVERSION"
+],
+"WebSMatchTeamFlow": [
+"ullTeamID",
+"ullRoomID",
+"iTeamElo",
+"iTeamGrade",
+"dwMatchTime",
+"chCamp",
+"iMode",
+"nMemberNum",
+"astMemberList",
+"usereflection",
+"CLASS_ID",
+"BASEVERSION",
+"CURRVERSION"
+],
+"Sec5v5RoundEndFlow": [
+"dwBattleID",
+"tClientStartTime",
+"szUserName",
+"szPicUrl",
+"iPlayerCamp",
+"iBattleType",
+"iBattleFriendsNum",
+"iUsedTime",
+"iRankLevel",
+"iPlayerHeroID",
+"iPlayerProficiencyLv",
+"iPlayerHeroType",
+"iRoundResult",
+"iRoundStarCount",
+"iPlayerKill",
+"iPlayerDead",
+"iPlayerAssists",
+"iPlayerDestoryTowerCnt",
+"iPlayerKillSoldierCnt",
+"iPlayerTotalHurtCnt",
+"iPlayerTotalHurtHeroCnt",
+"iPlayerTotalBeHurtCnt",
+"iPlayerTotalBeHeroHurtCnt",
+"iPlayerKillMonsterCnt",
+"iPlayerKillLittleDragonCnt",
+"iPlayerKillBigDragonCnt",
+"iPlayerMvp",
+"iPlayerOffLine",
+"iPlayerOffLineTime",
+"iPlayerReconnection",
+"iPlayerChatNum",
+"szPlayerTotalInBattleEquip",
+"szPlayerFinalInBattleEquip",
+"dwPlayerSoliderKillCoin",
+"dwPlayerMonsterKillCoin",
+"dwPlayerTowerKillCoin",
+"dwPlayerDragonKillCoin",
+"dwPlayerHeroKillCoin",
+"dwPlayerSystemAddCoin",
+"iPlayerEye",
+"iPlayerCanyonPioneerKillCount",
+"iPlayerSoliderKillExp",
+"iPlayerMonsterKillExp",
+"iPlayerTowerKillExp",
+"iPlayerDragonKillExp",
+"iPlayerHeroKillExp",
+"iPlayerSystemAddKillExp",
+"iPlayerGroupRate",
+"iPlayerDeathRate",
+"iPlayerVisibleWardCount",
+"iPlayerJoystickInputTime",
+"iPlayerReleaseSkillCount",
+"iCamp1Kill",
+"iCamp1Dead",
+"iCamp1Money",
+"iCamp1FirstTowerTime",
+"iCamp1FirstBloodTime",
+"iCamp1FirstLittleDragonTime",
+"iCamp1FirstBigDragonTime",
+"iCamp1Towercount",
+"iCamp1LittleDragoncount",
+"iCamp1BigDragoncount",
+"iCamp1Result",
+"iCamp1ChatNum",
+"iCamp1OffLine",
+"iCamp1OffLineTime",
+"iCamp1Reconnection",
+"iCamp1SoliderKillCoin",
+"iCamp1MonsterKillCoin",
+"iCamp1TowerKillCoin",
+"iCamp1DragonKillCoin",
+"iCamp1HeroKillCoin",
+"iCamp1SystemAddCoin",
+"iCamp2Kill",
+"iCamp2Dead",
+"iCamp2Money",
+"iCamp2FirstTowerTime",
+"iCamp2FirstBloodTime",
+"iCamp2FirstLittleDragonTime",
+"iCamp2FirstBigDragonTime",
+"iCamp2Towercount",
+"iCamp2LittleDragoncount",
+"iCamp2BigDragoncount",
+"iCamp2Result",
+"iCamp2ChatNum",
+"iCamp2OffLine",
+"iCamp2OffLineTime",
+"iCamp2Reconnection",
+"iCamp2SoliderKillCoin",
+"iCamp2MonsterKillCoin",
+"iCamp2TowerKillCoin",
+"iCamp2DragonKillCoin",
+"iCamp2HeroKillCoin",
+"iCamp2SystemAddCoin",
+"szName1",
+"iFriend1",
+"iGroup1",
+"iHeroID1",
+"iProficiencyLv1",
+"szName2",
+"iFriend2",
+"iGroup2",
+"iHeroID2",
+"iProficiencyLv2",
+"szName3",
+"iFriend3",
+"iGroup3",
+"iHeroID3",
+"iProficiencyLv3",
+"szName4",
+"iFriend4",
+"iGroup4",
+"iHeroID4",
+"iProficiencyLv4",
+"szName5",
+"iFriend5",
+"iGroup5",
+"iHeroID5",
+"iProficiencyLv5",
+"szName6",
+"iFriend6",
+"iGroup6",
+"iHeroID6",
+"iProficiencyLv6",
+"szName7",
+"iFriend7",
+"iGroup7",
+"iHeroID7",
+"iProficiencyLv7",
+"szName8",
+"iFriend8",
+"iGroup8",
+"iHeroID8",
+"iProficiencyLv8",
+"szName9",
+"iFriend9",
+"iGroup9",
+"iHeroID9",
+"iProficiencyLv9",
+"szName10",
+"iFriend10",
+"iGroup10",
+"iHeroID10",
+"iProficiencyLv10",
+"iPlayerPvplevel",
+"iPlayerSkillID1",
+"iPlayerSkillID2",
+"ullBattleIDNew",
+"iIdipAreaID",
+"iPartitionID",
+"usereflection",
+"CLASS_ID",
+"BASEVERSION",
+"CURRVERSION",
+"LENGTH_szUserName",
+"LENGTH_szPicUrl",
+"LENGTH_szPlayerTotalInBattleEquip",
+"LENGTH_szPlayerFinalInBattleEquip",
+"LENGTH_szName1",
+"LENGTH_szName2",
+"LENGTH_szName3",
+"LENGTH_szName4",
+"LENGTH_szName5",
+"LENGTH_szName6",
+"LENGTH_szName7",
+"LENGTH_szName8",
+"LENGTH_szName9",
+"LENGTH_szName10"
+],
+"SecRoundEndDetail1FlowC": [
+"llBattleID",
+"szUserName",
+"iUsedTime",
+"wCaltCount",
+"PlayerKill",
+"PlayerDead",
+"PlayerAssists",
+"PlayerKillSolider",
+"PlayerKillSoliderCoin",
+"PlayerKillMonster",
+"PlayerKillMonsterCoin",
+"PlayerKillLittleDragon",
+"PlayerKillBigDragon",
+"PlayerKillRiftHerald",
+"PlayerSystemCoin",
+"PlayerTotalHurtHeroCnt",
+"PlayerTotalHurtCnt",
+"PlayerTotalBeHeroHurtCnt",
+"ullBattleIDNew",
+"iIdipAreaID",
+"iPartitionID",
+"ullRoleID",
+"usereflection",
+"CLASS_ID",
+"BASEVERSION",
+"CURRVERSION",
+"VERSION_ullBattleIDNew",
+"VERSION_iIdipAreaID",
+"VERSION_iPartitionID",
+"VERSION_ullRoleID",
+"LENGTH_szUserName"
+],
+"SecRoundEndDetail2FlowC": [
+"llBattleID",
+"szUserName",
+"iUsedTime",
+"wCaltCount",
+"CampKill",
+"CampDead",
+"CampAssists",
+"CampTotalCoin",
+"PlayerLv",
+"PlayerRedBuff",
+"PlayerBlueBuff",
+"PlayerSkill1",
+"PlayerSkill2",
+"PlayerSkill3",
+"PlayerSkill4",
+"PlayerSummonerSkill1",
+"PlayerSummonerSkill2",
+"ullBattleIDNew",
+"iIdipAreaID",
+"iPartitionID",
+"ullRoleID",
+"usereflection",
+"CLASS_ID",
+"BASEVERSION",
+"CURRVERSION",
+"VERSION_ullBattleIDNew",
+"VERSION_iIdipAreaID",
+"VERSION_iPartitionID",
+"VERSION_ullRoleID",
+"LENGTH_szUserName"
+],
+"SecRoundEndDetail3FlowC": [
+"llBattleID",
+"szUserName",
+"iUsedTime",
+"wCaltCount",
+"PlayerXaxis",
+"PlayerYaxis",
+"PlayerDistanceMax",
+"PlayerDistanceMin",
+"ullBattleIDNew",
+"iIdipAreaID",
+"iPartitionID",
+"ullRoleID",
+"usereflection",
+"CLASS_ID",
+"BASEVERSION",
+"CURRVERSION",
+"VERSION_ullBattleIDNew",
+"VERSION_iIdipAreaID",
+"VERSION_iPartitionID",
+"VERSION_ullRoleID",
+"LENGTH_szUserName"
+],
+"SecRoundEndDetail4FlowC": [
+"llBattleID",
+"szUserName",
+"iUsedTime",
+"wCaltCount",
+"PlayerDeadTime",
+"PlayerDeadXaxis",
+"PlayerDeadYaxis",
+"PlayerDeadDistanceMax",
+"PlayerDeadDistanceMin",
+"PlayerDeadBeHeroHurtCnt",
+"PlayerDeadBeTowerHurtCnt",
+"PlayerDeadBeSoliderHurtCnt",
+"PlayerDeadBeMonsterHurtCnt",
+"ullBattleIDNew",
+"iIdipAreaID",
+"iPartitionID",
+"ullRoleID",
+"usereflection",
+"CLASS_ID",
+"BASEVERSION",
+"CURRVERSION",
+"VERSION_ullBattleIDNew",
+"VERSION_iIdipAreaID",
+"VERSION_iPartitionID",
+"VERSION_ullRoleID",
+"LENGTH_szUserName"
+],
+"SecRoundEndDetail5FlowC": [
+"llBattleID",
+"szUserName",
+"iUsedTime",
+"wCaltCount",
+"DestroyTowerTime",
+"DestroyTowerID",
+"PlayerDestroyTowerHurtCnt",
+"TowerDistance",
+"DestroyTower",
+"ullBattleIDNew",
+"iIdipAreaID",
+"iPartitionID",
+"ullRoleID",
+"usereflection",
+"CLASS_ID",
+"BASEVERSION",
+"CURRVERSION",
+"VERSION_ullBattleIDNew",
+"VERSION_iIdipAreaID",
+"VERSION_iPartitionID",
+"VERSION_ullRoleID",
+"LENGTH_szUserName"
+],
+"SecRoundEndDetailNew1FlowC": [
+"ullBattleID",
+"szUserName",
+"iUsedTime",
+"wCaltCount",
+"szPlayerKillNew",
+"szPlayerDeadNew",
+"szPlayerAssistsNew",
+"szPlayerKillSoliderNew",
+"szPlayerKillSoliderCoinNew",
+"szPlayerKillMonsterNew",
+"szPlayerKillMonsterCoinNew",
+"szPlayerKillLittleDragonNew",
+"szPlayerKillBigDragonNew",
+"szPlayerKillRiftHeraldNew",
+"szPlayerSystemCoinNew",
+"szPlayerTotalHurtHeroCntNew",
+"szPlayerTotalHurtCntNew",
+"szPlayerTotalBeHeroHurtCntNew",
+"iIdipAreaID",
+"ullRoleID",
+"szPlayerKillHexRex",
+"szPlayerKillHexBaron",
+"szPlayerKillHexCannon",
+"szPlayerKillHexPoro",
+"iModeID",
+"szPlayerShieldCancleHurtSelf",
+"szPlayerShieldCanclehurtFromother",
+"iPartitionID",
+"usereflection",
+"CLASS_ID",
+"BASEVERSION",
+"CURRVERSION",
+"VERSION_iIdipAreaID",
+"VERSION_szPlayerKillHexRex",
+"VERSION_szPlayerKillHexBaron",
+"VERSION_szPlayerKillHexCannon",
+"VERSION_szPlayerKillHexPoro",
+"VERSION_iModeID",
+"VERSION_szPlayerShieldCancleHurtSelf",
+"VERSION_szPlayerShieldCanclehurtFromother",
+"VERSION_iPartitionID",
+"LENGTH_szUserName",
+"LENGTH_szPlayerKillNew",
+"LENGTH_szPlayerDeadNew",
+"LENGTH_szPlayerAssistsNew",
+"LENGTH_szPlayerKillSoliderNew",
+"LENGTH_szPlayerKillSoliderCoinNew",
+"LENGTH_szPlayerKillMonsterNew",
+"LENGTH_szPlayerKillMonsterCoinNew",
+"LENGTH_szPlayerKillLittleDragonNew",
+"LENGTH_szPlayerKillBigDragonNew",
+"LENGTH_szPlayerKillRiftHeraldNew",
+"LENGTH_szPlayerSystemCoinNew",
+"LENGTH_szPlayerTotalHurtHeroCntNew",
+"LENGTH_szPlayerTotalHurtCntNew",
+"LENGTH_szPlayerTotalBeHeroHurtCntNew",
+"LENGTH_szPlayerKillHexRex",
+"LENGTH_szPlayerKillHexBaron",
+"LENGTH_szPlayerKillHexCannon",
+"LENGTH_szPlayerKillHexPoro",
+"LENGTH_szPlayerShieldCancleHurtSelf",
+"LENGTH_szPlayerShieldCanclehurtFromother"
+],
+"SecRoundDeadFlowC": [
+"ullBattleID",
+"szPlayerOpenId",
+"iUsedTime",
+"iPlayerCamp",
+"szSampleTimeList",
+"szHeroRoleIDList",
+"szHealthPoint",
+"szMagicPoint",
+"szPlayerSkillStatus",
+"szPlayerSkillUse",
+"szPlayerHeroDamage",
+"szPlayerMonsterDamage",
+"szPlayerTowerDamage",
+"szPlayerBeHeroDamage",
+"szPlayerBeMonsterDamage",
+"szPlayerBeTowerDamage",
+"szPlayerCoin",
+"szPlayerSignal",
+"szPlayerSurrender",
+"szPlayerAxisAll",
+"szPlayerClearAll",
+"szPlayerFruitUse",
+"iPartitionID",
+"ullRoleID",
+"usereflection",
+"CLASS_ID",
+"BASEVERSION",
+"CURRVERSION",
+"VERSION_iPartitionID",
+"VERSION_ullRoleID",
+"LENGTH_szPlayerOpenId",
+"LENGTH_szSampleTimeList",
+"LENGTH_szHeroRoleIDList",
+"LENGTH_szHealthPoint",
+"LENGTH_szMagicPoint",
+"LENGTH_szPlayerSkillStatus",
+"LENGTH_szPlayerSkillUse",
+"LENGTH_szPlayerHeroDamage",
+"LENGTH_szPlayerMonsterDamage",
+"LENGTH_szPlayerTowerDamage",
+"LENGTH_szPlayerBeHeroDamage",
+"LENGTH_szPlayerBeMonsterDamage",
+"LENGTH_szPlayerBeTowerDamage",
+"LENGTH_szPlayerCoin",
+"LENGTH_szPlayerSignal",
+"LENGTH_szPlayerSurrender",
+"LENGTH_szPlayerAxisAll",
+"LENGTH_szPlayerClearAll",
+"LENGTH_szPlayerFruitUse"
+],
+"SecRoundPlayerRealTimeFlowC": [
+"ullBattleID",
+"szPlayerOpenId",
+"szTeamPlayerOpenId1",
+"szTeamPlayerOpenId2",
+"szTeamPlayerOpenId3",
+"szTeamPlayerOpenId4",
+"iUsedTime",
+"iPlayerCamp",
+"iRolelane",
+"iRankLevel",
+"iPlayerHeroID",
+"iPlayerProficiencyLv",
+"iPlayerHeroType",
+"szSampleTimeList",
+"szTeamMapResourcesInfo",
+"szTeamTowerdestroyinfo",
+"szTeamSurrenderinfo",
+"szPlayerBattleInfo",
+"szHealthPoint",
+"szMagicPoint",
+"szPlayerSkillStatus",
+"szPlayerSkillUse",
+"szPlayerHeroDamage",
+"szPlayerMonsterDamage",
+"szPlayerTowerDamage",
+"szPlayerBeHeroDamage",
+"szPlayerBeMonsterDamage",
+"szPlayerBeTowerDamage",
+"szPlayerCoin",
+"szPlayerSignal",
+"szPlayerAxisAll",
+"szPlayerClearAll",
+"szPlayerContorl",
+"szPlayerFruitUse",
+"szPlayerKillWards",
+"iPartNum",
+"iPartitionID",
+"ullRoleID",
+"iTeamPlayerPartitionID1",
+"iTeamPlayerPartitionID2",
+"iTeamPlayerPartitionID3",
+"iTeamPlayerPartitionID4",
+"usereflection",
+"CLASS_ID",
+"BASEVERSION",
+"CURRVERSION",
+"VERSION_iPartitionID",
+"VERSION_ullRoleID",
+"VERSION_iTeamPlayerPartitionID1",
+"VERSION_iTeamPlayerPartitionID2",
+"VERSION_iTeamPlayerPartitionID3",
+"VERSION_iTeamPlayerPartitionID4",
+"LENGTH_szPlayerOpenId",
+"LENGTH_szTeamPlayerOpenId1",
+"LENGTH_szTeamPlayerOpenId2",
+"LENGTH_szTeamPlayerOpenId3",
+"LENGTH_szTeamPlayerOpenId4",
+"LENGTH_szSampleTimeList",
+"LENGTH_szTeamMapResourcesInfo",
+"LENGTH_szTeamTowerdestroyinfo",
+"LENGTH_szTeamSurrenderinfo",
+"LENGTH_szPlayerBattleInfo",
+"LENGTH_szHealthPoint",
+"LENGTH_szMagicPoint",
+"LENGTH_szPlayerSkillStatus",
+"LENGTH_szPlayerSkillUse",
+"LENGTH_szPlayerHeroDamage",
+"LENGTH_szPlayerMonsterDamage",
+"LENGTH_szPlayerTowerDamage",
+"LENGTH_szPlayerBeHeroDamage",
+"LENGTH_szPlayerBeMonsterDamage",
+"LENGTH_szPlayerBeTowerDamage",
+"LENGTH_szPlayerCoin",
+"LENGTH_szPlayerSignal",
+"LENGTH_szPlayerAxisAll",
+"LENGTH_szPlayerClearAll",
+"LENGTH_szPlayerContorl",
+"LENGTH_szPlayerFruitUse",
+"LENGTH_szPlayerKillWards"
+],
+"SecRoundEndDetailNew1FlowCVisi": [
+"ullBattleID",
+"szUserName",
+"iUsedTime",
+"iPlayerWinningRate",
+"iPlayerGamesNum",
+"iPlayer1WinningRate",
+"iPlayer1GamesNum",
+"iPlayer2WinningRate",
+"iPlayer2GamesNum",
+"iPlayer3WinningRate",
+"iPlayer3GamesNum",
+"iPlayer4WinningRate",
+"iPlayer4GamesNum",
+"iIdipAreaID",
+"iPartitionID",
+"ullRoleID",
+"usereflection",
+"CLASS_ID",
+"BASEVERSION",
+"CURRVERSION",
+"VERSION_iIdipAreaID",
+"VERSION_iPartitionID",
+"VERSION_ullRoleID",
+"LENGTH_szUserName"
+],
+"SecRoundEndCVFlowC": [
+"ullBattleID",
+"szUserName",
+"iUsedTime",
+"iPlayerWinningRate",
+"iPlayerGamesNum",
+"iPlayer1WinningRate",
+"iPlayer1GamesNum",
+"iPlayer2WinningRate",
+"iPlayer2GamesNum",
+"iPlayer3WinningRate",
+"iPlayer3GamesNum",
+"iPlayer4WinningRate",
+"iPlayer4GamesNum",
+"iIdipAreaID",
+"iBattleType",
+"szSecReportData",
+"iPartitionID",
+"ullRoleID",
+"szSecReportDataNew",
+"usereflection",
+"CLASS_ID",
+"BASEVERSION",
+"CURRVERSION",
+"VERSION_iIdipAreaID",
+"VERSION_iBattleType",
+"VERSION_szSecReportData",
+"VERSION_iPartitionID",
+"VERSION_ullRoleID",
+"VERSION_szSecReportDataNew",
+"LENGTH_szUserName",
+"LENGTH_szSecReportData",
+"LENGTH_szSecReportDataNew"
+],
+"SecRoundEndDetailNew2FlowC": [
+"ullBattleID",
+"szUserName",
+"iUsedTime",
+"wCaltCount",
+"szCampKillNew",
+"szCampDeadNew",
+"szCampAssistsNew",
+"szCampTotalCoinNew",
+"szPlayerLvNew",
+"szPlayerRedBuffNew",
+"szPlayerBlueBuffNew",
+"szPlayerSkill1New",
+"szPlayerSkill2New",
+"szPlayerSkill3New",
+"szPlayerSkill4New",
+"szPlayerSummonerSkill1New",
+"szPlayerSummonerSkill2New",
+"iIdipAreaID",
+"szPlayerOtherDamage",
+"szPlayerBearOtherDamage",
+"iModeID",
+"iPartitionID",
+"ullRoleID",
+"usereflection",
+"CLASS_ID",
+"BASEVERSION",
+"CURRVERSION",
+"VERSION_iIdipAreaID",
+"VERSION_szPlayerOtherDamage",
+"VERSION_szPlayerBearOtherDamage",
+"VERSION_iModeID",
+"VERSION_iPartitionID",
+"VERSION_ullRoleID",
+"LENGTH_szUserName",
+"LENGTH_szCampKillNew",
+"LENGTH_szCampDeadNew",
+"LENGTH_szCampAssistsNew",
+"LENGTH_szCampTotalCoinNew",
+"LENGTH_szPlayerLvNew",
+"LENGTH_szPlayerRedBuffNew",
+"LENGTH_szPlayerBlueBuffNew",
+"LENGTH_szPlayerSkill1New",
+"LENGTH_szPlayerSkill2New",
+"LENGTH_szPlayerSkill3New",
+"LENGTH_szPlayerSkill4New",
+"LENGTH_szPlayerSummonerSkill1New",
+"LENGTH_szPlayerSummonerSkill2New",
+"LENGTH_szPlayerOtherDamage",
+"LENGTH_szPlayerBearOtherDamage"
+],
+"SecRoundEndDetailNew3FlowC": [
+"ullBattleID",
+"szUserName",
+"iUsedTime",
+"wCaltCount",
+"szPlayerXaxisNew",
+"szPlayerYaxisNew",
+"szPlayerDistanceMaxNew",
+"szPlayerDistanceMinNew",
+"iIdipAreaID",
+"szPlayerXaxisNewPer",
+"szPlayerYaxisNewPer",
+"iModeID",
+"iPartitionID",
+"ullRoleID",
+"usereflection",
+"CLASS_ID",
+"BASEVERSION",
+"CURRVERSION",
+"VERSION_iIdipAreaID",
+"VERSION_szPlayerXaxisNewPer",
+"VERSION_szPlayerYaxisNewPer",
+"VERSION_iModeID",
+"VERSION_iPartitionID",
+"VERSION_ullRoleID",
+"LENGTH_szUserName",
+"LENGTH_szPlayerXaxisNew",
+"LENGTH_szPlayerYaxisNew",
+"LENGTH_szPlayerDistanceMaxNew",
+"LENGTH_szPlayerDistanceMinNew",
+"LENGTH_szPlayerXaxisNewPer",
+"LENGTH_szPlayerYaxisNewPer"
+],
+"SecRoundEndDetailNew4FlowC": [
+"ullBattleID",
+"szUserName",
+"iUsedTime",
+"wCaltCount",
+"szPlayerDeadTimeNew",
+"szPlayerDeadXaxisNew",
+"szPlayerDeadYaxisNew",
+"szPlayerDeadDistanceMaxNew",
+"szPlayerDeadDistanceMinNew",
+"szPlayerDeadBeHeroHurtCntNew",
+"szPlayerDeadBeTowerHurtCntNew",
+"szPlayerDeadBeSoliderHurtCntNew",
+"szPlayerDeadBeMonsterHurtCntNew",
+"szPlayerDeadHeroHurtCnt",
+"szPlayerDeadTowerHurtCnt",
+"szPlayerDeadCureCnt",
+"szPlayerDeadPosition",
+"iIdipAreaID",
+"iModeID",
+"iPartitionID",
+"ullRoleID",
+"usereflection",
+"CLASS_ID",
+"BASEVERSION",
+"CURRVERSION",
+"VERSION_iIdipAreaID",
+"VERSION_iModeID",
+"VERSION_iPartitionID",
+"VERSION_ullRoleID",
+"LENGTH_szUserName",
+"LENGTH_szPlayerDeadTimeNew",
+"LENGTH_szPlayerDeadXaxisNew",
+"LENGTH_szPlayerDeadYaxisNew",
+"LENGTH_szPlayerDeadDistanceMaxNew",
+"LENGTH_szPlayerDeadDistanceMinNew",
+"LENGTH_szPlayerDeadBeHeroHurtCntNew",
+"LENGTH_szPlayerDeadBeTowerHurtCntNew",
+"LENGTH_szPlayerDeadBeSoliderHurtCntNew",
+"LENGTH_szPlayerDeadBeMonsterHurtCntNew",
+"LENGTH_szPlayerDeadHeroHurtCnt",
+"LENGTH_szPlayerDeadTowerHurtCnt",
+"LENGTH_szPlayerDeadCureCnt",
+"LENGTH_szPlayerDeadPosition"
+],
+"SecRoundEndDetailNew5FlowC": [
+"ullBattleID",
+"szUserName",
+"iUsedTime",
+"wCaltCount",
+"szDestroyTowerTimeNew",
+"szDestroyTowerIDNew",
+"szPlayerDestroyTowerHurtCntNew",
+"szTowerDistanceNew",
+"szDestroyTowerNew",
+"iIdipAreaID",
+"iModeID",
+"iPartitionID",
+"ullRoleID",
+"usereflection",
+"CLASS_ID",
+"BASEVERSION",
+"CURRVERSION",
+"VERSION_iIdipAreaID",
+"VERSION_iModeID",
+"VERSION_iPartitionID",
+"VERSION_ullRoleID",
+"LENGTH_szUserName",
+"LENGTH_szDestroyTowerTimeNew",
+"LENGTH_szDestroyTowerIDNew",
+"LENGTH_szPlayerDestroyTowerHurtCntNew",
+"LENGTH_szTowerDistanceNew",
+"LENGTH_szDestroyTowerNew"
+],
+"SecRoundEndDetail6FlowC": [
+"ullBattleID",
+"szUserName",
+"iUsedTime",
+"tClientStartTime",
+"iPlayerCamp",
+"iBattleType",
+"iRankLevel",
+"iPlayerHeroID",
+"iPlayerProficiencyLv",
+"iPlayerHeroType",
+"iRoundResult",
+"iRoundStarCount",
+"iPlayerKill",
+"iPlayerDead",
+"iPlayerAssists",
+"iPlayerDestoryTowerCnt",
+"iPlayerKillSoldierCnt",
+"iPlayerTotalHurtCnt",
+"iPlayerTotalHurtHeroCnt",
+"iPlayerTotalBeHurtCnt",
+"iPlayerTotalBeHeroHurtCnt",
+"iPlayerKillMonsterCnt",
+"iPlayerKillLittleDragonCnt",
+"iPlayerKillBigDragonCnt",
+"iPlayerMvp",
+"iPlayerOffLine",
+"iPlayerOffLineTime",
+"iPlayerReconnection",
+"szPlayerTotalInBattleEquip",
+"szPlayerFinalInBattleEquip",
+"dwPlayerSoliderKillCoin",
+"dwPlayerMonsterKillCoin",
+"dwPlayerTowerKillCoin",
+"dwPlayerDragonKillCoin",
+"dwPlayerHeroKillCoin",
+"dwPlayerSystemAddCoin",
+"iPlayerPvplevel",
+"iPlayerSkillID1",
+"iPlayerSkillID2",
+"iPlayerEye",
+"iPlayerCanyonPioneerKillCount",
+"iPlayerSoliderKillExp",
+"iPlayerMonsterKillExp",
+"iPlayerTowerKillExp",
+"iPlayerDragonKillExp",
+"iPlayerHeroKillExp",
+"iPlayerSystemAddKillExp",
+"iPlayerGroupRate",
+"iPlayerDeathRate",
+"iPlayerVisibleWardCount",
+"iPlayerJoystickInputTime",
+"iPlayerReleaseSkillCount",
+"iCamp1Kill",
+"iCamp1Dead",
+"iCamp1Money",
+"iCamp1FirstTowerTime",
+"iCamp1FirstBloodTime",
+"iCamp1FirstLittleDragonTime",
+"iCamp1FirstBigDragonTime",
+"iCamp1Towercount",
+"iCamp1LittleDragoncount",
+"iCamp1BigDragoncount",
+"iCamp1Result",
+"iCamp1ChatNum",
+"iCamp1OffLine",
+"iCamp1OffLineTime",
+"iCamp1Reconnection",
+"iCamp1SoliderKillCoin",
+"iCamp1MonsterKillCoin",
+"iCamp1TowerKillCoin",
+"iCamp1DragonKillCoin",
+"iCamp1HeroKillCoin",
+"iCamp1SystemAddCoin",
+"iCamp2Kill",
+"iCamp2Dead",
+"iCamp2Money",
+"iCamp2FirstTowerTime",
+"iCamp2FirstBloodTime",
+"iCamp2FirstLittleDragonTime",
+"iCamp2FirstBigDragonTime",
+"iCamp2Towercount",
+"iCamp2LittleDragoncount",
+"iCamp2BigDragoncount",
+"iCamp2Result",
+"iCamp2ChatNum",
+"iCamp2OffLine",
+"iCamp2OffLineTime",
+"iCamp2Reconnection",
+"iCamp2SoliderKillCoin",
+"iCamp2MonsterKillCoin",
+"iCamp2TowerKillCoin",
+"iCamp2DragonKillCoin",
+"iCamp2HeroKillCoin",
+"iCamp2SystemAddCoin",
+"iHeroID1",
+"iProficiencyLv1",
+"iHeroID2",
+"iProficiencyLv2",
+"iHeroID3",
+"iProficiencyLv3",
+"iHeroID4",
+"iProficiencyLv4",
+"iHeroID5",
+"iProficiencyLv5",
+"iHeroID6",
+"iProficiencyLv6",
+"iHeroID7",
+"iProficiencyLv7",
+"iHeroID8",
+"iProficiencyLv8",
+"iHeroID9",
+"iProficiencyLv9",
+"iHeroID10",
+"iProficiencyLv10",
+"iAIcount",
+"iPlayerKillAIcount",
+"dwPlayerHeroHurtProportion",
+"dwPlayerBeHeroHurtProportion",
+"dwPlayerEconomicProportion",
+"iPlayer1RoundStarCount",
+"iPlayer2RoundStarCount",
+"iPlayer3RoundStarCount",
+"iPlayer4RoundStarCount",
+"iReason",
+"iPlayerWinningRate",
+"iPlayerGamesNum",
+"iPlayerSurrenderNum",
+"iCampSurrenderNum",
+"iPlayerRoundStarNum",
+"iPlayer1WinningRate",
+"iPlayer1GamesNum",
+"iPlayer2WinningRate",
+"iPlayer2GamesNum",
+"iPlayer3WinningRate",
+"iPlayer3GamesNum",
+"iPlayer4WinningRate",
+"iPlayer4GamesNum",
+"iPlayerNotificationClick",
+"iComponentType",
+"iIdipAreaID",
+"iPlayerHangLevelType",
+"iIsNegative",
+"szNegativeRule",
+"iNegativeScore",
+"iNegativeExempt",
+"iPartitionID",
+"ullRoleID",
+"iChampGrade",
+"iPlayerKillHexRex",
+"iPlayerKillHexBaron",
+"iPlayerKillHexCannon",
+"iPlayerKillHexPoro",
+"iHeroID11",
+"iProficiencyLv11",
+"iHeroID12",
+"iProficiencyLv12",
+"iHeroID13",
+"iProficiencyLv13",
+"iHeroID14",
+"iProficiencyLv14",
+"iHeroID15",
+"iProficiencyLv15",
+"iHeroID16",
+"iProficiencyLv16",
+"iHeroID17",
+"iProficiencyLv17",
+"iHeroID18",
+"iProficiencyLv18",
+"iHeroID19",
+"iProficiencyLv19",
+"iHeroID20",
+"iProficiencyLv20",
+"usereflection",
+"CLASS_ID",
+"BASEVERSION",
+"CURRVERSION",
+"VERSION_iIdipAreaID",
+"VERSION_iPlayerHangLevelType",
+"VERSION_iIsNegative",
+"VERSION_szNegativeRule",
+"VERSION_iNegativeScore",
+"VERSION_iNegativeExempt",
+"VERSION_iPartitionID",
+"VERSION_ullRoleID",
+"VERSION_iChampGrade",
+"VERSION_iPlayerKillHexRex",
+"VERSION_iPlayerKillHexBaron",
+"VERSION_iPlayerKillHexCannon",
+"VERSION_iPlayerKillHexPoro",
+"VERSION_iHeroID11",
+"VERSION_iProficiencyLv11",
+"VERSION_iHeroID12",
+"VERSION_iProficiencyLv12",
+"VERSION_iHeroID13",
+"VERSION_iProficiencyLv13",
+"VERSION_iHeroID14",
+"VERSION_iProficiencyLv14",
+"VERSION_iHeroID15",
+"VERSION_iProficiencyLv15",
+"VERSION_iHeroID16",
+"VERSION_iProficiencyLv16",
+"VERSION_iHeroID17",
+"VERSION_iProficiencyLv17",
+"VERSION_iHeroID18",
+"VERSION_iProficiencyLv18",
+"VERSION_iHeroID19",
+"VERSION_iProficiencyLv19",
+"VERSION_iHeroID20",
+"VERSION_iProficiencyLv20",
+"LENGTH_szUserName",
+"LENGTH_szPlayerTotalInBattleEquip",
+"LENGTH_szPlayerFinalInBattleEquip",
+"LENGTH_szNegativeRule"
+],
+"SecRoundEndDetailNew7FlowC": [
+"ullBattleID",
+"szUserName",
+"iUsedTime",
+"dwCaltCount",
+"szPlayerEquipmentTime",
+"szPlayerEquipment",
+"iIdipAreaID",
+"szPlayerEquipmentType",
+"iModeID",
+"iPartitionID",
+"ullRoleID",
+"usereflection",
+"CLASS_ID",
+"BASEVERSION",
+"CURRVERSION",
+"VERSION_iIdipAreaID",
+"VERSION_szPlayerEquipmentType",
+"VERSION_iModeID",
+"VERSION_iPartitionID",
+"VERSION_ullRoleID",
+"LENGTH_szUserName",
+"LENGTH_szPlayerEquipmentTime",
+"LENGTH_szPlayerEquipment",
+"LENGTH_szPlayerEquipmentType"
+],
+"SecNegativePushFlow": [
+"ullRoomid",
+"iPunishType",
+"iNegativeType",
+"iNegativeLevel",
+"iPlayerKill",
+"iPlayerDead",
+"iPlayerAssists",
+"iPunishGameTime",
+"iNoticeResult",
+"iPartitionID",
+"usereflection",
+"CLASS_ID",
+"BASEVERSION",
+"CURRVERSION",
+"VERSION_iPartitionID"
+],
+"MainMatchRoomFlow": [
+"ullTeamID",
+"ullEnterTime",
+"iFromMatchSuc",
+"iModeID",
+"iPreferredRole1",
+"iPreferredRole2",
+"ullExitTime",
+"iTimeInQueue",
+"iExitReason",
+"iPartitionID",
+"usereflection",
+"CLASS_ID",
+"BASEVERSION",
+"CURRVERSION",
+"VERSION_iPartitionID"
+],
+"MainMatchSuccessFlow": [
+"ullTeamID",
+"ullEnterTime",
+"iModeID",
+"ullExitTime",
+"iTimeToAcceptMatch",
+"iExitReason",
+"iPartitionID",
+"usereflection",
+"CLASS_ID",
+"BASEVERSION",
+"CURRVERSION",
+"VERSION_iPartitionID"
+],
+"MainChampSelectFlow": [
+"ullRoomID",
+"ullEnterTime",
+"ullExitTime",
+"iPreSelChampID",
+"iSelChampID",
+"szTurntableChampID",
+"iChampSelectTime",
+"iPartitionID",
+"usereflection",
+"CLASS_ID",
+"BASEVERSION",
+"CURRVERSION",
+"VERSION_iPartitionID",
+"LENGTH_szTurntableChampID"
+],
+"MainLoadingStateFlow": [
+"ullRoomID",
+"ullStartLoadingTime",
+"ullExitLoadingTime",
+"ullStartGameTime",
+"iPartitionID",
+"usereflection",
+"CLASS_ID",
+"BASEVERSION",
+"CURRVERSION",
+"VERSION_iPartitionID"
+],
+"CoreFlowDurationStat": [
+"ullRoomID",
+"dwStage",
+"ullDuration",
+"iModeId",
+"iPartitionID",
+"usereflection",
+"CLASS_ID",
+"BASEVERSION",
+"CURRVERSION",
+"VERSION_iModeId",
+"VERSION_iPartitionID"
+],
+"VoiceReportFlowStat": [
+"szReportRoleName",
+"iReportRoleRankLevel",
+"szClientVersion",
+"iReportCondition",
+"iIsReportSuccess",
+"ullReportRoomID",
+"iPartitionID",
+"usereflection",
+"CLASS_ID",
+"BASEVERSION",
+"CURRVERSION",
+"VERSION_iPartitionID",
+"LENGTH_szReportRoleName",
+"LENGTH_szClientVersion"
+],
+"BattleResultFlowStat": [
+"dwModeID",
+"dwTeamMemberCnt",
+"dwEogTaskAwardState",
+"chToLobby",
+"chPlayAgain",
+"szPanelStayTime",
+"iPartitionID",
+"usereflection",
+"CLASS_ID",
+"BASEVERSION",
+"CURRVERSION",
+"VERSION_iPartitionID",
+"LENGTH_szPanelStayTime"
+],
+"SpiritFlowerStat": [
+"ullRoomID",
+"iModeID",
+"iSpiritFlowerGidID",
+"iSpiritFlowerDropTime",
+"iSpiritFlowerDropReason",
+"iSpiritFlowerDropRoleID",
+"szSpiritFlowerDropOpenID",
+"iSpiritFlowerDropMonsterID",
+"iSpiritFlowerCampID",
+"iSpiritFlowerGetTime",
+"iSpiritFlowerGetRoleID",
+"szSpiritFlowerGetOpenID",
+"iSpiritFlowerGetLaneID",
+"iSpiritFlowerGetHeroID",
+"iPartitionID",
+"ullNewSpiritFlowerDropRoleID",
+"ullNewSpiritFlowerGetRoleID",
+"usereflection",
+"CLASS_ID",
+"BASEVERSION",
+"CURRVERSION",
+"VERSION_ullNewSpiritFlowerDropRoleID",
+"VERSION_ullNewSpiritFlowerGetRoleID",
+"LENGTH_szSpiritFlowerDropOpenID",
+"LENGTH_szSpiritFlowerGetOpenID"
+],
+"WorkFlowRunTimeConfig": [
+"TypeID",
+"_wrapperPool"
+],
+"ActivitiesNodeBornFlow": [
+"_seriaTypeNo_ConfigVisi",
+"asset"
+],
+"ActivitiesNodeMonsterBornFlow": [
+"_seriaTypeNo_ConfigVisi",
+"monsterAsset",
+"flowAsset",
+"preLoadCount"
+],
+"FlowAssetObject": [
+"TypeID",
+"__Instance",
+"__InstanceLongValue",
+"NativeMap",
+"_wrapperPool"
+],
+"HeroRelaxFlowInfo": [
+"_seriaTypeNo_ConfigVisi",
+"aniName",
+"buffId",
+"stack",
+"pathFlow"
+],
+"SkinFlowAction": [
+"TypeID",
+"__Instance",
+"__InstanceLongValue",
+"NativeMap",
+"_wrapperPool",
+"_fieldInfos"
+],
+"SkinFlowReplace": [
+"_seriaTypeNo_ConfigVisi",
+"flowName",
+"actionInfos"
+],
+"WorkFlowSerializedObject": [
+"TypeID",
+"__Instance",
+"__InstanceLongValue",
+"NativeMap",
+"_wrapperPool"
+],
+"FlowLevel": [
+"levelFlow"
+],
+"WorkFlowDescAttribute": [
+"desc",
+"tooltip"
+],
+"WorkFlowEffectTypeToRes": [
+"effectRes"
+],
+"WorkFlowAssetAttribute": [
+"type",
+"directory",
+"assetPathType",
+"assetFileType"
+],
+"WorkFlowTypeAttribute": [
+"workFlowType"
+],
+"WorkFlowSkinCollectAttribute": [
+"recursive",
+"defaultShown",
+"strFieldType"
+],
+"WorkFlowStringFieldType": [
+"value__",
+"None",
+"Normal",
+"Asset",
+"Joint",
+"JointGroup"
+],
+"WorkFlowIDFieldAttribute": [
+"workFlowType"
+],
+"MatchModeWorkFlowDataLoader": [
+"isInBattle",
+"DataLayerCombinedFolderName",
+"vdm"
+],
+"<LoadMonsterWorkFlowCoro>d__169": [
+"<>1__state",
+"<>2__current",
+"<>4__this",
+"<watch>5__2",
+"<AllocTimeSlice>5__3",
+"<timeslice>5__4",
+"<i>5__5"
+],
+"<LoadMonsterWorkFlowEditorCoro>d__172": [
+"<>1__state",
+"<>2__current",
+"<>4__this",
+"<watch>5__2",
+"<AllocTimeSlice>5__3",
+"<timeslice>5__4",
+"<i>5__5"
+],
+"<LoadSharedMonsterWorkFlowCoro>d__166": [
+"<>1__state",
+"<>2__current",
+"<>4__this",
+"mode",
+"isPracticeLevel",
+"collectSkill"
+],
+"<ProcessWorkFlowsOnBattleStartCoro>d__127": [
+"<>1__state",
+"<>2__current",
+"<>4__this",
+"<battleMode>5__2",
+"<battleLevelRule>5__3",
+"<subset>5__4"
+],
+"ActorComponentFlowMgr": [
+"TypeID",
+"_wrapperPool"
+],
+"CustomComponentFlowVariableRes": [
+"TypeID",
+"_wrapperPool"
+],
+"CustomFlowVariableRes": [
+"TypeID",
+"_wrapperPool"
+],
+"FlowActionActorGetTime_TimeType": [
+"value__",
+"LifeTime",
+"MaxLifeTime"
+],
+"FlowActionAudioAnimation_AOC": [
+"TypeID",
+"__Instance",
+"__InstanceLongValue",
+"NativeMap",
+"_wrapperPool"
+],
+"FlowActionAudioBindAnimation_AOC": [
+"TypeID",
+"__Instance",
+"__InstanceLongValue",
+"NativeMap",
+"_wrapperPool",
+"_animNames"
+],
+"FlowActionBulletArrivedTrigger_EArrivedType": [
+"value__",
+"Actor",
+"Position",
+"BulletTargetPosstion"
+],
+"FlowActionBulletBlocked_DamageDecayMode": [
+"value__",
+"All",
+"FixedValue",
+"FixedDecay",
+"FirstInvalid",
+"Reflect"
+],
+"FlowActionBulletCircleAngle_Operation": [
+"value__",
+"Set",
+"Get"
+],
+"FlowActionBulletElapsedTime_Operation": [
+"value__",
+"Set",
+"Get"
+],
+"FlowActionBulletEmitter_EmitterType": [
+"value__",
+"Default",
+"Sector",
+"GUID",
+"BindVisi"
+],
+"FlowActionBulletField_Field": [
+"value__",
+"ElapsedTime",
+"CircleAngle",
+"MaxDistance",
+"ShapeParam1",
+"ShapeParam2",
+"DistanceLimitArrived",
+"IgnoreReflect",
+"IgnoreReflectEmit",
+"isChangeVfx",
+"isAttachedEmit",
+"IgnoreTargetRadius",
+"hitEffectRatio",
+"BindEmissionId",
+"ReflectBindEmit"
+],
+"FlowActionCameraPosOffsetType": [
+"value__",
+"UxOperate",
+"InFlow"
+],
+"FlowActionChangeMiniMapHpBorder_AOC": [
+"TypeID",
+"__Instance",
+"__InstanceLongValue",
+"NativeMap",
+"_wrapperPool"
+],
+"FlowActionClearGridFow_ShapeType": [
+"value__",
+"Circle",
+"Rect",
+"Sector"
+],
+"FlowActionCreateBattleActor_ForwardType": [
+"value__",
+"None",
+"TheSameCaster",
+"FaceTarget",
+"RandomForward",
+"BulletForward",
+"Assigned"
+],
+"FlowActionCreateChainVfxBase_AOC": [
+"TypeID",
+"__Instance",
+"__InstanceLongValue",
+"NativeMap",
+"_wrapperPool",
+"_audioAOC"
+],
+"FlowActionCreateGemSkillActor_ReplacementSkillVar": [
+"TypeID",
+"__Instance",
+"__InstanceLongValue",
+"NativeMap",
+"_wrapperPool"
+],
+"FlowActionCreatePosition_CenterType": [
+"value__",
+"Actor",
+"Bullet",
+"Position",
+"Spring",
+"SpringEnemy"
+],
+"FlowActionCreatePosition_ForwardType": [
+"value__",
+"None",
+"Actor",
+"Bullet",
+"Roation",
+"TowardBaseHome",
+"Position"
+],
+"FlowActionCreateVfx_AOC": [
+"TypeID",
+"__Instance",
+"__InstanceLongValue",
+"NativeMap",
+"_wrapperPool"
+],
+"FlowActionCreateVfx_MiniMapShowFilter": [
+"value__",
+"Self",
+"Ally",
+"All"
+],
+"FlowActionCZGhost_BornType": [
+"value__",
+"NONE",
+"TOP",
+"BOTTOM"
+],
+"FlowActionCZGhost_DirectionType": [
+"value__",
+"NONE",
+"GO",
+"BACK"
+],
+"FlowActionCZGhost_LineType": [
+"value__",
+"NONE",
+"LINE01",
+"LINE02"
+],
+"FlowActionDynamicSkillFlyFX_AOC": [
+"TypeID",
+"__Instance",
+"__InstanceLongValue",
+"NativeMap",
+"_wrapperPool"
+],
+"FlowActionEnterLeaveTrigger_TriggerType": [
+"value__",
+"ActionOnEnter",
+"ActionOnLeave"
+],
+"FlowActionExportRotaion_ExportType": [
+"value__",
+"Actor",
+"Bullet"
+],
+"FlowActionForceMoveDistance_DirType": [
+"value__",
+"ActorForwardAngle",
+"GiverForwardNormal",
+"BulletForward",
+"ToActor",
+"ToPosition",
+"FromGiverToTarget",
+"BulletForwardNormal",
+"ToForward"
+],
+"FlowActionGetActorVar_VarValueType": [
+"value__",
+"Value",
+"Position",
+"Actor",
+"Bullet",
+"IntList"
+],
+"FlowActionGetBulletAxisDir_EAxisDir": [
+"value__",
+"Forward",
+"Right",
+"Up"
+],
+"FlowActionGetDistance_CalcDistanceType": [
+"value__",
+"BetweenActors",
+"BetweenActorPoint",
+"BetweenPoints"
+],
+"FlowActionGetGemSkillActorParam_GetParamType": [
+"value__",
+"TriggerSkill",
+"SkillCast",
+"MoveType",
+"DispatchEvent",
+"Interrupt",
+"Ignore",
+"DamageCoeff",
+"RuleType",
+"LifeTime",
+"CopyBuffBlackList"
+],
+"FlowActionGetSkillAttrChangeBEResult_OperationType": [
+"value__",
+"None",
+"DebuffMax"
+],
+"FlowActionGetSkillGemVar_VarValueType": [
+"value__",
+"Value",
+"ListCount",
+"RefreshRandom",
+"ResetRandom"
+],
+"FlowActionGetSkillVar_VarValueType": [
+"value__",
+"Value",
+"Position",
+"Bool"
+],
+"FlowActionHurtOnCollision_AOC": [
+"TypeID",
+"__Instance",
+"__InstanceLongValue",
+"NativeMap",
+"_wrapperPool"
+],
+"FlowActionHurtRangeInCircle_VarType": [
+"value__",
+"ActorVar",
+"PositionVar",
+"BulletVar"
+],
+"FlowActionIncrementSkillRange_ResetType": [
+"value__",
+"None",
+"OnLeave",
+"OnReset"
+],
+"FlowActionModifyBuffMaxStack_ModifyMethod": [
+"value__",
+"SkillLevel",
+"Variables"
+],
+"FlowActionNavigation_TargetType": [
+"value__",
+"Actor",
+"Pos"
+],
+"FlowActionPlayAnimation_AnimType": [
+"value__",
+"None",
+"Random",
+"Sequence"
+],
+"FlowActionPlayAnimation_KeepPlayType": [
+"value__",
+"Action",
+"Flow",
+"Custom"
+],
+"FlowActionPlayAudio_AOC": [
+"TypeID",
+"__Instance",
+"__InstanceLongValue",
+"NativeMap",
+"_wrapperPool"
+],
+"FlowActionPlayAudio_AudioBindTo": [
+"value__",
+"None",
+"Bullet",
+"Actor",
+"Position"
+],
+"FlowActionPlayAudio_AudioTarget": [
+"value__",
+"ALL",
+"Myteam",
+"EnemyTeam",
+"MySelf",
+"Others",
+"Ally"
+],
+"FlowActionPlayTurnAroundAnimation_TurnType": [
+"value__",
+"Default",
+"Bullet",
+"DirectionVec",
+"SkillBtnDir",
+"SkillCastDirection",
+"FaceActor",
+"ManualControl",
+"SkillCastPosition",
+"AutoRotate"
+],
+"FlowActionReduceCD_ReduceType": [
+"value__",
+"ReduceValue",
+"ReduceToValue",
+"ReduceCurrentRemainCDRate",
+"AddStockLayer",
+"ReduceByTotalRate"
+],
+"FlowActionReduceCD_SkillListType": [
+"value__",
+"SpeicifyIDList",
+"AllSkills",
+"AllSkillsExceptR",
+"SpecifySlot",
+"SpecifyVarId",
+"SpecifySkillVar",
+"AllRushSkill",
+"AllHexBuff"
+],
+"FlowActionReduceCD_TriggerType": [
+"value__",
+"EnterTrigger",
+"LeaveTrigger"
+],
+"FlowActionSearchTarget_SearchTargetType": [
+"value__",
+"NONE",
+"HERO",
+"SUMMONER",
+"MONSTER"
+],
+"FlowActionSearchTower_SearchTowerType": [
+"value__",
+"SpecifyLayer",
+"SpecifyLayerAndLane",
+"OutterMost",
+"OutterSelectable",
+"All",
+"SpecifyLane"
+],
+"FlowActionSetActorEnterGrassShowTime_ResetMode": [
+"value__",
+"ActionFinish",
+"FlowFinish"
+],
+"FlowActionSetActorVar_Modification": [
+"value__",
+"Increment",
+"Replace",
+"ExclusiveOr",
+"Or"
+],
+"FlowActionSetActorVar_VarValueType": [
+"value__",
+"Value",
+"Position",
+"Actor",
+"Bullet",
+"IntList"
+],
+"FlowActionSetBodyScaleType": [
+"value__",
+"LerpToTagret",
+"ChangeOnTick"
+],
+"FlowActionSetBuffLayer_Modification": [
+"value__",
+"Increment",
+"Replace"
+],
+"FlowActionSetBuffStack_RopeType": [
+"value__",
+"Restart",
+"KeepCurRatio"
+],
+"FlowActionSetBulletTargetPosNotInObstruct_TargetType": [
+"value__",
+"Range",
+"Line"
+],
+"FlowActionSetHighLayerAnimation_HightLayerSpeedEnum": [
+"value__",
+"Default",
+"CurSkillSpeed",
+"SpeedValue"
+],
+"FlowActionSetSharedActor_SetType": [
+"value__",
+"AttackTarget",
+"BulletLastHitHero",
+"BulletHitActor",
+"Customize",
+"Clear"
+],
+"FlowActionSetSignalTipsEffect_ShowEffectType": [
+"value__",
+"None",
+"OnMyWay",
+"Miss",
+"Danger",
+"Attack"
+],
+"FlowActionSetSkillStock_ModifyType": [
+"value__",
+"Set",
+"Add"
+],
+"FlowActionSetSkillTargetPosition_Operation": [
+"value__",
+"Set",
+"addDistance"
+],
+"FlowActionSetSkillVar_Modification": [
+"value__",
+"Increment",
+"Replace"
+],
+"FlowActionSetTurnSpeed_EOperatorType": [
+"value__",
+"Replace",
+"Increase",
+"Multiple"
+],
+"FlowActionSetVariantSkill_RemoveVariantType": [
+"value__",
+"ActionLeave",
+"FlowStop"
+],
+"FlowActionSetVariantSkill_UpgradeFlag": [
+"value__",
+"None",
+"REPLACE",
+"CAST",
+"SLOT_SKILL1",
+"SLOT_SKILL2",
+"SLOT_SKILL3",
+"SLOT_SKILL4"
+],
+"FlowActionSetVfx_AOC": [
+"TypeID",
+"__Instance",
+"__InstanceLongValue",
+"NativeMap",
+"_wrapperPool",
+"_hideExceptBuffs",
+"_groupIds",
+"_audioList"
+],
+"FlowActionSetVfx_MiniMapShowFilter": [
+"value__",
+"Self",
+"Camp",
+"All"
+],
+"FlowActionShowExpressionByPath_ExpressionType": [
+"value__",
+"Default",
+"Common",
+"Custom"
+],
+"FlowActionShowExpressionByPath_RemoveMode": [
+"value__",
+"Default",
+"ActionFinish",
+"FlowFinish",
+"FixTime"
+],
+"FlowActionSkillCD_CDType": [
+"value__",
+"CD1",
+"CD2"
+],
+"FlowActionSkillCD_TriggerType": [
+"value__",
+"OnEnter",
+"OnLeave"
+],
+"FlowActionSwitchRegion": [
+"value__",
+"Global",
+"CN",
+"ROW"
+],
+"FlowActionSyncVisibleByPoint_SyncType": [
+"value__",
+"Actor",
+"Bullet",
+"GameObject"
+],
+"FlowActionTrigger_Condition": [
+"value__",
+"HasBuff",
+"TriggerCount",
+"TriggerTime",
+"BuffLayer",
+"TriggerEffectCount",
+"SkillType",
+"BuffType",
+"TwoActorDirection",
+"AttrCompare",
+"SkillID",
+"SkillGuid",
+"SkillFilter",
+"DamageType",
+"BulletSkill",
+"NotHasBuff",
+"SharedActorIsValid",
+"ActorLevel",
+"MoveInputForward",
+"IsSkillApplyAttackEffect",
+"ShareBoolVar",
+"BuffID",
+"IsRSkill",
+"MainTarget",
+"TwoActorDistance",
+"IsCrit",
+"TwoActorMapDirection",
+"ActorFullHP",
+"CheckHit",
+"IsSkillAoe",
+"BraumCanBlock",
+"BattleEventTriggeredTime",
+"EmpowerAttack",
+"IsSkillDot",
+"HasBulletBitFlag",
+"ActorIsDead",
+"BoolTest",
+"IncludeAngle",
+"TwoActorIsEqual",
+"SharedFix64Compare",
+"SkillFlag",
+"WillHurtDie",
+"IsContinueKill",
+"ActorAnchor",
+"SkillSlotCompare",
+"SkillTargetType",
+"IsUSBSkill",
+"TwoActorCamp",
+"EquipmentLevel",
+"HasMark",
+"IsMoving",
+"SkillCreateType",
+"ActorState",
+"IsHardControlBuff",
+"IsShieldBlock",
+"ActorIsFakeDead",
+"BuffMagicField",
+"BulletTargetType",
+"SkillGeneration",
+"IsGemBindingSkillSlot",
+"BuffTypeExtend",
+"HasBuffEffectType",
+"SkillTagType",
+"SpecificEventType",
+"IsReflectSkill",
+"InSameBattle",
+"IsSylasSkill",
+"TomatoSkill"
+],
+"FlowActionTrigger_Effect": [
+"value__",
+"None",
+"SetSkillLevelVarRelatedSkill"
+],
+"FlowActionTrigger_FinishTriggerMode": [
+"value__",
+"FinishAction",
+"FinishDuration",
+"FinishBuff"
+],
+"FlowEvaluatorPositionOutOfBorder_CheckType": [
+"value__",
+"CheckOutOfMap",
+"CheckOutOfBattle"
+],
+"FlowEvaluatorSharedSkillWhetherCheck_eCheckType": [
+"value__",
+"IsBulletSkill",
+"IsRushSkill",
+"IsDotSkill",
+"IsAoeSkill"
+],
+"FlowVariableRes": [
+"TypeID",
+"_wrapperPool"
+],
+"MapAnchorFlowComponent": [
+"TypeID",
+"_wrapperPool"
+],
+"ParalleFlowActionCommerceUseDisguiseItemRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParalleFlowActionFistbumpInteractiveRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionActorBornEventTriggerRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionActorEvacuateTriggerRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionActorUseSkillRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionActorVisibleRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionAddCustomBattleScoreRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionAddCustomStatRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionAddDynamicSkillRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionAddEquipRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionAddExpRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionAddGainRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionAddLuaComponentRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionAddMoneyRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionAddTeamFightRecordRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionAiToggleRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionAppendShelvesEquipmentRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionApplyBuffRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionApplyBuffToDoomAIRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionApplyCherryForgesRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionAssetListToIntListRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionAttachGamePlayComponentRandomRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionAttachGamePlayComponentRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionBackHomeRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionBaseAnimationRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionBattleCampToCampIDRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionBattleEventConditionRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionBattleTeamVarOperatorRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionBehaviorFSMSetTargetRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionBehaviorLookAtTargetRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionBlockAnchorOperatorRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionBulletEmitterRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionBulletMovementRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionCalcRPNRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionCameraPosOffsetRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionCameraSwitchFollowerRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionChangeGateCampRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionChangeSceneColorRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionCherryCloseCalPlayerGamePointRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionCherryEquipBoxOperatorRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionCherryGenerateAwardRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionCherryInitDataRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionCherryRemoveUIMsgRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionCherryTeamSettlementRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionCompareEquipListRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionComponentFlowEventListenerRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionControlMinionSpawnRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionControlMonsterSpawnRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionCreateBattleActorRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionCreateHeroRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionCreatePositionRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionCreateRuinlandActorExtraRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionCreateRuinlandActorRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionCreateRuinStoryActorRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionCreateSubBattleRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionCustomFogSettingRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionCustomMessageRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionDecorationFinishRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionDeleteVfxRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionDialogStoryRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionDictionaryOperateRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionDisableBattleFowRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionDoFinishRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionFinishBattleRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionFinishDurationNodeRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionFinishFlowRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionFinishSubBattleRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionFix64OperatorRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionFixVector3OperatorRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionFlowEventListenerRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionForceOffMemoryRecoverRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetActorAttrRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetActorAwardSegmentRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetActorBuffRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetActorCampRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetActorKillAssistListRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetActorLevelRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetActorMoneyRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetActorObjIdRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetActorPosRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetActorRankRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetActorSkinRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetActorTeamIdRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetActorVarRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetActorWalkableFlagRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetAssignLocationActorRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetBattleGlobalVarRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetBattleIDRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetBattleTimeRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetBuffDataRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetBuffGiverRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetBuffLeftTimeRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetBuffOwnerRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetBuffStackRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetCampStatisticInfoRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetCastSkillOfVariantSkillRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetChampionTypeRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetCherryGamePlayComponentConfigRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetComponentActorVarRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetComponentVarRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetCurrentRoundEnemyActorListRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetEquipInfoRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetFrameCountRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetGainListRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetGainRefreshCountRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetHangUpInfoRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetHeroSkinDataRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetHexGainIdListRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetHighestMoneyActorRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetInfoPosRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetListSizeRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetMapCenterPosRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetMapNodePosRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetMatchTeamIdListRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetMaxKillsActorRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetMinMoneyActorRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetMoneyByCampRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetMonsterAnchorDataRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetMonsterAreaCampRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetNodeStateRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetPlayerCampsRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetPlayerIndexRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetPlayerLaneRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetRandomHeroResIDRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetRandomPointsInCircleRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetRealTimeLaneTypeRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetResIDRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetRoundDataRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetRuinCoefficientRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetSimpleAnchorDataRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetSkillGUIDRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetSkillRemainCDRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetSkillRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetSkillSlotIndexRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetSkillUseObjRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetSoilderClosestPointRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetSummonParentRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetTeamActorRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetTeamHPRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetTeamIdListRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetTeamMatchRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetTeamRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGetTowerAnchorRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGMFlowEventTriggerRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionGrassFlowerControllerRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionHealRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionInitPixiuMgrRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionInt32OperatorRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionIsBaseAliveOnlyRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionLogRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionLuaScriptRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionMinimapSettingRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionModAnchorPreConditionRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionModifyGainRefreshCountRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionModifyLevelRuleRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionModMonsterSpawnInfoRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionMonsterSacrificeRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionMonsterSpawnTriggerRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionMonsterSpawnWarningRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionMoveActorToPositionRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionNegativeEventReachRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionNewVfxRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionPlayAnimationRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionPlayAttackAnimationRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionPlayAudioRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionPlayMusicRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionPlaySceneAudioRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionPostComponentFlowEventRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionPostCustomEventRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionPostGameEventRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionPrepareRandomGainShowDataRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionRandomIntRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionRecordResultDataRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionReduceCDRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionRefreshBuffTimeRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionReleaseActorAssetRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionRemoveBuffRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionRemoveGainRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionReplaceLevelUpEffectRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionRuinAddTagRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionRuinRefreshEquipShopRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionRuinRefreshSkillShopRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionRunComponentFlowRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionRuneStatDataAddByTriggerRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionRuneStatDataAddRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionSaveFrameMemoryRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionSearchHeroRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionSearchMinionRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionSearchTargetInCircleRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionSearchTargetRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionSecondCameraRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionSendChatRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionSendShortCutsRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionSendSignalAutoRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionSendSignalRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionSetActionSeqDistanceRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionSetActorDeadRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionSetActorFlowVarRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionSetActorPositionRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionSetActorSubBattleIdRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionSetActorVarRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionSetBattleGlobalVarRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionSetBoolVarRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionSetBuffElapsedTimeRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionSetBuffLeftTimeRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionSetBuffStackRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionSetBulletGlobalParamRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionSetCampKillAwardRateRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionSetComponentActorVarRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionSetCurrentRoundRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionSetFightRecordRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionSetFix64Res": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionSetIntVarRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionSetMonsterAssetObjectVarRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionSetSharedActorRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionSetSkillLevelRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionSetStageLeftTimeRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionSetTeamHPRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionSharedActorListOperatorRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionSharedActorOperatorRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionSharedIntListOperatorRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionSharedVector3ListOperatorRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionShowUINodeRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionShowUIRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionSkillCastSuccessRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionSkillCDRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionSkillConsumeRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionSkillGemInitRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionSkillPhaseRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionSortTeamRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionSpawnDoomBossRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionSpecialEventReachRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionStartSubBattleRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionSwitchAnchorStateRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionSwitchMapLayerRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionSwitchNodeStateRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionSyncVariableRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionTileDestroyConfigRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionTriggerActiveBlockAnchorRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionTriggerActorDeadEventRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionTriggerActorDieRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionTriggerActorVisibleSwitchRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionTriggerApplyBuffRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionTriggerBeforeAddExpRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionTriggerBeforeAddMoneyRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionTriggerBeforeDieRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionTriggerBeforeLevelUpRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionTriggerBuffAliveRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionTriggerBuffCustomFlowEventRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionTriggerCherrySelectCardRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionTriggerCompareHpWithinTimeRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionTriggerComponentFlowEventRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionTriggerCustomEventRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionTriggerDoSetCDRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionTriggerFirstBloodRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionTriggerGameEventRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionTriggerGiveBuffRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionTriggerGlobalActorRebornRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionTriggerHighlightEventRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionTriggerHitRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionTriggerHurtRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionTriggerLeaveGrassRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionTriggerLevelUpRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionTriggerRemoveBuffRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionTriggerRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionTriggerSignalResponseRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionTriggerSingleActorDeadRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionTriggerSkillDistanceRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionTriggerSkillRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionTriggerSoilderFightingRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionTriggerSuckBloodRetrainRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionTriggerSurrenderVoteRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionTriggerTimerRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionTriggerTowerPlateDestroyedRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowActionUpdateAnchorPreConditionRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowEvaluatorActorAdaptiveDamageRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowEvaluatorActorAnchorRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowEvaluatorActorCheckBaseRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowEvaluatorActorCheckDistanceRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowEvaluatorActorCloserDistanceRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowEvaluatorActorCompareAttrRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowEvaluatorActorHasBuffRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowEvaluatorActorHasTagRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowEvaluatorActorInGrassRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowEvaluatorActorInListRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowEvaluatorActorIsDeadRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowEvaluatorActorIsGainBlockedRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowEvaluatorActorIsZombieRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowEvaluatorActorSortBaseRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowEvaluatorActorTypeRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowEvaluatorAnchorSpwanIDRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowEvaluatorBattleTimeRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowEvaluatorBoolRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowEvaluatorBuffCheckIDRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowEvaluatorBuffTypeTestRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowEvaluatorChampionCheckIDRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowEvaluatorCheckActorFsmStateRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowEvaluatorCheckActorHatredStateRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowEvaluatorCherryFightIsFinishRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowEvaluatorCherryIsFinishRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowEvaluatorCherryRoundTypeCheckRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowEvaluatorCherrySelectRoundIsFinishRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowEvaluatorCherryTeamIsSettlementRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowEvaluatorCompareRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowEvaluatorEnumTypeCheckRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowEvaluatorFix64CompareRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowEvaluatorGamePlayIdCheckRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowEvaluatorInt32CompareRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowEvaluatorIsNodeStateRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowEvaluatorIsOpenGrayToogleRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowEvaluatorIsValidRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowEvaluatorMatchBattleIdCheckRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowEvaluatorMonsterCheckIDRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowEvaluatorRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowEvaluatorSkillCastTypeRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowEvaluatorSkillFilterRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowEvaluatorSkillFlagRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowEvaluatorSkillIDRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowEvaluatorSkillMainTargetRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowEvaluatorSkillReadyInTeamRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowEvaluatorSkillSlotRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowEvaluatorSkillTypeCheckRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowEvaluatorTeamCompareRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowEvaluatorTwoActorIsEqualRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowNodeDurationRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowNodeEvaluatorRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowNodeLoopRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowNodeRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowNodeSelectorBaseRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowNodeStateMachineRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowNodeSwitchRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowRes": [
+"TypeID",
+"_wrapperPool"
+],
+"ParallelFlowResBase": [
+"TypeID",
+"__Instance",
+"__InstanceLongValue",
+"NativeMap",
+"_wrapperPool"
+],
+"ParallelFlowSceneAudioType": [
+"value__",
+"SceneAudio_2D",
+"SceneAudio_3D"
+],
+"ParellelFlowActionGetMonsterAnchorByPoiTypeRes": [
+"TypeID",
+"_wrapperPool"
+],
+"SimpleFlow": [
+"TypeID",
+"__Instance",
+"__InstanceLongValue",
+"NativeMap",
+"_wrapperPool"
+],
+"SoldierBornFlow": [
+"TypeID",
+"_wrapperPool"
+],
+"SoldierDieFlow": [
+"TypeID",
+"_wrapperPool"
+],
+"SoldierSkillFlow": [
+"TypeID",
+"_wrapperPool"
+],
+"FlowActionCameraPosOffsetLgc": [
+"offset",
+"offsetWithForward",
+"tweenDuration",
+"exitTweenDuration",
+"_seriaTypeNo_ConfigVisi"
+],
+"FlowEvaluatorTwoSharedFix64Compare": [
+"_seriaTypeNo_ConfigVisi",
+"fix64Var1",
+"fix64Var2"
+],
+"FlowEvaluatorTwoSharedIntCompare": [
+"_seriaTypeNo_ConfigVisi",
+"leftVar",
+"rightVar"
+],
+"FlowControlBehaviorFSM": [
+"TypeID",
+"_wrapperPool"
+],
+"FlowDrive`1": [
+"m_Flows",
+"m_MainFlow"
+],
+"FEEventMsgActorMarkCastTime_FlowExtraSpeedRate": [
+"TypeID",
+"_wrapperPool"
+],
+"FEEventMsgFlowActionBackHome_BackHome": [
+"TypeID",
+"_wrapperPool"
+],
+"FEEventMsgFlowActionChangeEffectModel_Change": [
+"TypeID",
+"_wrapperPool",
+"_lstOptions"
+],
+"FEEventMsgFlowActionChangeEffectModel_ChangeBack": [
+"TypeID",
+"_wrapperPool"
+],
+"FEEventMsgFlowActionChangeEffectModel_Change_FD": [
+"TypeID",
+"_wrapperPool"
+],
+"FEEventMsgFlowActionChangeModel_OnEnter_CreatBucket": [
+"TypeID",
+"_wrapperPool"
+],
+"FEEventMsgFlowActionChangeModel_OnEnter_CreatBucket_FD": [
+"TypeID",
+"_wrapperPool"
+],
+"FEEventMsgFlowActionChangeModel_OnEnter_PutModel": [
+"TypeID",
+"_wrapperPool"
+],
+"FEEventMsgFlowActionChangeModel_OnEnter_PutModel_FD": [
+"TypeID",
+"_wrapperPool"
+],
+"FEEventMsgFlowActionChangeModel_OnLeave_ClearRef": [
+"TypeID",
+"_wrapperPool"
+],
+"FEEventMsgFlowActionChangeModel_ReleaseBucket": [
+"TypeID",
+"_wrapperPool"
+],
+"FEEventMsgFlowActionFlash_Flash": [
+"TypeID",
+"_wrapperPool"
+],
+"FEEventMsgFlowActionForceAttachToActorBegin": [
+"TypeID",
+"_wrapperPool"
+],
+"FEEventMsgFlowActionForceAttachToActorEnd": [
+"TypeID",
+"_wrapperPool"
+],
+"FEEventMsgFlowActionHurtRangeInCircle_SKILL_COLLODE_SHOW": [
+"TypeID",
+"_wrapperPool"
+],
+"FEEventMsgFlowActionHurtRangeInDoubleCircle_SKILL_COLLODE_SHOW": [
+"TypeID",
+"_wrapperPool"
+],
+"FEEventMsgFlowActionHurtRangeInDoubleSector_SKILL_COLLODE_SHOW": [
+"TypeID",
+"_wrapperPool"
+],
+"FEEventMsgFlowActionHurtRangeInPolygon_SKILL_COLLODE_SHOW": [
+"TypeID",
+"_wrapperPool",
+"_vertices"
+],
+"FEEventMsgFlowActionHurtRangeInRect_SKILL_COLLODE_SHOW": [
+"TypeID",
+"_wrapperPool"
+],
+"FEEventMsgFlowActionHurtRangeInRect_SKILL_COLLODE_SHOW_BULLET": [
+"TypeID",
+"_wrapperPool"
+],
+"FEEventMsgFlowActionHurtRangeInSector_SKILL_COLLODE_SHOW": [
+"TypeID",
+"_wrapperPool"
+],
+"FEEventMsgFlowActionHurtRangeInTriangle_SKILL_COLLODE_SHOW": [
+"TypeID",
+"_wrapperPool"
+],
+"FEEventMsgFlowActionReplaceHeroHeadIcon": [
+"TypeID",
+"_wrapperPool"
+],
+"FEEventMsgFlowActionReplaceHeroHeadIcon_FD": [
+"TypeID",
+"_wrapperPool"
+],
+"FEEventMsgFlowActionSearchTargetInCircle_SKILL_COLLODE_SHOW": [
+"TypeID",
+"_wrapperPool"
+],
+"FEEventMsgFlowActionSearchTargetInRect_SKILL_COLLODE_SHOW": [
+"TypeID",
+"_wrapperPool"
+],
+"FEEventMsgFlowActionSearchTargetInSector_SKILL_COLLODE_SHOW": [
+"TypeID",
+"_wrapperPool"
+],
+"FEMsg_UnityHook_OnCreateFlow": [
+"TypeID",
+"_wrapperPool"
+],
+"FEMsg_UnityHook_OnDestroyFlow": [
+"TypeID",
+"_wrapperPool"
+],
+"FlowActionActorMoveVisi_EndMode": [
+"value__",
+"ActionFinish",
+"FlowFinish"
+],
+"FlowActionChangeChainVfxTarget_TargetType": [
+"value__",
+"None",
+"Actor"
+],
+"FlowActionCreateChainVfxBase_RemoveMode": [
+"value__",
+"FlowFinish",
+"ActionFinish",
+"FixTime"
+],
+"FlowActionCreateChainVfxBase_TargetType": [
+"value__",
+"None",
+"Actor",
+"Bullet"
+],
+"FlowActionCreateFullScreenVfx_NodeType": [
+"value__",
+"Center",
+"LeftNode",
+"RightNode",
+"TopNode",
+"BottomNode"
+],
+"FlowActionCreateVfx_VfxForward": [
+"value__",
+"None",
+"BuffBullet"
+],
+"FlowActionGetBuffLeftTimeByType_MatchType": [
+"value__",
+"Any",
+"Longest"
+],
+"FlowActionReplaceSpecialSlot_Type": [
+"value__",
+"AttackMinion",
+"AttackTower"
+],
+"FlowActionSetVfx_Bind": [
+"value__",
+"Position",
+"Actor",
+"Bullet",
+"FollowBullet"
+],
+"FlowActionSetVfx_FuncType": [
+"value__",
+"None",
+"BackHome",
+"Kill",
+"BackHome_Baron",
+"GetRealCampPath",
+"SnowBall_Hit"
+],
+"FlowActionSetVfx_RemoveMode": [
+"value__",
+"ActionFinish",
+"FlowFinish",
+"FixTime"
+],
+"FlowActionSetVfx_SpecialMark": [
+"value__",
+"None",
+"WardRemind",
+"JungleGuide",
+"DistortEffect"
+],
+"FlowActionSetVfx_TextType": [
+"value__",
+"Title",
+"Name"
+],
+"FlowActionSetVfx_VfxForward": [
+"value__",
+"ForwardIdentity",
+"FollowBindForward",
+"ForwardActor",
+"ForwardPosition",
+"ForwardFix",
+"CameraForward",
+"JointForward",
+"FollowBindForwardVisi"
+],
+"FlowActionSetVfx_VisibleType": [
+"value__",
+"All",
+"AssignActor",
+"OurCamp",
+"EnemyCamp",
+"AsssignCamp",
+"ExcludeActor",
+"EnemyCampAndMe",
+"ExcludeCamp"
+],
+"FlowActionShakeCamera_CentrePos": [
+"value__",
+"Actor",
+"Position",
+"Bullet"
+],
+"FlowEventType": [
+"value__",
+"None",
+"Used",
+"_CommonStart",
+"FlowStop",
+"SkillCast",
+"SkillUsed",
+"SkillStop",
+"BeforeSkillFlash",
+"SkillFlash",
+"SkillInterrupt",
+"SkillCancel",
+"Custom1",
+"Custom2",
+"Custom3",
+"Custom4",
+"Custom5",
+"Custom6",
+"Custom7",
+"Custom8",
+"_CommonEnd",
+"_VisiStart",
+"ButtonDown",
+"ButtonUp",
+"ButtonDrag",
+"ButtonCharge",
+"SkillReplace",
+"SkipAnimation",
+"QuickEnter",
+"StarActor_HeroSelect_Out",
+"StarActor_Idle01_In",
+"StarActor_Idle02_In",
+"StarActor_Idle01",
+"StarActor_Idle02",
+"StarActor_Exit_0",
+"StarActor_Exit_1",
+"StarActor_Idle02_Out",
+"StarActor_Idle01_Stand02",
+"StarActor_Idle01_Stand03",
+"StarActor_Idle02_Stand02",
+"StarActor_Idle02_Stand03",
+"StarActor_Transform",
+"StarActor_TransformBack",
+"StarActor_Pet_Click",
+"StarActor_Pet_Feed",
+"StarActor_Pet_Leave",
+"StarActor_Pet_Enter",
+"StarActor_Pet_Fall",
+"StarActor_Pet_Drag",
+"StarActor_Pet_InGame_0",
+"StarActor_Pet_InGame_1",
+"StarActor_Pet_InGame_2",
+"StarActor_Pet_InGame_3",
+"StarActor_Pet_InGame_4",
+"StarActor_Pet_InGame_5",
+"StarActor_Pet_InGame_6",
+"StarActor_Pet_InGame_7",
+"StarActor_Pet_InGame_8",
+"StarActor_Pet_InGame_9",
+"StarActor_Transform_1",
+"StarActor_Transform_2",
+"StarActor_Transform_3",
+"StarActor_Transform_4",
+"StarActor_Transform_5",
+"StarActor_Pet_Thinking",
+"StarActor_Pet_Thinking_Finish",
+"StarActor_Pet_Idle_OnMatch",
+"StarActor_Pet_Lottery_Enter",
+"StarActor_Pet_Lottery_Standby",
+"StarActor_Pet_Lottery_Click",
+"StarActor_Pet_Lottery_Celebrate",
+"StarActor_Pet_Lottery_Celebrate_Super",
+"StarActor_Idle01_TriggerGroup_0",
+"StarActor_Idle01_TriggerGroup_1",
+"StarActor_Idle01_TriggerGroup_2",
+"StarActor_Idle01_TriggerGroup_3",
+"StarActor_Idle01_TriggerGroup_4",
+"StarActor_Idle02_TriggerGroup_0",
+"StarActor_Idle02_TriggerGroup_1",
+"StarActor_Idle02_TriggerGroup_2",
+"StarActor_Idle02_TriggerGroup_3",
+"StarActor_Idle02_TriggerGroup_4",
+"StarActor_Pet_MVP_Enter",
+"StarActor_Pet_MVP_Idle",
+"StarActor_Pet_MVP_T3_Celebrate",
+"StarActor_Pet_BattleLike_Enter",
+"StarActor_Pet_BattleLike_Idle",
+"StarActor_Pet_BattleLike_T3_Celebrate",
+"StarActor_Pet_Run",
+"StarActor_Pet_Idle_Only",
+"Disguise_FreeCollection_Complete",
+"Disguise_FreeCollection_Lane",
+"Disguise_FreeCollection_Single",
+"Disguise_FreeCollection_SelectSkin",
+"_VisiEnd",
+"_LgcStart",
+"InternalTimer",
+"SkillOperTimeOut",
+"BulletHit",
+"BulletFinish",
+"BulletBlock",
+"BulletOverstepTheMap",
+"BulletOverstepTheBattle",
+"BulletHitSceneBlock",
+"BulletArriveTargetPos",
+"BulletHitReflectBlock",
+"BuffApply",
+"BuffReduce",
+"BuffStackChange",
+"BuffRemove",
+"BuffFinish",
+"BuffImmnueFinish",
+"BuffCleanse",
+"BuffLateUpdate",
+"ForceMoveFinish",
+"GoldBodyStart",
+"GoldBodyFinish",
+"PolyMorphsStart",
+"PolyMorphsEnd",
+"ChangeModelStart",
+"ChangeModelEnd",
+"BulletSetTraceRadiusMax",
+"BulletSetTraceRadiusNormal",
+"BulletSetTraceRadiusZero",
+"BulletSetFinish",
+"BulletTargetUnSelectAble",
+"AttackTypeChange",
+"SkillReplaceOperateDataStart",
+"SkillReplaceOperateDataEnd",
+"StarActor_ChooseChampionIn",
+"StarActor_ChooseChampionOut",
+"GM1",
+"GM2",
+"GM3",
+"_LgcEnd",
+"LeveFlowTriggerVisi"
+],
+"FlowGetMonsterType": [
+"value__",
+"BIG_DRAGON",
+"SMALL_DRAGON",
+"ANCIENT_DRAGON",
+"RIFT_HERALD",
+"RED_BUFF",
+"BLUE_BUFF"
+],
+"FlowActionPlayAudio_AOCVisi": [
+"audioEventName",
+"keepAlive",
+"isSwitchMaterial",
+"audioPlayTarget",
+"audioOffset"
+],
+"<ProcessBattleWorkFlowsAsync>d__52": [
+"<>1__state",
+"<>2__current",
+"<>8__1"
+],
+"FlowVisiObjMgr": [
+"map"
+],
+"LogicFlowActionMgr": [
+"dict",
+"PREFIX"
+],
+"FlowActionRemoveType": [
+"value__",
+"None",
+"OnLeave",
+"OnReset"
+],
+"FlowActionSharedActorListOperator_ActorListOperationType": [
+"value__",
+"Add",
+"Remove",
+"New",
+"At",
+"Reverse",
+"Random",
+"SetElement",
+"Set",
+"ReverseSet",
+"Contain",
+"Diff"
+],
+"FlowActionSharedVector3ListOperator_OperationType": [
+"value__",
+"Add",
+"Remove",
+"New",
+"At",
+"Reverse",
+"Set",
+"ReverseSet",
+"SetListValue",
+"RemoveRangeByIndex",
+"RemoveRangeByValue"
+],
+"FlowOperator": [
+"value__",
+"None",
+"Equal",
+"NotEqual",
+"Greater",
+"Less",
+"GreaterEqual",
+"LessEqual"
+],
+"FlowStatus": [
+"value__",
+"Inactive",
+"Running",
+"Stopping",
+"Finished"
+],
+"FlowType": [
+"value__",
+"None",
+"SkillFlow",
+"BuffFlow",
+"BulletFlow",
+"ActorFlow",
+"JoystickFlow",
+"SceneFlow",
+"SpecialEventFlow",
+"ChallengeMissionFlow"
+],
+"FlowValueTypeLgc": [
+"value__",
+"Value",
+"Ratio"
+],
+"Flow_Layer": [
+"value__",
+"Visi",
+"Skill",
+"Bullet",
+"Buff",
+"Actor",
+"Custom",
+"SpecialEvent",
+"ChallengeMission",
+"Anchor",
+"Lgc",
+"All"
+],
+"Flow_StopFlags": [
+"value__",
+"None",
+"Set",
+"Stopping"
+],
+"ParallelFlowLevel": [
+"TypeID",
+"__Instance",
+"__InstanceLongValue",
+"NativeMap",
+"_wrapperPool",
+"_asset"
+],
+"SoldierSkillFlowResObject": [
+"TypeID",
+"_wrapperPool"
+],
+"UnitComponentParallelFlowRes": [
+"TypeID",
+"_wrapperPool"
+],
+"CustomFlow": [
+"_seriaTypeNo_ConfigVisi",
+"_inited"
+],
+"FlowActionClearSharedVarList": [
+"_seriaTypeNo_ConfigVisi",
+"sharedList"
+],
+"FlowActionClearSharedVar": [
+"_seriaTypeNo_ConfigVisi",
+"sharedVar"
+],
+"FlowActionFix64Operator": [
+"_seriaTypeNo_ConfigVisi",
+"fix64Var1",
+"operation",
+"fix64Var2",
+"resultVar"
+],
+"FlowActionFixVector3Operator": [
+"_seriaTypeNo_ConfigVisi",
+"operation",
+"notInTheBstruction",
+"keepHeight",
+"assignToVector3",
+"assignToFix64",
+"vector3Var1",
+"fix64Var1",
+"vector3Var2",
+"fix64Var2",
+"vector3Var3",
+"fix64Var3",
+"actor"
+],
+"FlowActionGetSharedListCount": [
+"_seriaTypeNo_ConfigVisi",
+"sharedVar",
+"assignTo"
+],
+"FlowActionModInt32Var": [
+"_seriaTypeNo_ConfigVisi",
+"modValue",
+"intVar"
+],
+"FlowActionSetSharedBool": [
+"_seriaTypeNo_ConfigVisi",
+"value",
+"sharedVar"
+],
+"FlowActionSetSharedFix64Value": [
+"_seriaTypeNo_ConfigVisi",
+"sharedFix64",
+"value",
+"valueVar"
+],
+"FlowActionSetSharedIntRange": [
+"_seriaTypeNo_ConfigVisi",
+"sharedVar",
+"minValue",
+"maxValue"
+],
+"FlowActionSetSharedInt": [
+"_seriaTypeNo_ConfigVisi",
+"sharedVar",
+"intVar"
+],
+"FlowActionSetSharedString": [
+"_seriaTypeNo_ConfigVisi",
+"strValue",
+"strVarIn"
+],
+"FlowActionSharedIntOperator": [
+"_seriaTypeNo_ConfigVisi",
+"intVar",
+"operation",
+"modVar"
+],
+"FlowActionSharedIntToFix64": [
+"_seriaTypeNo_ConfigVisi",
+"reverse",
+"intVar",
+"fix64Var"
+],
+"FlowAction": [
+"_seriaTypeNo_ConfigVisi",
+"ignore",
+"infinity",
+"preTick",
+"enterTime",
+"duration",
+"track",
+"_status"
+],
+"FlowEvaluatorCompare": [
+"_seriaTypeNo_ConfigVisi",
+"lhs",
+"rhs",
+"operatorType"
+],
+"FlowEvaluator": [
+"_seriaTypeNo_ConfigVisi",
+"parent",
+"combine",
+"inverte"
+],
+"FlowNodeCondition": [
+"_seriaTypeNo_ConfigVisi"
+],
+"FlowNodeCustom": [
+"_seriaTypeNo_ConfigVisi",
+"customFlowPath",
+"_customFlow",
+"expandInEditor"
+],
+"FlowNodeDuration": [
+"_seriaTypeNo_ConfigVisi",
+"duration",
+"infinity",
+"tracks",
+"actions",
+"elapsedTime"
+],
+"FlowNodeEvaluator": [
+"_seriaTypeNo_ConfigVisi",
+"evaluators"
+],
+"FlowNodeInstant": [
+"_seriaTypeNo_ConfigVisi"
+],
+"FlowNodeListener": [
+"_seriaTypeNo_ConfigVisi",
+"breakRunningNode",
+"coolDown",
+"triggerTime"
+],
+"FlowNodeLoop": [
+"_seriaTypeNo_ConfigVisi",
+"isForEach",
+"varList",
+"currentElement",
+"breakFlag",
+"start",
+"end",
+"step",
+"curIndex"
+],
+"FlowNodeRandomProb": [
+"_seriaTypeNo_ConfigVisi",
+"probability",
+"probabilityOfEach",
+"totalProbability"
+],
+"FlowNodeRandomShuffle": [
+"_seriaTypeNo_ConfigVisi",
+"shuffleIndex"
+],
+"FlowNodeRandom": [
+"_seriaTypeNo_ConfigVisi",
+"differentTheLastOne"
+],
+"FlowNodeSectionSwitch": [
+"_seriaTypeNo_ConfigVisi",
+"sections",
+"switchVar"
+],
+"FlowNodeSelectorBase": [
+"_seriaTypeNo_ConfigVisi",
+"current"
+],
+"FlowNodeSelector": [
+"_seriaTypeNo_ConfigVisi",
+"bSwitchInVar",
+"random",
+"resetOnFlowFinish",
+"caseArray",
+"rewindTime",
+"enterTime",
+"switchVar",
+"forceSwitchVar"
+],
+"FlowNodeSequence": [
+"_seriaTypeNo_ConfigVisi",
+"rewindTime",
+"resetOnFlowFinish",
+"enterTime"
+],
+"FlowNodeSubflow": [
+"_seriaTypeNo_ConfigVisi",
+"subFlowPath",
+"subflow"
+],
+"FlowNodeSwitch": [
+"_seriaTypeNo_ConfigVisi",
+"customCase",
+"caseArray",
+"switchVar"
+],
+"FlowNode": [
+"_seriaTypeNo_ConfigVisi",
+"stopping",
+"tickCount",
+"flow",
+"m_customFlow",
+"position",
+"originPos",
+"transitions",
+"_status",
+"nextNode"
+],
+"FlowObject": [
+"_seriaTypeNo_ConfigVisi",
+"DEFAULT_SKIN_TRACK_INDEX",
+"UPGRADED_SKIN_TRACK_INDEX",
+"id",
+"name",
+"desc"
+],
+"FlowSISNodeLoop": [
+"_seriaTypeNo_ConfigVisi",
+"sharedLoopList",
+"sharedLoopElement",
+"sharedLoopIndex",
+"sharedStartIndex",
+"sharedEndIndex"
+],
+"FlowSkinUpgradeConfig": [
+"_seriaTypeNo_ConfigVisi",
+"disableActionList"
+],
+"FlowTrack": [
+"_seriaTypeNo_ConfigVisi",
+"ignore",
+"node",
+"actions",
+"skinIndex"
+],
+"FlowTransition": [
+"_seriaTypeNo_ConfigVisi",
+"myNode",
+"toNode"
+],
+"Flow": [
+"_seriaTypeNo_ConfigVisi",
+"variables",
+"nodes",
+"skinUpgradeConfig",
+"listenerNodes",
+"infinity",
+"duration",
+"_genId",
+"assetPath",
+"_runningNode",
+"active",
+"_isPaused",
+"_invoking",
+"_stopping",
+"elaspedTime",
+"tickCount",
+"actor",
+"skill",
+"buff",
+"bullet",
+"_isRunning"
+],
+"SplitLogicFlow": [
+"_seriaTypeNo_ConfigVisi",
+"actionList"
+],
+"FlowTooltipsAttribute": [
+"tooltip"
+],
+"FlowNessecityAttribute": [
+"nessecityStr"
+],
+"FlowRpnAttribute": [
+"rpnAttr"
+],
+"FlowFieldAttribute": [
+"name",
+"arrayName",
+"types"
+],
+"FlowExposedTypeAttribute": [
+"type"
+],
+"FlowConditionAttribute": [
+"member",
+"valList"
+],
+"FlowTooltipsCNAttribute": [
+"tooltip"
+],
+"FlowNodeCategoryAttribute": [
+"category"
+],
+"FlowActionCategoryAttribute": [
+"category",
+"layer"
+],
+"FlowEvaluatorCategoryAttribute": [
+"category"
+],
+"FlowDesignerAttribute": [
+"designerClassName"
+],
+"FlowInspectorAttribute": [
+"inspectorClassName"
+],
+"FlowAssetPathAttribute": [
+"typeid"
+],
+"FlowAssetPreloadAttribute": [
+"priority",
+"count",
+"capacity",
+"userData"
+],
+"FlowColorAttribute": [
+"color"
+],
+"FlowTextAreaAttribute": [
+"lines"
+],
+"FlowCategoryAttribute": [
+"category"
+],
+"FlowActionTypeAttribute": [
+"type"
+],
+"FlowValueType": [
+"value__",
+"Value",
+"Ratio"
+],
+"AsyncFlowControl": [
+"useEC",
+"_ec",
+"_thread"
+],
+"SecurityContextDisableFlow": [
+"value__",
+"Nothing",
+"WI",
+"All"
+]
+}

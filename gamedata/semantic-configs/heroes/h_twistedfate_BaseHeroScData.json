@@ -1,0 +1,121 @@
+{
+ "name": "hero_10025_BaseHeroScData",
+ "source": "Assets/ABPack/Resources/DataLayerCombined/MR/WorkFlow/Hero/10025/10025.bytes",
+ "vfs": "ff05597c06ac9302be9704ceec126e3e",
+ "size": 25640,
+ "md5": "c69d4465276937f015ba4e70889a4af6",
+ "record_count": 9,
+ "record_end": 68,
+ "parse_confidence": 0.8,
+ "schema": "star_def.BaseHeroScData (record layout native)",
+ "schema_alignment_confidence": "none",
+ "container_records": 0,
+ "payload_records": 9,
+ "labeled_records": 0,
+ "parse_errors": [
+  "record stream stopped at unknown type 0x0"
+ ],
+ "hints": {
+  "name_keys": [],
+  "desc_keys": [],
+  "formulas": [
+   "kill.basicdamage+att.attr_magic*s!",
+   "_preWorkFlow/Hero/10025/",
+   ".basicdamage+att.attr_magic*!"
+  ],
+  "flows": [],
+  "attr_refs": [
+   "attr_magic"
+  ]
+ },
+ "strings": [
+  "_0[7u",
+  "kill.basicdamage+att.attr_magic*s!",
+  "tt.tf_e_gold_total",
+  "$oyellowx",
+  "_,yH!",
+  "MO%Z&Z&Z%ZIO",
+  "Actors/h_twistedfate/Skin00/InGame",
+  "_preWorkFlow/Hero/10025/",
+  "pbornNew",
+  "Visi/Common/hero\"",
+  "__visiP",
+  "dieLegoClipNameResObject.",
+  "0spell03&",
+  "1attack02'",
+  "3run_fast'",
+  "qskill01",
+  ".basicdamage+att.attr_magic*!",
+  "apratiototal(",
+  "eP+10y_",
+  "1slowrateP+0.05",
+  "P+15manrecoverP+30",
+  "pP+5stun",
+  "t0.8half",
+  "0625active",
+  "dsecond ",
+  "4P+450.6bonus",
+  "speedasdu",
+  "pnunused",
+  "tf_e_gold_",
+  "earnedpassive_@",
+  "onP+1cast",
+  "?_bts",
+  "2red_radius2.75e_spinenone",
+  "Effects/Default/T`",
+  "o_fly01M",
+  "/?_twP",
+  ":p_twBuff",
+  "O_add",
+  "0UI/_",
+  "addmoney",
+  "jiansu_buff0-F",
+  "FlyText_Stunh",
+  "qxuanyuni",
+  "ps_battl",
+  "}zzyiconk",
+  "Rcard_",
+  "_reset",
+  "disappeag",
+  "loadeddice_O",
+  "addhurt_reflect"
+ ],
+ "fields": {
+  "field_0": {
+   "t": 16,
+   "v": 0
+  },
+  "field_1": {
+   "t": 33,
+   "v": 524740
+  },
+  "field_2": {
+   "t": 34,
+   "v": 578800
+  },
+  "field_3": {
+   "t": 27,
+   "v": 6312
+  },
+  "field_4": {
+   "t": 4,
+   "v": 40
+  },
+  "field_5": {
+   "t": 34,
+   "v": 1113342
+  },
+  "field_6": {
+   "t": 162,
+   "v": 2648
+  },
+  "field_7": {
+   "t": 5,
+   "v": 0
+  },
+  "field_8": {
+   "t": 4,
+   "v": 4335
+  }
+ }
+}

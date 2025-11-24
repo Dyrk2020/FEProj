@@ -1,0 +1,41 @@
+{
+ "file": "16cb8fc9f0bb1e3df75ed148e5a2e3a7.vfs__044_Assets_ABPack_Resources_NewFlows_Skill_Equip_Blackcloak_BUFF1.bytes",
+ "inc32_global_offsets": [
+  "0x23f2",
+  "0x23f7",
+  "0x23fc",
+  "0x240a",
+  "0x240e",
+  "0x2414",
+  "0x241c",
+  "0x2425",
+  "0x242e",
+  "0x2435",
+  "0x243e"
+ ],
+ "dec24_object_offsets": [
+  "0x21ba00",
+  "0x213600",
+  "0x20b200",
+  "0x1fee00",
+  "0x1f6a00",
+  "0x1ee600",
+  "0x1e7a00",
+  "0x1df600",
+  "0x1d7200",
+  "0x1cee00",
+  "0x1c8200"
+ ],
+ "names_via_delta_segmentation": [
+  "owner",
+  "giver",
+  "buffLayerCount",
+  "flow",
+  "target",
+  "attacker",
+  "HurtValue",
+  "finishvar",
+  "skillID",
+  "Guiddamag"
+ ]
+}
