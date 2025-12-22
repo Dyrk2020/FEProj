@@ -1,0 +1,195 @@
+{
+  "consume_points": [
+    {
+      "va": "0x2a35f38",
+      "insns": [
+        "0x2a35f38: mov x8, x0",
+        "0x2a35f60: ldrb w9, [x1, #1]",
+        "0x2a35f70: ldrb w9, [x1]",
+        "0x2a35f8c: ldrb w9, [x1, #3]",
+        "0x2a35f98: ldrb w9, [x1, #2]",
+        "0x2a35fb4: ldrb w10, [x1, #4]",
+        "0x2a35fb8: cmp x10, #0xa",
+        "0x2a35fbc: strb w10, [x8, #4]",
+        "0x2a35fec: add x14, x1, x9",
+        "0x2a35ff0: ldrb w15, [x14, #3]",
+        "0x2a36030: ldrb w14, [x14, #4]",
+        "0x2a36034: cmp x11, x10",
+        "0x2a36040: b.lo #0x2a35fe4"
+      ],
+      "usage": "5B-record DECODER (direct buffer): reads wire [03][01][val_hi][val_lo][idx] byte-wise and rebuilds in-memory struct {u16 0x0301 @0, u16 value @2 (LE), u8 playerIdx @4}; playerIdx validated <=0xa (cmp #0xa); follow-on 6-byte records (u32+u16 BE) looped idx times (stride 6). The u16 value (per-player lane position) is assembled from ldrb [x1,#3]+[x1,#2] into dst[2..3].",
+      "conf": "high"
+    },
+    {
+      "va": "0x2a36078",
+      "insns": [
+        "0x2a36078: ldp x8, x9, [x1, #8]",
+        "0x2a36098: ldrb w8, [x8, #1]",
+        "0x2a3609c: strb w8, [x0]",
+        "0x2a360a4: ldrb w8, [x8, x9]",
+        "0x2a360a8: strb w8, [x0, #1]",
+        "0x2a360d4: ldrb w8, [x8, #1]",
+        "0x2a360d8: strb w8, [x0, #2]",
+        "0x2a360e0: ldrb w8, [x8, x9]",
+        "0x2a360e4: strb w8, [x0, #3]",
+        "0x2a36108: ldrb w8, [x9, x8]",
+        "0x2a3610c: strb w8, [x0, #4]",
+        "0x2a36114: cmp x8, #0xa"
+      ],
+      "usage": "5B-record DECODER (ring-buffer variant of 0x2a35f38): reads wire bytes 1,0,3,2,4 -> dst {u16 0x0301, u16 value, u8 idx}; cmp #0xa player-index bound (0x2a36114).",
+      "conf": "high"
+    },
+    {
+      "va": "0x2a3e0dc",
+      "insns": [
+        "0x2a3e0dc: mov x8, x0",
+        "0x2a3e108: ldrb w9, [x1, #1]",
+        "0x2a3e118: ldrb w9, [x1]",
+        "0x2a3e11c: strb w9, [x8, #1]",
+        "0x2a3e134: ldrb w9, [x1, #3]",
+        "0x2a3e13c: strb w9, [x8, #2]",
+        "0x2a3e140: ldrb w9, [x1, #2]",
+        "0x2a3e144: strb w9, [x8, #3]",
+        "0x2a3e15c: ldrb w9, [x1, #4]",
+        "0x2a3e164: strb w9, [x8, #4]"
+      ],
+      "usage": "Second copy of the 5B-record DECODER (same wire->memory mapping: [03][01][u16 BE][u8 idx], bytes 1,0,3,2,4 -> dst 0..4). No idx bound check in this copy (bound check lives in the 0x2a35f38/0x2a36078 variants). Codec family has multiple instances (direct + ring + duplicated).",
+      "conf": "high"
+    },
+    {
+      "va": "0x2a35c3c",
+      "insns": [
+        "0x2a35c3c: cbz x1, #0x2a35c58",
+        "0x2a35c64: ldrh w8, [x0]",
+        "0x2a35c70: lsr w9, w8, #8",
+        "0x2a35c74: strb w9, [x1]",
+        "0x2a35c78: strb w8, [x1, #1]",
+        "0x2a35c90: ldrh w8, [x0, #2]",
+        "0x2a35c98: lsr w9, w8, #8",
+        "0x2a35c9c: strb w9, [x1, #2]",
+        "0x2a35ca0: strb w8, [x1, #3]",
+        "0x2a35cb8: ldrb w8, [x0, #4]",
+        "0x2a35cc4: cmp w8, #0xa"
+      ],
+      "usage": "5B-record ENCODER (direct): mirror of 0x2a35f38. Reads memory u16s (ldrh [x0] = tag 0x0301, ldrh [x0,#2] = value) and u8 idx ([x0,#4], cmp #0xa) and emits wire [03][01][value_hi][value_lo][idx] (BE byte pair). Confirms in-memory record struct = {u16 0x0301, u16 value, u8 idx} and wire BE encoding.",
+      "conf": "high"
+    },
+    {
+      "va": "0x2a35d94",
+      "insns": [
+        "0x2a35d94: ldp x8, x9, [x1, #8]",
+        "0x2a35db0: ldrh w9, [x0]",
+        "0x2a35db8: lsr w11, w9, #8",
+        "0x2a35dbc: strb w11, [x10, x8]",
+        "0x2a35df0: ldrh w9, [x0, #2]",
+        "0x2a35df8: lsr w11, w9, #8",
+        "0x2a35e2c: ldrb w9, [x0, #4]",
+        "0x2a35e44: ldrb w8, [x0, #4]",
+        "0x2a35e48: cmp w8, #0xa"
+      ],
+      "usage": "5B-record ENCODER (ring-buffer variant of 0x2a35c3c): same u16 reads (ldrh [x0], [x0,#2]) + idx (ldrb [x0,#4], cmp #0xa) into a ring buffer [x1].",
+      "conf": "high"
+    },
+    {
+      "va": "0x461f210",
+      "insns": [
+        "0x461f208: ldr x8, [x8, x24, lsl #3]",
+        "0x461f210: ldrh w8, [x8, #0xa]",
+        "0x461f218: str w8, [sp]",
+        "0x461f220: str w8, [x1], #4",
+        "0x461f25c: mov x0, sp",
+        "0x461f260: bl #0x461d134",
+        "0x461f26c: mov x0, x20",
+        "0x461f274: bl #0x461f44c"
+      ],
+      "usage": "u16 CONSUME (position integration): iterates per-player list ([x22] = begin/end of 8-byte pointers), reads u16 at player+0xa (per-player lane position, already decoded), stores it at [sp] as the Fix32 input, then tail-calls the Fix32 integrator (0x461f274 -> 0x461f44c). Direct integer path, no float constants.",
+      "conf": "high"
+    },
+    {
+      "va": "0x461f274",
+      "insns": [
+        "0x461f278: ldrsw x8, [sp]",
+        "0x461f27c: ldr x9, [x20, #0x28]",
+        "0x461f280: ldr x10, [x20, #0x38]",
+        "0x461f284: mov w11, #0x2000",
+        "0x461f288: bfi x11, x8, #0xe, #0x32",
+        "0x461f28c: mul x8, x11, x9",
+        "0x461f290: add x8, x10, x8, asr #14",
+        "0x461f294: ldrsw x10, [sp, #4]",
+        "0x461f298: stp x8, xzr, [x19]",
+        "0x461f29c: ldr x8, [x20, #0x48]",
+        "0x461f2a8: mul x9, x11, x9",
+        "0x461f2ac: add x8, x8, x9, asr #14",
+        "0x461f2b4: str x8, [x19, #0x10]"
+      ],
+      "usage": "Fix32 position integrator (mid-entry -> 0x461f44c prologue): pos = base([x20+0x38]) + Fix32(u16) * speed([x20+0x28]); Fix32(u16) = (u16 & 0x3FFFF) << 14 | 0x2000 (i.e. u16*16384 + rounding); >>14 after multiply. Second axis from [sp+4] x [x20+0x48]. PURE INTEGER math — matches 'no float position constants, conversion must be integer/Fix32'. u16 1 LSB = 1/16384 Fix32 = 0.22888 map units when speed Fix32 = 15000 (0x3A98, 15000/65536=0.22888).",
+      "conf": "high"
+    },
+    {
+      "va": "0x2a35104",
+      "insns": [
+        "0x2a35104: cbz x1, #0x2a3512c",
+        "0x2a3510c: ldrb w9, [x1]",
+        "0x2a35110: cmp x9, #0x32",
+        "0x2a35164: add x14, x1, x10",
+        "0x2a35168: ldrb w16, [x14, #4]",
+        "0x2a35178: ldrb w16, [x14, #3]",
+        "0x2a35180: ldrb w16, [x14, #2]",
+        "0x2a35188: ldrb w16, [x14, #1]",
+        "0x2a35194: ldrb w15, [x14, #6]",
+        "0x2a351a8: ldrb w14, [x14, #5]"
+      ],
+      "usage": "Related codec (different variant): count-byte header (cmp #0x32 = 50-byte entry limit) + reversed byte-wise copy of 6-byte records (stride 6). Same family as 0x2a35xxx codecs but layout has no 0x0301 tag; likely serves the 0x32-byte frame-entry message (cf. 0x1a5d3f4).",
+      "conf": "med"
+    },
+    {
+      "va": "0x1a5d3f4",
+      "insns": [
+        "0x1a5d420: ldr w9, [x20, #0x18]",
+        "0x1a5d428: ldr w10, [x19, #8]",
+        "0x1a5d434: rev w24, w10",
+        "0x1a5d450: str w24, [x8, w9, sxtw]",
+        "0x1a5d46c: ldrh w11, [x22]",
+        "0x1a5d478: rev w11, w11",
+        "0x1a5d47c: lsr w24, w11, #0x10",
+        "0x1a5d498: strh w24, [x8, w9, sxtw]",
+        "0x1a5d4b8: bl #0x42ea090"
+      ],
+      "usage": "Frame encoder (different message): iterates 0x32-byte frame entries ([x22] list), reads u16 at entry+0 (ldrh [x22]) + u32, byte-swaps (rev) and appends BE [u32][u16] to wire buffer. Not the 5B-record path but shares BE-u16 wire encoding and 0x32 entry size.",
+      "conf": "med"
+    }
+  ],
+  "constants": [
+    {
+      "va": "0x5641278",
+      "value": "0x5f61746144727474 = ASCII 'ttrData_' (assert message fragment \"AttrData_GetAttrNoHookConstantSync's FE::GetFEInterfaceConfig() == null\")",
+      "type": "string bytes (not numeric)",
+      "usage": "0x42ea550 loads it as d0 (ldr d0,[0x5641278]) into the state struct field — assert/debug string bytes, NOT a position scale constant [INFERENCE: red-herring/leftover]"
+    },
+    {
+      "va": "0x5675240",
+      "value": "{u32 27000=0x6978, u32 13500=0x34BC}",
+      "type": "u32 pair",
+      "usage": "type=7 frame-req thresholds, stored to msg+0x48 (0x1a5e268/0x1a5e26c)"
+    },
+    {
+      "va": "0x5679480",
+      "value": "1e-6 (double)",
+      "type": "double",
+      "usage": "us->s helper (0x1a5e738/0x1a5e758) — timing, unrelated to position"
+    },
+    {
+      "va": "0x5679488",
+      "value": "1000.0 (double)",
+      "type": "double",
+      "usage": "s->ms scale — timing, unrelated to position"
+    },
+    {
+      "va": "none",
+      "value": "no float/double 7500, 32768, 15000, 0.22888, 0.11444 anywhere in .text (bit-exact scan 0 hits)",
+      "type": "negative evidence",
+      "usage": "u16->position is integer Fix32 only: (u16<<14 | 0x2000) * speedFix32 >> 14 at 0x461f274; 1 LSB = 1/16384 Fix32 = 0.22888 units when speedFix32 = 15000"
+    }
+  ],
+  "notes": "Consume chain: wire [u32 type7][u32 seq][02][00][subtype][focus][] -> 5B-record DECODER 0x2a35f38 (byte-wise, no marker compares; idx bound cmp #0xa) -> in-memory record {u16 0x0301, u16 value, u8 idx} -> player entry (u16 at +0xa) -> Fix32 integrator 0x461f210/0x461f274 (integer: bfi #0xe + mul + asr #14). The 0x42e island (0x42e7190-0x42eb190) and the 0x1a57 island (0x1a57000-0x1a5b190) contain NO payload byte reads: 0x42e ldrh sites (0x42e85d8/0x42e87b4/0x42eb844/0x42ebf20) are singleton-registry ID lookups (ldrh [x12,#2]+cmp); 0x1a57 island (4096 insns) has only ldrb [x26,#0x78] (log flag) + ldr [x,#0x10/0x18/0x20]. sync-apply chain (0x42e9874/0x42e91c4/0x42ea488/0x42ea550/0x42ea6a0) consumes already-decoded values. Global evidence: exactly 1 rev16 in whole .text (0x1a5fb78, message-flags switch 0x700/0x800 — unrelated); lsl#8 sites are a compressor (0x429b204+), div-255 helper (0x483415c), LUT accessor (0x4cdee78), clz-log2 encoder (0x5367694) — none decode the record u16 (it is decoded byte-wise, consistent with positional parse + previous negative evidence). The 0x2a35xxx codec family is reached only via runtime-built method pointers (no static bl sites, no 8-byte data refs, no adrp refs) [INFERENCE]. 0x1a56c60's bl #0x42e9bf4 passes garbage x9/w25 -> decoy/log-fragment path (dead at runtime [INFERENCE]); real payload path is 0x1aa1028 buffer copy."
+}

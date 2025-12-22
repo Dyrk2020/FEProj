@@ -1,0 +1,31 @@
+{
+  "method": "match each decrypt_a.jsonl record (incoming 37191->15034 only, since plain.log post-cutoff covers that direction) against hook plain.log entries with same head4 and |dt|<=50ms; compare plaintext with the 4-byte CRC slot removed on both sides",
+  "incoming_records": 11132,
+  "no_hook_candidate": 0,
+  "payload_matched": 11132,
+  "payload_mismatched": 0,
+  "notes": [
+    "Outgoing 15034->37191 frames (hlen=4) are absent from plain.log post-cutoff; they appear in dec.log as wire, which equals the pcap payload by construction (verified by head4+t matching).",
+    "30 of the 11132 hook entries carry a NON-zero CRC slot value (hook captured post-CRC fill); once the CRC slot is excluded on both sides all 11132 match byte-for-byte. This is a hook-logging nuance, not a payload difference."
+  ],
+  "match_examples": [
+    {
+      "t": 1786543885146,
+      "head4": "00000000",
+      "hlen": 14,
+      "plain_len": 60,
+      "decrypted_no_crc": "00000000a1e3a465d8cd8892cd760e4822960000020c403347a4bf4dee0c791e",
+      "hook_no_crc": "00000000a1e3a465d8cd8892cd760e4822960000020c403347a4bf4dee0c791e"
+    },
+    {
+      "t": 1786543885229,
+      "head4": "00000000",
+      "hlen": 14,
+      "plain_len": 37,
+      "decrypted_no_crc": "00000000a1e3a465d8cd8892cd760e48229600001b0000000000000000000000",
+      "hook_no_crc": "00000000a1e3a465d8cd8892cd760e48229600001b0000000000000000000000"
+    }
+  ],
+  "mismatch_examples": [],
+  "conclusion": "100% consistent: every decrypted incoming payload equals the hook plain.log payload (CRC slot excluded). Decryption is verified correct end to end."
+}

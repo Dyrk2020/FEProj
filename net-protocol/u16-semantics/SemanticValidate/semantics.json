@@ -1,0 +1,110 @@
+{
+  "slice": "SemanticValidate",
+  "date": "2026-08-12",
+  "project": "<research-workspace>",
+  "corpus": [
+    "work/type07-parse-20260812/Type07Extract/type07_frames.jsonl (14,725 type=07 frames)",
+    "work/type07-parse-20260812/Type07Extract/ch06_frames.jsonl (10,142 ch=06 uplinks)"
+  ],
+  "evidence_marks": "✅=direct observation, [V]=two-sided reconciliation, [I]=inference",
+  "u16_semantics": {
+    "verdict": "per-player longitudinal position (map long-axis coordinate from own base)",
+    "verdict_short": "position",
+    "encoding": "u16 LE; 15-bit effective in normal play (value in [0,32768) for 99.98% of records); bit15=0 in own half",
+    "static_confirmation": "Fix32 integer integration at 0x461f274 (bfi #0xe + mul + asr #14): pos = baseline + (v+0.5) x speed/16384; speed = 1875 (0x753) gives exactly the data-derived 0.11444 u/LSB; consumer chain dispatcher 0x1936c94 -> 0x1a5e20c -> 0x1a56b14 -> sync-apply 0x42e9874 -> per-team 0x42e91c4 -> 0x42ea550/0x461f274 (StaticLocate report.md)",
+    "confidence": "high for position semantics and unit scale [V]; medium for exact axis anchor",
+    "anchors": {
+      "own_base": "≈500-900 LSB (≈60-100 u at 0.11444 scale)",
+      "mid_lane": "32768 LSB (= 3750 u at 0.11444 scale; = 7500 u at 0.22888 scale)",
+      "enemy_base": "65536 LSB (= 7500 u at 0.11444 scale)",
+      "local_player_max": "32710 LSB (observed; = mid-lane)",
+      "deep_push_max": "58534 LSB by player 1 late game (= 6698 u at 0.11444 scale, enemy territory)"
+    },
+    "sentinel": "0xffff = dead/absent/invalid (4,161 of 174,161 records = 2.4%)"
+  },
+  "evidence": {
+    "trajectory": {
+      "mark": "✅",
+      "detail": "ch=06 uplink subtype 010301 carries the local player's value (8,274 samples, ~14.7/s). Trajectory: spawn 5076 LSB (581 u) -> lane ~7839 LSB (~900 u) -> mid 32710 LSB (3743 u) at t+95s; recalls drop value to 57-2700 LSB (7-310 u); repeated base<->lane<->mid trips; final minutes show retreats to base. Consistent with a real champion game path, not an angle/input/resource."
+    },
+    "walking_speed": {
+      "mark": "✅",
+      "detail": "Per-sample |delta| mass: 63% < 500 LSB/70ms (standing+walking), mean of 50-500 LSB/70ms band ~200 LSB/70ms = 2857 LSB/s = 327 u/s at 0.11444 scale (= champion walking 330-390 u/s). Dash mode at 450-550 LSB/70ms = ~817 u/s at 0.11444 (= dash speed). The same numbers at 0.22888 scale give 654/1635 u/s — implausible for WR champions."
+    },
+    "recall_teleports": {
+      "mark": "✅",
+      "detail": "Single-sample jumps cluster at 24000-32500 LSB (recall mid->base = 2746-3719 u) and 62000-65000 LSB (enemy-base->base = 7095-7437 u). Positional teleport signature; angle would not jump by exact map-half distances."
+    },
+    "map_anchor_saturation": {
+      "mark": "✅",
+      "detail": "99.98% of values < 32768; local player max 32710-32768 LSB = mid-lane saturation; only player 1 (26 records) exceeds 32768 (late-game deep pushes 37032-58534 LSB = 4238-6698 u). An angle would cover the full circle uniformly; a position caps at the map's longitudinal extent."
+    },
+    "uplink_echo": {
+      "mark": "[V]",
+      "detail": "ch=06 010301 value equals type=07 player-0 record exactly in 13.8% of samples within 400 ms (median lag ~86 ms; highest match rate of all players -> player 0 = local client). Remaining samples differ (server-authoritative/interpolated position). Direction cross-check: ch=06 = client->server (hlen=14), type=07 = server->client (hlen=4)."
+    },
+    "per_player_distinct": {
+      "mark": "✅",
+      "detail": "Cross-player exact duplicate values in the same frame: 559 of ~130k values (0.4%; 538/12858 frames). Values are per-player distinct, position-like."
+    },
+    "candidate_rejections": {
+      "angle": "REJECTED — uniform [0,32768) with mid saturation (not full circle); trajectory base<->lane<->mid; recall jumps are displacements not rotations",
+      "input": "REJECTED — uniform full-range distribution (joystick would hug neutral); smooth physical trajectory; server broadcasts all players' values (state, not input)",
+      "resource": "REJECTED — full-range uniform, dash jumps, ffff sentinel; HP/mana/gold would be smooth and bounded"
+    }
+  },
+  "structure": {
+    "frames": 14725,
+    "records_player_0_10": 174161,
+    "records_total_markers": 175520,
+    "record_layout": "03 01 [u16 value BE on wire][u8 player 0..10]",
+    "window": "14-slot sliding window per frame (7 old + 7 new); consecutive frames share 6-7 slots; resent slots may carry refreshed values; underlying stream = per-player state update events (~1.4 events/player/frame)",
+    "secondary_cells": {
+      "03cc": "399 cells — 03 cc [u16][player], echoes uplink subtype 0103cc events",
+      "04cd": "3608 cells — 04 cd [u32][player]-like, echoes uplink subtype 0104cd events"
+    },
+    "block_0e": "15 B: 0e 65 03 00 00 [6B counter] ff ff ff ff; counter = game frame x 2^32 fixed-point clock; rate 6.32e10/s = 2^32 x 14.7 fps (977 blocks)",
+    "block_0d": "14 B: 0d 0c 06 XX 01 YY 09 65 ZZ 06 00 00 00 00; u24 counter +2 per frame (615830 @seq396)",
+    "false_positive_records": "records with player index >= 11 (1359 total) = 03 01 patterns inside 0d/0e blocks (e.g. (0x0109, 0x65) from block bytes 03 01 01 09 65) plus rare genuine extra entities",
+    "pre_game_frames": "seq 0-79 (pre-controllable phase) carry no 03 01 records; record stream starts at seq~80"
+  },
+  "focus_mechanism": {
+    "mark": "[V]",
+    "detail": "focus byte = frame's primary entity. Focus=X frames carry 8-10 of the 11 entities; X fully absent in 41.6% of frames; when present, X's record is 2.6x more likely in the NEW window half (refreshed preferentially). focus varies 0-10 across frames -> NOT the local player.",
+    "player_0": "local client (ch=06 echo)"
+  },
+  "clocks": {
+    "msgseq": "+1 per frame, 14723/14725 gaps=1 ✅",
+    "0e_clock": "game frame x 2^32 fixed point, 6.32e10/s ✅",
+    "0d_counter": "+2 per frame ✅",
+    "fps": "~14.7 (frame interval median 68 ms) ✅"
+  },
+  "full_field_table": [
+    {"field": "msgseq", "offset": "body[0:4]", "type": "u32 BE", "semantics": "frame sequence = head4_low28 - 43", "evidence": "✅ 14723/14725"},
+    {"field": "const", "offset": "body[4]", "type": "u8", "value": 2, "semantics": "protocol constant", "evidence": "✅ 14724/14725"},
+    {"field": "const", "offset": "body[5]", "type": "u8", "value": 0, "semantics": "protocol constant", "evidence": "✅ 14725/14725"},
+    {"field": "subtype", "offset": "body[6]", "type": "u8", "semantics": "frame density band (~record count - 5)", "evidence": "✅"},
+    {"field": "focus", "offset": "body[7]", "type": "u8", "semantics": "frame primary entity 0..10", "evidence": "[V]"},
+    {"field": "record", "offset": "body[8:]", "type": "5B cell", "semantics": "03 01 [u16 longitudinal position][u8 player]; 14-slot sliding window", "evidence": "✅"},
+    {"field": "value u16", "offset": "record[2:4]", "type": "u16", "semantics": "per-player longitudinal position from own base; 1 LSB = 0.11444 u (7500-u map); 32768 = mid; 65535 = invalid", "evidence": "✅/[V]"},
+    {"field": "player", "offset": "record[4]", "type": "u8", "semantics": "entity index 0..10 (10 players + extra)", "evidence": "✅"},
+    {"field": "0e block", "offset": "record area", "type": "15B", "semantics": "game frame x 2^32 fixed-point clock + ffff sentinel", "evidence": "✅"},
+    {"field": "0d block", "offset": "record area", "type": "14B", "semantics": "event block with u24 counter +2/frame", "evidence": "✅"},
+    {"field": "03cc cell", "offset": "record area", "type": "5B", "semantics": "secondary record type (event echo)", "evidence": "[V]"},
+    {"field": "04cd cell", "offset": "record area", "type": "6B", "semantics": "secondary record type (event echo)", "evidence": "[V]"},
+    {"field": "tail", "offset": "frame end", "type": "1-2 B 00", "semantics": "padding", "evidence": "✅"}
+  ],
+  "open_items": [
+    "QemuSim: runtime call of 0x461f274 (and 0x42ea550 chain) to confirm Fix14 speed multiplier x9 = 1875",
+    "HookPrep: in-match Frida dump to confirm runtime u16->Fix32 position object writes",
+    "precise axis anchor (own-base longitudinal vs fixed origin): own-base model explains both-teams-near-0 at game start and the [0,32768) distribution [I].",
+    "t+95s rapid mid<->base teleport episodes + ffff clusters interpreted as death/respawn/ability-flight artifacts [I].",
+    "focus byte exact role (priority entity vs excluded entity) [I].",
+    "trailing u16 counter in ch=06 010301 payload (monotonic, ~1071/s) role [I].",
+    "frame-req thresholds {27000,13500}@0x5675240 and double@0x5641278 semantics [I]."
+  ],
+  "artifacts": {
+    "analysis_script": "work/u16-semantics-20260812/SemanticValidate/analyze_u16.py",
+    "markdown": "work/u16-semantics-20260812/SemanticValidate/semantics.md"
+  }
+}

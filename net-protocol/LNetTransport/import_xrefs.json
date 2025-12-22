@@ -1,0 +1,174 @@
+{
+ "sendto": [
+  "0xbef44"
+ ],
+ "recvfrom": [
+  "0xbf3a0"
+ ],
+ "send": [
+  "0xbef0c"
+ ],
+ "recv": [
+  "0xbf32c"
+ ],
+ "socket": [
+  "0x8e8e4",
+  "0xba3e4",
+  "0x10e8e0"
+ ],
+ "connect": [
+  "0x8e928",
+  "0xbc470",
+  "0x10e900",
+  "0x10e948"
+ ],
+ "getaddrinfo": [
+  "0x8d7b4"
+ ],
+ "freeaddrinfo": [
+  "0x8d970"
+ ],
+ "gethostbyname": [
+  "0x8ddf4"
+ ],
+ "poll": [
+  "0x83124",
+  "0x102d54",
+  "0x1c287c"
+ ],
+ "select": [
+  "0x7ff24",
+  "0xc1568"
+ ],
+ "setsockopt": [
+  "0xbb9e0",
+  "0xbdf18",
+  "0xbeb0c",
+  "0xbfaa4",
+  "0xbfef0"
+ ],
+ "getsockopt": [
+  "0xbdbf4",
+  "0xbe1d8",
+  "0xbe528"
+ ],
+ "getsockname": [
+  "0x8e944"
+ ],
+ "inet_ntop": [
+  "0x8d878",
+  "0x8de38",
+  "0x8e95c",
+  "0x920f8",
+  "0x921e0",
+  "0x921f8"
+ ],
+ "inet_pton": [
+  "0x905e4",
+  "0x90878"
+ ],
+ "ioctl": [
+  "0x169ca4",
+  "0x16a178",
+  "0x16a49c",
+  "0x1c283c"
+ ],
+ "getprotobyname": [
+  "0xb9e6c"
+ ],
+ "getpid": [
+  "0xeb4b0",
+  "0x102418",
+  "0x102c94"
+ ],
+ "close": [
+  "0x8e97c",
+  "0x8e9b4",
+  "0x8e9d4",
+  "0xac6d8",
+  "0xac880",
+  "0xac8d4",
+  "0xba784",
+  "0x102e04",
+  "0x10eae8"
+ ],
+ "pipe": [
+  "0xac6ac"
+ ],
+ "fcntl": [
+  "0xbb30c",
+  "0xbb3b0"
+ ],
+ "dup2": [
+  "0xac8e0",
+  "0xac8ec"
+ ],
+ "syscall": [
+  "0xe1fd4",
+  "0xe2000",
+  "0x1c1478",
+  "0x1c1560",
+  "0x1c15d8"
+ ],
+ "write": [
+  "0x10e9ac",
+  "0x10e9dc",
+  "0x170104",
+  "0x170124",
+  "0x1c2320"
+ ],
+ "writev": [
+  "0x1c2744"
+ ],
+ "read": [
+  "0xac708",
+  "0x102d74",
+  "0x10ea00",
+  "0x10ea68",
+  "0x1c2654"
+ ],
+ "fopen": [
+  "0xf81a8",
+  "0xf85dc",
+  "0x169c50",
+  "0x169c7c",
+  "0x1c2544"
+ ],
+ "snprintf": [],
+ "strerror": [
+  "0x849e0",
+  "0x86e68",
+  "0xac94c",
+  "0xdb204",
+  "0xfbd1c",
+  "0x1bbe70",
+  "0x1bbea8"
+ ],
+ "getuid": [
+  "0x102e9c"
+ ],
+ "fork": [
+  "0xac6b8"
+ ],
+ "execlp": [
+  "0xac934",
+  "0xac98c"
+ ],
+ "kill": [
+  "0xadffc",
+  "0xae1d8"
+ ],
+ "prctl": [],
+ "mmap": [],
+ "munmap": [],
+ "mprotect": [],
+ "dlopen": [
+  "0x14f038",
+  "0x14f634"
+ ],
+ "dlsym": [
+  "0x14f1e4",
+  "0x14f2dc",
+  "0x14f648"
+ ]
+}

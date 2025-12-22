@@ -1,0 +1,98 @@
+{
+  "slice": "DecryptFlowB",
+  "flow": "15034<->37191",
+  "t_min": 1786543885146,
+  "t_max": 1786544912887,
+  "total_frames": 26690,
+  "success": 26690,
+  "failure": 0,
+  "success_rate": 1.0,
+  "hlen_distribution": {
+    "4": 15558,
+    "14": 11132
+  },
+  "direction": {
+    "37191->15034": 11132,
+    "15034->37191": 15558
+  },
+  "head4_top": [
+    [
+      "00000000",
+      1166
+    ],
+    [
+      "10000000",
+      2
+    ],
+    [
+      "10000001",
+      2
+    ],
+    [
+      "10000004",
+      2
+    ],
+    [
+      "10000006",
+      2
+    ],
+    [
+      "10000007",
+      2
+    ],
+    [
+      "00000008",
+      2
+    ],
+    [
+      "10000009",
+      2
+    ],
+    [
+      "1000000b",
+      2
+    ],
+    [
+      "1000000d",
+      2
+    ]
+  ],
+  "method": "nonce=MD5(nonce_mat[:12]+rev4(head4))[:16]; AES-256-GCM no-tag keystream; CRC32 BE @[hlen] over whole msg with slot zeroed; hlen blind-guessed in [4,64]",
+  "validation": {
+    "dec_log_crosscheck": "15485/15485 wire frames (t>=T_MIN) decrypted, hlen matches logged hlen=4",
+    "known_frame": "60B frame hlen=14 CRC field bbe5bbbd OK"
+  },
+  "flow_compare_a": {
+    "a_records": 26690,
+    "b_records": 26690,
+    "head4_overlap_a_b": 15242,
+    "head4_a_only": 0,
+    "head4_b_only": 0,
+    "implementation_agreement": "A  FLOWS={(15031,46416),(46416,15031),(15034,37191),(37191,15034)} 15031<->46416  cutoff  A  B A  hlen  / B  keystream XOR 26690hlen  {4:15558, 14:11132} [1786543885146,1786544912887]",
+    "a_crosscheck": "A  crosscheck.jsonincoming 37191->15034  11132  hook plain.log  head4 CRC ",
+    "bonding": {
+      "linkA_15031_46416": {
+        "frames": 20773,
+        "window_ms": [
+          1786542923529,
+          1786543717894
+        ],
+        "head4_values": 11276,
+        "frames_at_or_after_cutoff": 0
+      },
+      "linkB_15034_37191": {
+        "frames": 26690,
+        "window_ms": [
+          1786543885146,
+          1786544912887
+        ],
+        "head4_values": 15242
+      },
+      "shared_head4_values": 10907,
+      "shared_nonzero_head4": 10906,
+      "shared_with_time_overlap": 0,
+      "shared_nonzero_with_time_overlap": 0,
+      "conclusion": " head4  71.6%A 21:55-22:08 / B 22:11-22:15 3 => /LNet  00000000/10000000  bonding"
+    }
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "slice": "DecryptMisc",
+  "pcap": "<research-workspace>/artifacts/packet-capture-20260812-2153/wr_cap_20260812_215325/traffic.pcap",
+  "key_effective_t": 1786543885036,
+  "main_flows_excluded": [
+    "15031-46416",
+    "15034-37191",
+    "37191-15034",
+    "46416-15031"
+  ],
+  "total_pcap_packets": 377355,
+  "time_range_ms": {
+    "min": 1786542805725,
+    "max": 1786545138118
+  },
+  "udp": {
+    "total_packets_all_t": {
+      "biubiu_tunnel_game": 49075,
+      "biubiu_tunnel_ctrl": 1400,
+      "keepalive_14125": 655,
+      "dns": 444,
+      "heartbeat_18001": 300,
+      "udp_2499": 117,
+      "other": 6
+    },
+    "attempted_frames_after_key": {
+      "biubiu_tunnel_game": 27593,
+      "biubiu_tunnel_ctrl": 752,
+      "keepalive_14125": 352,
+      "heartbeat_18001": 240,
+      "dns": 208,
+      "udp_2499": 63,
+      "other": 4
+    },
+    "gcm_success": {
+      "biubiu_tunnel_game": 15533
+    },
+    "fail": {
+      "biubiu_tunnel_game": 12060,
+      "biubiu_tunnel_ctrl": 752,
+      "heartbeat_18001": 240,
+      "dns": 208,
+      "keepalive_14125": 163,
+      "udp_2499": 63,
+      "other": 4
+    },
+    "gcm_success_total": 15533,
+    "fail_total": 13490,
+    "too_short_skipped": 189
+  },
+  "tcp10001": {
+    "payload_segments_all_t": {
+      "s2c": 4211,
+      "c2s": 2339
+    },
+    "payload_segments_after_key": {
+      "s2c": 1039,
+      "c2s": 791
+    },
+    "gcm_success": 0,
+    "fail": 1830,
+    "first4_top": {
+      "3366000b": 1501,
+      "7fbf11d6": 1,
+      "3248385b": 1,
+      "82a2fe0f": 1,
+      "59097a9b": 1,
+      "c6cd1fc5": 1,
+      "b340cac1": 1,
+      "dadfbe0a": 1,
+      "cd1f1225": 1,
+      "0fa23709": 1,
+      "8f00b128": 1,
+      "0edfa11b": 1
+    },
+    "size_hist_top": {
+      "57": 587,
+      "73": 504,
+      "536": 328,
+      "45": 146,
+      "89": 72,
+      "169": 23,
+      "137": 23,
+      "185": 18,
+      "105": 15,
+      "178": 10
+    },
+    "ascii_ratio_hist_top": {
+      "0.281": 172,
+      "0.297": 124,
+      "0.312": 113,
+      "0.328": 109,
+      "0.266": 94,
+      "0.298": 90,
+      "0.344": 85,
+      "0.316": 80
+    }
+  },
+  "hlen_distribution": {
+    "4": 15533
+  },
+  "head4_distribution_top": {
+    "00000000": 789,
+    "10000007": 1,
+    "00000008": 1,
+    "10000009": 1,
+    "1000000a": 1,
+    "1000000d": 1,
+    "10000010": 1,
+    "20000007": 1,
+    "20000009": 1,
+    "10000013": 1,
+    "10000014": 1,
+    "10000017": 1,
+    "10000018": 1,
+    "1000001c": 1,
+    "2000001c": 1
+  },
+  "head4_00000000_count": 789,
+  "head4_total": 15533
+}

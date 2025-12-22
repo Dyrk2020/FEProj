@@ -1,0 +1,27 @@
+{
+  "slice": "ProtocolAnalyze",
+  "inputs": {
+    "plain.log": {"records": 17189, "hlen": [14], "tlen_range": [29, 573], "t_range": [1786543198647, 1786544912810]},
+    "dec.log": {"records": 23370, "hlen": [4], "tlen_range": [18, 359], "t_range": [1786543198647, 1786544912888]},
+    "decrypted_recv": {"records": 15558, "full_frames_crc_ok": 15485, "full_frames": 15485, "crc_fail": 0}
+  },
+  "hlen_distribution": {"plain": {"14": 17189}, "dec": {"4": 23370}},
+  "tlen_distribution_plain_top": {"40": 12751, "45": 747, "51": 560, "63": 510, "50": 364, "56": 348},
+  "tlen_distribution_dec_top": {"20": 730, "29": 502, "113": 376, "108": 341, "103": 321, "118": 315},
+  "head4_stats": {
+    "plain": {"zero": 547, "nonzero": 16642, "low28_plus1": 10007, "low28_jumps": 741, "low28_neg": 383},
+    "dec": {"zero": 1230, "nonzero": 22140, "plus1": 22121, "low28_plus1": 14763}
+  },
+  "sent_header_consts": {
+    "game1": {"C1": "4037056d", "C2": "16ce8892", "C3": "6e37dda1", "ver_byte": "04", "frames": 6057},
+    "game2": {"C1": "a1e3a465", "C2": "d8cd8892", "C3": "0e482296", "ver_byte": "06", "frames": 11132},
+    "const_12_14": "cd76"
+  },
+  "sent_channels_famA": {"01": 338, "02": 1, "04": 12, "05": 5, "06": 10142, "08": 1, "0a": 489, "19": 2, "1b": 44, "2d": 88, "38": 10},
+  "recv_types": {"07": 14725, "1b": 445, "01": 338, "03": 42, "38": 2, "19": 2, "04": 2, "08": 1, "02": 1},
+  "ack_correlation": {"ch06": {"reliable_sent": 357, "acks": 357, "exact_match": true}, "ch38": {"sent": 10, "acks": 10}, "ch19": {"sent": 2, "acks": 2}, "ch2d": {"reliable_sent": 58, "acks": 76}},
+  "clock_verification": {"type1_start": [1786543885310, "007fb9e6"], "type1_end": [1786544912888, "008f67e0"], "delta_ms": 1027578, "wall_delta_ms": 1027578},
+  "tdr_likelihood": {"recv_type3": 0.823, "recv_type2": 0.729, "recv_type1": 0.822, "recv_type7": 0.832, "sent_ch2d": 0.888, "sent_ch06": 0.808, "recv_type1b": 0.667, "sent_ch0a": 0.516},
+  "entropy": {"recv_type7": 2.943, "recv_type3": 2.266, "recv_type1": 1.688},
+  "outputs": ["protocol.md", "protocol.json"]
+}

@@ -1,0 +1,149 @@
+{
+  "slice": "ProtocolAnalyze",
+  "date": "2026-08-12",
+  "target": "wild-rift-research  UDP hook  + ",
+  "corpus": {
+    "plain_log": "artifacts/packet-capture-20260812-2153/plain.log (17189 , )",
+    "dec_log": "artifacts/packet-capture-20260812-2153/dec.log (23370 ,  wire)",
+    "decrypted": " 15558  (t>=1786543885036),  15485  CRC ",
+    "key_blob": "c139fd889b50404c3d984ad80b22fb265395b3b5ed8c50af4bf31aa0951d6e5d8b879cc058aa449f1cd308604f0a8512 (48B)",
+    "setkey_t": 1786543885036
+  },
+  "sessions": {
+    "famB": {
+      "name": " (key , hook attach  key)",
+      "header_consts": ["4037056d", "16ce8892"],
+      "payload_const": "6e37dda1",
+      "payload_ver_byte": "04",
+      "t_range": [1786543198647, 1786543715992],
+      "channels": {"01": 164, "06": 5576, "0a": 244, "2d": 73},
+      "note": "hook  1786543198519 attach, /,  4 "
+    },
+    "famA": {
+      "name": " (SetKey 1786543885036 , )",
+      "header_consts": ["a1e3a465", "d8cd8892"],
+      "payload_const": "0e482296",
+      "payload_ver_byte": "06",
+      "t_range": [1786543885145, 1786544912810],
+      "battle_window": [1786543911649, 1786544907780],
+      "channels": {"01": 338, "02": 1, "04": 12, "05": 5, "06": 10142, "08": 1, "0a": 489, "19": 2, "1b": 44, "2d": 88, "38": 10}
+    }
+  },
+  "frame_header": {
+    "sent": {
+      "hlen": 14,
+      "fields": [
+        {"off": 0, "len": 4, "name": "head4/seq", "semantics": "per-connection 28-bit  + bit28 ( 1  ACK);  +1,  0"},
+        {"off": 4, "len": 4, "name": "session_const_C1", "semantics": ": 4037056d() / a1e3a465(), "},
+        {"off": 8, "len": 4, "name": "session_const_C2", "semantics": ": 16ce8892() / d8cd8892(), "},
+        {"off": 12, "len": 2, "name": "const_cd76", "semantics": " 0xcd76"}
+      ],
+      "crc_slot": {"off": 14, "len": 4, "semantics": " CRC32(IEEE, zlib.crc32), ; hook  0()"},
+      "payload_offset": 18,
+      "note": "head4  nonce : nonce = MD5(nonce[:12] + rev4(head4))[:16]"
+    },
+    "recv": {
+      "hlen": 4,
+      "fields": [
+        {"off": 0, "len": 4, "name": "head4/seq", "semantics": ",  +1 (14763/14774 28),  0x10000000 "}
+      ],
+      "crc_slot": {"off": 4, "len": 4, "semantics": " CRC32, ;  15485/15485 "},
+      "payload_offset": 8,
+      "note": " 4B,  ——  14B "
+    }
+  },
+  "head4_semantics": {
+    "counter": " head4 = 28-bit  (28 +1  10007/11131 famA;  14763/14774),  (dt 1..3003ms )",
+    "bit28_flag": "bit28=1 = ; : famA ch=06  357 ==  ACK(type=1b) 357, ",
+    "resets": "'' (ch=01/ch=1b  head4=0) , ",
+    "control_frames": "ch=01(338), ch=1b(44)  head4  0; ch=0a/ch=06 "
+  },
+  "sent_channel_byte": {
+    "field": "payload  6 ( 24): [18:22]  C3 | [22:24] 0000 | [24]  | [25] 00",
+    "channels": [
+      {"ch": "06", "count_famA": 10142, "tlen": "40  (8323),  29..573", "t_range": "1786543911847..1786544844441", "desc": " (),  91%"},
+      {"ch": "0a", "count_famA": 489, "tlen": 45, "interval_ms": 2040, "t_range": "1786543912226..1786544907251", "desc": " (~2s),  nonce  (2b78ce90...)"},
+      {"ch": "01", "count_famA": 338, "tlen": 63, "t_range": "1786543885231..1786544912810", "desc": ",  ms  (0x7fb9e6→0x008f67e0),  type=1 "},
+      {"ch": "2d", "count_famA": 88, "tlen": 573, "t_range": "1786544907557..1786544907695 (138ms )", "desc": "/,  matchId 0x0c28/ 10,  star_stat_report/DataCollectSpc"},
+      {"ch": "1b", "count_famA": 44, "tlen": 37, "t_range": "1786543885228..1786543886870", "desc": ",  =  0x00..0x27 ()"},
+      {"ch": "38", "count_famA": 10, "tlen": 45, "t_range": "1786543886343..1786543893053", "desc": ",  0x40c364"},
+      {"ch": "04", "count_famA": 12, "tlen": 33, "t_range": "1786543886817..1786543898162", "desc": ""},
+      {"ch": "05", "count_famA": 5, "tlen": 29, "t_range": "1786543897665..1786543909678", "desc": ""},
+      {"ch": "08", "count_famA": 1, "tlen": 41, "desc": ""},
+      {"ch": "19", "count_famA": 2, "tlen": 52, "t_range": "1786543919820..1786543921866", "desc": ""},
+      {"ch": "02", "count_famA": 1, "tlen": 60, "desc": " ( roster )"}
+    ]
+  },
+  "recv_type": {
+    "field": "payload  0 ( 8): u32 ",
+    "types": [
+      {"type": "00000007", "count": 14725, "tlen": "21..359,  103-120", "t_range": "1786543911649..1786544912876", "desc": " (),  94.6%;  = [u32 type][u32 ][02 00 <sub 07/08> <flag>][...]"},
+      {"type": "0000001b", "count": 445, "tlen": 20, "t_range": "1786543886440..1786544907780", "desc": " ACK: [u32 1b][u32  head4][u32 ]; ch06:357 ch2d:76 ch38:10 ch19:2,  bit28=1 "},
+      {"type": "00000001", "count": 338, "tlen": 29, "t_range": "1786543885310..1786544912888", "desc": " ( ch=01 ,  0x7fb9e6 ): [u32 1][u32 0][u32  ms][u32 0][u32 0][u32 id 0x0022bb12-ish]"},
+      {"type": "00000003", "count": 42, "tlen": 359, "t_range": "1786543885228..1786543886870", "desc": "/: [u32 3][u32 3][u16 =10][matchId 0x0c28][0xb046...][10x ], , 6 (22/8/4 ...) "},
+      {"type": "00000002", "count": 1, "tlen": 246, "t_range": "1786543885230", "desc": " (8 ,  type=3  ID )"},
+      {"type": "00000038", "count": 2, "tlen": 20, "t_range": "1786543885307..1786543886875", "desc": ": [u32 38][u32 0][u32  0x40c364]"},
+      {"type": "00000019", "count": 2, "tlen": 18, "t_range": "1786543885311..1786543885370", "desc": ""},
+      {"type": "00000004", "count": 2, "tlen": 24, "t_range": "1786543886338..1786543886422", "desc": ",  uid  (0x0c403e48, 0x50f6b8fe)"},
+      {"type": "00000008", "count": 1, "tlen": 31, "t_range": "1786543911747", "desc": "/"}
+    ]
+  },
+  "payload_patterns": {
+    "sent_prefix": {
+      "offset18_22": " C3: 6e37dda1(1) / 0e482296(2)",
+      "offset22_26": "00 00 <> 00  (00000600/00000a00/00000100/00002d00/00001b00/00000400...)",
+      "offset26_29": "24-bit  (ch=06  +1: 0c72,0c73,0c74,0c76...,  1)",
+      "offset29": ": 04(1) / 06(2)",
+      "offset30_33": " 3 : 01 03 01 (tlen=40 ), 01 0e 0c (tlen=51), 01 0d 0c (tlen=50), 02 03 01 (tlen 46-56)...  tlen ",
+      "recurring": "04010301 = [ 04][ 01 03 01] (1 ); 06010301 = [ 06][01 03 01] (2 )"
+    },
+    "recv_type7": {
+      "layout": "[u32 7][u32 =-43][02 00 07|08 xx][]",
+      "head4_diff": " head4 28 - body[12:16]  = 43 (,  43  type7 )",
+      "data_style": " (2.94 bits/byte), ,  ( 60B  47B ) = ;  LZW (≈8)",
+      "sub_type": "body[16]=0x02, [17]=0x00, [18]=07/08, [19]=01..07"
+    },
+    "recv_type3_2": {
+      "layout": "[u32 type][u32 3][u16 0x0a= 10][u16 0x0c28=matchId][u16 0xb046][u32 0xd1d6b15f][...][: 00..0c40<uid32><uid32>..]",
+      "player_ids": ["0x0c403e48,0x50f6b8fe", "0x0c407348,0x46bc774c", "0x0c40611e,0xfac63197", "0x0c403e48,0x423ff3fa", "0x0c403347,0xa4bf4dee", "0x0c403647,0xd301d89a", "0x0c401cb3,0x0e68f2...", "0x0c404f43,0x174917df", "0x0c402048,0x37255900"], 
+      "note": " ID  type=2/type=3  ch=2d "
+    },
+    "recv_type1": "[u32 1][u32 0][u32  ms ][u32 0][u32 0][u32 0x0022bb12]", 
+    "recv_type1b": "[u32 1b][u32 ACKhead4][u32 ]"
+  },
+  "crypto_interface": {
+    "cipher": "AES-256-GCM  tag (CTR keystream)",
+    "key": "key_blob[0:32]",
+    "nonce": "MD5(nonce[:12] + rev4(head4))[:16], nonce = key_blob[32:48]",
+    "crc": " CRC32  [hlen:hlen+4], , ",
+    "verification": " 15485/15485 CRC ;  keys.log  SetKey  (1786543885036) "
+  },
+  "tdr_analysis": {
+    "method": "tdr_parse.py  import (schema  Metalib, ,  tdr-wire.md ): /",
+    "likelihood": {
+      "recv_type3": 0.823, "recv_type2": 0.729, "recv_type1": 0.822, "recv_type7": 0.832, "sent_ch2d": 0.888, "sent_ch06": 0.808, "recv_type1b": 0.667, "sent_ch0a": 0.516
+    },
+    "candidates": {
+      "sent_ch2d + recv_type2/3 (roster)": ["star_def::CSRoomInfo", "star_def::CSRoomPlayerInfo", "star_def::CSRoomPlayerBattleInfo", "star_def::ReportData", "star_stat_report::StatReportSerializePkg", "star_stat_report::WebBattleCommonHead"],
+      " (ch=2d )": ["star_stat_report::BattleNetworkStat", "star_stat_report::WebCChampionKeyPropertyStat", "DataCollectSpc::FEBattleDcPlayerData", "DataCollectSpc::FEBattleDcGlobalData", "DataCollectSpc::FEBattleDcPlayerSecurityData", "DataCollectSpc::DcMedalData"],
+      "recv_type7 ()": ["FrameEngine::BattleNetworkRevMsgBuffer", "FrameEngine::* (603 )"],
+      "recv_type1/recv_type1b": ["star_stat_report::* (/ACK )"],
+      "GameSafeMonitor": ["MobaAI::GameSafeMonitor_* (7 , ;  GameSafeMonitor ,  type7  ch=2d)"]
+    },
+    "conclusion": " (TDR ); type2/3()  ch=2d()  TDR ; type7 ,  Metalib "
+  },
+  "ack_mechanism": {
+    "reliable_bit": " head4 bit28=1 → ",
+    "ack_frame": " type=0x1b: [u32 1b][u32  head4][u32 ]",
+    "verification": "ch=06:  357 == ACK 357, ; ch=38: 10==10; ch=19: 2==2; ch=2d: 88  58 ,  76  ACK ( 88  head4 ,  18  138ms /)"
+  },
+  "clock": {
+    "type1_ch01_clock": " ms ,  ch=01  type=1  (0x7fb9e6 @ t=17865438853xx),  ==  (0x008f67e0-0x007fb9e6 == 1786544912888-1786543885310 == 1027578ms)",
+    "ch38_clock": "0x40c364 ( ms )"
+  },
+  "linkage": {
+    "SetKeyMain_hook": "keys.log: SetKeyMain t=1786543885036 == famA  (1786543885145) - 90ms",
+    "dec_log_before_setkey": "7812  (21:53-22:11, )  key ",
+    "tcp_10001": "pcap  TCP 49836→10001 ,  NetCrypto ()"
+  }
+}

@@ -1,0 +1,301 @@
+{
+ "SyncMsgC": {
+  "ns": "star_def",
+  "type_index": 27385,
+  "fields": [
+   "iSeq",
+   "wConnID",
+   "dwFootPrint",
+   "dwPlayerID",
+   "dwCheckSum",
+   "iSession",
+   "chChannel",
+   "nCmd",
+   "stCData",
+   "dwOffsetTime",
+   "usereflection",
+   "CLASS_ID",
+   "BASEVERSION",
+   "CURRVERSION",
+   "VERSION_dwFootPrint",
+   "VERSION_dwPlayerID",
+   "VERSION_dwCheckSum",
+   "VERSION_chChannel",
+   "VERSION_dwOffsetTime"
+  ]
+ },
+ "SyncMsgCV2": {
+  "ns": "star_def",
+  "type_index": 27386,
+  "fields": [
+   "iSeq",
+   "wConnID",
+   "dwCheckSum",
+   "iSession",
+   "chChannel",
+   "nCmd",
+   "stCData",
+   "dwOffsetTime",
+   "usereflection",
+   "CLASS_ID",
+   "BASEVERSION",
+   "CURRVERSION",
+   "VERSION_dwCheckSum",
+   "VERSION_chChannel",
+   "VERSION_dwOffsetTime"
+  ]
+ },
+ "SyncMsgS": {
+  "ns": "star_def",
+  "type_index": 27387,
+  "fields": [
+   "iSeq",
+   "dwCheckSum",
+   "nEno",
+   "nCmd",
+   "stSData",
+   "usereflection",
+   "CLASS_ID",
+   "BASEVERSION",
+   "CURRVERSION",
+   "VERSION_dwCheckSum"
+  ]
+ },
+ "CSRoomSyncFrameS": {
+  "ns": "star_def",
+  "type_index": 23145,
+  "fields": [
+   "dwFrameSeq",
+   "nPlayerInputNum",
+   "astPlayerInputData",
+   "usereflection",
+   "CLASS_ID",
+   "BASEVERSION",
+   "CURRVERSION"
+  ]
+ },
+ "CSWatchSyncFrameS": {
+  "ns": "star_def",
+  "type_index": 23330,
+  "fields": [
+   "dwStartFrameSeq",
+   "dwEndFrameSeq",
+   "nNum",
+   "astInputList",
+   "dwBattleKeyInfoNum",
+   "astBattleKeyInfoDataList",
+   "usereflection",
+   "CLASS_ID",
+   "BASEVERSION",
+   "CURRVERSION",
+   "VERSION_dwBattleKeyInfoNum",
+   "VERSION_astBattleKeyInfoDataList"
+  ]
+ },
+ "CSMatchTeamSyncChooseLocStatusS": {
+  "ns": "star_def",
+  "type_index": 23313,
+  "fields": [
+   "stTeamInfo",
+   "usereflection",
+   "CLASS_ID",
+   "BASEVERSION",
+   "CURRVERSION"
+  ]
+ },
+ "CSMatchTeamSyncChooseLocStatusC": {
+  "ns": "star_def",
+  "type_index": 23312,
+  "fields": [
+   "chTeamMemberStatus",
+   "usereflection",
+   "CLASS_ID",
+   "BASEVERSION",
+   "CURRVERSION"
+  ]
+ },
+ "CSTeamRoundBattleSyncC": {
+  "ns": "star_def",
+  "type_index": 23893,
+  "fields": [
+   "stTeamRoundBattleSync",
+   "usereflection",
+   "CLASS_ID",
+   "BASEVERSION",
+   "CURRVERSION"
+  ]
+ },
+ "CSSyncBagItemS": {
+  "ns": "star_def",
+  "type_index": 23055,
+  "fields": [
+   "iNum",
+   "astItemList",
+   "stExtData",
+   "usereflection",
+   "CLASS_ID",
+   "BASEVERSION",
+   "CURRVERSION",
+   "VERSION_stExtData"
+  ]
+ },
+ "CSTCPFrameInputC": {
+  "ns": "star_def",
+  "type_index": 23752,
+  "fields": [
+   "nNum",
+   "astInputList",
+   "usereflection",
+   "CLASS_ID",
+   "BASEVERSION",
+   "CURRVERSION"
+  ]
+ },
+ "CSPlayerFrameInput": {
+  "ns": "star_def",
+  "type_index": 23144,
+  "fields": [
+   "ullRoleGID",
+   "stFrameInputUnit",
+   "usereflection",
+   "CLASS_ID",
+   "BASEVERSION",
+   "CURRVERSION"
+  ]
+ },
+ "CliFrameInputList": {
+  "ns": "star_def",
+  "type_index": 22110,
+  "fields": [
+   "bInputNum",
+   "astFrameInputUnitList",
+   "usereflection",
+   "CLASS_ID",
+   "BASEVERSION",
+   "CURRVERSION"
+  ]
+ },
+ "CliFrameInputUnit": {
+  "ns": "star_def",
+  "type_index": 22104,
+  "fields": [
+   "bInputLen",
+   "szInputByte",
+   "usereflection",
+   "CLASS_ID",
+   "BASEVERSION",
+   "CURRVERSION"
+  ]
+ },
+ "CliPlayerFrameInput": {
+  "ns": "star_def",
+  "type_index": 22109,
+  "fields": [
+   "bObjID",
+   "stFrameInputUnit",
+   "usereflection",
+   "CLASS_ID",
+   "BASEVERSION",
+   "CURRVERSION"
+  ]
+ },
+ "CliPlayerFrameInputWithSeq": {
+  "ns": "star_def",
+  "type_index": 22106,
+  "fields": [
+   "dwFrameSeq",
+   "wObjID",
+   "stFrameInputUnit",
+   "usereflection",
+   "CLASS_ID",
+   "BASEVERSION",
+   "CURRVERSION",
+   "VERSION_wObjID"
+  ]
+ },
+ "CachedPlayerFrameInput": {
+  "ns": "star_def",
+  "type_index": 22019,
+  "fields": [
+   "dwFrameSeq",
+   "wObjID",
+   "stFrameInputUnit",
+   "usereflection",
+   "CLASS_ID",
+   "BASEVERSION",
+   "CURRVERSION",
+   "VERSION_wObjID"
+  ]
+ },
+ "CachedPlayerFrameInputCompress": {
+  "ns": "star_def",
+  "type_index": 22020,
+  "fields": [
+   "bFrameSeqOffset",
+   "wObjID",
+   "stFrameInputUnit",
+   "usereflection",
+   "CLASS_ID",
+   "BASEVERSION",
+   "CURRVERSION"
+  ]
+ },
+ "FrameFnoIndex": {
+  "ns": "star_def",
+  "type_index": 22168,
+  "fields": [
+   "iStartFno",
+   "iSaveFnoListNum",
+   "SaveFnoList",
+   "iSaveIndexListNum",
+   "SaveIndexList",
+   "usereflection",
+   "CLASS_ID",
+   "BASEVERSION",
+   "CURRVERSION"
+  ]
+ },
+ "BadFrameInfo": {
+  "ns": "star_def",
+  "type_index": 27351,
+  "fields": [
+   "iSeq",
+   "dwGap",
+   "usereflection",
+   "CLASS_ID",
+   "BASEVERSION",
+   "CURRVERSION"
+  ]
+ },
+ "CSWatchBatchGetFrameS": {
+  "ns": "star_def",
+  "type_index": 23329,
+  "fields": [
+   "dwStartFrameSeq",
+   "dwEndFrameSeq",
+   "dwSvrFrameSeq",
+   "nNum",
+   "astInputList",
+   "dwBattleKeyInfoNum",
+   "astBattleKeyInfoDataList",
+   "usereflection",
+   "CLASS_ID",
+   "BASEVERSION",
+   "CURRVERSION",
+   "VERSION_dwBattleKeyInfoNum",
+   "VERSION_astBattleKeyInfoDataList"
+  ]
+ },
+ "CSWatchBatchGetFrameC": {
+  "ns": "star_def",
+  "type_index": 23328,
+  "fields": [
+   "ullRoomID",
+   "dwStartFrameSeq",
+   "usereflection",
+   "CLASS_ID",
+   "BASEVERSION",
+   "CURRVERSION"
+  ]
+ }
+}

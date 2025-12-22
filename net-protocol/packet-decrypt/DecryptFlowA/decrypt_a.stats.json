@@ -1,0 +1,19 @@
+{
+  "total_frames_t_ge_cutoff": 26690,
+  "decrypt_ok": 26690,
+  "decrypt_failed": 0,
+  "failed_too_short": 0,
+  "key_effective_t": 1786543885036,
+  "time_range_ms": [
+    1786543885146,
+    1786544912887
+  ],
+  "direction_counts": {
+    "15034->37191": 15558,
+    "37191->15034": 11132
+  },
+  "hlen_distribution": {
+    "4": 15558,
+    "14": 11132
+  }
+}

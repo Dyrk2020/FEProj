@@ -1,0 +1,120 @@
+{
+  "slice": "LNetTransport",
+  "target": "libLNet.so Wild Rift  UDP ",
+  "corpus": "corpus/native-elf/decompressed-arm64/libLNet.so (3,130,648 B, SHA-256 55c2879f7acdd0c64fb308ce3a0a1007d308417e475b431dabd9c5e0f8ab5a86)",
+  "coordinate_system": "VA == file offset (< 0x6a5ba94)Net*  XOR-0x50 at-rest capstone +  mini-A64 ",
+  "evidence_mark": "✅= [V]= [I]= ✋=",
+  "corrections_to_prior_docs": [
+    "__android_log_print  dynsym  __android_log_print 0xda704()/0xda15c/0xdaa38/0xdaec0 + snprintflibc imports ",
+    "EC lib0x1e4f2f  OpenSSL ERR ERR library code name LNet LNet  EC  BSS 0x247xxx  0",
+    "lnet-decoded.bin / lnet-vm-image.bin  .datainit_array CBC.text  XOR-0x50 "
+  ],
+  "key_functions": {
+    "low_level_send": {"va": "0xbec9c", "key": 0, "sig": "send_socket(conn, buf, len)", "details": "fd=[conn]; flag=[conn+0x94]; flag!=0 → send(fd,buf,len,MSG_NOSIGNAL=0x4000) @0xbef0cflag==0 → 0x90b74(conn+0x10)  sockaddr → sendto(fd,buf,len,0x4000,addr,0x80) @0xbef44errno 4/11(0xb)/115(0x73)  0x920b4+0xdaec0 0xba6a0"},
+    "low_level_recv": {"va": "0xbf0bc", "key": "0x50", "sig": "recv_socket(conn, buf, len)", "details": "fd=[conn]flag!=0 → recv(fd,buf,len,0) @0xbf32cflag==0 → recvfrom(fd,buf,len,0,addr,&addrlen) @0xbf3a0peer sockaddr 0x80B  conn+0x98: 0xd212c (w2=0x800=2048B buffer)"},
+    "internal_net_send": {"va": "0x71078", "key": "0x50", "sig": "send_internal(ctx, buf, len, flag, type)", "details": "NetSend(0x94cfc)  handler 0x94e3c  0x3b0 +  0xccf34 ×60xda704(log)0xb0c14"},
+    "packet_send_mega": {"va": "0xccf34", "key": "(0xccf34-0xcd134  / 0xcd134-0xce134 XOR / 0xce134+ )", "details": "(≈0xccf34..0xd176c) 0xbec9c ×2 (0xce99c,0xd09f8)0xe511c(LZW @0xd0298)Encrypt vtbl+0x18 (@0xd0d80)0xc70500xdaa38/0xda15c/0xda704(log)_Znam/_ZdaPv 0x24c850/0x24c870/0x24c8b0/0x24c8d0"},
+    "recv_process": {"va": "0xd2ae0", "key": "0x50", "sig": "recv_process(conn, buf, len)", "details": " 0xd1ffc() Decrypt vtbl+0x20 (@0xd310c, out=conn+0x9b8)0xe5464(LZW @0xd31e0)0xc7720clock_gettime/0xe4d48()"},
+    "recv_data_loop": {"va": "0x7fb24..0x7ff00 + 0x80050..0x80338", "key": "0x50/", "details": "select fd [x19+0x90] + EC  [x19+0x300]/[0x308]/[0x310]fd=[conn+0x10]FD_SETSIZE 1024 select @0x7ff24→0xd1ffc→0xc6ea4 [x19+0x2b0] (100ms )"},
+    "udp_connect_impl": {"va": "0xc3a2c", "key": "0x50", "sig": "udp_connect(conn, host, port, flag)", "details": "UdpConnect(0x697fc) conn+0x170=portconn+0x178=0conn+0x19e8=(0.001 @0x1d77a0)conn+0x19e0=0 0xa25ec/0xc0434/0xdfb48/0xe4d48/0x1b9e80"},
+    "dns_resolve": {"va": "0x8d764", "key": "0x50", "details": "getaddrinfo @0x8d7b4 → gai_strerror+0xdaa38  →  addrinfo (AF_INET=2/AF_INET6=10)inet_ntop @0x8d878 → 0x8fe24  → freeaddrinfo @0x8d970"},
+    "local_ip_probe": {"va": "0x8e8c8..0x8e9f0", "key": 0, "details": "socket(AF_INET=2,SOCK_DGRAM=2,0) @0x8e8e4 → 0x9020c(0x249db0, port=0x50=80) → connect @0x8e928 → getsockname @0x8e944 → inet_ntop(IP) → strlen+0x1b9e80  → close 0x249db0 (BSS)"},
+    "connect_manager_mega": {"va": "0xbbff8..0xbcbc0", "key": 0, "details": "ConnectManager CFF  0x24be70 (ctor 0xc24bc ) connect @0xbc470: connect(fd, 0x90b74(x21), 0x90d28(x23)) 0x90b74=0x90d28=0x920b4=0xba6a0="}
+  },
+  "conn_object_offsets": {
+    "recv_send_wrapper": {"+0x0": "fd (int)", "+0x10": "sockaddr0x90b74 ", "+0x94": "connected 0= sendto/recvfrom, 1= send/recv", "+0x98": "peer sockaddr 0x80B ", "+0x90": " errno"},
+    "recvdata_conn": {"+0x10": "fd", "+0x60": "destroy ", "+0x90": "conn  vector(std::vector<conn*>)", "+0x2b0": "(select )", "+0x2b4": "connect mode (NetChangeDoubleLinkConnectMode )", "+0x2f0": "mode ", "+0x300/0x308/0x310": "m_ECConn  EC ", "+0x338": " destroy (ldarb)", "+0x33c/0x340": "/", "+0x5d": "EC "},
+    "conn_state_enum": {"0": "Disconnected", "3": "Connected", "": "RecvData: ConnectState::Disconnected, early return @0x1d7b80state  +0x174cmp #3 "},
+    "ec_conn": {"+0x0": "vtable/ 0x22c7c8", "+0x8": "", "+0x10": "socket (0xba508 : )", "+0x158": "NetCrypto ctx", "+0x160": "EC type (5/6/7)", "+0x174": "state (0=Disconnected)", "+0x190": "host/addr", "+0x198": "(0x30000=196608B, 0xdcf24)", "+0x19b8": "16B ", "+0x1b20": " 0x0101 (strh)", "+0x1b30/0x1b38": "", "+0x1b40": "std::string(0x1bb21c)"}
+  },
+  "netcrypto_call_sites": {
+    "exports_external_only": {"NetCryptoCreate": "0x9f37c", "NetCryptoDestroy": "0x9f3c0", "NetCryptoSetKey": "0x9f640", "NetCryptoEncrypt": "0x9fab4", "NetCryptoDecrypt": "0xa001c", "note": " libLNet  bl  ✅ PLT/JNI"},
+    "crypto_ctor_0xd6ae0_callers": [{"va": "0x9f398", "role": "NetCryptoCreate "}, {"va": "0x6d300", "role": "EC 0x128B + ctorctx→conn+0x318"}, {"va": "0x7956c", "role": "conn ctx→conn+0x268 SetKey(vtbl+0x10) @0x79588 (key=x1,len=w2)"}],
+    "setkey_vtbl10": [{"va": "0x6d31c", "direction": "EC ( ctx)", "args": "ctx=x0, key=x1(), keylen=w2()"}, {"va": "0x79588", "direction": "", "args": "ctx=conn+0x268, key=x21, keylen=w20"}],
+    "encrypt_vtbl18": [{"va": "0xd0d80", "direction": "", "fn": "packet_send_mega(0xccf34..)", "args": "ctx=x0(), in=x1, len=w2([in+0x24]), x3, out=x4, x5"}],
+    "decrypt_vtbl20": [{"va": "0xd310c", "direction": "", "fn": "recv_process(0xd2ae0)", "args": "ctx=x0, in=x1, len=w2([x8+0x24]), w3, out=x21(conn+0x9b8), outlen=x5", "return": "w0 bit0 (tbz )"}],
+    "cipher": "AES-CCM-classlnet-vm.md §6vtbl 0x22c878 = [0x10]=0xd6ee0 SetKey, [0x18]=0xd7410 Encrypt, [0x20]=0xd7834 DecryptCRYPTO_ccm128_* 0xf24dc  vtable "
+  },
+  "compression_chain": {
+    "set_compress": {"export": "0x96048", "internal": "0x79614", "key": "0x50", "details": "NetSetCompressSwitchAndDictPath(conn, switch1, switch2, x3, x4, x5) → 0x79614 +  dict (strlen+0x1b9e80) + 0xe4f58(LZW dict )"},
+    "lzw_dict_init": {"va": "0xe4f58", "key": 0, "details": "(0x1b011c, 0xc ) → 'lzw dictionary init fail!path:%s' @0x1d923a (0xdaa38 ) +0x28 = init "},
+    "lzw_compress": {"va": "0xe511c / block 0xe5248", "key": "0x50", "sig": "lzw_compress(obj, in, in_len, out, out_len_ptr, prefix_len)", "details": " 0xe6630(-1=)/0xe5bf0()/0xe6394( cmp 0x4000=16384)/0xe6374(flush)/0xe636c(get) 0x800=2048 0xd0298"},
+    "lzw_decompress": {"va": "0xe5464 / block 0xe5540", "key": "0x50", "sig": "lzw_decompress(obj, in, in_len, out, out_len, prefix)", "details": " [x8+4]sdiv 0xe64b0/0xe6574/0xe65a8  cmp 0x4000 0xd31e0"},
+    "order_send": "LZW(0xd0298) → (Encrypt vtbl+0x18 @0xd0d80) → (0xbec9c)  [I:  + ]",
+    "order_recv": "(0xbf0bc) → (Decrypt vtbl+0x20 @0xd310c) → LZW(0xe5464 @0xd31e0)  [I: ]",
+    "rle_zlib_strings": {"run_length_compression": "0x1de296 ✋()", "zlib_compression": "0x1de2b2 ✋()", "note": " API +  + LZW RLE/zlib "}
+  },
+  "ec_channel": {
+    "exports": {"NetConnectECServer": "0x94118", "NetSendToEC": "0x943a8", "NetCloseECConn": "0x947c4", "NetCloseECConnWithType": "0x94a94"},
+    "internal_connect": {"va": "0x6c878", "key": "0x50", "details": "NetConnectECServer  handler @0x94260 type=w26(5/6/7 )5→conn+0x300 7→conn+0x310  EC  NetCrypto ctx(0x128B, ctor 0xd6ae0 @0x6d300) → SetKey(vtbl+0x10 @0x6d31c, key=x1, keylen=w2) → ctx→conn+0x318 alloc 0x1b48B → 0xc3764(EC conn ctor)"},
+    "ec_conn_ctor": {"va": "0xc3764", "key": "0x50", "details": "EC (0x1b48B) 0x22c7c8socket (0xba508: +0x90190)crypto ctx→+0x158type→+0x160state=0→+0x174 0x30000B→+0x198 0x0101→+0x1b20"},
+    "recv_integration": "RecvData select   vector + 3  m_ECConn (@0x80050-0x80318)fd  FD_SETSIZE 1024 → 'File m_ECConn descriptor %d exceeds FD_SETSIZE limit %d' @0x1d7b16 → 'RecvData: object is being destroyed before accessing m_ECConn, exiting' @0x1d7ccd",
+    "main_conn_ec_child": {"va": "0x695c4", "details": " UdpConnect  EC (0xc3764) push  [conn+0x90] "},
+    "ec_definition": {"verdict": "[I] EC = 3 type 5/6/7 UDP  select  ctx 'Extra Channel' 'EC lib'  OpenSSL ERR  05-network.md  tconnd/TGCP transit  [I]"}
+  },
+  "dual_link": {
+    "exports": {"NetConnectToAuxNetwork": "0x93c0c", "NetCloseAuxNetwork": "0x93edc", "NetOnAuxNetworkStateChange": "0x966a8", "NetOnNetworkStateChange": "0x96300", "NetChangeDoubleLinkConnectMode": "0x9e97c → 0x88838"},
+    "mode_switch": {"va": "0x88838", "details": "log 'ConnectManager connect mode switch from:%d to:%d' @0x1d7d14[conn+0x2b4]=mode[conn+0x2f0]=0mode=0  select "},
+    "reconnect": {"0x66c08": "wifi ", "0x66c74": "cellular ", "0x66cf0": "aux wifi ( m_AuxWiFiForceClosed)", "0x66d78": "aux cellular ( m_auxCellularForceClosed)"},
+    "netchange_disconnect": {"va": "0x7c058", "key": 0, "details": "wifi→0xc6ea4(primary) / cellular→auxconn  state==3SetState  @0x1d7af0state  3 @0x7c2a8"},
+    "conn_layout": " +0x70/aux +0x78ConnectManager conn+0x1b20/0x1b21 (0x0101 )"
+  },
+  "reliable_channel": {
+    "export": {"NetGetReliablePacketStat": "0x9e7b4", "sig": "get_stat(conn, reset_flag&1)", "impl": "0xb84a0  0x50  → memcpy "},
+    "seq_ack_path": {"va": "0xc7050", "key": "0x50", "details": "(0xd1ffc @0xd2730)memcmp(/)+memcpy+clock_gettime/0xe4d48() 0xc7160/0xc716c/0xc7190"},
+    "stat_fields": "0x50 /[I]"
+  },
+  "heartbeat": {
+    "export": {"NetSendHeartBeat": "0x9e940", "details": "ctx!=0 → 0x79374() false → 0x887fc"},
+    "force_reset": {"va": "0x887fc", "details": " [conn+0x90] state==3  [conn+0x19e0]=0 → "},
+    "timing": "conn+0x19e8 = UdpConnect 0xc3a2c  0.001 @0x1d77a01e9 @0x1d78a0/0x0f4240select  100ms (0x7ff00 )"
+  },
+  "udp_ports": {
+    "hardcoded": "✋ libLNet.so  mov w,#0x2711(10001)/0x2af9(11001) 0x1ec525  u16 0x2711  OpenSSL ",
+    "probe_port": "0x50=80/IP0x8e8fc",
+    "game_port": "10001/UDProw-release-pub  default_cloud.json serverList—  slices/05-network.md §4LOG_ID 249857249",
+    "prelogin_port": "11001pre-login.wr.pvp.net",
+    "report_ports": "TDM 8013/tcpAPM/MSDK/Buglyreporting  LNet"
+  },
+  "lazy_const_tables": {
+    "note": " 0x251xxx + bic/and/orr + NEON bsl  0x2f-0x37 [I] /",
+    "0x24bd90": "47 70 47 3c 28 ef ea 12 d2 93 18 e3 ad 15 9f 78 9e e8 5f d2 cc 35 68 05 00 00 00 00 00 00 00 00 00 52 12 1b 09 57 e2 8c 04 ...send 0xbecb8 ",
+    "0x24bdc0": "72 3d 17 82 bf 91 86 2f ec 03 d5 2f 74 8d bd 7a 0a 89 41 db 5d 1c 32 ad bd 59 92 e9 f0 75 a7 2f 05 a2 1e 88 60 3f e1 7c ...recv 0xbf0f4 ",
+    "0x24bdf0": "05 a2 1e 88 60 3f e1 7c 59 13 9e 76 b9 0d 04 0d 04 df 1e ca 2e 95 76 14 ef a9 4a 06 ce 7c 29 0f 3a 15 a2 e5 c4 d8 e3 cb ...recv 0xbf0f4  0x24bdc0 ",
+    "0x248140": "a9 93 39 09 c6 b4 b8 f7 f1 94 9a 6d 10 df 7c 0a 9d fe c3 56 79 8a 23 0a f7 52 bb c0 72 c1 68 f5 75 75 d5 eb ef b9 8d 09 ...netsend 0x710b4 ",
+    "0x24c4d0/0x24c510": "udp_connect 0xc3a2c ",
+    "0x24c850/0x24c870/0x24c8b0/0x24c8d0": "packet_send_mega 0xccf34 ",
+    "0x248300/0x2482d0": "recv-side 0x79bbc ",
+    "0x247b40/0x247b70/0x247ba0/0x247bf0": "UdpConnect 0x697fc "
+  },
+  "log_anchors": {
+    "format": "0xda704/ 0xda15ctag+fmt/ 0xdaa38fmt/ 0xdaec0errno+tag0xda704  0x251988  0x24f680",
+    "keywords": [
+      "ConnectManager UdpConnect !m_conf.UseNetTypeDNS use defaultHost @0x1d796e",
+      "ConnectManager UdpConnect m_conf.UseNetTypeDNS is true @0x1d79ae",
+      "ConnectManager connect mode switch from:%d to:%d @0x1d7d14",
+      "ConnectManager SetState from %d to %d @0x1d7af0",
+      "ConnectManager Reconnect m_wifiReConnectLimit:%d ... @0x1d7d45",
+      "ConnectManager disconnect wifiConn by unavailable network @0x1d7a78",
+      "RecvData: RecvData: Thread stopping before select @0x1d7bf4",
+      "RecvData: object is being destroyed after select, early return @0x1d7c26",
+      "RecvData: ConnectState::Disconnected, early return @0x1d7b80",
+      "File m_ECConn descriptor %d exceeds FD_SETSIZE limit %d @0x1d7b16",
+      "File descriptor %d exceeds FD_SETSIZE limit, i=%d, FD_SETSIZE=%d @0x1d7bb3",
+      "conn(%d) SetPingStrategy:%d, %d @0x1e4f2f→xref 0x7c188",
+      "lzw dictionary init fail!path:%s @0x1d923a",
+      "Ping::SendAsync \"%s\" not find ip. / Ping thread-%u enter...",
+      "run length compression @0x1de296 / zlib compression @0x1de2b2"
+    ]
+  },
+  "import_anchors": {
+    "network": {"socket": "0x65850", "connect": "0x63580", "send": "0x62550", "sendto": "0x62e80", "recv": "0x65480", "recvfrom": "0x63ed0", "poll": "0x63a90", "select": "0x63520", "getaddrinfo": "0x62ec0", "freeaddrinfo": "0x63480", "gethostbyname": "0x653f0", "setsockopt": "0x64880", "getsockopt": "0x618a0", "getsockname": "0x60e20", "inet_ntop": "0x61010", "inet_pton": "0x618d0", "ioctl": "0x646b0", "getprotobyname": "0x62350", "close": "0x615c0", "pipe": "0x65710", "fcntl": "0x61a20", "dup2": "0x62a20", "syscall": "0x65070?"},
+    "call_sites": {
+      "socket": ["0x8e8e4()", "0xba3e4(ConnectManager)", "0x10e8e0(✋OpenSSL RAND_egd LNet)"],
+      "connect": ["0x8e928()", "0xbc470(ConnectManager )", "0x10e900/0x10e948(✋EGD)"],
+      "sendto": ["0xbef44"], "recvfrom": ["0xbf3a0"], "send": ["0xbef0c"], "recv": ["0xbf32c"],
+      "select": ["0x7ff24(RecvData)", "0xc1568"], "poll": ["0x83124", "0x102d54", "0x1c287c"]
+    },
+    "no_android_log_print": "✅ dynsym 176  __android_log_print"
+  }
+}

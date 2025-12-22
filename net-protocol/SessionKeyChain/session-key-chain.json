@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "date": "2026-08-12",
+    "agent": "SessionKeyChain",
+    "scope": " → NetCrypto key ",
+    "corpus_baseline": "corpus/native-elf/decompressed-arm64/*.so (7.2.20.45 ,  7.2.46.104 )",
+    "evidence_marks": {
+      "V": "//",
+      "V_prior": "lnet-vm.md / gcloud-crypto.md, qemu ",
+      "I": "",
+      "OPEN": ""
+    },
+    "coordinate_system": "VA == file offsetlibgcloud.so  [0, 0xad66a8)libLNet.so < 0x6a5ba94libil2cpp.so seg0 [0, 0xc2a8210)"
+  },
+  "channels": {
+    "A": {
+      "name": "gcloud/TGCP  (G6 connector)",
+      "lib": "libgcloud.so",
+      "role": " G6/TGCP g6 tdirlockstepGRomeLink ",
+      "cipher": "AES-128-CBC + tsf4g padding, IV  00..0f",
+      "key_origin": " LoginRspData → MD5  →  AES key schedule",
+      "status": ""
+    },
+    "B": {
+      "name": "LNet  (NetCrypto)",
+      "lib": "libLNet.so + libil2cpp.so (C# )",
+      "role": " UDP  (LNetUdpConnector),  (Wi-Fi/)",
+      "cipher": "AES-CCM  (CRYPTO_ccm128_*  vtable )",
+      "key_origin": " (NetCryptoSetKey/NetSetKey ), C#  key",
+      "status": "libLNet C#  key  OPEN"
+    }
+  },
+  "steps": [
+    {
+      "id": 1,
+      "channel": "A",
+      "step": " → LoginTicket ( → G6 )",
+      "va": "libgcloud.so: proto descriptor @0x8D387B (LoginTicket)",
+      "function": "gcloud_lockstep_login @0x6FE514 → lockstep  vtbl ",
+      "data": "g6.LoginTicket { uid u64/1, login_key string/2, create_time u32/3, client_addr/4, game_id/5, token/6, token_expire/7, channel/8, os/9, env_type/10 }",
+      "input": " (login_key )",
+      "output": "LoginRequest  (ct_login_ticket @0x8D3A59)",
+      "evidence": "V",
+      "capture": " ( state 0 , [V_prior]+[I])"
+    },
+    {
+      "id": 2,
+      "channel": "A",
+      "step": "G6  → LoginRspData ()",
+      "va": "proto descriptor @0x8D39DC",
+      "function": "G6 connector  →  (0x1CB1D8 )",
+      "data": "g6.LoginRspData { session_id u64/1, session_key string/2, seq_no u32/4, game_data string/5, biz_code/6, queue/7 }",
+      "input": "",
+      "output": "session_id / session_key / seq_no  (mgr+0x10 / mgr+0x48 / mgr+0x1C0)",
+      "evidence": "V (), I (→mgr )",
+      "capture": ""
+    },
+    {
+      "id": 3,
+      "channel": "A",
+      "step": "TGCP session key  (MD5)",
+      "va": " 0x1C964C ( 0x1C964C,  0x1CA298,  0x1CA184 vtable 0xAF2BC0+0x20)",
+      "function": "0x1C964C: snprintf(buf,0x100,\"%llu%s%lu\", session_id, session_key, seq_no) @0x8160A2 → MD5_Init/Update/Final (0x228AD4/0x228B10/0x228C14) →  hex (%02X @0x824A16, 32 ) → memcpy(key16, hex+16, 16)",
+      "data": "preimage = \"%llu%s%lu\" % (session_id, session_key, seq_no); key16 = hex(MD5(preimage)[8..15])  ASCII (16 B)",
+      "input": "session_id (u64), session_key (string), seq_no (u32)",
+      "output": "16  key16 (ASCII hex, )",
+      "evidence": "V ()",
+      "capture": " 2 "
+    },
+    {
+      "id": 4,
+      "channel": "A",
+      "step": "AES-128 ",
+      "va": "0x158724 (dual-schedule key setup),  0x1C984C",
+      "function": "AES_set_key(session+8, key16, 128); session+0x1F0 key-flag = 1 (0x1C98E8)",
+      "data": "session  (0x1F4 B, ctor 0x1C9580 vtable 0xAF2AA0 / 0x1C75C0 vtable 0xAF2A20): +0/+4 u32 , +8 AES enc schedule, +8+0xF4 dec schedule, +0x1F0 u8 key-set ",
+      "input": "key16",
+      "output": "session  AES  key schedule",
+      "evidence": "V",
+      "capture": ""
+    },
+    {
+      "id": 5,
+      "channel": "A",
+      "step": "TGCP  ()",
+      "va": "encrypt  0x1C9928 → 0x158414 (tsf4g-CBC encrypt) @0x1C9A18; decrypt  0x1C9A88 → 0x158604 @0x1C9B78; CBC 0x1581B4; IV @0x809D10 = 00 01 02 ... 0f",
+      "function": "state [session+4]==0 → ; ==1  key-flag → AES-128-CBC+tsf4g; padding: rem=len&0xf, pad=0x20-rem(rem>10)  0x10-rem, =++'t''s''f''4''g'+padlen",
+      "data": " +8 key schedule; IV  00..0f",
+      "input": "TGCP ",
+      "output": "AES-128-CBC  ( tsf4g , 16 )",
+      "evidence": "V (), V_prior (qemu roundtrip)",
+      "capture": "IV/padding/"
+    },
+    {
+      "id": 6,
+      "channel": "B",
+      "step": "C#  NetCryptoSetKey (libLNet )",
+      "va": "libil2cpp.so: DllImport  @0x15C9490 ('NetCryptoSetKey')/0x15E9DA4 ('LNet');  0x8236F98/0x8236FE4;  0x3BC9580 (dlopen+dlsym);  [x22,#0x918]",
+      "function": "il2cpp DllImport :  dlopen(\"LNet\")+dlsym(\"NetCryptoSetKey\") →  → blr;  (ctx, key_obj, keylen),  key  = key_obj+0x20 ( payload)",
+      "data": "C# : Assets/Plugins/LNet/Scripts/LNetNative.cs (DllImport), LNetCrypto.cs (), NativeLibrary.cs",
+      "input": "ctx (NetCrypto ), key_obj ( byte[]), keylen",
+      "output": " libLNet NetCryptoSetKey(ctx, key, keylen)",
+      "evidence": "V (), V (metadata / @0x249D9A0)",
+      "capture": "hook libLNet 0x9F640  il2cpp  0x8236F98"
+    },
+    {
+      "id": 7,
+      "channel": "B",
+      "step": "C#  key ( buffer )",
+      "va": "libil2cpp.so 0x5AF591C (NetCryptoSetKey ,  0x5AF53E8)",
+      "function": "0x5AF591C :  0x7127110([this,#0xB8],0)  → [[val+0x18]+0x40] = KeyInfo; KeyInfo : +0x10 i16 len1, +0x18 buf1, +0x20 i16 len2, +0x28 buf2;  byte[len1+len2],  buf1(0..len1)+buf2(len1..), NetCryptoSetKey(ctx, byte[], len1+len2)",
+      "data": "composite key = buf1(len1) ++ buf2(len2); len1/len2  KeyInfo  (i16)",
+      "input": "KeyInfo  (buf1/buf2  OPEN)",
+      "output": "NetCryptoSetKey  (key, keylen) ",
+      "evidence": "V (), OPEN (buf1/buf2 )",
+      "capture": " hookNetCryptoSetKey  KeyInfo ;  buf1/buf2  ()"
+    },
+    {
+      "id": 8,
+      "channel": "B",
+      "step": "libLNet NetCryptoSetKey/NetSetKey (C++ , )",
+      "va": "libLNet.so NetCryptoSetKey 0x9F640 (CFF, XOR-0x50); NetSetKey 0x95E70 → 0x79514; vtable 0x22C878; SetKey  0xD6EE0; ctor 0xD6AE0 (0x128 B); CCM  0xF24DC",
+      "function": "NetCryptoSetKey:  → ctx->vtbl[0x10](ctx,key,keylen) = 0xD6EE0; NetSetKey:  key!=0 && keylen>0 → / NetCrypto  @host+0x268 (ctor 0xD6AE0) →  vtbl[0x10] →  host+0x90  (0xC72F0, /); libLNet  key ",
+      "data": "NetCrypto  0x128 B: AES key schedule + CCM nonce/counter ",
+      "input": "(key, keylen) ",
+      "output": "NetCrypto  AES ",
+      "evidence": "V ( NetSetKey  CFF ), V_prior (lnet-vm.md §4 NetCryptoSetKey 14 )",
+      "capture": " key (V_prior); hook "
+    },
+    {
+      "id": 9,
+      "channel": "A+B",
+      "step": "",
+      "va": "gcloud LoginRspData.game_data string/5 @0x8D3A24 ",
+      "function": "TGCP  (A)  LNet  (B) : A  libgcloud  (MD5); B  C#  ( OPEN)",
+      "data": " [I]: LoginRspData.game_data (field 5)  B  key  ()",
+      "input": "-",
+      "output": "-",
+      "evidence": "I (), V ( key )",
+      "capture": " A  ( game_data) "
+    }
+  ],
+  "capture_checklist": {
+    "must_capture_network": [
+      "G6/TGCP : LoginRspData { session_id u64, session_key string, seq_no u32 } —  A  AES key ( 2→3→4)",
+      "G6/TGCP  ( game_data string/5) —  B  key ",
+      "LNet UDP  —  ( key )"
+    ],
+    "must_hook_runtime": [
+      "libLNet.so NetCryptoSetKey @0x9F640 (x0=ctx, x1=key, w2=keylen) — B  key ",
+      "libLNet.so NetSetKey @0x95E70 () — / key  ()",
+      "libil2cpp.so 0x5AF591C  —  C#  buf1/buf2 (KeyInfo )  key ",
+      ": libgcloud.so  0x1C964C —  preimage/MD5 ,  2 "
+    ],
+    "static_constants_no_capture": [
+      "IV = 00 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f @libgcloud 0x809D10",
+      "tsf4g : pad =  +  + 't''s''f''4''g'(0x74 73 66 34 67) + padlen; rem=len&0xf; pad=0x20-rem(rem>10)  0x10-rem",
+      "preimage  \"%llu%s%lu\" @0x8160A2; hex  \"%02X\" @0x824A16",
+      "MD5 (, 0x228AD4/0x228B10/0x228C14), AES-128-CBC (, 0x1581B4)",
+      "key16 = hex(MD5(preimage)[8..15])  ASCII — ",
+      "libLNet :  key  (V_prior:  key//)"
+    ],
+    "offline_reproducibility": {
+      "channel_A_tgcp": ":  LoginRspData  → MD5 → hex → AES key",
+      "channel_B_lnet": " (buf1/buf2 ):  hook NetCryptoSetKey , "
+    }
+  },
+  "open_items": [
+    "B  composite key  buf1/buf2  ( [this,#0xB8]  KeyInfo) —  hook  C#  (LNetCrypto.cs)",
+    "A :  state  0 ()  key-flag ,  config  state=1 ([config+0x20] → mgr+0x1B24 → session+4) — ",
+    "LoginRspData.game_data  B  key  [I]"
+  ],
+  "key_derivation_formula": {
+    "channel_A": "AES_key_16B = uppercase_hex(MD5(sprintf(\"%llu%s%lu\", session_id, session_key, seq_no)))[16:32]",
+    "channel_B": "NetCrypto_key = buf1(len1) ++ buf2(len2)  [buf1/buf2  OPEN]"
+  }
+}

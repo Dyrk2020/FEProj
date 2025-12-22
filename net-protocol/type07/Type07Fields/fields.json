@@ -1,0 +1,88 @@
+{
+  "slice": "Type07Fields",
+  "date": "2026-08-12",
+  "corpus": "work/packet-decrypt-20260812/DecryptFlowA/decrypt_a.jsonl",
+  "frame": {
+    "type": 7,
+    "count": 14725,
+    "direction": "server->client",
+    "fps": 14.7,
+    "dt_ms": {"median": 68, "p10": 65},
+    "time_window": "1786543911649..1786544928760",
+    "seq_gaps": {"1": 14723},
+    "seq_head4_offset": -43,
+    "evidence": "payload[8:12]==0x00000007; 14725/15558 hlen=4 records; matches protocol.md sect.3"
+  },
+  "header_fields": [
+    {"off": 0, "len": 4, "type": "u32 BE", "field": "msgseq", "semantics": "frame sequence = head4_low28 - 43", "evidence": "14723/14725 exact; 2 frames off by 1 (dup seq)"},
+    {"off": 4, "len": 1, "type": "u8", "field": "const", "value": 2, "evidence": "14724/14725"},
+    {"off": 5, "len": 1, "type": "u8", "field": "const", "value": 0, "evidence": "14725/14725"},
+    {"off": 6, "len": 1, "type": "u8", "field": "subtype", "semantics": "frame density class ~ max(0, records-5)", "evidence": "subtype 0->0recs, 9->14recs median; NOT game phase"},
+    {"off": 7, "len": 1, "type": "u8", "field": "focus_player", "semantics": "player index 0..10 whose state is excluded from this frame; 0=empty/global", "evidence": "focus=X => record player-set = {0..10}\\{X} for all X"}
+  ],
+  "records": {
+    "standard": {
+      "size": 5,
+      "layout": "03 01 XX YY ZZ",
+      "fields": [
+        {"off": 0, "len": 2, "field": "marker", "value": "0301", "evidence": "100% at record starts"},
+        {"off": 2, "len": 2, "type": "u16 BE", "field": "value", "semantics": "per-player 16-bit state; uniform 0..65535; LE interpretation = map-scale (65535~15000 units) [I]; smoothness test fails under tested pairings [I]", "evidence": "68% of re-shown cells change per 70ms; per-player uniform distribution"},
+        {"off": 4, "len": 1, "type": "u8", "field": "player_index", "semantics": "player 0..10", "evidence": "frame z-set = all players except focus, verified per focus value"}
+      ]
+    },
+    "window": {
+      "size_slots": 14,
+      "shift_per_frame": 7,
+      "mechanics": "frame N = [group Gk | group Gk+1], 7 cells per group; adjacent frames overlap 7 cells exactly [V]",
+      "reshow_stats": {
+        "identical_u24": "28.9%",
+        "player_byte_only_change_plus7to14": "~2.7% (435/435 u16 unchanged)",
+        "value_changed": "~68%"
+      },
+      "evidence": "seq147->148->149 exact cell alignment; 7693 adjacent pairs"
+    },
+    "block_0d": {
+      "size": 14,
+      "layout": "0d 0c 06 XX 01 YY 09 65 ZZ 06 00 00 00 00",
+      "count": 4468,
+      "fields": [
+        {"off": 0, "len": 1, "field": "len", "value": 13, "inference": true},
+        {"off": 1, "len": 1, "field": "type", "value": 12},
+        {"off": 3, "len": 1, "field": "entity_xx", "semantics": "entity id 0..255, increments over match (1..248+)", "evidence": "seq396-410: 1,2,2,3,4,5,5,6,6"},
+        {"off": 6, "len": 3, "field": "frame_counter_u24", "semantics": "per-frame counter", "evidence": "= 615550 + 2*seq for seq 396-410 (24/24 exact)"}
+      ],
+      "position": "between window halves"
+    },
+    "block_0e": {
+      "size": 16,
+      "layout": "0e 65 03 00 00 [6B counter] ff ff ff ff",
+      "count": 978,
+      "fields": [
+        {"off": 0, "len": 1, "field": "len", "value": 14, "inference": true},
+        {"off": 5, "len": 6, "field": "game_frame_clock", "semantics": "fixed-point game frame counter (frame_number << 32 | fraction)", "evidence": "974/976 monotonic; rate 63.15e9/s = 2^32 x 14.7fps"},
+        {"off": 11, "len": 4, "field": "sentinel", "value": "ffffffff = -1", "inference": "no-target/void entity"}
+      ]
+    },
+    "tail": {"size": "1-2 bytes", "value": "00", "field": "frame_padding"}
+  },
+  "player_semantics": {
+    "player_index_range": "0..10 (11 values)",
+    "focus_correlation": "frame focus=X carries records for all players except X",
+    "index_0": "empty/global slot (focus=0 frames carry no records)",
+    "index_11": "rare extra entity (572 records) [I: minion/turret candidate]",
+    "high_index_values": "artifacts of misaligned scan inside 0d/0e block payloads"
+  },
+  "evolution_analysis": {
+    "msgseq": {"behavior": "+1 per frame", "evidence": "100% consecutive"},
+    "0e_clock": {"behavior": "monotonic fixed-point game frames", "evidence": "974/976; rate = 2^32/frame"},
+    "0d_counter": {"behavior": "+2 per frame", "evidence": "615550 + 2*seq (seq 396-410)"},
+    "record_values": {"behavior": "68% change per 70ms, uniform 0..65535", "candidates": ["position LE [I]", "angle [I rejected]", "resource [I rejected]"], "verdict": "unresolved; needs runtime Metalib"},
+    "subtype_over_time": {"behavior": "7/8 early, 5/6 mid-late", "verdict": "density-class artifact, not phase"}
+  },
+  "direction_note": "type=07 lives at hlen=4 payload[8:12]; pcap captured on server side (37191=client port); hlen=14 frames carry channel byte at [24], no type field",
+  "limitations": [
+    "u16 value physical semantics unresolved (needs FrameEngine::BattleNetworkRevMsgBuffer Metalib decode)",
+    "0d/0e block event semantics inferred (GameSafeMonitor-like candidates)",
+    "game-1 frames (unknown key) not included"
+  ]
+}

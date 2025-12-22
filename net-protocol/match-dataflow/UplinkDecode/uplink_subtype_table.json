@@ -1,0 +1,860 @@
+[
+ {
+  "sub": "010301",
+  "n": 8274,
+  "tlen_modes": [
+   [
+    40,
+    8274
+   ]
+  ],
+  "payload_len_modes": [
+   [
+    7,
+    8274
+   ]
+  ],
+  "cnt_range": [
+   147,
+   13717
+  ],
+  "time_range": [
+   1786543921618,
+   1786544844441
+  ],
+  "first_payload": "d4130000006f95",
+  "unique_prefix8": 8274
+ },
+ {
+  "sub": "010e0c",
+  "n": 300,
+  "tlen_modes": [
+   [
+    51,
+    300
+   ]
+  ],
+  "payload_len_modes": [
+   [
+    18,
+    300
+   ]
+  ],
+  "cnt_range": [
+   966,
+   12968
+  ],
+  "time_range": [
+   1786543977426,
+   1786544793511
+  ],
+  "first_payload": "065b010009e8018c0f000000000000014996",
+  "unique_prefix8": 300
+ },
+ {
+  "sub": "020301",
+  "n": 258,
+  "tlen_modes": [
+   [
+    56,
+    83
+   ],
+   [
+    55,
+    76
+   ],
+   [
+    46,
+    42
+   ]
+  ],
+  "payload_len_modes": [
+   [
+    23,
+    83
+   ],
+   [
+    22,
+    76
+   ],
+   [
+    13,
+    42
+   ]
+  ],
+  "cnt_range": [
+   607,
+   12974
+  ],
+  "time_range": [
+   1786543952931,
+   1786544793941
+  ],
+  "first_payload": "ab2b000d0c060915020906be0900000000000000",
+  "unique_prefix8": 258
+ },
+ {
+  "sub": "010d0c",
+  "n": 211,
+  "tlen_modes": [
+   [
+    50,
+    211
+   ]
+  ],
+  "payload_len_modes": [
+   [
+    17,
+    211
+   ]
+  ],
+  "cnt_range": [
+   581,
+   8112
+  ],
+  "time_range": [
+   1786543951155,
+   1786544463323
+  ],
+  "first_payload": "0603150109068a0900000000000000e2f6",
+  "unique_prefix8": 211
+ },
+ {
+  "sub": "01250c",
+  "n": 150,
+  "tlen_modes": [
+   [
+    74,
+    150
+   ]
+  ],
+  "payload_len_modes": [
+   [
+    41,
+    150
+   ]
+  ],
+  "cnt_range": [
+   385,
+   8187
+  ],
+  "time_range": [
+   1786543937874,
+   1786544468391
+  ],
+  "first_payload": "0601fb120300820600a2ad8b65770905dd8a0c6a",
+  "unique_prefix8": 150
+ },
+ {
+  "sub": "020e0c",
+  "n": 136,
+  "tlen_modes": [
+   [
+    56,
+    136
+   ]
+  ],
+  "payload_len_modes": [
+   [
+    23,
+    136
+   ]
+  ],
+  "cnt_range": [
+   994,
+   12972
+  ],
+  "time_range": [
+   1786543979265,
+   1786544793825
+  ],
+  "first_payload": "0663010109e801c40f00000000000301107d0000",
+  "unique_prefix8": 136
+ },
+ {
+  "sub": "020d0c",
+  "n": 110,
+  "tlen_modes": [
+   [
+    55,
+    110
+   ]
+  ],
+  "payload_len_modes": [
+   [
+    22,
+    110
+   ]
+  ],
+  "cnt_range": [
+   602,
+   8110
+  ],
+  "time_range": [
+   1786543952631,
+   1786544463201
+  ],
+  "first_payload": "060715010906b409000000000003015768000000",
+  "unique_prefix8": 110
+ },
+ {
+  "sub": "01260c",
+  "n": 100,
+  "tlen_modes": [
+   [
+    75,
+    100
+   ]
+  ],
+  "payload_len_modes": [
+   [
+    42,
+    100
+   ]
+  ],
+  "cnt_range": [
+   611,
+   12954
+  ],
+  "time_range": [
+   1786543953281,
+   1786544792565
+  ],
+  "first_payload": "060b17000106c6090051848abe5b0b085f8a432e",
+  "unique_prefix8": 100
+ },
+ {
+  "sub": "010f0c",
+  "n": 100,
+  "tlen_modes": [
+   [
+    52,
+    100
+   ]
+  ],
+  "payload_len_modes": [
+   [
+    19,
+    100
+   ]
+  ],
+  "cnt_range": [
+   8854,
+   12791
+  ],
+  "time_range": [
+   1786544513760,
+   1786544781522
+  ],
+  "first_payload": "06bb010109b134ac8a010000000000000978a3",
+  "unique_prefix8": 100
+ },
+ {
+  "sub": "0105cd",
+  "n": 96,
+  "tlen_modes": [
+   [
+    42,
+    96
+   ]
+  ],
+  "payload_len_modes": [
+   [
+    9,
+    96
+   ]
+  ],
+  "cnt_range": [
+   1042,
+   12193
+  ],
+  "time_range": [
+   1786543982567,
+   1786544740803
+  ],
+  "first_payload": "f50100000000015daa",
+  "unique_prefix8": 95
+ },
+ {
+  "sub": "0104cd",
+  "n": 90,
+  "tlen_modes": [
+   [
+    41,
+    90
+   ]
+  ],
+  "payload_len_modes": [
+   [
+    8,
+    90
+   ]
+  ],
+  "cnt_range": [
+   494,
+   12802
+  ],
+  "time_range": [
+   1786543945235,
+   1786544782265
+  ],
+  "first_payload": "060000000000cbd6",
+  "unique_prefix8": 90
+ },
+ {
+  "sub": "0204cd",
+  "n": 57,
+  "tlen_modes": [
+   [
+    46,
+    40
+   ],
+   [
+    56,
+    10
+   ],
+   [
+    57,
+    7
+   ]
+  ],
+  "payload_len_modes": [
+   [
+    13,
+    40
+   ],
+   [
+    23,
+    10
+   ],
+   [
+    24,
+    7
+   ]
+  ],
+  "cnt_range": [
+   534,
+   12944
+  ],
+  "time_range": [
+   1786543948004,
+   1786544791901
+  ],
+  "first_payload": "440000000301fe7c000000d6a7",
+  "unique_prefix8": 56
+ },
+ {
+  "sub": "0205cd",
+  "n": 56,
+  "tlen_modes": [
+   [
+    47,
+    33
+   ],
+   [
+    58,
+    19
+   ],
+   [
+    59,
+    4
+   ]
+  ],
+  "payload_len_modes": [
+   [
+    14,
+    33
+   ],
+   [
+    25,
+    19
+   ],
+   [
+    26,
+    4
+   ]
+  ],
+  "cnt_range": [
+   966,
+   12565
+  ],
+  "time_range": [
+   1786543977375,
+   1786544766088
+  ],
+  "first_payload": "e80100000003013e4e0000014963",
+  "unique_prefix8": 56
+ },
+ {
+  "sub": "0103cc",
+  "n": 49,
+  "tlen_modes": [
+   [
+    40,
+    49
+   ]
+  ],
+  "payload_len_modes": [
+   [
+    7,
+    49
+   ]
+  ],
+  "cnt_range": [
+   0,
+   12522
+  ],
+  "time_range": [
+   1786543912017,
+   1786544763227
+  ],
+  "first_payload": "00020000004a15",
+  "unique_prefix8": 49
+ },
+ {
+  "sub": "020f0c",
+  "n": 43,
+  "tlen_modes": [
+   [
+    57,
+    43
+   ]
+  ],
+  "payload_len_modes": [
+   [
+    24,
+    43
+   ]
+  ],
+  "cnt_range": [
+   9205,
+   12793
+  ],
+  "time_range": [
+   1786544537651,
+   1786544781636
+  ],
+  "first_payload": "06c5150109dd36ea8f0100000000000301e03100",
+  "unique_prefix8": 43
+ },
+ {
+  "sub": "01270c",
+  "n": 29,
+  "tlen_modes": [
+   [
+    76,
+    29
+   ]
+  ],
+  "payload_len_modes": [
+   [
+    43,
+    29
+   ]
+  ],
+  "cnt_range": [
+   4121,
+   12976
+  ],
+  "time_range": [
+   1786544191924,
+   1786544794094
+  ],
+  "first_payload": "06a8020101be16b24000655f8402b90bfc5b84f4",
+  "unique_prefix8": 29
+ },
+ {
+  "sub": "030301",
+  "n": 14,
+  "tlen_modes": [
+   [
+    63,
+    4
+   ],
+   [
+    64,
+    4
+   ],
+   [
+    62,
+    4
+   ]
+  ],
+  "payload_len_modes": [
+   [
+    30,
+    4
+   ],
+   [
+    31,
+    4
+   ],
+   [
+    29,
+    4
+   ]
+  ],
+  "cnt_range": [
+   678,
+   11681
+  ],
+  "time_range": [
+   1786543957807,
+   1786544706010
+  ],
+  "first_payload": "ffff0002ce01000d0c061901000944cc0a000000",
+  "unique_prefix8": 14
+ },
+ {
+  "sub": "01060e",
+  "n": 13,
+  "tlen_modes": [
+   [
+    43,
+    13
+   ]
+  ],
+  "payload_len_modes": [
+   [
+    10,
+    13
+   ]
+  ],
+  "cnt_range": [
+   297,
+   13622
+  ],
+  "time_range": [
+   1786543931869,
+   1786544837991
+  ],
+  "first_payload": "d295c7090000000097a0",
+  "unique_prefix8": 12
+ },
+ {
+  "sub": "010410",
+  "n": 12,
+  "tlen_modes": [
+   [
+    41,
+    12
+   ]
+  ],
+  "payload_len_modes": [
+   [
+    8,
+    12
+   ]
+  ],
+  "cnt_range": [
+   143,
+   12341
+  ],
+  "time_range": [
+   1786543921363,
+   1786544750918
+  ],
+  "first_payload": "b222020000006e97",
+  "unique_prefix8": 12
+ },
+ {
+  "sub": "0304cd",
+  "n": 11,
+  "tlen_modes": [
+   [
+    62,
+    6
+   ],
+   [
+    61,
+    5
+   ]
+  ],
+  "payload_len_modes": [
+   [
+    29,
+    6
+   ],
+   [
+    28,
+    5
+   ]
+  ],
+  "cnt_range": [
+   2270,
+   12965
+  ],
+  "time_range": [
+   1786544066053,
+   1786544793362
+  ],
+  "first_payload": "060000000d0c06f601010906bc23000100000003",
+  "unique_prefix8": 11
+ },
+ {
+  "sub": "0102ce",
+  "n": 11,
+  "tlen_modes": [
+   [
+    39,
+    11
+   ]
+  ],
+  "payload_len_modes": [
+   [
+    6,
+    11
+   ]
+  ],
+  "cnt_range": [
+   797,
+   5512
+  ],
+  "time_range": [
+   1786543965917,
+   1786544286489
+  ],
+  "first_payload": "000000011ca0",
+  "unique_prefix8": 11
+ },
+ {
+  "sub": "0305cd",
+  "n": 7,
+  "tlen_modes": [
+   [
+    64,
+    5
+   ],
+   [
+    63,
+    2
+   ]
+  ],
+  "payload_len_modes": [
+   [
+    31,
+    5
+   ],
+   [
+    30,
+    2
+   ]
+  ],
+  "cnt_range": [
+   1506,
+   11985
+  ],
+  "time_range": [
+   1786544014080,
+   1786544726657
+  ],
+  "first_payload": "cb030000000e0c06af010109cb03c41700000000",
+  "unique_prefix8": 7
+ },
+ {
+  "sub": "0202ce",
+  "n": 7,
+  "tlen_modes": [
+   [
+    54,
+    5
+   ],
+   [
+    55,
+    1
+   ],
+   [
+    44,
+    1
+   ]
+  ],
+  "payload_len_modes": [
+   [
+    21,
+    5
+   ],
+   [
+    22,
+    1
+   ],
+   [
+    11,
+    1
+   ]
+  ],
+  "cnt_range": [
+   699,
+   4576
+  ],
+  "time_range": [
+   1786543959198,
+   1786544222827
+  ],
+  "first_payload": "00000d0c061d0101094ef60a0000000000000102",
+  "unique_prefix8": 7
+ },
+ {
+  "sub": "01280c",
+  "n": 2,
+  "tlen_modes": [
+   [
+    77,
+    2
+   ]
+  ],
+  "payload_len_modes": [
+   [
+    44,
+    2
+   ]
+  ],
+  "cnt_range": [
+   11396,
+   12158
+  ],
+  "time_range": [
+   1786544686659,
+   1786544738450
+  ],
+  "first_payload": "0624170001a54288b2010051ef811e5b82640282",
+  "unique_prefix8": 2
+ },
+ {
+  "sub": "0302ce",
+  "n": 2,
+  "tlen_modes": [
+   [
+    59,
+    1
+   ],
+   [
+    60,
+    1
+   ]
+  ],
+  "payload_len_modes": [
+   [
+    26,
+    1
+   ],
+   [
+    27,
+    1
+   ]
+  ],
+  "cnt_range": [
+   4484,
+   5484
+  ],
+  "time_range": [
+   1786544216632,
+   1786544284598
+  ],
+  "first_payload": "02000d0c06ee01010924884600000000000301ab",
+  "unique_prefix8": 2
+ },
+ {
+  "sub": "010213",
+  "n": 1,
+  "tlen_modes": [
+   [
+    39,
+    1
+   ]
+  ],
+  "payload_len_modes": [
+   [
+    6,
+    1
+   ]
+  ],
+  "cnt_range": [
+   13218,
+   13218
+  ],
+  "time_range": [
+   1786544810526,
+   1786544810526
+  ],
+  "first_payload": "0100000dffe1",
+  "unique_prefix8": 1
+ },
+ {
+  "sub": "0202d0",
+  "n": 1,
+  "tlen_modes": [
+   [
+    45,
+    1
+   ]
+  ],
+  "payload_len_modes": [
+   [
+    12,
+    1
+   ]
+  ],
+  "cnt_range": [
+   0,
+   0
+  ],
+  "time_range": [
+   1786543912071,
+   1786543912071
+  ],
+  "first_payload": "010004d10101000000004a4b",
+  "unique_prefix8": 1
+ },
+ {
+  "sub": "0105de",
+  "n": 1,
+  "tlen_modes": [
+   [
+    42,
+    1
+   ]
+  ],
+  "payload_len_modes": [
+   [
+    9,
+    1
+   ]
+  ],
+  "cnt_range": [
+   0,
+   0
+  ],
+  "time_range": [
+   1786543911848,
+   1786543911848
+  ],
+  "first_payload": "02140000000000496b",
+  "unique_prefix8": 1
+ },
+ {
+  "sub": "0402d0",
+  "n": 1,
+  "tlen_modes": [
+   [
+    56,
+    1
+   ]
+  ],
+  "payload_len_modes": [
+   [
+    23,
+    1
+   ]
+  ],
+  "cnt_range": [
+   5569,
+   5569
+  ],
+  "time_range": [
+   1786544290374,
+   1786544290374
+  ],
+  "first_payload": "010004d10101000004cd060000000301316e0000",
+  "unique_prefix8": 1
+ }
+]

@@ -1,0 +1,385 @@
+{
+ "meta": {
+  "slice": "EndMatchDecode",
+  "date": "2026-08-12",
+  "project": "wild-rift-research",
+  "source": "work/packet-decrypt-20260812/DecryptFlowA/decrypt_a.jsonl",
+  "evidence_marks": "✅= [V]= [I]=",
+  "note": "plain_hex  256B573B  payload[0:223]"
+ },
+ "frame_container": {
+  "channel": "0x2d ()",
+  "frame_header": "[0:4]head4 [4:8]C1 [8:12]C2 [12:14]cd76 [14:18]CRC [18:22]C3 [22:24]0000 [24]ch=2d [25]00 [26:29] [29] [30:33] [33:]payload",
+  "payload_header": "[0:2]batch_type u16BE (0x69e0 / 0x0b78) [2:4]count u16BE [4:6]seq u16BE [6:8]data_len u16BE (=plain_len-45) [8:]data",
+  "evidence": "lenfield = plain_len - 45  58  ✅count  = 52 / 6✅"
+ },
+ "batches": {
+  "A": {
+   "type": "0x69e0",
+   "count_field": "0x0034 = 52",
+   "unique_messages": 52,
+   "seqs": "0..5152  seq",
+   "frames_total": 76,
+   "dup_pattern": " seq0..51t=1786544907557..7573 seq20..51 t=7655..7694 ✅",
+   "lengths": "74×573B + 2×221Bseq51 51/81 "
+  },
+  "B": {
+   "type": "0x0b78",
+   "count_field": "0x0006 = 6",
+   "unique_messages": 6,
+   "seqs": "0..5",
+   "frames_total": 12,
+   "dup_pattern": " 6  ✅t=7577..7578  7694..7695",
+   "lengths": "10×573B + 2×341Bseq5"
+  }
+ },
+ "unique_message_count": 58,
+ "retransmission_note": "88 88 - 30  = 58 ",
+ "hero_attribution": {
+  "conclusion": "per-hero  =  3  id10034/10059/10009 Metalib role id  hero id / ≥83B",
+  "heroes": [
+   {
+    "hero_id": 10034,
+    "hex": "0x2732",
+    "frames": [
+     "69e0/0"
+    ],
+    "offset": "payload 135..140 ([0x13]@135 + u32 0x00002732 @136-140)",
+    "attribution": " [I] + DownlinkDecode:  role=0c403347a4bf4dee0=",
+    "evidence": "✅ u32BE @payload135-139[V] DownlinkDecode off168-171 "
+   },
+   {
+    "hero_id": 10059,
+    "hex": "0x274b",
+    "frames": [
+     "69e0/15"
+    ],
+    "offset": "payload 140..145 ([0x13]@140 + u32 0x0000274b @141-145)",
+    "attribution": " 3role 0c40611efac63197 @payload49 iHeroID  [I]s15  role 0c40611efac63197",
+    "evidence": "✅ u32BE @payload140-144"
+   },
+   {
+    "hero_id": 10009,
+    "hex": "0x2719",
+    "frames": [
+     "69e0/26"
+    ],
+    "offset": "payload 49..51(value,0) u16 ",
+    "attribution": "s26  role id [I]",
+    "evidence": "✅ u16BE 0x2719 @payload41-43"
+   },
+   {
+    "note": "13-tag  s5(0x2f8f=12175)/s10(0x2bbf=11199)/s20(0x355b=13659)/s27,30,32(0)/s35(0x1d=29) ——  10000-10200  id[I]  id  id  3 /DownlinkDecode  ✅"
+   }
+  ]
+ },
+ "families": [
+  {
+   "id": "F-OVW",
+   "name": "/",
+   "seqs": [
+    0
+   ],
+   "n": 1,
+   "rep": "69e0/0",
+   "layout": "data=payload[8:]; [u32 6?] 31×00 [u16 0x0901][u16 0][u32 0x393399ab( uin)] [u16 0x7260][u16 10=] [u64 matchId+ts=0c28b046d1d6b15f] [u16 0x0006][(skillId,0)×4] [0x13][u32 10034] [u32 977] [u32 60][u32 3][u32 1] (u32×4=0) [(u32 0x62c7.. /)]",
+   "anchors": {
+    "match_ts": "payload44",
+    "hero_10034": "payload135-140",
+    "player_count_10": "payload40-44 ([u16 0x7260][u16 10])"
+   },
+   "schema_candidate": "SecRoundEndDetail6FlowC (213 , type_index 31857): ullBattleID/iUsedTime/iPlayerHeroID/iPlayerKill.. [I ]",
+   "confidence": "partial",
+   "raw_segments": [
+    "payload[0:8] '00 00 00 06'",
+    "payload[12:43] 31×00",
+    "payload[76:84] '09 01 00 00 39 33 99 ab'",
+    "payload[111:129] "
+   ]
+  },
+  {
+   "id": "F-DMG",
+   "name": "",
+   "seqs": [
+    3,
+    8,
+    13,
+    18,
+    23,
+    28,
+    33,
+    38,
+    43,
+    48
+   ],
+   "n": 10,
+   "rep": "69e0/3",
+   "layout": "= [u16 0x0005][u16 0x0000][u16 dmg_src_id][u16 0][u32 dmg1][u32 dmg2][u16 0x0001?][u32 dmg3] dmg_src_id ∈ {0x4551,0x6f81,0x9cae};  [u16 0x000N]  (N=7..0d);  [u8 02][role id u64][u8 01][role id u64]",
+   "anchors": {
+    "role_ids": {
+     "69e0/3": "[0c403347a4bf4dee(5) @payload87, 0c40204837002559(9) @payload97]",
+     "69e0/28": "0c40734846bc774c(2) @payload125",
+     "69e0/33": "0c40734846bc774c(2) @payload137",
+     "69e0/23": "0c403347a4bf4dee(5) @payload98"
+    }
+   },
+   "schema_candidate": "RoomHeroHurtStatOldOSS (84 ): ullRoomid/iHeroid/iModeid/iCampid/iPassivehurt.. [I  -  ullRoomid ]",
+   "confidence": "low",
+   "raw_segments": [
+    " 22B: 00 05 00 00 XX XX 00 00 YY YY 00 00 ZZ ZZ 00 00 WW WW 00 NN"
+   ]
+  },
+  {
+   "id": "F-PS",
+   "name": "role+",
+   "seqs": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35,
+    40,
+    45
+   ],
+   "n": 9,
+   "rep": "69e0/15",
+   "layout": "[u16 count][(skillId u16, 0)×count] [role u64] [u16 0x0006][(skillId,0)×5] [u16 0x096?][u16 0x0140] 00× ~ [u16 ] [0x13][u32 heroId] [u32 977] [u32]...",
+   "anchors": {
+    "roles": " 1-2 role1..9 : s5@56,s10@47,s15@49,s20@55,s25@67,s30@18/94,s35@15/87,s40@8,s45@68s15  hero 10059",
+    "skill_lists": "[5](0966,08c4,0915,093a,0899) / [6](0968,08d7,08c4,0878,089f,0899) / [5](0889,096c,0878,084c,0838) / [6](0914,0875,0949,096e,092c,08fe) / [4](0969,0889,086e,0951)"
+   },
+   "schema_candidate": "RoomChampionSkillUseStatOldOSS (178 , type_index 31985): ullRoomid/iCampid/iHeroid/iModeid/iSkillusetimes.. [I]",
+   "confidence": "low-medium",
+   "raw_segments": [
+    " count+skillId ",
+    ""
+   ]
+  },
+  {
+   "id": "F-CNT",
+   "name": "",
+   "seqs": [
+    1,
+    6,
+    11,
+    16,
+    21
+   ],
+   "n": 5,
+   "rep": "69e0/1",
+   "layout": "[u32 0][u32 0x98?] [u32 ] [u32 aa] [u32 0] [u32 1][u32 5][u32 7][u32 3b] 00× [u32 11][u32 0d][u32 11] 00× [u32 71 48][u32 be a0] (?) 00× [u16 8][(u32 1,2,1,0d)] ...",
+   "anchors": {},
+   "schema_candidate": "BattlePerformanceStat (90 , type_index 32268): iGrade/iTargetFPS/iFrameCount/iGameTime/fAvgFps/iJankCount.. [I]",
+   "confidence": "low",
+   "raw_segments": [
+    "payload[8:16] '00 00 00 00 00 00 00 98'"
+   ]
+  },
+  {
+   "id": "F-ITM",
+   "name": "/",
+   "seqs": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27,
+    32,
+    37,
+    42,
+    47
+   ],
+   "n": 10,
+   "rep": "69e0/7",
+   "layout": "data  (u32 itemId, u32 0) itemId ∈ {0x169e=5790, 0x0a59=2649, 0x0549=1353, 0x03f1=1009, 0x0c34=3124, 0x06d6=1750, 0x044c=1100, 0x05ad=1453, 0x0119=281, 0x072d=1837, 0x0d61=3425..}",
+   "anchors": {},
+   "schema_candidate": "RoomHeroTopEquipmentStatOldOSS (38 , type_index 31991): ullRoomid/iBuyequipment1..10/iSellequipment1..10/iHeroID [I]",
+   "confidence": "low-medium id  [I] B  id  0x0100-0x1600",
+   "raw_segments": [
+    "s7  '16 9e 00 00 01 19 00 00 05 49 00 00 07 2d 00 00 16 9e 00 00 0a 59 00 00'"
+   ]
+  },
+  {
+   "id": "F-TAIL",
+   "name": "-",
+   "seqs": [
+    4,
+    9,
+    14,
+    19,
+    24,
+    49
+   ],
+   "n": 6,
+   "rep": "69e0/4",
+   "layout": "data offset 192..222: 05 22 19 XX XX 00 0N ...",
+   "anchors": {},
+   "schema_candidate": null,
+   "confidence": "raw",
+   "raw_segments": [
+    "s4 tail: '05 22 19 bc 81 00 02 05 00 00 30 d1 22 00 01 c8'",
+    "s9 tail: '05 22 19 f3 31 00 02 01 00 01 24 f9 0a 00 00 05 14 22 1b 3f 39 00 01 01'",
+    "s14 tail: '05 22 19 cc 21 00 03 06 00 03 0d 69 07 00 00 2c 6f 1f 00 00 00 00 22'",
+    "s19 tail: '05 22 19 f7 19 00 04 0a 00 00 03 e8 16 00 00 14 2f 23 00 02 bd a0 01 00 01 16 76 22 1d 00 71'",
+    "s24 tail: '05 22 19 eb 61 00 04 01 00 00 f4 48 0c 00 00'",
+    "s49 tail: '05 22 19 f3 31 00 02 01 00 00 52 7a'"
+   ]
+  },
+  {
+   "id": "F-ZERO",
+   "name": "",
+   "seqs": [
+    29,
+    34,
+    39,
+    44
+   ],
+   "n": 4,
+   "rep": "69e0/29",
+   "layout": "payload[8:223]  0 >223B ",
+   "anchors": {},
+   "schema_candidate": "/ [I]",
+   "confidence": "structural"
+  },
+  {
+   "id": "F-HERO",
+   "name": "hero ",
+   "seqs": [
+    26
+   ],
+   "n": 1,
+   "rep": "69e0/26",
+   "layout": "[u16 0x0006][(value,0)×..]  0x0097,0x0491,0x0098, hero 0x2719=10009  [u32 4][u32 2] 00× [u32 0x0d61]..",
+   "anchors": {
+    "hero_10009": "payload41-43"
+   },
+   "schema_candidate": "SecRoundPlayerRealTimeFlowC (79 ): ullBattleID/szPlayerOpenId/.. [I ]",
+   "confidence": "low",
+   "raw_segments": [
+    "payload[32:62] '00 00 06 00 00 00 97 00 00 04 91 00 00 00 98 00 00 27 19 00 00 00 00 00 00 00 04 00 00 00 02'"
+   ]
+  },
+  {
+   "id": "F-RICH",
+   "name": "",
+   "seqs": [
+    50
+   ],
+   "n": 1,
+   "rep": "69e0/50",
+   "layout": "[u16 1][(u16,0)..] [u16 0x0006][(skillId,0)×5] [02 01 00 10] (u16  ×15) [01 00 02 00 00 01 c0] ..",
+   "anchors": {},
+   "schema_candidate": null,
+   "confidence": "raw",
+   "raw_segments": [
+    "payload[78:120] '06 00 00 08 74 00 00 09 69 00 00 08 64 00 00 08 6e 00 00 08 38 00 00 08 38 00 02 01 00 10 00 00 0c 12 00 00 17 f8'"
+   ]
+  },
+  {
+   "id": "F-ROSTER",
+   "name": "/221B ",
+   "seqs": [
+    51
+   ],
+   "n": 1,
+   "rep": "69e0/51",
+   "layout": "[u16 0][u16 5] [u8 idx][u8 0x0a][..] ×8  [u32 4][(u16 count,u16 0,u16 itemId) ×4: 0x0167,0x0168,0x0293,0x02bf] 00× [u32 0x0f7ae8][u32 0x0f7af8]",
+   "anchors": {
+    "player_count": "0x000a ×8 ",
+    "items": "0x0167=359,0x0168=360,0x0293=659,0x02bf=703",
+    "time_pair": "0x0f7ae8=1014504ms / 0x0f7af8=1014520ms [I]"
+   },
+   "schema_candidate": "RoomHeroTopEquipmentStatOldOSS /  [I]",
+   "confidence": "medium",
+   "raw_segments": [
+    "8× 11B  0x0a "
+   ]
+  },
+  {
+   "id": "B-OVW",
+   "name": "B -",
+   "seqs": [
+    0
+   ],
+   "n": 1,
+   "rep": "0b78/0",
+   "layout": "[u32 7] 20×00 [u8 0x3f][u8 0][u16 10] [u64 matchId+ts] [u16 5][u16 9][u16 0][u16 0xd5][u16 0][u16 0x01a4][u16 0][u16 0x27] 00× [: (u16,0)×3 + (u16,u8 count)] 00× [09 00 00 u16 itemId] [u32 785][u32 105][u32 300] ..",
+   "anchors": {
+    "match_ts": "payload36",
+    "player_count_10": "payload32-36 ([u8 0x3f][u16 0x000a])"
+   },
+   "schema_candidate": null,
+   "confidence": "partial",
+   "raw_segments": [
+    " 1: 04 94 00 00 00..00 28 0c 00 03",
+    "item : 09 00 00 01 e3 00 00 03 11 00 00 00 69 00 00 01 2c"
+   ]
+  },
+  {
+   "id": "B-PS",
+   "name": "B -",
+   "seqs": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "n": 5,
+   "rep": "0b78/1",
+   "layout": " role u64s1@78, s2@128, s3@178[00 05 00 09 00 00 00 d5 00 00 01 XX 00 00 00 YY] 00× [ (u16,u8 count=3/5/6/7)] 00× [09 00 00 u16 itemId 483/753/1023/1293] ..",
+   "anchors": {
+    "roles": {
+     "s1": "0c40734846bc774c(2) @payload86",
+     "s2": "0c403e48423ff3fa(4) @payload136",
+     "s3": "0c403647d301d89a(6) @payload186"
+    },
+    "item_ids": "0x01e3=483, 0x02f1=753, 0x03ff=1023, 0x050d=1293+270  [I]"
+   },
+   "schema_candidate": null,
+   "confidence": "partial",
+   "raw_segments": [
+    ": (0x04c4,0),(0x0138,0),(0x00c3,0),(0x1b0a,3) / (0x0805,0),(0x02a8,0),(0x0186,0),(0x4039,5) / (0x0ab7,0),(0x0389,0),(0x0249,0),(0x62e9,6) / (0x0e15,0),(0x0516,0),(0x030c,0),(0x8f83,7)"
+   ]
+  },
+  {
+   "id": "F-MISC",
+   "name": "",
+   "seqs": [
+    31,
+    36,
+    41,
+    46
+   ],
+   "n": 4,
+   "rep": "69e0/18",
+   "layout": "s18/s28  0x000a ; s31 ; s36 +; s41/s46 +; s30/s35/s40  role id0c404f43174917df 8 + ",
+   "anchors": {
+    "roles": {
+     "s30": "[0c403647d301d89a(6)@86, 0c404f43174917df(8)@10]",
+     "s35": "[0c01321cb00e68f2(7)@79, 0c404f43174917df(8)@7]",
+     "s40": "0c404f43174917df(8)@0"
+    }
+   },
+   "schema_candidate": null,
+   "confidence": "raw"
+  }
+ ],
+ "family_count": 13,
+ "acceptance_note": "≥20 13  + Jaccard≥0.2225 12 →  ✅",
+ "schema_match_summary": {
+  "confirmed_fields": [
+   "matchId 0x0c28 [V] type=03 ",
+   " 0x5fb1d6d146b0 [V] 1:1",
+   "10  0x000a [V]",
+   "hero ids 10034/10059/10009 [V]DownlinkDecode off168-171 ",
+   "9  role id [V]",
+   "skill ids 0x08xx-0x09xx [I]5 ",
+   "item ids 0x0100-0x1600 [I]"
+  ],
+  "not_matchable_without_metalib": " Metalib entry iHUnitSize/iCountMetalib MetalibFind schema-star-stat-report-tdr.json  → "
+ }
+}

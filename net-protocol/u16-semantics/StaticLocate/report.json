@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "target": "corpus/native-elf/decompressed-arm64/libFEProj.so",
+  "va_is_file_offset_below": "0x6a5c000",
+  "text_range": ["0x1155190", "0x1155190+0x44E5C9C"],
+  "summary": "type=07 receive chain fully mapped: hash-registry dispatcher 0x1936c94 -> type7 handler 0x1a5e20c -> decode 0x1a56b14 -> sync-apply 0x42e9874 (mid-entry 0x42e9bf4) -> per-team parse 0x42e91c4 -> consumers 0x42ea488/0x42ea550/0x42ea6a0/0x461f274 (Fix32 integer math; no float position constants exist). Island catalog incomplete: full XOR-0x30 sweep = 1109 ranges (see xor-islands-full.json).",
+  "rvas": [
+    "0x1936c94", "0x1936d0c", "0x1a5e20c", "0x1a5e264", "0x1a5e2d8", "0x1a56b14", "0x1a56c60", "0x1a56c98",
+    "0x42e9bf4", "0x42e9874", "0x42e8c54", "0x42e91c4", "0x42ea488", "0x42ea550", "0x42ea6a0", "0x461f274",
+    "0x461f210", "0x461f278", "0x461f288",
+    "0x2a35f38", "0x2a36078", "0x2a3e0dc", "0x2a35c3c", "0x2a35d94", "0x2a35104",
+    "0x1a5c110", "0x1a6042c", "0x42ef158", "0x1a5e738", "0x1a5e744", "0x1a5e758",
+    "0x1a62290", "0x1a62398", "0x1a6ba50", "0x1a6baf0"
+  ],
+  "strings": {
+    "BattleNetworkRevMsgBuffer_TypeName": "0x5679783",
+    "FrameData_RTTI": "0x56793a0",
+    "Lockstep_RTTI": "0x56793e0",
+    "FrameReq_log": "0x567928c",
+    "libLNet_bindings": ["0x56794b1", "0x56794bc", "0x56794c4", "0x56794d0", "0x56794da", "0x56794e4", "0x56794f2", "0x5679503", "0x5679512"],
+    "FEDataSyncMsg_family_RTTI": ["0x5677f10", "0x5677f40", "0x5677f60", "0x5677f90", "0x5677fb0", "0x5677fd0", "0x5677ff0", "0x5678010", "0x5678030", "0x5678050", "0x5678080", "0x56780b0"],
+    "ActorStateMoveSync_RTTI": "0x5720fe0",
+    "IActorStateMoveSync_RTTI": "0x5720fb0"
+  },
+  "classes": [
+    {"name": "FrameEngine::BattleNetworkRevMsgBuffer", "rtti": "none (TDBHelper only)", "type_name_string": "0x5679783", "refs": ["0x1a62290", "0x1a62398"], "size": "0x20", "notes": "instance-registry; ctor 0x42f0210; register 0x1a6ba50/0x1a6baf0"},
+    {"name": "FrameEngine::FEDataSyncMsg", "rtti": "0x5677f40", "registry": "0x6a709c8", "base_vtable": "0x6a7f3b0"},
+    {"name": "FrameEngine::FEDataSyncModifyMsg", "rtti": "0x5677f10", "registry": "0x6a709e8", "base_vtable": "0x6a809c0"},
+    {"name": "FrameEngine::FEDataSyncModifyRefMsg", "rtti": "0x5677f60", "registry": "0x6a70a08", "base_vtable": "0x6a809e0"},
+    {"name": "FrameEngine::FEDSMByteMsg", "rtti": "0x5677f90", "registry": "0x6a70aa8", "base_vtable": "0x6a809e0", "derived_vtable": "0x6a80b40"},
+    {"name": "FrameEngine::FEDSMInt16Msg", "rtti": "0x5677fb0", "registry": "0x6a70b48", "base_vtable": "0x6a809e0", "derived_vtable": "0x6a80be0", "methods": ["0x1a1dd70", "0x1a1ddc0", "0x1a1ddc8", "0x1a1de40", "0x1a1de44", "0x1a1de58", "0x1a1de60", "0x1a1de84"], "type_id": "0x4fed"},
+    {"name": "FrameEngine::FEDSMInt32Msg", "rtti": "0x5677fd0", "registry": "0x6a70be8", "derived_vtable": "0x6a80c80"},
+    {"name": "FrameEngine::FEDSMUInt32Msg", "rtti": "0x5677ff0", "registry": "0x6a70c88", "derived_vtable": "0x6a80d20"},
+    {"name": "FrameEngine::FEDSMInt64Msg", "rtti": "0x5678010", "registry": "0x6a70d28", "derived_vtable": "0x6a80dc0"},
+    {"name": "FrameEngine::FEDSMUInt64Msg", "rtti": "0x5678030", "registry": "0x6a70dc8", "derived_vtable": "0x6a80e60"},
+    {"name": "FrameEngine::FEDataSyncAllocMsg", "rtti": "0x5678050", "registry": "0x6a70e68", "derived_vtable": "0x6a80f00"},
+    {"name": "FrameEngine::FEDataSyncListAllocMsg", "rtti": "0x5678080", "registry": "0x6a70f08", "derived_vtable": "0x6a80fa0"},
+    {"name": "FrameEngine::FEDataSyncFreeMsg", "rtti": "0x56780b0", "registry": "0x6a70fa8", "derived_vtable": "0x6a810b0"},
+    {"name": "FrameEngine::Logic::FrameData", "rtti": "0x56793a0", "registry": "0x6a71bf0", "base_vtable": "0x6a7a640", "notes": "FEObject-derived"},
+    {"name": "FrameEngine::Lockstep", "rtti": "0x56793e0", "registry": "0x6a71c28"},
+    {"name": "FrameEngine::DataSync::IActorStateMoveSync", "rtti": "0x5720fb0", "typeinfo": "0x6b930b0"},
+    {"name": "FrameEngine::Logic::ActorStateMoveSync", "rtti": "0x5720fe0", "typeinfo": "0x6b930e0", "base_typeinfo": "0x6b930b0", "vtable_methods": ["0x2ecd9a4", "0x2ecd9f4", "0x2ecd9fc", "0x2dd3f1c", "0x2ecda7c", "0x2ecda80", "0x2e45014", "0x2ecda94", "0x2ecdb48"]}
+  ],
+  "consume_points": [
+    {"va": "0x42ea550", "role": "team-state apply", "insns": ["ldr d0, [0x5641278]", "str w21, [sp, #0x28]", "bl 0x1512a10", "lsr x8, x0, #0xe", "str w8, [sp, #0x34]", "stp w20, w19, [sp, #0x3c]", "bl 0x461f274"], "usage": "builds state struct {team, d0, time>>14, count, id} -> Fix32 apply", "conf": "high"},
+    {"va": "0x2a35f38", "role": "5B-record DECODER (direct)", "insns": ["ldrb w9, [x1, #1]", "ldrb w9, [x1]", "ldrb w9, [x1, #3]", "ldrb w9, [x1, #2]", "ldrb w10, [x1, #4]", "cmp x10, #0xa", "strb w10, [x8, #4]"], "usage": "wire [03][01][u16 BE][u8 idx] -> in-memory {u16 0x0301 @0, u16 value @2 (LE), u8 idx @4}; idx bound cmp #0xa; 6B follow-on records looped idx times; reachable only via runtime-built method pointers [I]", "conf": "confirmed"},
+    {"va": "0x2a36078", "role": "5B-record DECODER (ring-buffer)", "insns": ["ldrb w8, [x8, #1]", "strb w8, [x0]", "ldrb w8, [x8, x9]", "strb w8, [x0, #1]", "ldrb w8, [x8, #1]", "strb w8, [x0, #2]", "ldrb w8, [x8, x9]", "strb w8, [x0, #3]", "ldrb w8, [x9, x8]", "strb w8, [x0, #4]", "cmp x8, #0xa"], "usage": "ring-buffer variant of decoder; bytes 1,0,3,2,4 -> dst {0x0301, u16, idx}; cmp #0xa bound @0x2a36114", "conf": "confirmed"},
+    {"va": "0x2a3e0dc", "role": "5B-record DECODER (2nd copy)", "insns": ["ldrb w9, [x1, #1]", "ldrb w9, [x1]", "ldrb w9, [x1, #3]", "strb w9, [x8, #2]", "ldrb w9, [x1, #2]", "strb w9, [x8, #3]", "ldrb w9, [x1, #4]", "strb w9, [x8, #4]"], "usage": "duplicated decoder, no idx bound check", "conf": "confirmed"},
+    {"va": "0x2a35c3c", "role": "5B-record ENCODER (direct)", "insns": ["ldrh w8, [x0]", "lsr w9, w8, #8", "strb w9, [x1]", "strb w8, [x1, #1]", "ldrh w8, [x0, #2]", "lsr w9, w8, #8", "strb w9, [x1, #2]", "strb w8, [x1, #3]", "ldrb w8, [x0, #4]", "cmp w8, #0xa"], "usage": "memory {0x0301, u16, idx} -> wire BE [03][01][hi][lo][idx]; confirms struct layout + BE encoding", "conf": "confirmed"},
+    {"va": "0x461f210", "role": "u16 record read", "insns": ["ldr x8, [x8, x24, lsl #3]", "ldrh w8, [x8, #0xa]", "str w8, [sp]"], "usage": "reads u16 position from player record at offset +0xa (record list [x22]); verified against qemu runtime dump [V]", "conf": "confirmed"},
+    {"va": "0x461f278", "role": "Fix32 position transform", "insns": ["ldrsw x8, [sp]", "ldr x9, [x20, #0x28]", "bfi x11, x8, #0xe, #0x32", "mul x8, x11, x9", "add x8, x10, x8, asr #14", "stp x8, xzr, [x19]", "str x8, [x19, #0x10]"], "usage": "u16 -> Fix32(v)<<14 x speed >>14; pos = base + value; Fix32: 1 LSB = 1/16384 = 0.22888 units when speed Fix32=15000; no float constants; verified [V]", "conf": "confirmed"},
+    {"va": "0x42ea488", "role": "player-list validity", "insns": ["ldr x20, [x8, w21, sxtw #3]", "ldr w8, [x20, #0x2cc]", "cmp w8, #2", "add w8, w0, w23", "cmp w8, #0xf"], "usage": "player state classification (state==2), -0x9c55 range check", "conf": "med"},
+    {"va": "0x42e91c4", "role": "per-team parse", "insns": ["bl 0x42ea488", "bl 0x42ea550", "ldr x28, [x27, #0x120]", "bl 0x19b066c", "bl 0x42ea6a0"], "usage": "iterates frame player list [x21+0x40], per-player uin resolve + state apply", "conf": "high"},
+    {"va": "0x42e9874", "role": "sync-apply (mid-entry 0x42e9bf4)", "insns": ["sub sp, sp, #0x1b0", "ldp x8, x9, [x22, #0x40]", "lsr x9, x9, #3", "ldr x27, [x8, w23, sxtw #3]", "bl 0x1a7b948"], "usage": "frame apply loop over player list; called with payload ptr x1", "conf": "high"},
+    {"va": "0x1a56b14", "role": "decode dispatch", "insns": ["ldr x1, [x19, #0x20]", "sub x2, x29, #0x58", "mov w5, #0x2d", "bl 0x42e9bf4", "bl 0x1aa1028"], "usage": "payload parse dispatch (w5=0x2d=45)", "conf": "high"},
+    {"va": "0x1a5e20c", "role": "type=7 handler", "insns": ["cmp w21, #7", "b.hi", "ldr d0, [0x5675240]", "str d0, [x20, #0x48]", "bl 0x1a5cb04"], "usage": "type dispatch; stores {27000,13500} frame-req thresholds", "conf": "high"},
+    {"va": "0x1936c94", "role": "message registry dispatcher", "insns": ["cmp w8, w22", "cmp w8, w24", "cmp w8, w9", "ldr x0, [sp, #0x18]", "ldr w1, [sp, #4]", "bl 0x1a5e20c"], "usage": "32-bit hash-ID dispatch; type7 ID=0x7e55738c path -> 0x1936d0c", "conf": "high"},
+    {"va": "0x1a5c110", "role": "FrameReq frame-arrival monitor", "insns": ["scvtf d0, d0", "mul x8, x9, x19", "fmul d0, d0, d8", "ucvtf d1, x8", "fadd d0, d0, d1", "fcvtzu x0, d0", "bl 0x1a5e758"], "usage": "arrival timestamp u64 -> us/ms; missed-frame request", "conf": "high"},
+    {"va": "0x1a5e758", "role": "u64->float helper", "insns": ["ldr d0, [0x5679480]", "ucvtf d1, x0", "fmul d0, d1, d0"], "usage": "u64 * 1e-6 (us->s)", "conf": "high"}
+  ],
+  "constants": [
+    {"va": "0x5679480", "value": "1e-6", "type": "double", "usage": "us->s (0x1a5e738/0x1a5e744/0x1a5e758)"},
+    {"va": "0x5679488", "value": "1000.0", "type": "double", "usage": "s->ms scale"},
+    {"va": "0x5675240", "value": "{0x6978=27000, 0x34BC=13500}", "type": "u32 pair", "usage": "frame-req thresholds -> msg+0x48 for type7"},
+    {"va": "0x565cad0", "value": "float time factor", "type": "float", "usage": "frame-rate calc fmul in 0x42ef158/0x1a5bb18"},
+    {"va": "0x5641278", "value": "ASCII string bytes 'ttrData_' (assert fragment)", "type": "not numeric", "usage": "0x42ea550 loads as d0 into state struct — red herring, not a scale [I]"},
+    {"scale": "Fix32 derivation", "value": "1 LSB = 1/16384 Fix32; speed Fix32 = 15000 (0x3A98) => 1 LSB = 15000/65536 = 0.22888 map units", "type": "integer", "usage": "(u16<<14|0x2000)*speed>>14 @0x461f288-0x461f290"},
+    {"note": "no 7500/15000/0.22888/0.11444 float constants anywhere in text (bit-exact scan 0 hits); u16->position via Fix32 integer math (bfi #0xe + mul + asr #14 @0x461f274)"}
+  ],
+  "negative_evidence": [
+    "no cmp#3+cmp#1 marker-comparison parser (full effective view incl 1109 islands)",
+    "no cmp#0x103/0x301 combined markers",
+    "no cmp#0xd/0xe/0x65 block-marker + record-marker co-occurrence (hits are vector-cap / event-dispatch false positives)",
+    "no ldrb->cmp#2/#3/#7 load-fed compares (<=15 insn lookback)",
+    "no and#0xff -> cmp#3",
+    "no 5-byte stride loop with record markers",
+    "no position float constants (7500/32768, 15000/65535, 0.22888, 0.11444, 15000.0, 7500.0)",
+    "no cmp#7 fed by ldr wN,[xM,#8] (type dispatch is 32-bit hash-ID based @0x1936c94)"
+  ],
+  "artifacts": ["xor-islands-full.json", "scout-u16.json", "scout-u16.md"]
+}

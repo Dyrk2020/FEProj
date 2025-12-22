@@ -1,0 +1,336 @@
+{
+  "slice": "UplinkDecode",
+  "date": "2026-08-12",
+  "corpus": "work/packet-decrypt-20260812/DecryptFlowA/decrypt_a.jsonl (26690 frames, match2 22:11:25-22:28:32, matchId=0x0c28)",
+  "scope": "uplink hlen=14 frames with channel byte [24]==0x06 (client->server main data stream), 10142 frames",
+  "header_layout": {
+    "offsets": {
+      "0:4": "head4 (per-frame transport seq, low 28 bits +1/frame, bit28 reliable flag)",
+      "4:8": "C1 session constant a1e3a465",
+      "8:12": "C2 session constant d8cd8892",
+      "12:14": "cd76 constant",
+      "14:18": "CRC32 (zlib, big-endian, over whole frame with CRC slot zeroed)",
+      "18:22": "C3 session constant 0e482296",
+      "22:24": "0000 constant",
+      "24": "ch channel byte = 06 (main data stream)",
+      "25": "00 constant",
+      "26:29": "message counter (u24 BE) = GAME FRAME NUMBER (cross-verified vs downlink 0e fixed-point clock, rate 2^32*14.7fps; cnt~=frame)",
+      "29": "version 0x06 (ch=06 only)",
+      "30:33": "subtype 3B = [a][b][c]; a = complexity level {1,2,3,4}, (b,c) = message type id (u16 BE)"
+    },
+    "payload_start": 33
+  },
+  "counter_note": "message counter [26:29] is the game frame number, NOT a message ordinal: multiple messages share one frame (duplicated cnt values), and the counter correlates 1:1 with the downlink 0e-block game clock (frame*2^32) within ~2 frames.",
+  "types": [
+    {
+      "id": "010301",
+      "family": "0301",
+      "n": 8274,
+      "pct": 81.6,
+      "payload_len": 7,
+      "structure": "[u16 LE position][u16 0x0000][u16 BE game-time counter][u8 checksum]",
+      "semantics": "/1 LSB=0.11444 0xffff=/ rate~0.266/≈ 65s/ type=07 0  [V]SemanticValidate 0=13.8% ~86ms",
+      "representative": {"cnt": 147, "payload": "d4130000006f95", "t": 1786543921618},
+      "evidence": "[V]  + /SemanticValidate"
+    },
+    {
+      "id": "010e0c",
+      "family": "0e0c",
+      "n": 300,
+      "pct": 3.0,
+      "payload_len": 18,
+      "structure": "[06][u8 entity][01][u8 00/01/02][09 e8 01][u16 LE counter][6B 00][01][u16 BE tick][u8 crc]",
+      "semantics": "entity id u16 counter  +4/ 0e0c 12313 [V] 0d/0e ",
+      "representative": {"cnt": 966, "payload": "065b010009e8018c0f000000000000014996", "t": 1786543962069},
+      "evidence": "[V]  + [I] "
+    },
+    {
+      "id": "020301",
+      "family": "0301",
+      "n": 258,
+      "pct": 2.5,
+      "payload_len": "13/22/23",
+      "structure": "[u16 LE v][00][0d 0c + 0d0c-body][zeros][crc]  [u16][00 0d 0c][06...09 body]",
+      "semantics": "010301/010d0c  a=02  +  0d0c ",
+      "representative": {"cnt": 607, "payload": "ab2b000d0c060915020906be0900000000000000e9e6", "t": 1786543950297},
+      "evidence": "[V] "
+    },
+    {
+      "id": "010d0c",
+      "family": "0d0c",
+      "n": 211,
+      "pct": 2.1,
+      "payload_len": 17,
+      "structure": "[06][u8 entity][u8 15/01][u8 01/00/02][09][u24 LE counter][7B 00][u16 crc]",
+      "semantics": " 0d 0d 0c +  + 00 00 00 00 [V]3,043  = 10  × ~304  ~1-2 u24 LE counter 625K→884K+",
+      "representative": {"cnt": 600, "payload": "060615010906b00900000000000000e825", "t": 1786543950730},
+      "evidence": "[V]  0d  =  06 0c 01 00 09 06 cc 09 ↔ 0d 0c 06 0c 01 00 09 06 cc 09 00 00 00 00"
+    },
+    {
+      "id": "01250c",
+      "family": "25..28 0c",
+      "n": 150,
+      "pct": 1.5,
+      "payload_len": 41,
+      "structure": "[06][3-4B][03 00][3B][2x4B ][3B u24 counter][2B u16 ][00 00 7d 00 00 7d][4B][2B][00x7][u16 crc]",
+      "semantics": " 0x7d(=125, ) 25/26/27/28 0c  41/42/43/44  +1B",
+      "representative": {"cnt": 385, "payload": "0601fb120300820600a2ad8b65770905dd8a0c6a0a00007d00007d115e56957502000000000000af15", "t": 1786543930230},
+      "evidence": "[V] [I] "
+    },
+    {
+      "id": "020e0c",
+      "family": "0e0c",
+      "n": 136,
+      "pct": 1.3,
+      "payload_len": 23,
+      "structure": "[06][entity][01][01][09 e8 01][u16 LE][5B 00][03 01 u16 u8 ][00 00][01][tick][crc]",
+      "semantics": "010e0c  a=02  + 1  03 01 ",
+      "representative": {"cnt": 994, "payload": "0663010109e801c40f00000000000301107d00000150c5", "t": 1786543965813},
+      "evidence": "[V] "
+    },
+    {
+      "id": "020d0c",
+      "family": "0d0c",
+      "n": 110,
+      "pct": 1.1,
+      "payload_len": 22,
+      "structure": "[06][entity][15/01][01][09][u24 LE][5B 00][03 01 u16 u8 ][3B 00][u16 crc]",
+      "semantics": "010d0c  a=02  + 1  03 01 ",
+      "representative": {"cnt": 602, "payload": "060715010906b409000000000003015768000000e8ba", "t": 1786543951624},
+      "evidence": "[V] "
+    },
+    {
+      "id": "01260c",
+      "family": "25..28 0c",
+      "n": 100,
+      "pct": 1.0,
+      "payload_len": 42,
+      "structure": "[06][3B][01][06][3B][00][3x 6B (u16 LE x/y/z ) 2 ][4B][00x8][u16 crc]",
+      "semantics": "6B  = 3×u16 LE// =  u24 ",
+      "representative": {"cnt": 611, "payload": "060b17000106c6090051848abe5b0b085f8a432e0b085f8a432e0b7acf4f5b6a5000000000000000eb44", "t": 1786543952266},
+      "evidence": "[V] [I] /"
+    },
+    {
+      "id": "010f0c",
+      "family": "0f0c",
+      "n": 100,
+      "pct": 1.0,
+      "payload_len": 19,
+      "structure": "[06][u8 entity][01][01][09][u24][u16][00x7][u8][u16 crc]",
+      "semantics": " 0f0c  6,190  03 01 [V]",
+      "representative": {"cnt": 8854, "payload": "06bb010109b134ac8a010000000000000978a3", "t": 1786544512082},
+      "evidence": "[V] "
+    },
+    {
+      "id": "0105cd",
+      "family": "05cd",
+      "n": 96,
+      "pct": 0.9,
+      "payload_len": 9,
+      "structure": "[u16 LE value][4B 00][u16 BE game-time][u8 crc]",
+      "semantics": "value 500..12000+  010301  010301 0.266/[V] [I]//",
+      "representative": {"cnt": 1042, "payload": "f50100000000015daa", "t": 1786543982567},
+      "evidence": "[V] [I] "
+    },
+    {
+      "id": "0104cd",
+      "family": "04cd",
+      "n": 90,
+      "pct": 0.9,
+      "payload_len": 8,
+      "structure": "[u8 target-entity][5B 00][u16 crc]",
+      "semantics": "X =  id0..10  + 36/50/68/78/84 / 04cd 3,811  [V]90/90  X  500ms X  ⊂  X  = [04 cd][X][00 00][u8 ] [I]//",
+      "representative": {"cnt": 494, "payload": "060000000000cbd6", "t": 1786543945235},
+      "evidence": "[V] +[I] "
+    },
+    {
+      "id": "0204cd",
+      "family": "04cd",
+      "n": 57,
+      "pct": 0.6,
+      "payload_len": "13/23/24",
+      "structure": "[u8 X][4B 00][03 01 u16 u8 ][00 00][crc]   0d0c ",
+      "semantics": "0104cd  a=02  + /",
+      "representative": {"cnt": 534, "payload": "440000000301fe7c000000d6a7", "t": 1786543948004},
+      "evidence": "[V] "
+    },
+    {
+      "id": "0205cd",
+      "family": "05cd",
+      "n": 56,
+      "pct": 0.6,
+      "payload_len": "14/25/26",
+      "structure": "[u16 LE value][3B 00][0e 0c + ][00x7][01][tick][crc]  +03 01 ",
+      "semantics": "0105cd  a=02  +  0e0c ",
+      "representative": {"cnt": 966, "payload": "e80100000003013e4e0000014963", "t": 1786543977375},
+      "evidence": "[V] "
+    },
+    {
+      "id": "0103cc",
+      "family": "03cc",
+      "n": 49,
+      "pct": 0.5,
+      "payload_len": 7,
+      "structure": "[u16 LE cmd 0x0200/0x0201][u16 0x0000][u16 BE value][u8 crc]",
+      "semantics": "value 74→3399  8  cnt  03cc 411  [V][03 cc][00 02][X] [I]//value  2d  id 2325  cnt 8480",
+      "representative": {"cnt": 8480, "payload": "00020000091569", "t": 1786544507571},
+      "evidence": "[V] +[I] "
+    },
+    {
+      "id": "020f0c",
+      "family": "0f0c",
+      "n": 43,
+      "pct": 0.4,
+      "payload_len": 24,
+      "structure": "[06][entity][15 01][09][u24][4B][5B 00][03 01 u16 u8 ][3B][u16 crc]",
+      "semantics": "010f0c  a=02  + ",
+      "representative": {"cnt": 9205, "payload": "06c5150109dd36ea8f0100000000000301e031000009d5f6", "t": 1786544541852},
+      "evidence": "[V] "
+    },
+    {
+      "id": "01270c",
+      "family": "25..28 0c",
+      "n": 29,
+      "pct": 0.3,
+      "payload_len": 43,
+      "structure": "[06][4B][5B][3x 6B ][4B][00x8][u16 crc]",
+      "semantics": "01260c ",
+      "representative": {"cnt": 4121, "payload": "06a8020101be16b24000655f8402b90bfc5b84f4740cfc5b84f4740c0040809b300c000000000000048f77", "t": 1786544188929},
+      "evidence": "[V] "
+    },
+    {
+      "id": "030301",
+      "family": "0301",
+      "n": 14,
+      "pct": 0.1,
+      "payload_len": "26-31",
+      "structure": "[ffff 00][02 ce / 05 cd ][00][0d 0c / 0e 0c ][00xN][u16 crc]",
+      "semantics": "a=03 02ce + 0d0c / 05cd + 0e0c ",
+      "representative": {"cnt": 678, "payload": "ffff0002ce01000d0c061901000944cc0a00000000000000fcf2", "t": 1786543955865},
+      "evidence": "[V] "
+    },
+    {
+      "id": "01060e",
+      "family": "060e",
+      "n": 13,
+      "pct": 0.1,
+      "payload_len": 10,
+      "structure": "[u32 LE id][u16 0x0000][u16 BE game-minute][u16 crc]",
+      "semantics": "13 4  u32 id0x09c795d2/0x09c7979a/0x09c798e2/0x09c79aaa u16  0x09c7=2503 010301  [V] [I]//",
+      "representative": {"cnt": 297, "payload": "d295c7090000000097a0", "t": 1786543931869},
+      "evidence": "[V] [I] "
+    },
+    {
+      "id": "010410",
+      "family": "0410",
+      "n": 12,
+      "pct": 0.1,
+      "payload_len": 8,
+      "structure": "[u16 LE id][u16 LE x2][00 00][u16 crc]",
+      "semantics": " [V/I]12 idx = 2,4,6..24 (= 1..12 +1)id = 8578..9724  id/",
+      "representative": {"cnt": 143, "payload": "b222020000006e97", "t": 1786543921363},
+      "evidence": "[V] idx  +2 [I] "
+    },
+    {
+      "id": "0304cd",
+      "family": "04cd",
+      "n": 11,
+      "pct": 0.1,
+      "payload_len": "28/29",
+      "structure": "[u8 X][4B 00][0d 0c ][01 00][00 00][03 01 u16 u8 ][3B][u16 crc]",
+      "semantics": "0104cd  a=03  +  0d0c + ",
+      "representative": {"cnt": 2270, "payload": "060000000d0c06f601010906bc2300010000000301660d000002a3c9", "t": 1786544066053},
+      "evidence": "[V] "
+    },
+    {
+      "id": "0102ce",
+      "family": "02ce",
+      "n": 11,
+      "pct": 0.1,
+      "payload_len": 6,
+      "structure": "[u16 0x0000/0x0200][u8 0x00][u8 counter 1..6][u16 crc]",
+      "semantics": "counter = 1,2,2,4,4,4,5,5,5,5,6 [I]//",
+      "representative": {"cnt": 797, "payload": "000000011ca0", "t": 1786543965917},
+      "evidence": "[V] [I] "
+    },
+    {
+      "id": "0305cd",
+      "family": "05cd",
+      "n": 7,
+      "pct": 0.07,
+      "payload_len": "30/31",
+      "structure": "[u16 LE value][00][0e 0c/0f 0c ][00x7][03 01 ][3B][u16 crc]",
+      "semantics": "0105cd  a=03 ",
+      "representative": {"cnt": 1506, "payload": "cb030000000e0c06af010109cb03c41700000000000301c54a000001d8c3", "t": 1786544014080},
+      "evidence": "[V] "
+    },
+    {
+      "id": "0202ce",
+      "family": "02ce",
+      "n": 7,
+      "pct": 0.07,
+      "payload_len": "21/22",
+      "structure": "[u16 0/1/2 00][0d 0c/0e 0c ][00x7][u16 crc]",
+      "semantics": "0102ce  a=02  + ",
+      "representative": {"cnt": 699, "payload": "00000d0c061d0101094ef60a000000000000010261", "t": 1786543957249},
+      "evidence": "[V] "
+    },
+    {
+      "id": "01280c",
+      "family": "25..28 0c",
+      "n": 2,
+      "pct": 0.02,
+      "payload_len": 44,
+      "structure": "01260c 44B ",
+      "semantics": "cnt 11396/12158 ",
+      "representative": {"cnt": 11396, "payload": "0624170001a54288b2010051ef811e5b82640282aff381640282aff381331a11f3d1110000000000000c1c06", "t": 1786544689654},
+      "evidence": "[V] "
+    },
+    {
+      "id": "0302ce",
+      "family": "02ce",
+      "n": 2,
+      "pct": 0.02,
+      "payload_len": "26/27",
+      "structure": "a=03 02ce +  0d0c + ",
+      "semantics": "",
+      "representative": {"cnt": 4484, "payload": "02000d0c06ee01010924884600000000000301ab3d000004effc", "t": 1786544218736},
+      "evidence": "[V] "
+    },
+    {
+      "id": "010213/0105de/0202d0/0402d0",
+      "family": "singles",
+      "n": "1 each",
+      "pct": 0.04,
+      "payload_len": "6/9/12/23",
+      "structure": "0105de/0202d0  cnt=0 010213  cnt=13218 0402d0  04cd ",
+      "semantics": "/",
+      "representative": [
+        {"id": "0105de", "cnt": 0, "payload": "02140000000000496b", "t": 1786543911848},
+        {"id": "0202d0", "cnt": 0, "payload": "010004d10101000000004a4b", "t": 1786543912071}
+      ],
+      "evidence": "[V] "
+    }
+  ],
+  "input_frame_mapping": {
+    "envelope": "SyncMsgC/SyncMsgCV2 {iSeq,wConnID,dwFootPrint,dwPlayerID,dwCheckSum,iSession,chChannel,nCmd,stCData,dwOffsetTime} — chChannel=ch@24, nCmd=subtype@30:33, stCData=payload@33:;  TDR  C++ [I]",
+    "frame_container": "SyncFrameInputC {dwFrameSeq,bObjID,chNum,astInputList} — dwFrameSeq=[26:29] (=), bObjID=(0, ), chNum=1, astInputList=payload",
+    "input_element": "CliPlayerFrameInput {bObjID,stFrameInputUnit} / CliFrameInputUnit {bInputLen,szInputByte} — 010301 7B  = szInputByte  [][00][][crc]",
+    "downlink_counterpart": "CSRoomSyncFrameS {dwFrameSeq,nPlayerInputNum,astPlayerInputData} —  type=07: dwFrameSeq=[12:16] msgseq, nPlayerInputNum=, astPlayerInputData=[03 01 u16  u8 ] ",
+    "conclusion": " schema-sync-focus.json dwFrameSeq/nPlayerInputNum/ FrameEngine C++ +CRC TDR  [I] SemanticMap 'FrameEngine C++ ' "
+  },
+  "verified_semantics": {
+    "movement": "010301 = 8274 [V]u16  = 1 LSB=0.11444u0=32768=mid0xffff=SemanticValidate /// Fix32  + 0 ",
+    "server_echo_mechanism": "0d0c/0e0c/0f0c/04cd/03cc/05cd  0d  = 0d 0c +  + 00 00 00 003,043  ≈ 10  × ~304 04cd  3,811 0e0c  12,313 03cc  411  [V]",
+    "time_counters": " u16 BE rate ~0.266/≈ 65s/010301/0105cd/01060e [V]"
+  },
+  "unresolved": [
+    "0105cd value //[I]",
+    "0104cd X //[I]",
+    "0103cc value// 2d  id 2325 [I]",
+    "0102ce counter//[I]",
+    "01060e u32 id4  id u16=2503 [I]",
+    "010301/ checksum  [I]",
+    "0d0c  u24 /625K→4.4M[I]"
+  ]
+}

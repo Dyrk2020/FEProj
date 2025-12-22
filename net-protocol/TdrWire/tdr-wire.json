@@ -1,0 +1,893 @@
+{
+ "slice": "TdrWire",
+ "date": "2026-08-12",
+ "target": "libtdr.so TDR wire format & game messages",
+ "corpus": {
+  "libtdr": "corpus/native-elf/decompressed-arm64/libtdr.so (1,774,368 B, unstripped DWARF)",
+  "libFEProj": "corpus/native-elf/decompressed-arm64/libFEProj.so (120,283,368 B)",
+  "libil2cpp": "corpus/native-elf/decompressed-arm64/libil2cpp.so (215,681,928 B)",
+  "libLNet": "corpus/native-elf/decompressed-arm64/libLNet.so (3,130,648 B, sha256 55c2879f7acdd0c64fb308ce3a0a1007d308417e475b431dabd9c5e0f8ab5a86)",
+  "libgcloud": "work/7.2.0.2460-7246064/apks/config.arm64_v8a.apk!/lib/arm64-v8a/libgcloud.so (11,782,872 B)",
+  "libgcloudcore": "same apk, lib/arm64-v8a/libgcloudcore.so (1,428,336 B)"
+ },
+ "endianness": "big-endian (network order) for all multi-byte integers",
+ "encoding_model": "schema-driven positional; no magic, no field tags, no field ids",
+ "functions": {
+  "tdr_hton": {
+   "va": 154312,
+   "size": 13876,
+   "src": "tdr_net.c:135-571",
+   "role": "pack one meta (iterative, explicit stack)"
+  },
+  "tdr_ntoh": {
+   "va": 168188,
+   "size": 68,
+   "src": "tdr_net.c:574"
+  },
+  "tdr_ntoh_ex": {
+   "va": 168256,
+   "size": 13620,
+   "src": "tdr_net.c:574-1035",
+   "role": "unpack with cutoff version"
+  },
+  "tdr_pack_union_entry_i": {
+   "va": 181876,
+   "size": 4696
+  },
+  "tdr_unpack_union_entry_i": {
+   "va": 186572,
+   "size": 76
+  },
+  "tdr_get_tlv_struct_max_packed_size_i": {
+   "va": 100092,
+   "role": "max-size accounting (conservative upper bound)"
+  },
+  "tdr_get_entry_by_index": {
+   "va": 88924,
+   "proof": "entries at meta+0x130, stride 0x130"
+  },
+  "tdr_get_meta_by_name": {
+   "va": 106352,
+   "proof": "NameEntry stride 0x10, offsets rel lib+0x160"
+  },
+  "tdr_init_lib": {
+   "va": 85096,
+   "proof": "0x160 + iMaxMetaNum*32 + iMaxMacroNum*48 meta-area start"
+  }
+ },
+ "struct_layouts": {
+  "tagTDRData": {
+   "size": 16,
+   "fields": [
+    [
+     "pszBuff",
+     0,
+     "u64"
+    ],
+    [
+     "iBuff",
+     8,
+     "u64"
+    ]
+   ]
+  },
+  "tagTDRStackItem": {
+   "size": 272,
+   "fields": [
+    [
+     "pstMeta",
+     0
+    ],
+    [
+     "pstEntry",
+     8
+    ],
+    [
+     "iRealCount",
+     16
+    ],
+    [
+     "iCount",
+     20
+    ],
+    [
+     "idxEntry",
+     24
+    ],
+    [
+     "iMetaSizeInfoUnit",
+     32
+    ],
+    [
+     "iMetaSizeInfoOff",
+     40
+    ],
+    [
+     "iEntrySizeInfoOff",
+     48
+    ],
+    [
+     "iCutOffVersion",
+     56
+    ],
+    [
+     "iCode",
+     64
+    ],
+    [
+     "pszHostBase",
+     72
+    ],
+    [
+     "pszHostEnd",
+     80
+    ],
+    [
+     "pszNetBase",
+     88
+    ],
+    [
+     "pszMetaSizeInfoTarget",
+     96
+    ],
+    [
+     "pszStructMeta",
+     104
+    ],
+    [
+     "pszSubStructMeta",
+     112
+    ],
+    [
+     "iChange",
+     120
+    ],
+    [
+     "szMetaEntryName",
+     124
+    ],
+    [
+     "iRequiredNum",
+     252
+    ],
+    [
+     "iGotRequiredNum",
+     256
+    ],
+    [
+     "iToggle",
+     260
+    ],
+    [
+     "iMetaSizeTotal",
+     264
+    ],
+    [
+     "iArrMetaSize",
+     268
+    ]
+   ]
+  },
+  "tagTDRMeta": {
+   "size": 608,
+   "entries_at": 304,
+   "fields": [
+    [
+     "uFlags",
+     0
+    ],
+    [
+     "iID",
+     4
+    ],
+    [
+     "iBaseVersion",
+     8
+    ],
+    [
+     "iCurVersion",
+     12
+    ],
+    [
+     "iType",
+     16
+    ],
+    [
+     "iMemSize",
+     24
+    ],
+    [
+     "iNUnitSize",
+     32
+    ],
+    [
+     "iHUnitSize",
+     40
+    ],
+    [
+     "iCustomHUnitSize",
+     48
+    ],
+    [
+     "idxCustomHUnitSize",
+     56
+    ],
+    [
+     "iMaxSubID",
+     60
+    ],
+    [
+     "iEntriesNum",
+     64
+    ],
+    [
+     "iIndexesNum",
+     68
+    ],
+    [
+     "ptrIndexes",
+     72
+    ],
+    [
+     "ptrColumns",
+     80
+    ],
+    [
+     "ptrMeta",
+     88
+    ],
+    [
+     "iIdx",
+     96
+    ],
+    [
+     "idxID",
+     100
+    ],
+    [
+     "idxType",
+     104
+    ],
+    [
+     "idxVersion",
+     108
+    ],
+    [
+     "iCustomAlign",
+     112
+    ],
+    [
+     "iValidAlign",
+     116
+    ],
+    [
+     "iVersionIndicatorMinVer",
+     120
+    ],
+    [
+     "stSizeType",
+     128
+    ],
+    [
+     "stVersionIndicator",
+     160
+    ],
+    [
+     "stSortKey",
+     184
+    ],
+    [
+     "ptrName",
+     208
+    ],
+    [
+     "ptrDesc",
+     216
+    ],
+    [
+     "ptrChineseName",
+     224
+    ],
+    [
+     "iSplitTableFactor",
+     232
+    ],
+    [
+     "nSplitTableRuleID",
+     236
+    ],
+    [
+     "nPrimayKeyMemberNum",
+     238
+    ],
+    [
+     "idxSplitTableFactor",
+     240
+    ],
+    [
+     "stSplitTableKey",
+     248
+    ]
+   ]
+  },
+  "tagTDRMetaEntry": {
+   "size": 304,
+   "fields": [
+    [
+     "iID",
+     0
+    ],
+    [
+     "iVersion",
+     4
+    ],
+    [
+     "iType",
+     8
+    ],
+    [
+     "ptrName",
+     16
+    ],
+    [
+     "iHRealSize",
+     24
+    ],
+    [
+     "iNRealSize",
+     32
+    ],
+    [
+     "iHUnitSize",
+     40
+    ],
+    [
+     "iNUnitSize",
+     48
+    ],
+    [
+     "iCustomHUnitSize",
+     56
+    ],
+    [
+     "iCount",
+     64
+    ],
+    [
+     "iNOff",
+     72
+    ],
+    [
+     "iHOff",
+     80
+    ],
+    [
+     "idxID",
+     88
+    ],
+    [
+     "idxVersion",
+     92
+    ],
+    [
+     "idxCount",
+     96
+    ],
+    [
+     "idxType",
+     100
+    ],
+    [
+     "idxCustomHUnitSize",
+     104
+    ],
+    [
+     "wFlag",
+     108
+    ],
+    [
+     "chDBFlag",
+     110
+    ],
+    [
+     "chOrder",
+     111
+    ],
+    [
+     "stSizeInfo",
+     112
+    ],
+    [
+     "stRefer",
+     144
+    ],
+    [
+     "stSelector",
+     168
+    ],
+    [
+     "iIO",
+     192
+    ],
+    [
+     "idxIO",
+     196
+    ],
+    [
+     "ptrMeta",
+     200
+    ],
+    [
+     "iMaxId",
+     208
+    ],
+    [
+     "iMinId",
+     212
+    ],
+    [
+     "iMaxIdIdx",
+     216
+    ],
+    [
+     "iMinIdIdx",
+     220
+    ],
+    [
+     "iDefaultValLen",
+     224
+    ],
+    [
+     "ptrDesc",
+     232
+    ],
+    [
+     "ptrChineseName",
+     240
+    ],
+    [
+     "ptrDefaultVal",
+     248
+    ],
+    [
+     "ptrMacrosGroup",
+     256
+    ],
+    [
+     "ptrCustomAttr",
+     264
+    ],
+    [
+     "iOffToMeta",
+     272
+    ],
+    [
+     "iFlag",
+     280
+    ],
+    [
+     "ptrCustomAttr2",
+     288
+    ]
+   ]
+  },
+  "tagTDRSizeInfo": {
+   "size": 32,
+   "fields": [
+    [
+     "iNOff",
+     0
+    ],
+    [
+     "iHOff",
+     8
+    ],
+    [
+     "iUnitSize",
+     16
+    ],
+    [
+     "idxSizeType",
+     24
+    ]
+   ]
+  },
+  "tagTDRRefer": {
+   "size": 24,
+   "fields": [
+    [
+     "iNOff",
+     0
+    ],
+    [
+     "iHOff",
+     8
+    ],
+    [
+     "iUnitSize",
+     16
+    ]
+   ]
+  },
+  "tagTDRSelector": {
+   "size": 24,
+   "fields": [
+    [
+     "iUnitSize",
+     0
+    ],
+    [
+     "iHOff",
+     8
+    ],
+    [
+     "ptrEntry",
+     16
+    ]
+   ]
+  }
+ },
+ "wire_rules": [
+  {
+   "id": "scalar",
+   "desc": "scalars packed big-endian, entry order, no prefix",
+   "evidence": [
+    "hton 0x27300-0x27404 strb hi->lo",
+    "ntoh 0x296ac-0x297b8 byte assembly"
+   ]
+  },
+  {
+   "id": "string",
+   "desc": "[BE len-prefix u32 default, unit=stSizeInfo.iUnitSize][bytes incl NUL]; len=strlen+1",
+   "evidence": [
+    "hton 0x27080-0x27560 (strnlen+1, memcpy len+1)",
+    "size calc +4 fixed"
+   ]
+  },
+  {
+   "id": "wstring",
+   "desc": "[BE len-prefix][UTF-16LE bytes incl NUL]; len=(wcslen+1)*2",
+   "evidence": [
+    "hton 0x27564+ (tdr_wcsnlen*2)"
+   ]
+  },
+  {
+   "id": "fixed_array",
+   "desc": "elements consecutive, no count prefix",
+   "evidence": [
+    "hton 0x27acc element loops"
+   ]
+  },
+  {
+   "id": "refer_array",
+   "desc": "count from refer field value (transmitted earlier as scalar); no extra bytes",
+   "evidence": [
+    "hton 0x26a5c-0x26b54",
+    "err 'invalid refer value' @0x5e978"
+   ]
+  },
+  {
+   "id": "sizeinfo_array",
+   "desc": "count written BE at pszNetBase+stSizeInfo.iNOff, width=stSizeInfo.iUnitSize(2/4/8); count==0 zero-fill",
+   "evidence": [
+    "hton 0x26c94-0x26ebc zero-write",
+    "0x26690 pszNetBase=cursor"
+   ]
+  },
+  {
+   "id": "union",
+   "desc": "[selector value][active member data]; selector width=stSelector.iUnitSize",
+   "evidence": [
+    "hton 0x280d4-0x28180 read host selector",
+    "pack_union_entry_i BE writes"
+   ]
+  },
+  {
+   "id": "meta_size_type",
+   "desc": "struct total packed size (bytes) patched BE at reserved slot (stSizeType.iUnitSize 2/4/8)",
+   "evidence": [
+    "hton 0x25e9c-0x25f18 reserve",
+    "0x262d0-0x26544 patch"
+   ]
+  },
+  {
+   "id": "versionindicator",
+   "desc": "pack version value as first struct field (BE, stVersionIndicator.iUnitSize); entries with iVersion>packversion skipped",
+   "evidence": [
+    "hton 0x26080-0x260c8 host write",
+    "0x268bc-0x268c4 version filter"
+   ]
+  },
+  {
+   "id": "byte_array",
+   "desc": "raw bytes with sizeinfo-driven length (count*unit)",
+   "evidence": [
+    "ntoh 0x2a354-0x2a414"
+   ]
+  }
+ ],
+ "type_table": [
+  [
+   "union",
+   0
+  ],
+  [
+   "struct",
+   1
+  ],
+  [
+   "tinyint",
+   2
+  ],
+  [
+   "tinyuint",
+   3
+  ],
+  [
+   "smallint",
+   5
+  ],
+  [
+   "smalluint",
+   6
+  ],
+  [
+   "int",
+   7
+  ],
+  [
+   "uint",
+   8
+  ],
+  [
+   "long",
+   9
+  ],
+  [
+   "ulong",
+   10
+  ],
+  [
+   "bigint",
+   11
+  ],
+  [
+   "biguint",
+   12
+  ],
+  [
+   "date",
+   13
+  ],
+  [
+   "time",
+   14
+  ],
+  [
+   "datetime",
+   15
+  ],
+  [
+   "money",
+   16
+  ],
+  [
+   "float",
+   17
+  ],
+  [
+   "double",
+   18
+  ],
+  [
+   "ip",
+   19
+  ],
+  [
+   "wchar",
+   20
+  ],
+  [
+   "string",
+   21
+  ],
+  [
+   "wstring",
+   22
+  ],
+  [
+   "void",
+   23
+  ],
+  [
+   "byte",
+   3
+  ]
+ ],
+ "metalib": {
+  "magic": 726,
+  "build": 11,
+  "platform": 64,
+  "header_size": 352,
+  "meta_header_size": 304,
+  "entry_size": 304,
+  "name_entry": 16,
+  "offsets_rel_lib_plus_0x160": [
+   "lib.ptrName",
+   "lib.ptrMeta",
+   "NameEntry{name_off,meta_off}",
+   "entry.ptrMeta"
+  ],
+  "loading": "C# (il2cpp) dlsym tdr_load_metalib_buf + tdr_verify_metalib; no clear metalib on device (encrypted containers)",
+  "names": "meta name = '<domain>|<StructName>' (star_res|/star_def| pools); lookup by bare 'ns::TypeName' via tdr_get_meta_by_name"
+ },
+ "call_sites": {
+  "il2cpp_dlsym": [
+   "tdr_cast",
+   "tdr_error_to_string",
+   "tdr_get_field",
+   "tdr_get_meta_by_name",
+   "tdr_init_struct",
+   "tdr_is_error",
+   "tdr_load_metalib_buf",
+   "tdr_pack",
+   "tdr_set_field",
+   "tdr_unpack",
+   "tdr_verify_metalib"
+  ],
+  "fe_proj": {
+   "TDBHelper_typename_instances": 2092,
+   "lnet_dlsym": [
+    "libLNet.so",
+    "NetSend",
+    "NetSendToEC",
+    "NetSetOpt",
+    "NetGetOpt",
+    "NewRingBuffer",
+    "DeleteRingBuffer",
+    "NetIsConnected",
+    "NetDestroy"
+   ]
+  },
+  "gcloud": {
+   "strings": [
+    "apollo.ITdrObject",
+    "tdr pack failed",
+    "TDR API Error!",
+    "RpcConnectTdrProto"
+   ],
+   "bundled": "own TDR subset (TConndAPI tdrapi.cpp/tdrcrypt.cpp; libgcloudcore ABase::TdrTypeUtil)"
+  },
+  "lnet": {
+   "tdr_aware": false
+  }
+ },
+ "netcrypto_relation": {
+  "answer": "TDR payload is INSIDE LNet's encryption layer (plaintext input to NetCrypto AES-CCM)",
+  "chain": "game code (il2cpp/FEProj) packs TDR -> FEProj dlsym NetSend -> LNet compression(LZW/RLE/zlib) + NetCrypto(AES-CCM) -> UDP",
+  "parse_order": "1. decrypt NetCrypto 2. decompress 3. parse TDR"
+ },
+ "message_candidates": {
+  "domain_counts": {
+   "FrameEngine": 603,
+   "star_def": 893,
+   "other": 5,
+   "star_stat_report": 5,
+   "MobaAI": 386,
+   "star_ai": 69,
+   "ccs_star_ai": 1,
+   "DataCollectSpc": 88,
+   "sl_star_ai": 36,
+   "static const char *FrameEngine": 1,
+   "std": 1,
+   "aram_star_ai": 1
+  },
+  "total_types": 2089,
+  "GameSafeMonitor": [
+   "MobaAI::GameSafeMonitor_StrategicTargetInfo",
+   "MobaAI::GameSafeMonitor_ActorHurtInfoProto",
+   "MobaAI::GameSafeMonitor_ActorKillInfoProto",
+   "MobaAI::GameSafeMonitor_ActorDieInfoProto",
+   "MobaAI::GameSafeMonitor_ActorUseSkillInfoProto",
+   "MobaAI::GameSafeMonitor_SendSignalInfoProto",
+   "MobaAI::GameSafeMonitor_ActorUseHexGateInfoProto"
+  ],
+  "star_stat_report": [
+   "star_stat_report::BattleNetworkStat",
+   "star_stat_report::WebCChampionKeyPropertyStat",
+   "star_stat_report::StatReportSerializePkg",
+   "star_stat_report::WebBattleCommonHead",
+   "star_stat_report::SecRoundPlayerRealTimeFlowC"
+  ],
+  "BattleNetwork": [
+   "FrameEngine::BattleNetworkRevMsgBuffer"
+  ],
+  "ReportData": [
+   "star_def::ReportData"
+  ],
+  "CSRoom": [
+   "star_def::CSRoomInfo",
+   "star_def::CSRoomPlayerInfo",
+   "star_def::CSRoomJudgesInfo",
+   "star_def::CSRoomPlayerBattleInfo",
+   "star_def::CSRoomEquipInfo"
+  ],
+  "DataCollectSpc": [
+   "DataCollectSystem",
+   "DcMedalData",
+   "FEBattleDcPlayerData",
+   "FEBattleDcGlobalData",
+   "FEBattleDcPlayerSecurityData",
+   "FEBattleDcPlayerSpecialActivity",
+   "LiveShowDcMgr",
+   "FEBattleDcGlobalMonsters",
+   "FEBattleDcGlobalTowersAndSoldiers",
+   "FEBattleDcGlobalPlant",
+   "FEBattleDcGlobalSurrender",
+   "FEBattleDcGlobalWebStrategicPointStat",
+   "FEBattleDcGlobalOther",
+   "FEBattleDcGlobalWards",
+   "FEBattleDcGlobalSignal",
+   "FEBattleDcGlobalAIManagerStat",
+   "FEBattleDcGlobalRemake",
+   "FEBattleDcGlobalPlayerStat",
+   "FEBattleDcGlobalBattleStrategicPoint",
+   "FEBattleDcGlobalBattleSPTargetState",
+   "FEBattleDcCherryData",
+   "FEBattleDcGlobalTopHareldStat",
+   "FEBattleDcHeeimerdingerTresureStat",
+   "FEBattleDcGamePlayData",
+   "FEBattleDcGlobalInGroup",
+   "FEBattleDcGlobalTowerViolentEvent",
+   "FEBattleDcStrategicPointItem",
+   "DcGlobalSPExtraItem",
+   "DcGlobalStrategicPointItem",
+   "DcGlobalRemakeItem",
+   "CherryRoundDataItem",
+   "DcUseSkillDataItem",
+   "DcKillActorItem",
+   "DcHurtDataItem",
+   "DcHurtHeroIdDataItem",
+   "DcMonsterItem",
+   "DcEpicMonsterHurtItem",
+   "DcHexRexMechaItem",
+   "DcMonsterBuffDataItem",
+   "DcEnchantedPiggyItem",
+   "DcMonsteBatTimeStat",
+   "DcSpiritFlowerStatItem",
+   "DcHitItem",
+   "DcHexGateUserItem",
+   "DcHexPoroDataItem",
+   "FEBattleDcHeeimerdingerTresureRefresh",
+   "FEBattleDcHeeimerdingerTresureOpen",
+   "FEBattleDcHeeimerdingerTresureUse",
+   "FEBattleDcHeeimerdingerTresureHit",
+   "FEBattleDcHeeimerdingerTresureStrength",
+   "DcPlayerSpellUseAndHitItem",
+   "PlantActiveAndKillItem",
+   "PlantKillItem",
+   "PlantKillDetail",
+   "DcTowerViolentEventItem",
+   "FEBattleDcPlayerSecurityDataItem",
+   "FEBattleDcPlayerApplyBuffInfo",
+   "DcTowerHurtItem",
+   "DcBuildingHurtSlicedItem",
+   "DcGlobalSurrenderItem"
+  ]
+ },
+ "qemu_attempt": {
+  "status": "blocked",
+  "detail": "Bionic libc shim (@LIBC versioned re-export of strtol/strtoll/strtoull/strtod) crashes glibc loader at dlopen; single/double symbol combos OK",
+  "artifacts": [
+   "/tmp/tdrexp/mkmetalib.py",
+   "/tmp/tdrexp/main.c",
+   "/tmp/bionic/libcshim.c"
+  ],
+  "next": "use Android NDK sysroot (native bionic) to run tdr_hton for authoritative hex"
+ },
+ "caveats": [
+  "tdr-metalib-parser.py (Round-12) places entries at meta+608; this slice proves meta+0x130 (tdr_get_entry_by_index 0x15b5c) - parser needs fix",
+  "hex examples in tdr-wire.md are derived from verified encoding rules, not qemu output",
+  "max-size calc +5/+4/+1/+2 are buffer-upper-bound margins; real encoding has no per-field markers"
+ ]
+}

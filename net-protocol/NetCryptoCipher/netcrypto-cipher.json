@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "binary": "corpus/native-elf/decompressed-arm64/libLNet.so",
+    "sha256": "55c2879f7acdd0c64fb308ce3a0a1007d308417e475b431dabd9c5e0f8ab5a86",
+    "coordinate_system": "VA == file offset (< 0x6a5ba94)",
+    "round": 4,
+    "date": "2026-08-12",
+    "evidence_marks": {"ok": "directly observed", "v": "verified in this slice", "i": "inference", "no": "negative attempt"}
+  },
+  "cipher": {
+    "verdict": "EVP AES-256-GCM (OpenSSL 1.0.1f), NO GCM tag on the wire (GCM-CTR only)",
+    "evidence": {
+      "ctor_0xd6ae0": {"bl_0x647b0": "EVP_aes_256_gcm (PLT stub -> GOT 0x246d50 -> dynsym EVP_aes_256_gcm@0xe8224)", "struct_0x22d1b0": {"nid": "0x385", "key_len": 32, "iv_len": 12, "flags": "0x305076"}},
+      "no_tag": "no EVP_EncryptFinal_ex / ctrl(GCM_GET_TAG=0x10)/ctrl(GCM_SET_TAG=0x11) anywhere in vtable methods [0x10]..[0x50]",
+      "aad": "no EVP update with out=NULL (no GCM AAD); frame header covered by CRC32 only"
+    }
+  },
+  "object_layout": {
+    "size": "0x128 (operator new(0x128))",
+    "fields": [
+      {"offset": "0x00", "size": 8, "name": "vtable_ptr", "value": "0x22c878", "evidence": "ctor 0xd6b00-0xd6b0c"},
+      {"offset": "0x08", "size": 8, "name": "available_pool_head_node", "desc": "singly linked list of {EVP_CIPHER_CTX*, next} 0x10B nodes", "evidence": "0xd6b30, Encrypt 0xd7544-0xd7568"},
+      {"offset": "0x10", "size": 8, "name": "used_pool_tail_node", "desc": "tail of in-flight/used pool", "evidence": "ctor 0xd6b30, Encrypt 0xd7718-0xd7720"},
+      {"offset": "0x18", "size": "0x28", "name": "mutex_available_pool", "desc": "pthread_mutex_t", "evidence": "Encrypt 0xd753c bl pthread_mutex_lock; SetKey 0xd718c"},
+      {"offset": "0x40", "size": "0x28", "name": "mutex_used_pool", "desc": "pthread_mutex_t", "evidence": "Encrypt 0xd770c-0xd7710"},
+      {"offset": "0x68", "size": "0xA8", "name": "evp_decrypt_ctx", "desc": "embedded EVP_CIPHER_CTX (EVP_CIPHER_CTX_init + EVP_DecryptInit_ex(aes_256_gcm))", "evidence": "ctor 0xd6ca0-0xd6cc0; Decrypt 0xd7a0c"},
+      {"offset": "0x110", "size": "keylen-0x20", "name": "nonce_material_copy", "desc": "memcpy(key+0x20, keylen-0x20); nonce derivation seed", "evidence": "SetKey 0xd7164-0xd7174"},
+      {"offset": "0x120", "size": 4, "name": "nonce_material_len", "desc": "u32 keylen-0x20; = GCM IVLEN (ctrl cmd 9)", "evidence": "SetKey 0xd711c-0xd712c, 0xd71a4"}
+    ]
+  },
+  "api": {
+    "exports": {
+      "NetCryptoCreate": "0x9f37c",
+      "NetCryptoDestroy": "0x9f3c0",
+      "NetCryptoSetKey": "0x9f640",
+      "NetCryptoEncrypt": "0x9fab4",
+      "NetCryptoDecrypt": "0xa001c",
+      "NetSetKey": "0x95e70",
+      "NetSend": "0x94cfc",
+      "NetRecv": "0x95180"
+    },
+    "key_ingest": {
+      "path": "NetSetKey(obj,key,keylen)@0x95e70 -> 0x79514 -> creates NetCrypto ctx (0x128B, ctor 0xd6ae0) at [obj+0x268] -> ctx->vtbl[0x10](ctx,key,keylen) -> distributes ctx to connections at [conn+0x158]",
+      "evidence": "0x79554-0x79588, 0xc72f0 (str x1,[x0,#0x158])"
+    }
+  },
+  "setkey": {
+    "signature": "void SetKey(void* ctx, const void* key, uint32_t keylen)",
+    "vtable_method": "0xd6ee0",
+    "keylen_check": {"expr": "keylen-0x20 < 0x11", "range": "[0x20, 0x30]", "stored_at": "ctx+0x120", "evidence": "0xd7114-0xd7130"},
+    "key_layout": {"desc": "[32B AES-256 key][nonce material keylen-0x20 bytes (0..16)]", "i": "typical keylen=44 -> 12B nonce material"},
+    "operations": [
+      {"op": "memcpy(ctx+0x110, key+0x20, keylen-0x20)", "evidence": "0xd7164-0xd7174"},
+      {"op": "per pool node: EVP_CIPHER_CTX_ctrl(node, EVP_CTRL_GCM_SET_IVLEN=9, keylen-0x20, NULL) + EVP_EncryptInit_ex(node, NULL,NULL, key, ctx+0x110)", "evidence": "0xd71a4-0xd71cc"},
+      {"op": "EVP_CIPHER_CTX_ctrl(ctx+0x68, 9, keylen-0x20, NULL) + EVP_DecryptInit_ex(ctx+0x68, NULL,NULL, key, ctx+0x110)", "evidence": "0xd71e4-0xd7210"},
+      {"op": "anti-tamper decoy checks (always-true)", "evidence": "0xd7214-0xd7278"}
+    ]
+  },
+  "encrypt": {
+    "signature": "int Encrypt(void* ctx, const void* in, uint32_t hlen, uint32_t tlen, void* out, uint32_t* outlen)",
+    "vtable_method": "0xd7410",
+    "main_path": {
+      "crc_field": {"pos": "in+hlen", "size": 4, "endian": "big", "coverage": "CRC32(in, tlen) with field zeroed", "evidence": "0xd75cc-0xd75e0"},
+      "nonce": "MD5( key_material_copy[0:keylen-0x24] || rev(in[0:4]) )[0:keylen-0x20]",
+      "nonce_inject": "EVP_EncryptInit_ex(pool_ctx, NULL,NULL,NULL, digest)",
+      "cipher": "EVP_EncryptUpdate(pool_ctx, out+hlen, outlen, in+hlen, tlen-hlen)",
+      "header": "memcpy(out, in, hlen) clear passthrough",
+      "outlen": "tlen",
+      "evidence": "0xd75f4-0xd76d4"
+    },
+    "alt_path": {"cond": "hlen < 4", "desc": "whole message encrypted, no CRC", "evidence": "0xd76b4-0xd76c0"}
+  },
+  "decrypt": {
+    "signature": "int Decrypt(void* ctx, const void* wire, uint32_t hlen, uint32_t tlen, void* out, uint32_t* outlen)",
+    "vtable_method": "0xd7834",
+    "main_path": {
+      "nonce": "same as Encrypt: MD5( key_copy[0:keylen-0x24] || rev(wire[0:4]) )[0:keylen-0x20]",
+      "nonce_inject": "EVP_DecryptInit_ex(ctx+0x68, NULL,NULL,NULL, digest)",
+      "cipher": "EVP_DecryptUpdate(ctx+0x68, out+hlen, outlen, wire+hlen, tlen-hlen)",
+      "header": "memcpy(out, wire, hlen) clear passthrough",
+      "crc_check": "BE(saved) == CRC32(out, outlen) with out[hlen:hlen+4] zeroed; fail -> return 0",
+      "evidence": "0xd79b0-0xd7a80 (nonce+decrypt), 0xd7ab0-0xd7ac8 (crc), 0xd7b14-0xd7b18 (compare)"
+    }
+  },
+  "crc32": {
+    "function": "0xd9858 (x0=data, w1=len -> w0=crc)",
+    "algorithm": "IEEE CRC-32 (zlib-compatible): init 0xffffffff, reflected, final xor",
+    "table": "0x24d658",
+    "verified": "first words 00000000 77073096 ee0e612c 990951ba...; table[0x80]=0xedb88320"
+  },
+  "nonce_details": {
+    "byte_order": "rev wN,[frame] + str (LE) == frame[0:4] appended in REVERSED byte order",
+    "evidence": "Encrypt 0xd75f8-0xd7620; Decrypt 0xd79d0-0xd79f8",
+    "gcm_iv_len": "keylen-0x20 (EVP_CTRL_GCM_SET_IVLEN=9 in SetKey)",
+    "counter_start": "standard GCM J0; 12B nonce -> first data block nonce||0x00000002 (verified byte-exact vs pycryptodome)"
+  },
+  "frame_format": {
+    "plaintext_message": "[header hlen][CRC32 BE 4B][payload]", "total": "tlen",
+    "wire_frame": "[header hlen clear][GCM-CTR(crc||payload)]", "total": "tlen",
+    "header": {"len": "hlen >= 4 (main path)", "role": "first 4 bytes feed nonce derivation; not GCM AAD; covered by CRC32", "i": "likely 4-byte counter/sequence + optional fields"},
+    "hlen_recovery": "brute-force hlen in [4, tlen-4]; CRC check passes only for correct hlen (nonce/keystream independent of hlen) [i]"
+  },
+  "compression_order": {
+    "verdict": "compression before encryption [i]",
+    "facts": ["compression switches: NetSetCompressSwitchAndDictPath@0x96048; log strings run length compression@0x1de296, zlib compression@0x1de2b2, lzw dictionary init fail!path:%s@0x1d923a", "NetCrypto layer is byte-transparent (no compression calls in vtable methods)"],
+    "unknowns": "exact compression params (dictionary/mode) out of scope"
+  },
+  "decoy_check": {
+    "verdict": "anti-tamper decoy, always-true, no crypto effect [i]",
+    "mechanism": "0xdb508 stringify (runtime tables -> '%.2X'/'T') + 0xd9d30 compare (result discarded) + [slot]-0x18 == GOT[0x244e60]=0x267420 (libstdc++ empty-string rep); failure branch only releases the COW string refcount then continues"
+  },
+  "corrections_vs_round3": [
+    "cipher is EVP AES-256-GCM, not CCM; CRYPTO_ccm128_* unused",
+    "SetKey defers key schedule to EVP (no inline AES expansion)",
+    "SetKey prologue plaintext 0xd6ee0-0xd7000 then XOR-0x50; Encrypt/Decrypt fully XOR-0x50; all contain real bl calls",
+    "key arg = 32B key + nonce material; GCM IVLEN = keylen-0x20 (runtime)"
+  ],
+  "workflow": {
+    "decrypt_frame": [
+      "keylen = len(key); nm = key[0x20:]",
+      "digest = MD5(nm[:keylen-0x24] + wire[0:4][::-1])",
+      "nonce = digest[:keylen-0x20]",
+      "plain = wire[:hlen] + GCM_CTR(key[:32], nonce, wire[hlen:])",
+      "ok = BE(plain[hlen:hlen+4]) == CRC32(plain with field zeroed)"
+    ],
+    "reference": "netcrypto_reference.py (self-tested round-trip + tamper detection)"
+  }
+}

@@ -1,0 +1,293 @@
+{
+  "meta": {
+    "session": " t=1786543885036..1786544912887 (2026-08-12 22:11:25-22:28:32)",
+    "source": "work/packet-decrypt-20260812/DecryptFlowA/decrypt_a.jsonl +  full plaintext (downlink_full.jsonl)",
+    "direction": "pcap hlen=4 = →"
+  },
+  "type03_roster": {
+    "count": 42,
+    "window_ms": [
+      1786543885227,
+      1786543886863
+    ],
+    "tlen": 359,
+    "layout": {
+      "header_18B": [
+        {
+          "off": 0,
+          "len": 4,
+          "field": "head4",
+          "sem": "0x10/0x20  + 16 "
+        },
+        {
+          "off": 4,
+          "len": 4,
+          "field": "crc32",
+          "sem": "zlib.crc32CRC "
+        },
+        {
+          "off": 8,
+          "len": 4,
+          "field": "type",
+          "sem": "0x00000003u32BE"
+        },
+        {
+          "off": 12,
+          "len": 4,
+          "field": "sub",
+          "sem": "0x00000003"
+        },
+        {
+          "off": 16,
+          "len": 2,
+          "field": "count",
+          "sem": "0x000a = 10/"
+        }
+      ],
+      "record_34B": [
+        {
+          "off": 0,
+          "len": 2,
+          "field": "rec_type",
+          "sem": "0x0c40= / 0x0c01= / 0x0c28="
+        },
+        {
+          "off": 2,
+          "len": 6,
+          "field": "player_id",
+          "sem": "6 "
+        },
+        {
+          "off": 8,
+          "len": 1,
+          "field": "ready",
+          "sem": "01=/"
+        },
+        {
+          "off": 9,
+          "len": 12,
+          "field": "zero",
+          "sem": ""
+        },
+        {
+          "off": 21,
+          "len": 1,
+          "field": "mark",
+          "sem": "0x03 "
+        },
+        {
+          "off": 22,
+          "len": 12,
+          "field": "zero2",
+          "sem": ""
+        }
+      ]
+    },
+    "room_record": {
+      "type_byte": "0c28",
+      "id": "b046d1d6b15f",
+      "flag": "01",
+      "note": "/matchId=0x0c28 "
+    },
+    "players": [
+      {
+        "index": 0,
+        "type_byte": "0c40",
+        "player_id": "3e4850f6b8fe",
+        "flag_byte": "01"
+      },
+      {
+        "index": 1,
+        "type_byte": "0c40",
+        "player_id": "734846bc774c",
+        "flag_byte": "01"
+      },
+      {
+        "index": 2,
+        "type_byte": "0c40",
+        "player_id": "611efac63197",
+        "flag_byte": "01"
+      },
+      {
+        "index": 3,
+        "type_byte": "0c40",
+        "player_id": "3e48423ff3fa",
+        "flag_byte": "01"
+      },
+      {
+        "index": 4,
+        "type_byte": "0c40",
+        "player_id": "3347a4bf4dee",
+        "flag_byte": "01",
+        "note": "ch=02 hello "
+      },
+      {
+        "index": 5,
+        "type_byte": "0c40",
+        "player_id": "3647d301d89a",
+        "flag_byte": "01"
+      },
+      {
+        "index": 6,
+        "type_byte": "0c01",
+        "player_id": "321cb00e68f2",
+        "flag_byte": "01"
+      },
+      {
+        "index": 7,
+        "type_byte": "0c40",
+        "player_id": "4f43174917df",
+        "flag_byte": "01"
+      },
+      {
+        "index": 8,
+        "type_byte": "0c40",
+        "player_id": "204837002559",
+        "flag_byte": "01"
+      }
+    ],
+    "ready_progression": "rec4() → rec3 → rec8 → rec0 → rec6 → rec5 → rec2 → rec1 → rec742  = ",
+    "no_hero_or_camp": " id /  /  / ",
+    "hero_ids_only_in": "2d  10034/10059/10009u32BE @off168-171EndMatchDecode ",
+    "crossref": "type=021  246B22B  idtype=042  +  10ch=1b  ACK44 = 42  + 2×type19"
+  },
+  "type01_clock": {
+    "downlink_count": 338,
+    "uplink_count": 338,
+    "downlink_tlen": 29,
+    "uplink_tlen": 63,
+    "clock_field": {
+      "downlink": "u32BE @off16-19",
+      "uplink": "u32BE @off29-32"
+    },
+    "monotonic_ms": "1000 ticks/s 1,027,578 ticks = 1,027,578 ms",
+    "pairing": "338/338 337/338 = 79ms74-103",
+    "note": " ch=01  →  type=01 "
+  },
+  "type1b_ack": {
+    "count": 445,
+    "tlen": 20,
+    "layout": [
+      {
+        "off": 0,
+        "len": 4,
+        "field": "head4"
+      },
+      {
+        "off": 4,
+        "len": 4,
+        "field": "crc32"
+      },
+      {
+        "off": 8,
+        "len": 4,
+        "field": "type",
+        "value": "0x0000001b"
+      },
+      {
+        "off": 12,
+        "len": 4,
+        "field": "echo_head4",
+        "sem": " ACK  head4 445/445 "
+      },
+      {
+        "off": 16,
+        "len": 4,
+        "field": "channel",
+        "sem": " ACK  u3206/2d/38/19"
+      }
+    ],
+    "ack_latency_ms": {
+      "min": 75,
+      "median": 79,
+      "max": 154
+    },
+    "coverage": {
+      "ch06_periodic_report": 357,
+      "ch2d_endmatch": 76,
+      "ch38": 10,
+      "ch19": 2
+    },
+    "ch06_acked_subtypes": "01250c/01260c/01270c/01280c/0103cc/01060e/010410/0105de ch06",
+    "ch2d_unacked": " 12 / ACK"
+  },
+  "up_ch0a_heartbeat": {
+    "count": 489,
+    "tlen": 45,
+    "period_ms": " 2040ms 2s",
+    "layout": [
+      {
+        "off": 24,
+        "len": 1,
+        "field": "ch",
+        "value": "0x0a"
+      },
+      {
+        "off": 25,
+        "len": 1,
+        "field": "pad",
+        "value": "00"
+      },
+      {
+        "off": 26,
+        "len": 3,
+        "field": "frame_seq",
+        "sem": " u24 +30 14.7/s = "
+      },
+      {
+        "off": 29,
+        "len": 8,
+        "field": "random",
+        "sem": "8 489/489  nonce"
+      },
+      {
+        "off": 37,
+        "len": 4,
+        "field": "sentinel",
+        "value": "0xffffffff"
+      },
+      {
+        "off": 41,
+        "len": 4,
+        "field": "ms_clock",
+        "sem": "u32BE = 2040/2040ms"
+      }
+    ]
+  },
+  "bonus_up_ch1b_client_ack": {
+    "count": 44,
+    "tlen": 37,
+    "sem": " ACKu24 @off26-28 =  head4  16 44 = 42×type03 + 2×type19 2ms"
+  },
+  "rare_downlink_types": {
+    "type02": {
+      "count": 1,
+      "tlen": 246,
+      "sem": " v1 + 9×22B  +  0100"
+    },
+    "type04": {
+      "count": 2,
+      "tlen": 24,
+      "sem": "[0c40+id / 0c28+id] + u32  10"
+    },
+    "type19": {
+      "count": 2,
+      "tlen": 18,
+      "sem": "payload 00000000 0001 ch=1b ACK"
+    },
+    "type38": {
+      "count": 2,
+      "tlen": 20,
+      "sem": " ch=38  u320040c364 "
+    },
+    "type08": {
+      "count": 1,
+      "tlen": 31,
+      "sem": "payload 00000000 00000001 00000100 00000100 010100"
+    },
+    "type07": {
+      "count": 14725,
+      "sem": "Type07Fields msgseq+02 00 subtype focus + 5B  + 0d/0e "
+    }
+  }
+}
