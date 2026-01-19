@@ -1,0 +1,39 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace = 'dev.wildriftresearch.logicharness'
+    compileSdk = 36
+
+    defaultConfig {
+        applicationId = 'dev.wildriftresearch.logicharness'
+        minSdk = 26
+        targetSdk = 36
+        versionCode = 1
+        versionName = '0.1.0-h0'
+    }
+
+    buildTypes {
+        debug {
+            debuggable = true
+            minifyEnabled = false
+        }
+        release {
+            minifyEnabled = false
+        }
+    }
+
+    // The embedded Frida gadget is loaded with System.loadLibrary(); keep the
+    // classic packaging path so the linker finds extracted jniLibs on device.
+    packaging {
+        jniLibs {
+            useLegacyPackaging = true
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+}
