@@ -1,0 +1,3 @@
+{"result":{"arch":"arm64","pid":23175,"pointer_size":8},"rpc":"environment"}
+{"result":{"base":"0x79d1e26000","loaded":true,"name":"libFEProj.so","size":148742144},"rpc":"waitfeprojloaded"}
+{"result":{"flat":{"after_prime_type":5,"before_type":0,"dispatcher_nonzero":881,"g_keys":916,"label":"flat_control","nested":{"c1a":5,"c1a_c07":0,"classreg":5,"v_nested":5},"pcallk_rc":0,"probe_pcallk_rc":0,"stock_keys":35},"variant_f":{"after_prime_type":5,"before_type":0,"dispatcher_nonzero":881,"g_keys":916,"label":"variant_f_treatment","nested":{"c1a":5,"c1a_c07":5,"classreg":5,"v_nested":5},"pcallk_rc":0,"probe_pcallk_rc":0,"stock_keys":35}},"rpc":"runk2"}

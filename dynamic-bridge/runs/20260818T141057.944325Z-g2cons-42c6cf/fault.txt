@@ -1,0 +1,1 @@
+{"error": "RPCException: Error: access violation accessing 0xb\n    at runconsumerfull (/script1.js:849)\n    at call (native)\n    at handleRpcMessage (/frida/runtime/message-dispatcher.js:39)\n    at handleMessage (/frida/runtime/message-dispatcher.js:25)", "status": "error"}

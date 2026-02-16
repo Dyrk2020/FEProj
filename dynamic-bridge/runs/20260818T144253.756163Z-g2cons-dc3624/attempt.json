@@ -1,0 +1,312 @@
+{
+  "action": "loadfeproj",
+  "attach": {
+    "mode": "embedded-gadget",
+    "pid": 17613,
+    "remote": "127.0.0.1:27042"
+  },
+  "consumer": {
+    "names_count": 881,
+    "no_drive_ms": 60000,
+    "sample_names": [
+      "GainDeckAssetObject",
+      "FEInterfaceConfig",
+      "FixTransform"
+    ]
+  },
+  "consumer_result": {
+    "access_results": [
+      {
+        "global_type": 5,
+        "name": "GainDeckAssetObject"
+      },
+      {
+        "getfield_error": "Error: access violation accessing 0xb",
+        "member": "LogError",
+        "name": "GainDeckAssetObject"
+      },
+      {
+        "global_type": 5,
+        "name": "FEInterfaceConfig"
+      },
+      {
+        "getfield_error": "Error: access violation accessing 0xb",
+        "member": "LogError",
+        "name": "FEInterfaceConfig"
+      },
+      {
+        "global_type": 5,
+        "name": "FixTransform"
+      },
+      {
+        "getfield_error": "Error: access violation accessing 0xb",
+        "member": "LogError",
+        "name": "FixTransform"
+      }
+    ],
+    "begin_class_enter": 1762,
+    "cls_key": "0x745046e101",
+    "criteria": {
+      "K1_index_enter": 0,
+      "K1_newindex_enter": 0,
+      "K2_member_call_enter": 0,
+      "K3_g_access_enter": 24,
+      "K4_dispatcher_enter": 881,
+      "K4_dispatcher_post_reg_enter": 0,
+      "K5_metadata_getter_enter": 0,
+      "K6_consuming_window": 0
+    },
+    "dispatcher_enter": 881,
+    "hook_status": {
+      "C1-index": "attached",
+      "C2-newindex": "attached",
+      "C3-registerclass": "attached",
+      "C4-beginclass": "attached",
+      "C5-dispatcher": "attached",
+      "C7-metadata-getter": "attached",
+      "K3-lua_getfield": "attached",
+      "K3-lua_getglobal": "attached",
+      "K3-lua_rawget": "attached",
+      "K3-lua_rawset": "attached",
+      "K3-lua_rawsetp": "attached"
+    },
+    "pcallk_rc": 0,
+    "register_class_enter": 1,
+    "samples": {
+      "dispatcher_post_reg_callers": [],
+      "g_access_callers": [
+        {
+          "caller_rva": "0xffffffff2f3847f0",
+          "consuming": true,
+          "selector": "lua_getglobal"
+        },
+        {
+          "caller_rva": "0xffffffff2f3847f0",
+          "consuming": true,
+          "selector": "lua_getfield"
+        },
+        {
+          "caller_rva": "0x164b4d0",
+          "consuming": true,
+          "selector": "lua_rawget"
+        },
+        {
+          "caller_rva": "0x164b514",
+          "consuming": true,
+          "selector": "lua_rawget"
+        },
+        {
+          "caller_rva": "0x164b4d0",
+          "consuming": true,
+          "selector": "lua_rawget"
+        },
+        {
+          "caller_rva": "0x164b514",
+          "consuming": true,
+          "selector": "lua_rawget"
+        },
+        {
+          "caller_rva": "0x164b4d0",
+          "consuming": true,
+          "selector": "lua_rawget"
+        },
+        {
+          "caller_rva": "0x164b514",
+          "consuming": true,
+          "selector": "lua_rawget"
+        },
+        {
+          "caller_rva": "0xffffffff2f3847f0",
+          "consuming": true,
+          "selector": "lua_getglobal"
+        },
+        {
+          "caller_rva": "0xffffffff2f3847f0",
+          "consuming": true,
+          "selector": "lua_getfield"
+        },
+        {
+          "caller_rva": "0x164b4d0",
+          "consuming": true,
+          "selector": "lua_rawget"
+        },
+        {
+          "caller_rva": "0x164b514",
+          "consuming": true,
+          "selector": "lua_rawget"
+        },
+        {
+          "caller_rva": "0x164b4d0",
+          "consuming": true,
+          "selector": "lua_rawget"
+        },
+        {
+          "caller_rva": "0x164b514",
+          "consuming": true,
+          "selector": "lua_rawget"
+        },
+        {
+          "caller_rva": "0x164b4d0",
+          "consuming": true,
+          "selector": "lua_rawget"
+        },
+        {
+          "caller_rva": "0x164b514",
+          "consuming": true,
+          "selector": "lua_rawget"
+        },
+        {
+          "caller_rva": "0xffffffff2f3847f0",
+          "consuming": true,
+          "selector": "lua_getglobal"
+        },
+        {
+          "caller_rva": "0xffffffff2f3847f0",
+          "consuming": true,
+          "selector": "lua_getfield"
+        },
+        {
+          "caller_rva": "0x164b4d0",
+          "consuming": true,
+          "selector": "lua_rawget"
+        },
+        {
+          "caller_rva": "0x164b514",
+          "consuming": true,
+          "selector": "lua_rawget"
+        },
+        {
+          "caller_rva": "0x164b4d0",
+          "consuming": true,
+          "selector": "lua_rawget"
+        },
+        {
+          "caller_rva": "0x164b514",
+          "consuming": true,
+          "selector": "lua_rawget"
+        },
+        {
+          "caller_rva": "0x164b4d0",
+          "consuming": true,
+          "selector": "lua_rawget"
+        },
+        {
+          "caller_rva": "0x164b514",
+          "consuming": true,
+          "selector": "lua_rawget"
+        }
+      ],
+      "index": [],
+      "member_call": [],
+      "metadata_getter": []
+    },
+    "state": "0xb40000750dd58208",
+    "stock_keys": 35
+  },
+  "exception": null,
+  "fault": {
+    "status": "normal"
+  },
+  "final_counts": {
+    "begin_class_enter": 1762,
+    "dispatcher_enter": 881,
+    "dispatcher_post_reg_enter": 0,
+    "g_access_enter": 24,
+    "index_enter": 0,
+    "member_call_enter": 0,
+    "metadata_getter_enter": 0,
+    "register_class_enter": 1,
+    "registration_done": true
+  },
+  "finished_at": "2026-08-18T14:44:54.538675+00:00",
+  "frida_version": "17.15.5",
+  "input": {
+    "header_hex": "1b4c7561530119930d0a1a0a04040408",
+    "name": "BattleLogic.res",
+    "path": "/data/user/0/dev.wildriftresearch.logicharness/files/fetest/Res/FETest/Logic/BattleLogic.res",
+    "sha256": "347a4ff3217510443d1b3384b1fdbd3d17d62e6c05f8be0b8ae39e61a64417d5",
+    "size": 1479
+  },
+  "load_plan_path": "load-plan.json",
+  "load_trigger": {
+    "command": [
+      "shell",
+      "am",
+      "start",
+      "-n",
+      "dev.wildriftresearch.logicharness/.MainActivity",
+      "--es",
+      "action",
+      "loadfeproj"
+    ],
+    "stdout": "Starting: Intent { cmp=dev.wildriftresearch.logicharness/.MainActivity (has extras) }"
+  },
+  "loaded": {
+    "base": "0x7449201000",
+    "name": "libFEProj.so",
+    "size": 148742144
+  },
+  "logcat_dump": {
+    "code": 0,
+    "status": "ok",
+    "stderr": ""
+  },
+  "mode": "java-system-load",
+  "no_drive": {
+    "after": {
+      "dispatcher": 0,
+      "g_access": 24,
+      "index": 0,
+      "member": 0
+    },
+    "before": {
+      "dispatcher": 0,
+      "g_access": 24,
+      "index": 0,
+      "member": 0
+    },
+    "criteria": {
+      "K6_spontaneous": {
+        "dispatcher": 0,
+        "g_access": 0,
+        "index": 0,
+        "member": 0
+      }
+    },
+    "spontaneous": {
+      "dispatcher": 0,
+      "g_access": 0,
+      "index": 0,
+      "member": 0
+    },
+    "window_ms": 60000
+  },
+  "operation": "g2-consumer-observe",
+  "package": "dev.wildriftresearch.logicharness",
+  "process_abi": {
+    "arch": "arm64",
+    "pid": 17613,
+    "pointer_size": 8
+  },
+  "rpc_order": [
+    "environment",
+    "setbattlelogicpath",
+    "setexpectednames",
+    "waitfeprojloaded",
+    "probeluaexports",
+    "runconsumerfull",
+    "observenodrive",
+    "finalcounts"
+  ],
+  "spawn": null,
+  "started_at": "2026-08-18T14:42:53.756426+00:00",
+  "survival": {
+    "alive": true,
+    "load_triggered_at": "2026-08-18T14:42:53.943774+00:00",
+    "observed_seconds": 60.065,
+    "post_pids": [
+      "17613"
+    ],
+    "requested_seconds": 60
+  }
+}

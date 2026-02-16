@@ -1,0 +1,68 @@
+{
+  "attach": {
+    "mode": "embedded-gadget",
+    "pid": 22884,
+    "remote": "127.0.0.1:27042"
+  },
+  "fault": {
+    "status": "normal"
+  },
+  "finished_at": "2026-08-22T10:49:56.077938+00:00",
+  "frida_version": "17.15.5",
+  "k2": {
+    "flat": {
+      "after_prime_type": 5,
+      "before_type": 0,
+      "dispatcher_nonzero": 881,
+      "g_keys": 916,
+      "label": "flat_control",
+      "nested": {
+        "c1a": 5,
+        "c1a_c07": 0,
+        "classreg": 5,
+        "v_nested": 5
+      },
+      "pcallk_rc": 0,
+      "probe_pcallk_rc": 0,
+      "stock_keys": 35
+    },
+    "variant_f": {
+      "after_prime_type": 5,
+      "before_type": 0,
+      "dispatcher_nonzero": 881,
+      "g_keys": 916,
+      "label": "variant_f_treatment",
+      "nested": {
+        "c1a": 5,
+        "c1a_c07": 5,
+        "classreg": 5,
+        "v_nested": 5
+      },
+      "pcallk_rc": 0,
+      "probe_pcallk_rc": 0,
+      "stock_keys": 35
+    }
+  },
+  "loaded": {
+    "base": "0x79d1822000",
+    "loaded": true,
+    "name": "libFEProj.so",
+    "size": 148742144
+  },
+  "operation": "g2-k2-member-fill",
+  "package": "dev.wildriftresearch.logicharness",
+  "plan": "docs/plans/2026-08-22-g2-k2-member-fill.md",
+  "process_abi": {
+    "arch": "arm64",
+    "pid": 22884,
+    "pointer_size": 8
+  },
+  "started_at": "2026-08-22T10:49:25.728681+00:00",
+  "survival": {
+    "alive": true,
+    "post_pids": [
+      "22884"
+    ],
+    "requested_seconds": 40
+  }
+}

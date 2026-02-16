@@ -1,0 +1,38 @@
+{
+  "built_at": "2026-08-16T14:00:09.688476",
+  "evidence_tier": "H",
+  "frida_version": "17.15.5",
+  "internal_lua_load_caller_rva_stable": true,
+  "locked_inputs": {
+    "BattleLogic.res_head16": "1b4c7561530119930d0a1a0a04040408",
+    "BattleLogic.res_sha256": "347a4ff3217510443d1b3384b1fdbd3d17d62e6c05f8be0b8ae39e61a64417d5",
+    "BattleLogic.res_size": 1479,
+    "libFEProj.so_sha256": "5e608f2da59371a583929aed90e4ec4985bc8ee12fc0d44124000b94d1b8a02a"
+  },
+  "runs": [
+    {
+      "base": "0x6fb521d000",
+      "buffer_sha256": "347a4ff3217510443d1b3384b1fdbd3d17d62e6c05f8be0b8ae39e61a64417d5",
+      "internal_lua_load_caller_rva": "0x55b19f4",
+      "load_return_code": 0,
+      "open_fd": 5,
+      "pcall_return_code": 2,
+      "run_dir": "crashes/20260816T175556.627768Z-g1pcall-cb8e30",
+      "size": 148742144,
+      "survival_seconds": 60.073
+    },
+    {
+      "base": "0x6fb4c08000",
+      "buffer_sha256": "347a4ff3217510443d1b3384b1fdbd3d17d62e6c05f8be0b8ae39e61a64417d5",
+      "internal_lua_load_caller_rva": "0x55b19f4",
+      "load_return_code": 0,
+      "open_fd": 5,
+      "pcall_return_code": 2,
+      "run_dir": "crashes/20260816T175811.836231Z-g1pcall-2b8cc0",
+      "size": 148742144,
+      "survival_seconds": 60.064
+    }
+  ],
+  "scope": "loader->execution call edge only (luaL_loadbufferx -> lua_pcallk on a locked BattleLogic.res chunk); a nonzero pcallk return_code is valid evidence of the execution edge; dispatch/consumer chain NOT observed; G1 full verdict remains NOT_ESTABLISHED",
+  "verdict": "G1_LOADER_EXECUTION_EDGE_OBSERVED"
+}

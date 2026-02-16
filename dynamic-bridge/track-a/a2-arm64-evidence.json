@@ -1,0 +1,103 @@
+{
+  "schema": "a2-arm64-surface-v1",
+  "status": "PASS",
+  "disposition": {
+    "a2": "PASS",
+    "g2": "FAIL",
+    "g2_reason": "A2 forced the exported IL2CPP surface, but no A3-quality provenance-to-consumer function or transform output was observed. A successful load or init is not a G2 reopen."
+  },
+  "run": {
+    "directory": "crashes/20260714T021732.870417Z-4d4591e5",
+    "package": "dev.wildriftresearch.logicharness",
+    "frida_version": "17.8.0",
+    "spawn_mode": "gadget",
+    "process_abi": {
+      "arch": "arm64",
+      "pointer_size": 8,
+      "pid": 22099
+    },
+    "fault": {
+      "status": "normal"
+    }
+  },
+  "inputs": {
+    "metadata": {
+      "path": "/data/user/0/dev.wildriftresearch.logicharness/files/meta/il2cpp/Metadata/global-metadata.dat",
+      "sha256": "5bd0f8b0efb4ebbbbe148300dc17166f9335a9e2d5ff20de42edb22267fde45d"
+    },
+    "libraries": [
+      {
+        "name": "libil2cpp.so",
+        "path": "/data/user/0/dev.wildriftresearch.logicharness/files/dso/libil2cpp.so",
+        "sha256": "6e8e7002169bc658fbe64be4c6e216e22c4bf719a620940e77890b9e57211dc6"
+      }
+    ]
+  },
+  "surface": {
+    "module_load": {
+      "status": "loaded",
+      "mapped": true,
+      "base": "0x6fcebbc000",
+      "size": 218177536
+    },
+    "resolved_exports": [
+      "il2cpp_set_data_dir",
+      "il2cpp_init",
+      "il2cpp_set_temp_dir",
+      "il2cpp_set_commandline_arguments",
+      "il2cpp_set_commandline_arguments_utf16"
+    ],
+    "set_data_dir": {
+      "data_dir": "/data/user/0/dev.wildriftresearch.logicharness/files/meta",
+      "status": "called"
+    },
+    "init": {
+      "domain_name": "LogicHarness",
+      "status": "returned"
+    }
+  },
+  "io": {
+    "event_counts": {
+      "A2_IO_OPEN": 17,
+      "A2_IO_READ": 253,
+      "A2_FMN_PATH": 6,
+      "A2_FMN_READ": 0
+    },
+    "staged_metadata_read_events": 57,
+    "binding_observed": true,
+    "binding_metadata_sha256": "5bd0f8b0efb4ebbbbe148300dc17166f9335a9e2d5ff20de42edb22267fde45d",
+    "header_hex": "464d4e211f00000049db9dcc2b3d9dcf",
+    "note": "The hook observed the staged metadata path and header during controlled staging. It emitted no post-binding A2_FMN_READ event during the set_data_dir/init RPCs, so this record does not assert a metadata consumer edge."
+  },
+  "artifacts": {
+    "attempt": "crashes/20260714T021732.870417Z-4d4591e5/attempt.json",
+    "load_plan": "crashes/20260714T021732.870417Z-4d4591e5/load-plan.json",
+    "rpc_results": "crashes/20260714T021732.870417Z-4d4591e5/rpc-results.jsonl",
+    "events": "crashes/20260714T021732.870417Z-4d4591e5/events.jsonl",
+    "maps": "crashes/20260714T021732.870417Z-4d4591e5/maps.json",
+    "logcat": "crashes/20260714T021732.870417Z-4d4591e5/logcat.txt"
+  },
+  "cleanup": {
+    "helper_force_stopped": true,
+    "helper_process_absent": true,
+    "debug_app_cleared": true,
+    "app_private_paths_removed": [
+      "files/dso",
+      "files/meta",
+      "files/fetest",
+      "files/incoming",
+      "files/dump"
+    ],
+    "transient_arm64_gadget_removed": true,
+    "adb_forward_tcp_27042_removed": true,
+    "direct_adb_connection_disconnected": true,
+    "note": "The device denied pm clear to the wireless shell. The known helper-owned paths were instead removed through run-as and each was verified absent."
+  },
+  "scope": {
+    "owned_process_only": true,
+    "official_package_attached": false,
+    "undocumented_va_called": false,
+    "network_used_by_helper": false,
+    "immutable_corpus_modified": false
+  }
+}

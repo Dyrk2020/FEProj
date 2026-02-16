@@ -1,0 +1,6 @@
+#!/sbin/sh
+# Minimal stub. Target stack is KernelSU (ksud) + ReZygisk: ksud installs by
+# extracting the zip and reading module.prop; the update-binary script itself is
+# not executed there. Magisk proper is NOT a supported install path for this
+# module — use ksud or the manual fallback in device/install_t3zy.sh.
+exit 0

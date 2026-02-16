@@ -1,0 +1,79 @@
+{
+  "action": "loadfeproj",
+  "attach": {
+    "mode": "embedded-gadget",
+    "pid": 32765,
+    "remote": "127.0.0.1:27042"
+  },
+  "exception": null,
+  "fault": {
+    "status": "normal"
+  },
+  "fetest_touch": {
+    "observed": true,
+    "rpc": {
+      "load_return": 0,
+      "pcall_return": 2,
+      "state": "0xb400007184158208"
+    }
+  },
+  "finished_at": "2026-08-16T18:00:02.433271+00:00",
+  "frida_version": "17.15.5",
+  "input": {
+    "header_hex": "1b4c7561530119930d0a1a0a04040408",
+    "name": "BattleLogic.res",
+    "path": "/data/user/0/dev.wildriftresearch.logicharness/files/fetest/Res/FETest/Logic/BattleLogic.res",
+    "sha256": "347a4ff3217510443d1b3384b1fdbd3d17d62e6c05f8be0b8ae39e61a64417d5",
+    "size": 1479
+  },
+  "load_plan_path": "load-plan.json",
+  "load_trigger": {
+    "command": [
+      "shell",
+      "am",
+      "start",
+      "-n",
+      "dev.wildriftresearch.logicharness/.MainActivity",
+      "--es",
+      "action",
+      "loadfeproj"
+    ],
+    "stdout": "Starting: Intent { cmp=dev.wildriftresearch.logicharness/.MainActivity (has extras) }"
+  },
+  "loaded": {
+    "base": "0x6fb4c08000",
+    "name": "libFEProj.so",
+    "size": 148742144
+  },
+  "logcat_dump": {
+    "code": 0,
+    "status": "ok",
+    "stderr": ""
+  },
+  "mode": "java-system-load",
+  "operation": "g1-pcall-observe",
+  "package": "dev.wildriftresearch.logicharness",
+  "process_abi": {
+    "arch": "arm64",
+    "pid": 32765,
+    "pointer_size": 8
+  },
+  "rpc_order": [
+    "environment",
+    "setbattlelogicpath",
+    "waitfeprojloaded",
+    "probeluaexports",
+    "runpcall"
+  ],
+  "spawn": null,
+  "started_at": "2026-08-16T17:58:11.836494+00:00",
+  "survival": {
+    "alive": true,
+    "load_triggered_at": "2026-08-16T17:58:12.060796+00:00",
+    "observed_seconds": 60.064,
+    "post_pids": [
+      "32765"
+    ],
+    "requested_seconds": 60
+  }
+}

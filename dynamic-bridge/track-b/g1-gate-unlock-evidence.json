@@ -1,0 +1,54 @@
+{
+  "boundary": "H-layer controlled-call evidence: registrar writer attribution and gate-condition confirmation. Spontaneous-edge counts in spontaneous_window are observations only; G1 verdict unchanged by this builder.",
+  "cross_run_consistent": true,
+  "generated_at": "2026-08-22T11:00:51.362577Z",
+  "locked_inputs": {
+    "testmain_sha256": "ef953d6f8ea871624a11ed21957f7a3f541a0cd18d9cbcae3b154bd9f14a8dfc",
+    "testmain_size": 698
+  },
+  "plan": "docs/plans/2026-08-22-g1-gate-unlock-testmain.md",
+  "runs": [
+    {
+      "anchor_coverage": [
+        "DoCommand_entry",
+        "bootstrap_gate_B",
+        "dispatch_gate_A",
+        "fe_registrar"
+      ],
+      "pid": 17631,
+      "rc_gate_a": -1,
+      "rc_gate_b": -1,
+      "rc_validator": 0,
+      "run_dir": "work/aggressive-logic-bridge-2026-07-13/track-a/crashes/20260822T103017.785592Z-g1gate-0a51d0",
+      "spontaneous_window": {
+        "docommand_core": 0,
+        "fetest_open": 0,
+        "fetest_read": 0,
+        "lua_load": 0,
+        "openlibs_L": []
+      },
+      "started_at": "2026-08-22T10:30:17.963048+00:00"
+    },
+    {
+      "anchor_coverage": [
+        "DoCommand_entry",
+        "bootstrap_gate_B",
+        "dispatch_gate_A",
+        "fe_registrar"
+      ],
+      "pid": 18658,
+      "rc_gate_a": -1,
+      "rc_gate_b": -1,
+      "rc_validator": 0,
+      "run_dir": "work/aggressive-logic-bridge-2026-07-13/track-a/crashes/20260822T103151.831433Z-g1gate-4d1bb6",
+      "spontaneous_window": {
+        "docommand_core": 0,
+        "fetest_open": 0,
+        "fetest_read": 0,
+        "lua_load": 0,
+        "openlibs_L": []
+      },
+      "started_at": "2026-08-22T10:31:52.002096+00:00"
+    }
+  ]
+}

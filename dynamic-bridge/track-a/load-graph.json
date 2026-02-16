@@ -1,0 +1,272 @@
+{
+  "dt_needed_edges": [
+    {
+      "needed": "libm.so",
+      "resolution": "unresolved",
+      "source": "libtdr.so"
+    },
+    {
+      "needed": "libdl.so",
+      "resolution": "unresolved",
+      "source": "libtdr.so"
+    },
+    {
+      "needed": "libc.so",
+      "resolution": "unresolved",
+      "source": "libtdr.so"
+    },
+    {
+      "needed": "libc.so",
+      "resolution": "unresolved",
+      "source": "libLNet.so"
+    },
+    {
+      "needed": "libm.so",
+      "resolution": "unresolved",
+      "source": "libLNet.so"
+    },
+    {
+      "needed": "libdl.so",
+      "resolution": "unresolved",
+      "source": "libLNet.so"
+    },
+    {
+      "needed": "liblog.so",
+      "resolution": "unresolved",
+      "source": "libLNet.so"
+    },
+    {
+      "needed": "libstdc++.so",
+      "resolution": "unresolved",
+      "source": "libLNet.so"
+    },
+    {
+      "needed": "libdl.so",
+      "resolution": "unresolved",
+      "source": "libFEProj.so"
+    },
+    {
+      "needed": "liblog.so",
+      "resolution": "unresolved",
+      "source": "libFEProj.so"
+    },
+    {
+      "needed": "libc.so",
+      "resolution": "unresolved",
+      "source": "libFEProj.so"
+    },
+    {
+      "needed": "libm.so",
+      "resolution": "unresolved",
+      "source": "libFEProj.so"
+    },
+    {
+      "needed": "libstdc++.so",
+      "resolution": "unresolved",
+      "source": "libFEProj.so"
+    },
+    {
+      "needed": "liblog.so",
+      "resolution": "unresolved",
+      "source": "libil2cpp.so"
+    },
+    {
+      "needed": "libm.so",
+      "resolution": "unresolved",
+      "source": "libil2cpp.so"
+    },
+    {
+      "needed": "libdl.so",
+      "resolution": "unresolved",
+      "source": "libil2cpp.so"
+    },
+    {
+      "needed": "libc.so",
+      "resolution": "unresolved",
+      "source": "libil2cpp.so"
+    },
+    {
+      "needed": "libandroid.so",
+      "resolution": "unresolved",
+      "source": "libunity.so"
+    },
+    {
+      "needed": "liblog.so",
+      "resolution": "unresolved",
+      "source": "libunity.so"
+    },
+    {
+      "needed": "libz.so",
+      "resolution": "unresolved",
+      "source": "libunity.so"
+    },
+    {
+      "needed": "libEGL.so",
+      "resolution": "unresolved",
+      "source": "libunity.so"
+    },
+    {
+      "needed": "libmediandk.so",
+      "resolution": "unresolved",
+      "source": "libunity.so"
+    },
+    {
+      "needed": "libm.so",
+      "resolution": "unresolved",
+      "source": "libunity.so"
+    },
+    {
+      "needed": "libdl.so",
+      "resolution": "unresolved",
+      "source": "libunity.so"
+    },
+    {
+      "needed": "libc.so",
+      "resolution": "unresolved",
+      "source": "libunity.so"
+    }
+  ],
+  "ordered_libraries": [
+    {
+      "name": "libil2cpp.so",
+      "sha256": "6e8e7002169bc658fbe64be4c6e216e22c4bf719a620940e77890b9e57211dc6",
+      "source_path": "<research-workspace>/work/native-container-audit/decompressed-arm64/libil2cpp.so"
+    }
+  ],
+  "record_type": "il2cpp-dt-needed-load-graph",
+  "source_hashes": [
+    {
+      "name": "libtdr.so",
+      "sha256": "94c3b45384d810c9136084eefabe6ab6ef5e1808017af67ffc9c53fc3876495d",
+      "size": 1774368,
+      "source_path": "<research-workspace>/work/native-container-audit/decompressed-arm64/libtdr.so"
+    },
+    {
+      "name": "libLNet.so",
+      "sha256": "55c2879f7acdd0c64fb308ce3a0a1007d308417e475b431dabd9c5e0f8ab5a86",
+      "size": 3130648,
+      "source_path": "<research-workspace>/work/native-container-audit/decompressed-arm64/libLNet.so"
+    },
+    {
+      "name": "libFEProj.so",
+      "sha256": "5e608f2da59371a583929aed90e4ec4985bc8ee12fc0d44124000b94d1b8a02a",
+      "size": 120283368,
+      "source_path": "<research-workspace>/work/native-container-audit/decompressed-arm64/libFEProj.so"
+    },
+    {
+      "name": "libil2cpp.so",
+      "sha256": "6e8e7002169bc658fbe64be4c6e216e22c4bf719a620940e77890b9e57211dc6",
+      "size": 215681928,
+      "source_path": "<research-workspace>/work/native-container-audit/decompressed-arm64/libil2cpp.so"
+    },
+    {
+      "name": "libunity.so",
+      "sha256": "6dfbec920ddd0539de4ab2f1d5aef783f203399ab46939daa46b51f1b8c215ac",
+      "size": 26607568,
+      "source_path": "<research-workspace>/work/native-container-audit/decompressed-arm64/libunity.so"
+    }
+  ],
+  "target_library": "libil2cpp.so",
+  "unresolved_dependencies": [
+    {
+      "needed": "libm.so",
+      "source": "libtdr.so"
+    },
+    {
+      "needed": "libdl.so",
+      "source": "libtdr.so"
+    },
+    {
+      "needed": "libc.so",
+      "source": "libtdr.so"
+    },
+    {
+      "needed": "libc.so",
+      "source": "libLNet.so"
+    },
+    {
+      "needed": "libm.so",
+      "source": "libLNet.so"
+    },
+    {
+      "needed": "libdl.so",
+      "source": "libLNet.so"
+    },
+    {
+      "needed": "liblog.so",
+      "source": "libLNet.so"
+    },
+    {
+      "needed": "libstdc++.so",
+      "source": "libLNet.so"
+    },
+    {
+      "needed": "libdl.so",
+      "source": "libFEProj.so"
+    },
+    {
+      "needed": "liblog.so",
+      "source": "libFEProj.so"
+    },
+    {
+      "needed": "libc.so",
+      "source": "libFEProj.so"
+    },
+    {
+      "needed": "libm.so",
+      "source": "libFEProj.so"
+    },
+    {
+      "needed": "libstdc++.so",
+      "source": "libFEProj.so"
+    },
+    {
+      "needed": "liblog.so",
+      "source": "libil2cpp.so"
+    },
+    {
+      "needed": "libm.so",
+      "source": "libil2cpp.so"
+    },
+    {
+      "needed": "libdl.so",
+      "source": "libil2cpp.so"
+    },
+    {
+      "needed": "libc.so",
+      "source": "libil2cpp.so"
+    },
+    {
+      "needed": "libandroid.so",
+      "source": "libunity.so"
+    },
+    {
+      "needed": "liblog.so",
+      "source": "libunity.so"
+    },
+    {
+      "needed": "libz.so",
+      "source": "libunity.so"
+    },
+    {
+      "needed": "libEGL.so",
+      "source": "libunity.so"
+    },
+    {
+      "needed": "libmediandk.so",
+      "source": "libunity.so"
+    },
+    {
+      "needed": "libm.so",
+      "source": "libunity.so"
+    },
+    {
+      "needed": "libdl.so",
+      "source": "libunity.so"
+    },
+    {
+      "needed": "libc.so",
+      "source": "libunity.so"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "a3": {
+    "dump_dir": "C:\\Users\\123\\Desktop\\wild-rift-research\\work\\aggressive-logic-bridge-2026-07-13\\track-a\\dumps\\20260716T224808.800307Z-734670d2",
+    "event_counts": {
+      "A3_FMN_BOUND": 2,
+      "A3_FMN_COPY": 832,
+      "A3_FMN_FD_ALIAS": 1,
+      "A3_FMN_OPEN": 2,
+      "A3_FMN_READ": 1,
+      "A3_MEMORY_HIT": 2,
+      "A3_MEMORY_SWEEP": 1,
+      "A3_METADATA_MMAP": 2,
+      "A3_WATCH_ARMED": 1
+    },
+    "fingerprint": {
+      "header_hex": "464d4e211f00000049db9dcc2b3d9dcf",
+      "metadata_sha256": "5bd0f8b0efb4ebbbbe148300dc17166f9335a9e2d5ff20de42edb22267fde45d",
+      "metadata_size": 58401572,
+      "window": {
+        "hex": "607bf400047b0d0064f60101b882d9001c79db0104260300209fde010801330028a0110288003900b0a04a0228ed0200d88d4d029cb14500743f93025c935800",
+        "length": 64,
+        "offset": 40
+      }
+    }
+  },
+  "data_dir": "/data/user/0/dev.wildriftresearch.logicharness/files/meta",
+  "device_gate": {
+    "captured_at": "2026-07-16T22:48:09.085567+00:00",
+    "device": "OP5CF9L1",
+    "device_line": "192.168.100.11:39445   device product:PJE110 model:PJE110 device:OP5CF9L1 transport_id:194",
+    "model": "PJE110",
+    "product": "PJE110",
+    "properties": {
+      "ro.build.version.release": "16",
+      "ro.product.cpu.abilist": "arm64-v8a,armeabi-v7a,armeabi",
+      "ro.product.device": "OP5CF9L1",
+      "ro.product.manufacturer": "OnePlus",
+      "ro.product.model": "PJE110",
+      "ro.vendor.oplus.market.enname": "OnePlus Ace 3"
+    },
+    "serial": "192.168.100.11:39445",
+    "state": "device"
+  },
+  "domain_ptr": "0x1",
+  "exception": null,
+  "fault": {
+    "status": "normal"
+  },
+  "fetest_touched": false,
+  "finished_at": "2026-07-16T22:48:39.084122+00:00",
+  "fmn_touched": false,
+  "fresh_capture": {
+    "force_stop": {
+      "command": [
+        "shell",
+        "am",
+        "force-stop",
+        "dev.wildriftresearch.logicharness"
+      ],
+      "completed_at": "2026-07-16T22:48:09.404600+00:00",
+      "post_check": {
+        "command": [
+          "shell",
+          "pidof",
+          "dev.wildriftresearch.logicharness"
+        ],
+        "returncode": 1,
+        "stdout": ""
+      },
+      "post_pids": [],
+      "returncode": 0
+    },
+    "spawn": {
+      "completed_at": "2026-07-16T22:48:14.740923+00:00",
+      "mode": "gadget",
+      "pid": 4286
+    }
+  },
+  "frida_version": "17.15.5",
+  "load_plan_path": "load-plan.json",
+  "logcat_clear": {
+    "code": 0,
+    "status": "cleared",
+    "stderr": ""
+  },
+  "logcat_dump": {
+    "code": 0,
+    "status": "ok",
+    "stderr": ""
+  },
+  "metadata": {
+    "identity": {
+      "dev": "65099",
+      "ino": "1692515",
+      "size": 58401572
+    },
+    "name": "global-metadata.dat",
+    "path": "/data/user/0/dev.wildriftresearch.logicharness/files/meta/Metadata/global-metadata.dat",
+    "sha256": "5bd0f8b0efb4ebbbbe148300dc17166f9335a9e2d5ff20de42edb22267fde45d"
+  },
+  "metadata_present": true,
+  "operation": "init",
+  "package": "dev.wildriftresearch.logicharness",
+  "process_abi": {
+    "arch": "arm64",
+    "pid": 4286,
+    "pointer_size": 8
+  },
+  "spawn": {
+    "gadget_path": "C:\\Users\\123\\AppData\\Local\\Temp\\frida\\frida-gadget-17.15.5-android-arm64.so",
+    "mode": "gadget",
+    "pid": 4286
+  },
+  "started_at": "2026-07-16T22:48:08.802788+00:00"
+}

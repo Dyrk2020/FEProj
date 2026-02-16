@@ -1,0 +1,25 @@
+{
+  "event_counts": {
+    "A3_FMN_BOUND": 2,
+    "A3_FMN_COPY": 832,
+    "A3_FMN_FD_ALIAS": 1,
+    "A3_FMN_OPEN": 2,
+    "A3_FMN_READ": 1,
+    "A3_MEMORY_HIT": 2,
+    "A3_MEMORY_SWEEP": 1,
+    "A3_METADATA_MMAP": 2,
+    "A3_WATCH_ARMED": 1
+  },
+  "events": "a3-events.jsonl",
+  "fingerprint": {
+    "header_hex": "464d4e211f00000049db9dcc2b3d9dcf",
+    "metadata_sha256": "5bd0f8b0efb4ebbbbe148300dc17166f9335a9e2d5ff20de42edb22267fde45d",
+    "metadata_size": 58401572,
+    "window": {
+      "hex": "607bf400047b0d0064f60101b882d9001c79db0104260300209fde010801330028a0110288003900b0a04a0228ed0200d88d4d029cb14500743f93025c935800",
+      "length": 64,
+      "offset": 40
+    }
+  },
+  "memory_hits": "memory-hits.jsonl"
+}

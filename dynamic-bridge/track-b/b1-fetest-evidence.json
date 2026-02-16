@@ -1,0 +1,328 @@
+{
+  "capture_error": null,
+  "captured_at_utc": "2026-07-13T20:19:00Z",
+  "cleanup": {
+    "clear_debug_app": 0,
+    "force_stop": 0,
+    "remaining_pid": null,
+    "script": "unloaded",
+    "session": "detached"
+  },
+  "events": [
+    {
+      "api": "open",
+      "byte_provenance": {
+        "fd": 110,
+        "head16_hex": null,
+        "path": "/data/user/0/dev.wildriftresearch.logicharness/files/incoming/BattleLogic.res",
+        "trigger": "FETest path"
+      },
+      "dirfd": null,
+      "event": "FETEST_OPEN",
+      "fd": 110,
+      "flags": "0x0",
+      "head16_hex": null,
+      "nbytes": null,
+      "offset": null,
+      "path": "/data/user/0/dev.wildriftresearch.logicharness/files/incoming/BattleLogic.res",
+      "priority": "high"
+    },
+    {
+      "api": "open",
+      "byte_provenance": {
+        "fd": 110,
+        "head16_hex": null,
+        "path": "/data/user/0/dev.wildriftresearch.logicharness/files/incoming/BattleLogic.res",
+        "trigger": "FETest path"
+      },
+      "event": "FETEST_TOUCH",
+      "fd": 110,
+      "function": null,
+      "head16_hex": null,
+      "nbytes": null,
+      "offset": null,
+      "path": "/data/user/0/dev.wildriftresearch.logicharness/files/incoming/BattleLogic.res",
+      "priority": "high",
+      "source": "path"
+    },
+    {
+      "api": "open",
+      "byte_provenance": {
+        "fd": 112,
+        "head16_hex": null,
+        "path": "/data/user/0/dev.wildriftresearch.logicharness/files/fetest/Res/FETest/Logic/BattleLogic.res",
+        "trigger": "FETest path"
+      },
+      "dirfd": null,
+      "event": "FETEST_OPEN",
+      "fd": 112,
+      "flags": "0x241",
+      "head16_hex": null,
+      "nbytes": null,
+      "offset": null,
+      "path": "/data/user/0/dev.wildriftresearch.logicharness/files/fetest/Res/FETest/Logic/BattleLogic.res",
+      "priority": "high"
+    },
+    {
+      "api": "open",
+      "byte_provenance": {
+        "fd": 112,
+        "head16_hex": null,
+        "path": "/data/user/0/dev.wildriftresearch.logicharness/files/fetest/Res/FETest/Logic/BattleLogic.res",
+        "trigger": "FETest path"
+      },
+      "event": "FETEST_TOUCH",
+      "fd": 112,
+      "function": null,
+      "head16_hex": null,
+      "nbytes": null,
+      "offset": null,
+      "path": "/data/user/0/dev.wildriftresearch.logicharness/files/fetest/Res/FETest/Logic/BattleLogic.res",
+      "priority": "high",
+      "source": "path"
+    },
+    {
+      "api": "read",
+      "byte_provenance": {
+        "buffer": "0x264f200c",
+        "fd": 110,
+        "head16_hex": "1b4c7561530119930d0a1a0a04040408",
+        "path": "/data/user/0/dev.wildriftresearch.logicharness/files/incoming/BattleLogic.res",
+        "trigger": "Lua 5.3 format-1 header"
+      },
+      "event": "FETEST_READ",
+      "fd": 110,
+      "head16_hex": "1b4c7561530119930d0a1a0a04040408",
+      "nbytes": 1479,
+      "offset": null,
+      "path": "/data/user/0/dev.wildriftresearch.logicharness/files/incoming/BattleLogic.res",
+      "priority": "high"
+    },
+    {
+      "api": "read",
+      "byte_provenance": {
+        "fd": 110,
+        "head16_hex": "1b4c7561530119930d0a1a0a04040408",
+        "path": "/data/user/0/dev.wildriftresearch.logicharness/files/incoming/BattleLogic.res",
+        "trigger": "Lua 5.3 format-1 header"
+      },
+      "event": "FETEST_TOUCH",
+      "fd": 110,
+      "function": null,
+      "head16_hex": "1b4c7561530119930d0a1a0a04040408",
+      "nbytes": 1479,
+      "offset": null,
+      "path": "/data/user/0/dev.wildriftresearch.logicharness/files/incoming/BattleLogic.res",
+      "priority": "high",
+      "source": "read"
+    },
+    {
+      "api": "read",
+      "byte_provenance": {
+        "buffer": "0x264f200c",
+        "fd": 110,
+        "head16_hex": null,
+        "path": "/data/user/0/dev.wildriftresearch.logicharness/files/incoming/BattleLogic.res",
+        "trigger": "FETest path"
+      },
+      "event": "FETEST_READ",
+      "fd": 110,
+      "head16_hex": null,
+      "nbytes": 0,
+      "offset": null,
+      "path": "/data/user/0/dev.wildriftresearch.logicharness/files/incoming/BattleLogic.res",
+      "priority": "normal"
+    },
+    {
+      "api": "open",
+      "byte_provenance": {
+        "fd": 110,
+        "head16_hex": null,
+        "path": "/data/user/0/dev.wildriftresearch.logicharness/files/fetest/Res/FETest/Logic/BattleLogic.res",
+        "trigger": "FETest path"
+      },
+      "dirfd": null,
+      "event": "FETEST_OPEN",
+      "fd": 110,
+      "flags": "0x0",
+      "head16_hex": null,
+      "nbytes": null,
+      "offset": null,
+      "path": "/data/user/0/dev.wildriftresearch.logicharness/files/fetest/Res/FETest/Logic/BattleLogic.res",
+      "priority": "high"
+    },
+    {
+      "api": "open",
+      "byte_provenance": {
+        "fd": 110,
+        "head16_hex": null,
+        "path": "/data/user/0/dev.wildriftresearch.logicharness/files/fetest/Res/FETest/Logic/BattleLogic.res",
+        "trigger": "FETest path"
+      },
+      "event": "FETEST_TOUCH",
+      "fd": 110,
+      "function": null,
+      "head16_hex": null,
+      "nbytes": null,
+      "offset": null,
+      "path": "/data/user/0/dev.wildriftresearch.logicharness/files/fetest/Res/FETest/Logic/BattleLogic.res",
+      "priority": "high",
+      "source": "path"
+    },
+    {
+      "api": "read",
+      "byte_provenance": {
+        "buffer": "0x265f300c",
+        "fd": 110,
+        "head16_hex": "1b4c7561530119930d0a1a0a04040408",
+        "path": "/data/user/0/dev.wildriftresearch.logicharness/files/fetest/Res/FETest/Logic/BattleLogic.res",
+        "trigger": "Lua 5.3 format-1 header"
+      },
+      "event": "FETEST_READ",
+      "fd": 110,
+      "head16_hex": "1b4c7561530119930d0a1a0a04040408",
+      "nbytes": 1479,
+      "offset": null,
+      "path": "/data/user/0/dev.wildriftresearch.logicharness/files/fetest/Res/FETest/Logic/BattleLogic.res",
+      "priority": "high"
+    },
+    {
+      "api": "read",
+      "byte_provenance": {
+        "fd": 110,
+        "head16_hex": "1b4c7561530119930d0a1a0a04040408",
+        "path": "/data/user/0/dev.wildriftresearch.logicharness/files/fetest/Res/FETest/Logic/BattleLogic.res",
+        "trigger": "Lua 5.3 format-1 header"
+      },
+      "event": "FETEST_TOUCH",
+      "fd": 110,
+      "function": null,
+      "head16_hex": "1b4c7561530119930d0a1a0a04040408",
+      "nbytes": 1479,
+      "offset": null,
+      "path": "/data/user/0/dev.wildriftresearch.logicharness/files/fetest/Res/FETest/Logic/BattleLogic.res",
+      "priority": "high",
+      "source": "read"
+    },
+    {
+      "api": "read",
+      "byte_provenance": {
+        "buffer": "0x265f300c",
+        "fd": 110,
+        "head16_hex": null,
+        "path": "/data/user/0/dev.wildriftresearch.logicharness/files/fetest/Res/FETest/Logic/BattleLogic.res",
+        "trigger": "FETest path"
+      },
+      "event": "FETEST_READ",
+      "fd": 110,
+      "head16_hex": null,
+      "nbytes": 0,
+      "offset": null,
+      "path": "/data/user/0/dev.wildriftresearch.logicharness/files/fetest/Res/FETest/Logic/BattleLogic.res",
+      "priority": "normal"
+    },
+    {
+      "api": "open",
+      "byte_provenance": {
+        "fd": 110,
+        "head16_hex": null,
+        "path": "/data/user/0/dev.wildriftresearch.logicharness/files/fetest/Res/FETest/Logic/BattleLogic.res",
+        "trigger": "FETest path"
+      },
+      "dirfd": null,
+      "event": "FETEST_OPEN",
+      "fd": 110,
+      "flags": "0x0",
+      "head16_hex": null,
+      "nbytes": null,
+      "offset": null,
+      "path": "/data/user/0/dev.wildriftresearch.logicharness/files/fetest/Res/FETest/Logic/BattleLogic.res",
+      "priority": "high"
+    },
+    {
+      "api": "open",
+      "byte_provenance": {
+        "fd": 110,
+        "head16_hex": null,
+        "path": "/data/user/0/dev.wildriftresearch.logicharness/files/fetest/Res/FETest/Logic/BattleLogic.res",
+        "trigger": "FETest path"
+      },
+      "event": "FETEST_TOUCH",
+      "fd": 110,
+      "function": null,
+      "head16_hex": null,
+      "nbytes": null,
+      "offset": null,
+      "path": "/data/user/0/dev.wildriftresearch.logicharness/files/fetest/Res/FETest/Logic/BattleLogic.res",
+      "priority": "high",
+      "source": "path"
+    },
+    {
+      "api": "read",
+      "byte_provenance": {
+        "buffer": "0x794f1ade7170",
+        "fd": 110,
+        "head16_hex": "1b4c7561530119930d0a1a0a04040408",
+        "path": "/data/user/0/dev.wildriftresearch.logicharness/files/fetest/Res/FETest/Logic/BattleLogic.res",
+        "trigger": "Lua 5.3 format-1 header"
+      },
+      "event": "FETEST_READ",
+      "fd": 110,
+      "head16_hex": "1b4c7561530119930d0a1a0a04040408",
+      "nbytes": 16,
+      "offset": null,
+      "path": "/data/user/0/dev.wildriftresearch.logicharness/files/fetest/Res/FETest/Logic/BattleLogic.res",
+      "priority": "high"
+    },
+    {
+      "api": "read",
+      "byte_provenance": {
+        "fd": 110,
+        "head16_hex": "1b4c7561530119930d0a1a0a04040408",
+        "path": "/data/user/0/dev.wildriftresearch.logicharness/files/fetest/Res/FETest/Logic/BattleLogic.res",
+        "trigger": "Lua 5.3 format-1 header"
+      },
+      "event": "FETEST_TOUCH",
+      "fd": 110,
+      "function": null,
+      "head16_hex": "1b4c7561530119930d0a1a0a04040408",
+      "nbytes": 16,
+      "offset": null,
+      "path": "/data/user/0/dev.wildriftresearch.logicharness/files/fetest/Res/FETest/Logic/BattleLogic.res",
+      "priority": "high",
+      "source": "read"
+    }
+  ],
+  "expected": {
+    "head16_hex": "1b4c7561530119930d0a1a0a04040408",
+    "sha256": "347a4ff3217510443d1b3384b1fdbd3d17d62e6c05f8be0b8ae39e61a64417d5",
+    "staged_path": "/data/user/0/dev.wildriftresearch.logicharness/files/fetest/Res/FETest/Logic/BattleLogic.res"
+  },
+  "frida": {
+    "gadget_path": "C:\\Users\\123\\AppData\\Local\\Temp\\frida\\gadget-android-x86_64.so",
+    "gadget_sha256": "6257abf0ef2f28e875121db914a4cfee011880d362deaea5bde9d8b5aee6d4b1",
+    "hook_path": "work/aggressive-logic-bridge-2026-07-13/track-b/hooks/fetest_lua.js",
+    "hook_sha256": "fd3315296efa30ae16c138939f55b4a97e6d1b6ee080bb51aaa0d9a524a5091d",
+    "host_version": "17.8.0"
+  },
+  "frida_errors": [],
+  "gate": "B1 FETest staged I/O",
+  "logcat": "--------- beginning of main\n07-13 20:19:04.555  5283  5283 I WRLogicHarness: action=canary\n07-13 20:19:05.243  5283  5283 I WRLogicHarness: CANARY_HEX=bf15412e94cf2d708be2ea6da125700e\n07-13 20:19:05.244  5283  5283 I WRLogicHarness: CANARY_PATH=/data/user/0/dev.wildriftresearch.logicharness/files/meta/canary.bin\n07-13 20:19:05.322  5283  5283 I WRLogicHarness: CANARY_HEX=bf15412e94cf2d708be2ea6da125700e\n07-13 20:19:05.405  5283  5283 I WRLogicHarness: CANARY_READ_N=16\n07-13 20:19:05.828  5283  5283 I WRLogicHarness: CANARY_READ_HEX=bf15412e94cf2d708be2ea6da125700e\n07-13 20:19:06.246  5283  5283 I WRLogicHarness: CANARY_READ_HEX=bf15412e94cf2d708be2ea6da125700e\n07-13 20:19:06.931  5283  5283 I WRLogicHarness: action=stage\n07-13 20:19:07.012  5283  5283 I WRLogicHarness: SKIP missing incoming/libtdr.so\n07-13 20:19:07.084  5283  5283 I WRLogicHarness: SKIP missing incoming/libLNet.so\n07-13 20:19:07.165  5283  5283 I WRLogicHarness: SKIP missing incoming/libFEProj.so\n07-13 20:19:07.250  5283  5283 I WRLogicHarness: SKIP missing incoming/libil2cpp.so\n07-13 20:19:07.339  5283  5283 I WRLogicHarness: SKIP missing incoming/libunity.so\n07-13 20:19:09.210  5283  5283 I WRLogicHarness: STAGED meta/il2cpp/Metadata/global-metadata.dat sha256=5bd0f8b0efb4ebbbbe148300dc17166f9335a9e2d5ff20de42edb22267fde45d\n07-13 20:19:09.897  5283  5283 I WRLogicHarness: STAGED BattleLogic.res sha256=347a4ff3217510443d1b3384b1fdbd3d17d62e6c05f8be0b8ae39e61a64417d5\n07-13 20:19:09.995  5283  5283 I WRLogicHarness: FMN_READ_PATH=/data/user/0/dev.wildriftresearch.logicharness/files/meta/il2cpp/Metadata/global-metadata.dat\n07-13 20:19:10.061  5283  5283 I WRLogicHarness: FMN_READ_N=16\n07-13 20:19:10.432  5283  5283 I WRLogicHarness: FMN_READ_HEX=464d4e211f00000049db9dcc2b3d9dcf\n07-13 20:19:10.514  5283  5283 I WRLogicHarness: FETEST_READ_PATH=/data/user/0/dev.wildriftresearch.logicharness/files/fetest/Res/FETest/Logic/BattleLogic.res\n07-13 20:19:10.593  5283  5283 I WRLogicHarness: FETEST_READ_N=16\n07-13 20:19:10.971  5283  5283 I WRLogicHarness: FETEST_READ_HEX=1b4c7561530119930d0a1a0a04040408\n",
+  "scope": {
+    "official_package_attached": false,
+    "target_process": "dev.wildriftresearch.logicharness"
+  },
+  "target": {
+    "abi_list": "x86_64,arm64-v8a",
+    "build_type": "user",
+    "package": "dev.wildriftresearch.logicharness",
+    "serial": "emulator-5554",
+    "spawn_pid": 5283
+  },
+  "trigger": {
+    "action": "stage",
+    "adb_stderr": "Warning: Activity not started, intent has been delivered to currently running top-most instance.\n",
+    "adb_stdout": "Starting: Intent { cmp=dev.wildriftresearch.logicharness/.MainActivity (has extras) }\n",
+    "component": "dev.wildriftresearch.logicharness/.MainActivity"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "dt_needed_edges": [
+    {
+      "needed": "libdl.so",
+      "resolution": "unresolved",
+      "source": "libFEProj.so"
+    },
+    {
+      "needed": "liblog.so",
+      "resolution": "unresolved",
+      "source": "libFEProj.so"
+    },
+    {
+      "needed": "libc.so",
+      "resolution": "unresolved",
+      "source": "libFEProj.so"
+    },
+    {
+      "needed": "libm.so",
+      "resolution": "unresolved",
+      "source": "libFEProj.so"
+    },
+    {
+      "needed": "libstdc++.so",
+      "resolution": "unresolved",
+      "source": "libFEProj.so"
+    }
+  ],
+  "ordered_libraries": [
+    {
+      "name": "libFEProj.so",
+      "sha256": "5e608f2da59371a583929aed90e4ec4985bc8ee12fc0d44124000b94d1b8a02a",
+      "source_path": "<research-workspace>/work/native-container-audit/decompressed-arm64/libFEProj.so"
+    }
+  ],
+  "record_type": "libFEProj-dt-needed-load-graph",
+  "source_hashes": [
+    {
+      "name": "libFEProj.so",
+      "sha256": "5e608f2da59371a583929aed90e4ec4985bc8ee12fc0d44124000b94d1b8a02a",
+      "size": 120283368,
+      "source_path": "<research-workspace>/work/native-container-audit/decompressed-arm64/libFEProj.so"
+    }
+  ],
+  "target_library": "libFEProj.so",
+  "unresolved_dependencies": [
+    {
+      "needed": "libdl.so",
+      "source": "libFEProj.so"
+    },
+    {
+      "needed": "liblog.so",
+      "source": "libFEProj.so"
+    },
+    {
+      "needed": "libc.so",
+      "source": "libFEProj.so"
+    },
+    {
+      "needed": "libm.so",
+      "source": "libFEProj.so"
+    },
+    {
+      "needed": "libstdc++.so",
+      "source": "libFEProj.so"
+    }
+  ]
+}

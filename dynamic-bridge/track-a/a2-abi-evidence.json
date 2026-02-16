@@ -1,0 +1,364 @@
+{
+  "capture_error": null,
+  "captured_at_utc": "2026-07-13T20:23:38Z",
+  "cleanup": {
+    "clear_debug_app": 0,
+    "force_stop": 0,
+    "remaining_pid": null,
+    "script": "unloaded",
+    "session": "detached"
+  },
+  "environment": {
+    "arch": "x64",
+    "pid": 5511,
+    "pointer_size": 8
+  },
+  "events": [
+    {
+      "event": "A2_SURFACE_HOOK_READY",
+      "transport": "send"
+    },
+    {
+      "api": "read",
+      "event": "A2_IO_READ_NONPOSITIVE",
+      "fd": 85,
+      "nbytes": -1,
+      "offset": null,
+      "path": null
+    },
+    {
+      "api": "read",
+      "buffer_identity": "0x794de099e4b8",
+      "event": "A2_IO_READ",
+      "fd": 87,
+      "head16_hex": "0000000b",
+      "nbytes": 4,
+      "offset": null,
+      "path": null
+    },
+    {
+      "api": "read",
+      "buffer_identity": "0x794de099e4b8",
+      "event": "A2_IO_READ",
+      "fd": 87,
+      "head16_hex": "00000017",
+      "nbytes": 4,
+      "offset": null,
+      "path": null
+    },
+    {
+      "api": "read",
+      "buffer_identity": "0x794de099e4b8",
+      "event": "A2_IO_READ",
+      "fd": 87,
+      "head16_hex": "00",
+      "nbytes": 1,
+      "offset": null,
+      "path": null
+    },
+    {
+      "api": "read",
+      "buffer_identity": "0x794de099e47e",
+      "event": "A2_IO_READ",
+      "fd": 87,
+      "head16_hex": "01",
+      "nbytes": 1,
+      "offset": null,
+      "path": null
+    },
+    {
+      "api": "read",
+      "buffer_identity": "0x794de099e47f",
+      "event": "A2_IO_READ",
+      "fd": 87,
+      "head16_hex": "09",
+      "nbytes": 1,
+      "offset": null,
+      "path": null
+    },
+    {
+      "api": "read",
+      "buffer_identity": "0x794de0ba6228",
+      "event": "A2_IO_READ",
+      "fd": 89,
+      "head16_hex": "0100000000000000",
+      "nbytes": 8,
+      "offset": null,
+      "path": null
+    },
+    {
+      "api": "pread64",
+      "buffer_identity": "0x7fff1ccfbac0",
+      "event": "A2_IO_READ",
+      "fd": 57,
+      "head16_hex": "504b03041400080808000000213a0000",
+      "nbytes": 30,
+      "offset": "0x2070e75",
+      "path": null
+    },
+    {
+      "api": "pread64",
+      "buffer_identity": "0x7fff1ccfba40",
+      "event": "A2_IO_READ",
+      "fd": 57,
+      "head16_hex": "7265732f636f6c6f722f686967686c69",
+      "nbytes": 39,
+      "offset": "0x2070e93",
+      "path": null
+    },
+    {
+      "api": "pread64",
+      "buffer_identity": "0x7fff1ccfba00",
+      "event": "A2_IO_READ",
+      "fd": 57,
+      "head16_hex": "504b03041400080808000000213a0000",
+      "nbytes": 30,
+      "offset": "0x20710b8",
+      "path": null
+    },
+    {
+      "api": "pread64",
+      "buffer_identity": "0x7fff1ccfb980",
+      "event": "A2_IO_READ",
+      "fd": 57,
+      "head16_hex": "7265732f636f6c6f722f68696e745f66",
+      "nbytes": 44,
+      "offset": "0x20710d6",
+      "path": null
+    },
+    {
+      "api": "pread64",
+      "buffer_identity": "0x7fff1ccf9500",
+      "event": "A2_IO_READ",
+      "fd": 57,
+      "head16_hex": "504b03041400080808000000213a0000",
+      "nbytes": 30,
+      "offset": "0x2077553",
+      "path": null
+    },
+    {
+      "api": "pread64",
+      "buffer_identity": "0x7fff1ccf9480",
+      "event": "A2_IO_READ",
+      "fd": 57,
+      "head16_hex": "7265732f636f6c6f722f746578745f63",
+      "nbytes": 34,
+      "offset": "0x2077571",
+      "path": null
+    },
+    {
+      "api": "pread64",
+      "buffer_identity": "0x7fff1ccfbcc0",
+      "event": "A2_IO_READ",
+      "fd": 57,
+      "head16_hex": "504b03041400080808000000213a0000",
+      "nbytes": 30,
+      "offset": "0x20f7bf8",
+      "path": null
+    },
+    {
+      "api": "pread64",
+      "buffer_identity": "0x7fff1ccfbc40",
+      "event": "A2_IO_READ",
+      "fd": 57,
+      "head16_hex": "7265732f696e746572706f6c61746f72",
+      "nbytes": 39,
+      "offset": "0x20f7c16",
+      "path": null
+    },
+    {
+      "api": "pread64",
+      "buffer_identity": "0x7fff1ccfbcc0",
+      "event": "A2_IO_READ",
+      "fd": 57,
+      "head16_hex": "504b03041400080808000000213a0000",
+      "nbytes": 30,
+      "offset": "0x20f6a94",
+      "path": null
+    },
+    {
+      "api": "pread64",
+      "buffer_identity": "0x7fff1ccfbc40",
+      "event": "A2_IO_READ",
+      "fd": 57,
+      "head16_hex": "7265732f696e746572706f6c61746f72",
+      "nbytes": 39,
+      "offset": "0x20f6ab2",
+      "path": null
+    },
+    {
+      "api": "pread64",
+      "buffer_identity": "0x7fff1ccfbc00",
+      "event": "A2_IO_READ",
+      "fd": 57,
+      "head16_hex": "504b03041400080808000000213a0000",
+      "nbytes": 30,
+      "offset": "0x2075fb0",
+      "path": null
+    },
+    {
+      "api": "pread64",
+      "buffer_identity": "0x7fff1ccfbb80",
+      "event": "A2_IO_READ",
+      "fd": 57,
+      "head16_hex": "7265732f636f6c6f722f73797374656d",
+      "nbytes": 52,
+      "offset": "0x2075fce",
+      "path": null
+    },
+    {
+      "api": "pread64",
+      "buffer_identity": "0x7fff1ccfb850",
+      "event": "A2_IO_READ",
+      "fd": 57,
+      "head16_hex": "504b03041400080808000000213a0000",
+      "nbytes": 30,
+      "offset": "0x212f573",
+      "path": null
+    },
+    {
+      "api": "pread64",
+      "buffer_identity": "0x7fff1ccfb7d0",
+      "event": "A2_IO_READ",
+      "fd": 57,
+      "head16_hex": "7265732f6c61796f75742f7363726565",
+      "nbytes": 28,
+      "offset": "0x212f591",
+      "path": null
+    },
+    {
+      "api": "pread64",
+      "buffer_identity": "0x7fff1ccfc0d0",
+      "event": "A2_IO_READ",
+      "fd": 57,
+      "head16_hex": "504b03041400080808000000213a0000",
+      "nbytes": 30,
+      "offset": "0x21433ff",
+      "path": null
+    },
+    {
+      "api": "pread64",
+      "buffer_identity": "0x7fff1ccfc050",
+      "event": "A2_IO_READ",
+      "fd": 57,
+      "head16_hex": "7265732f7472616e736974696f6e2f66",
+      "nbytes": 23,
+      "offset": "0x214341d",
+      "path": null
+    },
+    {
+      "api": "pread64",
+      "buffer_identity": "0x7fff1ccfc0d0",
+      "event": "A2_IO_READ",
+      "fd": 57,
+      "head16_hex": "504b03041400080808000000213a0000",
+      "nbytes": 30,
+      "offset": "0x21434c4",
+      "path": null
+    },
+    {
+      "api": "pread64",
+      "buffer_identity": "0x7fff1ccfc050",
+      "event": "A2_IO_READ",
+      "fd": 57,
+      "head16_hex": "7265732f7472616e736974696f6e2f6d",
+      "nbytes": 23,
+      "offset": "0x21434e2",
+      "path": null
+    },
+    {
+      "api": "pread64",
+      "buffer_identity": "0x7fff1ccfa810",
+      "event": "A2_IO_READ",
+      "fd": 57,
+      "head16_hex": "504b03041400080808000000213a0000",
+      "nbytes": 30,
+      "offset": "0x20f6bbc",
+      "path": null
+    },
+    {
+      "api": "pread64",
+      "buffer_identity": "0x7fff1ccfa790",
+      "event": "A2_IO_READ",
+      "fd": 57,
+      "head16_hex": "7265732f696e746572706f6c61746f72",
+      "nbytes": 37,
+      "offset": "0x20f6bda",
+      "path": null
+    },
+    {
+      "api": "read",
+      "buffer_identity": "0x7fff1ccfd930",
+      "event": "A2_IO_READ",
+      "fd": 105,
+      "head16_hex": "a37a4a51ac453fa52124632fb25b59da",
+      "nbytes": 496,
+      "offset": null,
+      "path": null
+    },
+    {
+      "api": "close",
+      "event": "A2_IO_CLOSE",
+      "fd": 105,
+      "path": null,
+      "result": 0
+    },
+    {
+      "api": "open",
+      "event": "A2_IO_OPEN",
+      "fd": 105,
+      "flags": 577,
+      "path": "/data/user/0/dev.wildriftresearch.logicharness/files/meta/canary.bin"
+    },
+    {
+      "api": "open",
+      "event": "A2_IO_OPEN",
+      "fd": 105,
+      "flags": 0,
+      "path": "/data/user/0/dev.wildriftresearch.logicharness/files/meta/canary.bin"
+    },
+    {
+      "api": "read",
+      "buffer_identity": "0x794f1ade7250",
+      "event": "A2_IO_READ",
+      "fd": 105,
+      "head16_hex": "da6abab22a4aca6395f9ce3bd505123f",
+      "nbytes": 16,
+      "offset": null,
+      "path": "/data/user/0/dev.wildriftresearch.logicharness/files/meta/canary.bin"
+    }
+  ],
+  "frida": {
+    "gadget_path": "C:\\Users\\123\\AppData\\Local\\Temp\\frida\\gadget-android-x86_64.so",
+    "gadget_sha256": "6257abf0ef2f28e875121db914a4cfee011880d362deaea5bde9d8b5aee6d4b1",
+    "hook_path": "work/aggressive-logic-bridge-2026-07-13/track-a/hooks/a2_il2cpp_surface.js",
+    "hook_sha256": "0f21e50e22ad59f82b5d8d45977ea0d3c9a71d662f27e860e3d1a62f75a8b797",
+    "host_version": "17.8.0"
+  },
+  "frida_errors": [],
+  "gate": "A2 IL2CPP forced surface ABI guard",
+  "outcome": {
+    "reason": "requires arm64 helper process; found x64",
+    "status": "load-fail-abi",
+    "surface_rpcs_invoked": [
+      "environment"
+    ]
+  },
+  "requested_surface": [
+    "loadgraph",
+    "probeexports",
+    "il2cpp_set_data_dir",
+    "il2cpp_init"
+  ],
+  "scope": {
+    "official_package_attached": false,
+    "target_process": "dev.wildriftresearch.logicharness"
+  },
+  "target": {
+    "abi_list": "x86_64,arm64-v8a",
+    "build_type": "user",
+    "package": "dev.wildriftresearch.logicharness",
+    "serial": "emulator-5554",
+    "spawn_pid": 5511
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "gate": "A2 retry prerequisites",
+  "target": {
+    "package": "dev.wildriftresearch.logicharness",
+    "serial": "emulator-5554"
+  },
+  "device_inventory": {
+    "connected": ["emulator-5554"],
+    "mdns_services": []
+  },
+  "abi": {
+    "ro.product.cpu.abi": "x86_64",
+    "ro.product.cpu.abilist": "x86_64,arm64-v8a",
+    "uname_m": "x86_64",
+    "arm64_helper_available": false
+  },
+  "app_private_data": {
+    "df_target": "/data",
+    "mountpoint": "/data/user/0",
+    "available_kib": 318608,
+    "required_kib": 600857,
+    "sufficient": false
+  },
+  "surface": {
+    "command_withheld": true,
+    "surface_rpcs_invoked": [],
+    "reason": "Both mandatory retry prerequisites are unsatisfied."
+  },
+  "outcome": "BLOCKED"
+}

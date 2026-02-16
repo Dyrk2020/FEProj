@@ -1,0 +1,7 @@
+{"event":"B2_OBSERVER_READY","received_at":"2026-08-16T16:26:33.297752+00:00","via":"java-system-load"}
+{"base":"0x70a7625000","event":"B2_MODULE_LOAD","library":"libFEProj.so","loaded_via":"java-system-load","received_at":"2026-08-16T16:26:33.492848+00:00","sha256":"5e608f2da59371a583929aed90e4ec4985bc8ee12fc0d44124000b94d1b8a02a","size":148742144}
+{"base":"0x70a7625000","event":"B2_LUA_HOOK_ATTACH_READY","library":"libFEProj.so","received_at":"2026-08-16T16:26:33.597692+00:00","size":148742144}
+{"address":"0x70acbd734c","event":"B2_EXPORT","received_at":"2026-08-16T16:26:33.600954+00:00","resolved":true,"selector":"luaL_newstate"}
+{"address":"0x70acbd69c4","event":"B2_EXPORT","received_at":"2026-08-16T16:26:33.644442+00:00","resolved":true,"selector":"luaL_loadbufferx"}
+{"address":"0x70acbd4380","event":"B2_EXPORT","received_at":"2026-08-16T16:26:33.644821+00:00","resolved":true,"selector":"lua_load"}
+{"address":null,"event":"B2_EXPORT","received_at":"2026-08-16T16:26:33.644980+00:00","resolved":false,"selector":"lua_pcall"}

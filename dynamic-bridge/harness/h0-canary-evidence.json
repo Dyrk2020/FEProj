@@ -1,0 +1,95 @@
+{
+  "gate": "H0 canary",
+  "status": "PASS",
+  "captured_on": "2026-07-13",
+  "target": {
+    "device_model": "sdk_gphone64_x86_64",
+    "ro_build_type": "user",
+    "abi_list": ["x86_64", "arm64-v8a"],
+    "package": "dev.wildriftresearch.logicharness"
+  },
+  "frida": {
+    "host_version": "17.8.0",
+    "spawn_mode": "device.spawn(package, gadget=explicit_x86_64_gadget)",
+    "gadget_asset": "frida-gadget-17.8.0-android-x86_64.so.xz",
+    "gadget_archive_sha256": "d85dc16f19e74254992c1459effc0599acd0b915f55563331c3ce18a7e124e14",
+    "gadget_decompressed_sha256": "6257abf0ef2f28e875121db914a4cfee011880d362deaea5bde9d8b5aee6d4b1"
+  },
+  "apk": {
+    "package": "dev.wildriftresearch.logicharness",
+    "debuggable": true,
+    "requested_permissions": []
+  },
+  "hook": {
+    "path": "product/hooks/canary/open_read_canary.js",
+    "transport": "Frida send() messages",
+    "hooks": ["open", "openat", "read"],
+    "fd_lifecycle": "Every successful hooked open/openat invalidates a prior mapping for its returned fd before recording an O_RDONLY canary open; the first read also consumes the mapping.",
+    "events": [
+      "H0_HOOK open @ 0x79508e6adda0",
+      "H0_HOOK openat @ 0x79508e6ae060",
+      "H0_CANARY_SCRIPT_LOADED"
+    ],
+    "open_count": 4
+  },
+  "fd_reuse_regression": {
+    "scenario": "Open canary read-only, close before reading, then reopen /proc/self/cmdline on the same numeric fd.",
+    "canary_fd": 106,
+    "reused_fd": 106,
+    "other_path": "/proc/self/cmdline",
+    "other_read_n": 16,
+    "other_read_head": "6465762e77696c647269667472657365",
+    "false_h0_reads": 0
+  },
+  "correlations": [
+    {
+      "run": "startup",
+      "hook": "read",
+      "path": "/data/user/0/dev.wildriftresearch.logicharness/files/meta/canary.bin",
+      "fd": 103,
+      "buffer_address": "0x794f1ade7370",
+      "n": 16,
+      "read_bytes_hex": "45f2b5d14a1d54e6bd27838fd826bdea",
+      "logcat_canary_hex": "45f2b5d14a1d54e6bd27838fd826bdea",
+      "match": true
+    },
+    {
+      "run": "manual-1",
+      "hook": "read",
+      "path": "/data/user/0/dev.wildriftresearch.logicharness/files/meta/canary.bin",
+      "fd": 131,
+      "buffer_address": "0x794f1adedb50",
+      "n": 16,
+      "read_bytes_hex": "5c98524c758d1df527629b27fb6b49cb",
+      "logcat_canary_hex": "5c98524c758d1df527629b27fb6b49cb",
+      "match": true
+    },
+    {
+      "run": "manual-2",
+      "hook": "read",
+      "path": "/data/user/0/dev.wildriftresearch.logicharness/files/meta/canary.bin",
+      "fd": 133,
+      "buffer_address": "0x794f1adee870",
+      "n": 16,
+      "read_bytes_hex": "310db1e0b8b6d44aea827b0916dd4e44",
+      "logcat_canary_hex": "310db1e0b8b6d44aea827b0916dd4e44",
+      "match": true
+    },
+    {
+      "run": "manual-3",
+      "hook": "read",
+      "path": "/data/user/0/dev.wildriftresearch.logicharness/files/meta/canary.bin",
+      "fd": 135,
+      "buffer_address": "0x794f1adee530",
+      "n": 16,
+      "read_bytes_hex": "11895f20f86e9957aa80b95c303f2e49",
+      "logcat_canary_hex": "11895f20f86e9957aa80b95c303f2e49",
+      "match": true
+    }
+  ],
+  "app_log_note": "Each action logs CANARY_HEX twice; consecutive duplicates were reduced before comparing the four runs.",
+  "post_run_cleanup": {
+    "debug_app": null,
+    "harness_process_running": false
+  }
+}

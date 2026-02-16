@@ -1,0 +1,124 @@
+{
+  "schema": "b2-fetest-surface-v1",
+  "status": "BLOCKED",
+  "disposition": {
+    "b2": "REPRODUCIBLE_MINIMUM_LOAD_CRASH",
+    "g1": "FAIL",
+    "g1_reason": "The controlled libFEProj.so load did not return, so no resource-to-Lua-loader edge, concrete Lua loader export, or loader-side effect was observed."
+  },
+  "runs": [
+    {
+      "directory": "crashes/20260714T064020.520668Z-3caf7e51",
+      "package": "dev.wildriftresearch.logicharness",
+      "frida_version": "17.8.0",
+      "spawn_mode": "gadget",
+      "process_abi": {
+        "arch": "arm64",
+        "pointer_size": 8,
+        "pid": 14412
+      },
+      "result": "process-terminated-before-loadgraph-return"
+    },
+    {
+      "directory": "crashes/20260714T064646.987146Z-1f2d0101",
+      "package": "dev.wildriftresearch.logicharness",
+      "frida_version": "17.8.0",
+      "spawn_mode": "gadget",
+      "process_abi": {
+        "arch": "arm64",
+        "pointer_size": 8,
+        "pid": 18757
+      },
+      "result": "process-terminated-before-loadgraph-return"
+    }
+  ],
+  "inputs": {
+    "battle_logic": {
+      "name": "BattleLogic.res",
+      "path": "/data/user/0/dev.wildriftresearch.logicharness/files/fetest/Res/FETest/Logic/BattleLogic.res",
+      "sha256": "347a4ff3217510443d1b3384b1fdbd3d17d62e6c05f8be0b8ae39e61a64417d5",
+      "size": 1479,
+      "header_hex": "1b4c7561530119930d0a1a0a04040408"
+    },
+    "libraries": [
+      {
+        "name": "libFEProj.so",
+        "path": "/data/user/0/dev.wildriftresearch.logicharness/files/dso/libFEProj.so",
+        "sha256": "5e608f2da59371a583929aed90e4ec4985bc8ee12fc0d44124000b94d1b8a02a"
+      }
+    ]
+  },
+  "surface": {
+    "minimum_graph": ["libFEProj.so"],
+    "rpc_order": ["environment", "loadgraph"],
+    "loadgraph_returned": false,
+    "last_hook_event": {
+      "event": "B2_MODULE_LOAD_BEGIN",
+      "library": "libFEProj.so",
+      "path": "/data/user/0/dev.wildriftresearch.logicharness/files/dso/libFEProj.so"
+    },
+    "events_absent_after_load_begin": [
+      "B2_MODULE_LOAD",
+      "B2_LUA_HOOK_ATTACH_BEGIN",
+      "B2_LUA_HOOK_ATTACH_READY",
+      "B2_EXPORT",
+      "FETEST_READ",
+      "LUA_LOAD"
+    ]
+  },
+  "crash": {
+    "signal": "SIGSEGV",
+    "signal_code": "SEGV_MAPERR",
+    "fault_address": "0x0",
+    "thread": "gum-js-loop",
+    "normalized_fault_pc": "gadget.so+0x97fa30",
+    "runner_fault": "InvalidOperationError: script has been destroyed",
+    "attribution_limit": "The crash report names Frida Gadget frames. It does not identify a libFEProj.so instruction or prove whether a library constructor, a loader interaction, or Gadget caused the null dereference."
+  },
+  "gate_requirements": {
+    "staged_resource_provenance": true,
+    "feproj_side_resource_read": false,
+    "concrete_lua_loader_export_or_call": false,
+    "loader_side_effect": false
+  },
+  "artifacts": {
+    "initial_attempt": "crashes/20260714T064020.520668Z-3caf7e51/attempt.json",
+    "initial_logcat": "crashes/20260714T064020.520668Z-3caf7e51/logcat.txt",
+    "diagnostic_attempt": "crashes/20260714T064646.987146Z-1f2d0101/attempt.json",
+    "diagnostic_load_plan": "crashes/20260714T064646.987146Z-1f2d0101/load-plan.json",
+    "diagnostic_events": "crashes/20260714T064646.987146Z-1f2d0101/events.jsonl",
+    "diagnostic_hook_tail": "crashes/20260714T064646.987146Z-1f2d0101/hooks-last-50.jsonl",
+    "diagnostic_logcat": "crashes/20260714T064646.987146Z-1f2d0101/logcat.txt"
+  },
+  "verification": {
+    "device_staged_sha256": {
+      "libFEProj.so": "5e608f2da59371a583929aed90e4ec4985bc8ee12fc0d44124000b94d1b8a02a",
+      "BattleLogic.res": "347a4ff3217510443d1b3384b1fdbd3d17d62e6c05f8be0b8ae39e61a64417d5"
+    },
+    "boundary_test": "bun run work/aggressive-logic-bridge-2026-07-13/track-b/test_b2_fetest_surface.js",
+    "boundary_test_result": "passed",
+    "stage_action_test": "python -m pytest work/aggressive-logic-bridge-2026-07-13/track-b/test_stage_battle_logic.py",
+    "stage_action_test_result": "passed"
+  },
+  "cleanup": {
+    "helper_force_stopped": true,
+    "helper_process_absent": true,
+    "app_private_paths_removed": [
+      "files/dso/libFEProj.so",
+      "files/fetest/Res/FETest/Logic/BattleLogic.res",
+      "files/incoming/global-metadata.dat",
+      "files/incoming/BattleLogic.res",
+      "files/meta/global-metadata.dat",
+      "files/meta/il2cpp/Metadata/global-metadata.dat",
+      "gadget.so"
+    ],
+    "direct_adb_connection_disconnected": false
+  },
+  "scope": {
+    "owned_process_only": true,
+    "official_package_attached": false,
+    "undocumented_va_called": false,
+    "network_used_by_helper": false,
+    "immutable_corpus_modified": false
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "installed_lib_hashes": {
+    "libFEProj": "5e608f2da59371a583929aed90e4ec4985bc8ee12fc0d44124000b94d1b8a02a",
+    "libil2cpp": "6e8e7002169bc658fbe64be4c6e216e22c4bf719a620940e77890b9e57211dc6"
+  },
+  "operation": "t3-l3-adjudication",
+  "package": "com.riotgames.league.wildrift",
+  "pid": 12136,
+  "session": "s5-acct4",
+  "source": "logcat",
+  "started_at": "2026-08-24T01:38:26.412441+00:00",
+  "transport": "logcat"
+}

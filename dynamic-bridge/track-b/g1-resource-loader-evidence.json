@@ -1,0 +1,36 @@
+{
+  "built_at": "2026-08-16T12:10:57.253692",
+  "evidence_tier": "H",
+  "frida_version": "17.15.5",
+  "internal_lua_load_caller_rva_stable": true,
+  "locked_inputs": {
+    "BattleLogic.res_head16": "1b4c7561530119930d0a1a0a04040408",
+    "BattleLogic.res_sha256": "347a4ff3217510443d1b3384b1fdbd3d17d62e6c05f8be0b8ae39e61a64417d5",
+    "BattleLogic.res_size": 1479,
+    "libFEProj.so_sha256": "5e608f2da59371a583929aed90e4ec4985bc8ee12fc0d44124000b94d1b8a02a"
+  },
+  "runs": [
+    {
+      "base": "0x6fb4426000",
+      "buffer_sha256": "347a4ff3217510443d1b3384b1fdbd3d17d62e6c05f8be0b8ae39e61a64417d5",
+      "direct_return_code": 0,
+      "internal_lua_load_caller_rva": "0x55b19f4",
+      "open_fd": 150,
+      "run_dir": "work/aggressive-logic-bridge-2026-07-13/track-b/crashes/20260816T160607.465437Z-g1res-4905ef",
+      "size": 148742144,
+      "survival_seconds": 60.077
+    },
+    {
+      "base": "0x6fb420c000",
+      "buffer_sha256": "347a4ff3217510443d1b3384b1fdbd3d17d62e6c05f8be0b8ae39e61a64417d5",
+      "direct_return_code": 0,
+      "internal_lua_load_caller_rva": "0x55b19f4",
+      "open_fd": 5,
+      "run_dir": "work/aggressive-logic-bridge-2026-07-13/track-b/crashes/20260816T160750.785029Z-g1res-2d382b",
+      "size": 148742144,
+      "survival_seconds": 60.071
+    }
+  ],
+  "scope": "named resource -> FEProj loader (luaL_loadbufferx internal lua_load) timing edge only; dispatch/execution chain NOT observed; G1 full verdict remains NOT_ESTABLISHED",
+  "verdict": "G1_RESOURCE_LOADER_EDGE_OBSERVED"
+}

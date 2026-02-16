@@ -1,0 +1,101 @@
+{
+  "review": "track-a/g2-consumer-review.md",
+  "plan": "docs/plans/2026-08-17-g2-consumer-observe.md",
+  "scope": "G2 consumer link only (transform/parser: T1; registration: g2-registration-review; consumer: this)",
+  "verdict": {
+    "consumer_gateway_observed": true,
+    "member_level_consumption_observed": false,
+    "spontaneous_consumption": "negative (K6 zero delta)",
+    "g2_fmn_semantic_bridge": "NOT_ESTABLISHED (unchanged)"
+  },
+  "runs": [
+    {
+      "run_dir": "track-a/crashes/20260818T153459.587088Z-g2cons-1c8273",
+      "operation": "g2-consumer-observe",
+      "mode": "java-system-load",
+      "frida_version": "17.15.5",
+      "abi": "arm64",
+      "survival_observed_seconds": 60.069,
+      "alive": true,
+      "fault": "normal",
+      "exception": null,
+      "events": 53,
+      "dropped_events": 0,
+      "criteria": {
+        "K1_index_enter": 6,
+        "K1_index_leave": 0,
+        "K1_newindex_enter": 0,
+        "K2_member_call_enter": 0,
+        "K3_g_access_enter": 26,
+        "K4_dispatcher_enter": 881,
+        "K4_dispatcher_post_reg_enter": 0,
+        "K5_metadata_getter_enter": 0,
+        "K6_spontaneous": 0,
+        "register_class_enter": 1,
+        "begin_class_enter": 1762
+      },
+      "stable_callers": ["0x164b4d0", "0x164b514"],
+      "drive_stub_callers": ["0x15ffe7f0"],
+      "member_access": {
+        "GainDeckAssetObject.resID": "access violation accessing 0xb",
+        "FEInterfaceConfig.isRiotLogEnabled": "access violation accessing 0xb",
+        "FixTransform.position": "access violation accessing 0xb"
+      }
+    },
+    {
+      "run_dir": "track-a/crashes/20260818T153801.812434Z-g2cons-6e00fc",
+      "operation": "g2-consumer-observe",
+      "mode": "java-system-load",
+      "frida_version": "17.15.5",
+      "abi": "arm64",
+      "survival_observed_seconds": 60.07,
+      "alive": true,
+      "fault": "normal",
+      "exception": null,
+      "events": 53,
+      "dropped_events": 0,
+      "criteria": {
+        "K1_index_enter": 6,
+        "K1_index_leave": 0,
+        "K1_newindex_enter": 0,
+        "K2_member_call_enter": 0,
+        "K3_g_access_enter": 26,
+        "K4_dispatcher_enter": 881,
+        "K4_dispatcher_post_reg_enter": 0,
+        "K5_metadata_getter_enter": 0,
+        "K6_spontaneous": 0,
+        "register_class_enter": 1,
+        "begin_class_enter": 1762
+      },
+      "stable_callers": ["0x164b4d0", "0x164b514"],
+      "drive_stub_callers": ["0x154317f0"],
+      "member_access": {
+        "GainDeckAssetObject.resID": "access violation accessing 0xb",
+        "FEInterfaceConfig.isRiotLogEnabled": "access violation accessing 0xb",
+        "FixTransform.position": "access violation accessing 0xb"
+      }
+    }
+  ],
+  "anchor_probes": [
+    {
+      "run_dir": "track-a/crashes/20260818T152955.678272Z-g2probe-4ddf08",
+      "metatable_index_rva": "0x164b4a0",
+      "matches_plan_anchor": true,
+      "a_static_hits": 3,
+      "a_probe_hits": 0,
+      "a_alt_hits": 0,
+      "closure_caller_bt": ["0x55b46cc", "0x55b495c", "0x55c37dc", "0x55ae008", "0x167c27f0", "0x167c22a4"]
+    },
+    {
+      "run_dir": "track-a/crashes/20260818T154856.091013Z-g2probe-bc15dd",
+      "probe": "probeclass",
+      "finding": "proxy tables empty after harness registration (proxy_keys: [], membertab_type: 0 for GainDeckAssetObject/FEInterfaceConfig/FixTransform); member tables not populated -> closure null-deref at 0xb on member access"
+    }
+  ],
+  "hook_fixes": [
+    "attachInternalHooks(true) inside runconsumerfull after registration (island-decryption race with module-map-time attach)",
+    "C1/C2 key read via lua_tolstring(L,2) instead of args[2] register",
+    "drive uses real members from API-INDEX instead of non-existent LogError"
+  ],
+  "boundary": "H-layer evidence only; per-run values: base/PID/thread/absolute addresses; comparable: RVA/SHA/counters; drive stub callers not comparable; no G2 PASS"
+}

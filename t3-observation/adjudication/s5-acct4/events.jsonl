@@ -1,0 +1,20 @@
+{"msg":"target lib present","pid":17631,"received_at":"2026-08-24T01:11:06.175669+00:00","ts":1787533866011,"type":"NOTE","v":1}
+{"msg":"scan done first=1 total_jump=0 total_glob=0","pid":17631,"received_at":"2026-08-24T01:11:06.186449+00:00","ts":1787533866019,"type":"NOTE","v":1}
+{"msg":"inline hook ok target=0x70fbf29640 rva=0x9F640 orig=resolved","pid":17631,"received_at":"2026-08-24T01:11:06.187581+00:00","ts":1787533866023,"type":"NOTE","v":1}
+{"msg":"target lib present","pid":11372,"received_at":"2026-08-24T01:13:57.069217+00:00","ts":1787534037130,"type":"NOTE","v":1}
+{"msg":"scan done first=1 total_jump=0 total_glob=0","pid":11372,"received_at":"2026-08-24T01:13:57.145993+00:00","ts":1787534037208,"type":"NOTE","v":1}
+{"msg":"inline hook ok target=0x77f130d640 rva=0x9F640 orig=resolved","pid":11372,"received_at":"2026-08-24T01:13:57.151513+00:00","ts":1787534037214,"type":"NOTE","v":1}
+{"msg":"watcher started","pid":14637,"received_at":"2026-08-24T01:15:36.425392+00:00","ts":1787534136487,"type":"NOTE","v":1}
+{"msg":"target lib present","pid":14637,"received_at":"2026-08-24T01:15:43.068013+00:00","ts":1787534143128,"type":"NOTE","v":1}
+{"msg":"scan done first=1 total_jump=0 total_glob=0","pid":14637,"received_at":"2026-08-24T01:15:43.075248+00:00","ts":1787534143136,"type":"NOTE","v":1}
+{"msg":"inline hook ok target=0x7910cdb640 rva=0x9F640 orig=resolved","pid":14637,"received_at":"2026-08-24T01:15:43.080469+00:00","ts":1787534143140,"type":"NOTE","v":1}
+{"msg":"target lib present","pid":11486,"received_at":"2026-08-24T01:16:47.032263+00:00","ts":1787534207163,"type":"NOTE","v":1}
+{"msg":"scan done first=1 total_jump=0 total_glob=0","pid":11486,"received_at":"2026-08-24T01:16:47.041100+00:00","ts":1787534207171,"type":"NOTE","v":1}
+{"msg":"inline hook ok target=0x7c428c7640 rva=0x9F640 orig=resolved","pid":11486,"received_at":"2026-08-24T01:16:47.043925+00:00","ts":1787534207175,"type":"NOTE","v":1}
+{"msg":"target lib present","pid":12136,"received_at":"2026-08-24T01:38:32.432935+00:00","ts":1787535512753,"type":"NOTE","v":1}
+{"msg":"scan done first=1 total_jump=0 total_glob=0","pid":12136,"received_at":"2026-08-24T01:38:32.445618+00:00","ts":1787535512767,"type":"NOTE","v":1}
+{"msg":"inline hook ok target=0x6cfd703640 rva=0x9F640 orig=resolved","pid":12136,"received_at":"2026-08-24T01:38:32.453438+00:00","ts":1787535512773,"type":"NOTE","v":1}
+{"msg":"watcher started","pid":17521,"received_at":"2026-08-24T01:45:02.951811+00:00","ts":1787535903271,"type":"NOTE","v":1}
+{"msg":"target lib present","pid":17521,"received_at":"2026-08-24T01:45:09.597844+00:00","ts":1787535909913,"type":"NOTE","v":1}
+{"msg":"scan done first=1 total_jump=0 total_glob=0","pid":17521,"received_at":"2026-08-24T01:45:09.600617+00:00","ts":1787535909921,"type":"NOTE","v":1}
+{"msg":"inline hook ok target=0x6cfc0d4640 rva=0x9F640 orig=resolved","pid":17521,"received_at":"2026-08-24T01:45:09.605464+00:00","ts":1787535909925,"type":"NOTE","v":1}

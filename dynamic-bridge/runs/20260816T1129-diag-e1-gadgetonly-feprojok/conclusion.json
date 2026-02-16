@@ -1,0 +1,1 @@
+{"experiment":"E1","result":"ok","path":"gadget loaded, no frida session, System.load","evidence":"logcat.txt (LOADFEPROJ_RETURNED)","pid":32217}

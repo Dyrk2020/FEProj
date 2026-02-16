@@ -1,0 +1,21 @@
+{
+  "input_provenance": {
+    "metadata": {
+      "identity": {
+        "dev": "65099",
+        "ino": "1692515",
+        "size": 58401572
+      },
+      "name": "global-metadata.dat",
+      "path": "/data/user/0/dev.wildriftresearch.logicharness/files/meta/Metadata/global-metadata.dat",
+      "sha256": "5bd0f8b0efb4ebbbbe148300dc17166f9335a9e2d5ff20de42edb22267fde45d"
+    }
+  },
+  "ordered_libraries": [
+    {
+      "name": "libil2cpp.so",
+      "path": "/data/user/0/dev.wildriftresearch.logicharness/files/dso/libil2cpp.so",
+      "sha256": "6e8e7002169bc658fbe64be4c6e216e22c4bf719a620940e77890b9e57211dc6"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+[
+  {
+    "base": "0x6fb0ee7000",
+    "event": "A2_MODULE_MAP",
+    "library": "libil2cpp.so",
+    "path": "/data/data/dev.wildriftresearch.logicharness/files/dso/libil2cpp.so",
+    "present": true,
+    "received_at": "2026-07-16T23:10:43.944823+00:00",
+    "size": 218177536
+  },
+  {
+    "count": 0,
+    "eligible_count": 4,
+    "eligible_total_bytes": 2659188736,
+    "event": "A2_ANON_RW_SUMMARY",
+    "mappings": [],
+    "received_at": "2026-07-16T23:10:43.951879+00:00",
+    "threshold_bytes": 60817408,
+    "total_bytes": 0,
+    "truncated": true
+  },
+  {
+    "count": 0,
+    "eligible_count": 4,
+    "eligible_total_bytes": 2659188736,
+    "event": "A2_ANON_RW_SUMMARY",
+    "mappings": [],
+    "received_at": "2026-07-16T23:11:04.508673+00:00",
+    "threshold_bytes": 60817408,
+    "total_bytes": 0,
+    "truncated": true
+  }
+]

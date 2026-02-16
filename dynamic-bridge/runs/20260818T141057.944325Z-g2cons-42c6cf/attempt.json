@@ -1,0 +1,73 @@
+{
+  "action": "loadfeproj",
+  "attach": {
+    "mode": "embedded-gadget",
+    "pid": 11043,
+    "remote": "127.0.0.1:27042"
+  },
+  "consumer": {
+    "names_count": 881,
+    "no_drive_ms": 60000,
+    "sample_names": [
+      "GainDeckAssetObject",
+      "FEInterfaceConfig",
+      "FixTransform"
+    ]
+  },
+  "exception": "RPCException: Error: access violation accessing 0xb\n    at runconsumerfull (/script1.js:849)\n    at call (native)\n    at handleRpcMessage (/frida/runtime/message-dispatcher.js:39)\n    at handleMessage (/frida/runtime/message-dispatcher.js:25)",
+  "fault": {
+    "error": "RPCException: Error: access violation accessing 0xb\n    at runconsumerfull (/script1.js:849)\n    at call (native)\n    at handleRpcMessage (/frida/runtime/message-dispatcher.js:39)\n    at handleMessage (/frida/runtime/message-dispatcher.js:25)",
+    "status": "error"
+  },
+  "finished_at": "2026-08-18T14:10:58.652696+00:00",
+  "frida_version": "17.15.5",
+  "input": {
+    "header_hex": "1b4c7561530119930d0a1a0a04040408",
+    "name": "BattleLogic.res",
+    "path": "/data/user/0/dev.wildriftresearch.logicharness/files/fetest/Res/FETest/Logic/BattleLogic.res",
+    "sha256": "347a4ff3217510443d1b3384b1fdbd3d17d62e6c05f8be0b8ae39e61a64417d5",
+    "size": 1479
+  },
+  "load_plan_path": "load-plan.json",
+  "load_trigger": {
+    "command": [
+      "shell",
+      "am",
+      "start",
+      "-n",
+      "dev.wildriftresearch.logicharness/.MainActivity",
+      "--es",
+      "action",
+      "loadfeproj"
+    ],
+    "stdout": "Starting: Intent { cmp=dev.wildriftresearch.logicharness/.MainActivity (has extras) }"
+  },
+  "loaded": {
+    "base": "0x744b412000",
+    "name": "libFEProj.so",
+    "size": 148742144
+  },
+  "logcat_dump": {
+    "code": 0,
+    "status": "ok",
+    "stderr": ""
+  },
+  "mode": "java-system-load",
+  "operation": "g2-consumer-observe",
+  "package": "dev.wildriftresearch.logicharness",
+  "process_abi": {
+    "arch": "arm64",
+    "pid": 11043,
+    "pointer_size": 8
+  },
+  "rpc_order": [
+    "environment",
+    "setbattlelogicpath",
+    "setexpectednames",
+    "waitfeprojloaded",
+    "probeluaexports",
+    "runconsumerfull"
+  ],
+  "spawn": null,
+  "started_at": "2026-08-18T14:10:57.944602+00:00"
+}

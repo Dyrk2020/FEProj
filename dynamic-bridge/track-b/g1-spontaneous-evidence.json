@@ -1,0 +1,112 @@
+{
+  "built_at": "2026-08-16T14:09:46.226791",
+  "evidence_tier": "H",
+  "frida_version": "17.15.5",
+  "locked_inputs": {
+    "BattleLogic.res_sha256": "347a4ff3217510443d1b3384b1fdbd3d17d62e6c05f8be0b8ae39e61a64417d5",
+    "TestMain.res_sha256": "ef953d6f8ea871624a11ed21957f7a3f541a0cd18d9cbcae3b154bd9f14a8dfc",
+    "libFEProj.so_sha256": "5e608f2da59371a583929aed90e4ec4985bc8ee12fc0d44124000b94d1b8a02a"
+  },
+  "plan_a_conclusion": "A1 skipped (ctx_cache@0x726DEA0 null, observe-only forbids writing); A2 control ran: validator D entry reachable, stamp-less blob -> 0x45B (1115), no crash.",
+  "plan_b_conclusion": "Not run: A1 did not mirror (g_buf null) and state@0x726D0E0 null.",
+  "runs": [
+    {
+      "base": "0x6fb3425000",
+      "plan_a": {
+        "plan": "A2",
+        "result": {
+          "ctx": null,
+          "return_code": 1115
+        }
+      },
+      "plan_b": null,
+      "registry_preread": {
+        "ctx_cache_0x726DEA0": null,
+        "g_buf_0x726D0D0": null,
+        "g_ctx_0x726D0C8": null,
+        "g_len_0x726D0D8": 0,
+        "state_0x726D0E0": null
+      },
+      "run_dir": "crashes/20260816T180435.837167Z-g1spont-81c79f",
+      "spontaneous_open_count": 0,
+      "spontaneous_read_count": 0,
+      "survival_seconds": 60.243,
+      "u2_scan": {
+        "error": "Error: access violation accessing 0x6fb9e81000",
+        "matches": [],
+        "pattern": "6c 75 61 4c 5f 6c 6f 61 64 62 75 66 66 65 72 20 25 64 2d 2d 25 73"
+      },
+      "u2_string_rva": null
+    },
+    {
+      "base": "0x6fb3a0e000",
+      "plan_a": {
+        "plan": "A2",
+        "result": {
+          "ctx": null,
+          "return_code": 1115
+        }
+      },
+      "plan_b": null,
+      "registry_preread": {
+        "ctx_cache_0x726DEA0": null,
+        "g_buf_0x726D0D0": null,
+        "g_ctx_0x726D0C8": null,
+        "g_len_0x726D0D8": 0,
+        "state_0x726D0E0": null
+      },
+      "run_dir": "crashes/20260816T180620.506356Z-g1spont-fa826c",
+      "spontaneous_open_count": 0,
+      "spontaneous_read_count": 0,
+      "survival_seconds": 60.257,
+      "u2_scan": {
+        "matches": [
+          {
+            "address": "0x6fb906b9b2",
+            "rva": "0x565d9b2"
+          }
+        ],
+        "pattern": "6c 75 61 4c 5f 6c 6f 61 64 62 75 66 66 65 72 20 25 64 2d 2d 25 73",
+        "ranges": [
+          {
+            "base": "0x6fb3a0e000",
+            "protection": "r-x",
+            "size": 111525888
+          },
+          {
+            "base": "0x6fba47a000",
+            "protection": "rw-",
+            "size": 8384512
+          },
+          {
+            "base": "0x6fbc76e000",
+            "protection": "r-x",
+            "size": 282624
+          },
+          {
+            "base": "0x6fbc7be000",
+            "protection": "rw-",
+            "size": 20480
+          },
+          {
+            "base": "0x6fbc7ce000",
+            "protection": "rw-",
+            "size": 20480
+          },
+          {
+            "base": "0x6fbc7d6000",
+            "protection": "rw-",
+            "size": 73728
+          }
+        ]
+      },
+      "u2_string_rva": "0x565d9b2"
+    }
+  ],
+  "scope": "spontaneous (FEProj-internal) open/read -> lua_load edge NOT observed within the 60s window; U3 resolved (0x726D0D0 zeroed), plan A ran as A2 control (ctx cache null, observe-only), plan B not run (precondition unmet); U1 blob-producer still unknown; U2 string located at runtime RVA 0x565d9b2 but caller function not pinned; G1 full verdict remains NOT_ESTABLISHED",
+  "u1_conclusion": "No FEProj-internal (caller_module==libFEProj.so) FETEST_OPEN/READ observed in either run; the .res blob producer remains unidentified (external-reader hypothesis not excluded).",
+  "u2_conclusion": "String 'luaL_loadbuffer %d--%s' located at runtime RVA 0x565d9b2 (plaintext, Memory.scan over readable ranges); the referencing function is not pinned (file .text is encrypted-island; needs an additional device run for ADRP reference scan, beyond this round's 2-run budget).",
+  "u2_string_rva_stable": true,
+  "u3_conclusion": "0x726D0D0 (g_buf) is null (zeroed, not the 0x6960 stub) in both runs; 0x726D0C8/0x726D0D8/0x726DEA0/0x726D0E0 all null/zero -> registrar first-call free() is safe, but ctx cache is null so plan A1 cannot fire (observe-only).",
+  "verdict": "G1_SPONTANEOUS_LOADER_EDGE_NOT_OBSERVED"
+}

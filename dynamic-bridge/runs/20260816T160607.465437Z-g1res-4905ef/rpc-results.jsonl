@@ -1,0 +1,5 @@
+{"result":{"arch":"arm64","pid":18373,"pointer_size":8},"rpc":"environment"}
+{"result":{"battle_logic_path":"/data/user/0/dev.wildriftresearch.logicharness/files/fetest/Res/FETest/Logic/BattleLogic.res"},"rpc":"setbattlelogicpath"}
+{"result":{"base":"0x6fb4426000","name":"libFEProj.so","size":148742144},"rpc":"waitfeprojloaded"}
+{"result":[{"address":"0x6fb99d834c","resolved":true,"selector":"luaL_newstate"},{"address":"0x6fb99d79c4","resolved":true,"selector":"luaL_loadbufferx"},{"address":"0x6fb99d5380","resolved":true,"selector":"lua_load"}],"rpc":"probeluaexports"}
+{"result":{"chunk_name":"/data/user/0/dev.wildriftresearch.logicharness/files/fetest/Res/FETest/Logic/BattleLogic.res","return_code":0,"state":"0xb400007184158208"},"rpc":"runresource"}

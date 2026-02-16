@@ -1,0 +1,83 @@
+{
+  "review": "track-b/g1-spontaneous-chain-review.md",
+  "plan": "docs/plans/2026-08-17-g1-spontaneous-chain.md",
+  "scope": "G1 spontaneous link (controlled edges already closed: g1-resource-loader-review, g1-pcall-review)",
+  "verdict": {
+    "f1_spontaneous_open_read": "NOT_OBSERVED",
+    "f2_core_docommand_entry": "NOT_OBSERVED",
+    "f3_feproj_loadbufferx": "NOT_OBSERVED",
+    "u2_pin_dynamic_confirmed": "runtime RVA 0x565d9b2 (two runs); file XOR-0x30 offset 0x56bd9b2; delta 0x60000 = runtime relocation (not ==static; early claim corrected by audit 2026-08-18)",
+    "t3_precondition": "SKIP (state/g_buf null, observe-only)",
+    "g1_resource_to_lua_dispatch": "NOT_ESTABLISHED (unchanged)"
+  },
+  "runs": [
+    {
+      "run_dir": "track-a/crashes/20260818T155849.621386Z-g1spont-12332f",
+      "operation": "g1-spontaneous-observe",
+      "mode": "java-system-load",
+      "frida_version": "17.15.5",
+      "survival_observed_seconds": 90,
+      "alive": true,
+      "fault": "normal",
+      "dropped_events": 0,
+      "events": 28,
+      "preread": {
+        "g_ctx_0x726D0C8": null,
+        "g_buf_0x726D0D0": null,
+        "g_len_0x726D0D8": 0,
+        "ctx_cache_0x726DEA0": null,
+        "state_0x726D0E0": null
+      },
+      "plant3": "SKIP (state or g_buf null or g_len 0)",
+      "plana2_return_code": 1115,
+      "u2_scan": {
+        "runtime_address": "0x736865f9b2",
+        "base": "0x7363002000",
+        "rva": "0x565d9b2",
+        "static_file_offset_xor30": "0x56bd9b2",
+        "delta": "0x60000 (runtime relocation, not identity)"
+      },
+      "load_time_activity": {
+        "validator_D_entry_rva": "0x3ec3f28",
+        "blob_len": 698,
+        "return_code": 1115
+      }
+    },
+    {
+      "run_dir": "track-a/crashes/20260818T160032.050790Z-g1spont-8b1e1c",
+      "operation": "g1-spontaneous-observe",
+      "mode": "java-system-load",
+      "frida_version": "17.15.5",
+      "survival_observed_seconds": 90,
+      "alive": true,
+      "fault": "normal",
+      "dropped_events": 0,
+      "events": 28,
+      "preread": {
+        "g_ctx_0x726D0C8": null,
+        "g_buf_0x726D0D0": null,
+        "g_len_0x726D0D8": 0,
+        "ctx_cache_0x726DEA0": null,
+        "state_0x726D0E0": null
+      },
+      "plant3": "SKIP (state or g_buf null or g_len 0)",
+      "plana2_return_code": 1115,
+      "u2_scan": {
+        "runtime_address": "0x73666739b2",
+        "base": "0x7361016000",
+        "rva": "0x565d9b2",
+        "static_file_offset_xor30": "0x56bd9b2",
+        "delta": "0x60000 (runtime relocation, not identity)"
+      },
+      "load_time_activity": {
+        "validator_D_entry_rva": "0x3ec3f28",
+        "blob_len": 698,
+        "return_code": 1115
+      }
+    }
+  ],
+  "next_candidates": [
+    "state/g_buf writer attribution (who initializes 0x726D0D0/0x726D0E0 in the real flow) as a new plan; T5/T6 (APK/engine-side changes) explicitly out of scope"
+  ],
+  "boundary": "H-layer observe-only; per-run values: base/PID/absolute addresses; comparable: RVA/SHA/counters; SKIP on null preconditions is the observe-only boundary, not a retry"
+}

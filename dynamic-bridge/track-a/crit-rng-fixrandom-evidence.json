@@ -1,0 +1,66 @@
+{
+  "review": "track-a/crit-rng-fixrandom-review.md",
+  "plan": "docs/plans/2026-08-17-crit-rng-fixrandom-hooks.md",
+  "scope": "C1 flow-evaluator crit path + C2 FixRandom getter (H layer, observe-only)",
+  "verdict": {
+    "c1_crit_path": "NOT_OBSERVED (scoped negative per plan §5; A1-A5 all 0)",
+    "c2_fixrandom_registration_chain": "OBSERVED (A6/A10 entered, A14 881, RTTI data points read)",
+    "c2_getter_calls": "NOT_REACHED (hollow proxy: fix_seed -> access violation 0xb, useed -> abort; same boundary as G2 consumer review)",
+    "a7_a8_getter_hooks": 0
+  },
+  "runs": [
+    {
+      "run_dir": "track-a/crashes/20260818T163133.904601Z-critrng-53c326",
+      "operation": "crit-rng-fixrandom-observe",
+      "mode": "java-system-load",
+      "frida_version": "17.15.5",
+      "survival_alive": true,
+      "fault": "normal",
+      "dropped_events": 0,
+      "anchors": {
+        "a1_0x4AFF72C": 0, "a2_0x4B067C0": 0, "a3_0x1E8CD34": 0, "a4_0x1FDAF40": 0,
+        "a5_0x4B0684C": 0, "a6_0x15E2B00": 1, "a7_0x1752E00": 0, "a8_0x1753050": 0,
+        "a9_0x1753A9C": 0, "a10_0x175307C": 1, "a14_0x1589ACC": 881
+      },
+      "c1_observed": false,
+      "fixrandom_calls": [
+        {"className": "FixRandom", "field": "fix_seed", "error": "access violation accessing 0xb"},
+        {"className": "FixRandom", "field": "useed", "error": "abort was called"}
+      ],
+      "data_points": {
+        "fixrandom_rtti": "N11FrameEngine9F... (FrameEngine::FixRandom)",
+        "hurtcancri": "N11FrameEngine5L... (CanCri evaluator)",
+        "precrit_descriptor": "zeros"
+      }
+    },
+    {
+      "run_dir": "track-a/crashes/20260818T163335.422229Z-critrng-22323d",
+      "operation": "crit-rng-fixrandom-observe",
+      "mode": "java-system-load",
+      "frida_version": "17.15.5",
+      "survival_alive": true,
+      "fault": "normal",
+      "dropped_events": 0,
+      "anchors": {
+        "a1_0x4AFF72C": 0, "a2_0x4B067C0": 0, "a3_0x1E8CD34": 0, "a4_0x1FDAF40": 0,
+        "a5_0x4B0684C": 0, "a6_0x15E2B00": 1, "a7_0x1752E00": 0, "a8_0x1753050": 0,
+        "a9_0x1753A9C": 0, "a10_0x175307C": 1, "a14_0x1589ACC": 881
+      },
+      "c1_observed": false,
+      "fixrandom_calls": [
+        {"className": "FixRandom", "field": "fix_seed", "error": "access violation accessing 0xb"},
+        {"className": "FixRandom", "field": "useed", "error": "abort was called"}
+      ],
+      "data_points": {
+        "fixrandom_rtti": "N11FrameEngine9F... (FrameEngine::FixRandom)",
+        "hurtcancri": "N11FrameEngine5L... (CanCri evaluator)",
+        "precrit_descriptor": "zeros"
+      }
+    }
+  ],
+  "hook_fixes": [
+    "LUA_EXPORTS missing lua_getfield -> added (sig had it, iteration list did not)",
+    "getter access wrapped in try/catch (hollow-proxy crash recorded, not fatal)"
+  ],
+  "boundary": "H-layer observe-only; C1 negative per plan scoped protocol; no official-package attach; no FixRandom Next() core reverse"
+}

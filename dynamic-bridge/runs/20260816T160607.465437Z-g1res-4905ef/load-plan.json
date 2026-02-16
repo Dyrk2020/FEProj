@@ -1,0 +1,18 @@
+{
+  "input_provenance": {
+    "battle_logic": {
+      "header_hex": "1b4c7561530119930d0a1a0a04040408",
+      "name": "BattleLogic.res",
+      "path": "/data/user/0/dev.wildriftresearch.logicharness/files/fetest/Res/FETest/Logic/BattleLogic.res",
+      "sha256": "347a4ff3217510443d1b3384b1fdbd3d17d62e6c05f8be0b8ae39e61a64417d5",
+      "size": 1479
+    }
+  },
+  "ordered_libraries": [
+    {
+      "name": "libFEProj.so",
+      "path": "/data/user/0/dev.wildriftresearch.logicharness/files/dso/libFEProj.so",
+      "sha256": "5e608f2da59371a583929aed90e4ec4985bc8ee12fc0d44124000b94d1b8a02a"
+    }
+  ]
+}

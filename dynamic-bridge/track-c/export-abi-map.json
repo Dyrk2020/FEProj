@@ -1,0 +1,197 @@
+{
+  "exact_symbol_selectors": [
+    {
+      "matches": [
+        {
+          "binding": "GLOBAL",
+          "library": "libil2cpp.so",
+          "st_size": 44,
+          "st_value": "0x3fe600c",
+          "symbol": "il2cpp_init",
+          "type": "FUNC"
+        }
+      ],
+      "present": true,
+      "selector": "il2cpp_init"
+    },
+    {
+      "matches": [
+        {
+          "binding": "GLOBAL",
+          "library": "libil2cpp.so",
+          "st_size": 4,
+          "st_value": "0x3fe60c4",
+          "symbol": "il2cpp_set_data_dir",
+          "type": "FUNC"
+        }
+      ],
+      "present": true,
+      "selector": "il2cpp_set_data_dir"
+    },
+    {
+      "matches": [
+        {
+          "binding": "GLOBAL",
+          "library": "libil2cpp.so",
+          "st_size": 4,
+          "st_value": "0x3fe60c8",
+          "symbol": "il2cpp_set_temp_dir",
+          "type": "FUNC"
+        }
+      ],
+      "present": true,
+      "selector": "il2cpp_set_temp_dir"
+    },
+    {
+      "matches": [
+        {
+          "binding": "GLOBAL",
+          "library": "libil2cpp.so",
+          "st_size": 16,
+          "st_value": "0x3fe60cc",
+          "symbol": "il2cpp_set_commandline_arguments",
+          "type": "FUNC"
+        }
+      ],
+      "present": true,
+      "selector": "il2cpp_set_commandline_arguments"
+    },
+    {
+      "matches": [
+        {
+          "binding": "GLOBAL",
+          "library": "libil2cpp.so",
+          "st_size": 16,
+          "st_value": "0x3fe60dc",
+          "symbol": "il2cpp_set_commandline_arguments_utf16",
+          "type": "FUNC"
+        }
+      ],
+      "present": true,
+      "selector": "il2cpp_set_commandline_arguments_utf16"
+    },
+    {
+      "matches": [
+        {
+          "binding": "GLOBAL",
+          "library": "libil2cpp.so",
+          "st_size": 68,
+          "st_value": "0x4054828",
+          "symbol": "JNI_OnLoad",
+          "type": "FUNC"
+        },
+        {
+          "binding": "GLOBAL",
+          "library": "libunity.so",
+          "st_size": 156,
+          "st_value": "0xf39430",
+          "symbol": "JNI_OnLoad",
+          "type": "FUNC"
+        }
+      ],
+      "present": true,
+      "selector": "JNI_OnLoad"
+    },
+    {
+      "matches": [
+        {
+          "binding": "GLOBAL",
+          "library": "libFEProj.so",
+          "st_size": 240,
+          "st_value": "0x55af380",
+          "symbol": "lua_load",
+          "type": "FUNC"
+        }
+      ],
+      "present": true,
+      "selector": "lua_load"
+    },
+    {
+      "matches": [],
+      "present": false,
+      "selector": "luaL_loadbuffer"
+    },
+    {
+      "matches": [
+        {
+          "binding": "GLOBAL",
+          "library": "libFEProj.so",
+          "st_size": 84,
+          "st_value": "0x55b19c4",
+          "symbol": "luaL_loadbufferx",
+          "type": "FUNC"
+        }
+      ],
+      "present": true,
+      "selector": "luaL_loadbufferx"
+    },
+    {
+      "matches": [
+        {
+          "binding": "GLOBAL",
+          "library": "libFEProj.so",
+          "st_size": 68,
+          "st_value": "0x55b234c",
+          "symbol": "luaL_newstate",
+          "type": "FUNC"
+        }
+      ],
+      "present": true,
+      "selector": "luaL_newstate"
+    },
+    {
+      "matches": [],
+      "present": false,
+      "selector": "lua_pcall"
+    }
+  ],
+  "input_provenance": [
+    {
+      "file": "libil2cpp.so",
+      "immediate_construct_hits": 0,
+      "patterns": [
+        "FMN!",
+        "metadata-size",
+        "IL2CPP-raw-magic",
+        "Lua-signature"
+      ],
+      "raw_magic_dword_hits": 0,
+      "sha256": "6e8e7002169bc658fbe64be4c6e216e22c4bf719a620940e77890b9e57211dc6",
+      "size": 215681928
+    },
+    {
+      "file": "libFEProj.so",
+      "immediate_construct_hits": 0,
+      "patterns": [
+        "FMN!",
+        "metadata-size",
+        "IL2CPP-raw-magic",
+        "Lua-signature"
+      ],
+      "raw_magic_dword_hits": 0,
+      "sha256": "5e608f2da59371a583929aed90e4ec4985bc8ee12fc0d44124000b94d1b8a02a",
+      "size": 120283368
+    },
+    {
+      "file": "libunity.so",
+      "immediate_construct_hits": 0,
+      "patterns": [
+        "FMN!",
+        "metadata-size",
+        "IL2CPP-raw-magic",
+        "Lua-signature"
+      ],
+      "raw_magic_dword_hits": 0,
+      "sha256": "6dfbec920ddd0539de4ab2f1d5aef783f203399ab46939daa46b51f1b8c215ac",
+      "size": 26607568
+    }
+  ],
+  "libraries": [
+    "libil2cpp.so",
+    "libFEProj.so",
+    "libunity.so"
+  ],
+  "metadata_symbol_selectors": [],
+  "method": "ELF64 .dynsym only; no symbol invocation",
+  "record_type": "dynsym-export-abi-map"
+}

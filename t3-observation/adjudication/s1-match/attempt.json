@@ -1,0 +1,23 @@
+{
+  "completed_manually": true,
+  "completion_note": "Match completed; driver cancelled post-match by Main; artifacts finalized manually",
+  "frida_version": "17.15.5",
+  "install": {
+    "counters": {
+      "installed_H1_CRIT_ADJ": 1,
+      "installed_H2_ISCRIT_STORE": 1,
+      "installed_H6_CASE409_TEMPLATE": 1
+    },
+    "exec_key": "0x71f6602000@0,0x71ff362000@7260000",
+    "installed": true
+  },
+  "installed_lib_hashes": {
+    "libFEProj": "5e608f2da59371a583929aed90e4ec4985bc8ee12fc0d44124000b94d1b8a02a",
+    "libil2cpp": "6e8e7002169bc658fbe64be4c6e216e22c4bf719a620940e77890b9e57211dc6"
+  },
+  "operation": "t3-l3-adjudication",
+  "package": "com.riotgames.league.wildrift",
+  "pid": 13035,
+  "session": "s1-match",
+  "started_at": "2026-08-22T17:09:55.826451+00:00"
+}

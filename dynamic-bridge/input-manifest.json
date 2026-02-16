@@ -1,0 +1,68 @@
+{
+  "package_target": "dev.wildriftresearch.logicharness",
+  "game_package": "com.riotgames.league.wildrift",
+  "game_version": "7.2.0.2460",
+  "build": "7246064",
+  "abi": "arm64-v8a",
+  "frida_host_historical": "17.8.0",
+  "frida_host_accepted": "17.15.5",
+  "anchors": [
+    {
+      "name": "libtdr.so",
+      "path": "<research-workspace>/work/native-container-audit/decompressed-arm64/libtdr.so",
+      "size": 1774368,
+      "sha256": "94c3b45384d810c9136084eefabe6ab6ef5e1808017af67ffc9c53fc3876495d",
+      "expected": "94c3b45384d810c9136084eefabe6ab6ef5e1808017af67ffc9c53fc3876495d",
+      "ok": true
+    },
+    {
+      "name": "libLNet.so",
+      "path": "<research-workspace>/work/native-container-audit/decompressed-arm64/libLNet.so",
+      "size": 3130648,
+      "sha256": "55c2879f7acdd0c64fb308ce3a0a1007d308417e475b431dabd9c5e0f8ab5a86",
+      "expected": "55c2879f7acdd0c64fb308ce3a0a1007d308417e475b431dabd9c5e0f8ab5a86",
+      "ok": true
+    },
+    {
+      "name": "libFEProj.so",
+      "path": "<research-workspace>/work/native-container-audit/decompressed-arm64/libFEProj.so",
+      "size": 120283368,
+      "sha256": "5e608f2da59371a583929aed90e4ec4985bc8ee12fc0d44124000b94d1b8a02a",
+      "expected": "5e608f2da59371a583929aed90e4ec4985bc8ee12fc0d44124000b94d1b8a02a",
+      "ok": true
+    },
+    {
+      "name": "libil2cpp.so",
+      "path": "<research-workspace>/work/native-container-audit/decompressed-arm64/libil2cpp.so",
+      "size": 215681928,
+      "sha256": "6e8e7002169bc658fbe64be4c6e216e22c4bf719a620940e77890b9e57211dc6",
+      "expected": "6e8e7002169bc658fbe64be4c6e216e22c4bf719a620940e77890b9e57211dc6",
+      "ok": true
+    },
+    {
+      "name": "libunity.so",
+      "path": "<research-workspace>/work/native-container-audit/decompressed-arm64/libunity.so",
+      "size": 26607568,
+      "sha256": "6dfbec920ddd0539de4ab2f1d5aef783f203399ab46939daa46b51f1b8c215ac",
+      "expected": "6dfbec920ddd0539de4ab2f1d5aef783f203399ab46939daa46b51f1b8c215ac",
+      "ok": true
+    },
+    {
+      "name": "global-metadata.dat",
+      "path": "<research-workspace>/corpus/basic-data/external-device-20260814/files/il2cpp/Metadata/global-metadata.dat",
+      "size": 58401572,
+      "sha256": "5bd0f8b0efb4ebbbbe148300dc17166f9335a9e2d5ff20de42edb22267fde45d",
+      "expected": "5bd0f8b0efb4ebbbbe148300dc17166f9335a9e2d5ff20de42edb22267fde45d",
+      "ok": true
+    },
+    {
+      "name": "BattleLogic.res",
+      "path": "<research-workspace>/corpus/basic-data/external-device-20260814/files/Res/FETest/Logic/BattleLogic.res",
+      "size": 1479,
+      "sha256": "347a4ff3217510443d1b3384b1fdbd3d17d62e6c05f8be0b8ae39e61a64417d5",
+      "expected": "347a4ff3217510443d1b3384b1fdbd3d17d62e6c05f8be0b8ae39e61a64417d5",
+      "ok": true
+    }
+  ],
+  "all_ok": true
+}

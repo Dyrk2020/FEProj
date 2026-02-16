@@ -1,0 +1,138 @@
+{
+  "schema": "a4-canonical-metadata-v2",
+  "status": "PASS",
+  "status_reason": "Two independent force-stopped physical arm64 captures bound and opened the locked canonical metadata inode at the same stable libil2cpp open() return site.",
+  "static_anchor": {
+    "module": "libil2cpp.so",
+    "open_plt_rva": "0x3bbf604",
+    "return_site_rva": "0x3bbf608",
+    "return_site_instruction": "MOV W24, W0",
+    "following_call_rva": "0x3bbf61c",
+    "classification": "stable return site immediately after open(); not a function entry or consumer, transform, or registration evidence"
+  },
+  "disposition": {
+    "a4_implementation": "PASS",
+    "arm64_capture": "PASS",
+    "g2": "PASS",
+    "g2_basis": "The A4 instruction defines a successful fstat-bound canonical metadata open as G2 PASS.",
+    "direct_read_mmap_transform_or_registration": "NOT_OBSERVED"
+  },
+  "scope": {
+    "target_package": "dev.wildriftresearch.logicharness",
+    "minimum_graph": ["libil2cpp.so"],
+    "official_package_attached": false,
+    "undocumented_va_called": false,
+    "feproj_or_b2_b3_or_a5_executed": false,
+    "product_modules_executed": false
+  },
+  "implementation": {
+    "metadata_relative_path": "Metadata/global-metadata.dat",
+    "removed_metadata_paths": [
+      "meta/global-metadata.dat",
+      "meta/il2cpp/Metadata/global-metadata.dat"
+    ],
+    "init_rpc": {
+      "native_return_type": "pointer",
+      "reported_field": "domain_ptr"
+    },
+    "inode_binding": {
+      "candidate_apis": ["stat", "stat64", "open", "openat"],
+      "identity": ["dev", "ino", "size"],
+      "post_bind_apis": ["read", "pread64", "mmap", "mmap64", "mprotect", "memcpy", "memmove"],
+      "provenance": ["metadata_sha256", "module_rva", "backtrace"]
+    }
+  },
+  "canonical_metadata": {
+    "path": "/data/user/0/dev.wildriftresearch.logicharness/files/meta/Metadata/global-metadata.dat",
+    "sha256": "5bd0f8b0efb4ebbbbe148300dc17166f9335a9e2d5ff20de42edb22267fde45d",
+    "size": 58401572,
+    "identity": {
+      "dev": "65099",
+      "ino": "1692515",
+      "size": 58401572
+    },
+    "header_hex": "464d4e211f00000049db9dcc2b3d9dcf",
+    "window": {
+      "offset": 40,
+      "length": 64,
+      "hex": "607bf400047b0d0064f60101b882d9001c79db0104260300209fde010801330028a0110288003900b0a04a0228ed0200d88d4d029cb14500743f93025c935800"
+    },
+    "legacy_paths_absent": [
+      "files/meta/global-metadata.dat",
+      "files/meta/il2cpp/Metadata/global-metadata.dat"
+    ]
+  },
+  "arm64_capture_gate": {
+    "required_independent_runs": 2,
+    "completed_normal_runs": 2,
+    "execution_flags": ["--stream-dsos", "--stage", "--load", "--set-data-dir", "--init", "--a3"],
+    "precondition": "Each normal run followed an explicit force-stop of dev.wildriftresearch.logicharness.",
+    "runs": [
+      {
+        "run_id": "20260716T044832.686500Z-43ffda3c",
+        "raw_attempt": "crashes/20260716T044832.686500Z-43ffda3c/attempt.json",
+        "raw_events": "dumps/20260716T044832.686500Z-43ffda3c/a3-events.jsonl",
+        "arch": "arm64",
+        "pointer_size": 8,
+        "pid": 2742,
+        "fault_status": "normal",
+        "domain_ptr": "0x1",
+        "bound_open": {
+          "fd": 148,
+          "module": "libil2cpp.so",
+          "rva": "0x3bbf608",
+          "site_role": "open_return_site"
+        },
+        "post_init_file_backed_mapping": {
+          "base": "0x6f6b09e000",
+          "size": 58404864,
+          "protection": "rw-",
+          "markers": ["fmn_header", "metadata_window"]
+        }
+      },
+      {
+        "run_id": "20260716T045559.272182Z-c2bbf13d",
+        "raw_attempt": "crashes/20260716T045559.272182Z-c2bbf13d/attempt.json",
+        "raw_events": "dumps/20260716T045559.272182Z-c2bbf13d/a3-events.jsonl",
+        "arch": "arm64",
+        "pointer_size": 8,
+        "pid": 7276,
+        "fault_status": "normal",
+        "domain_ptr": "0x1",
+        "bound_open": {
+          "fd": 148,
+          "module": "libil2cpp.so",
+          "rva": "0x3bbf608",
+          "site_role": "open_return_site"
+        },
+        "post_init_file_backed_mapping": {
+          "base": "0x6f6bfe3000",
+          "size": 58404864,
+          "protection": "rw-",
+          "markers": ["fmn_header", "metadata_window"]
+        }
+      }
+    ],
+    "diagnostic_non_counting_attempt": {
+      "run_id": "20260716T045022.699790Z-6f22ae08",
+      "result": "SIGSEGV in gadget.so before A2_INIT_RETURN",
+      "retained": true
+    }
+  },
+  "verification": {
+    "gradle": {
+      "command": ":app:assembleDebug",
+      "result": "PASS",
+      "tasks": 34
+    },
+    "tests": [
+      {"path": "track-a/test_a2_host_runner.py", "result": "PASS", "count": 35},
+      {"path": "track-a/test_a2_il2cpp_surface_hook.mjs", "result": "PASS"},
+      {"path": "track-a/test_a3_consumer_hook.mjs", "result": "PASS"},
+      {"path": "track-a/test_a4_inode_bound_hook.mjs", "result": "PASS"}
+    ],
+    "apk_install": "PASS",
+    "post_install_device_identity": "65099,1692515,58401572"
+  },
+  "next_action": "A4 is closed. A future consumer, transform, or registration investigation requires a separate observe-only plan; do not call an internal VA or enter A5, B2/B3, G3/G4, or product modules from this evidence."
+}

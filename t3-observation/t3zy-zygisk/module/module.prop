@@ -1,0 +1,6 @@
+id=t3zy
+name=T3 Zygisk Observer
+version=v0.1
+versionCode=1
+author=wild-rift-research
+description=Read-only in-process observer for research sessions: PLT-hook NetCryptoSetKey (H4), stream events over 127.0.0.1:27099 via adb reverse. Creates zero files inside game directories.

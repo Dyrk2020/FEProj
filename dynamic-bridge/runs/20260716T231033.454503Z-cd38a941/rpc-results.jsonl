@@ -1,0 +1,7 @@
+{"result":{"arch":"arm64","pid":10979,"pointer_size":8},"rpc":"environment"}
+{"result":{"metadata_sha256":"5bd0f8b0efb4ebbbbe148300dc17166f9335a9e2d5ff20de42edb22267fde45d","status":"armed"},"rpc":"armwatch"}
+{"result":{"loaded":["libil2cpp.so"]},"rpc":"loadgraph"}
+{"result":[{"resolved":true,"selector":"il2cpp_set_data_dir"},{"resolved":true,"selector":"il2cpp_init"},{"resolved":true,"selector":"il2cpp_set_temp_dir"},{"resolved":true,"selector":"il2cpp_set_commandline_arguments"},{"resolved":true,"selector":"il2cpp_set_commandline_arguments_utf16"}],"rpc":"probeexports"}
+{"result":{"selector":"il2cpp_set_data_dir","status":"called"},"rpc":"setdatadir"}
+{"result":{"domain_ptr":"0x1","selector":"il2cpp_init","status":"returned"},"rpc":"init"}
+{"result":{"candidate_ranges":20,"hit_count":2,"scanned_bytes":268435456,"scanned_ranges":12,"skipped_ranges":8,"status":"swept"},"rpc":"sweepmemory"}

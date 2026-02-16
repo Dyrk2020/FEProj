@@ -1,0 +1,45 @@
+{
+  "inputs": [
+    {
+      "file": "libil2cpp.so",
+      "immediate_construct_hits": 0,
+      "patterns": [
+        "FMN!",
+        "metadata-size",
+        "IL2CPP-raw-magic",
+        "Lua-signature"
+      ],
+      "raw_magic_dword_hits": 0,
+      "sha256": "6e8e7002169bc658fbe64be4c6e216e22c4bf719a620940e77890b9e57211dc6",
+      "size": 215681928
+    },
+    {
+      "file": "libFEProj.so",
+      "immediate_construct_hits": 0,
+      "patterns": [
+        "FMN!",
+        "metadata-size",
+        "IL2CPP-raw-magic",
+        "Lua-signature"
+      ],
+      "raw_magic_dword_hits": 0,
+      "sha256": "5e608f2da59371a583929aed90e4ec4985bc8ee12fc0d44124000b94d1b8a02a",
+      "size": 120283368
+    },
+    {
+      "file": "libunity.so",
+      "immediate_construct_hits": 0,
+      "patterns": [
+        "FMN!",
+        "metadata-size",
+        "IL2CPP-raw-magic",
+        "Lua-signature"
+      ],
+      "raw_magic_dword_hits": 0,
+      "sha256": "6dfbec920ddd0539de4ab2f1d5aef783f203399ab46939daa46b51f1b8c215ac",
+      "size": 26607568
+    }
+  ],
+  "instruction_xref_policy": "LDR literal or conservative ADR/ADRP\u2192NOP*\u2192LDR\u2192NOP*\u2192CMP direct chain; other instructions and control flow stop classification",
+  "record_type": "magic-scan-manifest"
+}

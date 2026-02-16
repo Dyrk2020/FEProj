@@ -1,0 +1,1 @@
+{"experiment":"E2","result":"ok","path":"frida session + empty script, System.load via ART","evidence":"logcat.txt (LOADFEPROJ_RETURNED)","pid":32217}

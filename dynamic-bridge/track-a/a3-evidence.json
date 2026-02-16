@@ -1,0 +1,110 @@
+{
+  "schema": "a3-consumer-edge-v1",
+  "status": "FAIL",
+  "disposition": {
+    "a3": "DYNAMIC_PARTIAL_NEGATIVE",
+    "g2": "FAIL",
+    "g2_reason": "The provenance-bound watcher armed before the forced exported surface, but captured no bound metadata buffer entering a concrete consumer and no derived effect."
+  },
+  "run": {
+    "directory": "crashes/20260714T045255.233089Z-20bf910b",
+    "dump_directory": "dumps/20260714T045255.233089Z-20bf910b",
+    "package": "dev.wildriftresearch.logicharness",
+    "frida_version": "17.8.0",
+    "spawn_mode": "gadget",
+    "process_abi": {
+      "arch": "arm64",
+      "pointer_size": 8,
+      "pid": 11243
+    },
+    "fault": {
+      "status": "normal"
+    }
+  },
+  "inputs": {
+    "metadata": {
+      "path": "/data/user/0/dev.wildriftresearch.logicharness/files/meta/il2cpp/Metadata/global-metadata.dat",
+      "sha256": "5bd0f8b0efb4ebbbbe148300dc17166f9335a9e2d5ff20de42edb22267fde45d",
+      "size": 58401572,
+      "header_hex": "464d4e211f00000049db9dcc2b3d9dcf",
+      "window": {
+        "offset": 40,
+        "length": 64,
+        "hex": "607bf400047b0d0064f60101b882d9001c79db0104260300209fde010801330028a0110288003900b0a04a0228ed0200d88d4d029cb14500743f93025c935800"
+      }
+    },
+    "libraries": [
+      {
+        "name": "libil2cpp.so",
+        "path": "/data/user/0/dev.wildriftresearch.logicharness/files/dso/libil2cpp.so",
+        "sha256": "6e8e7002169bc658fbe64be4c6e216e22c4bf719a620940e77890b9e57211dc6"
+      }
+    ]
+  },
+  "surface": {
+    "loadgraph": "returned",
+    "set_data_dir": "called",
+    "init": "returned",
+    "domain_name": "LogicHarness"
+  },
+  "capture": {
+    "watcher_armed_before_load": true,
+    "event_counts": {
+      "A3_WATCH_ARMED": 1,
+      "A3_MEMORY_SWEEP": 1,
+      "A3_FMN_OPEN": 0,
+      "A3_FMN_READ": 0,
+      "A3_FMN_READ_TRIGGER": 0,
+      "A3_METADATA_MMAP": 0,
+      "A3_MPROTECT_RX": 0,
+      "A3_EXPORT_FMN_ARG": 0,
+      "A3_MEMORY_HIT": 0
+    },
+    "sweep": {
+      "mode": "readable_map_delta_plus_metadata_mappings",
+      "baseline_readable_ranges": 2609,
+      "post_readable_ranges": 2621,
+      "candidate_ranges": 12,
+      "scanned_ranges": 12,
+      "scanned_bytes": 220254208,
+      "skipped_ranges": 0,
+      "hit_count": 0
+    }
+  },
+  "gate_requirements": {
+    "provenance_bound_consumer": false,
+    "concrete_consumer_function": false,
+    "consumer_effect": false
+  },
+  "artifacts": {
+    "attempt": "crashes/20260714T045255.233089Z-20bf910b/attempt.json",
+    "load_plan": "crashes/20260714T045255.233089Z-20bf910b/load-plan.json",
+    "rpc_results": "crashes/20260714T045255.233089Z-20bf910b/rpc-results.jsonl",
+    "events": "crashes/20260714T045255.233089Z-20bf910b/events.jsonl",
+    "maps": "crashes/20260714T045255.233089Z-20bf910b/maps.json",
+    "logcat": "crashes/20260714T045255.233089Z-20bf910b/logcat.txt",
+    "a3_summary": "dumps/20260714T045255.233089Z-20bf910b/summary.json",
+    "a3_events": "dumps/20260714T045255.233089Z-20bf910b/a3-events.jsonl",
+    "memory_hits": "dumps/20260714T045255.233089Z-20bf910b/memory-hits.jsonl"
+  },
+  "cleanup": {
+    "helper_force_stopped": true,
+    "helper_process_absent": true,
+    "app_private_paths_removed": [
+      "files/dso",
+      "files/meta",
+      "files/fetest",
+      "files/incoming",
+      "files/dump"
+    ],
+    "transient_arm64_gadget_removed": true,
+    "direct_adb_connection_disconnected": true
+  },
+  "scope": {
+    "owned_process_only": true,
+    "official_package_attached": false,
+    "undocumented_va_called": false,
+    "network_used_by_helper": false,
+    "immutable_corpus_modified": false
+  }
+}

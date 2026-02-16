@@ -1,0 +1,45 @@
+{
+  "gate": "A2 helper staging preflight",
+  "target": {
+    "package": "dev.wildriftresearch.logicharness",
+    "serial": "emulator-5554",
+    "process_abi": "x86_64"
+  },
+  "command": [
+    "python",
+    "work/aggressive-logic-bridge-2026-07-13/track-a/a2_host_runner.py",
+    "--adb",
+    "C:/Users/123/tools/platform-tools/adb.exe",
+    "--serial",
+    "emulator-5554",
+    "--stream-dsos",
+    "--stage",
+    "--load",
+    "--set-data-dir",
+    "--init"
+  ],
+  "load_graph": {
+    "ordered_libraries": [
+      {
+        "name": "libil2cpp.so",
+        "sha256": "6e8e7002169bc658fbe64be4c6e216e22c4bf719a620940e77890b9e57211dc6"
+      }
+    ],
+    "needed_dependencies": "Android system libraries only; no additional reconstructed DSO is in the minimum graph."
+  },
+  "payload_accounting": {
+    "libil2cpp_stream_temp_plus_final_bytes": 431363856,
+    "metadata_two_staged_copies_bytes": 116803144,
+    "battle_logic_stage_bytes": 1479,
+    "reserve_kib": 65536,
+    "required_kib": 600857,
+    "available_kib": 322900,
+    "mountpoint": "/data/user/0"
+  },
+  "result": {
+    "exit_code": 1,
+    "error": "RuntimeError: insufficient /data space: requires 600857 KiB, available 322900 KiB",
+    "surface_rpcs_invoked": [],
+    "outcome": "preflight-blocked-insufficient-data-space"
+  }
+}

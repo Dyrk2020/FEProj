@@ -1,0 +1,228 @@
+{
+  "conclusion_boundary": "Only the transform/parser stage was observed in the helper APK. registration/consumer stages remain NOT_OBSERVED; G2-FMN-semantic-bridge stays NOT_ESTABLISHED.",
+  "dropped_note": "Both runs hit the 512-record cap of a2_host_runner.py MAX_EVENT_RECORDS and wrote an A2_EVENTS_TRUNCATED marker. Per-run dropped counts are recorded in runs[].dropped_events. The core 16-step order and all lazy hit totals are captured via the init RPC return value (rpc-results.jsonl) and are unaffected by the cap. Same accounting discipline as A4C1.",
+  "evidence_layer": "H",
+  "five_step_order": {
+    "step1_ctr_filename": "CTR-decryptor enter/leave (0x4004540) precedes file reader",
+    "step2_reader": "metadata-file-reader (0x4025314) with buffer-processor (0x4004CE0) inside",
+    "step3_ctr_header": "second CTR-decryptor enter/leave (0x4004540) after reader",
+    "step4_pair_alloc": "inside MetadataCache::Initialize after CTR#2 (no stable hookable instruction; see review)",
+    "step5_per_image": "inside MetadataCache::Initialize, bounded by its leave (0x3FDD77C)"
+  },
+  "lazy_getter_verdict": {
+    "name_table_getter_0x3B95A08": "hit 27320x in both runs; returns plaintext .NET assembly names (Assembly-CSharp*, mscorlib.dll, System.dll, ...) matching metadata-bulk-20260814 nametable decryption",
+    "section_getter_return": "return values are struct pointers/offsets, not name strings (consistent with METADATA-CHAIN.md section accessors)",
+    "section_getters": "7 of 9 lazy getters hit; 0x3FE09CC/0x3FE0AD8/0x3FE1914 (1x), 0x3FE2E40 (1x), 0x3FE2F4C (5459x), 0x3FE3E54 (5458x); 0x3FE2338/0x3FE1A20/0x3FE2960 = 0 hits"
+  },
+  "locked_inputs": {
+    "frida_version": "17.15.5",
+    "libil2cpp.so": {
+      "sha256": "6e8e7002169bc658fbe64be4c6e216e22c4bf719a620940e77890b9e57211dc6",
+      "size": 215681928
+    },
+    "metadata": {
+      "name": "global-metadata.dat",
+      "sha256": "5bd0f8b0efb4ebbbbe148300dc17166f9335a9e2d5ff20de42edb22267fde45d",
+      "size": 58401572
+    }
+  },
+  "runs": [
+    {
+      "base": "0x6fb1b44000",
+      "core_order": [
+        [
+          "0x403F234",
+          "enter"
+        ],
+        [
+          "0x403F234",
+          "leave"
+        ],
+        [
+          "0x3FE600C",
+          "enter"
+        ],
+        [
+          "0x4025598",
+          "enter"
+        ],
+        [
+          "0x3FDD77C",
+          "enter"
+        ],
+        [
+          "0x4004540",
+          "enter"
+        ],
+        [
+          "0x4004760",
+          "enter"
+        ],
+        [
+          "0x4004540",
+          "leave"
+        ],
+        [
+          "0x4025314",
+          "enter"
+        ],
+        [
+          "0x4004CE0",
+          "enter"
+        ],
+        [
+          "0x4004CE0",
+          "leave"
+        ],
+        [
+          "0x4025314",
+          "leave"
+        ],
+        [
+          "0x4004540",
+          "enter"
+        ],
+        [
+          "0x4004760",
+          "enter"
+        ],
+        [
+          "0x4004540",
+          "leave"
+        ],
+        [
+          "0x3FDD77C",
+          "leave"
+        ]
+      ],
+      "ctr_calls": 2,
+      "device_serial": "127.0.0.1:27042",
+      "domain_ptr": "0x1",
+      "dropped_events": 228,
+      "frida_version": "17.15.5",
+      "lazy_hits": {
+        "0x3B95A08": 27320,
+        "0x3FE09CC": 1,
+        "0x3FE0AD8": 1,
+        "0x3FE1914": 1,
+        "0x3FE2E40": 1,
+        "0x3FE2F4C": 5459,
+        "0x3FE3E54": 5458
+      },
+      "libil2cpp_sha256": "6e8e7002169bc658fbe64be4c6e216e22c4bf719a620940e77890b9e57211dc6",
+      "metadata_sha256": "5bd0f8b0efb4ebbbbe148300dc17166f9335a9e2d5ff20de42edb22267fde45d",
+      "metadata_size": 58401572,
+      "name_getter_head16_examples": [
+        "417373656d626c792d4353686172702e",
+        "6d73636f726c69622e646c6c008f65cd",
+        "52696f7447616d65734170692d446f74",
+        "556e697479456e67696e652e5549456c",
+        "53797374656d2e646c6c0012871d5c34",
+        "4931384e2e434a4b2e646c6c00e2281b"
+      ],
+      "pid": 18107,
+      "prf_enters": 2,
+      "run": "20260816T145454-g2chain-bbedd5b9"
+    },
+    {
+      "base": "0x6fb0584000",
+      "core_order": [
+        [
+          "0x403F234",
+          "enter"
+        ],
+        [
+          "0x403F234",
+          "leave"
+        ],
+        [
+          "0x3FE600C",
+          "enter"
+        ],
+        [
+          "0x4025598",
+          "enter"
+        ],
+        [
+          "0x3FDD77C",
+          "enter"
+        ],
+        [
+          "0x4004540",
+          "enter"
+        ],
+        [
+          "0x4004760",
+          "enter"
+        ],
+        [
+          "0x4004540",
+          "leave"
+        ],
+        [
+          "0x4025314",
+          "enter"
+        ],
+        [
+          "0x4004CE0",
+          "enter"
+        ],
+        [
+          "0x4004CE0",
+          "leave"
+        ],
+        [
+          "0x4025314",
+          "leave"
+        ],
+        [
+          "0x4004540",
+          "enter"
+        ],
+        [
+          "0x4004760",
+          "enter"
+        ],
+        [
+          "0x4004540",
+          "leave"
+        ],
+        [
+          "0x3FDD77C",
+          "leave"
+        ]
+      ],
+      "ctr_calls": 2,
+      "device_serial": "127.0.0.1:27042",
+      "domain_ptr": "0x1",
+      "dropped_events": 196,
+      "frida_version": "17.15.5",
+      "lazy_hits": {
+        "0x3B95A08": 27320,
+        "0x3FE09CC": 1,
+        "0x3FE0AD8": 1,
+        "0x3FE1914": 1,
+        "0x3FE2E40": 1,
+        "0x3FE2F4C": 5459,
+        "0x3FE3E54": 5458
+      },
+      "libil2cpp_sha256": "6e8e7002169bc658fbe64be4c6e216e22c4bf719a620940e77890b9e57211dc6",
+      "metadata_sha256": "5bd0f8b0efb4ebbbbe148300dc17166f9335a9e2d5ff20de42edb22267fde45d",
+      "metadata_size": 58401572,
+      "name_getter_head16_examples": [
+        "417373656d626c792d4353686172702e",
+        "6d73636f726c69622e646c6c008f65cd",
+        "52696f7447616d65734170692d446f74",
+        "556e697479456e67696e652e5549456c",
+        "53797374656d2e646c6c0012871d5c34",
+        "4931384e2e434a4b2e646c6c00e2281b"
+      ],
+      "pid": 18445,
+      "prf_enters": 2,
+      "run": "20260816T145517-g2chain-abac2a9a"
+    }
+  ],
+  "schema": "g2-metadata-chain-evidence/1",
+  "scope_declaration": "Observed the il2cpp metadata transform/parser chain inside the helper APK only. This does NOT announce G2 PASS and does NOT claim consumer/registration observed.",
+  "target": "dev.wildriftresearch.logicharness (helper APK, evidence layer H)"
+}
