@@ -1,0 +1,10 @@
+{
+  "xor_transformed_text": "feproj-text-xor30.bin",
+  "xor_semantics": "bytewise XOR-0x30 transformed view; not plaintext/decryption",
+  "island_catalog": "island-catalog.jsonl",
+  "edges": "edges.json",
+  "strings": "strings.jsonl",
+  "island_count": 771,
+  "text_va": 18174352,
+  "text_size": 72244380
+}

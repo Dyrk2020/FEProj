@@ -1,0 +1,60 @@
+{
+    "NativeAssets": {
+        "library": {
+            "arm64-v8a": [
+                {
+                    "name": "libtdr_cp.so",
+                    "size": 1774368,
+                    "crc": "5567476857103016126"
+                },
+                {
+                    "name": "libLNet_cp.so",
+                    "size": 3130648,
+                    "crc": "5125405427756251157"
+                },
+                {
+                    "name": "libFEProj_cp.so",
+                    "size": 120283368,
+                    "crc": "17411974836471860530"
+                },
+                {
+                    "name": "libil2cpp_cp.so",
+                    "size": 215681928,
+                    "crc": "16427538067222600980"
+                },
+                {
+                    "name": "libunity_cp.so",
+                    "size": 26607568,
+                    "crc": "14884828511435752839"
+                }
+            ],
+            "armeabi-v7a": [
+                {
+                    "name": "libtdr_cp.so",
+                    "size": 453860,
+                    "crc": "17366017270664283385"
+                },
+                {
+                    "name": "libLNet_cp.so",
+                    "size": 2707664,
+                    "crc": "5011514245858164142"
+                },
+                {
+                    "name": "libFEProj_cp.so",
+                    "size": 76264864,
+                    "crc": "7280421703761806517"
+                },
+                {
+                    "name": "libil2cpp_cp.so",
+                    "size": 193352284,
+                    "crc": "14296090559379400957"
+                },
+                {
+                    "name": "libunity_cp.so",
+                    "size": 18755392,
+                    "crc": "8244813908444064337"
+                }
+            ]
+        }
+    }
+}

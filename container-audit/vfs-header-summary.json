@@ -1,0 +1,8 @@
+{
+  "all_observed_relations": 1206,
+  "anomalies": [],
+  "resolved_records": 1206,
+  "word1_word2_in_bounds": 1206,
+  "word2_equals_word1_plus_16": 1206,
+  "word3_equals_file_size": 1206
+}

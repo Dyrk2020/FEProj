@@ -1,0 +1,342 @@
+{
+  "families": {
+    "eifs": {
+      "recurrent_in_bounds_pair_word_indices": [],
+      "sample_count": 1,
+      "samples": [
+        {
+          "bytes": 68399245,
+          "head_hex": "c061340100000000f801000000000000010000000000000054f7a523070000000000000000000000d41e8821070000000000c121070000000080782107000000",
+          "in_bounds_adjacent_u32_pairs": [
+            {
+              "length": 0,
+              "offset": 20210112,
+              "word_index": 0
+            },
+            {
+              "length": 504,
+              "offset": 0,
+              "word_index": 1
+            },
+            {
+              "length": 0,
+              "offset": 504,
+              "word_index": 2
+            },
+            {
+              "length": 1,
+              "offset": 0,
+              "word_index": 3
+            },
+            {
+              "length": 0,
+              "offset": 1,
+              "word_index": 4
+            },
+            {
+              "length": 0,
+              "offset": 7,
+              "word_index": 7
+            },
+            {
+              "length": 0,
+              "offset": 0,
+              "word_index": 8
+            }
+          ],
+          "sha256": "9a2cc740f7d6bf3512b191e1146376cce25582178325c7b0837578c063ab302b",
+          "source": "artifacts/device-backups/wild-rift-google-play-7.2.0.2460-7246064-20260711/external-data-basic/files/DynamicDownload/puffer_res.eifs",
+          "source_kind": "file",
+          "u32_le": [
+            20210112,
+            0,
+            504,
+            0,
+            1,
+            0,
+            598079316,
+            7,
+            0,
+            0,
+            562568916,
+            7,
+            566296576,
+            7,
+            561545216,
+            7
+          ]
+        }
+      ]
+    },
+    "ifs_descriptor": {
+      "recurrent_in_bounds_pair_word_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7,
+        10,
+        11
+      ],
+      "sample_count": 2,
+      "samples": [
+        {
+          "bytes": 598559,
+          "head_hex": "00000000000000000000000010000000000000000100000004e2b41d00000000030000006f0000b410000000000000000400000083d96dfbe0a13d073cd84a9c",
+          "in_bounds_adjacent_u32_pairs": [
+            {
+              "length": 0,
+              "offset": 0,
+              "word_index": 0
+            },
+            {
+              "length": 0,
+              "offset": 0,
+              "word_index": 1
+            },
+            {
+              "length": 16,
+              "offset": 0,
+              "word_index": 2
+            },
+            {
+              "length": 0,
+              "offset": 16,
+              "word_index": 3
+            },
+            {
+              "length": 1,
+              "offset": 0,
+              "word_index": 4
+            },
+            {
+              "length": 3,
+              "offset": 0,
+              "word_index": 7
+            },
+            {
+              "length": 0,
+              "offset": 16,
+              "word_index": 10
+            },
+            {
+              "length": 4,
+              "offset": 0,
+              "word_index": 11
+            }
+          ],
+          "sha256": "9aaeb5e88a3e75a41626249d8c207f09bd5885f0d91b71cfc626a7d049a2c747",
+          "source": "artifacts/device-backups/wild-rift-google-play-7.2.0.2460-7246064-20260711/external-data-basic/files/Res/1690133797_3101_7.2.20.45_20260710185914_1796376366_cures.ifs.res",
+          "source_kind": "file",
+          "u32_le": [
+            0,
+            0,
+            0,
+            16,
+            0,
+            1,
+            498393604,
+            0,
+            3,
+            3019898991,
+            16,
+            0,
+            4,
+            4218280323,
+            121479648,
+            2622150716
+          ]
+        },
+        {
+          "bytes": 598971,
+          "head_hex": "0000000000000000000000001000000000000000010000008e60af1d0000000003000000000000001000000000000000040000007c0c9d32b60bb317f28efc49",
+          "in_bounds_adjacent_u32_pairs": [
+            {
+              "length": 0,
+              "offset": 0,
+              "word_index": 0
+            },
+            {
+              "length": 0,
+              "offset": 0,
+              "word_index": 1
+            },
+            {
+              "length": 16,
+              "offset": 0,
+              "word_index": 2
+            },
+            {
+              "length": 0,
+              "offset": 16,
+              "word_index": 3
+            },
+            {
+              "length": 1,
+              "offset": 0,
+              "word_index": 4
+            },
+            {
+              "length": 3,
+              "offset": 0,
+              "word_index": 7
+            },
+            {
+              "length": 0,
+              "offset": 3,
+              "word_index": 8
+            },
+            {
+              "length": 16,
+              "offset": 0,
+              "word_index": 9
+            },
+            {
+              "length": 0,
+              "offset": 16,
+              "word_index": 10
+            },
+            {
+              "length": 4,
+              "offset": 0,
+              "word_index": 11
+            }
+          ],
+          "sha256": "d8a58d1ed18b3b2223cb205fcba37cd6a5bcdb2bd3e316cd101c47e03036fe6e",
+          "source": "work/7.2.0.2460-7246064/apks/pad1.apk!assets/assetpack/first_source.ifs.res.png",
+          "source_kind": "archive_member",
+          "u32_le": [
+            0,
+            0,
+            0,
+            16,
+            0,
+            1,
+            498032782,
+            0,
+            3,
+            0,
+            16,
+            0,
+            4,
+            849153148,
+            397609910,
+            1241288434
+          ]
+        }
+      ]
+    },
+    "vfs": {
+      "recurrent_in_bounds_pair_word_indices": [
+        1
+      ],
+      "sample_count": 3,
+      "samples": [
+        {
+          "bytes": 232,
+          "catalog_location": "DynamicDownload/Res/LData/0a4a8f87f54f31e4cfcf9a6755acd980.vfs",
+          "head_hex": "010301046400000074000000e80000000103010435ea28d057d8634f31bbef8d69ed3f974319773383b002a1a64f90310bf6e67aef36071e1ad5df84e1fd56fa",
+          "in_bounds_adjacent_u32_pairs": [
+            {
+              "length": 116,
+              "offset": 100,
+              "word_index": 1
+            }
+          ],
+          "logical_name": "0a4a8f87f54f31e4cfcf9a6755acd980.vfs",
+          "sha256": "10e4bf081efc0239e8846bfcaba7e2a293224385442eeb705d1dd5981c002de4",
+          "source": "artifacts/device-backups/wild-rift-google-play-7.2.0.2460-7246064-20260711/external-data-basic/files/DynamicDownload/Res/LData/0a4a8f87f54f31e4cfcf9a6755acd980.vfs",
+          "source_kind": "file",
+          "u32_le": [
+            67175169,
+            100,
+            116,
+            232,
+            67175169,
+            3492342325,
+            1331943511,
+            2381298481,
+            2537549161,
+            863443267,
+            2701308035,
+            831541158,
+            2061956619,
+            503789295,
+            2229261594,
+            4200005089
+          ]
+        },
+        {
+          "bytes": 10376,
+          "catalog_location": "DynamicDownload/Res/LData/1d347608cd49ad30659e673faf6055ff.vfs",
+          "head_hex": "010301032405000034050000882800000103010398feab5b9355ed5276668cb3364e7739230d83a135c5837465ea7d90e2b340ded35b50043253f94ff8525803",
+          "in_bounds_adjacent_u32_pairs": [
+            {
+              "length": 1332,
+              "offset": 1316,
+              "word_index": 1
+            }
+          ],
+          "logical_name": "1d347608cd49ad30659e673faf6055ff.vfs",
+          "sha256": "7348cf9a469d2ed35ed60146dc6da26540ec59e468ebee71a862e1d5b7d200fd",
+          "source": "artifacts/device-backups/wild-rift-google-play-7.2.0.2460-7246064-20260711/external-data-basic/files/DynamicDownload/Res/LData/1d347608cd49ad30659e673faf6055ff.vfs",
+          "source_kind": "file",
+          "u32_le": [
+            50397953,
+            1316,
+            1332,
+            10376,
+            50397953,
+            1537998488,
+            1391285651,
+            3012322934,
+            964120118,
+            2709720355,
+            1954792757,
+            2424171109,
+            3728782306,
+            72375251,
+            1341739826,
+            56120056
+          ]
+        },
+        {
+          "bytes": 7680296,
+          "catalog_location": "DynamicDownload/Res/LData/f1d42e55ab1b435d5e16d4a04d0e6323.vfs",
+          "head_hex": "010301023411000044110000283175000103010217eb4761059f144d4b01a81bd7e86e726c9360cabdecdaf10c9f66cabe0942c0a0557c40dca4419a8e073a10",
+          "in_bounds_adjacent_u32_pairs": [
+            {
+              "length": 4420,
+              "offset": 4404,
+              "word_index": 1
+            }
+          ],
+          "logical_name": "f1d42e55ab1b435d5e16d4a04d0e6323.vfs",
+          "sha256": "50ccdc041a1bc6117ccef61226b1bb723c07cc2d6f426bc2c6d6a60747288533",
+          "source": "artifacts/device-backups/wild-rift-google-play-7.2.0.2460-7246064-20260711/external-data-basic/files/DynamicDownload/Res/LData/f1d42e55ab1b435d5e16d4a04d0e6323.vfs",
+          "source_kind": "file",
+          "u32_le": [
+            33620737,
+            4404,
+            4420,
+            7680296,
+            33620737,
+            1632103191,
+            1293197061,
+            463995211,
+            1919871191,
+            3395326828,
+            4057656509,
+            3395723020,
+            3225553342,
+            1081890208,
+            2587993308,
+            272238478
+          ]
+        }
+      ]
+    }
+  },
+  "schema_version": 1
+}

@@ -1,0 +1,104 @@
+{
+ "559228": {
+  "target": 2394256,
+  "key": 2828930866,
+  "length": 456,
+  "xored": false
+ },
+ "585336": {
+  "target": 2399856,
+  "key": 2828930866,
+  "length": 148,
+  "xored": false
+ },
+ "599244": {
+  "target": 2400032,
+  "key": 2828930866,
+  "length": 440,
+  "xored": false
+ },
+ "657092": {
+  "target": 2401216,
+  "key": 2828930866,
+  "length": 460,
+  "xored": false
+ },
+ "696404": {
+  "target": 2403952,
+  "key": 2828930866,
+  "length": 460,
+  "xored": false
+ },
+ "703088": {
+  "target": 2405440,
+  "key": 2828930866,
+  "length": 60,
+  "xored": true
+ },
+ "718524": {
+  "target": 2405808,
+  "key": 2828930866,
+  "length": 140,
+  "xored": true
+ },
+ "754924": {
+  "target": 2406224,
+  "key": 2828930866,
+  "length": 460,
+  "xored": false
+ },
+ "795836": {
+  "target": 2408048,
+  "key": 2828930866,
+  "length": 460,
+  "xored": false
+ },
+ "869896": {
+  "target": 2411120,
+  "key": 2828930866,
+  "length": 460,
+  "xored": false
+ },
+ "890140": {
+  "target": 2413888,
+  "key": 2828930866,
+  "length": 280,
+  "xored": true
+ },
+ "899612": {
+  "target": 2422400,
+  "key": 2828930866,
+  "length": 272,
+  "xored": true
+ },
+ "904596": {
+  "target": 2422736,
+  "key": 2828930866,
+  "length": 152,
+  "xored": false
+ },
+ "917700": {
+  "target": 2423216,
+  "key": 2828930866,
+  "length": 460,
+  "xored": false
+ },
+ "927048": {
+  "target": 2424256,
+  "key": 2828930866,
+  "length": 168,
+  "xored": false
+ },
+ "931664": {
+  "target": 2424432,
+  "key": 2828930866,
+  "length": 40,
+  "xored": true
+ },
+ "937532": {
+  "target": 2424480,
+  "key": 2828930866,
+  "length": 44,
+  "xored": false
+ }
+}

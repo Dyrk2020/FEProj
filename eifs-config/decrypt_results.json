@@ -1,0 +1,558 @@
+{
+ "cures_HET_data": [],
+ "cures_BET_data": [],
+ "cures_RegionB": [],
+ "flc_HET_data": [],
+ "flc_BET_data": [],
+ "vfs:0033fe362746b515063b7f1e1eab4378.vfs@0x10": [],
+ "vfs:0033fe362746b515063b7f1e1eab4378.vfs@0x14": [],
+ "vfs:0033fe362746b515063b7f1e1eab4378.vfs@0x18": [],
+ "vfs:0033fe362746b515063b7f1e1eab4378.vfs@0x1c": [],
+ "vfs:0033fe362746b515063b7f1e1eab4378.vfs@0x20": [],
+ "vfs:0033fe362746b515063b7f1e1eab4378.vfs@0x5d4": [],
+ "vfs:0033fe362746b515063b7f1e1eab4378.vfs@0x5e4": [],
+ "vfs:0033fe362746b515063b7f1e1eab4378.vfs@0x5e8": [],
+ "vfs:010ab74b2dcdd906a7099c2ffeabeeea.vfs@0x10": [],
+ "vfs:010ab74b2dcdd906a7099c2ffeabeeea.vfs@0x14": [],
+ "vfs:010ab74b2dcdd906a7099c2ffeabeeea.vfs@0x18": [],
+ "vfs:010ab74b2dcdd906a7099c2ffeabeeea.vfs@0x1c": [],
+ "vfs:010ab74b2dcdd906a7099c2ffeabeeea.vfs@0x20": [],
+ "vfs:010ab74b2dcdd906a7099c2ffeabeeea.vfs@0x54": [],
+ "vfs:010ab74b2dcdd906a7099c2ffeabeeea.vfs@0x64": [],
+ "vfs:010ab74b2dcdd906a7099c2ffeabeeea.vfs@0x68": [],
+ "fbau:14c4d301f81fe4392092c263bdd36804.bytes:head8-427": [],
+ "fbau:14c4d301f81fe4392092c263bdd36804.bytes:full": [
+  {
+   "cand": "xor1_00",
+   "score": 1.723,
+   "p_ratio": 0.6353,
+   "word_ratio": 0.4951,
+   "markers": {
+    "PreloadVariantsConfig": 1,
+    "shaderNameDic": 1,
+    "  \"": 2,
+    "{": 5
+   },
+   "keylen": 1
+  },
+  {
+   "cand": "xor1_3d",
+   "score": 1.281,
+   "p_ratio": 0.6392,
+   "word_ratio": 0.2036,
+   "markers": {
+    "{": 15,
+    "JSON@0": 1
+   },
+   "keylen": 1
+  },
+  {
+   "cand": "xorm_star_res",
+   "score": 1.279,
+   "p_ratio": 0.6792,
+   "word_ratio": 0.3198,
+   "markers": {
+    "star_res": 1,
+    "{": 24
+   },
+   "keylen": 8
+  },
+  {
+   "cand": "xorm_apollo_cures",
+   "score": 1.126,
+   "p_ratio": 0.6877,
+   "word_ratio": 0.2959,
+   "markers": {
+    "apollo": 1,
+    "{": 16
+   },
+   "keylen": 12
+  },
+  {
+   "cand": "xorm_apollo",
+   "score": 1.098,
+   "p_ratio": 0.6846,
+   "word_ratio": 0.2478,
+   "markers": {
+    "apollo": 1,
+    "{": 18
+   },
+   "keylen": 6
+  },
+  {
+   "cand": "xorm_cures",
+   "score": 1.068,
+   "p_ratio": 0.6704,
+   "word_ratio": 0.3145,
+   "markers": {
+    "cures": 2,
+    "{": 20
+   },
+   "keylen": 5
+  },
+  {
+   "cand": "xorm_nifs",
+   "score": 1.034,
+   "p_ratio": 0.6721,
+   "word_ratio": 0.2444,
+   "markers": {
+    "nifs": 2,
+    "{": 14
+   },
+   "keylen": 4
+  },
+  {
+   "cand": "xor1_41",
+   "score": 1.021,
+   "p_ratio": 0.7778,
+   "word_ratio": 0.406,
+   "markers": {
+    "{": 8
+   },
+   "keylen": 1
+  },
+  {
+   "cand": "xor1_5a",
+   "score": 1.015,
+   "p_ratio": 0.7886,
+   "word_ratio": 0.3931,
+   "markers": {
+    "{": 3
+   },
+   "keylen": 1
+  },
+  {
+   "cand": "xor1_5c",
+   "score": 1.01,
+   "p_ratio": 0.78,
+   "word_ratio": 0.3796,
+   "markers": {
+    "{": 6
+   },
+   "keylen": 1
+  },
+  {
+   "cand": "xor1_40",
+   "score": 0.996,
+   "p_ratio": 0.7849,
+   "word_ratio": 0.3423,
+   "markers": {
+    "{": 7
+   },
+   "keylen": 1
+  },
+  {
+   "cand": "xor1_5b",
+   "score": 0.994,
+   "p_ratio": 0.782,
+   "word_ratio": 0.3435,
+   "markers": {
+    "{": 19
+   },
+   "keylen": 1
+  },
+  {
+   "cand": "xor1_59",
+   "score": 0.992,
+   "p_ratio": 0.7891,
+   "word_ratio": 0.3264,
+   "markers": {
+    "{": 10
+   },
+   "keylen": 1
+  },
+  {
+   "cand": "xor1_5e",
+   "score": 0.992,
+   "p_ratio": 0.7866,
+   "word_ratio": 0.3298,
+   "markers": {
+    "{": 4
+   },
+   "keylen": 1
+  },
+  {
+   "cand": "xor1_42",
+   "score": 0.991,
+   "p_ratio": 0.7803,
+   "word_ratio": 0.3411,
+   "markers": {
+    "{": 102
+   },
+   "keylen": 1
+  },
+  {
+   "cand": "xor1_55",
+   "score": 0.989,
+   "p_ratio": 0.7864,
+   "word_ratio": 0.325,
+   "markers": {
+    "{": 14
+   },
+   "keylen": 1
+  },
+  {
+   "cand": "xor1_58",
+   "score": 0.989,
+   "p_ratio": 0.7812,
+   "word_ratio": 0.3347,
+   "markers": {
+    "{": 5
+   },
+   "keylen": 1
+  },
+  {
+   "cand": "xor1_43",
+   "score": 0.988,
+   "p_ratio": 0.7803,
+   "word_ratio": 0.3354,
+   "markers": {
+    "{": 117
+   },
+   "keylen": 1
+  },
+  {
+   "cand": "xor1_56",
+   "score": 0.986,
+   "p_ratio": 0.7856,
+   "word_ratio": 0.3201,
+   "markers": {
+    "{": 13
+   },
+   "keylen": 1
+  },
+  {
+   "cand": "xor1_50",
+   "score": 0.982,
+   "p_ratio": 0.7776,
+   "word_ratio": 0.3291,
+   "markers": {
+    "{": 4
+   },
+   "keylen": 1
+  },
+  {
+   "cand": "xor1_52",
+   "score": 0.982,
+   "p_ratio": 0.7847,
+   "word_ratio": 0.3154,
+   "markers": {
+    "{": 6
+   },
+   "keylen": 1
+  },
+  {
+   "cand": "xor1_57",
+   "score": 0.982,
+   "p_ratio": 0.7781,
+   "word_ratio": 0.3271,
+   "markers": {
+    "{": 8
+   },
+   "keylen": 1
+  },
+  {
+   "cand": "xor1_51",
+   "score": 0.981,
+   "p_ratio": 0.7751,
+   "word_ratio": 0.332,
+   "markers": {
+    "{": 5
+   },
+   "keylen": 1
+  },
+  {
+   "cand": "xor1_5d",
+   "score": 0.981,
+   "p_ratio": 0.7847,
+   "word_ratio": 0.3533,
+   "markers": {
+    "{": 2
+   },
+   "keylen": 1
+  },
+  {
+   "cand": "xorm_cures_data",
+   "score": 0.981,
+   "p_ratio": 0.6807,
+   "word_ratio": 0.3208,
+   "markers": {
+    "cures": 1,
+    "{": 18
+   },
+   "keylen": 10
+  }
+ ],
+ "fbau:2e57c9fb97ba716df7e80d40d6592006.bytes:head8-1202": [],
+ "fbau:2e57c9fb97ba716df7e80d40d6592006.bytes:full": [
+  {
+   "cand": "xorm_star_res",
+   "score": 1.495,
+   "p_ratio": 0.571,
+   "word_ratio": 0.168,
+   "markers": {
+    "star_res": 2,
+    "{": 40
+   },
+   "keylen": 8
+  },
+  {
+   "cand": "xorm_apollo",
+   "score": 1.207,
+   "p_ratio": 0.5732,
+   "word_ratio": 0.1873,
+   "markers": {
+    "apollo": 2,
+    "{": 18
+   },
+   "keylen": 6
+  },
+  {
+   "cand": "xorm_nifs",
+   "score": 1.1,
+   "p_ratio": 0.5745,
+   "word_ratio": 0.1719,
+   "markers": {
+    "nifs": 5,
+    "{": 39
+   },
+   "keylen": 4
+  },
+  {
+   "cand": "xorm_cures",
+   "score": 1.097,
+   "p_ratio": 0.5718,
+   "word_ratio": 0.1711,
+   "markers": {
+    "cures": 4,
+    "{": 48
+   },
+   "keylen": 5
+  },
+  {
+   "cand": "xorm_apollo_cures",
+   "score": 1.055,
+   "p_ratio": 0.5742,
+   "word_ratio": 0.1809,
+   "markers": {
+    "apollo": 1,
+    "cures": 1,
+    "{": 23
+   },
+   "keylen": 12
+  },
+  {
+   "cand": "xorm_puffer",
+   "score": 0.913,
+   "p_ratio": 0.5715,
+   "word_ratio": 0.2034,
+   "markers": {
+    "puffer": 2,
+    "{": 24
+   },
+   "keylen": 6
+  },
+  {
+   "cand": "xorm_cures_data",
+   "score": 0.897,
+   "p_ratio": 0.5696,
+   "word_ratio": 0.1743,
+   "markers": {
+    "cures": 2,
+    "{": 24
+   },
+   "keylen": 10
+  },
+  {
+   "cand": "xorm_nifs_key",
+   "score": 0.897,
+   "p_ratio": 0.5718,
+   "word_ratio": 0.1711,
+   "markers": {
+    "nifs": 2,
+    "{": 39
+   },
+   "keylen": 8
+  },
+  {
+   "cand": "xorm_cures_v2",
+   "score": 0.878,
+   "p_ratio": 0.5642,
+   "word_ratio": 0.1479,
+   "markers": {
+    "cures": 2,
+    "{": 25
+   },
+   "keylen": 8
+  },
+  {
+   "cand": "xorm_filelistcheck",
+   "score": 0.852,
+   "p_ratio": 0.5735,
+   "word_ratio": 0.1777,
+   "markers": {
+    ".res": 1,
+    "{": 38
+   },
+   "keylen": 17
+  },
+  {
+   "cand": "xorm_vfs_res_name",
+   "score": 0.795,
+   "p_ratio": 0.5508,
+   "word_ratio": 0.1077,
+   "markers": {
+    ".vfs": 1,
+    "{": 11
+   },
+   "keylen": 36
+  },
+  {
+   "cand": "xorm_cures_ifs",
+   "score": 0.79,
+   "p_ratio": 0.5698,
+   "word_ratio": 0.1611,
+   "markers": {
+    "cures": 1,
+    "{": 29
+   },
+   "keylen": 9
+  },
+  {
+   "cand": "xor1_43",
+   "score": 0.728,
+   "p_ratio": 0.5889,
+   "word_ratio": 0.1973,
+   "markers": {
+    "{": 17
+   },
+   "keylen": 1
+  },
+  {
+   "cand": "xor1_47",
+   "score": 0.726,
+   "p_ratio": 0.5859,
+   "word_ratio": 0.2,
+   "markers": {
+    "{": 4
+   },
+   "keylen": 1
+  },
+  {
+   "cand": "xor1_55",
+   "score": 0.723,
+   "p_ratio": 0.5859,
+   "word_ratio": 0.1938,
+   "markers": {
+    "{": 23
+   },
+   "keylen": 1
+  },
+  {
+   "cand": "xor1_66",
+   "score": 0.723,
+   "p_ratio": 0.5747,
+   "word_ratio": 0.2175,
+   "markers": {
+    "{": 9
+   },
+   "keylen": 1
+  },
+  {
+   "cand": "xor1_44",
+   "score": 0.722,
+   "p_ratio": 0.5867,
+   "word_ratio": 0.1902,
+   "markers": {
+    "{": 12
+   },
+   "keylen": 1
+  },
+  {
+   "cand": "xorm_WR",
+   "score": 0.721,
+   "p_ratio": 0.5852,
+   "word_ratio": 0.1914,
+   "markers": {
+    "{": 16
+   },
+   "keylen": 2
+  },
+  {
+   "cand": "xor1_46",
+   "score": 0.72,
+   "p_ratio": 0.5823,
+   "word_ratio": 0.1946,
+   "markers": {
+    "{": 9
+   },
+   "keylen": 1
+  },
+  {
+   "cand": "xor1_67",
+   "score": 0.72,
+   "p_ratio": 0.5723,
+   "word_ratio": 0.2163,
+   "markers": {
+    "{": 10
+   },
+   "keylen": 1
+  },
+  {
+   "cand": "xor1_57",
+   "score": 0.719,
+   "p_ratio": 0.5847,
+   "word_ratio": 0.188,
+   "markers": {
+    "{": 14
+   },
+   "keylen": 1
+  },
+  {
+   "cand": "xor1_54",
+   "score": 0.718,
+   "p_ratio": 0.5837,
+   "word_ratio": 0.188,
+   "markers": {
+    "{": 26
+   },
+   "keylen": 1
+  },
+  {
+   "cand": "xor1_58",
+   "score": 0.718,
+   "p_ratio": 0.5869,
+   "word_ratio": 0.1816,
+   "markers": {
+    "{": 6
+   },
+   "keylen": 1
+  },
+  {
+   "cand": "xor1_45",
+   "score": 0.717,
+   "p_ratio": 0.5842,
+   "word_ratio": 0.1855,
+   "markers": {
+    "{": 12
+   },
+   "keylen": 1
+  },
+  {
+   "cand": "xor1_64",
+   "score": 0.717,
+   "p_ratio": 0.5752,
+   "word_ratio": 0.2034,
+   "markers": {
+    "{": 21
+   },
+   "keylen": 1
+  }
+ ],
+ "_meta": {
+  "n_regions": 25,
+  "n_candidates": 62550,
+  "runtime_s": 73.9,
+  "saved": []
+ }
+}
