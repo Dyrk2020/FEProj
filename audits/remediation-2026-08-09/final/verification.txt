@@ -1,0 +1,47 @@
+Batch 5 final verification
+Date: 2026-08-09
+Workspace: <research-workspace>
+
+Status: COMPLETE WITH OPEN ITEMS; no commit created.
+
+Executed commands and exact results
+- python3 -m compileall -q tools: PASS, exit 0.
+- python3 tools/research_schema/validate_examples.py: PASS, 4 valid records; 3 invalid cases rejected.
+- python3 -m json.tool tools/research_schema/research.schema.json >/dev/null: PASS.
+- python3 tools/research_schema/compatibility_check.py: PASS; wrote final/schema-compatibility.json.
+- python3 -m pytest tools/aggressive_logic_bridge/tests tools/resource_mod_feasibility/tests tools/feproj_static/tests -q: PASS, 52 passed in 0.16s.
+- Final combined core suite: PASS, 130 passed in 0.62s; including the 7 artifact-check command tests, the final verification suite completed with 137 passed in 0.79s.
+- python3 -m pytest work/ai-cfg-recovery-2026-08-04/test_flow_parse_remediation.py work/ai-cfg-recovery-2026-08-04/test_piece_key_hash_unified.py work/2026-08-09-remediation/c2-crypto/test_c2_crypto.py work/aggressive-logic-bridge-2026-07-13/track-a/test_build_a4c1_evidence.py work/aggressive-logic-bridge-2026-07-13/track-a/test_a2_host_runner.py work/aggressive-logic-bridge-2026-07-13/track-b/test_b2_host_runner.py -q: PASS, 78 passed in 0.47s.
+- python3 work/ai-cfg-recovery-2026-08-04/fffba_regression_test.py: PASS, all assertions passed.
+- python3 tools/crypto_validation/validate_crypto.py: PASS, exit 0.
+- python3 tools/aggressive_logic_bridge/hash_anchors.py: PASS, all_ok=true, bad=0. It wrote work/aggressive-logic-bridge-2026-07-13/input-manifest.json as a validator side effect; this is noted as an out-of-scope file in change-inventory.txt.
+- python3 work/offline-oodle-extractor/host_validator.py: PASS; five canonical host outputs validated, synthetic truncated/header negatives rejected; CRC=unsupported.
+- python3 tools/verify_artifact_chain.py --check --output work/2026-08-09-remediation/c3-provenance/artifact-chain-report-final.json: EXPECTED PARTIAL, exit 1 because two available-file hash mismatches remain. The report is emitted and contains nested external-path findings and historical_unavailable records; historical-unavailable inputs alone do not fail the check.
+- python3 -m pytest work/ai-cfg-recovery-2026-08-04/tests/test_type_def_layout.py -q: NOT RUN, 0 tests collected, exit 5; no pytest tests were defined for that path.
+- python3 -m pytest work/aggressive-logic-bridge-2026-07-13/track-a/test_stage_read.py work/aggressive-logic-bridge-2026-07-13/track-b/test_stage_battle_logic.py -q: device prerequisite unavailable; command timed out after 120 seconds waiting on adb/device. This is not a code failure and is excluded from pure-local PASS/FAIL.
+
+Schema compatibility
+Batch 0 `coordinate` intentionally requires `{view, kind, value}`. Current Batch 3 coordinate output is a non-lossy bundle `{file_offset, static_va, runtime_va, rva, image_base, view, frame}`. The adapter does not weaken the schema and does not overwrite output: it requires an explicit selected kind and projects it into `{view, kind, value, image_base}`. Both generic and fixed-anchor bundles validate for every available coordinate. The mismatch and resolution are machine-readable in schema-compatibility.json.
+
+Hard-error checks
+- fixed_158853c execution is exactly 0x15a853c; storage/runtime slot 0x158853c, source 0x157853c, caller 0x3ec41e8.
+- Oodle uses input SHA-256, input size and first u32 LE declared output size; it does not compare compressed file size to configured output size. Output size/hash/ELF are independently validated.
+- A4C1 proof_sequence.index and ordered_event_index are raw ordered event indexes, not compact proof ordinal.
+- Artifact verifier reports hash mismatch, nested external paths, and historical_unavailable rather than hiding or reconstructing them.
+
+Evidence boundaries
+- A4C1 is H helper evidence. `proof_scope=pre_truncation_prefix`; `official_package_attached=false`; accepted runs are the two versioned runs only. Helper-side libjavacore read is non-qualifying.
+- B2 is only `B2_MODULE_LOAD_BEGIN`; no Lua loader completion.
+- C0/C1/C2/C3 statuses are in gate-matrix.json: PASS/PARTIAL/PASS/PARTIAL respectively, based on real results.
+- C4 named resource→Lua loader, C5 metadata parser, C6 registration, C7 behavior, and C8 wire/server remain NOT_ESTABLISHED; no test success was promoted into research claims.
+
+Forbidden-directory check
+Read-only `find ... -newermt '2026-08-09 00:00:00'` showed existing/new files under artifacts/, reports/, and research/ (including research/INDEX.md). No edits were made there by this audit. These paths are listed for visibility only; historical timestamps do not prove this session caused the files. Raw corpus and native-container paths were not modified.
+
+Unresolved items
+- Basic 22/PAD twin corpus unavailable; only two Basic Lua samples were tested.
+- Oodle CRC algorithm/coverage unsupported.
+- Device/Android build unavailable.
+- Two historical artifact hashes mismatch and several inputs are historical_unavailable; these remain open rather than being repaired in place.
+- Strict `--check` returns exit 1 for the two remaining available-file hash mismatches; historical_unavailable-only findings remain non-blocking. This is the recorded C3 PARTIAL result.
+- No commit was created.

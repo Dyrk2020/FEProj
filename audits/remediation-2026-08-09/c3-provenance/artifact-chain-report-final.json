@@ -1,0 +1,2153 @@
+{
+  "anchors": {
+    "WR-2026-08-A01-xapk": {
+      "input_path": "-",
+      "input_sha256": null,
+      "output_path": "<research-workspace>/artifacts/wild-rift-global-7.2.0.2460-7246064.xapk",
+      "output_sha256": "3aaf8d77fd312b9b182e7d8f695290a6cd6f40a6c9ac743eefae27532b66fdf7",
+      "status": "observed"
+    },
+    "WR-2026-08-A02-libFEProj": {
+      "input_path": "<research-workspace>/corpus/native-elf/decompressed-arm64/libFEProj.so",
+      "input_sha256": "5e608f2da59371a583929aed90e4ec4985bc8ee12fc0d44124000b94d1b8a02a",
+      "output_path": "-",
+      "output_sha256": null,
+      "status": "observed"
+    },
+    "WR-2026-08-A03-libil2cpp": {
+      "input_path": "<research-workspace>/corpus/native-elf/decompressed-arm64/libil2cpp.so",
+      "input_sha256": "6e8e7002169bc658fbe64be4c6e216e22c4bf719a620940e77890b9e57211dc6",
+      "output_path": "-",
+      "output_sha256": null,
+      "status": "observed"
+    },
+    "WR-2026-08-A04-libLNet": {
+      "input_path": "<research-workspace>/corpus/native-elf/decompressed-arm64/libLNet.so",
+      "input_sha256": "55c2879f7acdd0c64fb308ce3a0a1007d308417e475b431dabd9c5e0f8ab5a86",
+      "output_path": "-",
+      "output_sha256": null,
+      "status": "observed"
+    },
+    "WR-2026-08-A05-libtdr": {
+      "input_path": "<research-workspace>/corpus/native-elf/decompressed-arm64/libtdr.so",
+      "input_sha256": "94c3b45384d810c9136084eefabe6ab6ef5e1808017af67ffc9c53fc3876495d",
+      "output_path": "-",
+      "output_sha256": null,
+      "status": "observed"
+    },
+    "WR-2026-08-A06-libunity": {
+      "input_path": "<research-workspace>/corpus/native-elf/decompressed-arm64/libunity.so",
+      "input_sha256": "6dfbec920ddd0539de4ab2f1d5aef783f203399ab46939daa46b51f1b8c215ac",
+      "output_path": "-",
+      "output_sha256": null,
+      "status": "observed"
+    },
+    "WR-2026-08-A07-global-metadata": {
+      "input_path": "<research-workspace>/corpus/basic-data/external-basic/files/il2cpp/Metadata/global-metadata.dat",
+      "input_sha256": "5bd0f8b0efb4ebbbbe148300dc17166f9335a9e2d5ff20de42edb22267fde45d",
+      "output_path": "-",
+      "output_sha256": null,
+      "status": "observed"
+    },
+    "WR-2026-08-A08-TestMain": {
+      "input_path": "<research-workspace>/corpus/basic-data/external-basic/files/Res/FETest/TestMain.res",
+      "input_sha256": "ef953d6f8ea871624a11ed21957f7a3f541a0cd18d9cbcae3b154bd9f14a8dfc",
+      "output_path": "-",
+      "output_sha256": null,
+      "status": "observed"
+    },
+    "WR-2026-08-A09-QuickTest": {
+      "input_path": "<research-workspace>/corpus/basic-data/external-basic/files/Res/FETest/QuickTest.res",
+      "input_sha256": "df8cd97650fca73928f7189f8e733b8d811bb8dc4c58603611e21ef002d25b67",
+      "output_path": "-",
+      "output_sha256": null,
+      "status": "observed"
+    },
+    "WR-2026-08-A10-BattleLogic": {
+      "input_path": "<research-workspace>/corpus/basic-data/external-basic/files/Res/FETest/Logic/BattleLogic.res",
+      "input_sha256": "347a4ff3217510443d1b3384b1fdbd3d17d62e6c05f8be0b8ae39e61a64417d5",
+      "output_path": "-",
+      "output_sha256": null,
+      "status": "observed"
+    },
+    "WR-2026-08-A11-Loader": {
+      "input_path": "<research-workspace>/corpus/basic-data/external-basic/files/Res/FETest/FrameWork/Loader.res",
+      "input_sha256": "1262f5152344cd3c50564be19516c226e4a3816397874145ffc486d8a22b2baa",
+      "output_path": "-",
+      "output_sha256": null,
+      "status": "observed"
+    },
+    "WR-2026-08-A12-ScriptMgr": {
+      "input_path": "<research-workspace>/corpus/basic-data/external-basic/files/Res/FETest/FrameWork/ScriptMgr.res",
+      "input_sha256": "0b4de8199bd4d15530500c653ec5e2fa3abf4566bc1b731ef37f13176a855dea",
+      "output_path": "-",
+      "output_sha256": null,
+      "status": "observed"
+    },
+    "WR-2026-08-A13-FlowAction": {
+      "input_path": "<research-workspace>/corpus/basic-data/external-basic/files/Res/FETest/FrameWork/FlowAction.res",
+      "input_sha256": "17e9691d0cb125590957b2a196a2adc31ad1584123b7da66aaea811def630fc4",
+      "output_path": "-",
+      "output_sha256": null,
+      "status": "observed"
+    },
+    "WR-2026-08-A14-GlobalFunc": {
+      "input_path": "<research-workspace>/corpus/basic-data/external-basic/files/Res/FETest/FrameWork/GlobalFunc.res",
+      "input_sha256": "01dc6c35c0298cca364533d689842745f882518ad738f6d2bad9b4ea8cab79e1",
+      "output_path": "-",
+      "output_sha256": null,
+      "status": "observed"
+    },
+    "WR-2026-08-A15-PathHashMap": {
+      "input_path": "<research-workspace>/corpus/basic-data/external-basic/files/Res/FETest/FrameWork/PathHashMap.res",
+      "input_sha256": "7bb74e7b74557dc22645a33d2d70c1d7222f91fbeba4ad1841e6104b72650cfe",
+      "output_path": "-",
+      "output_sha256": null,
+      "status": "observed"
+    },
+    "WR-2026-08-A16-FEEnumForLua": {
+      "input_path": "<research-workspace>/corpus/basic-data/external-basic/files/Res/FETest/LuaGen/FEEnumForLua.res",
+      "input_sha256": "0b35958bd076277feb955f614fd8916e4c098d1e5ded9cde50405e59b35548d4",
+      "output_path": "-",
+      "output_sha256": null,
+      "status": "observed"
+    },
+    "WR-2026-08-A17-LuaStruct": {
+      "input_path": "<research-workspace>/corpus/basic-data/external-basic/files/Res/FETest/LuaGen/LuaStruct.res",
+      "input_sha256": "c898e35302111dc83868a0ee62b703ecdf2daade40c500112040ef5098df647e",
+      "output_path": "-",
+      "output_sha256": null,
+      "status": "observed"
+    },
+    "WR-2026-08-A18-safecall": {
+      "input_path": "<research-workspace>/corpus/basic-data/external-basic/files/Res/FETest/common/safecall.res",
+      "input_sha256": "c7a5610f5f19f1bd8d4b8bbe6d3718feadf0aca4b4f295f6854ca2f7f59c479f",
+      "output_path": "-",
+      "output_sha256": null,
+      "status": "observed"
+    },
+    "WR-2026-08-A19-FETest-22set": {
+      "input_path": "<research-workspace>/corpus/basic-data/external-basic/files/Res/FETest",
+      "input_sha256": "error:[Errno 21] Is a directory: '<research-workspace>/corpus/basic-data/external-basic/files/Res/FETest'",
+      "output_path": "-",
+      "output_sha256": null,
+      "status": "observed"
+    },
+    "WR-2026-08-A20-flist": {
+      "input_path": "<research-workspace>/corpus/basic-data/external-basic/files/Res/apollo_reslist.flist",
+      "input_sha256": "d781ef4a83156ac951ead809ae9a3612dfc2cc31ecd35c65df77a91ba0388d52",
+      "output_path": "-",
+      "output_sha256": null,
+      "status": "observed"
+    },
+    "WR-2026-08-A21-filelist": {
+      "input_path": "<research-workspace>/corpus/basic-data/external-basic/files/Res/filelist.json",
+      "input_sha256": "082dd53ea257a06a9f4d4efb046bbf279c2b4d9de6614a1ce9166dbec4b0ef17",
+      "output_path": "-",
+      "output_sha256": null,
+      "status": "observed"
+    },
+    "WR-2026-08-A22-cures.ifs.res": {
+      "input_path": "<research-workspace>/corpus/basic-data/external-basic/files/Res/1690133797_3101_7.2.20.45_20260710185914_1796376366_cures.ifs.res",
+      "input_sha256": "9aaeb5e88a3e75a41626249d8c207f09bd5885f0d91b71cfc626a7d049a2c747",
+      "output_path": "-",
+      "output_sha256": null,
+      "status": "observed"
+    },
+    "WR-2026-08-A23-VerInfo": {
+      "input_path": "<research-workspace>/corpus/basic-data/external-basic/files/Res/VerInfo.bytes",
+      "input_sha256": "5c30a468bb7959c713721f58669d084de1cc06f14005c22e49c5d43cfba9dc5a",
+      "output_path": "-",
+      "output_sha256": null,
+      "status": "observed"
+    },
+    "WR-2026-08-A24-LData-vfs": {
+      "input_path": "<research-workspace>/corpus/basic-data/external-basic/files/Res/LData/4069fcb0d5f7d769ad08e39d9e179d4f.vfs",
+      "input_sha256": "ecd1a9a04b40a706f347645bd46dfb9b07720656b58ea5a22e401bd971757120",
+      "output_path": "-",
+      "output_sha256": null,
+      "status": "observed"
+    },
+    "WR-2026-08-B01-xor30-text": {
+      "input_path": "<research-workspace>/corpus/native-elf/decompressed-arm64/libFEProj.so",
+      "input_sha256": "5e608f2da59371a583929aed90e4ec4985bc8ee12fc0d44124000b94d1b8a02a",
+      "output_path": "<research-workspace>/work/static-analysis-2026-08-04/feproj-text-xor30.bin",
+      "output_sha256": "a3aba85118ead8139c4dfd57ceeeb8f4bb229e11a57a8b838c7f0d470e86f72c",
+      "status": "derived"
+    },
+    "WR-2026-08-B02-island-catalog-771": {
+      "input_path": "<research-workspace>/corpus/native-elf/decompressed-arm64/libFEProj.so",
+      "input_sha256": "5e608f2da59371a583929aed90e4ec4985bc8ee12fc0d44124000b94d1b8a02a",
+      "output_path": "<research-workspace>/work/static-analysis-2026-08-04/island-catalog.jsonl",
+      "output_sha256": "332c8705337134270f7d9ca1e6202ebf1f50bc4ef4e38ae2c494291199dffb8e",
+      "status": "superseded"
+    },
+    "WR-2026-08-B03-edges": {
+      "input_path": "<research-workspace>/corpus/native-elf/decompressed-arm64/libFEProj.so",
+      "input_sha256": "5e608f2da59371a583929aed90e4ec4985bc8ee12fc0d44124000b94d1b8a02a",
+      "output_path": "<research-workspace>/work/static-analysis-2026-08-04/edges.json",
+      "output_sha256": "fc8d2d8d099a69ca0800611c5b5eb31bac90ee00a5fd1412c7b9f7147a416f77",
+      "status": "derived"
+    },
+    "WR-2026-08-B04-strings": {
+      "input_path": "<research-workspace>/corpus/native-elf/decompressed-arm64/libFEProj.so",
+      "input_sha256": "5e608f2da59371a583929aed90e4ec4985bc8ee12fc0d44124000b94d1b8a02a",
+      "output_path": "<research-workspace>/work/static-analysis-2026-08-04/strings.jsonl",
+      "output_sha256": "be8bf0eeafe2af5295bcd41f16b4861eb413f75ce7ab2638f9ab5e795c7c6a90",
+      "status": "derived"
+    },
+    "WR-2026-08-B05-base-manifest": {
+      "input_path": "<research-workspace>/work/static-analysis-2026-08-04/build_catalog.py",
+      "input_sha256": "missing",
+      "output_path": "<research-workspace>/work/static-analysis-2026-08-04/MANIFEST.json",
+      "output_sha256": "e0f7d3809498cff623fc5266a7501b52d823c542cbd1cb5d8a8451508168cee0",
+      "status": "derived"
+    },
+    "WR-2026-08-B06-progress-snapshot": {
+      "input_path": "<research-workspace>/work/static-analysis-2026-08-04/build_catalog.py",
+      "input_sha256": "missing",
+      "output_path": "<research-workspace>/work/static-analysis-2026-08-04/PROGRESS.md",
+      "output_sha256": "da9e7ff8607af45b1d33261fbaacc48ae3b1c1d700be7ec34edc4acb2e923796",
+      "status": "derived"
+    },
+    "WR-2026-08-C01-dump-target": {
+      "input_path": "<research-workspace>/corpus/native-elf/decompressed-arm64/libFEProj.so",
+      "input_sha256": "5e608f2da59371a583929aed90e4ec4985bc8ee12fc0d44124000b94d1b8a02a",
+      "output_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/raw/",
+      "output_sha256": "error:[Errno 21] Is a directory: '<research-workspace>/work/ai-cfg-recovery-2026-08-04/raw/'",
+      "status": "derived"
+    },
+    "WR-2026-08-C02-page-forensics": {
+      "input_path": "<research-workspace>/corpus/native-elf/decompressed-arm64/libFEProj.so",
+      "input_sha256": "5e608f2da59371a583929aed90e4ec4985bc8ee12fc0d44124000b94d1b8a02a",
+      "output_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/text-decode-map.json",
+      "output_sha256": "ad3a3dd02f4fbbf91322c07d9bdf1a5825632659a59f6c6e710e1d0e0b9e92d8",
+      "status": "derived"
+    },
+    "WR-2026-08-C03-xor-islands": {
+      "input_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/text-decode-map.json",
+      "input_sha256": "ad3a3dd02f4fbbf91322c07d9bdf1a5825632659a59f6c6e710e1d0e0b9e92d8",
+      "output_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/xor-islands.json",
+      "output_sha256": "885bb8531e67a6d6ba26b234b36c81791b21407851700f71d2b4ce470d88eb09",
+      "status": "derived"
+    },
+    "WR-2026-08-C04-island-inventory": {
+      "input_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/xor-islands.json",
+      "input_sha256": "885bb8531e67a6d6ba26b234b36c81791b21407851700f71d2b4ce470d88eb09",
+      "output_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/island-inventory.json",
+      "output_sha256": "6680f9e2d0a61d38d9e6fec5961ea43d8d135bdeb3fb4b012227dc21e5834c4b",
+      "status": "derived"
+    },
+    "WR-2026-08-C05-island-catalog-enhanced": {
+      "input_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/island-catalog-enhanced.jsonl",
+      "input_sha256": "0b71e5f09f013ddf83eded4c6401174904ceafbff2d43af9c1fc07a746e2513d",
+      "output_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/island-catalog-enhanced.jsonl",
+      "output_sha256": "0b71e5f09f013ddf83eded4c6401174904ceafbff2d43af9c1fc07a746e2513d",
+      "status": "derived"
+    },
+    "WR-2026-08-C06-remap-table": {
+      "input_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/runtime-layout.json",
+      "input_sha256": "9d77b6ea3ef3261ab1b9df79073b61b19fb5b576de7587912f1b89709673fbb1",
+      "output_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/remap-table.md",
+      "output_sha256": "3e7ea38a7d1872fdfa8fc9e0d59146c9c930819db205e861ab33bda5446c0252",
+      "status": "derived"
+    },
+    "WR-2026-08-C07-runtime-layout": {
+      "input_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/runtime-layout.json",
+      "input_sha256": "9d77b6ea3ef3261ab1b9df79073b61b19fb5b576de7587912f1b89709673fbb1",
+      "output_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/runtime-layout.json",
+      "output_sha256": "9d77b6ea3ef3261ab1b9df79073b61b19fb5b576de7587912f1b89709673fbb1",
+      "status": "derived"
+    },
+    "WR-2026-08-D01-lua-format": {
+      "input_path": "<research-workspace>/corpus/basic-data/external-basic/files/Res/FETest/",
+      "input_sha256": "error:[Errno 21] Is a directory: '<research-workspace>/corpus/basic-data/external-basic/files/Res/FETest/'",
+      "output_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/lua-gen-dump/",
+      "output_sha256": "error:[Errno 21] Is a directory: '<research-workspace>/work/ai-cfg-recovery-2026-08-04/lua-gen-dump/'",
+      "status": "derived"
+    },
+    "WR-2026-08-D02-fe-lua-api": {
+      "input_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/dispatcher-881-cases.tsv",
+      "input_sha256": "b9455e100ea9dff3aa7c0399ba776e701b36fbf884223ff5406eaf5b0af3c20d",
+      "output_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/fe-lua-api.json",
+      "output_sha256": "6fe8795b71ec72f5e8c03cfb74c89d867958c75bc292b67018ba7e7e62cb57eb",
+      "status": "derived"
+    },
+    "WR-2026-08-D03-registry-dump": {
+      "input_path": "<research-workspace>/corpus/native-elf/decompressed-arm64/libFEProj.so",
+      "input_sha256": "5e608f2da59371a583929aed90e4ec4985bc8ee12fc0d44124000b94d1b8a02a",
+      "output_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/registry-dump.json",
+      "output_sha256": "d4867aa78d504fbf66d9558854f5b3054b41a790b755f238acfc24f40c158c0c",
+      "status": "derived"
+    },
+    "WR-2026-08-D04-dispatcher-881": {
+      "input_path": "<research-workspace>/corpus/native-elf/decompressed-arm64/libFEProj.so",
+      "input_sha256": "5e608f2da59371a583929aed90e4ec4985bc8ee12fc0d44124000b94d1b8a02a",
+      "output_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/dispatcher-881-cases.tsv",
+      "output_sha256": "b9455e100ea9dff3aa7c0399ba776e701b36fbf884223ff5406eaf5b0af3c20d",
+      "status": "derived"
+    },
+    "WR-2026-08-E01-probe-android": {
+      "input_path": "<scratch-workspace>/feproj-probe/probe-android",
+      "input_sha256": "63116e964b93acd510059aa458c3c1f65f49533def61d2e5137ecbfe159b9f98",
+      "output_path": "<scratch-workspace>/island27.dump",
+      "output_sha256": "d92841c730cd7d30356540ee0d8f0a2d3a51f76183c8d46d64b0d7965b69a5c5",
+      "status": "observed"
+    },
+    "WR-2026-08-E02-probe-lua": {
+      "input_path": "<scratch-workspace>/feproj-probe/probe-lua",
+      "input_sha256": "622eae2d50c80fc9cc190ceccfbdb2f13e1d510643b1e3e46cd7c00ad2736c68",
+      "output_path": "<scratch-workspace>/dispatch-runtime.dump",
+      "output_sha256": "2d9152508118def0cd271297f4e0826734fb666794384d1ad25defd918312ce5",
+      "status": "observed"
+    },
+    "WR-2026-08-E03-probe-trace": {
+      "input_path": "<scratch-workspace>/feproj-probe/probe-trace",
+      "input_sha256": "3f1b8a35e605c1ad3880e152311bbb3b060ffb998ed612f63861383725215fe7",
+      "output_path": "<scratch-workspace>/luav-runtime-full.dump",
+      "output_sha256": "8ccf24dad50a30da7856e108d8783b625d037c1ac4bfbb68caf2a00ca9e4e5ff",
+      "status": "observed"
+    },
+    "WR-2026-08-E04-probe-final": {
+      "input_path": "<scratch-workspace>/feproj-probe/probe-final",
+      "input_sha256": "5c9d871edc8cef64600ec97c53a70e3fc2b94636b36cebbfad9c61be54fc8a32",
+      "output_path": "-",
+      "output_sha256": null,
+      "status": "observed"
+    },
+    "WR-2026-08-E05-probe-patcher": {
+      "input_path": "<scratch-workspace>/feproj-probe/probe-patcher",
+      "input_sha256": "529463569cb0cd99e7f4304232fc37bf80c50dcdbe75bd74ca4630836fbfa5c5",
+      "output_path": "<scratch-workspace>/scan-full2.log",
+      "output_sha256": "d18d640ad1701ae5fecd4200b5cfa44b4278876c9843b55d7b2e92d8faba030e",
+      "status": "observed"
+    },
+    "WR-2026-08-E06-probe-reg": {
+      "input_path": "<scratch-workspace>/feproj-probe/probe-reg",
+      "input_sha256": "162ca4c8b148b7d7602e255d9773157fd0695d221e3e6a2f023ffe978af8d044",
+      "output_path": "<scratch-workspace>/bound-881.log",
+      "output_sha256": "e822d07b0e29606ceeb94994a3201e9ab52f2e2b31d5c12bd96030eb21c31e34",
+      "status": "observed"
+    },
+    "WR-2026-08-E07-probe-hash": {
+      "input_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/probe-hash.c",
+      "input_sha256": "c87d55759049b9345779749f49b5f3f5bcbdfb20b3732b32803182d4ec660af0",
+      "output_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/probe-hash.out",
+      "output_sha256": "dc5364e9a2187ec778219f57aa7efbcf8361a1d6e32ae00beec62d382934a181",
+      "status": "observed"
+    },
+    "WR-2026-08-E08-runtime-dumps": {
+      "input_path": "<scratch-workspace>/and-sysroot/xbin/libFEProj.so",
+      "input_sha256": "5e608f2da59371a583929aed90e4ec4985bc8ee12fc0d44124000b94d1b8a02a",
+      "output_path": "<scratch-workspace>/runtime-text.bin",
+      "output_sha256": "271b02057be91cd542b9727c8da899f002d3318ec2fe9aee1278828a1dbc86c2",
+      "status": "observed"
+    },
+    "WR-2026-08-E09-vfs-decrypt-runtime": {
+      "input_path": "<scratch-workspace>/and-sysroot/xbin/libFEProj.so",
+      "input_sha256": "5e608f2da59371a583929aed90e4ec4985bc8ee12fc0d44124000b94d1b8a02a",
+      "output_path": "<scratch-workspace>/vfs-all/",
+      "output_sha256": "error:[Errno 21] Is a directory: '<scratch-workspace>/vfs-all/'",
+      "status": "observed"
+    },
+    "WR-2026-08-F01-eifs-decrypt": {
+      "input_path": "<research-workspace>/corpus/basic-data/external-basic/files/Res/1690133797_3101_7.2.20.45_20260710185914_1796376366_cures.ifs.res",
+      "input_sha256": "9aaeb5e88a3e75a41626249d8c207f09bd5885f0d91b71cfc626a7d049a2c747",
+      "output_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/decoded-eifs/",
+      "output_sha256": "error:[Errno 21] Is a directory: '<research-workspace>/work/ai-cfg-recovery-2026-08-04/decoded-eifs/'",
+      "status": "derived"
+    },
+    "WR-2026-08-F02-bet-parse": {
+      "input_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/decoded-eifs/BET.decrypted.bin",
+      "input_sha256": "ac05d79b1a54c3952365b2bea0a2fcdee234bb2ca3e91cea985716d3accca2b5",
+      "output_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/bet-records.json",
+      "output_sha256": "9c3553cec43b5da8ba34f223e1446ec9b99c770282ac226470fb064389bf41bb",
+      "status": "derived"
+    },
+    "WR-2026-08-F03-piece-key": {
+      "input_path": "<research-workspace>/corpus/package-extract/7.2.0.2460-7246064/apks/config.arm64_v8a.apk",
+      "input_sha256": "18e94ed47f106a744de31ecde7eb855b81d712955d62cd818ae4de6f84607ee1",
+      "output_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/probe-hash.out",
+      "output_sha256": "dc5364e9a2187ec778219f57aa7efbcf8361a1d6e32ae00beec62d382934a181",
+      "status": "derived"
+    },
+    "WR-2026-08-F04-vfs-decrypt": {
+      "input_path": "<research-workspace>/corpus/basic-data/external-basic/files/Res/LData/4069fcb0d5f7d769ad08e39d9e179d4f.vfs",
+      "input_sha256": "ecd1a9a04b40a706f347645bd46dfb9b07720656b58ea5a22e401bd971757120",
+      "output_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/decrypted-samples/vfs-extracted/",
+      "output_sha256": "error:[Errno 21] Is a directory: '<research-workspace>/work/ai-cfg-recovery-2026-08-04/decrypted-samples/vfs-extracted/'",
+      "status": "derived"
+    },
+    "WR-2026-08-F05-content-corpus": {
+      "input_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/decrypted-samples/vfs-extracted/",
+      "input_sha256": "error:[Errno 21] Is a directory: '<research-workspace>/work/ai-cfg-recovery-2026-08-04/decrypted-samples/vfs-extracted/'",
+      "output_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/content-corpus/members.jsonl",
+      "output_sha256": "7c75ebfcd1c1a5c103c87f037bc6b68ff89b2913d9f5d00b644dc57cb349d079",
+      "status": "derived"
+    },
+    "WR-2026-08-F06-full-content": {
+      "input_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/content-corpus/members.jsonl",
+      "input_sha256": "7c75ebfcd1c1a5c103c87f037bc6b68ff89b2913d9f5d00b644dc57cb349d079",
+      "output_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/full/heroes.json",
+      "output_sha256": "03d05d3b27a0a95f7bcec533c6f57b633806f8a585191c139bf778a0791a115a",
+      "status": "derived"
+    },
+    "WR-2026-08-F07-type-fields": {
+      "input_path": "<research-workspace>/corpus/basic-data/external-basic/files/il2cpp/Metadata/global-metadata.dat",
+      "input_sha256": "5bd0f8b0efb4ebbbbe148300dc17166f9335a9e2d5ff20de42edb22267fde45d",
+      "output_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/type-fields.json",
+      "output_sha256": "1180117a86f6a49de3bc82f3b3fdac84538b9e35b2ef1a2630602d4f163db5f1",
+      "status": "derived"
+    },
+    "WR-2026-08-F08-semantic-configs": {
+      "input_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/full/",
+      "input_sha256": "error:[Errno 21] Is a directory: '<research-workspace>/work/ai-cfg-recovery-2026-08-04/full/'",
+      "output_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/semantic-configs/",
+      "output_sha256": "error:[Errno 21] Is a directory: '<research-workspace>/work/ai-cfg-recovery-2026-08-04/semantic-configs/'",
+      "status": "derived"
+    },
+    "WR-2026-08-F09-flow-grammar": {
+      "input_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/full/equips.json",
+      "input_sha256": "cb4b2fc2feceffd0d9a21e7ff73344487d21b7f1372c121df0d2e42ec157d90e",
+      "output_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/transparency-sprint/flow-semantic-summary.json",
+      "output_sha256": "8e2ac6de38227f993119e3f2b2b2d91aeaf596477452dccd6dd5483c8d2780fa",
+      "status": "derived"
+    },
+    "WR-2026-08-F10-ffba-format": {
+      "input_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/decrypted-samples/vfs-extracted/",
+      "input_sha256": "error:[Errno 21] Is a directory: '<research-workspace>/work/ai-cfg-recovery-2026-08-04/decrypted-samples/vfs-extracted/'",
+      "output_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/fffba-format.md",
+      "output_sha256": "188aa305216b4324ff26ebd4412cd10929d644c07064f55b1b11ae083715a89a",
+      "status": "derived"
+    },
+    "WR-2026-08-F11-vfs-format": {
+      "input_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/vfs-keys.json",
+      "input_sha256": "c90c70d80473f76eead8e32e9651ed4ad216eda7d4c4f25fcfa59de2bc96b9da",
+      "output_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/vfs-format.md",
+      "output_sha256": "737aa76efd317d16785008709ee8b7869bb7c5d56169757f30127e3438da0c40",
+      "status": "derived"
+    },
+    "WR-2026-08-F12-tdr-scan": {
+      "input_path": "<research-workspace>/corpus/package-extract/7.2.0.2460-7246064/apks/config.arm64_v8a.apk",
+      "input_sha256": "18e94ed47f106a744de31ecde7eb855b81d712955d62cd818ae4de6f84607ee1",
+      "output_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/tdr-magic-scan.json",
+      "output_sha256": "c4e4c74ea1b30bab7e0754536807dd6b666c2a1e7d3e7bf4b4fcf802c2dcddcc",
+      "status": "derived"
+    },
+    "WR-2026-08-F13-fbau-head": {
+      "input_path": "<research-workspace>/corpus/package-extract/7.2.0.2460-7246064/apks/pad1.apk",
+      "input_sha256": "7f50c1f622a303be33d06f65c68f8f397d9e4950d06d6e4dd966cb88f78c6c6f",
+      "output_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/transparency-sprint/fbau-head-manifest.json",
+      "output_sha256": "dfbec5c4f684dc80be7e9947b4846c40120b8b5ece94a4f7fb0e95ac34838ec6",
+      "status": "derived"
+    },
+    "WR-2026-08-F14-head-cipher": {
+      "input_path": "<scratch-workspace>/runtime-text.bin",
+      "input_sha256": "271b02057be91cd542b9727c8da899f002d3318ec2fe9aee1278828a1dbc86c2",
+      "output_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/modding-docs/22-head-cipher-recovered.md",
+      "output_sha256": "370c53c2513e5e98d1ee55e3b78a20cd7984bd4723e87bfc48fa0c980a14ae92",
+      "status": "derived"
+    },
+    "WR-2026-08-F15-streamcfg": {
+      "input_path": "<research-workspace>/corpus/basic-data/external-basic/files/StreamCfg/",
+      "input_sha256": "error:[Errno 21] Is a directory: '<research-workspace>/corpus/basic-data/external-basic/files/StreamCfg/'",
+      "output_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/transparency-sprint/streamcfg-parsed-pad1.json",
+      "output_sha256": "d96d4197c810626ea3d31f3127e42238bd35898822784ce719f5146cf43b97fd",
+      "status": "derived"
+    },
+    "WR-2026-08-F16-lvisi": {
+      "input_path": "<research-workspace>/corpus/basic-data/external-basic/files/Res/LVisi/",
+      "input_sha256": "error:[Errno 21] Is a directory: '<research-workspace>/corpus/basic-data/external-basic/files/Res/LVisi/'",
+      "output_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/transparency-sprint/lvisi-samples/",
+      "output_sha256": "error:[Errno 21] Is a directory: '<research-workspace>/work/ai-cfg-recovery-2026-08-04/transparency-sprint/lvisi-samples/'",
+      "status": "derived"
+    },
+    "WR-2026-08-F17-qjbc": {
+      "input_path": "<scratch-workspace>/gameletcore.bin",
+      "input_sha256": "missing",
+      "output_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/transparency-sprint/qjbc-loader-pseudocode.md",
+      "output_sha256": "60c12b9e655fdb58e709ca1e17e6371a5ceb9216a7e5f4e2afd43a8ce4172184",
+      "status": "derived"
+    },
+    "WR-2026-08-F18-base-payloads": {
+      "input_path": "<research-workspace>/corpus/package-extract/7.2.0.2460-7246064/apks/base.apk",
+      "input_sha256": "missing",
+      "output_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/transparency-sprint/base-payload-decrypted/",
+      "output_sha256": "error:[Errno 21] Is a directory: '<research-workspace>/work/ai-cfg-recovery-2026-08-04/transparency-sprint/base-payload-decrypted/'",
+      "status": "derived"
+    },
+    "WR-2026-08-G01-report-xor30-crack": {
+      "input_path": "-",
+      "input_sha256": null,
+      "output_path": "<research-workspace>/reports/2026-08-04_wild-rift-7.2-feproj-xor30-island-crack.md",
+      "output_sha256": "ef4bffe1a3a093ad6819a7690295801c57309fa336acf14c753663ae130931d7",
+      "status": "derived"
+    },
+    "WR-2026-08-G02-report-static-master": {
+      "input_path": "-",
+      "input_sha256": null,
+      "output_path": "<research-workspace>/reports/2026-08-04_wild-rift-7.2-static-analysis-master.md",
+      "output_sha256": "e6d10c04032749e149daf8a8f4c952faec07cb29a1fc6307b791dc4b48a839e8",
+      "status": "derived"
+    },
+    "WR-2026-08-G03-report-module-logic": {
+      "input_path": "-",
+      "input_sha256": null,
+      "output_path": "<research-workspace>/reports/2026-08-05_wild-rift-7.2-module-logic-master.md",
+      "output_sha256": "1e07b9e8cbe94f5251b8be973b3659aeb1a5d6eec0951d3da160ddc5ffdd9f53",
+      "status": "derived"
+    },
+    "WR-2026-08-G04-docs-core": {
+      "input_path": "-",
+      "input_sha256": null,
+      "output_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/docs/",
+      "output_sha256": "error:[Errno 21] Is a directory: '<research-workspace>/work/ai-cfg-recovery-2026-08-04/docs/'",
+      "status": "derived"
+    },
+    "WR-2026-08-G05-slices": {
+      "input_path": "-",
+      "input_sha256": null,
+      "output_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/slices/",
+      "output_sha256": "error:[Errno 21] Is a directory: '<research-workspace>/work/ai-cfg-recovery-2026-08-04/slices/'",
+      "status": "derived"
+    },
+    "WR-2026-08-G06-modding-docs": {
+      "input_path": "-",
+      "input_sha256": null,
+      "output_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/modding-docs/",
+      "output_sha256": "error:[Errno 21] Is a directory: '<research-workspace>/work/ai-cfg-recovery-2026-08-04/modding-docs/'",
+      "status": "derived"
+    },
+    "WR-2026-08-G07-anticheat-docs": {
+      "input_path": "-",
+      "input_sha256": null,
+      "output_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/anticheat-docs/",
+      "output_sha256": "error:[Errno 21] Is a directory: '<research-workspace>/work/ai-cfg-recovery-2026-08-04/anticheat-docs/'",
+      "status": "derived"
+    },
+    "WR-2026-08-G08-logic-docs": {
+      "input_path": "-",
+      "input_sha256": null,
+      "output_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/logic-docs/",
+      "output_sha256": "error:[Errno 21] Is a directory: '<research-workspace>/work/ai-cfg-recovery-2026-08-04/logic-docs/'",
+      "status": "derived"
+    },
+    "WR-2026-08-G09-strategy-docs": {
+      "input_path": "-",
+      "input_sha256": null,
+      "output_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/strategy-docs/",
+      "output_sha256": "error:[Errno 21] Is a directory: '<research-workspace>/work/ai-cfg-recovery-2026-08-04/strategy-docs/'",
+      "status": "derived"
+    },
+    "WR-2026-08-G10-gcloud-crypto-superseded": {
+      "input_path": "-",
+      "input_sha256": null,
+      "output_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/gcloud-crypto.md",
+      "output_sha256": "a42a3eb3d34971d64e47119cb21f6224711755b98dae9c89f8f477c8578d79cf",
+      "status": "superseded"
+    },
+    "WR-2026-08-G11-lnet-vm": {
+      "input_path": "-",
+      "input_sha256": null,
+      "output_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/lnet-vm.md",
+      "output_sha256": "b3b8b7fd45091a86a31c39a34ce3464722c4b461f02d24f2d2360980f96b670d",
+      "status": "derived"
+    },
+    "WR-2026-08-G12-metadata-bulk": {
+      "input_path": "-",
+      "input_sha256": null,
+      "output_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/metadata-bulk.md",
+      "output_sha256": "d1e1ae87e539634eed5640590f65a549a3414eda03c41a919853bf09b8cb4d85",
+      "status": "derived"
+    },
+    "WR-2026-08-H01-lua-operand-decode": {
+      "input_path": "<research-workspace>/corpus/native-elf/decompressed-arm64/libFEProj.so",
+      "input_sha256": "5e608f2da59371a583929aed90e4ec4985bc8ee12fc0d44124000b94d1b8a02a",
+      "output_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/lua-vm.md",
+      "output_sha256": "6d397265b74319c0aed3536e0e31d60a8ee0e23ad88cfb90eb2a02a7f732bc49",
+      "status": "not-established"
+    },
+    "WR-2026-08-H02-netcrypto-session-key": {
+      "input_path": "-",
+      "input_sha256": null,
+      "output_path": "-",
+      "output_sha256": null,
+      "status": "not-established"
+    },
+    "WR-2026-08-H03-cures-master": {
+      "input_path": "-",
+      "input_sha256": null,
+      "output_path": "-",
+      "output_sha256": null,
+      "status": "not-established"
+    },
+    "WR-2026-08-H04-fbau-blob-semantics": {
+      "input_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/transparency-sprint/fbau-head-manifest.json",
+      "input_sha256": "dfbec5c4f684dc80be7e9947b4846c40120b8b5ece94a4f7fb0e95ac34838ec6",
+      "output_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/modding-docs/19-fbau-blob.md",
+      "output_sha256": "6e62c18f8929ba443f2cd49afff6296124b8351da8cd3d99694059f75d88b4ad",
+      "status": "not-established"
+    },
+    "WR-2026-08-H05-actorcfg-fields": {
+      "input_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/full/heroes.json",
+      "input_sha256": "03d05d3b27a0a95f7bcec533c6f57b633806f8a585191c139bf778a0791a115a",
+      "output_path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/docs/28-errata.md",
+      "output_sha256": "0f0cfc0e02a29e9107868b63b0b16a152ddd20b77073bc5ded1827f7edd6b06f",
+      "status": "not-established"
+    },
+    "WR-2026-08-H06-a4c1-out-of-scope": {
+      "input_path": "-",
+      "input_sha256": null,
+      "output_path": "-",
+      "output_sha256": null,
+      "status": "not-established"
+    }
+  },
+  "external_paths": [
+    {
+      "location": "$[41].input_path",
+      "path": "<scratch-workspace>/feproj-probe/probe-android",
+      "source": "manifest",
+      "status": "available"
+    },
+    {
+      "location": "$[41].output_path",
+      "path": "<scratch-workspace>/island27.dump",
+      "source": "manifest",
+      "status": "available"
+    },
+    {
+      "location": "$[41].tool_script_revision",
+      "path": "<scratch-workspace>/feproj-probe/probe-android (built from .c with NDK r26d aarch64-linux-android21-clang -O2 -pie)",
+      "source": "manifest",
+      "status": "historical_unavailable"
+    },
+    {
+      "location": "$[41].exact_command",
+      "path": "<scratch-workspace>/and-sysroot",
+      "source": "manifest",
+      "status": "historical_unavailable"
+    },
+    {
+      "location": "$[41].exact_command",
+      "path": "<scratch-workspace>/feproj-probe/probe-android",
+      "source": "manifest",
+      "status": "available"
+    },
+    {
+      "location": "$[42].input_path",
+      "path": "<scratch-workspace>/feproj-probe/probe-lua",
+      "source": "manifest",
+      "status": "available"
+    },
+    {
+      "location": "$[42].output_path",
+      "path": "<scratch-workspace>/dispatch-runtime.dump",
+      "source": "manifest",
+      "status": "available"
+    },
+    {
+      "location": "$[42].tool_script_revision",
+      "path": "<scratch-workspace>/feproj-probe/probe-lua (built from .c with NDK r26d aarch64-linux-android21-clang -O2 -pie)",
+      "source": "manifest",
+      "status": "historical_unavailable"
+    },
+    {
+      "location": "$[42].exact_command",
+      "path": "<scratch-workspace>/and-sysroot",
+      "source": "manifest",
+      "status": "historical_unavailable"
+    },
+    {
+      "location": "$[42].exact_command",
+      "path": "<scratch-workspace>/feproj-probe/probe-lua",
+      "source": "manifest",
+      "status": "available"
+    },
+    {
+      "location": "$[43].input_path",
+      "path": "<scratch-workspace>/feproj-probe/probe-trace",
+      "source": "manifest",
+      "status": "available"
+    },
+    {
+      "location": "$[43].output_path",
+      "path": "<scratch-workspace>/luav-runtime-full.dump",
+      "source": "manifest",
+      "status": "available"
+    },
+    {
+      "location": "$[43].tool_script_revision",
+      "path": "<scratch-workspace>/feproj-probe/probe-trace (built from .c with NDK r26d aarch64-linux-android21-clang -O2 -pie)",
+      "source": "manifest",
+      "status": "historical_unavailable"
+    },
+    {
+      "location": "$[43].exact_command",
+      "path": "<scratch-workspace>/and-sysroot",
+      "source": "manifest",
+      "status": "historical_unavailable"
+    },
+    {
+      "location": "$[43].exact_command",
+      "path": "<scratch-workspace>/feproj-probe/probe-trace",
+      "source": "manifest",
+      "status": "available"
+    },
+    {
+      "location": "$[44].input_path",
+      "path": "<scratch-workspace>/feproj-probe/probe-final",
+      "source": "manifest",
+      "status": "available"
+    },
+    {
+      "location": "$[44].tool_script_revision",
+      "path": "<scratch-workspace>/feproj-probe/probe-final (built from .c with NDK r26d aarch64-linux-android21-clang -O2 -pie)",
+      "source": "manifest",
+      "status": "historical_unavailable"
+    },
+    {
+      "location": "$[44].exact_command",
+      "path": "<scratch-workspace>/and-sysroot",
+      "source": "manifest",
+      "status": "historical_unavailable"
+    },
+    {
+      "location": "$[44].exact_command",
+      "path": "<scratch-workspace>/feproj-probe/probe-final",
+      "source": "manifest",
+      "status": "available"
+    },
+    {
+      "location": "$[45].input_path",
+      "path": "<scratch-workspace>/feproj-probe/probe-patcher",
+      "source": "manifest",
+      "status": "available"
+    },
+    {
+      "location": "$[45].output_path",
+      "path": "<scratch-workspace>/scan-full2.log",
+      "source": "manifest",
+      "status": "available"
+    },
+    {
+      "location": "$[45].tool_script_revision",
+      "path": "<scratch-workspace>/feproj-probe/probe-patcher (built from .c with NDK r26d aarch64-linux-android21-clang -O2 -pie)",
+      "source": "manifest",
+      "status": "historical_unavailable"
+    },
+    {
+      "location": "$[45].exact_command",
+      "path": "<scratch-workspace>/and-sysroot",
+      "source": "manifest",
+      "status": "historical_unavailable"
+    },
+    {
+      "location": "$[45].exact_command",
+      "path": "<scratch-workspace>/feproj-probe/probe-patcher",
+      "source": "manifest",
+      "status": "available"
+    },
+    {
+      "location": "$[46].input_path",
+      "path": "<scratch-workspace>/feproj-probe/probe-reg",
+      "source": "manifest",
+      "status": "available"
+    },
+    {
+      "location": "$[46].output_path",
+      "path": "<scratch-workspace>/bound-881.log",
+      "source": "manifest",
+      "status": "available"
+    },
+    {
+      "location": "$[46].tool_script_revision",
+      "path": "<scratch-workspace>/feproj-probe/probe-reg (built from .c with NDK r26d aarch64-linux-android21-clang -O2 -pie)",
+      "source": "manifest",
+      "status": "historical_unavailable"
+    },
+    {
+      "location": "$[46].exact_command",
+      "path": "<scratch-workspace>/and-sysroot",
+      "source": "manifest",
+      "status": "historical_unavailable"
+    },
+    {
+      "location": "$[46].exact_command",
+      "path": "<scratch-workspace>/feproj-probe/probe-reg",
+      "source": "manifest",
+      "status": "available"
+    },
+    {
+      "location": "$[47].exact_command",
+      "path": "<scratch-workspace>/and-sysroot",
+      "source": "manifest",
+      "status": "historical_unavailable"
+    },
+    {
+      "location": "$[47].exact_command",
+      "path": "<scratch-workspace>/feproj-probe/probe-hash",
+      "source": "manifest",
+      "status": "historical_unavailable"
+    },
+    {
+      "location": "$[47].notes",
+      "path": "<scratch-workspace>/feproj-probe/probe-hash",
+      "source": "manifest",
+      "status": "historical_unavailable"
+    },
+    {
+      "location": "$[48].input_path",
+      "path": "<scratch-workspace>/and-sysroot/xbin/libFEProj.so",
+      "source": "manifest",
+      "status": "available"
+    },
+    {
+      "location": "$[48].output_path",
+      "path": "<scratch-workspace>/runtime-text.bin",
+      "source": "manifest",
+      "status": "available"
+    },
+    {
+      "location": "$[49].input_path",
+      "path": "<scratch-workspace>/and-sysroot/xbin/libFEProj.so",
+      "source": "manifest",
+      "status": "available"
+    },
+    {
+      "location": "$[49].output_path",
+      "path": "<scratch-workspace>/vfs-all/",
+      "source": "manifest",
+      "status": "historical_unavailable"
+    },
+    {
+      "location": "$[49].output_sha256",
+      "path": "<scratch-workspace>/vfs-all/",
+      "source": "manifest",
+      "status": "historical_unavailable"
+    },
+    {
+      "location": "$[49].exact_command",
+      "path": "<scratch-workspace>/vfs-all/part{A",
+      "source": "manifest",
+      "status": "historical_unavailable"
+    },
+    {
+      "location": "$[52].exact_command",
+      "path": "<scratch-workspace>/and-sysroot",
+      "source": "manifest",
+      "status": "historical_unavailable"
+    },
+    {
+      "location": "$[52].exact_command",
+      "path": "<scratch-workspace>/feproj-probe/probe-hash",
+      "source": "manifest",
+      "status": "historical_unavailable"
+    },
+    {
+      "location": "$[54].exact_command",
+      "path": "<scratch-workspace>/vfs-batch",
+      "source": "manifest",
+      "status": "historical_unavailable"
+    },
+    {
+      "location": "$[63].input_path",
+      "path": "<scratch-workspace>/runtime-text.bin",
+      "source": "manifest",
+      "status": "available"
+    },
+    {
+      "location": "$[66].input_path",
+      "path": "<scratch-workspace>/gameletcore.bin",
+      "source": "manifest",
+      "status": "historical_unavailable"
+    },
+    {
+      "location": "$[66].notes",
+      "path": "<scratch-workspace>/gameletcore.bin",
+      "source": "manifest",
+      "status": "historical_unavailable"
+    },
+    {
+      "location": "$[86].external_path_dependencies[0].ref",
+      "path": "<scratch-workspace>/and-sysroot/",
+      "source": "manifest",
+      "status": "historical_unavailable"
+    },
+    {
+      "location": "$[86].external_path_dependencies[1].ref",
+      "path": "<scratch-workspace>/feproj-probe/",
+      "source": "manifest",
+      "status": "historical_unavailable"
+    },
+    {
+      "location": "$[86].external_path_dependencies[2].ref",
+      "path": "<scratch-workspace>/feproj-probe/probe-hash",
+      "source": "manifest",
+      "status": "historical_unavailable"
+    },
+    {
+      "location": "$[86].external_path_dependencies[3].ref",
+      "path": "<scratch-workspace>/runtime-text.bin",
+      "source": "manifest",
+      "status": "available"
+    },
+    {
+      "location": "$[86].external_path_dependencies[4].ref",
+      "path": "<scratch-workspace>/runtime-rodata.bin",
+      "source": "manifest",
+      "status": "available"
+    },
+    {
+      "location": "$[86].external_path_dependencies[5].ref",
+      "path": "<scratch-workspace>/runtime-tables.bin",
+      "source": "manifest",
+      "status": "available"
+    },
+    {
+      "location": "$[86].external_path_dependencies[6].ref",
+      "path": "<scratch-workspace>/runtime-state.bin",
+      "source": "manifest",
+      "status": "available"
+    },
+    {
+      "location": "$[86].external_path_dependencies[7].ref",
+      "path": "<scratch-workspace>/dispatch-runtime.dump",
+      "source": "manifest",
+      "status": "available"
+    },
+    {
+      "location": "$[86].external_path_dependencies[8].ref",
+      "path": "<scratch-workspace>/luav-runtime-full.dump",
+      "source": "manifest",
+      "status": "available"
+    },
+    {
+      "location": "$[86].external_path_dependencies[9].ref",
+      "path": "<scratch-workspace>/opcode-table-runtime.bin",
+      "source": "manifest",
+      "status": "available"
+    },
+    {
+      "location": "$[86].external_path_dependencies[10].ref",
+      "path": "<scratch-workspace>/island27-runtime.bin",
+      "source": "manifest",
+      "status": "available"
+    },
+    {
+      "location": "$[86].external_path_dependencies[11].ref",
+      "path": "<scratch-workspace>/island27-*.dump",
+      "source": "manifest",
+      "status": "historical_unavailable"
+    },
+    {
+      "location": "$[86].external_path_dependencies[12].ref",
+      "path": "<scratch-workspace>/vfs-all/part{A,B,C,D}/",
+      "source": "manifest",
+      "status": "historical_unavailable"
+    },
+    {
+      "location": "$[86].external_path_dependencies[13].ref",
+      "path": "<scratch-workspace>/vfs-batch/",
+      "source": "manifest",
+      "status": "historical_unavailable"
+    },
+    {
+      "location": "$[86].external_path_dependencies[14].ref",
+      "path": "<scratch-workspace>/q_stdout.log",
+      "source": "manifest",
+      "status": "available"
+    },
+    {
+      "location": "$[86].external_path_dependencies[15].ref",
+      "path": "<scratch-workspace>/{scan-full2,bound-881,bound-final,bound-callb2,unbound-res,repro-crash}.log",
+      "source": "manifest",
+      "status": "historical_unavailable"
+    },
+    {
+      "location": "$[86].external_path_dependencies[16].ref",
+      "path": "<scratch-workspace>/apex-runtime/",
+      "source": "manifest",
+      "status": "historical_unavailable"
+    },
+    {
+      "location": "$[86].external_path_dependencies[17].ref",
+      "path": "<scratch-workspace>/bionic-env/",
+      "source": "manifest",
+      "status": "historical_unavailable"
+    },
+    {
+      "location": "$[86].external_path_dependencies[18].ref",
+      "path": "<scratch-workspace>/tgpa-harness/",
+      "source": "manifest",
+      "status": "historical_unavailable"
+    },
+    {
+      "location": "$[86].external_path_dependencies[19].ref",
+      "path": "/tmp/apex-mnt",
+      "source": "manifest",
+      "status": "historical_unavailable"
+    },
+    {
+      "location": "$[86].external_path_dependencies[20].ref",
+      "path": "/tmp/bionic-sys",
+      "source": "manifest",
+      "status": "historical_unavailable"
+    },
+    {
+      "location": "$[86].external_path_dependencies[21].ref",
+      "path": "/tmp/header.cs",
+      "source": "manifest",
+      "status": "historical_unavailable"
+    },
+    {
+      "location": "$[86].external_path_dependencies[22].ref",
+      "path": "/tmp/il2cppmeta.cs",
+      "source": "manifest",
+      "status": "historical_unavailable"
+    },
+    {
+      "location": "$[86].external_path_dependencies[23].ref",
+      "path": "F:\\...\\wild-rift-research",
+      "source": "manifest",
+      "status": "historical_unavailable"
+    },
+    {
+      "location": "$[86].external_path_dependencies[23].note",
+      "path": "F:\\...\\wild-rift-research",
+      "source": "manifest",
+      "status": "historical_unavailable"
+    }
+  ],
+  "hash_checks": [
+    {
+      "actual_sha256": "3aaf8d77fd312b9b182e7d8f695290a6cd6f40a6c9ac743eefae27532b66fdf7",
+      "artifact_id": "WR-2026-08-A01-xapk",
+      "field": "output_path",
+      "path": "<research-workspace>/artifacts/wild-rift-global-7.2.0.2460-7246064.xapk",
+      "recorded_sha256": "3aaf8d77fd312b9b182e7d8f695290a6cd6f40a6c9ac743eefae27532b66fdf7",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "5e608f2da59371a583929aed90e4ec4985bc8ee12fc0d44124000b94d1b8a02a",
+      "artifact_id": "WR-2026-08-A02-libFEProj",
+      "field": "input_path",
+      "path": "<research-workspace>/corpus/native-elf/decompressed-arm64/libFEProj.so",
+      "recorded_sha256": "5e608f2da59371a583929aed90e4ec4985bc8ee12fc0d44124000b94d1b8a02a",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "6e8e7002169bc658fbe64be4c6e216e22c4bf719a620940e77890b9e57211dc6",
+      "artifact_id": "WR-2026-08-A03-libil2cpp",
+      "field": "input_path",
+      "path": "<research-workspace>/corpus/native-elf/decompressed-arm64/libil2cpp.so",
+      "recorded_sha256": "6e8e7002169bc658fbe64be4c6e216e22c4bf719a620940e77890b9e57211dc6",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "55c2879f7acdd0c64fb308ce3a0a1007d308417e475b431dabd9c5e0f8ab5a86",
+      "artifact_id": "WR-2026-08-A04-libLNet",
+      "field": "input_path",
+      "path": "<research-workspace>/corpus/native-elf/decompressed-arm64/libLNet.so",
+      "recorded_sha256": "55c2879f7acdd0c64fb308ce3a0a1007d308417e475b431dabd9c5e0f8ab5a86",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "94c3b45384d810c9136084eefabe6ab6ef5e1808017af67ffc9c53fc3876495d",
+      "artifact_id": "WR-2026-08-A05-libtdr",
+      "field": "input_path",
+      "path": "<research-workspace>/corpus/native-elf/decompressed-arm64/libtdr.so",
+      "recorded_sha256": "94c3b45384d810c9136084eefabe6ab6ef5e1808017af67ffc9c53fc3876495d",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "6dfbec920ddd0539de4ab2f1d5aef783f203399ab46939daa46b51f1b8c215ac",
+      "artifact_id": "WR-2026-08-A06-libunity",
+      "field": "input_path",
+      "path": "<research-workspace>/corpus/native-elf/decompressed-arm64/libunity.so",
+      "recorded_sha256": "6dfbec920ddd0539de4ab2f1d5aef783f203399ab46939daa46b51f1b8c215ac",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "5bd0f8b0efb4ebbbbe148300dc17166f9335a9e2d5ff20de42edb22267fde45d",
+      "artifact_id": "WR-2026-08-A07-global-metadata",
+      "field": "input_path",
+      "path": "<research-workspace>/corpus/basic-data/external-basic/files/il2cpp/Metadata/global-metadata.dat",
+      "recorded_sha256": "5bd0f8b0efb4ebbbbe148300dc17166f9335a9e2d5ff20de42edb22267fde45d",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "ef953d6f8ea871624a11ed21957f7a3f541a0cd18d9cbcae3b154bd9f14a8dfc",
+      "artifact_id": "WR-2026-08-A08-TestMain",
+      "field": "input_path",
+      "path": "<research-workspace>/corpus/basic-data/external-basic/files/Res/FETest/TestMain.res",
+      "recorded_sha256": "ef953d6f8ea871624a11ed21957f7a3f541a0cd18d9cbcae3b154bd9f14a8dfc",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "df8cd97650fca73928f7189f8e733b8d811bb8dc4c58603611e21ef002d25b67",
+      "artifact_id": "WR-2026-08-A09-QuickTest",
+      "field": "input_path",
+      "path": "<research-workspace>/corpus/basic-data/external-basic/files/Res/FETest/QuickTest.res",
+      "recorded_sha256": "df8cd97650fca73928f7189f8e733b8d811bb8dc4c58603611e21ef002d25b67",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "347a4ff3217510443d1b3384b1fdbd3d17d62e6c05f8be0b8ae39e61a64417d5",
+      "artifact_id": "WR-2026-08-A10-BattleLogic",
+      "field": "input_path",
+      "path": "<research-workspace>/corpus/basic-data/external-basic/files/Res/FETest/Logic/BattleLogic.res",
+      "recorded_sha256": "347a4ff3217510443d1b3384b1fdbd3d17d62e6c05f8be0b8ae39e61a64417d5",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "1262f5152344cd3c50564be19516c226e4a3816397874145ffc486d8a22b2baa",
+      "artifact_id": "WR-2026-08-A11-Loader",
+      "field": "input_path",
+      "path": "<research-workspace>/corpus/basic-data/external-basic/files/Res/FETest/FrameWork/Loader.res",
+      "recorded_sha256": "1262f5152344cd3c50564be19516c226e4a3816397874145ffc486d8a22b2baa",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "0b4de8199bd4d15530500c653ec5e2fa3abf4566bc1b731ef37f13176a855dea",
+      "artifact_id": "WR-2026-08-A12-ScriptMgr",
+      "field": "input_path",
+      "path": "<research-workspace>/corpus/basic-data/external-basic/files/Res/FETest/FrameWork/ScriptMgr.res",
+      "recorded_sha256": "0b4de8199bd4d15530500c653ec5e2fa3abf4566bc1b731ef37f13176a855dea",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "17e9691d0cb125590957b2a196a2adc31ad1584123b7da66aaea811def630fc4",
+      "artifact_id": "WR-2026-08-A13-FlowAction",
+      "field": "input_path",
+      "path": "<research-workspace>/corpus/basic-data/external-basic/files/Res/FETest/FrameWork/FlowAction.res",
+      "recorded_sha256": "17e9691d0cb125590957b2a196a2adc31ad1584123b7da66aaea811def630fc4",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "01dc6c35c0298cca364533d689842745f882518ad738f6d2bad9b4ea8cab79e1",
+      "artifact_id": "WR-2026-08-A14-GlobalFunc",
+      "field": "input_path",
+      "path": "<research-workspace>/corpus/basic-data/external-basic/files/Res/FETest/FrameWork/GlobalFunc.res",
+      "recorded_sha256": "01dc6c35c0298cca364533d689842745f882518ad738f6d2bad9b4ea8cab79e1",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "7bb74e7b74557dc22645a33d2d70c1d7222f91fbeba4ad1841e6104b72650cfe",
+      "artifact_id": "WR-2026-08-A15-PathHashMap",
+      "field": "input_path",
+      "path": "<research-workspace>/corpus/basic-data/external-basic/files/Res/FETest/FrameWork/PathHashMap.res",
+      "recorded_sha256": "7bb74e7b74557dc22645a33d2d70c1d7222f91fbeba4ad1841e6104b72650cfe",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "0b35958bd076277feb955f614fd8916e4c098d1e5ded9cde50405e59b35548d4",
+      "artifact_id": "WR-2026-08-A16-FEEnumForLua",
+      "field": "input_path",
+      "path": "<research-workspace>/corpus/basic-data/external-basic/files/Res/FETest/LuaGen/FEEnumForLua.res",
+      "recorded_sha256": "0b35958bd076277feb955f614fd8916e4c098d1e5ded9cde50405e59b35548d4",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "c898e35302111dc83868a0ee62b703ecdf2daade40c500112040ef5098df647e",
+      "artifact_id": "WR-2026-08-A17-LuaStruct",
+      "field": "input_path",
+      "path": "<research-workspace>/corpus/basic-data/external-basic/files/Res/FETest/LuaGen/LuaStruct.res",
+      "recorded_sha256": "c898e35302111dc83868a0ee62b703ecdf2daade40c500112040ef5098df647e",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "c7a5610f5f19f1bd8d4b8bbe6d3718feadf0aca4b4f295f6854ca2f7f59c479f",
+      "artifact_id": "WR-2026-08-A18-safecall",
+      "field": "input_path",
+      "path": "<research-workspace>/corpus/basic-data/external-basic/files/Res/FETest/common/safecall.res",
+      "recorded_sha256": "c7a5610f5f19f1bd8d4b8bbe6d3718feadf0aca4b4f295f6854ca2f7f59c479f",
+      "status": "match"
+    },
+    {
+      "artifact_id": "WR-2026-08-A19-FETest-22set",
+      "field": "input_path",
+      "path": "<research-workspace>/corpus/basic-data/external-basic/files/Res/FETest",
+      "reason": "referenced path is absent or not a usable file",
+      "recorded_sha256": "error:[Errno 21] Is a directory: '<research-workspace>/corpus/basic-data/external-basic/files/Res/FETest'",
+      "status": "historical_unavailable"
+    },
+    {
+      "actual_sha256": "d781ef4a83156ac951ead809ae9a3612dfc2cc31ecd35c65df77a91ba0388d52",
+      "artifact_id": "WR-2026-08-A20-flist",
+      "field": "input_path",
+      "path": "<research-workspace>/corpus/basic-data/external-basic/files/Res/apollo_reslist.flist",
+      "recorded_sha256": "d781ef4a83156ac951ead809ae9a3612dfc2cc31ecd35c65df77a91ba0388d52",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "082dd53ea257a06a9f4d4efb046bbf279c2b4d9de6614a1ce9166dbec4b0ef17",
+      "artifact_id": "WR-2026-08-A21-filelist",
+      "field": "input_path",
+      "path": "<research-workspace>/corpus/basic-data/external-basic/files/Res/filelist.json",
+      "recorded_sha256": "082dd53ea257a06a9f4d4efb046bbf279c2b4d9de6614a1ce9166dbec4b0ef17",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "9aaeb5e88a3e75a41626249d8c207f09bd5885f0d91b71cfc626a7d049a2c747",
+      "artifact_id": "WR-2026-08-A22-cures.ifs.res",
+      "field": "input_path",
+      "path": "<research-workspace>/corpus/basic-data/external-basic/files/Res/1690133797_3101_7.2.20.45_20260710185914_1796376366_cures.ifs.res",
+      "recorded_sha256": "9aaeb5e88a3e75a41626249d8c207f09bd5885f0d91b71cfc626a7d049a2c747",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "5c30a468bb7959c713721f58669d084de1cc06f14005c22e49c5d43cfba9dc5a",
+      "artifact_id": "WR-2026-08-A23-VerInfo",
+      "field": "input_path",
+      "path": "<research-workspace>/corpus/basic-data/external-basic/files/Res/VerInfo.bytes",
+      "recorded_sha256": "5c30a468bb7959c713721f58669d084de1cc06f14005c22e49c5d43cfba9dc5a",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "ecd1a9a04b40a706f347645bd46dfb9b07720656b58ea5a22e401bd971757120",
+      "artifact_id": "WR-2026-08-A24-LData-vfs",
+      "field": "input_path",
+      "path": "<research-workspace>/corpus/basic-data/external-basic/files/Res/LData/4069fcb0d5f7d769ad08e39d9e179d4f.vfs",
+      "recorded_sha256": "ecd1a9a04b40a706f347645bd46dfb9b07720656b58ea5a22e401bd971757120",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "5e608f2da59371a583929aed90e4ec4985bc8ee12fc0d44124000b94d1b8a02a",
+      "artifact_id": "WR-2026-08-B01-xor30-text",
+      "field": "input_path",
+      "path": "<research-workspace>/corpus/native-elf/decompressed-arm64/libFEProj.so",
+      "recorded_sha256": "5e608f2da59371a583929aed90e4ec4985bc8ee12fc0d44124000b94d1b8a02a",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "a3aba85118ead8139c4dfd57ceeeb8f4bb229e11a57a8b838c7f0d470e86f72c",
+      "artifact_id": "WR-2026-08-B01-xor30-text",
+      "field": "output_path",
+      "path": "<research-workspace>/work/static-analysis-2026-08-04/feproj-text-xor30.bin",
+      "recorded_sha256": "a3aba85118ead8139c4dfd57ceeeb8f4bb229e11a57a8b838c7f0d470e86f72c",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "5e608f2da59371a583929aed90e4ec4985bc8ee12fc0d44124000b94d1b8a02a",
+      "artifact_id": "WR-2026-08-B02-island-catalog-771",
+      "field": "input_path",
+      "path": "<research-workspace>/corpus/native-elf/decompressed-arm64/libFEProj.so",
+      "recorded_sha256": "5e608f2da59371a583929aed90e4ec4985bc8ee12fc0d44124000b94d1b8a02a",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "332c8705337134270f7d9ca1e6202ebf1f50bc4ef4e38ae2c494291199dffb8e",
+      "artifact_id": "WR-2026-08-B02-island-catalog-771",
+      "field": "output_path",
+      "path": "<research-workspace>/work/static-analysis-2026-08-04/island-catalog.jsonl",
+      "recorded_sha256": "332c8705337134270f7d9ca1e6202ebf1f50bc4ef4e38ae2c494291199dffb8e",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "5e608f2da59371a583929aed90e4ec4985bc8ee12fc0d44124000b94d1b8a02a",
+      "artifact_id": "WR-2026-08-B03-edges",
+      "field": "input_path",
+      "path": "<research-workspace>/corpus/native-elf/decompressed-arm64/libFEProj.so",
+      "recorded_sha256": "5e608f2da59371a583929aed90e4ec4985bc8ee12fc0d44124000b94d1b8a02a",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "fc8d2d8d099a69ca0800611c5b5eb31bac90ee00a5fd1412c7b9f7147a416f77",
+      "artifact_id": "WR-2026-08-B03-edges",
+      "field": "output_path",
+      "path": "<research-workspace>/work/static-analysis-2026-08-04/edges.json",
+      "recorded_sha256": "fc8d2d8d099a69ca0800611c5b5eb31bac90ee00a5fd1412c7b9f7147a416f77",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "5e608f2da59371a583929aed90e4ec4985bc8ee12fc0d44124000b94d1b8a02a",
+      "artifact_id": "WR-2026-08-B04-strings",
+      "field": "input_path",
+      "path": "<research-workspace>/corpus/native-elf/decompressed-arm64/libFEProj.so",
+      "recorded_sha256": "5e608f2da59371a583929aed90e4ec4985bc8ee12fc0d44124000b94d1b8a02a",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "be8bf0eeafe2af5295bcd41f16b4861eb413f75ce7ab2638f9ab5e795c7c6a90",
+      "artifact_id": "WR-2026-08-B04-strings",
+      "field": "output_path",
+      "path": "<research-workspace>/work/static-analysis-2026-08-04/strings.jsonl",
+      "recorded_sha256": "be8bf0eeafe2af5295bcd41f16b4861eb413f75ce7ab2638f9ab5e795c7c6a90",
+      "status": "match"
+    },
+    {
+      "artifact_id": "WR-2026-08-B05-base-manifest",
+      "field": "input_path",
+      "path": "<research-workspace>/work/static-analysis-2026-08-04/build_catalog.py",
+      "reason": "referenced path is absent or not a usable file",
+      "recorded_sha256": "missing",
+      "status": "historical_unavailable"
+    },
+    {
+      "actual_sha256": "e0f7d3809498cff623fc5266a7501b52d823c542cbd1cb5d8a8451508168cee0",
+      "artifact_id": "WR-2026-08-B05-base-manifest",
+      "field": "output_path",
+      "path": "<research-workspace>/work/static-analysis-2026-08-04/MANIFEST.json",
+      "recorded_sha256": "e0f7d3809498cff623fc5266a7501b52d823c542cbd1cb5d8a8451508168cee0",
+      "status": "match"
+    },
+    {
+      "artifact_id": "WR-2026-08-B06-progress-snapshot",
+      "field": "input_path",
+      "path": "<research-workspace>/work/static-analysis-2026-08-04/build_catalog.py",
+      "reason": "referenced path is absent or not a usable file",
+      "recorded_sha256": "missing",
+      "status": "historical_unavailable"
+    },
+    {
+      "actual_sha256": "da9e7ff8607af45b1d33261fbaacc48ae3b1c1d700be7ec34edc4acb2e923796",
+      "artifact_id": "WR-2026-08-B06-progress-snapshot",
+      "field": "output_path",
+      "path": "<research-workspace>/work/static-analysis-2026-08-04/PROGRESS.md",
+      "recorded_sha256": "da9e7ff8607af45b1d33261fbaacc48ae3b1c1d700be7ec34edc4acb2e923796",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "5e608f2da59371a583929aed90e4ec4985bc8ee12fc0d44124000b94d1b8a02a",
+      "artifact_id": "WR-2026-08-C01-dump-target",
+      "field": "input_path",
+      "path": "<research-workspace>/corpus/native-elf/decompressed-arm64/libFEProj.so",
+      "recorded_sha256": "5e608f2da59371a583929aed90e4ec4985bc8ee12fc0d44124000b94d1b8a02a",
+      "status": "match"
+    },
+    {
+      "artifact_id": "WR-2026-08-C01-dump-target",
+      "field": "output_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/raw",
+      "reason": "referenced path is absent or not a usable file",
+      "recorded_sha256": "error:[Errno 21] Is a directory: '<research-workspace>/work/ai-cfg-recovery-2026-08-04/raw/'",
+      "status": "historical_unavailable"
+    },
+    {
+      "actual_sha256": "5e608f2da59371a583929aed90e4ec4985bc8ee12fc0d44124000b94d1b8a02a",
+      "artifact_id": "WR-2026-08-C02-page-forensics",
+      "field": "input_path",
+      "path": "<research-workspace>/corpus/native-elf/decompressed-arm64/libFEProj.so",
+      "recorded_sha256": "5e608f2da59371a583929aed90e4ec4985bc8ee12fc0d44124000b94d1b8a02a",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "ad3a3dd02f4fbbf91322c07d9bdf1a5825632659a59f6c6e710e1d0e0b9e92d8",
+      "artifact_id": "WR-2026-08-C02-page-forensics",
+      "field": "output_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/text-decode-map.json",
+      "recorded_sha256": "ad3a3dd02f4fbbf91322c07d9bdf1a5825632659a59f6c6e710e1d0e0b9e92d8",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "ad3a3dd02f4fbbf91322c07d9bdf1a5825632659a59f6c6e710e1d0e0b9e92d8",
+      "artifact_id": "WR-2026-08-C03-xor-islands",
+      "field": "input_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/text-decode-map.json",
+      "recorded_sha256": "ad3a3dd02f4fbbf91322c07d9bdf1a5825632659a59f6c6e710e1d0e0b9e92d8",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "885bb8531e67a6d6ba26b234b36c81791b21407851700f71d2b4ce470d88eb09",
+      "artifact_id": "WR-2026-08-C03-xor-islands",
+      "field": "output_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/xor-islands.json",
+      "recorded_sha256": "885bb8531e67a6d6ba26b234b36c81791b21407851700f71d2b4ce470d88eb09",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "885bb8531e67a6d6ba26b234b36c81791b21407851700f71d2b4ce470d88eb09",
+      "artifact_id": "WR-2026-08-C04-island-inventory",
+      "field": "input_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/xor-islands.json",
+      "recorded_sha256": "885bb8531e67a6d6ba26b234b36c81791b21407851700f71d2b4ce470d88eb09",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "6680f9e2d0a61d38d9e6fec5961ea43d8d135bdeb3fb4b012227dc21e5834c4b",
+      "artifact_id": "WR-2026-08-C04-island-inventory",
+      "field": "output_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/island-inventory.json",
+      "recorded_sha256": "6680f9e2d0a61d38d9e6fec5961ea43d8d135bdeb3fb4b012227dc21e5834c4b",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "0b71e5f09f013ddf83eded4c6401174904ceafbff2d43af9c1fc07a746e2513d",
+      "artifact_id": "WR-2026-08-C05-island-catalog-enhanced",
+      "field": "input_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/island-catalog-enhanced.jsonl",
+      "recorded_sha256": "0b71e5f09f013ddf83eded4c6401174904ceafbff2d43af9c1fc07a746e2513d",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "0b71e5f09f013ddf83eded4c6401174904ceafbff2d43af9c1fc07a746e2513d",
+      "artifact_id": "WR-2026-08-C05-island-catalog-enhanced",
+      "field": "output_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/island-catalog-enhanced.jsonl",
+      "recorded_sha256": "0b71e5f09f013ddf83eded4c6401174904ceafbff2d43af9c1fc07a746e2513d",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "9d77b6ea3ef3261ab1b9df79073b61b19fb5b576de7587912f1b89709673fbb1",
+      "artifact_id": "WR-2026-08-C06-remap-table",
+      "field": "input_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/runtime-layout.json",
+      "recorded_sha256": "9d77b6ea3ef3261ab1b9df79073b61b19fb5b576de7587912f1b89709673fbb1",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "3e7ea38a7d1872fdfa8fc9e0d59146c9c930819db205e861ab33bda5446c0252",
+      "artifact_id": "WR-2026-08-C06-remap-table",
+      "field": "output_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/remap-table.md",
+      "recorded_sha256": "3e7ea38a7d1872fdfa8fc9e0d59146c9c930819db205e861ab33bda5446c0252",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "9d77b6ea3ef3261ab1b9df79073b61b19fb5b576de7587912f1b89709673fbb1",
+      "artifact_id": "WR-2026-08-C07-runtime-layout",
+      "field": "input_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/runtime-layout.json",
+      "recorded_sha256": "9d77b6ea3ef3261ab1b9df79073b61b19fb5b576de7587912f1b89709673fbb1",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "9d77b6ea3ef3261ab1b9df79073b61b19fb5b576de7587912f1b89709673fbb1",
+      "artifact_id": "WR-2026-08-C07-runtime-layout",
+      "field": "output_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/runtime-layout.json",
+      "recorded_sha256": "9d77b6ea3ef3261ab1b9df79073b61b19fb5b576de7587912f1b89709673fbb1",
+      "status": "match"
+    },
+    {
+      "artifact_id": "WR-2026-08-D01-lua-format",
+      "field": "input_path",
+      "path": "<research-workspace>/corpus/basic-data/external-basic/files/Res/FETest",
+      "reason": "referenced path is absent or not a usable file",
+      "recorded_sha256": "error:[Errno 21] Is a directory: '<research-workspace>/corpus/basic-data/external-basic/files/Res/FETest/'",
+      "status": "historical_unavailable"
+    },
+    {
+      "artifact_id": "WR-2026-08-D01-lua-format",
+      "field": "output_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/lua-gen-dump",
+      "reason": "referenced path is absent or not a usable file",
+      "recorded_sha256": "error:[Errno 21] Is a directory: '<research-workspace>/work/ai-cfg-recovery-2026-08-04/lua-gen-dump/'",
+      "status": "historical_unavailable"
+    },
+    {
+      "actual_sha256": "b9455e100ea9dff3aa7c0399ba776e701b36fbf884223ff5406eaf5b0af3c20d",
+      "artifact_id": "WR-2026-08-D02-fe-lua-api",
+      "field": "input_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/dispatcher-881-cases.tsv",
+      "recorded_sha256": "b9455e100ea9dff3aa7c0399ba776e701b36fbf884223ff5406eaf5b0af3c20d",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "6fe8795b71ec72f5e8c03cfb74c89d867958c75bc292b67018ba7e7e62cb57eb",
+      "artifact_id": "WR-2026-08-D02-fe-lua-api",
+      "field": "output_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/fe-lua-api.json",
+      "recorded_sha256": "6fe8795b71ec72f5e8c03cfb74c89d867958c75bc292b67018ba7e7e62cb57eb",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "5e608f2da59371a583929aed90e4ec4985bc8ee12fc0d44124000b94d1b8a02a",
+      "artifact_id": "WR-2026-08-D03-registry-dump",
+      "field": "input_path",
+      "path": "<research-workspace>/corpus/native-elf/decompressed-arm64/libFEProj.so",
+      "recorded_sha256": "5e608f2da59371a583929aed90e4ec4985bc8ee12fc0d44124000b94d1b8a02a",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "d4867aa78d504fbf66d9558854f5b3054b41a790b755f238acfc24f40c158c0c",
+      "artifact_id": "WR-2026-08-D03-registry-dump",
+      "field": "output_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/registry-dump.json",
+      "recorded_sha256": "d4867aa78d504fbf66d9558854f5b3054b41a790b755f238acfc24f40c158c0c",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "5e608f2da59371a583929aed90e4ec4985bc8ee12fc0d44124000b94d1b8a02a",
+      "artifact_id": "WR-2026-08-D04-dispatcher-881",
+      "field": "input_path",
+      "path": "<research-workspace>/corpus/native-elf/decompressed-arm64/libFEProj.so",
+      "recorded_sha256": "5e608f2da59371a583929aed90e4ec4985bc8ee12fc0d44124000b94d1b8a02a",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "b9455e100ea9dff3aa7c0399ba776e701b36fbf884223ff5406eaf5b0af3c20d",
+      "artifact_id": "WR-2026-08-D04-dispatcher-881",
+      "field": "output_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/dispatcher-881-cases.tsv",
+      "recorded_sha256": "b9455e100ea9dff3aa7c0399ba776e701b36fbf884223ff5406eaf5b0af3c20d",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "63116e964b93acd510059aa458c3c1f65f49533def61d2e5137ecbfe159b9f98",
+      "artifact_id": "WR-2026-08-E01-probe-android",
+      "field": "input_path",
+      "path": "<scratch-workspace>/feproj-probe/probe-android",
+      "recorded_sha256": "63116e964b93acd510059aa458c3c1f65f49533def61d2e5137ecbfe159b9f98",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "d92841c730cd7d30356540ee0d8f0a2d3a51f76183c8d46d64b0d7965b69a5c5",
+      "artifact_id": "WR-2026-08-E01-probe-android",
+      "field": "output_path",
+      "path": "<scratch-workspace>/island27.dump",
+      "recorded_sha256": "d92841c730cd7d30356540ee0d8f0a2d3a51f76183c8d46d64b0d7965b69a5c5",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "622eae2d50c80fc9cc190ceccfbdb2f13e1d510643b1e3e46cd7c00ad2736c68",
+      "artifact_id": "WR-2026-08-E02-probe-lua",
+      "field": "input_path",
+      "path": "<scratch-workspace>/feproj-probe/probe-lua",
+      "recorded_sha256": "622eae2d50c80fc9cc190ceccfbdb2f13e1d510643b1e3e46cd7c00ad2736c68",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "2d9152508118def0cd271297f4e0826734fb666794384d1ad25defd918312ce5",
+      "artifact_id": "WR-2026-08-E02-probe-lua",
+      "field": "output_path",
+      "path": "<scratch-workspace>/dispatch-runtime.dump",
+      "recorded_sha256": "2d9152508118def0cd271297f4e0826734fb666794384d1ad25defd918312ce5",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "3f1b8a35e605c1ad3880e152311bbb3b060ffb998ed612f63861383725215fe7",
+      "artifact_id": "WR-2026-08-E03-probe-trace",
+      "field": "input_path",
+      "path": "<scratch-workspace>/feproj-probe/probe-trace",
+      "recorded_sha256": "3f1b8a35e605c1ad3880e152311bbb3b060ffb998ed612f63861383725215fe7",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "8ccf24dad50a30da7856e108d8783b625d037c1ac4bfbb68caf2a00ca9e4e5ff",
+      "artifact_id": "WR-2026-08-E03-probe-trace",
+      "field": "output_path",
+      "path": "<scratch-workspace>/luav-runtime-full.dump",
+      "recorded_sha256": "8ccf24dad50a30da7856e108d8783b625d037c1ac4bfbb68caf2a00ca9e4e5ff",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "5c9d871edc8cef64600ec97c53a70e3fc2b94636b36cebbfad9c61be54fc8a32",
+      "artifact_id": "WR-2026-08-E04-probe-final",
+      "field": "input_path",
+      "path": "<scratch-workspace>/feproj-probe/probe-final",
+      "recorded_sha256": "5c9d871edc8cef64600ec97c53a70e3fc2b94636b36cebbfad9c61be54fc8a32",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "529463569cb0cd99e7f4304232fc37bf80c50dcdbe75bd74ca4630836fbfa5c5",
+      "artifact_id": "WR-2026-08-E05-probe-patcher",
+      "field": "input_path",
+      "path": "<scratch-workspace>/feproj-probe/probe-patcher",
+      "recorded_sha256": "529463569cb0cd99e7f4304232fc37bf80c50dcdbe75bd74ca4630836fbfa5c5",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "d18d640ad1701ae5fecd4200b5cfa44b4278876c9843b55d7b2e92d8faba030e",
+      "artifact_id": "WR-2026-08-E05-probe-patcher",
+      "field": "output_path",
+      "path": "<scratch-workspace>/scan-full2.log",
+      "recorded_sha256": "d18d640ad1701ae5fecd4200b5cfa44b4278876c9843b55d7b2e92d8faba030e",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "162ca4c8b148b7d7602e255d9773157fd0695d221e3e6a2f023ffe978af8d044",
+      "artifact_id": "WR-2026-08-E06-probe-reg",
+      "field": "input_path",
+      "path": "<scratch-workspace>/feproj-probe/probe-reg",
+      "recorded_sha256": "162ca4c8b148b7d7602e255d9773157fd0695d221e3e6a2f023ffe978af8d044",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "e822d07b0e29606ceeb94994a3201e9ab52f2e2b31d5c12bd96030eb21c31e34",
+      "artifact_id": "WR-2026-08-E06-probe-reg",
+      "field": "output_path",
+      "path": "<scratch-workspace>/bound-881.log",
+      "recorded_sha256": "e822d07b0e29606ceeb94994a3201e9ab52f2e2b31d5c12bd96030eb21c31e34",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "c87d55759049b9345779749f49b5f3f5bcbdfb20b3732b32803182d4ec660af0",
+      "artifact_id": "WR-2026-08-E07-probe-hash",
+      "field": "input_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/probe-hash.c",
+      "recorded_sha256": "c87d55759049b9345779749f49b5f3f5bcbdfb20b3732b32803182d4ec660af0",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "dc5364e9a2187ec778219f57aa7efbcf8361a1d6e32ae00beec62d382934a181",
+      "artifact_id": "WR-2026-08-E07-probe-hash",
+      "field": "output_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/probe-hash.out",
+      "recorded_sha256": "dc5364e9a2187ec778219f57aa7efbcf8361a1d6e32ae00beec62d382934a181",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "5e608f2da59371a583929aed90e4ec4985bc8ee12fc0d44124000b94d1b8a02a",
+      "artifact_id": "WR-2026-08-E08-runtime-dumps",
+      "field": "input_path",
+      "path": "<scratch-workspace>/and-sysroot/xbin/libFEProj.so",
+      "recorded_sha256": "5e608f2da59371a583929aed90e4ec4985bc8ee12fc0d44124000b94d1b8a02a",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "271b02057be91cd542b9727c8da899f002d3318ec2fe9aee1278828a1dbc86c2",
+      "artifact_id": "WR-2026-08-E08-runtime-dumps",
+      "field": "output_path",
+      "path": "<scratch-workspace>/runtime-text.bin",
+      "recorded_sha256": "271b02057be91cd542b9727c8da899f002d3318ec2fe9aee1278828a1dbc86c2",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "5e608f2da59371a583929aed90e4ec4985bc8ee12fc0d44124000b94d1b8a02a",
+      "artifact_id": "WR-2026-08-E09-vfs-decrypt-runtime",
+      "field": "input_path",
+      "path": "<scratch-workspace>/and-sysroot/xbin/libFEProj.so",
+      "recorded_sha256": "5e608f2da59371a583929aed90e4ec4985bc8ee12fc0d44124000b94d1b8a02a",
+      "status": "match"
+    },
+    {
+      "artifact_id": "WR-2026-08-E09-vfs-decrypt-runtime",
+      "field": "output_path",
+      "path": "<scratch-workspace>/vfs-all",
+      "reason": "referenced path is absent or not a usable file",
+      "recorded_sha256": "error:[Errno 21] Is a directory: '<scratch-workspace>/vfs-all/'",
+      "status": "historical_unavailable"
+    },
+    {
+      "actual_sha256": "9aaeb5e88a3e75a41626249d8c207f09bd5885f0d91b71cfc626a7d049a2c747",
+      "artifact_id": "WR-2026-08-F01-eifs-decrypt",
+      "field": "input_path",
+      "path": "<research-workspace>/corpus/basic-data/external-basic/files/Res/1690133797_3101_7.2.20.45_20260710185914_1796376366_cures.ifs.res",
+      "recorded_sha256": "9aaeb5e88a3e75a41626249d8c207f09bd5885f0d91b71cfc626a7d049a2c747",
+      "status": "match"
+    },
+    {
+      "artifact_id": "WR-2026-08-F01-eifs-decrypt",
+      "field": "output_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/decoded-eifs",
+      "reason": "referenced path is absent or not a usable file",
+      "recorded_sha256": "error:[Errno 21] Is a directory: '<research-workspace>/work/ai-cfg-recovery-2026-08-04/decoded-eifs/'",
+      "status": "historical_unavailable"
+    },
+    {
+      "actual_sha256": "ac05d79b1a54c3952365b2bea0a2fcdee234bb2ca3e91cea985716d3accca2b5",
+      "artifact_id": "WR-2026-08-F02-bet-parse",
+      "field": "input_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/decoded-eifs/BET.decrypted.bin",
+      "recorded_sha256": "ac05d79b1a54c3952365b2bea0a2fcdee234bb2ca3e91cea985716d3accca2b5",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "9c3553cec43b5da8ba34f223e1446ec9b99c770282ac226470fb064389bf41bb",
+      "artifact_id": "WR-2026-08-F02-bet-parse",
+      "field": "output_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/bet-records.json",
+      "recorded_sha256": "9c3553cec43b5da8ba34f223e1446ec9b99c770282ac226470fb064389bf41bb",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "18e94ed47f106a744de31ecde7eb855b81d712955d62cd818ae4de6f84607ee1",
+      "artifact_id": "WR-2026-08-F03-piece-key",
+      "field": "input_path",
+      "path": "<research-workspace>/corpus/package-extract/7.2.0.2460-7246064/apks/config.arm64_v8a.apk",
+      "recorded_sha256": "18e94ed47f106a744de31ecde7eb855b81d712955d62cd818ae4de6f84607ee1",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "dc5364e9a2187ec778219f57aa7efbcf8361a1d6e32ae00beec62d382934a181",
+      "artifact_id": "WR-2026-08-F03-piece-key",
+      "field": "output_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/probe-hash.out",
+      "recorded_sha256": "dc5364e9a2187ec778219f57aa7efbcf8361a1d6e32ae00beec62d382934a181",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "ecd1a9a04b40a706f347645bd46dfb9b07720656b58ea5a22e401bd971757120",
+      "artifact_id": "WR-2026-08-F04-vfs-decrypt",
+      "field": "input_path",
+      "path": "<research-workspace>/corpus/basic-data/external-basic/files/Res/LData/4069fcb0d5f7d769ad08e39d9e179d4f.vfs",
+      "recorded_sha256": "ecd1a9a04b40a706f347645bd46dfb9b07720656b58ea5a22e401bd971757120",
+      "status": "match"
+    },
+    {
+      "artifact_id": "WR-2026-08-F04-vfs-decrypt",
+      "field": "output_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/decrypted-samples/vfs-extracted",
+      "reason": "referenced path is absent or not a usable file",
+      "recorded_sha256": "error:[Errno 21] Is a directory: '<research-workspace>/work/ai-cfg-recovery-2026-08-04/decrypted-samples/vfs-extracted/'",
+      "status": "historical_unavailable"
+    },
+    {
+      "artifact_id": "WR-2026-08-F05-content-corpus",
+      "field": "input_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/decrypted-samples/vfs-extracted",
+      "reason": "referenced path is absent or not a usable file",
+      "recorded_sha256": "error:[Errno 21] Is a directory: '<research-workspace>/work/ai-cfg-recovery-2026-08-04/decrypted-samples/vfs-extracted/'",
+      "status": "historical_unavailable"
+    },
+    {
+      "actual_sha256": "7c75ebfcd1c1a5c103c87f037bc6b68ff89b2913d9f5d00b644dc57cb349d079",
+      "artifact_id": "WR-2026-08-F05-content-corpus",
+      "field": "output_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/content-corpus/members.jsonl",
+      "recorded_sha256": "7c75ebfcd1c1a5c103c87f037bc6b68ff89b2913d9f5d00b644dc57cb349d079",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "7c75ebfcd1c1a5c103c87f037bc6b68ff89b2913d9f5d00b644dc57cb349d079",
+      "artifact_id": "WR-2026-08-F06-full-content",
+      "field": "input_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/content-corpus/members.jsonl",
+      "recorded_sha256": "7c75ebfcd1c1a5c103c87f037bc6b68ff89b2913d9f5d00b644dc57cb349d079",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "03d05d3b27a0a95f7bcec533c6f57b633806f8a585191c139bf778a0791a115a",
+      "artifact_id": "WR-2026-08-F06-full-content",
+      "field": "output_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/full/heroes.json",
+      "recorded_sha256": "03d05d3b27a0a95f7bcec533c6f57b633806f8a585191c139bf778a0791a115a",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "5bd0f8b0efb4ebbbbe148300dc17166f9335a9e2d5ff20de42edb22267fde45d",
+      "artifact_id": "WR-2026-08-F07-type-fields",
+      "field": "input_path",
+      "path": "<research-workspace>/corpus/basic-data/external-basic/files/il2cpp/Metadata/global-metadata.dat",
+      "recorded_sha256": "5bd0f8b0efb4ebbbbe148300dc17166f9335a9e2d5ff20de42edb22267fde45d",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "1180117a86f6a49de3bc82f3b3fdac84538b9e35b2ef1a2630602d4f163db5f1",
+      "artifact_id": "WR-2026-08-F07-type-fields",
+      "field": "output_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/type-fields.json",
+      "recorded_sha256": "1180117a86f6a49de3bc82f3b3fdac84538b9e35b2ef1a2630602d4f163db5f1",
+      "status": "match"
+    },
+    {
+      "artifact_id": "WR-2026-08-F08-semantic-configs",
+      "field": "input_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/full",
+      "reason": "referenced path is absent or not a usable file",
+      "recorded_sha256": "error:[Errno 21] Is a directory: '<research-workspace>/work/ai-cfg-recovery-2026-08-04/full/'",
+      "status": "historical_unavailable"
+    },
+    {
+      "artifact_id": "WR-2026-08-F08-semantic-configs",
+      "field": "output_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/semantic-configs",
+      "reason": "referenced path is absent or not a usable file",
+      "recorded_sha256": "error:[Errno 21] Is a directory: '<research-workspace>/work/ai-cfg-recovery-2026-08-04/semantic-configs/'",
+      "status": "historical_unavailable"
+    },
+    {
+      "actual_sha256": "cb4b2fc2feceffd0d9a21e7ff73344487d21b7f1372c121df0d2e42ec157d90e",
+      "artifact_id": "WR-2026-08-F09-flow-grammar",
+      "field": "input_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/full/equips.json",
+      "recorded_sha256": "cb4b2fc2feceffd0d9a21e7ff73344487d21b7f1372c121df0d2e42ec157d90e",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "8e2ac6de38227f993119e3f2b2b2d91aeaf596477452dccd6dd5483c8d2780fa",
+      "artifact_id": "WR-2026-08-F09-flow-grammar",
+      "field": "output_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/transparency-sprint/flow-semantic-summary.json",
+      "recorded_sha256": "8e2ac6de38227f993119e3f2b2b2d91aeaf596477452dccd6dd5483c8d2780fa",
+      "status": "match"
+    },
+    {
+      "artifact_id": "WR-2026-08-F10-ffba-format",
+      "field": "input_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/decrypted-samples/vfs-extracted",
+      "reason": "referenced path is absent or not a usable file",
+      "recorded_sha256": "error:[Errno 21] Is a directory: '<research-workspace>/work/ai-cfg-recovery-2026-08-04/decrypted-samples/vfs-extracted/'",
+      "status": "historical_unavailable"
+    },
+    {
+      "actual_sha256": "188aa305216b4324ff26ebd4412cd10929d644c07064f55b1b11ae083715a89a",
+      "artifact_id": "WR-2026-08-F10-ffba-format",
+      "field": "output_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/fffba-format.md",
+      "recorded_sha256": "188aa305216b4324ff26ebd4412cd10929d644c07064f55b1b11ae083715a89a",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "c90c70d80473f76eead8e32e9651ed4ad216eda7d4c4f25fcfa59de2bc96b9da",
+      "artifact_id": "WR-2026-08-F11-vfs-format",
+      "field": "input_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/vfs-keys.json",
+      "recorded_sha256": "c90c70d80473f76eead8e32e9651ed4ad216eda7d4c4f25fcfa59de2bc96b9da",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "737aa76efd317d16785008709ee8b7869bb7c5d56169757f30127e3438da0c40",
+      "artifact_id": "WR-2026-08-F11-vfs-format",
+      "field": "output_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/vfs-format.md",
+      "recorded_sha256": "737aa76efd317d16785008709ee8b7869bb7c5d56169757f30127e3438da0c40",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "18e94ed47f106a744de31ecde7eb855b81d712955d62cd818ae4de6f84607ee1",
+      "artifact_id": "WR-2026-08-F12-tdr-scan",
+      "field": "input_path",
+      "path": "<research-workspace>/corpus/package-extract/7.2.0.2460-7246064/apks/config.arm64_v8a.apk",
+      "recorded_sha256": "18e94ed47f106a744de31ecde7eb855b81d712955d62cd818ae4de6f84607ee1",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "c4e4c74ea1b30bab7e0754536807dd6b666c2a1e7d3e7bf4b4fcf802c2dcddcc",
+      "artifact_id": "WR-2026-08-F12-tdr-scan",
+      "field": "output_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/tdr-magic-scan.json",
+      "recorded_sha256": "c4e4c74ea1b30bab7e0754536807dd6b666c2a1e7d3e7bf4b4fcf802c2dcddcc",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "7f50c1f622a303be33d06f65c68f8f397d9e4950d06d6e4dd966cb88f78c6c6f",
+      "artifact_id": "WR-2026-08-F13-fbau-head",
+      "field": "input_path",
+      "path": "<research-workspace>/corpus/package-extract/7.2.0.2460-7246064/apks/pad1.apk",
+      "recorded_sha256": "7f50c1f622a303be33d06f65c68f8f397d9e4950d06d6e4dd966cb88f78c6c6f",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "dfbec5c4f684dc80be7e9947b4846c40120b8b5ece94a4f7fb0e95ac34838ec6",
+      "artifact_id": "WR-2026-08-F13-fbau-head",
+      "field": "output_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/transparency-sprint/fbau-head-manifest.json",
+      "recorded_sha256": "dfbec5c4f684dc80be7e9947b4846c40120b8b5ece94a4f7fb0e95ac34838ec6",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "271b02057be91cd542b9727c8da899f002d3318ec2fe9aee1278828a1dbc86c2",
+      "artifact_id": "WR-2026-08-F14-head-cipher",
+      "field": "input_path",
+      "path": "<scratch-workspace>/runtime-text.bin",
+      "recorded_sha256": "271b02057be91cd542b9727c8da899f002d3318ec2fe9aee1278828a1dbc86c2",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "370c53c2513e5e98d1ee55e3b78a20cd7984bd4723e87bfc48fa0c980a14ae92",
+      "artifact_id": "WR-2026-08-F14-head-cipher",
+      "field": "output_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/modding-docs/22-head-cipher-recovered.md",
+      "recorded_sha256": "370c53c2513e5e98d1ee55e3b78a20cd7984bd4723e87bfc48fa0c980a14ae92",
+      "status": "match"
+    },
+    {
+      "artifact_id": "WR-2026-08-F15-streamcfg",
+      "field": "input_path",
+      "path": "<research-workspace>/corpus/basic-data/external-basic/files/StreamCfg",
+      "reason": "referenced path is absent or not a usable file",
+      "recorded_sha256": "error:[Errno 21] Is a directory: '<research-workspace>/corpus/basic-data/external-basic/files/StreamCfg/'",
+      "status": "historical_unavailable"
+    },
+    {
+      "actual_sha256": "d96d4197c810626ea3d31f3127e42238bd35898822784ce719f5146cf43b97fd",
+      "artifact_id": "WR-2026-08-F15-streamcfg",
+      "field": "output_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/transparency-sprint/streamcfg-parsed-pad1.json",
+      "recorded_sha256": "d96d4197c810626ea3d31f3127e42238bd35898822784ce719f5146cf43b97fd",
+      "status": "match"
+    },
+    {
+      "artifact_id": "WR-2026-08-F16-lvisi",
+      "field": "input_path",
+      "path": "<research-workspace>/corpus/basic-data/external-basic/files/Res/LVisi",
+      "reason": "referenced path is absent or not a usable file",
+      "recorded_sha256": "error:[Errno 21] Is a directory: '<research-workspace>/corpus/basic-data/external-basic/files/Res/LVisi/'",
+      "status": "historical_unavailable"
+    },
+    {
+      "artifact_id": "WR-2026-08-F16-lvisi",
+      "field": "output_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/transparency-sprint/lvisi-samples",
+      "reason": "referenced path is absent or not a usable file",
+      "recorded_sha256": "error:[Errno 21] Is a directory: '<research-workspace>/work/ai-cfg-recovery-2026-08-04/transparency-sprint/lvisi-samples/'",
+      "status": "historical_unavailable"
+    },
+    {
+      "artifact_id": "WR-2026-08-F17-qjbc",
+      "field": "input_path",
+      "path": "<scratch-workspace>/gameletcore.bin",
+      "reason": "referenced path is absent or not a usable file",
+      "recorded_sha256": "missing",
+      "status": "historical_unavailable"
+    },
+    {
+      "actual_sha256": "60c12b9e655fdb58e709ca1e17e6371a5ceb9216a7e5f4e2afd43a8ce4172184",
+      "artifact_id": "WR-2026-08-F17-qjbc",
+      "field": "output_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/transparency-sprint/qjbc-loader-pseudocode.md",
+      "recorded_sha256": "60c12b9e655fdb58e709ca1e17e6371a5ceb9216a7e5f4e2afd43a8ce4172184",
+      "status": "match"
+    },
+    {
+      "artifact_id": "WR-2026-08-F18-base-payloads",
+      "field": "input_path",
+      "path": "<research-workspace>/corpus/package-extract/7.2.0.2460-7246064/apks/base.apk",
+      "reason": "referenced path is absent or not a usable file",
+      "recorded_sha256": "missing",
+      "status": "historical_unavailable"
+    },
+    {
+      "artifact_id": "WR-2026-08-F18-base-payloads",
+      "field": "output_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/transparency-sprint/base-payload-decrypted",
+      "reason": "referenced path is absent or not a usable file",
+      "recorded_sha256": "error:[Errno 21] Is a directory: '<research-workspace>/work/ai-cfg-recovery-2026-08-04/transparency-sprint/base-payload-decrypted/'",
+      "status": "historical_unavailable"
+    },
+    {
+      "actual_sha256": "773454ea6e4ed995a48120a3edeabe5efac6f068f1c6de1463e825c15979f9c8",
+      "artifact_id": "WR-2026-08-G01-report-xor30-crack",
+      "field": "output_path",
+      "path": "<research-workspace>/reports/2026-08-04_wild-rift-7.2-feproj-xor30-island-crack.md",
+      "recorded_sha256": "ef4bffe1a3a093ad6819a7690295801c57309fa336acf14c753663ae130931d7",
+      "status": "mismatch"
+    },
+    {
+      "actual_sha256": "e6d10c04032749e149daf8a8f4c952faec07cb29a1fc6307b791dc4b48a839e8",
+      "artifact_id": "WR-2026-08-G02-report-static-master",
+      "field": "output_path",
+      "path": "<research-workspace>/reports/2026-08-04_wild-rift-7.2-static-analysis-master.md",
+      "recorded_sha256": "e6d10c04032749e149daf8a8f4c952faec07cb29a1fc6307b791dc4b48a839e8",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "3943e599cec3ab17588cdea5f1a30090d613b2f5ec3162b675098c1afbc8df7b",
+      "artifact_id": "WR-2026-08-G03-report-module-logic",
+      "field": "output_path",
+      "path": "<research-workspace>/reports/2026-08-05_wild-rift-7.2-module-logic-master.md",
+      "recorded_sha256": "1e07b9e8cbe94f5251b8be973b3659aeb1a5d6eec0951d3da160ddc5ffdd9f53",
+      "status": "mismatch"
+    },
+    {
+      "artifact_id": "WR-2026-08-G04-docs-core",
+      "field": "output_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/docs",
+      "reason": "referenced path is absent or not a usable file",
+      "recorded_sha256": "error:[Errno 21] Is a directory: '<research-workspace>/work/ai-cfg-recovery-2026-08-04/docs/'",
+      "status": "historical_unavailable"
+    },
+    {
+      "artifact_id": "WR-2026-08-G05-slices",
+      "field": "output_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/slices",
+      "reason": "referenced path is absent or not a usable file",
+      "recorded_sha256": "error:[Errno 21] Is a directory: '<research-workspace>/work/ai-cfg-recovery-2026-08-04/slices/'",
+      "status": "historical_unavailable"
+    },
+    {
+      "artifact_id": "WR-2026-08-G06-modding-docs",
+      "field": "output_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/modding-docs",
+      "reason": "referenced path is absent or not a usable file",
+      "recorded_sha256": "error:[Errno 21] Is a directory: '<research-workspace>/work/ai-cfg-recovery-2026-08-04/modding-docs/'",
+      "status": "historical_unavailable"
+    },
+    {
+      "artifact_id": "WR-2026-08-G07-anticheat-docs",
+      "field": "output_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/anticheat-docs",
+      "reason": "referenced path is absent or not a usable file",
+      "recorded_sha256": "error:[Errno 21] Is a directory: '<research-workspace>/work/ai-cfg-recovery-2026-08-04/anticheat-docs/'",
+      "status": "historical_unavailable"
+    },
+    {
+      "artifact_id": "WR-2026-08-G08-logic-docs",
+      "field": "output_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/logic-docs",
+      "reason": "referenced path is absent or not a usable file",
+      "recorded_sha256": "error:[Errno 21] Is a directory: '<research-workspace>/work/ai-cfg-recovery-2026-08-04/logic-docs/'",
+      "status": "historical_unavailable"
+    },
+    {
+      "artifact_id": "WR-2026-08-G09-strategy-docs",
+      "field": "output_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/strategy-docs",
+      "reason": "referenced path is absent or not a usable file",
+      "recorded_sha256": "error:[Errno 21] Is a directory: '<research-workspace>/work/ai-cfg-recovery-2026-08-04/strategy-docs/'",
+      "status": "historical_unavailable"
+    },
+    {
+      "actual_sha256": "a42a3eb3d34971d64e47119cb21f6224711755b98dae9c89f8f477c8578d79cf",
+      "artifact_id": "WR-2026-08-G10-gcloud-crypto-superseded",
+      "field": "output_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/gcloud-crypto.md",
+      "recorded_sha256": "a42a3eb3d34971d64e47119cb21f6224711755b98dae9c89f8f477c8578d79cf",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "b3b8b7fd45091a86a31c39a34ce3464722c4b461f02d24f2d2360980f96b670d",
+      "artifact_id": "WR-2026-08-G11-lnet-vm",
+      "field": "output_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/lnet-vm.md",
+      "recorded_sha256": "b3b8b7fd45091a86a31c39a34ce3464722c4b461f02d24f2d2360980f96b670d",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "d1e1ae87e539634eed5640590f65a549a3414eda03c41a919853bf09b8cb4d85",
+      "artifact_id": "WR-2026-08-G12-metadata-bulk",
+      "field": "output_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/metadata-bulk.md",
+      "recorded_sha256": "d1e1ae87e539634eed5640590f65a549a3414eda03c41a919853bf09b8cb4d85",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "5e608f2da59371a583929aed90e4ec4985bc8ee12fc0d44124000b94d1b8a02a",
+      "artifact_id": "WR-2026-08-H01-lua-operand-decode",
+      "field": "input_path",
+      "path": "<research-workspace>/corpus/native-elf/decompressed-arm64/libFEProj.so",
+      "recorded_sha256": "5e608f2da59371a583929aed90e4ec4985bc8ee12fc0d44124000b94d1b8a02a",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "6d397265b74319c0aed3536e0e31d60a8ee0e23ad88cfb90eb2a02a7f732bc49",
+      "artifact_id": "WR-2026-08-H01-lua-operand-decode",
+      "field": "output_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/lua-vm.md",
+      "recorded_sha256": "6d397265b74319c0aed3536e0e31d60a8ee0e23ad88cfb90eb2a02a7f732bc49",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "dfbec5c4f684dc80be7e9947b4846c40120b8b5ece94a4f7fb0e95ac34838ec6",
+      "artifact_id": "WR-2026-08-H04-fbau-blob-semantics",
+      "field": "input_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/transparency-sprint/fbau-head-manifest.json",
+      "recorded_sha256": "dfbec5c4f684dc80be7e9947b4846c40120b8b5ece94a4f7fb0e95ac34838ec6",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "6e62c18f8929ba443f2cd49afff6296124b8351da8cd3d99694059f75d88b4ad",
+      "artifact_id": "WR-2026-08-H04-fbau-blob-semantics",
+      "field": "output_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/modding-docs/19-fbau-blob.md",
+      "recorded_sha256": "6e62c18f8929ba443f2cd49afff6296124b8351da8cd3d99694059f75d88b4ad",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "03d05d3b27a0a95f7bcec533c6f57b633806f8a585191c139bf778a0791a115a",
+      "artifact_id": "WR-2026-08-H05-actorcfg-fields",
+      "field": "input_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/full/heroes.json",
+      "recorded_sha256": "03d05d3b27a0a95f7bcec533c6f57b633806f8a585191c139bf778a0791a115a",
+      "status": "match"
+    },
+    {
+      "actual_sha256": "0f0cfc0e02a29e9107868b63b0b16a152ddd20b77073bc5ded1827f7edd6b06f",
+      "artifact_id": "WR-2026-08-H05-actorcfg-fields",
+      "field": "output_path",
+      "path": "<research-workspace>/work/ai-cfg-recovery-2026-08-04/docs/28-errata.md",
+      "recorded_sha256": "0f0cfc0e02a29e9107868b63b0b16a152ddd20b77073bc5ded1827f7edd6b06f",
+      "status": "match"
+    }
+  ],
+  "hash_mismatches": [
+    {
+      "actual_sha256": "773454ea6e4ed995a48120a3edeabe5efac6f068f1c6de1463e825c15979f9c8",
+      "artifact_id": "WR-2026-08-G01-report-xor30-crack",
+      "field": "output_path",
+      "path": "<research-workspace>/reports/2026-08-04_wild-rift-7.2-feproj-xor30-island-crack.md",
+      "recorded_sha256": "ef4bffe1a3a093ad6819a7690295801c57309fa336acf14c753663ae130931d7",
+      "status": "mismatch"
+    },
+    {
+      "actual_sha256": "3943e599cec3ab17588cdea5f1a30090d613b2f5ec3162b675098c1afbc8df7b",
+      "artifact_id": "WR-2026-08-G03-report-module-logic",
+      "field": "output_path",
+      "path": "<research-workspace>/reports/2026-08-05_wild-rift-7.2-module-logic-master.md",
+      "recorded_sha256": "1e07b9e8cbe94f5251b8be973b3659aeb1a5d6eec0951d3da160ddc5ffdd9f53",
+      "status": "mismatch"
+    }
+  ],
+  "historical_unavailable_policy": "stub/report only; no inferred command is emitted",
+  "input_output_hash_checks": "recorded SHA-256 is compared with the actual hash for every usable referenced file",
+  "manifest": {
+    "path": "<research-workspace>/artifacts/2026-08-artifact-manifest.jsonl",
+    "sha256": "e1a3a5bc10cf8b72253a63a9f58d393716b59c51865fa1393df35f0e8e1e7523",
+    "size": 88083,
+    "status": "available"
+  },
+  "metrics": {
+    "catalog_rows": 771,
+    "definitions": {
+      "catalog_rows": "non-empty JSONL rows in island-catalog.jsonl",
+      "edge_rows": "edges.count when present, otherwise edges list length",
+      "lua_api_entries": "top-level list length or object entries/apis/count",
+      "printable_ascii_runs": "runs matching [ -~]{4,} in raw strings.jsonl bytes",
+      "registry_entries": "top-level list length or object entries/records/count",
+      "runtime_layout_entries": "top-level list length or object entries/layout/count",
+      "string_rows": "non-empty JSONL rows in strings.jsonl"
+    },
+    "edge_rows": 1418617,
+    "lua_api_entries": null,
+    "printable_ascii_runs": 654409,
+    "registry_entries": null,
+    "runtime_layout_entries": null,
+    "string_rows": 654409
+  },
+  "schema_version": "1.0.0",
+  "static_inputs": {
+    "catalog": {
+      "path": "<research-workspace>/work/static-analysis-2026-08-04/island-catalog.jsonl",
+      "sha256": "332c8705337134270f7d9ca1e6202ebf1f50bc4ef4e38ae2c494291199dffb8e",
+      "size": 7450561,
+      "status": "available"
+    },
+    "edges": {
+      "path": "<research-workspace>/work/static-analysis-2026-08-04/edges.json",
+      "sha256": "fc8d2d8d099a69ca0800611c5b5eb31bac90ee00a5fd1412c7b9f7147a416f77",
+      "size": 87798240,
+      "status": "available"
+    },
+    "lua_api": {
+      "path": "<research-workspace>/work/static-analysis-2026-08-04/fe-lua-api.json",
+      "reason": "historical input is absent or not a usable file; no command inferred",
+      "status": "historical_unavailable"
+    },
+    "manifest": {
+      "path": "<research-workspace>/work/static-analysis-2026-08-04/MANIFEST.json",
+      "sha256": "e0f7d3809498cff623fc5266a7501b52d823c542cbd1cb5d8a8451508168cee0",
+      "size": 217,
+      "status": "available"
+    },
+    "registry": {
+      "path": "<research-workspace>/work/static-analysis-2026-08-04/registry-dump.json",
+      "reason": "historical input is absent or not a usable file; no command inferred",
+      "status": "historical_unavailable"
+    },
+    "runtime_layout": {
+      "path": "<research-workspace>/work/static-analysis-2026-08-04/runtime-layout.json",
+      "reason": "historical input is absent or not a usable file; no command inferred",
+      "status": "historical_unavailable"
+    },
+    "strings": {
+      "path": "<research-workspace>/work/static-analysis-2026-08-04/strings.jsonl",
+      "sha256": "be8bf0eeafe2af5295bcd41f16b4861eb413f75ce7ab2638f9ab5e795c7c6a90",
+      "size": 20268953,
+      "status": "available"
+    }
+  },
+  "static_runtime_views": {
+    "manifest_fields": {
+      "abi": "arm64-v8a",
+      "frida_host_accepted": "17.15.5",
+      "frida_host_historical": "17.8.0",
+      "package_build": "7.2.0.2460 / 7246064"
+    },
+    "runtime_view": "runtime-remapped observations are separate; no runtime input is synthesized",
+    "static_view": "raw | XOR-0x30 per historical manifest; coordinate semantics are not rewritten"
+  },
+  "verifier": "artifact-chain-readonly"
+}

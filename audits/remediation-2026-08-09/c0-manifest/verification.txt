@@ -1,0 +1,25 @@
+Batch 1A verification
+
+Exact commands:
+- cd <research-workspace> && python3 -m pytest tools/resource_mod_feasibility/tests -q
+
+Result:
+- PASS: 28 passed in 0.08s
+
+Changed files:
+- tools/resource_mod_feasibility/resource_mod_feasibility/manifest.py
+- tools/resource_mod_feasibility/tests/test_manifest.py
+- work/2026-08-09-remediation/c0-manifest/verification.txt
+
+Implementation coverage:
+- Regular files: observed/expected/input/output hash fields and mismatch rejection.
+- Directories: deterministic recursive members, total bytes, and tree_hash; no directory Errno 21 file hash.
+- ZIP members: archive_sha256, member CRC, compression type, compressed/uncompressed sizes.
+- Missing paths and missing ZIP members: null hashes plus missing status; inferred commands are historical_unavailable and non-replayable.
+- Lineage, tool revision/hash fields, exact command, environment, status are emitted while retaining legacy API fields.
+
+Unresolved issues:
+- No unresolved test failures. The shared research schema was intentionally not modified per task boundary; new manifest fields remain additive.
+- build_manifest.py CLI remains backward compatible and does not infer commands for historical inputs.
+
+No git commit was created.

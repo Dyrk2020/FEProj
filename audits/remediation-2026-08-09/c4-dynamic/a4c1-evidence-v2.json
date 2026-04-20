@@ -1,0 +1,537 @@
+{
+  "schema": "a4c1-fd-lineage-v1",
+  "status": "PASS",
+  "status_reason": "Two normal physical arm64 captures show the same provenance-bound data-plane edge in each ordered raw-event prefix, with an explicit live fd route, stable module/RVA, locked inputs, and no matching-PID fatal logcat.",
+  "generated_from": {
+    "builder": "build_a4c1_evidence.py",
+    "run_ids": [
+      "20260716T224808.800307Z-734670d2",
+      "20260716T231033.454503Z-cd38a941"
+    ]
+  },
+  "device_gate": {
+    "name": "OnePlus3",
+    "serial": "192.168.100.11:39445",
+    "state": "device",
+    "manufacturer_model": "OnePlus Ace 3",
+    "model": "PJE110",
+    "device": "OP5CF9L1",
+    "android": "16",
+    "abi": "arm64-v8a,armeabi-v7a,armeabi"
+  },
+  "scope": {
+    "target_package": "dev.wildriftresearch.logicharness",
+    "minimum_graph": [
+      "libil2cpp.so"
+    ],
+    "official_package_attached": false,
+    "undocumented_va_called": false,
+    "additional_dso_loaded": false
+  },
+  "execution": {
+    "force_stopped_before_each_run": true,
+    "flags": [
+      "--stream-dsos",
+      "--stage",
+      "--load",
+      "--set-data-dir",
+      "--init",
+      "--a3"
+    ],
+    "required_runs": 2,
+    "normal_runs": 2,
+    "distinct_pids": true,
+    "matching_pid_fatal_signals": 0,
+    "ordered_event_prefixes_validated": true
+  },
+  "canonical_metadata": {
+    "header_hex": "464d4e211f00000049db9dcc2b3d9dcf",
+    "identities_by_run": {
+      "20260716T224808.800307Z-734670d2": {
+        "dev": "65099",
+        "ino": "1692515",
+        "size": 58401572
+      },
+      "20260716T231033.454503Z-cd38a941": {
+        "dev": "65099",
+        "ino": "1692515",
+        "size": 58401572
+      }
+    },
+    "identity": {
+      "dev": "65099",
+      "ino": "1692515",
+      "size": 58401572
+    },
+    "path": "/data/user/0/dev.wildriftresearch.logicharness/files/meta/Metadata/global-metadata.dat",
+    "sha256": "5bd0f8b0efb4ebbbbe148300dc17166f9335a9e2d5ff20de42edb22267fde45d",
+    "size": 58401572,
+    "window": {
+      "hex": "607bf400047b0d0064f60101b882d9001c79db0104260300209fde010801330028a0110288003900b0a04a0228ed0200d88d4d029cb14500743f93025c935800",
+      "length": 64,
+      "offset": 40
+    }
+  },
+  "repeatability": {
+    "qualifying_pass_edges": [
+      {
+        "api": "mmap",
+        "binding_source": "alias",
+        "caller_module": "libil2cpp.so",
+        "caller_rva": "0x400159c",
+        "event": "A3_METADATA_MMAP"
+      }
+    ],
+    "non_qualifying_edges": [
+      {
+        "api": "read",
+        "binding_source": "open",
+        "caller_module": "libjavacore.so",
+        "caller_rva": "0x2e4b8",
+        "event": "A3_FMN_READ",
+        "reason": "helper-side libjavacore A3_FMN_READ"
+      }
+    ],
+    "shared_data_plane_edges": [
+      {
+        "api": "read",
+        "binding_source": "open",
+        "caller_module": "libjavacore.so",
+        "caller_rva": "0x2e4b8",
+        "event": "A3_FMN_READ"
+      },
+      {
+        "api": "mmap",
+        "binding_source": "alias",
+        "caller_module": "libil2cpp.so",
+        "caller_rva": "0x400159c",
+        "event": "A3_METADATA_MMAP"
+      }
+    ],
+    "shared_route_types": [
+      "alias",
+      "open"
+    ],
+    "stable_absolute_addresses_required": false,
+    "stable_pid_required": false
+  },
+  "runs": [
+    {
+      "run_id": "20260716T224808.800307Z-734670d2",
+      "raw_attempt": "crashes/20260716T224808.800307Z-734670d2/attempt.json",
+      "raw_events": "crashes/20260716T224808.800307Z-734670d2/events.jsonl",
+      "raw_a3_events": "dumps/20260716T224808.800307Z-734670d2/a3-events.jsonl",
+      "raw_load_plan": "crashes/20260716T224808.800307Z-734670d2/load-plan.json",
+      "raw_logcat": "crashes/20260716T224808.800307Z-734670d2/logcat.txt",
+      "ordered_event_log": {
+        "dropped_events": 575,
+        "recorded_events": 512,
+        "truncated": true
+      },
+      "truncated": true,
+      "dropped_events": 575,
+      "proof_scope": "pre_truncation_prefix",
+      "truncation_boundary": 512,
+      "proof_sequence": [
+        {
+          "index": 236,
+          "ordered_event_index": 236,
+          "event": "A3_FMN_OPEN",
+          "api": "open",
+          "fd": 146,
+          "source_fd": null,
+          "target_fd": null,
+          "caller_module": "libil2cpp.so",
+          "caller_rva": "0x3bbf608",
+          "offset": null,
+          "truncation_boundary": 512
+        },
+        {
+          "index": 237,
+          "ordered_event_index": 237,
+          "event": "A3_FMN_FD_ALIAS",
+          "api": "dup",
+          "fd": null,
+          "source_fd": 146,
+          "target_fd": 582,
+          "caller_module": null,
+          "caller_rva": null,
+          "offset": null,
+          "truncation_boundary": 512
+        },
+        {
+          "index": 240,
+          "ordered_event_index": 240,
+          "event": "A3_METADATA_MMAP",
+          "api": "mmap",
+          "fd": 582,
+          "source_fd": null,
+          "target_fd": null,
+          "caller_module": "libil2cpp.so",
+          "caller_rva": "0x400159c",
+          "offset": "0x0",
+          "truncation_boundary": 512
+        },
+        {
+          "index": 244,
+          "ordered_event_index": 244,
+          "event": "A3_METADATA_MMAP",
+          "api": "mmap64",
+          "fd": 582,
+          "source_fd": null,
+          "target_fd": null,
+          "caller_module": "libil2cpp.so",
+          "caller_rva": "0x400159c",
+          "offset": "0x0",
+          "truncation_boundary": 512
+        }
+      ],
+      "captured_device_gate": {
+        "name": "OnePlus3",
+        "serial": "192.168.100.11:39445",
+        "state": "device",
+        "manufacturer_model": "OnePlus Ace 3",
+        "model": "PJE110",
+        "device": "OP5CF9L1",
+        "android": "16",
+        "abi": "arm64-v8a,armeabi-v7a,armeabi"
+      },
+      "fresh_capture": {
+        "force_stop_completed_at": "2026-07-16T22:48:09.404600+00:00",
+        "post_pids": [],
+        "spawn_completed_at": "2026-07-16T22:48:14.740923+00:00",
+        "spawn_pid": 4286
+      },
+      "arch": "arm64",
+      "pointer_size": 8,
+      "pid": 4286,
+      "fault_status": "normal",
+      "domain_ptr": "0x1",
+      "started_at": "2026-07-16T22:48:08.802788+00:00",
+      "finished_at": "2026-07-16T22:48:39.084122+00:00",
+      "frida_version": "17.15.5",
+      "gadget_path": "C:\\Users\\123\\AppData\\Local\\Temp\\frida\\frida-gadget-17.15.5-android-arm64.so",
+      "locked_library": {
+        "name": "libil2cpp.so",
+        "path": "/data/user/0/dev.wildriftresearch.logicharness/files/dso/libil2cpp.so",
+        "sha256": "6e8e7002169bc658fbe64be4c6e216e22c4bf719a620940e77890b9e57211dc6"
+      },
+      "metadata": {
+        "header_hex": "464d4e211f00000049db9dcc2b3d9dcf",
+        "identity": {
+          "dev": "65099",
+          "ino": "1692515",
+          "size": 58401572
+        },
+        "path": "/data/user/0/dev.wildriftresearch.logicharness/files/meta/Metadata/global-metadata.dat",
+        "sha256": "5bd0f8b0efb4ebbbbe148300dc17166f9335a9e2d5ff20de42edb22267fde45d",
+        "size": 58401572,
+        "window": {
+          "hex": "607bf400047b0d0064f60101b882d9001c79db0104260300209fde010801330028a0110288003900b0a04a0228ed0200d88d4d029cb14500743f93025c935800",
+          "length": 64,
+          "offset": 40
+        }
+      },
+      "event_counts": {
+        "A3_FMN_BOUND": 2,
+        "A3_FMN_COPY": 832,
+        "A3_FMN_FD_ALIAS": 1,
+        "A3_FMN_OPEN": 2,
+        "A3_FMN_READ": 1,
+        "A3_MEMORY_HIT": 2,
+        "A3_MEMORY_SWEEP": 1,
+        "A3_METADATA_MMAP": 2,
+        "A3_WATCH_ARMED": 1
+      },
+      "fd_aliases": [
+        {
+          "api": "dup",
+          "origin_api": "open",
+          "origin_fd": 146,
+          "source_fd": 146,
+          "target_fd": 582
+        }
+      ],
+      "fd_rebounds": [],
+      "data_plane": [
+        {
+          "api": "read",
+          "binding_source": "open",
+          "caller_module": "libjavacore.so",
+          "caller_rva": "0x2e4b8",
+          "event": "A3_FMN_READ",
+          "binding_route": {
+            "fd": 507,
+            "type": "open"
+          },
+          "qualifying": false,
+          "qualification": "non_qualifying_helper_side_read",
+          "byte_count": 16,
+          "count": 1,
+          "fd": 507,
+          "identity": {
+            "dev": "65099",
+            "ino": "1692515",
+            "size": 58401572
+          },
+          "locked_prefix_matches": false,
+          "metadata_sha256": "5bd0f8b0efb4ebbbbe148300dc17166f9335a9e2d5ff20de42edb22267fde45d",
+          "path": "/data/user/0/dev.wildriftresearch.logicharness/files/meta/Metadata/global-metadata.dat",
+          "prefix_256_hex": "464d4e211f00000049db9dcc2b3d9dcf",
+          "prefix_256_sha256": "73b719ea86f29ad525572289ba91289a636a49906e3d5824e31b69f867b90bd0",
+          "thread_id": 4286,
+          "offset": null
+        },
+        {
+          "api": "mmap",
+          "binding_source": "alias",
+          "caller_module": "libil2cpp.so",
+          "caller_rva": "0x400159c",
+          "event": "A3_METADATA_MMAP",
+          "binding_route": {
+            "api": "dup",
+            "origin_api": "open",
+            "origin_fd": 146,
+            "source_fd": 146,
+            "target_fd": 582,
+            "type": "alias"
+          },
+          "qualifying": true,
+          "qualification": "candidate_data_plane",
+          "byte_count": null,
+          "count": 2,
+          "fd": 582,
+          "identity": {
+            "dev": "65099",
+            "ino": "1692515",
+            "size": 58401572
+          },
+          "locked_prefix_matches": true,
+          "metadata_sha256": "5bd0f8b0efb4ebbbbe148300dc17166f9335a9e2d5ff20de42edb22267fde45d",
+          "path": "/data/user/0/dev.wildriftresearch.logicharness/files/meta/Metadata/global-metadata.dat",
+          "prefix_256_hex": "464d4e211f00000049db9dcc2b3d9dcfc19dd4004a50a3fc05bb7928480a339205eff279e9b96326607bf400047b0d0064f60101b882d9001c79db0104260300209fde010801330028a0110288003900b0a04a0228ed0200d88d4d029cb14500743f93025c935800d0d2eb0270b300004086ec027c0e0000bc94ec02608a00001c1fed02d4c40000f0e3ed0288cc010078b0ef02a4ed23001c9e1303b02b0700ccc91a03b05041007c1a5c03c00d00003c285c03001600003c3e5c03102900004c675c0370070000bc6e5c0300061300bc746f0398d40900544979039c0b0100f0547a0390aa000080ff7a030000000080ff7a030000000080ff7a03a4230000",
+          "prefix_256_sha256": "f367d2c6ba9be9a2aa1151443ea5260c2e70980b9195a028f7cf6ac6e1ce41d3",
+          "thread_id": 4625,
+          "observed_apis": [
+            "mmap",
+            "mmap64"
+          ],
+          "base": "0x6f6d9e8000",
+          "flags": 2,
+          "length": 58404864,
+          "offset": "0x0",
+          "protection": 3
+        }
+      ]
+    },
+    {
+      "run_id": "20260716T231033.454503Z-cd38a941",
+      "raw_attempt": "crashes/20260716T231033.454503Z-cd38a941/attempt.json",
+      "raw_events": "crashes/20260716T231033.454503Z-cd38a941/events.jsonl",
+      "raw_a3_events": "dumps/20260716T231033.454503Z-cd38a941/a3-events.jsonl",
+      "raw_load_plan": "crashes/20260716T231033.454503Z-cd38a941/load-plan.json",
+      "raw_logcat": "crashes/20260716T231033.454503Z-cd38a941/logcat.txt",
+      "ordered_event_log": {
+        "dropped_events": 612,
+        "recorded_events": 512,
+        "truncated": true
+      },
+      "truncated": true,
+      "dropped_events": 612,
+      "proof_scope": "pre_truncation_prefix",
+      "truncation_boundary": 512,
+      "proof_sequence": [
+        {
+          "index": 235,
+          "ordered_event_index": 235,
+          "event": "A3_FMN_OPEN",
+          "api": "open",
+          "fd": 146,
+          "source_fd": null,
+          "target_fd": null,
+          "caller_module": "libil2cpp.so",
+          "caller_rva": "0x3bbf608",
+          "offset": null,
+          "truncation_boundary": 512
+        },
+        {
+          "index": 236,
+          "ordered_event_index": 236,
+          "event": "A3_FMN_FD_ALIAS",
+          "api": "dup",
+          "fd": null,
+          "source_fd": 146,
+          "target_fd": 580,
+          "caller_module": null,
+          "caller_rva": null,
+          "offset": null,
+          "truncation_boundary": 512
+        },
+        {
+          "index": 239,
+          "ordered_event_index": 239,
+          "event": "A3_METADATA_MMAP",
+          "api": "mmap",
+          "fd": 580,
+          "source_fd": null,
+          "target_fd": null,
+          "caller_module": "libil2cpp.so",
+          "caller_rva": "0x400159c",
+          "offset": "0x0",
+          "truncation_boundary": 512
+        },
+        {
+          "index": 243,
+          "ordered_event_index": 243,
+          "event": "A3_METADATA_MMAP",
+          "api": "mmap64",
+          "fd": 580,
+          "source_fd": null,
+          "target_fd": null,
+          "caller_module": "libil2cpp.so",
+          "caller_rva": "0x400159c",
+          "offset": "0x0",
+          "truncation_boundary": 512
+        }
+      ],
+      "captured_device_gate": {
+        "name": "OnePlus3",
+        "serial": "192.168.100.11:39445",
+        "state": "device",
+        "manufacturer_model": "OnePlus Ace 3",
+        "model": "PJE110",
+        "device": "OP5CF9L1",
+        "android": "16",
+        "abi": "arm64-v8a,armeabi-v7a,armeabi"
+      },
+      "fresh_capture": {
+        "force_stop_completed_at": "2026-07-16T23:10:33.982053+00:00",
+        "post_pids": [],
+        "spawn_completed_at": "2026-07-16T23:10:39.665825+00:00",
+        "spawn_pid": 10979
+      },
+      "arch": "arm64",
+      "pointer_size": 8,
+      "pid": 10979,
+      "fault_status": "normal",
+      "domain_ptr": "0x1",
+      "started_at": "2026-07-16T23:10:33.456523+00:00",
+      "finished_at": "2026-07-16T23:11:06.110241+00:00",
+      "frida_version": "17.15.5",
+      "gadget_path": "C:\\Users\\123\\AppData\\Local\\Temp\\frida\\frida-gadget-17.15.5-android-arm64.so",
+      "locked_library": {
+        "name": "libil2cpp.so",
+        "path": "/data/user/0/dev.wildriftresearch.logicharness/files/dso/libil2cpp.so",
+        "sha256": "6e8e7002169bc658fbe64be4c6e216e22c4bf719a620940e77890b9e57211dc6"
+      },
+      "metadata": {
+        "header_hex": "464d4e211f00000049db9dcc2b3d9dcf",
+        "identity": {
+          "dev": "65099",
+          "ino": "1692515",
+          "size": 58401572
+        },
+        "path": "/data/user/0/dev.wildriftresearch.logicharness/files/meta/Metadata/global-metadata.dat",
+        "sha256": "5bd0f8b0efb4ebbbbe148300dc17166f9335a9e2d5ff20de42edb22267fde45d",
+        "size": 58401572,
+        "window": {
+          "hex": "607bf400047b0d0064f60101b882d9001c79db0104260300209fde010801330028a0110288003900b0a04a0228ed0200d88d4d029cb14500743f93025c935800",
+          "length": 64,
+          "offset": 40
+        }
+      },
+      "event_counts": {
+        "A3_FMN_BOUND": 2,
+        "A3_FMN_COPY": 870,
+        "A3_FMN_FD_ALIAS": 1,
+        "A3_FMN_OPEN": 2,
+        "A3_FMN_READ": 1,
+        "A3_MEMORY_HIT": 2,
+        "A3_MEMORY_SWEEP": 1,
+        "A3_METADATA_MMAP": 2,
+        "A3_WATCH_ARMED": 1
+      },
+      "fd_aliases": [
+        {
+          "api": "dup",
+          "origin_api": "open",
+          "origin_fd": 146,
+          "source_fd": 146,
+          "target_fd": 580
+        }
+      ],
+      "fd_rebounds": [],
+      "data_plane": [
+        {
+          "api": "read",
+          "binding_source": "open",
+          "caller_module": "libjavacore.so",
+          "caller_rva": "0x2e4b8",
+          "event": "A3_FMN_READ",
+          "binding_route": {
+            "fd": 161,
+            "type": "open"
+          },
+          "qualifying": false,
+          "qualification": "non_qualifying_helper_side_read",
+          "byte_count": 16,
+          "count": 1,
+          "fd": 161,
+          "identity": {
+            "dev": "65099",
+            "ino": "1692515",
+            "size": 58401572
+          },
+          "locked_prefix_matches": false,
+          "metadata_sha256": "5bd0f8b0efb4ebbbbe148300dc17166f9335a9e2d5ff20de42edb22267fde45d",
+          "path": "/data/user/0/dev.wildriftresearch.logicharness/files/meta/Metadata/global-metadata.dat",
+          "prefix_256_hex": "464d4e211f00000049db9dcc2b3d9dcf",
+          "prefix_256_sha256": "73b719ea86f29ad525572289ba91289a636a49906e3d5824e31b69f867b90bd0",
+          "thread_id": 10979,
+          "offset": null
+        },
+        {
+          "api": "mmap",
+          "binding_source": "alias",
+          "caller_module": "libil2cpp.so",
+          "caller_rva": "0x400159c",
+          "event": "A3_METADATA_MMAP",
+          "binding_route": {
+            "api": "dup",
+            "origin_api": "open",
+            "origin_fd": 146,
+            "source_fd": 146,
+            "target_fd": 580,
+            "type": "alias"
+          },
+          "qualifying": true,
+          "qualification": "candidate_data_plane",
+          "byte_count": null,
+          "count": 2,
+          "fd": 580,
+          "identity": {
+            "dev": "65099",
+            "ino": "1692515",
+            "size": 58401572
+          },
+          "locked_prefix_matches": true,
+          "metadata_sha256": "5bd0f8b0efb4ebbbbe148300dc17166f9335a9e2d5ff20de42edb22267fde45d",
+          "path": "/data/user/0/dev.wildriftresearch.logicharness/files/meta/Metadata/global-metadata.dat",
+          "prefix_256_hex": "464d4e211f00000049db9dcc2b3d9dcfc19dd4004a50a3fc05bb7928480a339205eff279e9b96326607bf400047b0d0064f60101b882d9001c79db0104260300209fde010801330028a0110288003900b0a04a0228ed0200d88d4d029cb14500743f93025c935800d0d2eb0270b300004086ec027c0e0000bc94ec02608a00001c1fed02d4c40000f0e3ed0288cc010078b0ef02a4ed23001c9e1303b02b0700ccc91a03b05041007c1a5c03c00d00003c285c03001600003c3e5c03102900004c675c0370070000bc6e5c0300061300bc746f0398d40900544979039c0b0100f0547a0390aa000080ff7a030000000080ff7a030000000080ff7a03a4230000",
+          "prefix_256_sha256": "f367d2c6ba9be9a2aa1151443ea5260c2e70980b9195a028f7cf6ac6e1ce41d3",
+          "thread_id": 11227,
+          "observed_apis": [
+            "mmap",
+            "mmap64"
+          ],
+          "base": "0x6f67c32000",
+          "flags": 2,
+          "length": 58404864,
+          "offset": "0x0",
+          "protection": 3
+        }
+      ]
+    }
+  ],
+  "next_action": "Stop A4C1 after synchronizing this generated evidence and review. Any FILE I/O, raw syscall, or page-access observation requires a separate plan."
+}

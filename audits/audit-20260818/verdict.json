@@ -1,0 +1,32 @@
+{
+  "verdict": "FAIL",
+  "checks": 20,
+  "passed": 18,
+  "failed": 2,
+  "discrepancies": [
+    {
+      "id": "D1",
+      "severity": "high",
+      "type": "claim-not-reproducible / coordinate-error",
+      "summary": "U2 pin static RVA is wrong. review/evidence/README/SESSION_HANDOFF/ROADMAP/research-INDEX/PATH_MAP all claim complete string at 0x565d9a0 and substring 'luaL_loadbuffer %d--%s' at 0x565d9b2, asserting 'runtime RVA 0x565d9b2 == static'. Independent static check of work/u16-semantics-20260812/QemuSim/xbin/libFEProj.so (SHA 5e608f2d..., ELF PT_LOAD#1 identity-mapped, file offset==VA) shows the XOR-0x30 decoded complete string 'LuaEnv::DoCommand luaL_loadbuffer %d--%s' is at file offset 0x56bd9a0 and the substring at 0x56bd9b2 (off by 0x60000). At the claimed 0x565d9a0/0x565d9b2 the XOR-decoded content is 'System.currentPatterns.ActorComponentMovement.isMoveInput...' not luaL_loadbuffer. The '== static' claim does not hold; correct static location is 0x56bd9b2."
+    },
+    {
+      "id": "D2",
+      "severity": "medium",
+      "type": "missing-artifact",
+      "summary": "fault.txt is missing in 4 of 6 accepted run dirs (g1spont 20260818T155849.621386Z-g1spont-12332f and 20260818T160032.050790Z-g1spont-8b1e1c; critrng 20260818T163133.904601Z-critrng-53c326 and 20260818T163335.422229Z-critrng-22323d). Only the 2 g2cons runs contain fault.txt. Contradicts the claim that every run dir contains fault.txt."
+    },
+    {
+      "id": "W1",
+      "severity": "low",
+      "type": "missing-field",
+      "summary": "g1spont and critrng attempt.json lack an explicit 'exception' field (task expected 'exception null'). Only g2cons attempts carry 'exception': null. Equivalent to null given fault.status=normal and survival.alive=true, but the field is absent."
+    },
+    {
+      "id": "W2",
+      "severity": "low-medium",
+      "type": "evidence-not-traceable",
+      "summary": "g2-consumer-evidence.json claims g2probe-11e666 has a_static_hits:3, a_probe_hits:0, a_alt_hits:0, and closure_caller_bt, but the run's raw artifacts (events.jsonl/hooks-last-50.jsonl/rpc-results.jsonl/attempt.json) contain no such hit counts or backtrace - only probeanchor 'all attached' status and fetest_touch.observed=false. The anchor-hit claim is not reproducible from the raw run directory."
+    }
+  ]
+}

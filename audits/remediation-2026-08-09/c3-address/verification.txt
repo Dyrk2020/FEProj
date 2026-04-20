@@ -1,0 +1,40 @@
+Batch 3A correctness remediation verification
+Date: 2026-08-09
+
+Scope and allowed changes
+- Modified only tools/feproj_static/build_catalog.py, tools/feproj_static/tests/test_catalog_3a.py,
+  and this verification file. No commit created.
+- tools/feproj_static/feproj.py, schema, historical outputs, and other agent files were not modified.
+
+Correctness fixes
+- main() now appends every BL/B edge to edges.json, including island→island; island out remains a catalog view, not the sole edge store.
+- Every generated edge has explicit kind and edge_kind (BL/B), si/di, source/target layer, view, and frame fields.
+- Catalog output uses byte_size plus branch_count/insn_count with insns_is_total=false; these are not total byte or instruction counts.
+- strings.jsonl rows declare view=raw_elf and scan_semantics=printable_ascii_run.
+- XOR output is documented as a bytewise XOR-0x30 transformed view, not decrypted plaintext; manifest key is xor_transformed_text.
+- Fixed anchor remains execution=0x15a853c (0x15A853C).
+
+Synthetic tests
+Command:
+  python3 -m unittest discover -s tools/feproj_static/tests -p 'test_*3a.py' -v
+Result: PASS, 6 tests.
+Covered: normal→normal, normal→island, island→normal, island→island; both BL/B kinds;
+si/di, layer/view/frame retention; catalog byte-size vs instruction semantics; coordinate and fixed-anchor tests.
+
+No large catalog artifacts were rerun.
+
+Runtime inputs not closed
+1. No new runtime dump was supplied for general island relocation/permutation. The audited
+   +0x10000 relation is retained only as the fixed 0x158853c anchor and is not generalized.
+2. Runtime image base / load bias for a real Android process is not available in this static
+   run; runtime_va fields therefore remain explicit but unset unless backed by an input dump.
+3. The custom-loader write-shift mechanism and complete runtime island table remain unresolved.
+4. No runtime evidence closes AES-decoded or head-cipher provenance for the address graph;
+   those views are represented distinctly, not merged with raw ELF or XOR-0x30.
+5. Indirect targets without a resolved table/dispatch input remain indirect/unknown; no
+   symbol/runtime-function join was fabricated.
+
+Assumption
+- Existing historical catalog semantics provide the 771 legacy and 1324 enhanced counts;
+  Batch 3A adds normalization helpers and synthetic validation without rerunning the large
+  catalog generator.

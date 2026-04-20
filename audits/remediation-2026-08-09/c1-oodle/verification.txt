@@ -1,0 +1,42 @@
+Batch 1B verification — Oodle/ELF container
+Date: 2026-08-09
+Workspace: <research-workspace>
+
+Scope read before implementation:
+- <scratch-workspace>/.commandcode/plans/wild-rift-reverse-remediation.md (Batch 1B contract)
+- work/2026-08-09-remediation/batch-0/verification.txt
+- tools/research_schema/README.md
+- work/offline-oodle-extractor/app/src/main/java/dev/wildriftresearch/oodleextractor/MainActivity.java
+- work/offline-oodle-extractor/app/src/main/assets/oodle_compress_config.json
+- work/offline-oodle-extractor/build-artifacts/source-hashes.txt
+- work/offline-oodle-extractor/build-artifacts/output-validation.txt
+- reports/oodle-reconstruction-audit-7246064.md
+
+Implementation:
+- MainActivity now validates canonical input and output SHA-256 and sizes, records first little-endian u32, and rejects unknown/mismatched input identity.
+- Output validation is fail-closed and deletes output on any failure (including decompressor failure, identity failure, or malformed ELF).
+- ELF validation is structural, not ELF-magic-only: ELF64, little-endian, AArch64, ET_DYN, exact 56-byte program-header entries, bounded program-header/segment/PT_DYNAMIC/string-table ranges, required dynamic soname metadata, PT_LOAD VA-to-file mapping, and soname equal to the derived output filename.
+- Structured JSON results are written to the app-private output-validation.json after each library and on failures. CRC is explicitly {status: unsupported}; the config numeric field is not interpreted because the available evidence does not establish algorithm or coverage.
+- Added host_validator.py with independent SHA/size/first-u32/ELF checks and synthetic truncated/wrong-endian negative tests.
+
+Commands and results:
+1. cd <research-workspace>/work/offline-oodle-extractor && python3 -m py_compile host_validator.py && python3 host_validator.py
+   Result: PASS. Synthetic truncated/header-negative tests rejected; all five canonical decompressed ELF outputs passed input SHA-256, declared-output-size, output SHA-256, and structural ELF validation; CRC status remains unsupported (no algorithm/coverage evidence; no guess).
+2. cd <research-workspace>/work/offline-oodle-extractor && ./gradlew :app:assembleDebug
+   Result: NOT RUN: ./gradlew does not exist in this checkout (exit 127).
+3. cd <research-workspace>/work/offline-oodle-extractor && gradle :app:assembleDebug
+   Result: FAIL before project compilation: installed Gradle 4.x does not support dependencyResolutionManagement in settings.gradle; Android build could not run. No source/build conclusion is claimed.
+4. cd <research-workspace> && git status --short -- work/offline-oodle-extractor app/src/main/java work/2026-08-09-remediation/c1-oodle
+   Result: no output; repository root is not usable as a Git worktree in this environment. Scope was checked by direct file inspection/find rather than Git.
+
+Changed files (permitted scope only):
+- work/offline-oodle-extractor/app/src/main/java/dev/wildriftresearch/oodleextractor/MainActivity.java
+- work/offline-oodle-extractor/host_validator.py
+- work/2026-08-09-remediation/c1-oodle/verification.txt
+
+Evidence boundaries / unresolved items:
+- Historical report establishes canonical output hashes, sizes, ELF64/little-endian/AArch64/DSO and soname observations, but this implementation does not treat the report as a runtime substitute.
+- The available config CRC values are not decoded. CRC verification remains unsupported, explicitly and fail-closed; no guessed algorithm is used.
+- The host validator negative suite covers truncated/header and wrong-endian ELF cases. Canonical diagnostic outputs in this checkout are named *_cp.so rather than decompressed output names, so the host run did not claim five canonical output PASS records from that directory.
+- Android/NDK/device execution was not available. The Gradle failure is an environment/toolchain limitation, not a passing Android build.
+- No commit was created. artifacts/**, corpus/**, original assets/_cp.so, historical reports, and unrelated proxy files were not modified.

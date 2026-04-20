@@ -1,0 +1,34 @@
+Batch 2A / C2 Lua verification
+Date: 2026-08-09
+
+Allowed changes only:
+- work/ai-cfg-recovery-2026-08-04/lua_res_parse.py
+- tools/feproj_static/lua53.py
+- tools/feproj_static/tests/test_lua_parsers.py
+- this verification file
+
+Commands and results:
+1. cd <research-workspace> && python3 -m pytest -q tools/feproj_static/tests/test_lua_parsers.py
+   PASS: 6 passed in 0.05s
+2. Basic sample check (read-only): TestMain.res and QuickTest.res through modified parser
+   PASS: both consumed == size (698/698 and 335/335). The full Basic 22 corpus and PAD twin corpus were unavailable in this workspace; tests are conditional when absent.
+
+Implemented:
+- Modified format=1 parser now validates the top-level line/source shift, source marker and all reads with offset/field errors.
+- Strict EOF: non-zero trailing bytes rejected; length/count/depth budgets enforced.
+- Modified strings use the reconstructed XOR encoding, preserve source/constant raw bytes, and support 0xff long lengths.
+- Modified code words remain raw; no vanilla opcode/operand decode is applied.
+- Nested source strings and proto traversal retain source bytes; line/debug/code sections are bounded.
+- Vanilla parser now accepts format=0 only and explicitly rejects format=1; LUAC_NUM is exact.
+- Vanilla string/proto/code/debug reads have strict bounds, counts, recursion, and EOF checks.
+- Disassembly guards out-of-range LOADK rather than raising IndexError.
+
+Changed files:
+- work/ai-cfg-recovery-2026-08-04/lua_res_parse.py
+- tools/feproj_static/lua53.py
+- tools/feproj_static/tests/test_lua_parsers.py
+- work/2026-08-09-remediation/c2-lua/verification.txt
+
+Unresolved / unavailable:
+- Only two Basic samples (QuickTest and TestMain) were present; the requested real Basic 22 and PAD twin sets were not available under the workspace paths.
+- No commit was created.

@@ -1,0 +1,28 @@
+{
+  "date": "2026-08-09",
+  "scope": "Batch 5 pre-integration audit; no historical output superseded",
+  "evidence_levels": {
+    "pure_local": "S/H host test evidence",
+    "derived": "E generated reports",
+    "dynamic": "H helper capture; official_package_attached=false"
+  },
+  "gates": {
+    "C0": {"status": "PASS", "basis": "manifest tests 28 passed; hash anchors all_ok=true; identity/hash fields retained", "boundary": "current manifest is not a fresh reconstruction of unavailable historical inputs"},
+    "C1": {"status": "PARTIAL", "basis": "Oodle host validator canonical five PASS plus negative tests; ELF structural checks pass", "boundary": "CRC unsupported; Android build/device unavailable"},
+    "C2": {"status": "PASS", "basis": "52 core tests, 78 parser/crypto/host/dynamic tests, FFBA standalone all assertions passed", "boundary": "Basic 22/PAD twin corpus unavailable; semantic completeness is not implied"},
+    "C3": {"status": "PARTIAL", "basis": "artifact verifier reports hashes, external paths and historical_unavailable; provenance tests pass", "boundary": "2 recorded hash mismatches and multiple historical_unavailable records remain"},
+    "C4": {"status": "NOT_ESTABLISHED", "basis": "A4C1 H1 fd-alias evidence only; no named resource to Lua loader proof", "boundary": "A4C1 is H helper evidence; proof_scope pre_truncation_prefix; official_package_attached=false"},
+    "C5": {"status": "NOT_ESTABLISHED", "basis": "B2 stops at B2_MODULE_LOAD_BEGIN", "boundary": "no metadata parser transform established"},
+    "C6": {"status": "NOT_ESTABLISHED", "basis": "static/address normalization and A4C1 do not establish registration consumer ABI", "boundary": "no full native registration proof"},
+    "C7": {"status": "NOT_ESTABLISHED", "basis": "no evidence closes input-to-handler-to-local-result for official client", "boundary": "helper/mock/static evidence cannot establish official behavior"},
+    "C8": {"status": "NOT_ESTABLISHED", "basis": "no wire/server evidence", "boundary": "static crypto or endpoint observations are not online protocol proof"}
+  },
+  "required_assertions": {
+    "fixed_158853c_execution": "0x15a853c",
+    "oodle_declared_size_source": "input first little-endian u32",
+    "oodle_hash_identity": "input hash and output hash are independently checked",
+    "a4c1_index": "raw ordered event index",
+    "artifact_verifier": ["hash mismatch", "nested external paths", "historical_unavailable"]
+  },
+  "device_tests": {"status": "PREREQUISITE_MISSING", "detail": "adb/device wait timed out; not a code failure"}
+}

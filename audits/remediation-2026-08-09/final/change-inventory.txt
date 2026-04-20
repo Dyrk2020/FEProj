@@ -1,0 +1,34 @@
+Batch 5 change inventory
+Date: 2026-08-09
+
+Files created/modified by this audit (permitted paths only):
+- work/2026-08-09-remediation/final/test-report.txt — exact command results, local/device separation, limitations.
+- work/2026-08-09-remediation/final/gate-matrix.json — C0–C8 machine-readable statuses and evidence boundaries.
+- work/2026-08-09-remediation/final/change-inventory.txt — this inventory.
+- work/2026-08-09-remediation/final/verification.txt — final verification and unresolved items.
+- work/2026-08-09-remediation/final/schema-compatibility.json — compatibility adapter report.
+- tools/research_schema/compatibility_check.py — necessary additive adapter; projects explicit coordinate bundle kind/value without weakening Batch 0 schema.
+
+Observed side effect from requested validator execution:
+- work/aggressive-logic-bridge-2026-07-13/input-manifest.json was written by hash_anchors.py as its normal validator output. This is outside the explicitly permitted new-code/evidence paths and was not modified by this audit after detection. It should be reviewed/rolled back by the caller if it was not pre-existing.
+
+No files were intentionally modified in:
+- research/INDEX.md
+- README.md, PATH_MAP.md
+- reports/**
+- artifacts/**, corpus/**
+- work/native-container-audit/decompressed-arm64/**
+- other agent source/evidence trees, except the required compatibility adapter addition above.
+
+Compatibility finding
+- Batch 0 schema requires coordinate.kind/value; Batch 3 address helper emits a bundle of file_offset/static_va/runtime_va/rva. The schema was not weakened. compatibility_check.py performs explicit named-kind projection and validates each projection; no coordinate meaning is inferred.
+
+Hard-error audit
+- fixed_158853c execution = 0x15a853c.
+- Oodle declared output size comes from input first u32 LE; compressed input file size is not used as output-size comparison.
+- A4C1 proof_sequence.index is raw ordered event index.
+- Artifact verifier exposes mismatches, nested external paths and historical_unavailable.
+
+Rollback point
+- Remove only the new final files and tools/research_schema/compatibility_check.py (and, if desired, the validator-generated out-of-scope input-manifest.json); do not delete or overwrite historical/raw evidence.
+- No commit created.

@@ -1,0 +1,89 @@
+{
+  "adapter": "explicit-kind projection; source bundles unchanged",
+  "cases": {
+    "bundle_shape": {
+      "bundle": {
+        "file_offset": 256,
+        "frame": "execution",
+        "image_base": 0,
+        "runtime_va": 768,
+        "rva": 1024,
+        "static_va": 512,
+        "view": "runtime_remapped"
+      },
+      "projections": {
+        "file_offset": {
+          "image_base": 0,
+          "kind": "file_offset",
+          "value": 256,
+          "view": "runtime_remapped"
+        },
+        "runtime_va": {
+          "image_base": 0,
+          "kind": "runtime_va",
+          "value": 768,
+          "view": "runtime_remapped"
+        },
+        "rva": {
+          "image_base": 0,
+          "kind": "rva",
+          "value": 1024,
+          "view": "runtime_remapped"
+        },
+        "static_va": {
+          "image_base": 0,
+          "kind": "static_va",
+          "value": 512,
+          "view": "runtime_remapped"
+        }
+      }
+    },
+    "fixed_anchor": {
+      "bundle": {
+        "file_offset": 22578492,
+        "frame": "execution",
+        "image_base": 0,
+        "runtime_va": 22709564,
+        "rva": 22578492,
+        "static_va": 22578492,
+        "view": "runtime_remapped"
+      },
+      "projections": {
+        "file_offset": {
+          "image_base": 0,
+          "kind": "file_offset",
+          "value": 22578492,
+          "view": "runtime_remapped"
+        },
+        "runtime_va": {
+          "image_base": 0,
+          "kind": "runtime_va",
+          "value": 22709564,
+          "view": "runtime_remapped"
+        },
+        "rva": {
+          "image_base": 0,
+          "kind": "rva",
+          "value": 22578492,
+          "view": "runtime_remapped"
+        },
+        "static_va": {
+          "image_base": 0,
+          "kind": "static_va",
+          "value": 22578492,
+          "view": "runtime_remapped"
+        }
+      }
+    }
+  },
+  "incompatibilities": [
+    {
+      "output_shape": "coordinate bundle {file_offset, static_va, runtime_va, rva, ...}",
+      "resolution": "select one named kind per record; do not weaken schema or infer a kind",
+      "schema_shape": "coordinate {kind, value, view, image_base}"
+    }
+  ],
+  "schema_preserved": true,
+  "schema_version": "1.0.0",
+  "status": "PASS"
+}

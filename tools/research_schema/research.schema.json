@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://wild-rift-research.local/schema/research.schema.json",
+  "title": "Wild Rift research evidence contract",
+  "description": "Shared, fail-closed contract for provenance, parser verdicts, address records, and dynamic proof.",
+  "oneOf": [
+    { "$ref": "#/$defs/artifactProvenance" },
+    { "$ref": "#/$defs/parserVerdict" },
+    { "$ref": "#/$defs/addressRecord" },
+    { "$ref": "#/$defs/dynamicProof" }
+  ],
+  "$defs": {
+    "schemaVersion": { "type": "string", "const": "1.0.0" },
+    "evidenceLevel": { "type": "string", "enum": ["OBSERVED", "DERIVED", "INFERENCE", "NOT_ESTABLISHED", "SUPERSEDED"] },
+    "environmentLevel": { "type": "string", "enum": ["S", "E", "H", "R"] },
+    "sha256": { "type": "string", "pattern": "^[0-9a-fA-F]{64}$" },
+    "environment": {
+      "type": "object",
+      "description": "Reproduction context; do not use an inferred command as an exact command.",
+      "required": ["level", "platform", "toolchain"],
+      "properties": {
+        "level": { "$ref": "#/$defs/environmentLevel" },
+        "platform": { "type": "string", "minLength": 1 },
+        "toolchain": { "type": "string", "minLength": 1 },
+        "package": { "type": "string" },
+        "abi": { "type": "string" },
+        "official_package_attached": { "type": "boolean" }
+      },
+      "additionalProperties": true
+    },
+    "common": {
+      "type": "object",
+      "required": ["schema_version", "evidence_level"],
+      "properties": {
+        "schema_version": { "$ref": "#/$defs/schemaVersion" },
+        "evidence_level": { "$ref": "#/$defs/evidenceLevel" }
+      }
+    },
+    "artifactProvenance": {
+      "allOf": [
+        { "$ref": "#/$defs/common" },
+        {
+          "type": "object",
+          "required": ["record_type", "artifact_id", "kind", "relative_path", "size", "sha256", "exact_command", "environment", "status"],
+          "properties": {
+            "record_type": { "const": "artifact_provenance" },
+            "artifact_id": { "type": "string", "minLength": 1 },
+            "kind": { "type": "string", "minLength": 1 },
+            "relative_path": { "type": "string", "pattern": "^(?!/)(?!.*(^|/)\\.\\.(?:/|$)).+" },
+            "size": { "type": ["integer", "null"], "minimum": 0 },
+            "sha256": { "anyOf": [ { "$ref": "#/$defs/sha256" }, { "type": "null" } ] },
+            "lineage": {
+              "type": "object",
+              "properties": { "inputs": { "type": "array", "items": { "type": "string" } }, "outputs": { "type": "array", "items": { "type": "string" } }, "supersedes": { "type": ["string", "null"] } },
+              "additionalProperties": true
+            },
+            "tool_revision": { "type": "string" },
+            "exact_command": { "type": "string", "minLength": 1 },
+            "environment": { "$ref": "#/$defs/environment" },
+            "status": { "type": "string", "enum": ["available", "historical_unavailable", "missing", "verified", "superseded"] },
+            "notes": { "type": "string" }
+          }
+        }
+      ]
+    },
+    "parserVerdict": {
+      "allOf": [
+        { "$ref": "#/$defs/common" },
+        {
+          "type": "object",
+          "required": ["record_type", "artifact_id", "envelope_ok", "header_ok", "candidate_start", "record_prefix_ok", "unknown_type_stop", "tail_ok", "semantic_schema_ok", "exact_eof", "byte_accounting", "residual", "heuristic_boundary"],
+          "properties": {
+            "record_type": { "const": "parser_verdict" }, "artifact_id": { "type": "string", "minLength": 1 },
+            "envelope_ok": { "type": "boolean" }, "header_ok": { "type": "boolean" }, "candidate_start": { "type": ["integer", "null"], "minimum": 0 }, "record_prefix_ok": { "type": "boolean" }, "unknown_type_stop": { "type": "boolean" }, "tail_ok": { "type": "boolean" }, "semantic_schema_ok": { "type": "boolean" }, "exact_eof": { "type": "boolean" },
+            "byte_accounting": { "type": "object", "required": ["input_size", "consumed", "remaining"], "properties": { "input_size": { "type": "integer", "minimum": 0 }, "consumed": { "type": "integer", "minimum": 0 }, "remaining": { "type": "integer", "minimum": 0 } }, "additionalProperties": true },
+            "residual": { "type": "integer", "minimum": 0 }, "heuristic_boundary": { "type": "boolean" }, "stop_reason": { "type": "string" }
+          }, "additionalProperties": true
+        }
+      ]
+    },
+    "coordinate": {
+      "type": "object", "required": ["view", "kind", "value"],
+      "properties": { "view": { "type": "string", "enum": ["raw_elf", "xor_0x30", "aes_decoded", "runtime_remapped", "head_cipher"] }, "kind": { "type": "string", "enum": ["file_offset", "static_va", "runtime_va", "rva"] }, "value": { "type": "integer", "minimum": 0 }, "image_base": { "type": ["integer", "null"], "minimum": 0 } },
+      "additionalProperties": true
+    },
+    "addressRecord": {
+      "allOf": [
+        { "$ref": "#/$defs/common" },
+        { "type": "object", "required": ["record_type", "artifact_id", "package_build", "abi", "binary_sha256", "source_path", "coordinate", "source_slot", "execution_slot", "caller", "callee", "prologue_boundary"], "properties": {
+          "record_type": { "const": "address_record" }, "artifact_id": { "type": "string", "minLength": 1 }, "package_build": { "type": "string", "minLength": 1 }, "abi": { "type": "string", "minLength": 1 }, "binary_sha256": { "$ref": "#/$defs/sha256" }, "sample_sha256": { "$ref": "#/$defs/sha256" }, "source_path": { "type": "string", "minLength": 1 }, "coordinate": { "$ref": "#/$defs/coordinate" }, "source_slot": { "type": ["integer", "null"], "minimum": 0 }, "execution_slot": { "type": ["integer", "null"], "minimum": 0 }, "caller": { "type": ["integer", "null"], "minimum": 0 }, "callee": { "type": ["integer", "null"], "minimum": 0 }, "prologue_boundary": { "type": "boolean" }, "notes": { "type": "string" }
+        }, "additionalProperties": true }
+      ]
+    },
+    "dynamicProof": {
+      "allOf": [
+        { "$ref": "#/$defs/common" },
+        { "type": "object", "required": ["record_type", "artifact_id", "run_id", "environment", "proof_scope", "proof_sequence", "truncated", "dropped_events", "qualifying_edges", "non_qualifying_edges", "official_package_attached"], "properties": {
+          "record_type": { "const": "dynamic_proof" }, "artifact_id": { "type": "string", "minLength": 1 }, "run_id": { "type": "string", "minLength": 1 }, "environment": { "$ref": "#/$defs/environment" }, "proof_scope": { "type": "string", "enum": ["complete_run", "pre_truncation_prefix", "contract_only", "diagnostic_only"] }, "proof_sequence": { "type": "array", "items": { "type": "object", "required": ["index", "event"], "properties": { "index": { "type": "integer", "minimum": 0 }, "event": { "type": "string", "minLength": 1 }, "offset": { "type": ["integer", "null"], "minimum": 0 } }, "additionalProperties": true } }, "truncated": { "type": "boolean" }, "truncation_boundary": { "type": ["integer", "null"], "minimum": 0 }, "dropped_events": { "type": "integer", "minimum": 0 }, "qualifying_edges": { "type": "array", "items": { "type": "string" } }, "non_qualifying_edges": { "type": "array", "items": { "type": "string" } }, "official_package_attached": { "type": "boolean" }, "notes": { "type": "string" }
+        }, "additionalProperties": true }
+      ]
+    }
+  }
+}

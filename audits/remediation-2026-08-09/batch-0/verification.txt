@@ -1,0 +1,38 @@
+Batch 0 verification
+Date: 2026-08-09
+
+Scope and inputs (read-only):
+- <scratch-workspace>/.commandcode/plans/wild-rift-reverse-remediation.md
+- <research-workspace>/README.md
+- <research-workspace>/PATH_MAP.md
+
+Commands and results:
+1. cd <research-workspace> && python3 -c "import jsonschema; print(jsonschema.__version__)"
+   Result: PASS; jsonschema 4.26.0 (Python emitted only its deprecation warning).
+2. cd <research-workspace> && python3 tools/research_schema/validate_examples.py
+   Result: PASS: 4 valid records; 3 invalid cases rejected.
+3. cd <research-workspace> && python3 -m json.tool tools/research_schema/research.schema.json >/dev/null
+   Result: PASS; schema is valid JSON.
+4. cd <research-workspace> && find tools/research_schema work/2026-08-09-remediation/batch-0 -type f -print | sort
+   Result: PASS; only the allowed directories contain new/modified Batch 0 files.
+
+Modified/added files:
+- tools/research_schema/research.schema.json
+- tools/research_schema/README.md
+- tools/research_schema/examples.json
+- tools/research_schema/validate_examples.py
+- work/2026-08-09-remediation/batch-0/smoke.log
+- work/2026-08-09-remediation/batch-0/verification.txt
+
+Coverage:
+- Evidence labels: OBSERVED, DERIVED, INFERENCE, NOT_ESTABLISHED, SUPERSEDED.
+- Environment levels: S, E, H, R.
+- Artifact provenance: schema_version, artifact_id, kind, relative_path, size, sha256, lineage, tool_revision, exact_command, environment, status.
+- Parser verdict: all requested verdict flags, byte_accounting, residual, heuristic_boundary.
+- Address record: package/build, ABI, binary/sample hash, source path, coordinate kind/view/image base, source/execution slots, caller/callee, prologue boundary.
+- Dynamic proof: run_id, proof_scope, proof_sequence, truncation_boundary, truncated, dropped_events, qualifying/non-qualifying edges, official_package_attached.
+
+Unresolved issues:
+- The repository root is not a Git worktree in this environment, so git status could not be used for a repository-wide diff. Scope was checked with find over the two permitted directories.
+- No external JSON Schema CLI was assumed; validation uses the locally installed Python jsonschema package.
+- The schema is intentionally a minimal shared contract; cross-record referential integrity (for example, artifact_id existence and lineage graph closure) remains a later integration concern.

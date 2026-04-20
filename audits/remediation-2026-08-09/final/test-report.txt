@@ -1,0 +1,52 @@
+Batch 5 pre-integration audit — test report
+Date: 2026-08-09
+Workspace: <research-workspace>
+
+Scope
+- Read-only inputs: remediation plan, Batch 0 schema/examples, Batch 0–4 verification files, versioned A4C1 and artifact-chain evidence, current validators/tests.
+- No historical reports, raw corpus, artifacts, README/PATH_MAP, or research/INDEX.md were intentionally edited.
+- Device tests were excluded from the pure-local suite as requested.
+
+Pure-local command results
+1. python3 -m compileall -q tools
+   PASS (exit 0; no output).
+2. python3 tools/research_schema/validate_examples.py
+   PASS: 4 valid records; 3 invalid cases rejected.
+   python3 -m json.tool tools/research_schema/research.schema.json >/dev/null
+   PASS (exit 0).
+3. python3 -m pytest tools/aggressive_logic_bridge/tests tools/resource_mod_feasibility/tests tools/feproj_static/tests -q
+    PASS: 52 passed in 0.16s.
+    Combined final core suite below: 130 passed.
+4. python3 -m pytest work/ai-cfg-recovery-2026-08-04/test_flow_parse_remediation.py work/ai-cfg-recovery-2026-08-04/test_piece_key_hash_unified.py work/2026-08-09-remediation/c2-crypto/test_c2_crypto.py work/aggressive-logic-bridge-2026-07-13/track-a/test_build_a4c1_evidence.py work/aggressive-logic-bridge-2026-07-13/track-a/test_a2_host_runner.py work/aggressive-logic-bridge-2026-07-13/track-b/test_b2_host_runner.py -q
+   PASS: 78 passed in 0.47s.
+5. python3 work/ai-cfg-recovery-2026-08-04/fffba_regression_test.py
+   PASS: all assertions passed (A1–A10, B1–B10, C1–C8).
+6. python3 work/offline-oodle-extractor/host_validator.py
+   PASS: synthetic truncated/header-negative tests rejected; five canonical host records PASS; CRC explicitly unsupported.
+   Important validation: input SHA-256 + input size + first little-endian u32 declared output size are checked; output ELF size/hash is checked against the decompressed output, not against compressed input size.
+7. python3 tools/verify_artifact_chain.py --check --output work/2026-08-09-remediation/c3-provenance/artifact-chain-report-final.json
+    EXPECTED PARTIAL: report generated and strict check returned exit 1 because 2 available-file hash mismatches remain. Nested external paths and historical_unavailable records are explicit; no fail-open suppression.
+8. python3 -m pytest work/ai-cfg-recovery-2026-08-04/tests/test_type_def_layout.py -q
+   NOT RUN: collected 0 tests, exit 5; this path contains no pytest test function usable by this command.
+9. python3 tools/crypto_validation/validate_crypto.py
+   PASS: exit 0, no output.
+10. python3 tools/aggressive_logic_bridge/hash_anchors.py
+    PASS: all_ok=true, bad=0; validator wrote its normal input-manifest output under work/aggressive-logic-bridge-2026-07-13/.
+
+Standalone / device separation
+- python3 -m pytest work/aggressive-logic-bridge-2026-07-13/track-a/test_stage_read.py work/aggressive-logic-bridge-2026-07-13/track-b/test_stage_battle_logic.py -q
+  NOT RUN / prerequisite failure: command timed out after 120 seconds while waiting for adb/device operations. This is a missing device prerequisite, not a code failure; it is excluded from pure-local status.
+- Android Gradle build was already recorded in Batch 1B as unavailable/failed due to missing wrapper and installed Gradle incompatibility; no Android build conclusion is claimed.
+
+Focused audit findings
+- Fixed anchor test passes: storage/static 0x158853c, source 0x157853c, runtime execution 0x15a853c, caller 0x3ec41e8. The execution value is explicitly 0x15a853c, not 0x158853c.
+- A4C1 evidence/review state: H helper evidence, proof_scope=pre_truncation_prefix, official_package_attached=false. proof_sequence.index is raw ordered-event index. Helper-side libjavacore read remains non-qualifying.
+- B2 remains only B2_MODULE_LOAD_BEGIN; no Lua loader/parser/registration upgrade.
+- Artifact verifier output includes hash_mismatches, nested external path findings, and historical_unavailable statuses.
+- C2 parser verdicts preserve unknown, residual, heuristic and exact-EOF boundaries; standalone FFFBA pytest collection failure is avoided by its supported standalone invocation.
+
+Limitations
+- The requested Basic 22/PAD twin corpus was unavailable; Batch 2A records only two available samples.
+- Final combined core test command: `python3 -m pytest tools/aggressive_logic_bridge/tests tools/resource_mod_feasibility/tests tools/feproj_static/tests work/ai-cfg-recovery-2026-08-04/test_flow_parse_remediation.py work/ai-cfg-recovery-2026-08-04/test_piece_key_hash_unified.py work/2026-08-09-remediation/c2-crypto/test_c2_crypto.py work/aggressive-logic-bridge-2026-07-13/track-a/test_build_a4c1_evidence.py work/aggressive-logic-bridge-2026-08-04/track-a/test_a2_host_runner.py work/aggressive-logic-bridge-2026-07-13/track-b/test_b2_host_runner.py -q` — 130 passed.
+- Oodle CRC remains unsupported because algorithm/coverage evidence is absent.
+- No device or official-package wire/server evidence was added.

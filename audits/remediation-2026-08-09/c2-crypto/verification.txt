@@ -1,0 +1,23 @@
+Batch 2C verification
+======================
+
+Command:
+  PYTHONPATH=work/ai-cfg-recovery-2026-08-04 pytest -q \
+    work/2026-08-09-remediation/c2-crypto/test_c2_crypto.py \
+    work/ai-cfg-recovery-2026-08-04/test_piece_key_hash_unified.py
+
+Result: 7 passed.
+
+Covered:
+- stock bzip2 known vector, block CRC corruption, truncation, trailer distinction;
+- strict index count/path/padding and PKCS#7 failures;
+- additive 4-byte alignment and unsupported variant rejection;
+- explicit piece flags 0x00/0x02/0x10/0x12/0x20 and piece size checks;
+- VFS codec-3 decrypt known vector.
+
+Boundary statements:
+- codec-3 decrypt is established; general encrypt/rebuild round-trip is NOT_ESTABLISHED.
+- additive validation does not call repeated application a general involution; non-4-byte tails are rejected.
+- Region B content transform, RSA digest/padding/signature scope, and TGCP-AES-to-VFS/NIFS generalization remain NOT_ESTABLISHED.
+
+No commit created.

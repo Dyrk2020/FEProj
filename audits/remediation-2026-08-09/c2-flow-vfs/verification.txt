@@ -1,0 +1,37 @@
+Batch 2B verification
+Date: 2026-08-09
+
+Scope: FFFBA / Flow / VFS parser remediation only. No commit created.
+
+Exact commands and results:
+1. cd <research-workspace> && python3 -m pytest work/ai-cfg-recovery-2026-08-04/test_flow_parse_remediation.py work/ai-cfg-recovery-2026-08-04/fffba_regression_test.py
+   Result: FAIL at collection because fffba_regression_test.py is standalone and calls sys.exit(0) during pytest collection; its assertions all printed passed.
+2. cd <research-workspace> && python3 -m pytest work/ai-cfg-recovery-2026-08-04/test_flow_parse_remediation.py && python3 work/ai-cfg-recovery-2026-08-04/fffba_regression_test.py
+   Result: PASS; pytest 11 passed; standalone regression all assertions passed.
+
+Changed files:
+- work/ai-cfg-recovery-2026-08-04/fffba_parse.py
+- work/ai-cfg-recovery-2026-08-04/flow_parse.py
+- work/ai-cfg-recovery-2026-08-04/vfs_parse.py
+- work/2026-08-09-remediation/c2-flow-vfs/verification.txt
+
+Implemented evidence boundary:
+- FFFBA now validates recognized prefix forms, records all aligned candidate stream starts, and separates terminal/unknown/truncated/eof stop flags while preserving fallback records.
+- Flow trailer unknown binary bytes are residual rather than table_bytes; sections are bounded by body stop; record outputs include absolute offset/end; inferred nodes carry quality and semantic flags.
+- VFS blocks() uses confirmed validated boundaries; raw magic hits remain forensic candidates; block_records() emits absolute offset/end.
+- Existing synthetic behavior and v0/v1 / unknown / binary-tail / payload-magic regression assertions remain passing.
+
+Batch 2B correctness follow-up (2026-08-09):
+- `VfsFile.__init__` now enforces A>=0x34, A<=B<=size, B+BLOCK_HEADER<=EOF, magic at B, and at least one payload byte.
+- `_valid_boundary` is iterative; long magic-hit chains cannot raise RecursionError.
+- `blocks()` raises structured `vfs[candidate-boundary]` / `vfs[no-block]` failures instead of consuming unconfirmed boundaries.
+- Raw `block_offsets()` / `_raw_magic_hits()` remains an unvalidated forensic API; raw scanning now finds collisions at every byte offset.
+- Added regression coverage for payload collisions, bad B magic, A/B geometry, candidate-only streams, and 1,500-hit chains.
+- `python3 work/ai-cfg-recovery-2026-08-04/fffba_regression_test.py`: PASS; all assertions passed.
+- `python3 -m pytest .../fffba_regression_test.py`: expected collection failure because this standalone file calls `sys.exit(0)` at module scope; its assertions pass when run standalone.
+
+Unresolved / limits:
+- Existing standalone regression file is not pytest-collectable because it exits at module scope; this was not changed because test-file modifications were not required to validate the requested parser behavior.
+- Prefix validation follows the documented known prefix families; unknown empirical prefix variants remain rejected.
+- Flow node segmentation remains explicitly heuristic/inferred, not a serializer proof.
+- No corpus-wide validation was run; results establish synthetic/regression behavior only.

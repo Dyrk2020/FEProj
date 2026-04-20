@@ -1,0 +1,13 @@
+Batch 3B verifier correctness remediation
+
+pytest: python -m pytest -q tests/test_verify_artifact_chain.py
+pytest_rc=0 (5 passed)
+
+smoke: python tools/verify_artifact_chain.py --root . --output work/2026-08-09-remediation/c3-provenance/artifact-chain-report-final.json
+smoke_rc=0
+
+Coverage added: available input/output SHA-256 match and mismatch reporting; historical_unavailable for absent/non-file references; external absolute paths under <scratch-workspace>/, /tmp/, and Windows C:/ through F:/ forms; nested required static JSON and JSONL content scanning.
+
+CLI: no repository documentation or plan required a --check option, so the existing report-generating CLI is retained. Verification findings are represented in JSON (including hash_mismatches); the CLI does not fail solely on historical_unavailable because those records are historical evidence, not a current verification error.
+
+No historical manifest, JSON, report, or schema was edited. No commit created.
